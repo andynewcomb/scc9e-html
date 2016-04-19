@@ -34,6 +34,8 @@ var suppwins_Player_subtype = Player_subtype.extend({
         // Do not delete this
         this._super();
 
+        // new code will be here
+
  
 
     } // end initialize2

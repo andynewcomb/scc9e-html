@@ -197,7 +197,6 @@
     <Content Include="packages.config" />
     <Content Include="ebook\asset\ch12.zip" />
     <Content Include="ebook\create_page_number_map.pl" />
-    <Content Include="ebook\css\scc9e.css~" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
