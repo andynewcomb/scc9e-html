@@ -35,6 +35,7 @@ var suppwins_Player_subtype = Player_subtype.extend({
         this._super();
 
         // new code will be here
+        // new code dang it!!!
 
  
 
