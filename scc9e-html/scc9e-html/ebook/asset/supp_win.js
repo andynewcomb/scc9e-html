@@ -33,26 +33,34 @@ var suppwins_Player_subtype = Player_subtype.extend({
 
          //unbind all references to supplemental windows.
          //Will need to put in new URLs anyways, so removing now so we can start from scratch
-        $('span[data_href^="figure_"], [data_href^="exercise_"],[data_href^="example_"],[data_href^="table_"]').unbind(); //intext references
-        $('[data-block_type="h1"] [data-block_type="EXP-T"]').unbind(); //example titles
-        $('[data-block_type="TABLE"] [data-type="table_caption"]').unbind(); //table captions
-        $('[data-type="question"] [data-block_type="BX2-QUE-N-ri"]').unbind(); // Titles for "Now it's your turn" exercises
-        $('[data-type="question"] [data-block_type="CR-X-NL-N-ri"]').unbind(); // Titles for end of chapter exercises
-        $('[data-block_type="h1"] [data-caption-compass]  > img').unbind();
-        $('[data-block_type="h1"] [data-caption-compass]  > .compassImg img').unbind();
-        $('[data-block_type="h1"] [data-caption-compass] [data-block_type="FG-N-ri"]').unbind();
+    // in-text links
+    $('span[data_href^="figure_"], [data_href^="exercise_"],[data_href^="example_"],[data_href^="table_"]').unbind(); //intext references
+    // links in features
+    $('[data-block_type="h1"] [data-block_type="EXP-T"]').unbind(); //example titles
+    $('[data-block_type="TABLE"] [data-type="table_caption"]').unbind(); //table captions
+    $('[data-type="question"] [data-block_type="BX2-QUE-N-ri"]').unbind(); // Titles for "Now it's your turn" exercises
+    $('[data-type="question"] [data-block_type="CR-X-NL-N-ri"]').unbind(); // Titles for end of chapter exercises
+    $('[data-block_type="h1"] [data-caption-compass]  > img').unbind();
+    $('[data-block_type="h1"] [data-caption-compass]  > .compassImg img').unbind();
+    $('[data-block_type="h1"] [data-caption-compass] [data-block_type="FG-N-ri"]').unbind();
 
 
     //     //don't want any cross-section/page/chapter linking in supplemental windows
-    //    $('a[href^="scc9e-ch"][href$=".xml"]').attr("href", "");
+    $('a[href^="scc9e-ch"][href$=".xml"]').attr("href", "");
     //     //jquery to remove page links
     //     //jquery to remove section links
 
+         // add relative paths for inline links
 
 
-    //// FIGURE SUPPLEMENTAL WINDOW CODE
-    //// if in figure supplemental window, remove all event handlers (maybe links in caption?)
-    //$('[data-type="section"] > [data-type="figure"] *').unbind();
+
+         // add click events for contents of supplemental windows, leaving the event that invoked
+         // the window disabled (see above unbind()s.
+
+
+
+
+    //// IF NOT FIGURE SUPPLEMENTAL WINDOW CODE, enable click events
 
     //// replace click event hander on figure references in the text
     //$('span[data_href^="figure_"]').unbind();
