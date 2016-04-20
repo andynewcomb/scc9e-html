@@ -134,8 +134,11 @@
     <Content Include="ebook\asset\global_images\statistics_icon.jpg" />
     <Content Include="ebook\asset\links.js" />
     <Content Include="ebook\asset\pics\print_page_menu_icon.png" />
+    <Content Include="ebook\asset\supp_win.css" />
     <Content Include="ebook\asset\supp_win.html" />
+    <Content Include="ebook\asset\supp_win.js" />
     <Content Include="ebook\asset\supp_wins.js" />
+    <Content Include="ebook\asset\terms.js" />
     <Content Include="ebook\asset\toc.html" />
     <Content Include="ebook\config.txt" />
     <Content Include="ebook\css\boilerplate.css" />
@@ -154,6 +157,7 @@
     <Content Include="ebook\css\jquery-ui-custom.css" />
     <Content Include="ebook\css\manuscript.css" />
     <Content Include="ebook\css\scc9e.css" />
+    <Content Include="ebook\css\scc9e.less" />
     <Content Include="ebook\js\bh_cleanup.js" />
     <Content Include="ebook\js\digfir_ebook_fw.js" />
     <Content Include="ebook\js\excanvas.compiled.js" />
