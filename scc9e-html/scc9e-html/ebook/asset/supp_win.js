@@ -50,7 +50,13 @@ var suppwins_Player_subtype = Player_subtype.extend({
     //     //jquery to remove page links
     //     //jquery to remove section links
 
-         // add relative paths for inline links
+    // add relative paths for inline links
+    $('span[data_href^="figure_"]').click(function() {
+        var filename = $(this).attr('data_href');
+        var ch = filename.replace(/figure_(\d+).*/i, "$1");
+        var supp_win = "../../../ch" + ch + "/supp_wins/figures/" + filename;
+        pop_content(supp_win, "1015px", "700px");
+    });
 
 
 
