@@ -121,6 +121,70 @@
     <Content Include="ebook\asset\ch12\supp_wins\figures\figure_12_8.html" />
     <Content Include="ebook\asset\ch12\supp_wins\figures\figure_12_9.html" />
     <Content Include="ebook\asset\ch12\supp_wins\tables\table_12_1.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\examples\example_1_1.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\examples\example_1_2.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\examples\example_1_3.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\examples\example_1_4.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\examples\example_1_5.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\examples\example_1_6.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\examples\example_1_7.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\examples\example_1_8.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_1.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_10.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_11.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_12.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_13.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_14.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_15.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_16.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_17.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_18.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_19.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_2.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_20.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_21.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_22.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_23.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_3.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_4.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_5.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_6.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_7.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_8.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_9.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\figures\figure_1_1.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\examples\example_2_1.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\examples\example_2_2.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\examples\example_2_3.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\examples\example_2_4.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\examples\example_2_5.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_1.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_10.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_11.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_12.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_13.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_14.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_15.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_16.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_17.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_18.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_2.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_20.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_21.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_22.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_23.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_24.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_25.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_26.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_3.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_4.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_5.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_6.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_7.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_8.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\exercise_2_9.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\exercises\MISSING_FILENAME.html" />
+    <Content Include="ebook\asset\ch2\supp_wins\figures\figure_2_1.html" />
     <Content Include="ebook\asset\css\chapbg.png" />
     <Content Include="ebook\asset\css\examplebg.png" />
     <Content Include="ebook\asset\css\nowbg.png" />
@@ -137,7 +201,10 @@
     <Content Include="ebook\asset\supp_win.css" />
     <Content Include="ebook\asset\supp_win.html" />
     <Content Include="ebook\asset\supp_win.js" />
-    <Content Include="ebook\asset\supp_wins.js" />
+    <Content Include="ebook\asset\supp_win.less" />
+    <Content Include="ebook\asset\supp_win.min.css">
+      <DependentUpon>supp_win.css</DependentUpon>
+    </Content>
     <Content Include="ebook\asset\terms.js" />
     <Content Include="ebook\asset\toc.html" />
     <Content Include="ebook\config.txt" />
@@ -202,7 +269,6 @@
     <Content Include="ebook\scc9e_ch2_6.html" />
     <Content Include="ebook\scc9e_ch2_7.html" />
     <Content Include="packages.config" />
-    <Content Include="ebook\asset\ch12.zip" />
     <Content Include="ebook\create_page_number_map.pl" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
@@ -220,6 +286,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ebook\asset\ch1\supp_wins\tables\" />
+    <Folder Include="ebook\asset\ch2\supp_wins\tables\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

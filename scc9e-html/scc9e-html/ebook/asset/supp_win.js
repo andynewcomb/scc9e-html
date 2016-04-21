@@ -20,47 +20,80 @@ var suppwins_Player_subtype = Player_subtype.extend({
          // Do not delete this
          this._super();
 
-    //All supplemental window javascript shall be done here
+         //All supplemental window javascript shall be done here
 
-    var pop_content = function (url, w, h) {
-        var path = window.location.pathname;
-        var newWin = window.open(url, '_blank', 'width=' + w + ',height=' + h + ',menubar=0,location=0,scrollbars=yes', '');
-        newWin.moveTo(150, 150);
-    };
+         var pop_content = function (url, w, h) {
+             var path = window.location.pathname;
+             var newWin = window.open(url, '_blank', 'width=' + w + ',height=' + h + ',menubar=0,location=0,scrollbars=yes', '');
+             newWin.moveTo(150, 150);
+         };
 
-    // remove page markers
-    $('[data-block_type="page_start"]').remove();
+         // remove page markers
+         // $('[data-block_type="page_start"]').remove();
 
          //unbind all references to supplemental windows.
          //Will need to put in new URLs anyways, so removing now so we can start from scratch
-        $('span[data_href^="figure_"], [data_href^="exercise_"],[data_href^="example_"],[data_href^="table_"]').unbind(); //intext references
-        $('[data-block_type="h1"] [data-block_type="EXP-T"]').unbind(); //example titles
-        $('[data-block_type="TABLE"] [data-type="table_caption"]').unbind(); //table captions
-        $('[data-type="question"] [data-block_type="BX2-QUE-N-ri"]').unbind(); // Titles for "Now it's your turn" exercises
-        $('[data-type="question"] [data-block_type="CR-X-NL-N-ri"]').unbind(); // Titles for end of chapter exercises
-        $('[data-block_type="h1"] [data-caption-compass]  > img').unbind();
-        $('[data-block_type="h1"] [data-caption-compass]  > .compassImg img').unbind();
-        $('[data-block_type="h1"] [data-caption-compass] [data-block_type="FG-N-ri"]').unbind();
+         // in-text links
+         $('span[data_href^="figure_"], [data_href^="exercise_"],[data_href^="example_"],[data_href^="table_"]').unbind(); //intext references
+         // links in features
+         $('[data-block_type="h1"] [data-block_type="EXP-T"]').unbind(); //example titles
+         $('[data-block_type="TABLE"] [data-type="table_caption"]').unbind(); //table captions
+         $('[data-type="question"] [data-block_type="BX2-QUE-N-ri"]').unbind(); // Titles for "Now it's your turn" exercises
+         $('[data-type="question"] [data-block_type="CR-X-NL-N-ri"]').unbind(); // Titles for end of chapter exercises
+         $('[data-block_type="h1"] [data-caption-compass]  > img').unbind();
+         $('[data-block_type="h1"] [data-caption-compass]  > .compassImg img').unbind();
+         $('[data-block_type="h1"] [data-caption-compass] [data-block_type="FG-N-ri"]').unbind();
 
 
-    //     //don't want any cross-section/page/chapter linking in supplemental windows
-    //    $('a[href^="scc9e-ch"][href$=".xml"]').attr("href", "");
-    //     //jquery to remove page links
-    //     //jquery to remove section links
+         //don't want any cross-section/page/chapter linking in supplemental windows
+         $('a[href^="scc9e-ch"][href$=".xml"]').attr("href", "");
+         //jquery to remove page links
+         //jquery to remove section links
+
+         // add relative paths for inline links
+         $('span[data_href^="figure_"]').click(function() {
+             var filename = $(this).attr('data_href');
+             var ch = filename.replace(/figure_(\d+).*/i, "$1");
+             var supp_win = "../../../ch" + ch + "/supp_wins/figures/" + filename;
+             pop_content(supp_win, "1015px", "700px");
+         });
+
+         // adjust all image paths
+         $('img[src^="images/"]').each(function () {
+             var path = $(this).attr('src');
+             path = path.replace(/images/, "../..");
+             $(this).attr('src', path);
+         });
 
 
 
-    //// FIGURE SUPPLEMENTAL WINDOW CODE
-    //// if in figure supplemental window, remove all event handlers (maybe links in caption?)
-    //$('[data-type="section"] > [data-type="figure"] *').unbind();
+         // add click events for contents of supplemental windows, leaving the event that invoked
+         // the window disabled (see above unbind()s.
 
-    //// replace click event hander on figure references in the text
-    //$('span[data_href^="figure_"]').unbind();
-    //$('span[data_href^="figure_"]').click(function () {
-    //    var filename = $(this).attr('data_href');
-    //    var supp_win = "../figures/" + filename;
-    //    pop_content(supp_win, "1015px", "700px");
-    //});
+
+
+
+    // IF NOT FIGURE SUPPLEMENTAL WINDOW CODE, enable click events
+    if ($('[data-type="section"] > [data-block_type="FIGURE"]').length == 0) {
+         // add link on the figure image
+        $('[data-caption-compass]  > .compassImg img').click(function () {
+            var fignum = $(this).attr('src').replace(/fig_([\d_]+)/i, "$1");
+            var supp_win = fignum.replace(/.*0?(\d+)_0?(\d+)\.jpg/, "../../../ch$1/supp_wins/figures/figure_$1_$2.html");
+            pop_content(supp_win, "1015px", "700px");
+        });
+        // add link on the figure image (sometimes img is not inside "compass"... occurs when caption in default place under figure)
+        $('[data-caption-compass]  > img').click(function () {
+            var fignum = $(this).attr('src').replace(/fig_([\d_]+)/i, "$1");
+            var supp_win = fignum.replace(/.*0?(\d+)_0?(\d+)\.jpg/, "../../../ch$1/supp_wins/figures/figure_$1_$2.html");
+            pop_content(supp_win, "1015px", "700px");
+        });
+        // add link on the figure number in caption
+        $('[data-caption-compass] [data-block_type="FG-N-ri"]').click(function () {
+            var fignum = $(this).text().replace(/FIGURE ([\d\.]+)/i, "$1");
+            var supp_win = fignum.replace(/(\d+)\.(\d+)/, "../../../ch$1/supp_wins/figures/figure_$1_$2.html");
+            pop_content(supp_win, "1015px", "700px");
+        });
+     }
 
     
     //// TABLE SUPPLEMENTAL WINDOW CODE
@@ -108,8 +141,9 @@ var suppwins_Player_subtype = Player_subtype.extend({
     //});
 
     
-    //// EXERCISE SUPPLEMENTAL WINDOW CODE
-    //$('[data-type="section"] > [data-type="question"]').unbind();
+    // EXERCISE SUPPLEMENTAL WINDOW CODE
+    // wrap in BX2 box for styling
+    $('[data-type="section"][data-block_type="h1"] > [data-type="question"]').wrap('<div data-type="box" data-block_type="BX2"></div>');
 
     ////var this_span = $('[data_href]');
     ////$('span[data_href^="figure_"]').click(function () {
