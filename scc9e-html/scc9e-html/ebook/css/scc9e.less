@@ -656,6 +656,36 @@ div[data-type="section"][data-block_type="CR-X-H"][data-type="question"] {
     }
 }
 
+/* check the basics */
+// for now, just copy all rules from CR-X-H-v1, below
+div[data-type="section"][data-block_type="CR-X-H"] {
+    [data-type="question"] {
+	    margin-bottom: 3em;
+	    margin-top: 2em;
+        h3 {
+	        display: none;
+        }
+        [src="asset/global_images/news.jpg"] {
+	        float: left;
+	        margin-right: 10px;
+	        width: @news-width;
+        }
+        [data-block_type="CR-X-NL-N-ri"] {
+	        color: @brick-red;
+	        font-family: "arial",sans-serif;
+	        font-weight: normal;
+	        &:hover {
+		        cursor: pointer;
+		        text-decoration: underline;
+	        }
+        }
+        ol[data-block_type="lower-alpha"] {
+	        list-style-type: none;
+	        margin-left: 0;
+        }
+    }
+}
+
 /* chapter review */
 div[data-type="section"][data-block_type="CR-X-H-v1"] {
     [data-type="question"] {

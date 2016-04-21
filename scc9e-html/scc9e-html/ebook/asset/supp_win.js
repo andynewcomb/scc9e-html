@@ -141,8 +141,9 @@ var suppwins_Player_subtype = Player_subtype.extend({
     //});
 
     
-    //// EXERCISE SUPPLEMENTAL WINDOW CODE
-    //$('[data-type="section"] > [data-type="question"]').unbind();
+    // EXERCISE SUPPLEMENTAL WINDOW CODE
+    // wrap in BX2 box for styling
+    $('[data-type="section"][data-block_type="h1"] > [data-type="question"]').wrap('<div data-type="box" data-block_type="BX2"></div>');
 
     ////var this_span = $('[data_href]');
     ////$('span[data_href^="figure_"]').click(function () {

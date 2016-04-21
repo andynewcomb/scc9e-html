@@ -613,6 +613,32 @@ div[data-type="section"][data-block_type="CR-X-H"][data-type="question"] ol[data
   list-style-type: none;
   margin-left: 0;
 }
+/* check the basics */
+div[data-type="section"][data-block_type="CR-X-H"] [data-type="question"] {
+  margin-bottom: 3em;
+  margin-top: 2em;
+}
+div[data-type="section"][data-block_type="CR-X-H"] [data-type="question"] h3 {
+  display: none;
+}
+div[data-type="section"][data-block_type="CR-X-H"] [data-type="question"] [src="asset/global_images/news.jpg"] {
+  float: left;
+  margin-right: 10px;
+  width: 73px;
+}
+div[data-type="section"][data-block_type="CR-X-H"] [data-type="question"] [data-block_type="CR-X-NL-N-ri"] {
+  color: #ef3b23;
+  font-family: "arial", sans-serif;
+  font-weight: normal;
+}
+div[data-type="section"][data-block_type="CR-X-H"] [data-type="question"] [data-block_type="CR-X-NL-N-ri"]:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+div[data-type="section"][data-block_type="CR-X-H"] [data-type="question"] ol[data-block_type="lower-alpha"] {
+  list-style-type: none;
+  margin-left: 0;
+}
 /* chapter review */
 div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] {
   margin-bottom: 3em;
