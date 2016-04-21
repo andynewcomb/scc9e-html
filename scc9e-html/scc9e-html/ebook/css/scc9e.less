@@ -87,7 +87,9 @@ th[align="right"] {
 	display: block;
 	font-family: sans-serif !important;
 	font-size: 15px !important;
-	left: auto !important;
+	//left: auto !important;
+    // why the above? data-margin-content not set, so no right
+	left: 10px;
 	margin: 0 !important;
 	padding: 4px !important;
 	position: absolute !important;
@@ -679,6 +681,19 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] {
         ol[data-block_type="lower-alpha"] {
 	        list-style-type: none;
 	        margin-left: 0;
+        }
+    }
+}
+
+/* numbered figures */
+[data-block_type="FIGURE"] {
+    [data-type="figure_text"] {
+        [data-type="number"] {
+            display: none;
+        }
+        [data-type="caption"] [data-block_type="FG-N-ri"]{
+            font-weight: bold;
+            cursor: pointer;
         }
     }
 }

@@ -201,6 +201,10 @@
     <Content Include="ebook\asset\supp_win.css" />
     <Content Include="ebook\asset\supp_win.html" />
     <Content Include="ebook\asset\supp_win.js" />
+    <Content Include="ebook\asset\supp_win.less" />
+    <Content Include="ebook\asset\supp_win.min.css">
+      <DependentUpon>supp_win.css</DependentUpon>
+    </Content>
     <Content Include="ebook\asset\terms.js" />
     <Content Include="ebook\asset\toc.html" />
     <Content Include="ebook\config.txt" />
@@ -221,6 +225,9 @@
     <Content Include="ebook\css\manuscript.css" />
     <Content Include="ebook\css\scc9e.css" />
     <Content Include="ebook\css\scc9e.less" />
+    <Content Include="ebook\css\scc9e.min.css">
+      <DependentUpon>scc9e.css</DependentUpon>
+    </Content>
     <Content Include="ebook\js\bh_cleanup.js" />
     <Content Include="ebook\js\digfir_ebook_fw.js" />
     <Content Include="ebook\js\excanvas.compiled.js" />
@@ -263,6 +270,10 @@
     <Content Include="ebook\scc9e_ch2_7.html" />
     <Content Include="packages.config" />
     <Content Include="ebook\create_page_number_map.pl" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

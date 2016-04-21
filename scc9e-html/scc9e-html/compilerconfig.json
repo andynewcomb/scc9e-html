@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "ebook/asset/supp_win.css",
+    "inputFile": "ebook/asset/supp_win.less"
+  },
+  {
+    "outputFile": "ebook/css/scc9e.css",
+    "inputFile": "ebook/css/scc9e.less"
+  }
+]
