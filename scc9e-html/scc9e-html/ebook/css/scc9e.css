@@ -73,16 +73,16 @@ th[align="right"] {
   display: block;
   font-family: sans-serif !important;
   font-size: 15px !important;
-  left: 10px;
+  left: auto !important;
   margin: 0 !important;
   padding: 4px !important;
   position: absolute !important;
   text-indent: 0 !important;
 }
-[data-block_type="page_start"] [data-margin-content="right"] {
+[data-block_type="page_start"][data-margin-content="right"] {
   right: 10px !important;
 }
-[data-block_type="page_start"] [data-margin-content="left"] {
+[data-block_type="page_start"][data-margin-content="left"] {
   right: 10px !important;
 }
 /* links */
@@ -147,7 +147,7 @@ div[data-type="section"][data-block_type="chapter"] {
 div[data-type="section"][data-block_type="chapter"] h2 {
   display: none;
 }
-div[data-type="section"][data-block_type="chapter"] [data-block_type="CN"]p {
+div[data-type="section"][data-block_type="chapter"] [data-block_type="CN"] p {
   color: white;
   font-family: "arial", sans-serif;
   font-size: 6em;
@@ -159,7 +159,7 @@ div[data-type="section"][data-block_type="chapter"] [data-block_type="CN"]p {
   position: absolute;
   text-shadow: 1px 0 #025bab, -1px 0 #025bab, 0 1px #025bab, 0 -1px #025bab;
 }
-div[data-type="section"][data-block_type="chapter"] [data-block_type="CT"]p {
+div[data-type="section"][data-block_type="chapter"] [data-block_type="CT"] p {
   background-image: url("../asset/css/chapbg.png");
   background-position: right top;
   background-repeat: repeat-y;

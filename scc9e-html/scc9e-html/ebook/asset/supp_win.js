@@ -59,7 +59,7 @@ var suppwins_Player_subtype = Player_subtype.extend({
          });
 
          // adjust all image paths
-         $('img[src^="images/"]').each(function () {
+         $('img[src^="asset/ch"]').each(function () {
              var path = $(this).attr('src');
              path = path.replace(/images/, "../..");
              $(this).attr('src', path);

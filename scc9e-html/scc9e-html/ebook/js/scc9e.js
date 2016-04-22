@@ -73,6 +73,8 @@ var Player_subtype = Player_manuscript_type.extend({
 
         //*****************DEVLIONS***********************
 
+	    var chapter_number = $('#manuscript').attr("data-chapter-number");
+
         //TABLES
             // Adjust table widths according to the percentage specified in the "data-attr" attribute
 	        $('div[data-type="table"]').each(function () {
@@ -80,38 +82,52 @@ var Player_subtype = Player_manuscript_type.extend({
 	            $(this).find('table').css('width', twidth);
 	        });
 
+        // adjust all image paths, including alt souce in parent
+	        $('img[src^="images/"]').each(function () {
+	            var path = $(this).attr('src');
+	            path = path.replace(/images/, "asset/ch" + chapter_number);
+	            $(this).attr('src', path).parent().attr('data-altsrc', path);
+	        });
+
+
 
 
         //NUMBERED FIGURES displaying on main page (note:only numbered figs have "data-caption-compass" attribute)
             // fig alignment (left/right) need saved (use a non digfir attribute, because we will be removing digfir attributes)
-	        $('[data-block_type="h1"] [data-caption-compass][data-layout-align]').each(function() {
+	        $('[data-caption-compass][data-layout-align]').each(function() {
 		        var alignment = $(this);
     		    alignment.attr({align : alignment.attr('data-layout-align')});
 	        });
 	        // get rid of digfir attributes (don't want the default styling/functionality in our way)
-        	$('[data-block_type="h1"] [data-caption-compass]').removeAttr( "data-layout-align" );
-	        $('[data-block_type="h1"] [data-caption-compass]').removeAttr( "data-layout-width" );
-	        $('[data-block_type="h1"] [data-caption-compass]').removeAttr( "style" );
-	        $('[data-block_type="h1"] [data-caption-compass]').removeAttr( "data-type" );
-	        $('[data-block_type="h1"] [data-caption-compass] > img').removeAttr( "data-layout-width" );		
+        	$('[data-caption-compass]').removeAttr( "data-layout-align" );
+	        $('[data-caption-compass]').removeAttr( "data-layout-width");
+	        $('[data-caption-compass]').removeAttr( "style" );
+	        $('[data-caption-compass]').removeAttr( "data-type" );
+	        $('[data-caption-compass] > img').removeAttr("data-layout-width")
+	        //$('[data-caption-compass] > img').css("cursor", "");
+	        $('[data-caption-compass] > img').css("height", "initial");
+	        $('[data-caption-compass] > img').css("width", "initial");
+	        //$('[data-caption-compass] > img').css("style", "");
 
-	        //change the size of the img by a percentage
-	        $('[data-block_type="h1"] [data-caption-compass]').each(function() {
-		        var scale = .20;
-		        image = $(this).find('img') //update... this will find caption images too. 
-		        var h = image.height() * scale;
+        //change the size of the img by a percentage
+        /*
+        $('[data-caption-compass]').each(function() {
+		        var scale = .90;
+		        image = $(this).find('img'); //update... this will find caption images too. 
 		        var w = image.width() * scale;
-		        image.css({ height: h, width: w });
+		        image.css({ width: w });
 	        });
+            */
+
 
 	        //if image needs caption "West" (to the left of table) flip caption and image so that caption comes first
 	        //and place extra div around img
-	        $('[data-block_type="h1"] [data-caption-compass*="W"]').each(function() {
+	        $('[data-caption-compass*="W"]').each(function() {
 		        caption = $(this).find('div[data-type="figure_text"]');
 		        $(this).prepend(caption);
 		        $(this).remove('img + div[data-type="figure_text"]');
 	        });
-	        $('[data-block_type="h1"] [data-caption-compass*="W"] > img').wrap("<div class='compassImg'></div>");
+	        $('[data-caption-compass*="W"] > img').wrap("<div class='compassImg'></div>");
 
 
 
@@ -216,19 +232,19 @@ var Player_subtype = Player_manuscript_type.extend({
 
             //NUMBERED FIGURE LINKS
 	            // add link on the figure image
-	                $('[data-block_type="h1"] [data-caption-compass]  > .compassImg img').click(function() {
+	                $('[data-caption-compass]  > .compassImg img').click(function() {
                         var fignum = $(this).attr('src').replace(/fig_([\d_]+)/i, "$1");
                         var supp_win = fignum.replace(/.*0?(\d+)_0?(\d+)\.jpg/, "asset/ch$1/supp_wins/figures/figure_$1_$2.html");
 	                    pop_content(supp_win, "1015px", "700px");
                     });
                 // add link on the figure image (sometimes img is not inside "compass"... occurs when caption in default place under figure)
-	                $('[data-block_type="h1"] [data-caption-compass]  > img').click(function() {
+	                $('[data-caption-compass]  > img').click(function() {
                         var fignum = $(this).attr('src').replace(/fig_([\d_]+)/i, "$1");
                         var supp_win = fignum.replace(/.*0?(\d+)_0?(\d+)\.jpg/, "asset/ch$1/supp_wins/figures/figure_$1_$2.html");
 	                    pop_content(supp_win, "1015px", "700px");
                     });
 	            // add link on the figure number in caption
-	                $('[data-block_type="h1"] [data-caption-compass] [data-block_type="FG-N-ri"]').click(function() {
+	                $('[data-caption-compass] [data-block_type="FG-N-ri"]').click(function() {
                         var fignum = $(this).text().replace(/FIGURE ([\d\.]+)/i, "$1");
                         var supp_win = fignum.replace(/(\d+)\.(\d+)/, "asset/ch$1/supp_wins/figures/figure_$1_$2.html");
 	                    pop_content(supp_win, "1015px", "700px");

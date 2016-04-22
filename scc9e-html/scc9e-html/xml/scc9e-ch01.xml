@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manuscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML" manuscript-id="01" name="" title="Moore_Chapter_01" xsi:noNamespaceSchemaLocation="xsd/digfir_manuscript.xsd">
+<chapter id="scc9e-ch01" number="1" title="Chapter 1: Where Do Data Come From?" start-numbering-at="1" numbered="true">
+<section id="scc9e-ch01-sec-01" block_type="part_intro" title="PART 1" numbered="false" level="1" print_page="1">
+<section-metadata><section-title>PART I</section-title></section-metadata>
+<figure id="scc9e-ch01-unfig-01" block_type="part_opener" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch01-img-01" alt="image" src="images/17MOORESCC-MSE_9e_PO01.jpg"/>
+<asset_source><phrase block_type="PO-PH-CL">Richard B. Levine/Newscom</phrase></asset_source>
+</figure>
+<p id="scc9e_page_1" block_type="page_start" data-margin-content="right">1</p>
+<p id="scc9e-ch01-p-01"><phrase block_type="PT">Producing Data</phrase></p>
+<p id="scc9e-ch01-p-02" block_type="PO-TXTF"><phrase block_type="drop">Y</phrase>ou and your friends are not typical. What you listen to on the radio or on music streaming sites like Pandora is probably not what we listen to. Of course, we and our friends are also not typical. To get a true picture of the country as a whole (or even of college students), we must recognize that the picture may not resemble us or what we see around us. We need <em>data</em>. Data from Nielsen (a consumer research firm) for April 15, 2015, show that the most popular radio formats for millennials (ages 18&#8211;34) are pop contemporary hit radio (12.8&#37; of listeners) and country (9.0&#37; of listeners). If you like hot adult contemporary (7.5&#37; of listeners) and we like classic rock (4.8&#37; of listeners), we may have no clue about the tastes of radio audiences as a whole. If we are in the broadcasting business, or even if we are interested in pop culture, we must put our own tastes aside and look at the data.</p>
+<p id="scc9e-ch01-p-03" block_type="PO-TXT">You can find data in the library or on the Internet (that&#8217;s where we found the radio format data). But how can we know whether data can be trusted? Good data are as much a human product as wool sweaters and tablet PCs. Sloppily produced data will frustrate you as much as a sloppily made sweater. You examine a sweater before you buy, and you don&#8217;t buy if it is not well made. Neither should you use data that are not well made. The first part of this book shows how to tell if data are well made.</p>
+</section>
+<section id="scc9e-ch01-sec-02" block_type="chapter" title="Where Do Data Come From?" numbered="false" level="1" print_page="3">
+<p id="scc9e-ch01-p-04" block_type="CN">1</p>
+<p id="scc9e-ch01-p-05" block_type="CT">Where Do Data Come From?</p>
+<p id="scc9e_page_3" block_type="page_start" data-margin-content="right">3</p>
+<figure id="scc9e-ch01-unfig-02" block_type="CO-PH-CL" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch01-img-02" alt="image" src="images/17MOORESCC-MSE_9e_CO01.jpg"/>
+<asset_source><phrase block_type="CO-PH-CL">Sacramento Bee/Contributor/Getty Images</phrase></asset_source>
+</figure>
+<box id="scc9e-ch01-box-01" numbered="false" block_type="BX4-H-ri">
+<p id="scc9e-ch01-p-06" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri">CASE STUDY</phrase> You can read the newspaper and watch TV news for months without seeing an algebraic formula. No wonder algebra seems unconnected to life. You can&#8217;t go a day, however, without meeting data and statistical studies. You hear that last month&#8217;s unemployment rate was 5.4&#37;. A news article says that 88&#37; of AAAS (the American Association for the Advancement of Science) scientists agree that it is generally safe to eat genetically modified foods, while only 37&#37; of all U.S. residents 18 years of age and over agree. A longer article says that low-income children who received high-quality day care did better on academic tests given years later and were more likely to go to college and hold good jobs than other similar children.</p>
+<p id="scc9e-ch01-p-07" block_type="BX4-TXT-first">Where do these data come from? Why can we trust them? Or maybe we can&#8217;t trust them. Good data are the fruit of intelligent human effort. Bad data result from laziness or lack of understanding, or even the desire to mislead others. &#8220;Where do the data come from?&#8221; is the first question you should ask when someone throws a number at you.</p>
+<p id="scc9e-ch01-p-08" block_type="BX4-TXT-first">In 2012, Colorado voters legalized marijuana. Subsequently, voters in several other states have considered legalizing marijuana. One of these is Michigan. In February 2014, the Michigan online news site MLive ran the story &#8220;Take our online poll: Should Michigan legalize marijuana?&#8221; Of 9684 respondents, 7906 (81.64&#37;) said Yes, 1190 (12.29&#37;) said No, and 588 (6.07&#37;) said Decriminalize but not legalize. These results would seem to indicate overwhelming support for legalizing marijuana in Michigan.</p>
+<p id="scc9e-ch01-p-09" block_type="BX4-TXT-first">What can we say about data from this poll? By the end of this chapter you will have learned some basic questions to ask about the data from the MLive online poll. The answers to these questions will help us assess whether the data from the poll are good or bad, as we will explore further in <link href="scc9e-ch02.xml">Chapter 2</link>.</p>
+</box>
+</section>
+<section id="scc9e-ch01-sec-03" block_type="h1" chapter="ch1" numbered="false" level="1" print_page="4">
+<section-metadata><section-title>Talking about data: Individuals and variables</section-title></section-metadata>
+<p id="scc9e_page_4" block_type="page_start" data-margin-content="left">4</p>
+<p id="scc9e-ch01-p-10" block_type="TXT-ni">Statistics is the science of data. We could almost say &#8220;the art of data&#8221; because good judgment and even good taste, along with good math, make good statistics. A big part of good judgment lies in deciding what you must measure in order to produce data that will shed light on your concerns. We begin with some vocabulary to describe the raw materials that go into data.</p>
+<box id="scc9e-ch01-box-02" numbered="false" block_type="BX1">
+<p id="scc9e-ch01-p-11" block_type="BX1-T">Individuals and variables</p>
+<p id="scc9e-ch01-p-12" block_type="BX1-TXT-ni"><strong>Individuals</strong> are the objects described by a set of data. Individuals may be people, but they may also be animals or things.</p>
+<p id="scc9e-ch01-p-13" block_type="BX1-TXT-ni">A <strong>variable</strong> is any characteristic of an individual. A variable can take different values for different individuals.</p>
+</box>
+<p id="scc9e-ch01-p-14" block_type="TXT">For example, here are the first lines of a professor&#8217;s data set at the end of a statistics course:</p>
+<table id="scc9e-ch01-untab-01" numbered="false" block_type="UN-TABLE" attr="75">
+<tbody>
+<tr>
+<td align="center" block_type="TB1-TXT">NAME</td>
+<td align="center" block_type="TB1-TXT">MAJOR</td>
+<td align="center" block_type="TB1-TXT">POINTS</td>
+<td align="center" block_type="TB1-TXT">GRADE</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">ADVANI, SURA</td>
+<td align="center" block_type="TB1-TXT">COMM</td>
+<td align="center" block_type="TB1-TXT">397</td>
+<td align="center" block_type="TB1-TXT">B</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">BARTON, DAVID</td>
+<td align="center" block_type="TB1-TXT">HIST</td>
+<td align="center" block_type="TB1-TXT">323</td>
+<td align="center" block_type="TB1-TXT">C</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">BROWN, ANNETTE</td>
+<td align="center" block_type="TB1-TXT">LIT</td>
+<td align="center" block_type="TB1-TXT">446</td>
+<td align="center" block_type="TB1-TXT">A</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">CHIU, SUN</td>
+<td align="center" block_type="TB1-TXT">PSYC</td>
+<td align="center" block_type="TB1-TXT">405</td>
+<td align="center" block_type="TB1-TXT">B</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">CORTEZ, MARIA</td>
+<td align="center" block_type="TB1-TXT">PSYC</td>
+<td align="center" block_type="TB1-TXT">461</td>
+<td align="center" block_type="TB1-TXT">A</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch01-p-15" block_type="TXT-ni">The <em>individuals</em> are students enrolled in the course. In addition to each student&#8217;s name, there are three <em>variables</em>. The first says what major a student has chosen. The second variable gives the student&#8217;s total points out of 500 for the course, and the third records the grade received.</p>
+<p id="scc9e-ch01-p-16" block_type="TXT">Statistics deals with numbers, but not all variables are numerical. Some are &#8220;categorical&#8221; and simply place an individual into one of several groups or categories. Of the three variables in the professor&#8217;s data set, only total points has numbers as its values. Major and grade are categorical, and to do statistics with these variables, we use <em>counts</em> or <em>percentages</em>. We might give the percentage of students who got an A, for example, or the percentage who are psychology majors.</p>
+<box id="scc9e-ch01-box-03" numbered="false" block_type="BX1">
+<p id="scc9e-ch01-p-17" block_type="BX1-T">Categorical and numerical variables</p>
+<p id="scc9e-ch01-p-18" block_type="BX1-TXT-ni">A <strong>categorical variable</strong> simply places an individual into one of several groups or categories.</p>
+<p id="scc9e-ch01-p-19" block_type="BX1-TXT-ni">A <strong>numerical variable</strong> takes numerical values for which arithmetic operations such as adding and averaging make sense. A numerical variable is sometimes referred to as a <strong>quantitative variable</strong>.</p>
+</box>
+<p id="scc9e_page_5" block_type="page_start" data-margin-content="right">5</p>
+<p id="scc9e-ch01-p-20" block_type="TXT">Bad judgment in choosing variables can lead to data that cost lots of time and money but don&#8217;t shed light on the world. What constitutes good judgment can be controversial. Here are examples of the challenges in deciding what data to collect.</p>
+<box id="scc9e-ch01-box-04" numbered="false" block_type="EXP">
+<p id="scc9e-ch01-p-21" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 1</phrase> Who recycles?</p>
+<p id="scc9e-ch01-p-22" block_type="EXP-first">Who takes the trouble to recycle? Researchers spent lots of time and money weighing the stuff put out for recycling in two neighborhoods in a California city; call them Upper Crust and Lower Mid. The <em>individuals</em> here are households because trash and recycling pickup are done for residences, not for people one at a time. The <em>variable</em> measured was the weight in pounds of the curbside recycling basket each week.</p>
+<p id="scc9e-ch01-p-23" block_type="EXP-mid">The Upper Crust households contributed more pounds per week on the average than did the folk in Lower Mid. Can we say that the rich are more serious about recycling? No. Someone noticed that Upper Crust recycling baskets contained lots of heavy glass wine bottles. In Lower Mid, they put out lots of light plastic soda bottles and light metal beer and soda cans. The conclusion: weight tells us little about commitment to recycling.</p>
+</box>
+<box id="scc9e-ch01-box-05" numbered="false" block_type="EXP">
+<p id="scc9e-ch01-p-24" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> What&#8217;s your race?</p>
+<p id="scc9e-ch01-p-25" block_type="EXP-first">The U.S. census asks, &#8220;What is this person&#8217;s race?&#8221; for every person in every household. &#8220;Race&#8221; is a <em>variable</em>, and the Census Bureau must say exactly how to measure it. The census form does this by giving a list of races. Years of political squabbling lie behind this list.</p>
+<p id="scc9e-ch01-p-26" block_type="EXP-mid">How many races shall we list, and what names shall we use for them? Shall we have a category for people of mixed race? Asians wanted more national categories, such as Filipino and Vietnamese, for the growing Asian population. Pacific Islanders wanted to be separated from the larger Asian group. Black leaders did not want a mixed-race category, fearing that many blacks would choose it and so reduce the official count of the black population.</p>
+<p id="scc9e-ch01-p-27" block_type="EXP-mid">The 2010 census form (see <link href="figure_1_1.html">Figure 1.1</link>) ended up with six Asian groups (plus &#8220;Other Asian&#8221;) and three Pacific Island groups (plus &#8220;Other Pacific Islander&#8221;). There is no &#8220;mixed-race&#8221; group, but you can mark more than one race. That is, people claiming mixed race can count as both so that the total of the racial group counts in 2010 is larger than the population count. Unable to decide what the proper term for blacks should be, the Census Bureau settled on &#8220;Black, African American, or Negro.&#8221; What about Hispanics? That&#8217;s a separate question because Hispanics can be of any race. Again unable to choose a short name that would satisfy everyone, the Census Bureau decided to ask if you are of &#8220;Hispanic, Latino, or Spanish origin.&#8221;</p>
+<p id="scc9e_page_6" block_type="page_start" data-margin-content="left">6</p>
+<figure id="scc9e-ch01-fig-01" block_type="FIGURE" data-caption-compass="S" numbered="true" number="1.1" mmtype="image" mmsrc="" attr="">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch01-img-03" alt="image" src="images/17MOORESCC-MSE_9e_fig_01_01.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 1.1</phrase> <phrase block_type="FG-CAP">The first page of the 2010 census form, mailed to all households in the country. The 2010 census form can be found online at <link href="http://www.census.gov/2010census/about/interactive-form.php">www.census.gov/2010census/about/interactive-form.php</link>. (Source: <link href="http://Census.gov">Census.gov</link>.)</phrase></caption>
+</figure>
+<p id="scc9e-ch01-p-28" block_type="EXP-mid">The fight over &#8220;race&#8221; reminds us that data reflect society. Race is a social idea, not a biological fact. In the census, you say what race you consider yourself to be. Race is a sensitive issue in the United States, so the fight is no surprise, and the Census Bureau&#8217;s diplomacy seems a good compromise.</p>
+</box>
+</section>
+<section id="scc9e-ch01-sec-04" block_type="h1" chapter="ch1" numbered="false" level="1" print_page="7">
+<section-metadata><section-title>Observational studies</section-title></section-metadata>
+<p id="scc9e_page_7" block_type="page_start" data-margin-content="right">7</p>
+<p id="scc9e-ch01-p-29" block_type="TXT-ni">As Yogi Berra, the former catcher and manager of the New York Yankees who is renowned for his humorous quotes, said, &#8220;You can observe a lot by watching.&#8221; Sometimes all you can do is watch. To learn how chimpanzees in the wild behave, watch. To study how a teacher and young children interact in a schoolroom, watch. It helps if the watcher knows what to look for. The chimpanzee expert may be interested in how males and females interact, in whether some chimps in the troop are dominant, in whether the chimps hunt and eat meat. Indeed, chimps were thought to be vegetarians until Jane Goodall watched them carefully in Gombe National Park, Tanzania. Now it is clear that meat is a natural part of the chimpanzee diet.</p>
+<p id="scc9e-ch01-p-30" block_type="TXT">At first, the observer may not know what to record. Eventually, patterns seem to emerge, and we can decide what variables we want to measure. How often do chimpanzees hunt? Alone or in groups? How large are hunting groups? Males alone, or both males and females? How much of the diet is meat? Observation that is organized and measures clearly defined variables is more convincing than just watching. Here is an example of highly organized (and expensive) observation.</p>
+<box id="scc9e-ch01-box-06" numbered="false" block_type="EXP">
+<p id="scc9e-ch01-p-31" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> Do power lines cause leukemia in children?</p>
+<p id="scc9e-ch01-p-32" block_type="EXP-first">Electric currents generate magnetic fields. So, living with electricity exposes people to magnetic fields. Living near power lines increases exposure to these fields. Really strong fields can disturb living cells in laboratory studies. What about the weaker fields we experience if we live near power lines? Some data suggested that more children in these locations might develop leukemia, a cancer of the blood cells.</p>
+<figure id="scc9e-ch01-unfig-03" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch01-img-04" alt="image" src="images/17MOORESCC-MSE_9e_P_01_01.jpg"/>
+<asset_source><phrase block_type="PH-CL">&#169; g bell/Alamy Stock Photo</phrase></asset_source>
+</figure>
+<p id="scc9e-ch01-p-33" block_type="EXP-mid">We can&#8217;t do experiments that deliberately expose children to magnetic fields for weeks and months at a time. It&#8217;s hard to compare cancer rates among children who happen to live in more and less exposed locations because leukemia is quite rare and locations vary a lot in many ways other than magnetic fields. It is easier to start with children who have leukemia and compare them with children who don&#8217;t. We can look at lots of possible causes&#8212;diet, pesticides, drinking water, magnetic fields, and others&#8212;to see where children with leukemia differ from those without. Some of these broad studies suggested a closer look at magnetic fields.</p>
+<p id="scc9e_page_8" block_type="page_start" data-margin-content="left">8</p>
+<p id="scc9e-ch01-p-34" block_type="EXP-mid">One really careful look at magnetic fields took five years and cost &#36;5 million. The researchers compared 638 children who had leukemia and 620 who did not. They went into the homes and actually measured the magnetic fields in the children&#8217;s bedrooms, in other rooms, and at the front door. They recorded facts about nearby power lines for the family home and also for the mother&#8217;s residence when she was pregnant. Result: no evidence of more than a chance connection between magnetic fields and childhood leukemia. Similar conclusions were reached by researchers at the University of Oxford in England who reviewed data from 1962 to 2008.</p>
+</box>
+<p id="scc9e-ch01-p-35" block_type="TXT">&#8220;No evidence&#8221; that magnetic fields are connected with childhood leukemia doesn&#8217;t prove that there is no risk. It says only that a very careful study could not find any risk that stands out from the play of chance that distributes leukemia cases across the landscape. In other words, the study could not rule out chance as a plausible explanation for what was observed. Critics continue to argue that the study failed to measure some important variables or that the children studied don&#8217;t fairly represent all children. Nonetheless, a carefully designed observational study is a great advance over haphazard and sometimes emotional counting of cancer cases.</p>
+<box id="scc9e-ch01-box-07" numbered="false" block_type="BX1">
+<p id="scc9e-ch01-p-36" block_type="BX1-T">Response variable and observational study</p>
+<p id="scc9e-ch01-p-37" block_type="BX1-TXT-ni">A <strong>response</strong> is a variable that measures an outcome or result of a study. An <strong>observational study</strong> observes individuals and measures variables of interest but does not intervene in order to influence the responses. The purpose of an observational study is to describe some group or situation.</p>
+</box>
+</section>
+<section id="scc9e-ch01-sec-05" block_type="h1" chapter="ch1" numbered="false" level="1" print_page="8">
+<section-metadata><section-title>Sample surveys</section-title></section-metadata>
+<p id="scc9e-ch01-p-38" block_type="TXT-ni">You don&#8217;t have to eat the entire pot of soup to know it needs more salt. That is the idea of sampling: to gain information about the whole by examining only a part. <strong>Sample surveys</strong> are an important kind of observational study. They survey some group of individuals by studying only some of its members, selected not because they are of special interest but because they represent the larger group. Here is the vocabulary we use to discuss sampling.</p>
+<box id="scc9e-ch01-box-08" numbered="false" block_type="margin-statistics">
+<p id="scc9e-ch01-p-39" block_type="MN-TXT"><image asset-id="scc9e-ch01-img-05" alt="image" src="images/BPS6e_nugget_icon.jpg"/><phrase block_type="MN-T-ri">You just don&#8217;t understand</phrase> A sample survey of journalists and scientists found quite a communications gap. Journalists think that scientists are arrogant, while scientists think that journalists are ignorant. We won&#8217;t take sides, but here is one interesting result from the survey: 82&#37; of the scientists agree that the &#8220;media do not understand statistics well enough to explain new findings&#8221; in medicine and other fields.</p>
+</box>
+<p id="scc9e_page_9" block_type="page_start" data-margin-content="right">9</p>
+<box id="scc9e-ch01-box-09" numbered="false" block_type="BX1">
+<p id="scc9e-ch01-p-40" block_type="BX1-T">Populations and samples</p>
+<p id="scc9e-ch01-p-41" block_type="BX1-TXT-ni">The <strong>population</strong> in a statistical study is the entire group of individuals about which we want information.</p>
+<p id="scc9e-ch01-p-42" block_type="BX1-TXT-ni">A <strong>sample</strong> is the part of the population from which we actually collect information and is used to draw conclusions about the whole.</p>
+</box>
+<p id="scc9e-ch01-p-43" block_type="TXT">Notice that the <em>population</em> is the group we want to study. If we want information about all U.S. college students, that is our population&#8212;even if students at only one college are available for sampling. To make sense of any sample result, you must know what population the sample represents. Did a preelection poll, for example, ask the opinions of all adults? Or citizens only? Registered voters only? Democrats only? The <em>sample</em> consists of the people we actually have information about. If the poll can&#8217;t contact some of the people it selected, those people aren&#8217;t in the sample.</p>
+<p id="scc9e-ch01-p-44" block_type="TXT">The distinction between population and sample is basic to statistics. The following examples illustrate this distinction and also introduce some major uses of sampling. These brief descriptions also indicate the variables measured for each individual in the sample.</p>
+<box id="scc9e-ch01-box-10" numbered="false" block_type="EXP">
+<p id="scc9e-ch01-p-45" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> Public opinion polls</p>
+<p id="scc9e-ch01-p-46" block_type="EXP-first">Polls such as those conducted by Gallup and many news organizations ask people&#8217;s opinions on a variety of issues. The <em>variables</em> measured are responses to questions about public issues. Though most noticed at election time, these polls are conducted on a regular basis throughout the year. For a typical opinion poll:</p>
+<p id="scc9e-ch01-p-47" block_type="EXP-first"><em>Population</em>: U.S. residents 18 years of age and over. Noncitizens and even illegal immigrants are included.</p>
+<p id="scc9e-ch01-p-48" block_type="EXP-first"><em>Sample</em>: Between 1000 and 1500 people interviewed by telephone.</p>
+</box>
+<box id="scc9e-ch01-box-11" numbered="false" block_type="EXP">
+<p id="scc9e-ch01-p-49" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 5</phrase> The Current Population Survey</p>
+<p id="scc9e-ch01-p-50" block_type="EXP-first">Government economic and social data come from large sample surveys of a nation&#8217;s individuals, households, or businesses. The monthly Current Population Survey (CPS) is the most important government sample survey in the United States. Many of the <em>variables</em> recorded by the CPS concern the employment or unemployment of everyone over 16 years old in a household. The government&#8217;s monthly unemployment rate comes from the CPS. The CPS also records many other economic and social variables. For the CPS:</p>
+<p id="scc9e_page_10" block_type="page_start" data-margin-content="left">10</p>
+<p id="scc9e-ch01-p-51" block_type="EXP-first"><em>Population</em>: The more than 123 million U.S. households. Notice that the individuals are households rather than people or families. A household consists of all people who share the same living quarters, regardless of how they are related to each other.</p>
+<p id="scc9e-ch01-p-52" block_type="EXP-first"><em>Sample</em>: About 60,000 households interviewed each month.</p>
+</box>
+<box id="scc9e-ch01-box-12" numbered="false" block_type="EXP">
+<p id="scc9e-ch01-p-53" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 6</phrase> TV ratings</p>
+<p id="scc9e-ch01-p-54" block_type="EXP-first"><em>Market research</em> is designed to discover what consumers want and what products they use. One example of market research is the television-rating service of Nielsen Media Research. The Nielsen ratings influence how much advertisers will pay to sponsor a program and whether or not the program stays on the air. For the Nielsen national TV ratings:</p>
+<p id="scc9e-ch01-p-55" block_type="EXP-first"><em>Population</em>: The more than 116 million U.S. households that have a television set.</p>
+<p id="scc9e-ch01-p-56" block_type="EXP-first"><em>Sample</em>: About 25,000 households that agree to use a &#8220;people meter&#8221; to record the TV viewing of all people in the household.</p>
+<p id="scc9e-ch01-p-57" block_type="EXP-first">The <em>variables</em> recorded include the number of people in the household and their age and sex, whether the TV set is in use at each time period, and, if so, what program is being watched and who is watching it.</p>
+</box>
+<box id="scc9e-ch01-box-13" numbered="false" block_type="EXP">
+<p id="scc9e-ch01-p-58" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 7</phrase> The General Social Survey</p>
+<p id="scc9e-ch01-p-59" block_type="EXP-first">Social science research makes heavy use of sampling. The General Social Survey (GSS), carried out every second year by the National Opinion Research Center at the University of Chicago, is the most important social science sample survey. The <em>variables</em> cover the subject&#8217;s personal and family background, experiences and habits, and attitudes and opinions on subjects from abortion to war.</p>
+<p id="scc9e-ch01-p-60" block_type="EXP-UL1F"><em>Population</em>: Adults (aged 18 and over) living in households in the United States. The population does not include adults in institutions such as prisons and college dormitories. It also does not include persons who cannot be interviewed in English.</p>
+<p id="scc9e-ch01-p-61" block_type="EXP-UL1F"><em>Sample</em>: About 3000 adults interviewed in person in their homes.</p>
+</box>
+<p id="scc9e_page_11" block_type="page_start" data-margin-content="right">11</p>
+<box id="scc9e-ch01-box-14" numbered="false" block_type="BX2">
+<p id="scc9e-ch01-p-62" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch01-ques-01">
+<p id="scc9e-ch01-p-63" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">1.1 Legalizing marijuana.</phrase> The Pew Research Center conducted a poll on March 25&#8211;29, 2015. They asked:</p>
+<p id="scc9e-ch01-p-64" block_type="BX2-QUE">Do you think the use of marijuana should be made legal or not?</p>
+<p id="scc9e-ch01-p-65" block_type="BX2-QUE">The Pew Research Center reported that the poll consisted of telephone interviews with 1500 randomly selected adult Americans. What do you think the population is? What is the sample?</p>
+</question>
+</box>
+<p id="scc9e-ch01-p-66" block_type="TXT">Most statistical studies use samples in the broad sense. For example, the 638 children with leukemia in <link href="example_1_3.html">Example 3</link> are supposed to represent all children with leukemia. We usually reserve the dignified term &#8220;sample survey&#8221; for studies that use an organized plan to choose a sample that represents some specific population. The children with leukemia were patients at centers that specialize in treating children&#8217;s cancer. Expert judgment says they are typical of all leukemia patients, even though they come only from special types of hospitals. A sample survey doesn&#8217;t rely on judgment: it starts with an entire population and uses specific, quantifiable methods to choose a sample to represent the population. <link href="scc9e-ch02.xml">Chapters 2</link>, <link href="scc9e-ch03.xml">3</link>, and <link href="scc9e-ch04.xml">4</link> discuss the art and science of sample surveys.</p>
+</section>
+<section id="scc9e-ch01-sec-06" block_type="h1" chapter="ch1" numbered="false" level="1" print_page="11">
+<section-metadata><section-title>Census</section-title></section-metadata>
+<p id="scc9e-ch01-p-67" block_type="TXT-ni">A sample survey looks at only a part of the population. Why not look at the entire population? A <em>census</em> tries to do this.</p>
+<box id="scc9e-ch01-box-15" numbered="false" block_type="BX1">
+<p id="scc9e-ch01-p-68" block_type="BX1-T">Census</p>
+<p id="scc9e-ch01-p-69" block_type="BX1-TXT-ni">A <strong>census</strong> is a sample survey that attempts to include the entire population in the sample.</p>
+</box>
+<p id="scc9e-ch01-p-70" block_type="TXT">The U.S. Constitution requires a census of the American population every 10 years. A census of so large a population is expensive and takes a long time. Even the federal government, which can afford a census, uses samples such as the Current Population Survey to produce timely data on employment and many other variables. If the government asked every adult in the country about his or her employment, this month&#8217;s unemployment rate would be available next year rather than next month. In fact, to save money, the 2010 census consisted of only 10 questions. Five of these were general questions, and five required answers for every person living at the address the form was sent to.</p>
+<p id="scc9e_page_12" block_type="page_start" data-margin-content="left">12</p>
+<p id="scc9e-ch01-p-71" block_type="TXT">So time and money favor samples over a census. Samples can have other advantages as well. If you are testing fireworks or fuses, the sampled items are destroyed. Moreover, a sample can produce more accurate data than a census. A careful sample of an inventory of spare parts will almost certainly give more accurate results than asking the clerks to count all 500,000 parts in the warehouse. Bored people do not count accurately.</p>
+<box id="scc9e-ch01-box-16" numbered="false" block_type="margin-statistics">
+<p id="scc9e-ch01-p-72" block_type="MN-TXT"><image asset-id="scc9e-ch01-img-06" alt="image" src="images/BPS6e_nugget_icon.jpg"/><phrase block_type="MN-T-ri">Is a census old-fashioned?</phrase> The United States has taken a census every 10 years since 1790. Technology marches on, however, and replacements for a national census look promising. Denmark has no census, and France plans to eliminate its census. Denmark has a national register of all its residents, who carry identification cards and change their register entry whenever they move. France will replace its census by a large sample survey that rotates among the nation&#8217;s regions. The U.S. Census Bureau has a similar idea: the American Community Survey has already started and has eliminated the census &#8220;long form.&#8221; Canada has eliminated its long-form census and replaced it with a controversial voluntary National Household Survey.</p>
+</box>
+<p id="scc9e-ch01-p-73" block_type="TXT">The experience of the Census Bureau reminds us that a census can only <em>attempt</em> to sample the entire population. The bureau estimated that the 2010 census overcounted the American population by 0.01&#37; but undercounted the black population by 2.1&#37;. A census is not foolproof, even with the resources of the government behind it. Why take a census at all? The government needs block-by-block population figures to create election districts with equal populations. The main function of the U.S. census is to provide this local information.</p>
+</section>
+<section id="scc9e-ch01-sec-07" block_type="h1" chapter="ch1" numbered="false" level="1" print_page="12">
+<section-metadata><section-title>Experiments</section-title></section-metadata>
+<p id="scc9e-ch01-p-74" block_type="TXT-ni">Our goal in choosing a sample is a picture of the population, disturbed as little as possible by the act of gathering information. All observational studies share the principle &#8220;observe but don&#8217;t disturb.&#8221; When Jane Goodall first began observing chimpanzees in Tanzania, she set up a feeding station where the chimps could eat bananas. She later said that was a mistake because it might have changed the apes&#8217; behavior.</p>
+<figure id="scc9e-ch01-unfig-04" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="left" width="medium" border="false"/>
+<image asset-id="scc9e-ch01-img-07" alt="image" src="images/17MOORESCC-MSE_9e_Car_01_01.jpg"/>
+</figure>
+<p id="scc9e-ch01-p-75" block_type="TXT">In <em>experiments</em>, on the other hand, we want to change behavior. In doing an experiment, we don&#8217;t just observe individuals or ask them questions. We actively impose some treatment in order to observe the response. Experiments can answer questions such as &#8220;Does aspirin reduce the chance of a heart attack?&#8221; and &#8220;Do a majority of college students prefer Pepsi to Coke when they taste both without knowing which they are drinking?&#8221;</p>
+<p id="scc9e_page_13" block_type="page_start" data-margin-content="right">13</p>
+<box id="scc9e-ch01-box-17" numbered="false" block_type="BX1">
+<p id="scc9e-ch01-p-76" block_type="BX1-T">Experiments</p>
+<p id="scc9e-ch01-p-77" block_type="BX1-TXT-ni">An <strong>experiment</strong> deliberately imposes some treatment on individuals in order to observe their responses. The purpose of an experiment is to study whether the treatment causes a change in the response.</p>
+</box>
+<box id="scc9e-ch01-box-18" numbered="false" block_type="EXP">
+<p id="scc9e-ch01-p-78" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 8</phrase> Helping welfare mothers find jobs</p>
+<p id="scc9e-ch01-p-79" block_type="EXP-first">The Urban Institute in Washington DC reports that most adult welfare recipients are single mothers in their 20s and 30s with one or two children. Observational studies of welfare mothers show that many are able to increase their earnings and leave the welfare system. Some take advantage of voluntary job-training programs to improve their skills. Should participation in job-training and job-search programs be required of all able-bodied welfare mothers? Observational studies of the current system cannot tell us what the effects of such a policy would be. Even if the mothers studied are a properly chosen sample of all welfare recipients, those who seek out training and find jobs may differ in many ways from those who do not. They are observed to have more education, for example, but they may also differ in values and motivation, things that cannot be observed.</p>
+<p id="scc9e-ch01-p-80" block_type="EXP-mid">To see if a required jobs program will help mothers escape welfare, such a program must actually be tried. Choose two similar groups of mothers when they apply for welfare. Require one group to participate in a job-training program, but do not offer the program to the other group. This is an experiment. Comparing the income and work record of the two groups after several years will show whether requiring training has the desired effect.</p>
+</box>
+<box id="scc9e-ch01-box-19" numbered="false" block_type="BX2">
+<p id="scc9e-ch01-p-81" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch01-ques-02">
+<p id="scc9e-ch01-p-82" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">1.2 Posting lectures on the class website.</phrase> To determine what students found most helpful, an educational researcher examined student comments from several classes he taught. Mentioned most often was the fact that copies of lectures were posted on the class website for students to download. The researcher recommended that instructors post lecture notes on their course websites. Was this an observational study or an experiment?</p>
+</question>
+</box>
+<p id="scc9e-ch01-p-83" block_type="TXT">The welfare example illustrates the big advantage of experiments over observational studies: <em>in principle, experiments can give good evidence for cause and effect</em>. If we design the experiment properly, we start with two very similar groups of welfare mothers. The <em>individual</em> women of course differ from each other in age, education, number of children, and other respects. But the two <em>groups</em> resemble each other when we look at the ages, years of education, and number of children for all women in each group. During the experiment, the women&#8217;s lives differ, but there is only one systematic difference between the two groups: whether or not they are in the jobs program. All live through the same good or bad economic times, the same changes in public attitudes, and so on. If the training group does much better than the untrained group in holding jobs and earning money, we can say that the training program actually causes this happy outcome.</p>
+<p id="scc9e_page_14" block_type="page_start" data-margin-content="left">14</p>
+<p id="scc9e-ch01-p-84" block_type="TXT">One of the big ideas of statistics is that experiments can give good evidence that a treatment causes a response. A big idea needs a big caution: statistical conclusions hold &#8220;on the average&#8221; for groups of individuals. They don&#8217;t tell us much about one individual. If <em>on the average</em> the women in the training program earned more than those who were left out, that says that the program achieved its goal. It doesn&#8217;t say that every woman in such a program will be helped. And a big idea may also raise big questions: if we hope the training will raise earnings, is it ethical to offer it to some women and not to others? <link href="scc9e-ch05.xml">Chapters 5</link> and <link href="scc9e-ch06.xml">6</link> explain how to design good experiments, and <link href="scc9e-ch07.xml">Chapter 7</link> looks at ethical issues.</p>
+</section>
+<section id="scc9e-ch01-sec-08" block_type="SUM-H" chapter="ch1" numbered="false" level="1" print_page="14">
+<section-metadata><section-title><phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase></section-title></section-metadata>
+<p id="scc9e-ch01-p-85" block_type="SUM-hd1">Chapter Specifics</p>
+<list id="scc9e-ch01-list-01" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch01-li-01"><p id="scc9e-ch01-p-86" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> Any statistical study records data about some <strong>individuals</strong> (people, animals, or things) by giving the value of one or more <strong>variables</strong> for each individual.</p></li>
+<li id="scc9e-ch01-li-02"><p id="scc9e-ch01-p-87" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> Some variables, such as age and income, take numerical values. Others, such as occupation and sex, do not. Be sure the variables in a study really do tell you what you want to know.</p></li>
+<li id="scc9e-ch01-li-03"><p id="scc9e-ch01-p-88" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> The most important fact about any statistical study is how the data were produced. <strong>Observational studies</strong> try to gather information without disturbing the scene they are observing.</p></li>
+<li id="scc9e-ch01-li-04"><p id="scc9e-ch01-p-89" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> <strong>Sample surveys</strong> are an important kind of observational study. A sample survey chooses a <strong>sample</strong> from a specific <strong>population</strong> and uses the sample to get information about the entire population.</p></li>
+<li id="scc9e-ch01-li-05"><p id="scc9e-ch01-p-90" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> A <strong>census</strong> attempts to measure every individual in a population.</p></li>
+<li id="scc9e-ch01-li-06"><p id="scc9e-ch01-p-91" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> <strong>Experiments</strong> actually do something to individuals in order to see how they respond. The goal of an experiment is usually to learn whether some treatment actually causes a certain response.</p></li>
+</list>
+<p id="scc9e-ch01-p-92" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch01-img-08" alt="image" src="images/LinkIt.jpg"/> In reasoning from data to a conclusion, we start with the data. Where the data come from is the first step in the argument. The nature and validity of the conclusion are affected by this first step. Two sources of data are observational studies and experiments. Observational studies are best suited for a conclusion that involves describing some group or situation without disturbing the scene we observe. Sample surveys are a type of observational study in which we draw conclusions about a population by observing only a part of the population (the sample). Experiments are best suited for a conclusion that involves determining if a treatment causes a change in a response.</p>
+<p id="scc9e_page_15" block_type="page_start" data-margin-content="right">15</p>
+<p id="scc9e-ch01-p-93" block_type="SUM-TXT">In the next several chapters, we discuss these sources of data in more detail. We will see what makes for a good observational study and for a good experiment. And we will see how a bad observational study or experiment undermines the validity of the conclusions we wish to make.</p>
+<box id="scc9e-ch01-box-20" numbered="false" block_type="case_title">
+<p id="scc9e-ch01-p-94" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> Use what you have learned in this chapter to answer some basic questions about the data collected in the MLive poll described in the Case Study that opened the chapter. To participate in the poll, you had to go online to the MLive website and click on one of the possible responses.</p>
+<list id="scc9e-ch01-list-02" type="ordered" block_type="numbered">
+<li id="scc9e-ch01-li-07"><p id="scc9e-ch01-p-95" block_type="BX4-TXT-first"><phrase block_type="maker">1.</phrase> Is the poll a sample survey, census, or experiment?</p></li>
+<li id="scc9e-ch01-li-08"><p id="scc9e-ch01-p-96" block_type="BX4-TXT-first"><phrase block_type="maker">2.</phrase> What is the population of interest?</p></li>
+<li id="scc9e-ch01-li-09"><p id="scc9e-ch01-p-97" block_type="BX4-TXT-first"><phrase block_type="maker">3.</phrase> What are the individuals in the poll?</p></li>
+<li id="scc9e-ch01-li-10"><p id="scc9e-ch01-p-98" block_type="BX4-TXT-first"><phrase block_type="maker">4.</phrase> For each individual, what variable is measured?</p></li>
+<li id="scc9e-ch01-li-11"><p id="scc9e-ch01-p-99" block_type="BX4-TXT-first"><phrase block_type="maker">5.</phrase> Does this variable take numerical values?</p></li>
+</list>
+</box>
+<box id="scc9e-ch01-box-21" numbered="false" block_type="launchpad">
+<p id="scc9e-ch01-p-100" block_type="CR-BIB-T"><image asset-id="scc9e-ch01-img-09" alt="image" src="images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<list id="scc9e-ch01-list-03" type="unordered" block_type="redbullet">
+<li id="scc9e-ch01-li-12"><p id="scc9e-ch01-p-101" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The Snapshot Video <em>Introduction to Statistics</em> describes real-world situations for which knowledge of statistical ideas is important.</p></li>
+<li id="scc9e-ch01-li-13"><p id="scc9e-ch01-p-102" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The Snapshot Video <em>Types of Studies</em> provides a nice introduction to the ideas of this section.</p></li>
+</list>
+</box>
+</section>
+<section id="scc9e-ch01-sec-09" block_type="CR-X-H" chapter="ch1" numbered="false" level="1" print_page="15">
+<section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
+<p id="scc9e-ch01-p-103" block_type="CR-X"><em>For <link href="exercise_1_1.html">Exercise 1.1</link>, see page 11; for <link href="exercise_1_2.html">Exercise 1.2</link>, see page 13.</em></p>
+<question id="scc9e-ch01-ques-03">
+<p id="scc9e-ch01-p-104" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.3 Individuals and variables.</phrase> A national survey by the Pew Research Center and <em>USA Today</em>, conducted August 20&#8211;24, 2014, was based on telephone interviews among a national sample of 1501 adults, 18 years of age or older, living in all 50 U.S. states and the District of Columbia. Those interviewed were asked to rate the job performance of police forces across the country for holding officers accountable when misconduct occurs. Possible ratings were &#8220;Excellent,&#8221; &#8220;Good,&#8221; &#8220;Only fair,&#8221; and &#8220;Poor.&#8221; Seventy percent of black respondents gave a rating of &#8220;Poor,&#8221; while only 27&#37; of white respondents gave a rating of &#8220;Poor.&#8221; For this study,</p>
+<p id="scc9e_page_16" block_type="page_start" data-margin-content="left">16</p>
+<list id="scc9e-ch01-list-04" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch01-li-14"><p id="scc9e-ch01-p-105" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the individuals are the sample of 1501 adults interviewed.</p></li>
+<li id="scc9e-ch01-li-15"><p id="scc9e-ch01-p-106" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> the variable is the rating a respondent selected.</p></li>
+<li id="scc9e-ch01-li-16"><p id="scc9e-ch01-p-107" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> both (a) and (b).</p></li>
+<li id="scc9e-ch01-li-17"><p id="scc9e-ch01-p-108" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> neither (a) nor (b).</p></li>
+</list>
+</question>
+<question id="scc9e-ch01-ques-04">
+<p id="scc9e-ch01-p-109" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.4 Population and sample.</phrase> For the survey described in the previous exercise,</p>
+<list id="scc9e-ch01-list-05" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch01-li-18"><p id="scc9e-ch01-p-110" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the population is the 1501 adults interviewed and the sample are those who gave a rating of poor.</p></li>
+<li id="scc9e-ch01-li-19"><p id="scc9e-ch01-p-111" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> the population is all adults, 18 years of age or older, living in all 50 U.S. states and the District of Columbia, and the sample are those who gave a rating of poor.</p></li>
+<li id="scc9e-ch01-li-20"><p id="scc9e-ch01-p-112" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> the population is all adults, 18 years of age or older, living in all 50 U.S. states and the District of Columbia, and the sample is the black and white respondents.</p></li>
+<li id="scc9e-ch01-li-21"><p id="scc9e-ch01-p-113" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> the population is all adults, 18 years of age or older, living in all 50 U.S. states and the District of Columbia, and the sample is the 1501 adults interviewed.</p></li>
+</list>
+</question>
+<question id="scc9e-ch01-ques-05">
+<p id="scc9e-ch01-p-114" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.5 Observational studies and experiments.</phrase> Researchers at The Ohio State University studied the effect of acetaminophen on emotion. The study included a total of 167 volunteers. Approximately half were randomly assigned to take acetaminophen and the other half a placebo. All subjects were shown a variety of images intended to invoke emotions. &#8220;Whether they saw things likely to make them feel bad or make them feel good, the acetaminophen group had a less-intense response. It&#8217;s not that they didn&#8217;t feel sad or happy, just that they felt less (by about 10 to 20&#37;) than their placebo-swallowing peers. It doesn&#8217;t turn them into zombies. It doesn&#8217;t turn them into robots,&#8221; one of the researchers said. Which of the following is true?</p>
+<list id="scc9e-ch01-list-06" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch01-li-22"><p id="scc9e-ch01-p-115" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> This is an observational study, and participants were volunteers.</p></li>
+<li id="scc9e-ch01-li-23"><p id="scc9e-ch01-p-116" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> This is an observational study, and participants were selected at random.</p></li>
+<li id="scc9e-ch01-li-24"><p id="scc9e-ch01-p-117" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> This is an experiment, but participants themselves decided whether to take acetaminophen or the placebo.</p></li>
+<li id="scc9e-ch01-li-25"><p id="scc9e-ch01-p-118" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> This is an experiment, and participants were randomly assigned to treatments.</p></li>
+</list>
+</question>
+<question id="scc9e-ch01-ques-06">
+<p id="scc9e-ch01-p-119" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.6 Response variable.</phrase> For the study described in the previous exercise, the response variable is which of the following?</p>
+<list id="scc9e-ch01-list-07" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch01-li-26"><p id="scc9e-ch01-p-120" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Some measure of emotional intensity invoked by the images</p></li>
+<li id="scc9e-ch01-li-27"><p id="scc9e-ch01-p-121" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Whether a subject received acetaminophen or the placebo</p></li>
+<li id="scc9e-ch01-li-28"><p id="scc9e-ch01-p-122" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The images</p></li>
+<li id="scc9e-ch01-li-29"><p id="scc9e-ch01-p-123" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> The 167 volunteers</p></li>
+</list>
+</question>
+<question id="scc9e-ch01-ques-07">
+<p id="scc9e-ch01-p-124" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.7 A census?</phrase> A study is considered to be a census if</p>
+<list id="scc9e-ch01-list-08" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch01-li-30"><p id="scc9e-ch01-p-125" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the population of interest is very large.</p></li>
+<li id="scc9e-ch01-li-31"><p id="scc9e-ch01-p-126" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> the study attempts to measure every individual in a population.</p></li>
+<li id="scc9e-ch01-li-32"><p id="scc9e-ch01-p-127" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> all units in the study receive some treatment.</p></li>
+<li id="scc9e-ch01-li-33"><p id="scc9e-ch01-p-128" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> it attempts to answer questions about the opinions of all citizens of a particular country.</p></li>
+</list>
+</question>
+</section>
+<section id="scc9e-ch01-sec-10" block_type="CR-X-H-v1" chapter="ch1" numbered="false" level="1" print_page="17">
+<section-metadata><section-title>CHAPTER 1 EXERCISES</section-title></section-metadata>
+<p id="scc9e_page_17" block_type="page_start" data-margin-content="right">17</p>
+<question id="scc9e-ch01-ques-08">
+<p id="scc9e-ch01-p-129" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.8 Miles per gallon.</phrase> Here is a small part of a data set that describes the fuel economy (in miles per gallon) of 2015 model motor vehicles.</p>
+<list id="scc9e-ch01-list-09" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch01-li-34"><p id="scc9e-ch01-p-130" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What are the individuals in this data set?</p></li>
+<li id="scc9e-ch01-li-35"><p id="scc9e-ch01-p-131" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> For each individual, what variables are given? Which of these variables take numerical values?</p></li>
+</list>
+<table id="scc9e-ch01-untab-02" numbered="false" block_type="UN-TABLE" attr="115">
+<tbody>
+<tr class="tborder">
+<th align="center" block_type="TBN-COLHD-v1">Make and<br/>model</th>
+<th align="center" block_type="TBN-COLHD-v1">Vehicle<br/>type</th>
+<th align="center" block_type="TBN-COLHD-v1">Transmission<br/>type</th>
+<th align="center" block_type="TBN-COLHD-v1">Number of<br/>cylinders</th>
+<th align="center" block_type="TBN-COLHD-v1">City<br/>mpg</th>
+<th align="center" block_type="TBN-COLHD-v1">Highway<br/>mpg</th>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="TBN-TXT">&#8942;</td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="center" block_type="TBN-TXT"></td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">BMW 328i</td>
+<td align="center" block_type="TBN-TXT">Compact car</td>
+<td align="center" block_type="TBN-TXT">Manual</td>
+<td align="center" block_type="TBN-TXT">6</td>
+<td align="center" block_type="TBN-TXT">22</td>
+<td align="center" block_type="TBN-TXT">34</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">BMW 335i</td>
+<td align="center" block_type="TBN-TXT">Compact car</td>
+<td align="center" block_type="TBN-TXT">Manual</td>
+<td align="center" block_type="TBN-TXT">6</td>
+<td align="center" block_type="TBN-TXT">20</td>
+<td align="center" block_type="TBN-TXT">30</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Buick LaCrosse</td>
+<td align="center" block_type="TBN-TXT">Midsize car</td>
+<td align="center" block_type="TBN-TXT">Automatic</td>
+<td align="center" block_type="TBN-TXT">6</td>
+<td align="center" block_type="TBN-TXT">18</td>
+<td align="center" block_type="TBN-TXT">28</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Chevrolet Traverse</td>
+<td align="center" block_type="TBN-TXT">Sport utility vehicle (FWD)</td>
+<td align="center" block_type="TBN-TXT">Automatic</td>
+<td align="center" block_type="TBN-TXT">6</td>
+<td align="center" block_type="TBN-TXT">17</td>
+<td align="center" block_type="TBN-TXT">24</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TBN-TXT">&#8942;</td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="center" block_type="TBN-TXT"></td>
+</tr>
+</tbody>
+</table>
+</question>
+<question id="scc9e-ch01-ques-09">
+<p id="scc9e-ch01-p-132" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.9 Athletes&#8217; salaries.</phrase> Here is a small part of a data set that describes Major League Baseball players as of opening day of the 2015 season.</p>
+<list id="scc9e-ch01-list-10" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch01-li-36"><p id="scc9e-ch01-p-133" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What individuals does this data set describe?</p></li>
+<li id="scc9e-ch01-li-37"><p id="scc9e-ch01-p-134" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> In addition to the player&#8217;s name, how many variables does the data set contain? Which of these variables take numerical values?</p></li>
+<li id="scc9e-ch01-li-38"><p id="scc9e-ch01-p-135" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> What do you think are the <em>units</em> in which each of the numerical variables is expressed? For example, what does it mean to give Bryce Harper&#8217;s annual salary as 3,750? (<em>Hint</em>: The average annual salary of a Major League Baseball player on opening day 2015 was, with roundoff, &#36;4,250,000.)</p></li>
+</list>
+<table id="scc9e-ch01-untab-03" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<th align="center" block_type="TBN-COLHD-v1">Player</th>
+<th align="center" block_type="TBN-COLHD-v1">Team</th>
+<th align="center" block_type="TBN-COLHD-v1">Position</th>
+<th align="center" block_type="TBN-COLHD-v1">Age</th>
+<th align="char" char="," block_type="TBN-COLHD-v1">Salary</th>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="TBN-TXT">&#8942;</td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="char" char="," block_type="TBN-TXT"></td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Kershaw, Clayton</td>
+<td align="center" block_type="TBN-TXT">Dodgers</td>
+<td align="center" block_type="TBN-TXT">Pitcher</td>
+<td align="center" block_type="TBN-TXT">27</td>
+<td align="char" char="," block_type="TBN-TXT">31,000</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Harper, Bryce</td>
+<td align="center" block_type="TBN-TXT">Nationals</td>
+<td align="center" block_type="TBN-TXT">Outfielder</td>
+<td align="center" block_type="TBN-TXT">22</td>
+<td align="char" char="," block_type="TBN-TXT">3,750</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Sabathia, C. C.</td>
+<td align="center" block_type="TBN-TXT">Yankees</td>
+<td align="center" block_type="TBN-TXT">Pitcher</td>
+<td align="center" block_type="TBN-TXT">34</td>
+<td align="char" char="," block_type="TBN-TXT">24,286</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Rodriguez, Alex</td>
+<td align="center" block_type="TBN-TXT">Yankees</td>
+<td align="center" block_type="TBN-TXT">Designated Hitter</td>
+<td align="center" block_type="TBN-TXT">39</td>
+<td align="char" char="," block_type="TBN-TXT">22,000</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TBN-TXT">&#8942;</td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="char" char="," block_type="TBN-TXT"></td>
+</tr>
+</tbody>
+</table>
+</question>
+<question id="scc9e-ch01-ques-10">
+<p id="scc9e-ch01-p-136" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.10 Who recycles?</phrase> In <link href="example_1_1.html">Example 1</link>, weight is not a good measure of the participation of households in different neighborhoods in a city recycling program. What variables would you measure in its place?</p>
+</question>
+<question id="scc9e-ch01-ques-11">
+<p id="scc9e-ch01-p-137" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.11 Sampling moms.</phrase> Pregnant and breast-feeding women should eat at least 12 ounces of fish and seafood per week to ensure their babies&#8217; optimal brain development, according to a coalition of top scientists from private groups and federal agencies. A nutritionist wants to know whether pregnant women are eating at least 12 ounces of fish per week. To do so, she obtains a list of the 340 members of a local chain of prenatal fitness clubs and mails a questionnaire to 60 of these women selected at random. Only 21 questionnaires are returned. What is the population in this study? What is the sample from which information is actually obtained? What percentage of the women whom the nutritionist tried to contact responded?</p>
+</question>
+<p id="scc9e_page_18" block_type="page_start" data-margin-content="left">18</p>
+<question id="scc9e-ch01-ques-12">
+<p id="scc9e-ch01-p-138" block_type="CR-X-NL"><image asset-id="scc9e-ch01-img-10" alt="image" src="images/A) In the NEWS cyan.jpg"/><phrase block_type="CR-X-NL-N-ri">1.12 The death penalty.</phrase> A press release by the Gallup News Service says that, based on a poll conducted on October 12&#8211;15, 2014, it found that 63&#37; of Americans respond Yes when asked this question: &#8220;Are you in favor of the death penalty for a person convicted of murder?&#8221; Toward the end of the article, you read: &#8220;Results for this Gallup poll are based on 1017 telephone interviews&#8221; and &#8220;based on a random sample of adults, 18 years and older living in all 50 U.S. states and the District of Columbia.&#8221; What variable did this poll measure? What population do you think Gallup wants information about? What was the sample?</p>
+</question>
+<question id="scc9e-ch01-ques-13">
+<p id="scc9e-ch01-p-139" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.13 The political gender gap.</phrase> There may be a &#8220;gender gap&#8221; in political party preference in the United States, with women more likely than men to prefer Democratic candidates. A political scientist interviews a large sample of registered voters, both men and women. She asks each voter whether he or she voted for the Democratic or the Republican candidate in the last presidential election. Is this study an experiment? Why or why not? What variables does the study measure?</p>
+</question>
+<question id="scc9e-ch01-ques-14">
+<p id="scc9e-ch01-p-140" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.14 What is the population?</phrase> For each of the following sampling situations, identify the population as exactly as possible. That is, say what kind of individuals the population consists of and say exactly which individuals fall in the population. If the information given is not sufficient, complete the description of the population by making reasonable assumptions about any missing information.</p>
+<list id="scc9e-ch01-list-11" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch01-li-39"><p id="scc9e-ch01-p-141" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> An opinion poll contacts 972 American adults and asks them, &#8220;Would you rather have a job working for the government or working for business?&#8221;</p></li>
+<li id="scc9e-ch01-li-40"><p id="scc9e-ch01-p-142" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Video adapter cables have pins that plug into slots in a computer monitor. The adapter will not work if pins are bent or broken. A computer store buys video adapter cables in large lots from a supplier. The store chooses five cables from each lot and inspects the pins. If any of the cables have bent or broken pins, the entire lot is sent back.</p></li>
+<li id="scc9e-ch01-li-41"><p id="scc9e-ch01-p-143" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The American Community Survey contacts 3.5 million households, including some in every county in the United States. This Census Bureau survey asks each household questions about their housing, economic, and social status.</p></li>
+</list>
+</question>
+<question id="scc9e-ch01-ques-15">
+<p id="scc9e-ch01-p-144" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.15 What is the population?</phrase> For each of the following sampling situations, identify the population as exactly as possible. That is, say what kind of individuals the population consists of and say exactly which individuals fall in the population. If the information given is not sufficient, complete the description of the population in a reasonable way.</p>
+<p id="scc9e_page_19" block_type="page_start" data-margin-content="right">19</p>
+<list id="scc9e-ch01-list-12" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch01-li-42"><p id="scc9e-ch01-p-145" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> A sociologist is interested in determining what proportion of teens believe the drinking age should be lowered to 18 in all the states. She selects a sample of five high schools in a large city and interviews all 12th-graders in each of the schools.</p></li>
+<li id="scc9e-ch01-li-43"><p id="scc9e-ch01-p-146" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> A medical researcher is interested in the rate of dementia among former NFL football players. From a list of living, former players he selects a sample of 20 and interviews them to determine if signs of dementia are present.</p></li>
+<li id="scc9e-ch01-li-44"><p id="scc9e-ch01-p-147" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The host of a local radio talk show wonders if people who are actively religious are more likely to trust their neighbors than those who are not. The station receives calls from 51 listeners who voice their opinions.</p></li>
+</list>
+</question>
+<question id="scc9e-ch01-ques-16">
+<p id="scc9e-ch01-p-148" block_type="CR-X-NL"><image asset-id="scc9e-ch01-img-11" alt="image" src="images/A) In the NEWS cyan.jpg"/><phrase block_type="CR-X-NL-N-ri">1.16 Teens&#8217; sleep needs.</phrase> A <em>Washington Post</em> article reported on a study about the sleep needs of teenagers. In the study, researchers measured the presence of the sleep-promoting hormone melatonin in teenagers&#8217; saliva at different times of the day. They learned that the melatonin levels rise later at night than they do in children and adults and remain at a higher level later in the morning. The teenagers who took part in the study were volunteers. Higher levels of melatonin indicate sleepiness. The researchers recommended that high schools start later in the day to accommodate the sleep needs of teens. Is this study an experiment, a sample survey, or an observational study that is not a sample survey? Explain your answer.</p>
+</question>
+<question id="scc9e-ch01-ques-17">
+<p id="scc9e-ch01-p-149" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.17 Power lines and leukemia.</phrase> The study of power lines and leukemia in <link href="example_1_3.html">Example 3</link> compared two groups of individuals and measured many variables that might influence differences between the groups. Explain carefully why this study is <em>not</em> an experiment.</p>
+</question>
+<question id="scc9e-ch01-ques-18">
+<p id="scc9e-ch01-p-150" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.18 Treating prostate disease.</phrase> A large study used records from Canada&#8217;s national health care system to compare the effectiveness of two ways to treat prostate disease. The two treatments are traditional surgery and a new method that does not require surgery. The records described many patients whose doctors had chosen one or the other method. The study found that patients treated by the new method were more likely to die within eight years.</p>
+<list id="scc9e-ch01-list-13" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch01-li-45"><p id="scc9e-ch01-p-151" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain why this is an observational study, not an experiment.</p></li>
+<li id="scc9e-ch01-li-46"><p id="scc9e-ch01-p-152" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Briefly describe the nature of an experiment to compare the two ways to treat prostate disease.</p></li>
+</list>
+</question>
+<question id="scc9e-ch01-ques-19">
+<p id="scc9e-ch01-p-153" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.19 Walnuts and cholesterol.</phrase> Does eating walnuts increase the level of good cholesterol (HDL) and reduce the level of bad cholesterol (LDL)? Here are two ways to study this question.</p>
+<list id="scc9e-ch01-list-14" type="ordered" block_type="numbered">
+<li id="scc9e-ch01-li-47"><p id="scc9e-ch01-p-154" block_type="CR-X-NL"><phrase block_type="maker">1.</phrase> Researchers in Australia recruited 58 adults with diabetes for a research study. These subjects were randomly assigned to two treatment groups: a low-modified-fat diet group and a low-modified-fat diet group that included a handful of walnuts each day. After six months, researchers compared changes in HDL and LDL levels for the two groups.</p></li>
+<li id="scc9e-ch01-li-48"><p id="scc9e-ch01-p-155" block_type="CR-X-NL"><phrase block_type="maker">2.</phrase> Another team of researchers recruited 58 adults with diabetes who regularly eat walnuts as part of their diet. The researchers match each with a similar adult with diabetes who does not regularly eat walnuts. The researchers measured the HDL and LDL for each adult and compared the results for both groups.</p></li>
+</list>
+<p id="scc9e_page_20" block_type="page_start" data-margin-content="left">20</p>
+<list id="scc9e-ch01-list-15" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch01-li-49"><p id="scc9e-ch01-p-156" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain why the first is an experiment and the second is an observational study.</p></li>
+<li id="scc9e-ch01-li-50"><p id="scc9e-ch01-p-157" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Why does the experiment give more useful information about whether walnuts increase HDL and reduce LDL?</p></li>
+</list>
+</question>
+<question id="scc9e-ch01-ques-20">
+<p id="scc9e-ch01-p-158" block_type="CR-X-NL"><image asset-id="scc9e-ch01-img-12" alt="image" src="images/A) In the NEWS cyan.jpg"/><phrase block_type="CR-X-NL-N-ri">1.20 Alcohol and cancer in women.</phrase> A <em>Washington Post</em> article reported on a study about alcohol consumption and cancer in women. Since 1996, a team of British researchers has been gathering detailed information from 1.28 million women aged 50 to 64. The researchers recorded how much alcohol the women reported consuming when they volunteered for the study and again three years later. The researchers then examined whether there was any link with the 68,775 cancers the women developed over an average of the next seven years. They found that even among women who consumed as little as 10 grams of alcohol a day on average (the equivalent of about one drink), the risk for cancer of the breast, liver, and rectum was elevated.</p>
+<list id="scc9e-ch01-list-16" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch01-li-51"><p id="scc9e-ch01-p-159" block_type="CR-X-NL"><phrase block_type="maker">(a)</phrase> Is this an experiment? Explain your answer.</p></li>
+<li id="scc9e-ch01-li-52"><p id="scc9e-ch01-p-160" block_type="CR-X-NL"><phrase block_type="maker">(b)</phrase> We would prefer a sample survey to using women who volunteer for a study. What population does it appear that the researchers were interested in? What variables did they measure?</p></li>
+</list>
+</question>
+<question id="scc9e-ch01-ques-21">
+<p id="scc9e-ch01-p-161" block_type="CR-X-NL"><image asset-id="scc9e-ch01-img-13" alt="image" src="images/A) In the NEWS cyan.jpg"/><phrase block_type="CR-X-NL-N-ri">1.21 Bullying.</phrase> Researchers tracked 2668 people from early childhood through adulthood and found that 13-year-olds who are frequent targets of bullies were three times more likely than their nonvictimized peers to be depressed later as adults. What is the population in this study? What is the sample? What variables do the researchers measure?</p>
+</question>
+<question id="scc9e-ch01-ques-22">
+<p id="scc9e-ch01-p-162" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.22 Choose your study type.</phrase> What is the best way to answer each of the questions below: an experiment, a sample survey, or an observational study that is not a sample survey? Explain your choices.</p>
+<list id="scc9e-ch01-list-17" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch01-li-53"><p id="scc9e-ch01-p-163" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Is your school&#8217;s football team called for fewer penalties in home games than in away games?</p></li>
+<li id="scc9e-ch01-li-54"><p id="scc9e-ch01-p-164" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Are college students satisfied with the cost of textbooks that they are required to purchase?</p></li>
+<li id="scc9e-ch01-li-55"><p id="scc9e-ch01-p-165" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Do college students who have access to video recordings of course lectures perform better in the course than those who don&#8217;t?</p></li>
+</list>
+</question>
+<question id="scc9e-ch01-ques-23">
+<p id="scc9e-ch01-p-166" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.23 Choose your study purpose.</phrase> Give an example of a question about pet owners, their behavior, or their opinions that would best be answered by</p>
+<list id="scc9e-ch01-list-18" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch01-li-56"><p id="scc9e-ch01-p-167" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> a sample survey.</p></li>
+<li id="scc9e-ch01-li-57"><p id="scc9e-ch01-p-168" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> an observational study that is not a sample survey.</p></li>
+<li id="scc9e-ch01-li-58"><p id="scc9e-ch01-p-169" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> an experiment.</p></li>
+</list>
+</question>
+<box id="scc9e-ch01-box-22" numbered="false" block_type="exploring-web">
+<p id="scc9e-ch01-p-170" block_type="QRL icon"><image asset-id="scc9e-ch01-img-14" alt="image" src="images/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch01-p-171" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
+<p id="scc9e-ch01-p-172" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
+</box>
+</section>
+</chapter>
+</manuscript>

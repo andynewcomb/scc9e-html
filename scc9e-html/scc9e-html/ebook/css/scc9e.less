@@ -87,17 +87,17 @@ th[align="right"] {
 	display: block;
 	font-family: sans-serif !important;
 	font-size: 15px !important;
-	//left: auto !important;
+	left: auto !important;
     // why the above? data-margin-content not set, so no right
-	left: 10px;
+	//left: 10px;
 	margin: 0 !important;
 	padding: 4px !important;
 	position: absolute !important;
 	text-indent: 0 !important;
-    [data-margin-content="right"] {
+    &[data-margin-content="right"] {
 	    right: 10px !important;
     }
-    [data-margin-content="left"] {
+    &[data-margin-content="left"] {
 	    right: 10px !important;
     }
 }
@@ -164,7 +164,7 @@ div[data-type="section"][data-block_type="chapter"] {
     h2 {
 	    display: none;
     }
-    [data-block_type="CN"]p {
+    [data-block_type="CN"] p {
 	    color: white;
 	    font-family: "arial",sans-serif;
 	    font-size: 6em;
@@ -176,7 +176,7 @@ div[data-type="section"][data-block_type="chapter"] {
 	    position: absolute;
 	    text-shadow: 1px 0 @dk-blue2, -1px 0 @dk-blue2, 0 1px @dk-blue2, 0 -1px @dk-blue2;
     }
-    [data-block_type="CT"]p {
+    [data-block_type="CT"] p {
 	    background-image: url("../asset/css/chapbg.png");
 	    background-position: right top;
 	    background-repeat: repeat-y;
