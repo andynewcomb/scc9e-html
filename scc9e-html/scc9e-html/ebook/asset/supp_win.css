@@ -25,3 +25,12 @@ div[data-type="section"][data-block_type="CR-X-H"] [data-type="question"] [data-
   font-weight: bold;
   cursor: auto;
 }
+/* destyle unnumbered figures */
+[data-type="section"] > [data-type="figure"] {
+  float: none !important;
+  margin: 2em auto !important;
+}
+[data-type="section"] > [data-type="figure"] img {
+  max-width: initial;
+  cursor: auto !important;
+}

@@ -11,7 +11,13 @@ use strict;
 binmode(STDIN, ":utf8");
 binmode(STDOUT, ":utf8");
 
-my $baseXMLfile = "scc9e-ch02.xml"; #-------------------------> identify digfir XML file here
+# my $baseXMLfile = "scc9e-ch01.xml"; #-------------------------> identify digfir XML file here
+# my $baseXMLfile = "scc9e-ch02.xml"; #-------------------------> identify digfir XML file here
+# my $baseXMLfile = "scc9e-ch03.xml"; #-------------------------> identify digfir XML file here
+# my $baseXMLfile = "scc9e-ch04.xml"; #-------------------------> identify digfir XML file here
+# my $baseXMLfile = "scc9e-ch05.xml"; #-------------------------> identify digfir XML file here
+# my $baseXMLfile = "scc9e-ch06.xml"; #-------------------------> identify digfir XML file here
+my $baseXMLfile = "scc9e-ch12.xml"; #-------------------------> identify digfir XML file here
 my $datahrefXML_file = "${baseXMLfile}_datahref.xml";
 
 
@@ -49,14 +55,16 @@ $xml_contents =~ s/(<table[^>]*block_type="TABLE"[^>]*)(>.*?<phrase block_type="
 $xml_contents =~ s/(<figure[^>]*block_type="FIGURE"[^>]*)(>.*?<phrase block_type="FG-N-ri">Figure (\d+)\.(\d+))/$1 data-filename="figure_${chapter}_$4.html"$2/gs;
 
 # figures (unnumbered)
-$xml_contents =~ s/(<figure[^>]*block_type="UN-FIGURE"[^>]*)(>.*?<image[^>]*src="[^"]*\/([^"]*)\.jpg")/$1 data-href="filename_${chapter}_$3.html"$2/gs;
+$xml_contents =~ s/(<figure[^>]*block_type="UN-FIGURE"[^>]*)(>.*?<image[^>]*src="[^"]*\/([^"]*)\.jpg")/$1 data-filename="${chapter}_$3.html"$2/gs;
 
 # exercises (Now it's your turn)
-$xml_contents =~ s/(<question[^>]*)(>\s*<p [^>]*>\s*<phrase block_type="BX2-QUE-N-ri">\s*(\d+)\.(\d+))/$1 data-href="filename_${chapter}_$4.html"$2/gs;
+$xml_contents =~ s/(<question[^>]*)(>\s*<p [^>]*>\s*<phrase block_type="BX2-QUE-N-ri">\s*(\d+)\.(\d+))/$1 block_type="exercise_${chapter}_$4.html"$2/gs;
 
 # exercises (the rest)
-$xml_contents =~ s/(<question[^>]*)(>\s*<p [^>]*>\s*<phrase block_type="CR-X-NL-N-ri">\s*(\d+)\.(\d+))/$1 data-href="filename_${chapter}_$4.html"$2/gs;
+$xml_contents =~ s/(<question[^>]*)(>\s*<p [^>]*>\s*<phrase block_type="CR-X-NL-N-ri">\s*(\d+)\.(\d+))/$1 block_type="exercise_${chapter}_$4.html"$2/gs;
 
+# exercises (with icon in front)
+$xml_contents =~ s/(<question[^>]*)(>\s*<p [^>]*>\s*<image [^>]*>\s*<phrase block_type="CR-X-NL-N-ri">\s*(\d+)\.(\d+))/$1 block_type="exercise_${chapter}_$4.html"$2/gs;
 
 
 

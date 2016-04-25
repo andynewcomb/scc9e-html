@@ -75,6 +75,9 @@ var Player_subtype = Player_manuscript_type.extend({
 
 	    var chapter_number = $('#manuscript').attr("data-chapter-number");
 
+        // remove all default DF click/mouseup events from image tags
+	    $('img').unbind();
+
         //TABLES
             // Adjust table widths according to the percentage specified in the "data-attr" attribute
 	        $('div[data-type="table"]').each(function () {
@@ -257,7 +260,14 @@ var Player_subtype = Player_manuscript_type.extend({
 	                    pop_content(supp_win, "1015px", "700px");
 	                });
         
-            
+            //UNNUMBERED FIGURE LINKS
+                // add link on the figure image
+	                $('[data-type="figure"][data-block_type]!="FIGURE"] img').click(function () {
+	                    var filename = $(this).parent().attr("data-filename");
+	                    var supp_win = filename.replace(/(.*0?(\d+)_0?\d+\.html)/, "asset/ch$2/supp_wins/figures/$1");
+	                    pop_content(supp_win, "1015px", "700px");
+	                });
+
 
             
 

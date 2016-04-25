@@ -6,5 +6,29 @@
   {
     "outputFile": "ebook/css/scc9e.css",
     "inputFile": "ebook/css/scc9e.less"
+  },
+  {
+    "outputFile": "ebook/css/scc9e_ch1.css",
+    "inputFile": "ebook/css/scc9e_ch1.less"
+  },
+  {
+    "outputFile": "ebook/css/scc9e_ch2.css",
+    "inputFile": "ebook/css/scc9e_ch2.less"
+  },
+  {
+    "outputFile": "ebook/css/scc9e_ch3.css",
+    "inputFile": "ebook/css/scc9e_ch3.less"
+  },
+  {
+    "outputFile": "ebook/css/scc9e_ch4.css",
+    "inputFile": "ebook/css/scc9e_ch4.less"
+  },
+  {
+    "outputFile": "ebook/css/scc9e_ch5.css",
+    "inputFile": "ebook/css/scc9e_ch5.less"
+  },
+  {
+    "outputFile": "ebook/css/scc9e_ch6.css",
+    "inputFile": "ebook/css/scc9e_ch6.less"
   }
 ]

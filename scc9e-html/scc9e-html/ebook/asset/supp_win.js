@@ -43,6 +43,8 @@ var suppwins_Player_subtype = Player_subtype.extend({
          $('[data-block_type="h1"] [data-caption-compass]  > img').unbind();
          $('[data-block_type="h1"] [data-caption-compass]  > .compassImg img').unbind();
          $('[data-block_type="h1"] [data-caption-compass] [data-block_type="FG-N-ri"]').unbind();
+         $('[data-type="figure"][data-block_type="UN-FIGURE"] img').unbind();
+         $('img').unbind();
 
 
          //don't want any cross-section/page/chapter linking in supplemental windows
@@ -74,7 +76,7 @@ var suppwins_Player_subtype = Player_subtype.extend({
 
 
     // IF NOT FIGURE SUPPLEMENTAL WINDOW CODE, enable click events
-    if ($('[data-type="section"] > [data-block_type="FIGURE"]').length == 0) {
+    if ($('[data-type="section"] > [data-type="figure"]').length == 0) {
          // add link on the figure image
         $('[data-caption-compass]  > .compassImg img').click(function () {
             var fignum = $(this).attr('src').replace(/fig_([\d_]+)/i, "$1");
@@ -93,7 +95,15 @@ var suppwins_Player_subtype = Player_subtype.extend({
             var supp_win = fignum.replace(/(\d+)\.(\d+)/, "../../../ch$1/supp_wins/figures/figure_$1_$2.html");
             pop_content(supp_win, "1015px", "700px");
         });
-     }
+        //UNNUMBERED FIGURE LINKS
+        // add link on the figure image
+        $('[data-type="figure"][data-block_type]!="FIGURE"] img').click(function () {
+            var filename = $(this).parent().attr("data-filename");
+            var supp_win = filename.replace(/(.*0?(\d+)_0?\d+\.html)/, "../../../ch$2/supp_wins/figures/$1");
+            pop_content(supp_win, "1015px", "700px");
+        });
+
+    }
 
     
     //// TABLE SUPPLEMENTAL WINDOW CODE

@@ -228,6 +228,48 @@
     <Content Include="ebook\css\scc9e.min.css">
       <DependentUpon>scc9e.css</DependentUpon>
     </Content>
+    <Content Include="ebook\css\scc9e_ch1.css">
+      <DependentUpon>scc9e_ch1.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch1.less" />
+    <Content Include="ebook\css\scc9e_ch1.min.css">
+      <DependentUpon>scc9e_ch1.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch2.css">
+      <DependentUpon>scc9e_ch2.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch2.less" />
+    <Content Include="ebook\css\scc9e_ch2.min.css">
+      <DependentUpon>scc9e_ch2.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch3.css">
+      <DependentUpon>scc9e_ch3.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch3.less" />
+    <Content Include="ebook\css\scc9e_ch3.min.css">
+      <DependentUpon>scc9e_ch3.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch4.css">
+      <DependentUpon>scc9e_ch4.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch4.less" />
+    <Content Include="ebook\css\scc9e_ch4.min.css">
+      <DependentUpon>scc9e_ch4.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch5.css">
+      <DependentUpon>scc9e_ch5.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch5.less" />
+    <Content Include="ebook\css\scc9e_ch5.min.css">
+      <DependentUpon>scc9e_ch5.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch6.css">
+      <DependentUpon>scc9e_ch6.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch6.less" />
+    <Content Include="ebook\css\scc9e_ch6.min.css">
+      <DependentUpon>scc9e_ch6.css</DependentUpon>
+    </Content>
     <Content Include="ebook\js\bh_cleanup.js" />
     <Content Include="ebook\js\digfir_ebook_fw.js" />
     <Content Include="ebook\js\excanvas.compiled.js" />
@@ -270,6 +312,17 @@
     <Content Include="ebook\scc9e_ch2_7.html" />
     <Content Include="packages.config" />
     <Content Include="ebook\create_page_number_map.pl" />
+    <Content Include="xml\scc9e-ch01.xml" />
+    <Content Include="xml\scc9e-ch02.xml" />
+    <Content Include="xml\scc9e-ch03.xml" />
+    <Content Include="xml\scc9e-ch03.xml_no_math.xml" />
+    <Content Include="xml\scc9e-ch04.xml" />
+    <Content Include="xml\scc9e-ch04.xml_no_math.xml" />
+    <Content Include="xml\scc9e-ch05.xml" />
+    <Content Include="xml\scc9e-ch05.xml_no_math.xml" />
+    <Content Include="xml\scc9e-ch06.xml" />
+    <Content Include="xml\scc9e-ch12.xml" />
+    <Content Include="xml\scc9e-ch12.xml_no_math.xml" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
@@ -280,6 +333,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="xml\addDataFilename.pl" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />

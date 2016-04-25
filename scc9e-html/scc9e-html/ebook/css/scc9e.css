@@ -38,6 +38,9 @@ h2 {
   margin-top: 1em;
   padding: 0;
 }
+p {
+  margin: 0;
+}
 /* only for sample ... move to chapter css, or remove when ready */
 [data-title-for="moorescc9e-ch1-sec1-4"] {
   left: 206px;
@@ -276,6 +279,7 @@ div[data-type="section"][data-block_type="h1"] [data-block_type="margin-statisti
   float: left;
   margin-left: -100px;
   margin-right: 20px;
+  margin-top: 1em;
   padding: 7px;
   width: 271px;
 }
@@ -497,6 +501,7 @@ div[data-block_type="TABLE"] [data-type="table"] [data-block_type="TBN-SC"] {
 /* Summary sections */
 div[data-type="section"][data-block_type="SUM-H"] {
   /* blue bullet list */
+  /* Link It */
   /* case study evaluated */
   /* online resources */
 }
@@ -514,7 +519,18 @@ div[data-type="section"][data-block_type="SUM-H"] h2 [data-block_type="SUM-H-ri"
 div[data-type="section"][data-block_type="SUM-H"] [data-block_type="SUM-hd1"] {
   color: #ef3b23;
   font-family: "arial", sans-serif;
+  font-weight: bold;
   margin-bottom: .5em;
+}
+div[data-type="section"][data-block_type="SUM-H"] img[src*="LinkIt.jpg"] {
+  float: left;
+  padding-right: 10px;
+  width: 62px;
+}
+div[data-type="section"][data-block_type="SUM-H"] [src="asset/global_images/link_it.jpg"] {
+  float: left;
+  margin-right: 10px;
+  width: 62px;
 }
 div[data-type="section"][data-block_type="SUM-H"] ul[data-block_type="bluearrow"] {
   list-style-type: none;
@@ -526,10 +542,31 @@ div[data-type="section"][data-block_type="SUM-H"] ul[data-block_type="bluearrow"
   margin-left: -20px;
   position: absolute;
 }
-div[data-type="section"][data-block_type="SUM-H"] [src="asset/global_images/link_it.jpg"] {
-  float: left;
-  margin-right: 10px;
-  width: 62px;
+div[data-type="section"][data-block_type="SUM-H"] ul[data-block_type="bluebullet"] {
+  list-style-type: none;
+  margin-left: 1em;
+  margin-top: 0em;
+}
+div[data-type="section"][data-block_type="SUM-H"] ul[data-block_type="bluebullet"] span[data-block_type="maker"] {
+  color: #005bab;
+  margin-left: -20px;
+  position: absolute;
+}
+div[data-type="section"][data-block_type="SUM-H"] ul[data-block_type="bluebullet"] li {
+  margin: .5em 0;
+}
+div[data-type="section"][data-block_type="SUM-H"] ul[data-block_type="redbullet"] {
+  list-style-type: none;
+  margin-left: 1em;
+  margin-top: 0em;
+}
+div[data-type="section"][data-block_type="SUM-H"] ul[data-block_type="redbullet"] span[data-block_type="maker"] {
+  color: #ef3b23;
+  margin-left: -20px;
+  position: absolute;
+}
+div[data-type="section"][data-block_type="SUM-H"] ul[data-block_type="redbullet"] li {
+  margin: .5em 0;
 }
 div[data-type="section"][data-block_type="SUM-H"] [data-block_type="case_title"] {
   background-color: white;
@@ -551,6 +588,9 @@ div[data-type="section"][data-block_type="SUM-H"] [data-block_type="case_title"]
   margin-left: -23px;
   position: absolute;
 }
+div[data-type="section"][data-block_type="SUM-H"] [data-block_type="case_title"] ol li {
+  margin: 8px 0;
+}
 div[data-type="section"][data-block_type="SUM-H"] span[data-block_type="BX4-H-ri"] {
   color: #005bab;
   float: left;
@@ -566,7 +606,7 @@ div[data-type="section"][data-block_type="SUM-H"] span[data-block_type="BX4-H-ri
 div[data-type="section"][data-block_type="SUM-H"] [data-block_type="launchpad"] {
   background-color: transparent;
 }
-div[data-type="section"][data-block_type="SUM-H"] [src="asset/global_images/launchpad.jpg"] {
+div[data-type="section"][data-block_type="SUM-H"] [src="asset/global_images/launchpad_ML_logo_cmyk.jpg"] {
   float: left;
   padding-right: 10px;
   position: relative;
@@ -588,35 +628,15 @@ div[data-type="section"][data-block_type="SUM-H"] ul[data-block_type="redarrow"]
   position: absolute;
 }
 /* check the basics */
-div[data-type="section"][data-block_type="CR-X-H"][data-type="question"] {
-  margin-bottom: 3em;
-  margin-top: 2em;
-}
-div[data-type="section"][data-block_type="CR-X-H"][data-type="question"] h3 {
-  display: none;
-}
-div[data-type="section"][data-block_type="CR-X-H"][data-type="question"] [src="asset/global_images/news.jpg"] {
-  float: left;
-  margin-right: 10px;
-  width: 73px;
-}
-div[data-type="section"][data-block_type="CR-X-H"][data-type="question"] [data-block_type="CR-X-NL-N-ri"] {
+div[data-type="section"][data-block_type="CR-X-H"] h2.section-title {
   color: #ef3b23;
-  font-family: "arial", sans-serif;
-  font-weight: normal;
+  border-bottom: 5px solid #005bab;
+  padding: 10px 0;
 }
-div[data-type="section"][data-block_type="CR-X-H"][data-type="question"] [data-block_type="CR-X-NL-N-ri"]:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
-div[data-type="section"][data-block_type="CR-X-H"][data-type="question"] ol[data-block_type="lower-alpha"] {
-  list-style-type: none;
-  margin-left: 0;
-}
-/* check the basics */
 div[data-type="section"][data-block_type="CR-X-H"] [data-type="question"] {
   margin-bottom: 3em;
   margin-top: 2em;
+  text-align: justify;
 }
 div[data-type="section"][data-block_type="CR-X-H"] [data-type="question"] h3 {
   display: none;
@@ -640,6 +660,11 @@ div[data-type="section"][data-block_type="CR-X-H"] [data-type="question"] ol[dat
   margin-left: 0;
 }
 /* chapter review */
+div[data-type="section"][data-block_type="CR-X-H-v1"] h2.section-title {
+  color: #005bab;
+  border-bottom: 5px solid #ef3b23;
+  padding: 10px 0;
+}
 div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] {
   margin-bottom: 3em;
   margin-top: 2em;
@@ -665,11 +690,21 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] ol[
   list-style-type: none;
   margin-left: 0;
 }
+div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] ul[data-block_type="none"] {
+  list-style-type: none;
+}
 /* numbered figures */
+[data-block_type="FIGURE"] {
+  margin: 2em 0;
+}
+[data-block_type="FIGURE"] [data-type="figure_text"] {
+  font-family: sans-serif;
+}
 [data-block_type="FIGURE"] [data-type="figure_text"] [data-type="number"] {
   display: none;
 }
 [data-block_type="FIGURE"] [data-type="figure_text"] [data-type="caption"] [data-block_type="FG-N-ri"] {
   font-weight: bold;
   cursor: pointer;
+  color: #008db7;
 }
