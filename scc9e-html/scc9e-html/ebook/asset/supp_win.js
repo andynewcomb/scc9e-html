@@ -76,7 +76,8 @@ var suppwins_Player_subtype = Player_subtype.extend({
 
 
     // IF NOT FIGURE SUPPLEMENTAL WINDOW CODE, enable click events
-    if ($('[data-type="section"] > [data-type="figure"]').length == 0) {
+         if (($('[data-type="section"] > [data-type="figure"]').length == 0) &&
+             (($('[data-type="section"] > [data-block_type="FIGURE"]').length == 0))) {
          // add link on the figure image
         $('[data-caption-compass]  > .compassImg img').click(function () {
             var fignum = $(this).attr('src').replace(/fig_([\d_]+)/i, "$1");

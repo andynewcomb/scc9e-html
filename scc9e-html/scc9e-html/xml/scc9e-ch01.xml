@@ -247,7 +247,8 @@
 </list>
 </box>
 <box id="scc9e-ch01-box-21" numbered="false" block_type="launchpad">
-<p id="scc9e-ch01-p-100"> Online Resources</p>
+<p id="scc9e-ch01-p-100" block_type="CR-BIB-T">
+<image asset-id="scc9e-ch01-img-09" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
 <list id="scc9e-ch01-list-03" type="unordered" block_type="redbullet">
 <li id="scc9e-ch01-li-12"><p id="scc9e-ch01-p-101" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The Snapshot Video <em>Introduction to Statistics</em> describes real-world situations for which knowledge of statistical ideas is important.</p></li>
 <li id="scc9e-ch01-li-13"><p id="scc9e-ch01-p-102" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The Snapshot Video <em>Types of Studies</em> provides a nice introduction to the ideas of this section.</p></li>

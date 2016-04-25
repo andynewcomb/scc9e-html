@@ -268,6 +268,15 @@ var Player_subtype = Player_manuscript_type.extend({
 	                    pop_content(supp_win, "1015px", "700px");
 	                });
 
+        // swap margin statistics boxes with previous sibling h2.section title
+        // this is done for purely aesthetic reasons, to match PDF styling
+        // the box, floated left, will now push the title right
+        // note the second case, when a figure acts like the box
+	                var title = $('h2.section-title');
+	                var box = $('h2.section-title + [data-block_type="margin-statistics"]');
+	                var fig = $('h2.section-title + [data-type="figure"]');
+	                if (box.length != 0) { box.insertBefore(title); }
+	                else if (fig.length != 0) { fig.insertBefore(title); }
 
             
 
@@ -278,13 +287,13 @@ var Player_subtype = Player_manuscript_type.extend({
 
             //Numbered figures supp windows
                 //size of figures in the supplemental windows should be 15% larger than main page
-                	$('body#supp_win > #manuscript > img').each(function() {
-		                var scale = .23;
-		                image = $(this) //update... this will accidentally find <img> in caption too. 
-		                var h = image.height() * scale;
-		                var w = image.width() * scale;
-		                image.css({ height: h, width: w });
-	                });
+                	//$('body#supp_win > #manuscript > img').each(function() {
+		            //    var scale = .23;
+		            //    image = $(this) //update... this will accidentally find <img> in caption too. 
+		            //    var h = image.height() * scale;
+		            //    var w = image.width() * scale;
+		            //    image.css({ height: h, width: w });
+	                //});
 
 
 

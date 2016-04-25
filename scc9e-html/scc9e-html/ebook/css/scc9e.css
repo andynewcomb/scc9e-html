@@ -512,6 +512,7 @@ div[data-type="section"][data-block_type="SUM-H"] h2 {
   font-size: 1.05em;
   font-weight: normal;
   text-transform: uppercase;
+  padding: 10px 0;
 }
 div[data-type="section"][data-block_type="SUM-H"] h2 [data-block_type="SUM-H-ri"] {
   color: #005bab;
@@ -605,6 +606,13 @@ div[data-type="section"][data-block_type="SUM-H"] span[data-block_type="BX4-H-ri
 }
 div[data-type="section"][data-block_type="SUM-H"] [data-block_type="launchpad"] {
   background-color: transparent;
+}
+div[data-type="section"][data-block_type="SUM-H"] [data-block_type="launchpad"] [data-block_type="CR-BIB-T"] {
+  margin-bottom: 1em;
+}
+div[data-type="section"][data-block_type="SUM-H"] [data-block_type="launchpad"] [data-block_type="CR-BIB-T"] p {
+  color: #ef3b23;
+  font-family: sans-serif;
 }
 div[data-type="section"][data-block_type="SUM-H"] [src="asset/global_images/launchpad_ML_logo_cmyk.jpg"] {
   float: left;
