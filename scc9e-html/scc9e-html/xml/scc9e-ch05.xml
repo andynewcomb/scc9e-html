@@ -109,7 +109,7 @@
 <p id="scc9e_page_101" block_type="page_start" data-margin-content="right">101</p>
 <box id="scc9e-ch05-box-09" numbered="false" block_type="BX2">
 <p id="scc9e-ch05-p-45" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch05-ques-01" data-filename="question_5_1.html">
+<question id="scc9e-ch05-ques-01" data-block_type="exercise_5_1.html">
 <p id="scc9e-ch05-p-46" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">5.1 Improving students&#8217; long-term knowledge retention.</phrase> Can a technique known as personalized review improve students&#8217; ability to remember material learned in a course? To answer this question, a researcher recruited 200 eighth-grade students who were taking introductory Spanish. She assigned 100 students to a class training students to use the personalized review technique as part of their study habits. The other 100 continued to use their usual study habits. The researcher examined both groups on Spanish vocabulary four weeks after the school year ended. Outline the design of this study using a diagram like <link href="figure_5_2.html">Figures 5.2</link> and <link href="figure_5_3.html">5.3</link>.</p>
 </question>
 </box>
@@ -188,7 +188,9 @@
 <li id="scc9e-ch05-li-12"><p id="scc9e-ch05-p-87" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> Differences among the effects of the treatments so large that they would rarely happen just by chance are called <strong>statistically significant</strong>.</p></li>
 <li id="scc9e-ch05-li-13"><p id="scc9e-ch05-p-88" block_type="SUM-BL-last"><phrase block_type="maker">&#8226;</phrase> Observational studies of cause-and-effect questions are more impressive if they <strong>compare matched groups</strong> and measure as many lurking variables as possible to allow <strong>statistical adjustment</strong>.</p></li>
 </list>
-<p id="asset/global_images/LinkIt.jpg"/>In <link href="scc9e-ch01.xml">Chapter 1</link> we saw that experiments are best suited for drawing conclusions about whether a treatment causes a change in a response. In this chapter, we learned that only well-designed experiments, in particular randomized comparative experiments, provide a sound basis for such conclusions. Statistically significant differences among the effects of treatments are the best available evidence that changing the explanatory variable really <em>causes</em> changes in the response.</p>
+<p id="scc9e-ch05-p-89" block_type="SUM-TXT-ni">
+<image asset-id="scc9e-ch05-img-07" alt="image" src="asset/global_images/LinkIt.jpg"/>In <link href="scc9e-ch01.xml">Chapter 1</link> we saw that experiments are best suited for drawing conclusions about whether a treatment causes a change in a response. In this chapter, we learned that only well-designed experiments, in particular randomized comparative experiments, provide a sound basis for such conclusions. Statistically significant differences among the effects of treatments are the best available evidence that changing the explanatory variable really <em>causes</em> changes in the response.
+</p>
 <p id="scc9e-ch05-p-90" block_type="TXT">When it is not possible to do an experiment, observational studies that measure as many lurking variables as possible and make statistical adjustments for their effects are sometimes used to answer cause-and-effect questions. However, they remain a weak second-best to well-designed experiments.</p>
 <box id="scc9e-ch05-box-14" numbered="false" block_type="case_title">
 <p id="scc9e-ch05-p-91" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> Use what you have learned in this chapter to evaluate the Case Study that opened the chapter. Start by reviewing the information on <link href="alias:page_93">page 93</link>. Then answer each of the following questions in complete sentences. Be sure to communicate clearly enough for any of your classmates to understand what you are saying.</p>
@@ -200,7 +202,9 @@
 </list>
 </box>
 <box id="scc9e-ch05-box-15" numbered="false" block_type="launchpad">
-<p id="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<p id="scc9e-ch05-p-96" block_type="CR-BIB-T">
+<image asset-id="scc9e-ch05-img-08" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources
+</p>
 <list id="scc9e-ch05-list-05" type="unordered" block_type="redbullet">
 <li id="scc9e-ch05-li-17"><p id="scc9e-ch05-p-97" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The Snapshot video <em>Types of Studies</em> and the StatClips video <em>Types of Studies</em> both review the differences between experiments and observational studies.</p></li>
 <li id="scc9e-ch05-li-18"><p id="scc9e-ch05-p-97a" block_type="CR-BIB-BL-last"><phrase block_type="maker">&#8226;</phrase> The Snapshot Video <em>Introduction to Statistics</em> describes real-world situations for which knowledge of statistical ideas is important.</p>
@@ -213,7 +217,7 @@
 <section id="scc9e-ch05-sec-09" block_type="CR-X-H" chapter="ch5" numbered="false" level="1" print_page="108">
 <section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
 <p id="scc9e-ch05-p-100" block_type="CR-X"><em>For <link href="exercise_5_1.html">Exercise 5.1</link>, see page 101.</em></p>
-<question id="scc9e-ch05-ques-02" data-filename="question_5_2.html">
+<question id="scc9e-ch05-ques-02" data-block_type="exercise_5_2.html">
 <p id="scc9e-ch05-p-101" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.2 Explanatory and response variables.</phrase> Does regular church attendance lengthen people&#8217;s lives? One study of the effect of regular attendance at religious services gathered data from a random sample of 3617 adults. The researchers measured whether a person attended religious services regularly and length of life. Which of the following is true?</p>
 <list id="scc9e-ch05-list-06" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch05-li-21"><p id="scc9e-ch05-p-102" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> In this study, length of life is the explanatory variable and regular attendance of religious services is the response variable.</p></li>
@@ -222,7 +226,7 @@
 <li id="scc9e-ch05-li-24"><p id="scc9e-ch05-p-105" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> In this study, there are no explanatory and response variables because these data come from a survey.</p></li>
 </list>
 </question>
-<question id="scc9e-ch05-ques-03" data-filename="question_5_3.html">
+<question id="scc9e-ch05-ques-03" data-block_type="exercise_5_3.html">
 <p id="scc9e-ch05-p-106" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.3 Observational study or experiment?</phrase>  The study described in <link href="exercise_5_2.html">Exercise 5.2</link> is</p>
 <list id="scc9e-ch05-list-07" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch05-li-25"><p id="scc9e-ch05-p-107" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> a randomized comparative experiment.</p></li>
@@ -231,7 +235,7 @@
 <li id="scc9e-ch05-li-28"><p id="scc9e-ch05-p-110" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> neither an experiment nor an observational study but, instead, a sample survey.</p></li>
 </list>
 </question>
-<question id="scc9e-ch05-ques-04" data-filename="question_5_4.html">
+<question id="scc9e-ch05-ques-04" data-block_type="exercise_5_4.html">
 <p id="scc9e-ch05-p-111" block_type="CR-X-NL-lvl2"><phrase block_type="CR-X-NL-N-ri">5.4 Lurking variables.</phrase> People who attend church or synagogue are less likely to smoke or be overweight than nonattenders. In the study described in <link href="exercise_5_2.html">Exercise 5.2</link>,</p>
 <list id="scc9e-ch05-list-08" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch05-li-29"><p id="scc9e-ch05-p-112" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> smoking is a lurking variable, but weight is not.</p></li>
@@ -240,7 +244,7 @@
 <li id="scc9e-ch05-li-32"><p id="scc9e-ch05-p-115" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> neither smoking nor weight is a lurking variable.</p></li>
 </list>
 </question>
-<question id="scc9e-ch05-ques-05" data-filename="question_5_5.html">
+<question id="scc9e-ch05-ques-05" data-block_type="exercise_5_5.html">
 <p id="scc9e-ch05-p-116" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.5 Statistical significance.</phrase> In the study described in <link href="exercise_5_2.html">Exercise 5.2</link>, researchers found that, by the end of the study, there was a statistically significant difference in the likelihood of dying between those who regularly attend religious services and nonattenders. Nonattenders were 25&#37; more likely to have died by the end of the study. Statistical significance here means</p>
 <list id="scc9e-ch05-list-09" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch05-li-33"><p id="scc9e-ch05-p-117" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the size of the observed difference in the likelihood of dying is not likely to be due to chance.</p></li>
@@ -250,7 +254,7 @@
 </list>
 </question>
 <p id="scc9e_page_109" block_type="page_start" data-margin-content="right">109</p>
-<question id="scc9e-ch05-ques-06" data-filename="question_5_6.html">
+<question id="scc9e-ch05-ques-06" data-block_type="exercise_5_6.html">
 <p id="scc9e-ch05-p-120" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.6 Randomized comparative experiment?</phrase> For which of the following studies would it be possible to conduct a randomized comparative experiment?</p>
 <list id="scc9e-ch05-list-10" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch05-li-37"><p id="scc9e-ch05-p-121" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> A study to determine if the month you were born in affects how long you will live.</p></li>
@@ -263,7 +267,7 @@
 <section id="scc9e-ch05-sec-10" block_type="CR-X-H-v1" chapter="ch5" numbered="false" level="1" print_page="109">
 <section-metadata><section-title>CHAPTER 5 EXERCISES</section-title></section-metadata>
 <question id="scc9e-ch05-ques-07">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">5.7 Exhaust is bad for your heart.</phrase> A <em>CNET News</em> article reported that the artery walls of people living within 100 meters of a highway thicken more than twice as fast as the average person&#8217;s. Researchers used ultrasound to measure the carotid artery wall thickness of 1483 people living near freeways in the Los Angeles area. The artery wall thickness among those living within 100 meters of a highway increased by 5.5 micrometers (roughly 1 / 20th the thickness of a human hair) each year during the three-year study, which is more than twice the progression observed in participants who did not live within this distance of a highway.</p>
+<p id="scc9e-ch05-p-125"><phrase block_type="CR-X-NL-N-ri">5.7 Exhaust is bad for your heart.</phrase> A <em>CNET News</em> article reported that the artery walls of people living within 100 meters of a highway thicken more than twice as fast as the average person&#8217;s. Researchers used ultrasound to measure the carotid artery wall thickness of 1483 people living near freeways in the Los Angeles area. The artery wall thickness among those living within 100 meters of a highway increased by 5.5 micrometers (roughly 1 / 20th the thickness of a human hair) each year during the three-year study, which is more than twice the progression observed in participants who did not live within this distance of a highway.</p>
 <list id="scc9e-ch05-list-11" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch05-li-41"><p id="scc9e-ch05-p-126" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What are the explanatory and response variables?</p></li>
 <li id="scc9e-ch05-li-42"><p id="scc9e-ch05-p-127" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Explain carefully why this study is not an experiment.</p></li>
@@ -271,17 +275,17 @@
 </list>
 </question>
 <question id="scc9e-ch05-ques-08">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">5.8 Birth month and health.</phrase> A <em>Columbus Dispatch</em> article reported that researchers at the Columbia University Department of Medicine examined records for an incredible 1.75 million patients born between 1900 and 2000 who had been treated at Columbia University Medical Center. Using statistical analysis, the researchers found that for cardiovascular disease, those born in the fall (September through December) were more protected, while those born in winter and spring (January to June) had higher risk. And because so many lives are cut short due to cardiovascular diseases, being born in the autumn was actually associated with living longer than being born in the spring. Is this conclusion the result of an experiment? Why or why not? What are the explanatory and response variables?</p>
+<p id="scc9e-ch05-p-129"><phrase block_type="CR-X-NL-N-ri">5.8 Birth month and health.</phrase> A <em>Columbus Dispatch</em> article reported that researchers at the Columbia University Department of Medicine examined records for an incredible 1.75 million patients born between 1900 and 2000 who had been treated at Columbia University Medical Center. Using statistical analysis, the researchers found that for cardiovascular disease, those born in the fall (September through December) were more protected, while those born in winter and spring (January to June) had higher risk. And because so many lives are cut short due to cardiovascular diseases, being born in the autumn was actually associated with living longer than being born in the spring. Is this conclusion the result of an experiment? Why or why not? What are the explanatory and response variables?</p>
 </question>
 <question id="scc9e-ch05-ques-09">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">5.9 Weight-loss surgery and longer life.</phrase> An article in the <em>Washington Post</em> reported that, according to two large studies, obese people are significantly less likely to die prematurely if they undergo stomach surgery to lose weight. But people choose whether to have stomach surgery. Explain why this fact makes any conclusion about cause and effect untrustworthy. Use the language of lurking variables and confounding in your explanation, and draw a picture like <link href="figure_5_1.html">Figure 5.1</link> to illustrate your explanation.</p>
+<p id="scc9e-ch05-p-130"><phrase block_type="CR-X-NL-N-ri">5.9 Weight-loss surgery and longer life.</phrase> An article in the <em>Washington Post</em> reported that, according to two large studies, obese people are significantly less likely to die prematurely if they undergo stomach surgery to lose weight. But people choose whether to have stomach surgery. Explain why this fact makes any conclusion about cause and effect untrustworthy. Use the language of lurking variables and confounding in your explanation, and draw a picture like <link href="figure_5_1.html">Figure 5.1</link> to illustrate your explanation.</p>
 </question>
 <p id="scc9e_page_110" block_type="page_start" data-margin-content="left">110</p>
-<question id="scc9e-ch05-ques-10" data-filename="question_5_10.html">
+<question id="scc9e-ch05-ques-10" data-block_type="exercise_5_10.html">
 <p id="scc9e-ch05-p-131" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.10 Is obesity contagious?</phrase> A study closely followed a large social network of 12,067 people for 32 years, from 1971 until 2003. The researchers found that when a person gains weight, close friends tend to gain weight, too. The researchers reported that obesity can spread from person to person, much like a virus.</p>
 <p id="scc9e-ch05-p-132" block_type="CR-X-NL">Explain why the fact that, when a person gains weight, close friends also tend to gain weight does not necessarily mean that weight gains in a person cause weight gains in close friends. In particular, identify some lurking variables whose effect on weight gain may be confounded with the effect of weight gains in close friends. Draw a picture like <link href="figure_5_1.html">Figure 5.1</link> to illustrate your explanation.</p>
 </question>
-<question id="scc9e-ch05-ques-11" data-filename="question_5_11.html">
+<question id="scc9e-ch05-ques-11" data-block_type="exercise_5_11.html">
 <p id="scc9e-ch05-p-133" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.11 Aspirin and heart attacks.</phrase> Can aspirin help prevent heart attacks? The Physicians&#8217; Health Study, a large medical experiment involving 22,000 male physicians, attempted to answer this question. One group of about 11,000 physicians took an aspirin every second day, while the rest took a placebo. After several years, the study found that subjects in the aspirin group had significantly fewer heart attacks than subjects in the placebo group.</p>
 <list id="scc9e-ch05-list-12" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch05-li-44"><p id="scc9e-ch05-p-134" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Identify the experimental subjects, the explanatory variable and the values it can take, and the response variable.</p></li>
@@ -289,26 +293,26 @@
 <li id="scc9e-ch05-li-46"><p id="scc9e-ch05-p-136" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> What do you think the term &#8220;significantly&#8221; means in &#8220;significantly fewer heart attacks&#8221;?</p></li>
 </list>
 </question>
-<question id="scc9e-ch05-ques-12" data-filename="question_5_12.html">
+<question id="scc9e-ch05-ques-12" data-block_type="exercise_5_12.html">
 <p id="scc9e-ch05-p-137" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.12 The pen is mightier than the keyboard.</phrase> Is longhand note-taking more effective for learning than taking notes on a laptop? Researchers at two universities studied this issue. In one of the studies, 65 students listened to five talks. Students were randomly assigned either a laptop or a notebook for purposes of taking notes. Assume that 33 students were assigned to use laptops and 32 longhand. Whether taking notes on a laptop or by hand in a notebook, students were instructed to use their normal note-taking strategy. Thirty minutes after the lectures, participants were tested with conceptual application questions based on the lectures. Those taking notes by hand performed better than those taking notes on a laptop. Why is instructing students to use their normal note-taking strategy a problem if the goal is to determine the effect on learning of note-taking on a laptop as compared to note-taking by hand?</p>
 </question>
-<question id="scc9e-ch05-ques-13" data-filename="question_5_13.html">
+<question id="scc9e-ch05-ques-13" data-block_type="exercise_5_13.html">
 <p id="scc9e-ch05-p-138" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.13 Neighborhood&#8217;s effect on grades.</phrase> To study the effect of neighborhood on academic performance, 1000 families were given federal housing vouchers to move out of their low-income neighborhoods. No improvement in the academic performance of the children in the families was found one year after the move.</p>
 <p id="scc9e-ch05-p-139" block_type="CR-X-NL">Explain clearly why the lack of improvement in academic performance after one year does not necessarily mean that neighborhood does not affect academic performance. In particular, identify some lurking variables whose effect on academic performance may be confounded with the effect of neighborhood. Use a picture like <link href="figure_5_1.html">Figure 5.1</link> to illustrate your explanation.</p>
 </question>
 <p id="scc9e_page_111" block_type="page_start" data-margin-content="right">111</p>
-<question id="scc9e-ch05-ques-14" data-filename="question_5_14.html">
+<question id="scc9e-ch05-ques-14" data-block_type="exercise_5_14.html">
 <p id="scc9e-ch05-p-140" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.14 The pen is mightier than the keyboard, continued.</phrase></p>
 <list id="scc9e-ch05-list-13" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch05-li-47"><p id="scc9e-ch05-p-141" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Outline the design of <link href="exercise_5_12.html">Exercise 5.12</link> for the experiment to compare the two treatments (laptop note-taking and longhand note-taking) that students received for taking notes. When you outline the design of an experiment, be sure to indicate the size of the treatment groups and the response variable. The diagrams in <link href="figure_5_2.html">Figures 5.2</link> and <link href="figure_5_3.html">5.3</link> are models.</p></li>
 <li id="scc9e-ch05-li-48"><p id="scc9e-ch05-p-142" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> If you have access to statistical software, use it to carry out the randomization required by your design. Otherwise, use <link href="table_a.html">Table A</link>, beginning at line 119, to do the randomization your design requires.</p></li>
 </list>
 </question>
-<question id="scc9e-ch05-ques-15" data-filename="question_5_15.html">
+<question id="scc9e-ch05-ques-15" data-block_type="exercise_5_15.html">
 <p id="scc9e-ch05-p-143" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.15 Learning on the Web.</phrase> The discussion following <link href="example_5_1.html">Example 1</link> notes that the Nova Southeastern University study does not tell us much about Web versus classroom learning because the students who chose the Web version were much better prepared. Describe the design of an experiment to get better information.</p>
 </question>
 <question id="scc9e-ch05-ques-16">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">5.16 Do antioxidants prevent cancer?</phrase>  People who eat lots of fruits and vegetables have lower rates of colon cancer than those who eat little of these foods. Fruits and vegetables are rich in &#8220;antioxidants&#8221; such as vitamins A, C, and E. Will taking antioxidants help prevent colon cancer? A clinical trial studied this question with 864 people who were at risk for colon cancer. The subjects were divided into four groups: daily beta-carotene, daily vitamins C and E, all three vitamins every day, and daily placebo. After four years, the researchers were surprised to find no significant difference in colon cancer among the groups.</p>
+<p id="scc9e-ch05-p-144"><phrase block_type="CR-X-NL-N-ri">5.16 Do antioxidants prevent cancer?</phrase>  People who eat lots of fruits and vegetables have lower rates of colon cancer than those who eat little of these foods. Fruits and vegetables are rich in &#8220;antioxidants&#8221; such as vitamins A, C, and E. Will taking antioxidants help prevent colon cancer? A clinical trial studied this question with 864 people who were at risk for colon cancer. The subjects were divided into four groups: daily beta-carotene, daily vitamins C and E, all three vitamins every day, and daily placebo. After four years, the researchers were surprised to find no significant difference in colon cancer among the groups.</p>
 <list id="scc9e-ch05-list-14" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch05-li-49"><p id="scc9e-ch05-p-145" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What are the explanatory and response variables in this experiment?</p></li>
 <li id="scc9e-ch05-li-50"><p id="scc9e-ch05-p-146" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Outline the design of the experiment. (The diagrams in <link href="figure_5_2.html">Figures 5.2</link> and <link href="figure_5_3.html">5.3</link> are models.)</p></li>
@@ -317,15 +321,15 @@
 <li id="scc9e-ch05-li-53"><p id="scc9e-ch05-p-149" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(e)</phrase> Suggest some lurking variables that could explain why people who eat lots of fruits and vegetables have lower rates of colon cancer. The results of the experiment suggest that these variables, rather than the antioxidants, may be responsible for the observed benefits of fruits and vegetables.</p></li>
 </list>
 </question>
-<question id="scc9e-ch05-ques-17" data-filename="question_5_17.html">
+<question id="scc9e-ch05-ques-17" data-block_type="exercise_5_17.html">
 <p id="scc9e-ch05-p-150" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.17 Conserving energy.</phrase> <link href="example_5_5.html">Example 5</link> describes an experiment to learn whether providing households with electronic meters or with an app will reduce their electricity consumption. An executive of the electric company objects to including a control group. He says, &#8220;It would be cheaper to just compare electricity use last year [before the meter or app was provided] with consumption in the same period this year. If households use less electricity this year, the meter or app must be working.&#8221; Explain clearly why this design is inferior to that in <link href="example_5_5.html">Example 5</link>.</p>
 </question>
 <p id="scc9e_page_112" block_type="page_start" data-margin-content="left">112</p>
 <question id="scc9e-ch05-ques-18">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">5.18 Improving Chicago&#8217;s schools.</phrase>  The National Science Foundation (NSF) paid for &#8220;systemic initiatives&#8221; to help cities reform their public education systems in ways that should help students learn better. Does this program work? The initiative in Chicago focused on improving the teaching of mathematics in high schools. The average scores of students on a standard test of math skills were higher after two years of the program in 51 out of 60 high schools in the city. Leaders of NSF said this was evidence that the Chicago program was succeeding. Critics said this doesn&#8217;t say anything about the effect of the systemic initiative. Are these critics correct? Explain.</p>
+<p id="scc9e-ch05-p-151"><phrase block_type="CR-X-NL-N-ri">5.18 Improving Chicago&#8217;s schools.</phrase>  The National Science Foundation (NSF) paid for &#8220;systemic initiatives&#8221; to help cities reform their public education systems in ways that should help students learn better. Does this program work? The initiative in Chicago focused on improving the teaching of mathematics in high schools. The average scores of students on a standard test of math skills were higher after two years of the program in 51 out of 60 high schools in the city. Leaders of NSF said this was evidence that the Chicago program was succeeding. Critics said this doesn&#8217;t say anything about the effect of the systemic initiative. Are these critics correct? Explain.</p>
 </question>
 <question id="scc9e-ch05-ques-19">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">5.19 Tylenol dulls emotions.</phrase> Will the same dose of Tylenol that stops the throbbing pain in your stubbed toe make you feel less joy at your sister&#8217;s wedding? A <em>Columbus Dispatch</em> article reported on a study, conducted by researchers at The Ohio State University, of the effects of Tylenol on emotions. Half of the volunteers in the study were randomly assigned to take acetaminophen and the other half a placebo. After allowing time for the drug to take effect, the research team showed the college students 40 images that ranged from extremely unpleasant to extremely pleasant. On the one end were things such as close-up shots of malnourished children and city blocks destroyed in a war zone. On the other were images of children playing with kittens in a park, a big pile of money, and the faces of a couple in bed together. The intensity of the response to the images was measured for each subject by asking them to respond to the question, &#8220;To what extent is this picture positive or negative&#8221; using an 11-point scale from &#8211;5 (extremely negative) to 5 (extremely positive).</p>
+<p id="scc9e-ch05-p-152"><phrase block_type="CR-X-NL-N-ri">5.19 Tylenol dulls emotions.</phrase> Will the same dose of Tylenol that stops the throbbing pain in your stubbed toe make you feel less joy at your sister&#8217;s wedding? A <em>Columbus Dispatch</em> article reported on a study, conducted by researchers at The Ohio State University, of the effects of Tylenol on emotions. Half of the volunteers in the study were randomly assigned to take acetaminophen and the other half a placebo. After allowing time for the drug to take effect, the research team showed the college students 40 images that ranged from extremely unpleasant to extremely pleasant. On the one end were things such as close-up shots of malnourished children and city blocks destroyed in a war zone. On the other were images of children playing with kittens in a park, a big pile of money, and the faces of a couple in bed together. The intensity of the response to the images was measured for each subject by asking them to respond to the question, &#8220;To what extent is this picture positive or negative&#8221; using an 11-point scale from &#8211;5 (extremely negative) to 5 (extremely positive).</p>
 <list id="scc9e-ch05-list-15" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch05-li-54"><p id="scc9e-ch05-p-153" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is the explanatory variable?</p></li>
 <li id="scc9e-ch05-li-55"><p id="scc9e-ch05-p-154" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What is the response variable, and what values does it take?</p></li>
@@ -333,13 +337,13 @@
 </list>
 </question>
 <question id="scc9e-ch05-ques-20">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">5.20 Reducing health care spending.</phrase>  Will people spend less on health care if their health insurance requires them to pay some part of the cost themselves? An experiment on this issue asked if the percentage of medical costs that is paid by health insurance has an effect both on the amount of medical care that people use and on their health. The treatments were four insurance plans. Each plan paid all medical costs above a ceiling. Below the ceiling, the plans paid 100&#37;, 75&#37;, 50&#37;, or 0&#37; of costs incurred.</p>
+<p id="scc9e-ch05-p-156"><phrase block_type="CR-X-NL-N-ri">5.20 Reducing health care spending.</phrase>  Will people spend less on health care if their health insurance requires them to pay some part of the cost themselves? An experiment on this issue asked if the percentage of medical costs that is paid by health insurance has an effect both on the amount of medical care that people use and on their health. The treatments were four insurance plans. Each plan paid all medical costs above a ceiling. Below the ceiling, the plans paid 100&#37;, 75&#37;, 50&#37;, or 0&#37; of costs incurred.</p>
 <list id="scc9e-ch05-list-16" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch05-li-57"><p id="scc9e-ch05-p-157" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Outline the design of a randomized comparative experiment suitable for this study.</p></li>
 <li id="scc9e-ch05-li-58"><p id="scc9e-ch05-p-158" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Briefly describe the practical and ethical difficulties that might arise in such an experiment.</p></li>
 </list>
 </question>
-<question id="scc9e-ch05-ques-21" data-filename="question_5_21.html">
+<question id="scc9e-ch05-ques-21" data-block_type="exercise_5_21.html">
 <p id="scc9e-ch05-p-159" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.21 Tylenol dulls emotions.</phrase> Consider again the Tylenol experiment of <link href="exercise_5_19.html">Exercise 5.19</link>.</p>
 <list id="scc9e-ch05-list-17" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch05-li-59"><p id="scc9e-ch05-p-160" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Use a diagram to describe a randomized comparative experimental design for this experiment.</p></li>
@@ -347,16 +351,16 @@
 </list>
 </question>
 <p id="scc9e_page_113" block_type="page_start" data-margin-content="right">113</p>
-<question id="scc9e-ch05-ques-22" data-filename="question_5_22.html">
+<question id="scc9e-ch05-ques-22" data-block_type="exercise_5_22.html">
 <p id="scc9e-ch05-p-162" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.22 Treating drunk drivers.</phrase> Once a person has been convicted of drunk driving, one purpose of court-mandated treatment or punishment is to prevent future offenses of the same kind. Suggest three different treatments that a court might require. Then outline the design of an experiment to compare their effectiveness. Be sure to specify the response variables you will measure.</p>
 </question>
-<question id="scc9e-ch05-ques-23" data-filename="question_5_23.html">
+<question id="scc9e-ch05-ques-23" data-block_type="exercise_5_23.html">
 <p id="scc9e-ch05-p-163" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.23 Statistical significance.</phrase> A randomized comparative experiment examines whether the usual care of patients with chronic heart failure plus aerobic exercise training improves health status compared with the usual care alone. The researchers conclude that usual care plus exercise training confers modest but statistically significant improvements in self-reported health status compared with usual care without training. Explain what &#8220;statistically significant&#8221; means in the context of this experiment, as if you were speaking to a patient who knows no statistics.</p>
 </question>
 <question id="scc9e-ch05-ques-24">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">5.24 Statistical significance.</phrase> A study, mandated by Congress when it passed No Child Left Behind in 2002, evaluated 15 reading and math software products used by 9424 students in 132 schools across the country during the 2004&#208;2005 school year. It is the largest study that has compared students who received the technology with those who did not, as measured by their scores on standardized tests. There were no statistically significant differences between students who used software and those who did not. Explain the meaning of &#8220;no statistically significant differences&#8221; in plain language.</p>
+<p id="scc9e-ch05-p-164"><phrase block_type="CR-X-NL-N-ri">5.24 Statistical significance.</phrase> A study, mandated by Congress when it passed No Child Left Behind in 2002, evaluated 15 reading and math software products used by 9424 students in 132 schools across the country during the 2004&#208;2005 school year. It is the largest study that has compared students who received the technology with those who did not, as measured by their scores on standardized tests. There were no statistically significant differences between students who used software and those who did not. Explain the meaning of &#8220;no statistically significant differences&#8221; in plain language.</p>
 </question>
-<question id="scc9e-ch05-ques-25" data-filename="question_5_25.html">
+<question id="scc9e-ch05-ques-25" data-block_type="exercise_5_25.html">
 <p id="scc9e-ch05-p-165" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.25 All the weight loss in half the time.</phrase> Some medical researchers suspect that 30 minutes of daily exercise will be just as effective as 60 minutes of daily exercise in reducing weight. You have available 50 heavy but healthy people who are willing to serve as subjects.</p>
 <list id="scc9e-ch05-list-18" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch05-li-61"><p id="scc9e-ch05-p-166" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Outline an appropriate design for the experiment.</p></li>
@@ -416,17 +420,17 @@
 </list>
 </question>
 <p id="scc9e_page_114" block_type="page_start" data-margin-content="left">114</p>
-<question id="scc9e-ch05-ques-26" data-filename="question_5_26.html">
+<question id="scc9e-ch05-ques-26" data-block_type="exercise_5_26.html">
 <p id="scc9e-ch05-p-218" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.26 Treating prostate disease.</phrase> A large study used records from Canada&#8217;s national health care system to compare the effectiveness of two ways to treat prostate disease. The two treatments are traditional surgery and a new method that does not require surgery. The records described many patients whose doctors had chosen one or the other method. The study found that patients treated by the new method were significantly more likely to die within eight years.</p>
 <list id="scc9e-ch05-list-20" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch05-li-113"><p id="scc9e-ch05-p-219" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Further study of the data showed that this conclusion was wrong. The extra deaths among patients treated with the new method could be explained by lurking variables. What lurking variables might be confounded with a doctor&#8217;s choice of surgical or nonsurgical treatment? For example, why might a doctor avoid assigning a patient to surgery?</p></li>
 <li id="scc9e-ch05-li-114"><p id="scc9e-ch05-p-220" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> You have 300 prostate patients who are willing to serve as subjects in an experiment to compare the two methods. Use a diagram to outline the design of a randomized comparative experiment.</p></li>
 </list>
 </question>
-<question id="scc9e-ch05-ques-27" data-filename="question_5_27.html">
+<question id="scc9e-ch05-ques-27" data-block_type="exercise_5_27.html">
 <p id="scc9e-ch05-p-221" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.27 Prayer and meditation.</phrase> You read in a magazine that &#8220;nonphysical treatments such as meditation and prayer have been shown to be effective in controlled scientific studies for such ailments as high blood pressure, insomnia, ulcers, and asthma.&#8221; Explain in simple language what the article means by &#8220;controlled scientific studies&#8221; and why such studies might show that meditation and prayer are effective treatments for some medical problems.</p>
 </question>
-<question id="scc9e-ch05-ques-28" data-filename="question_5_28.html">
+<question id="scc9e-ch05-ques-28" data-block_type="exercise_5_28.html">
 <p id="scc9e-ch05-p-222" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.28 Exercise and bone loss.</phrase> Does regular exercise reduce bone loss in postmenopausal women? Here are two ways to study this question. Which design will produce more trustworthy data? Explain why.</p>
 <list id="scc9e-ch05-list-21" type="ordered" block_type="numbered">
 <li id="scc9e-ch05-li-115"><p id="scc9e-ch05-p-223" block_type="CR-X-NL-lvl2"><phrase block_type="maker">1.</phrase> A researcher finds 1000 postmenopausal women who exercise regularly. She matches each with a similar postmenopausal woman who does not exercise regularly, and she follows both groups for five years.</p></li>
@@ -434,7 +438,7 @@
 </list>
 </question>
 <question id="scc9e-ch05-ques-29">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">5.29 Safety of anesthetics.</phrase> The death rates of surgical patients differ for operations in which different anesthetics are used. An observational study found these death rates for four anesthetics:</p>
+<p id="scc9e-ch05-p-225"><phrase block_type="CR-X-NL-N-ri">5.29 Safety of anesthetics.</phrase> The death rates of surgical patients differ for operations in which different anesthetics are used. An observational study found these death rates for four anesthetics:</p>
 <table id="scc9e-ch05-untab-01" numbered="false" block_type="UN-TABLE" attr="50">
 <tbody>
 <tr>
@@ -461,7 +465,7 @@
 </table>
 <p id="scc9e-ch05-p-226" block_type="CR-X-NL">This is <em>not</em> good evidence that cyclopropane is more dangerous than the other anesthetics. Suggest some lurking variables that may be confounded with the choice of anesthetic in surgery and that could explain the different death rates.</p>
 </question>
-<question id="scc9e-ch05-ques-30" data-filename="question_5_30.html">
+<question id="scc9e-ch05-ques-30" data-block_type="exercise_5_30.html">
 <p id="scc9e-ch05-p-227" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">5.30 Randomization at work.</phrase> To demonstrate how randomization reduces confounding, consider the following situation. A nutrition experimenter intends to compare the weight gain of prematurely born infants fed Diet A with those fed Diet B. To do this, she will feed each diet to 10 prematurely born infants whose parents have enrolled them in the study. She has available 10 baby girls and 10 baby boys. The researcher is concerned that baby boys may respond more favorably to the diets, so if all the baby boys were fed Diet A, the experiment would be biased in favor of Diet A.</p>
 <list id="scc9e-ch05-list-22" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch05-li-117"><p id="scc9e-ch05-p-228" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Label the infants 00, 01, . . . , 19. Use <link href="table_a.html">Table A</link> to assign 10 infants to Diet A. Or, if you have access to statistical software, use it to assign 10 infants to Diet A. Do this four times, using different parts of the table (or different runs of your software), and write down the four groups assigned to Diet A.</p></li>

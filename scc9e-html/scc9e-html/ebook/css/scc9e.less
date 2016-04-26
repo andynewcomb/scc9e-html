@@ -251,6 +251,7 @@ div[data-type="section"][data-block_type="h1"] {
 	        border-top: 4px solid red;
 	        padding-left: 18px;
 	        padding-right: 18px;
+            padding-bottom: 10px;
         }
         h3 {
 	    display: none;
@@ -265,6 +266,10 @@ div[data-type="section"][data-block_type="h1"] {
         div[data-block_type="BX1-TXT-ni"] p {
 	        text-align: justify;
         }
+        div[data-block_type="BX1-TXT-i"] p {
+	        text-align: justify;
+	        text-indent: 1.5em;
+        }
         div[data-block_type="BX1-TXT"] p {
 	        text-align: justify;
 	        text-indent: 1.5em;
@@ -275,6 +280,19 @@ div[data-type="section"][data-block_type="h1"] {
             [data-block_type="maker"] {
 	            font-weight: bold;
             }
+        }
+    }
+    ul[data-block_type="bluebullet"] {
+	    list-style-type: none;
+	    margin-left: 1em;
+	    margin-top: 0em;
+        span[data-block_type="maker"] {
+	        color: @dk-blue;
+	        margin-left: -20px;
+	        position: absolute;
+        }
+        li  {
+            margin: .5em 0;
         }
     }
     div[data-block_type="EXP-first"] p {
@@ -321,30 +339,34 @@ div[data-type="section"][data-block_type="h1"] {
 
 /* example boxes */
 [data-block_type="EXP"] {
-	background-color: white;
-	background-image: url(../asset/css/examplebg.png);
-	background-position: left top;
-	background-repeat: repeat-y;
-	margin-bottom: 2em;
-	margin-top: 2em;
-	padding-left: 17px;
+    background-color: white;
+    background-image: url(../asset/css/examplebg.png);
+    background-position: left top;
+    background-repeat: repeat-y;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding-left: 17px;
+
     [data-block_type="EXP-T"] p {
-	    color: @brick-red;
-	    font-family: "arial",sans-serif;
-	    font-size: .95em;
-	    margin-bottom: .5em;
-	    &:hover {
-		    cursor: pointer;
-		    text-decoration: underline;
-	    }
+        color: @brick-red;
+        font-family: "arial",sans-serif;
+        font-size: .95em;
+        margin-bottom: .5em;
+
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
     }
+
     span[data-block_type="EXP-N-ri"] {
-	    font-weight: bold;
-	    padding-right: .5em;
-	    text-transform: uppercase;
+        font-weight: bold;
+        padding-right: .5em;
+        text-transform: uppercase;
     }
+
     ul[data-block_type="none"] {
-	    list-style-type: none;
+        list-style-type: none;
     }
 }
 
@@ -379,6 +401,69 @@ div[data-block_type="BX2"] {
 	    width: 650px;
     }
 
+}
+
+/* Statistical Controversies */
+div[data-block_type="BX3"] {
+	background-color: transparent;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+    box-shadow: 0px 0px 1px 3px #ffe9ac;
+	margin: 1.5em 0;
+	width: 800px;
+    padding: 6px;
+    position: relative;
+    h3 {
+	    display: none;
+    }
+    [data-type="box_inner"] {
+	    border-bottom: 1px solid black;
+	    border-left: 1px solid black;
+	    border-right: 1px solid black;
+        padding: 1em;
+    }
+    // title
+    [data-block_type="BX3-H"] {
+        background-color: @brick-red;
+        color: white;
+        font-family: sans-serif;
+        font-size: 1.2em;
+        padding: 4px 1em;
+        box-shadow: 8px 8px 14px #ccc;
+        position: absolute;
+        left: -1px;
+        top: -19px;
+        width: 765px;
+        [data-block_type="BX3-H-ri"] {
+            font-weight: bold;
+        }
+    }
+    // inner title
+    [data-block_type="BX3-T"] {
+        font-family: sans-serif;
+        color: @dk-blue;
+        font-size: 1.1em;
+        font-weight: bold;
+        margin-bottom: .5em;
+    }
+    [data-block_type="BX3-TXT-ni"] {
+	    text-align: justify;
+    }
+    [data-block_type="BX3-TXT"] {
+	    text-align: justify;
+	    text-indent: 1.5em;
+    }
+    [data-type="figure"] {
+        margin: 0;
+        border: 0;
+        [data-type="asset_source"] {
+            display: none;
+        }
+    }
+    [data-block_type="BX3-url"] {
+        margin: 12px 0;
+    }
 }
 
 div[data-block_type="BX2-H"] p {
@@ -750,6 +835,28 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] {
 	        list-style-type: none;
         }
     }
+    [data-block_type="exploring-web"] {
+        margin-bottom: 4em;
+        img {
+            float: left;
+            padding-right: 10px;
+            background-color: white;
+            margin-top: -26px;
+        }
+        [data-block_type="WEB"] {
+            font-family: sans-serif;
+            color: @dk-blue;
+            border-bottom: 5px solid @brick-red;
+        }
+        /*[data-block_type="WEBTX"] {
+
+        }*/
+    }
+}
+
+[data-type="figure"] {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* numbered figures */

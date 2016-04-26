@@ -233,6 +233,7 @@ div[data-type="section"][data-block_type="h1"] [data-block_type="BX1"] [data-typ
   border-top: 4px solid red;
   padding-left: 18px;
   padding-right: 18px;
+  padding-bottom: 10px;
 }
 div[data-type="section"][data-block_type="h1"] [data-block_type="BX1"] h3 {
   display: none;
@@ -247,6 +248,10 @@ div[data-type="section"][data-block_type="h1"] [data-block_type="BX1"] [data-blo
 div[data-type="section"][data-block_type="h1"] [data-block_type="BX1"] div[data-block_type="BX1-TXT-ni"] p {
   text-align: justify;
 }
+div[data-type="section"][data-block_type="h1"] [data-block_type="BX1"] div[data-block_type="BX1-TXT-i"] p {
+  text-align: justify;
+  text-indent: 1.5em;
+}
 div[data-type="section"][data-block_type="h1"] [data-block_type="BX1"] div[data-block_type="BX1-TXT"] p {
   text-align: justify;
   text-indent: 1.5em;
@@ -257,6 +262,19 @@ div[data-type="section"][data-block_type="h1"] [data-block_type="BX1"] ol[data-b
 }
 div[data-type="section"][data-block_type="h1"] [data-block_type="BX1"] ol[data-block_type="numbered"] [data-block_type="maker"] {
   font-weight: bold;
+}
+div[data-type="section"][data-block_type="h1"] ul[data-block_type="bluebullet"] {
+  list-style-type: none;
+  margin-left: 1em;
+  margin-top: 0em;
+}
+div[data-type="section"][data-block_type="h1"] ul[data-block_type="bluebullet"] span[data-block_type="maker"] {
+  color: #005bab;
+  margin-left: -20px;
+  position: absolute;
+}
+div[data-type="section"][data-block_type="h1"] ul[data-block_type="bluebullet"] li {
+  margin: .5em 0;
 }
 div[data-type="section"][data-block_type="h1"] div[data-block_type="EXP-first"] p {
   text-align: justify;
@@ -351,6 +369,66 @@ div[data-block_type="BX2"] h3 {
 div[data-block_type="BX2"] [data-type="question"] {
   margin: 10px 0 10px 16px;
   width: 650px;
+}
+/* Statistical Controversies */
+div[data-block_type="BX3"] {
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  box-shadow: 0px 0px 1px 3px #ffe9ac;
+  margin: 1.5em 0;
+  width: 800px;
+  padding: 6px;
+  position: relative;
+}
+div[data-block_type="BX3"] h3 {
+  display: none;
+}
+div[data-block_type="BX3"] [data-type="box_inner"] {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 1em;
+}
+div[data-block_type="BX3"] [data-block_type="BX3-H"] {
+  background-color: #ef3b23;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  padding: 4px 1em;
+  box-shadow: 8px 8px 14px #ccc;
+  position: absolute;
+  left: -1px;
+  top: -19px;
+  width: 765px;
+}
+div[data-block_type="BX3"] [data-block_type="BX3-H"] [data-block_type="BX3-H-ri"] {
+  font-weight: bold;
+}
+div[data-block_type="BX3"] [data-block_type="BX3-T"] {
+  font-family: sans-serif;
+  color: #005bab;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+div[data-block_type="BX3"] [data-block_type="BX3-TXT-ni"] {
+  text-align: justify;
+}
+div[data-block_type="BX3"] [data-block_type="BX3-TXT"] {
+  text-align: justify;
+  text-indent: 1.5em;
+}
+div[data-block_type="BX3"] [data-type="figure"] {
+  margin: 0;
+  border: 0;
+}
+div[data-block_type="BX3"] [data-type="figure"] [data-type="asset_source"] {
+  display: none;
+}
+div[data-block_type="BX3"] [data-block_type="BX3-url"] {
+  margin: 12px 0;
 }
 div[data-block_type="BX2-H"] p {
   border-left: 1px solid black;
@@ -700,6 +778,27 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] ol[
 }
 div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] ul[data-block_type="none"] {
   list-style-type: none;
+}
+div[data-type="section"][data-block_type="CR-X-H-v1"] [data-block_type="exploring-web"] {
+  margin-bottom: 4em;
+  /*[data-block_type="WEBTX"] {
+
+        }*/
+}
+div[data-type="section"][data-block_type="CR-X-H-v1"] [data-block_type="exploring-web"] img {
+  float: left;
+  padding-right: 10px;
+  background-color: white;
+  margin-top: -26px;
+}
+div[data-type="section"][data-block_type="CR-X-H-v1"] [data-block_type="exploring-web"] [data-block_type="WEB"] {
+  font-family: sans-serif;
+  color: #005bab;
+  border-bottom: 5px solid #ef3b23;
+}
+[data-type="figure"] {
+  margin-left: auto;
+  margin-right: auto;
 }
 /* numbered figures */
 [data-block_type="FIGURE"] {

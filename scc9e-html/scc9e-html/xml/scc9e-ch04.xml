@@ -147,7 +147,7 @@
 <p id="scc9e_page_72" block_type="page_start" data-margin-content="left">72</p>
 <box id="scc9e-ch03-box-13" numbered="false" block_type="BX2">
 <p id="scc9e-ch03-p-64" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch03-ques-01" data-filename="question_4_1.html">
+<question id="scc9e-ch03-ques-01" data-block_type="exercise_4_1.html">
 <p id="scc9e-ch03-p-65" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">4.1 Should we recycle?</phrase> Is the following question slanted toward a desired response? If so, how?</p>
 <p id="scc9e-ch03-p-66" block_type="BX2-QUE"><em>In view of escalating environmental degradation and incipient resource depletion, would you favor economic incentives for recycling of resourceintensive consumer goods</em>?</p>
 </question>
@@ -183,24 +183,24 @@
 <box id="scc9e-ch03-box-16" numbered="false" block_type="EXP" data-filename="example_4_8.html">
 <p id="scc9e-ch03-p-85" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 8</phrase> Stratifying a sample of students</p>
 <p id="scc9e-ch03-p-86" block_type="EXP-first">A large university has 30,000 students, of whom 3000 are graduate students. An SRS of 500 students gives every student the same chance to be in the sample. That chance is</p>
-<p id="scc9e-ch03-p-87" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mfrac><m:mrow><m:mn>500</m:mn></m:mrow><m:mrow><m:mn>30</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:mfrac><m:mtext>&#160;</m:mtext><m:mo>=</m:mo><m:mtext>&#160;</m:mtext><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>60</m:mn></m:mrow></m:mfrac></m:mrow></m:math></p>
+<p id="scc9e-ch03-p-87" block_type="EXP-EQ"><phrase data-math="math_1"></phrase></p>
 <p id="scc9e-ch03-p-88" block_type="EXP-mid">We expect an SRS of 500 to contain only about 50 grad students&#8212; because grad students make up 10&#37; of the population, we expect them to make up about 10&#37; of an SRS. A sample of size 50 isn&#8217;t large enough to estimate grad student opinion with reasonable accuracy. We might prefer a stratified random sample of 200 grad students and 300 undergraduates.</p>
 <p id="scc9e-ch03-p-89" block_type="EXP-mid">You know how to select such a stratified sample. Label the graduate students 0001 to 3000 and use <link href="table_a.html">Table A</link> to select an SRS of 200. Then label the undergraduates 00001 to 27000 and use <link href="table_a.html">Table A</link> a second time to select an SRS of 300 of them. These two SRSs together form the stratified sample.</p>
 <p id="scc9e-ch03-p-90" block_type="EXP-mid">In the stratified sample, each grad student has chance</p>
-<p id="scc9e-ch03-p-91" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mfrac><m:mrow><m:mn>200</m:mn></m:mrow><m:mrow><m:mn>3000</m:mn></m:mrow></m:mfrac><m:mtext>&#160;</m:mtext><m:mo>=</m:mo><m:mtext>&#160;</m:mtext><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>15</m:mn></m:mrow></m:mfrac></m:mrow></m:math></p>
+<p id="scc9e-ch03-p-91" block_type="EXP-EQ"><phrase data-math="math_2"></phrase></p>
 <p id="scc9e-ch03-p-92" block_type="TXT-ni">to be chosen. Each of the undergraduates has a smaller chance,</p>
-<p id="scc9e-ch03-p-93" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mfrac><m:mrow><m:mn>300</m:mn></m:mrow><m:mrow><m:mn>27</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:mfrac><m:mtext>&#160;</m:mtext><m:mo>=</m:mo><m:mtext>&#160;</m:mtext><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>90</m:mn></m:mrow></m:mfrac></m:mrow></m:math></p>
+<p id="scc9e-ch03-p-93" block_type="EXP-EQ"><phrase data-math="math_3"></phrase></p>
 <p id="scc9e-ch03-p-94" block_type="EXP-mid">Because we have two SRSs, it is easy to estimate opinions in the two groups separately. The quick and approximate method (<link href="alias:page_46">page 46</link>) tells us that the margin of error for a sample proportion will be about</p>
-<p id="scc9e-ch03-p-95" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>200</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mtext>&#160;</m:mtext><m:mo>=</m:mo><m:mtext>&#160;</m:mtext><m:mn>0.07</m:mn><m:mtext>&#160;&#160;&#160;&#160;</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>that&#160;is</m:mtext><m:mo>,</m:mo><m:mtext>&#160;</m:mtext><m:mn>7</m:mn><m:mo>%</m:mo></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></p>
+<p id="scc9e-ch03-p-95" block_type="EXP-EQ"><phrase data-math="math_4"></phrase></p>
 <p id="scc9e-ch03-p-96" block_type="EXP-mid">for grad students and about</p>
 <p id="scc9e_page_75" block_type="page_start" data-margin-content="right">75</p>
-<p id="scc9e-ch03-p-98" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:msqrt><m:mrow><m:mn>300</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mtext>&#160;</m:mtext><m:mo>=</m:mo><m:mtext>&#160;</m:mtext><m:mn>0.058</m:mn><m:mtext>&#160;&#160;&#160;&#160;</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>that&#160;is</m:mtext><m:mo>,</m:mo><m:mtext>&#160;</m:mtext><m:mn>5.8</m:mn><m:mo>%</m:mo></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></p>
+<p id="scc9e-ch03-p-98" block_type="EXP-EQ"><phrase data-math="math_5"></phrase></p>
 <p id="scc9e-ch03-p-99" block_type="EXP-mid">for undergraduates.</p>
 </box>
 <p id="scc9e-ch03-p-100" block_type="TXT">Because the sample in <link href="example_4_8.html">Example 8</link> deliberately overrepresents graduate students, the final analysis must adjust for this to get unbiased estimates of overall student opinion. Remember that our quick method works only for an SRS. In fact, a professional analysis would also take account of the fact that the population contains &#8220;only&#8221; 30,000 individuals&#8212;more job opportunities for statisticians.</p>
 <box id="scc9e-ch03-box-17" numbered="false" block_type="BX2">
 <p id="scc9e-ch03-p-101" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch03-ques-02" data-filename="question_4_2.html">
+<question id="scc9e-ch03-ques-02" data-block_type="exercise_4_2.html">
 <p id="scc9e-ch03-p-102" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">4.2 A stratified sample.</phrase> The statistics department at Cal Poly, San Luis Obispo, had 18 faculty members and 80 undergraduate majors in 2015. Use the <em>Simple Random Sample</em> applet, other software, or <link href="table_a.html">Table A</link>, starting at line 111, to choose a stratified sample of one faculty member and one student to attend a reception being held by the university president.</p>
 </question>
 </box>
@@ -295,7 +295,10 @@
 <p id="scc9e_page_82" block_type="page_start" data-margin-content="left">82</p></li>
 <li id="scc9e-ch03-li-17"><p id="scc9e-ch03-p-162" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> You can assess the quality of a sample survey quite well by just looking at the basics: use of random samples, sample size and margin of error, the rate of nonresponse, and the wording of the questions.</p></li>
 </list>
-<p id="asset/global_images/LinkIt.jpg"/>In <link href="scc9e-ch03.xml">Chapter 3</link>, we saw that random samples can provide a sound basis for drawing conclusions about a population parameter. In this chapter, we learned that even when we take a random sample, our conclusions can be weakened by undercoverage, processing errors, response errors, nonresponse, and wording of questions. We must pay careful attention to every aspect of how we collect data to ensure that the conclusions we make are valid. In some cases, more complex probability samples, such as stratified samples, can help correct nonsampling errors. This chapter provides a list of questions you can ask to help you assess the quality of the results of samples collected by someone else.</p>
+<p id="scc9e-ch03-p-163" block_type="SUM-TXT-ni">
+<image asset-id="scc9e-ch03-img-08" alt="image" src="asset/global_images/LinkIt.jpg"/>In <link href="scc9e-ch03.xml">Chapter 3</link>, we saw that random samples can provide a sound basis for drawing conclusions about a population parameter. In this chapter, we learned that even when we take a random sample, our conclusions can be weakened by undercoverage, processing errors, response errors, nonresponse, and wording of questions. We must pay careful attention to every aspect of how we collect data to ensure that the conclusions we make are valid. In some cases, more complex probability samples, such as stratified samples, can help correct nonsampling errors. This chapter provides a list of questions you can ask to help you assess the quality of the results of samples collected by someone else.
+</p>
+
 <box id="scc9e-ch03-box-23" numbered="false" block_type="case_title">
 <p id="scc9e-ch03-p-164" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> Use what you have learned in this chapter to evaluate the Case Study that opened the chapter. In particular, do the following.</p>
 <list id="scc9e-ch03-list-03" type="ordered" block_type="numbered">
@@ -304,7 +307,8 @@
 </list>
 </box>
 <box id="scc9e-ch03-box-24" numbered="false" block_type="launchpad">
-<p id="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<p id="scc9e-ch03-p-167" block_type="CR-BIB-T">
+<image asset-id="scc9e-ch03-img-09" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
 <list id="scc9e-ch03-list-04" type="unordered" block_type="redbullet">
 <li id="scc9e-ch03-li-20"><p id="scc9e-ch03-p-168" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The video technology manuals explain how to select an SRS using Excel, JMP, Minitab, and the TI 83/84.</p></li>
 <li id="scc9e-ch03-li-21"><p id="scc9e-ch03-p-169" block_type="CR-BIB-BL-last"><phrase block_type="maker">&#8226;</phrase> The Statistical Applet <em>Simple Random Sample</em> can be used to select a simple random sample when the number of labels is 144 or fewer.</p></li>
@@ -314,7 +318,7 @@
 <section id="scc9e-ch03-sec-12" block_type="CR-X-H" chapter="ch4" numbered="false" level="1" print_page="82">
 <section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
 <p id="scc9e-ch03-p-170" block_type="CR-X"><em>For <link href="exercise_4_1.html">Exercise 4.1</link>, see page 72; for <link href="exercise_4_2.html">Exercise 4.2</link>, see page 75.</em></p>
-<question id="scc9e-ch03-ques-03" data-filename="question_4_3.html">
+<question id="scc9e-ch03-ques-03" data-block_type="exercise_4_3.html">
 <p id="scc9e-ch03-p-171" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.3 What does the margin of error include?</phrase> When a margin of error is reported for a survey, it includes</p>
 <list id="scc9e-ch03-list-05" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch03-li-22"><p id="scc9e-ch03-p-172" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> random sampling error and other practical difficulties like undercoverage and nonresponse.</p></li>
@@ -324,7 +328,7 @@
 </list>
 </question>
 <p id="scc9e_page_83" block_type="page_start" data-margin-content="right">83</p>
-<question id="scc9e-ch03-ques-04" data-filename="question_4_4.html">
+<question id="scc9e-ch03-ques-04" data-block_type="exercise_4_4.html">
 <p id="scc9e-ch03-p-177" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.4 What kind of sample?</phrase> Archaeologists plan to examine a sample of two-meter-square plots near an ancient Greek city for artifacts visible in the ground. They choose separate samples of plots from floodplain, coast, foothills, and high hills. What kind of sample is this?</p>
 <list id="scc9e-ch03-list-06" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch03-li-26"><p id="scc9e-ch03-p-178" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> A simple random sample</p></li>
@@ -333,7 +337,7 @@
 <li id="scc9e-ch03-li-29"><p id="scc9e-ch03-p-181" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> A cluster sample</p></li>
 </list>
 </question>
-<question id="scc9e-ch03-ques-05" data-filename="question_4_5.html">
+<question id="scc9e-ch03-ques-05" data-block_type="exercise_4_5.html">
 <p id="scc9e-ch03-p-182" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.5 Sampling issues.</phrase> A sample of households in a community is selected at random from the telephone directory. In this community, 4&#37; of households have no telephone, 10&#37; have only cell phones, and another 25&#37; have unlisted telephone numbers. The sample will certainly suffer from</p>
 <list id="scc9e-ch03-list-07" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch03-li-30"><p id="scc9e-ch03-p-183" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> nonresponse.</p></li>
@@ -342,7 +346,7 @@
 <li id="scc9e-ch03-li-33"><p id="scc9e-ch03-p-186" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> all of the above.</p></li>
 </list>
 </question>
-<question id="scc9e-ch03-ques-06" data-filename="question_4_6.html">
+<question id="scc9e-ch03-ques-06" data-block_type="exercise_4_6.html">
 <p id="scc9e-ch03-p-187" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.6 Question wording.</phrase> Which of the following represents wording that will most likely <em>not</em> influence the answers?</p>
 <list id="scc9e-ch03-list-08" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch03-li-34"><p id="scc9e-ch03-p-188" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Do you think that all instances of academic misconduct should be reported to the dean?</p></li>
@@ -351,7 +355,7 @@
 <li id="scc9e-ch03-li-37"><p id="scc9e-ch03-p-191" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> None of the above will influence the answers.</p></li>
 </list>
 </question>
-<question id="scc9e-ch03-ques-07" data-filename="question_4_7.html">
+<question id="scc9e-ch03-ques-07" data-block_type="exercise_4_7.html">
 <p id="scc9e-ch03-p-192" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.7 Sampling considerations.</phrase> A statistics class has 10 graduate students and 40 undergraduate students. You want to randomly sample 10&#37; of the students in the class. One graduate student and four undergraduate students are selected at random. Which of the following is <em>not</em> correct?</p>
 <list id="scc9e-ch03-list-09" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch03-li-38"><p id="scc9e-ch03-p-193" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Because each student has a 10&#37; chance of being selected, this is a simple random sample.</p></li>
@@ -363,7 +367,7 @@
 </section>
 <section id="scc9e-ch03-sec-13" block_type="CR-X-H-v1" chapter="ch4" numbered="false" level="1" print_page="83">
 <section-metadata><section-title>CHAPTER 4 EXERCISES</section-title></section-metadata>
-<question id="scc9e-ch03-ques-08" data-filename="question_4_8.html">
+<question id="scc9e-ch03-ques-08" data-block_type="exercise_4_8.html">
 <p id="scc9e-ch03-p-197" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.8 What kind of error?</phrase> Which of the following are sources of <em>sampling error</em> and which are sources of <em>nonsampling error</em>? Explain your answers.</p>
 <list id="scc9e-ch03-list-10" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch03-li-42"><p id="scc9e-ch03-p-198" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The subject lies about past drug use.</p></li>
@@ -372,7 +376,7 @@
 </list>
 </question>
 <p id="scc9e_page_84" block_type="page_start" data-margin-content="left">84</p>
-<question id="scc9e-ch03-ques-09" data-filename="question_4_9.html">
+<question id="scc9e-ch03-ques-09" data-block_type="exercise_4_9.html">
 <p id="scc9e-ch03-p-202" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.9 What kind of error?</phrase> Each of the following is a source of error in a sample survey. Label each as <em>sampling error</em> or <em>nonsampling error</em>, and explain your answers.</p>
 <list id="scc9e-ch03-list-11" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch03-li-45"><p id="scc9e-ch03-p-203" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The telephone directory is used as a sampling frame.</p></li>
@@ -380,17 +384,17 @@
 <li id="scc9e-ch03-li-47"><p id="scc9e-ch03-p-205" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Interviewers choose people on the street to interview.</p></li>
 </list>
 </question>
-<question id="scc9e-ch03-ques-10" data-filename="question_4_10.html">
+<question id="scc9e-ch03-ques-10" data-block_type="exercise_4_10.html">
 <p id="scc9e-ch03-p-206" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.10 Not in the margin of error.</phrase> According to a February 2008 <em>USA Today</em>/Gallup Poll, 43&#37; of Americans identify themselves as baseball fans. That is low by recent standards, as an average of 49&#37; of Americans have said they were fans of the sport since Gallup started tracking this measure in 1993. The high point came in 1998, when Sammy Sosa and Mark McGwire pursued (and ultimately surpassed) Roger Maris&#8217;s single-season home run record, at which time 56&#37; of Americans considered themselves baseball fans. The Gallup press release says:</p>
 <p id="scc9e-ch03-p-207" block_type="cr-x-nl-ext"><em>For results based on this sample, one can say with 95&#37; confidence that the maximum error attributable to sampling and other random effects is &#177;5 percentage points.</em></p>
 <p id="scc9e-ch03-p-208" block_type="CR-X-NL">Give one example of a source of error in the poll result that is <em>not</em> included in this margin of error.</p>
 </question>
 <question id="scc9e-ch03-ques-11">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">4.11 Not in the margin of error.</phrase> According to a June 2015 Gallup Poll, more American adults ages 18 to 29 report being single and never married&#8212;the percentage has risen from 52&#37; in 2004 to 64&#37; in 2014. For American adults aged 30 to 39, this same percentage has risen modestly from 15&#37; in 2004 to 19&#37; in 2014. The Gallup press release says:</p>
+<p id="scc9e-ch03-p-209"><phrase block_type="CR-X-NL-N-ri">4.11 Not in the margin of error.</phrase> According to a June 2015 Gallup Poll, more American adults ages 18 to 29 report being single and never married&#8212;the percentage has risen from 52&#37; in 2004 to 64&#37; in 2014. For American adults aged 30 to 39, this same percentage has risen modestly from 15&#37; in 2004 to 19&#37; in 2014. The Gallup press release says:</p>
 <p id="scc9e-ch03-p-210" block_type="cr-x-nl-ext"><em>For results based on the total sample of Americans ages 18 to 29 or 30 to 39 in any given year, the maximum margin of sampling error is &#177;3 percentage points at the 95&#37; confidence level.</em></p>
 <p id="scc9e-ch03-p-211" block_type="CR-X-NL">Give one example of a source of error in the poll result that is <em>not</em> included in this margin of error.</p>
 </question>
-<question id="scc9e-ch03-ques-12" data-filename="question_4_12.html">
+<question id="scc9e-ch03-ques-12" data-block_type="exercise_4_12.html">
 <p id="scc9e-ch03-p-212" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.12 College parents.</phrase> An online survey of college parents was conducted during February and March 2007. An email was sent to 41,000 parents who were listed in either the College Parents of America database or the Student Advantage database. Parents were invited to participate in the online survey. Out of those invited, 1727 completed the online survey. The survey protected the anonymity of those participating in the survey but did not allow more than one response from an individual IP address.</p>
 <p id="scc9e-ch03-p-213" block_type="CR-X-NL">One of the survey results was that 33&#37; of mothers communicate at least once a day with their child while at school.</p>
 <list id="scc9e-ch03-list-12" type="ordered" block_type="lower-alpha">
@@ -400,27 +404,27 @@
 </list>
 </question>
 <p id="scc9e_page_85" block_type="page_start" data-margin-content="right">85</p>
-<question id="scc9e-ch03-ques-13" data-filename="question_4_13.html">
+<question id="scc9e-ch03-ques-13" data-block_type="exercise_4_13.html">
 <p id="scc9e-ch03-p-218" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.13 Polling customers.</phrase> An online store chooses an SRS of 100 customers from its list of all people who have bought something from the store in the last year. It asks those selected how satisfied they are with the store&#8217;s website. If it selected two SRSs of 100 customers at the same time, the two samples would give somewhat different results. Is this variation a source of sampling error or of nonsampling error? Would the survey&#8217;s announced margin of error take this source of error into account?</p>
 </question>
-<question id="scc9e-ch03-ques-14" data-filename="question_4_14.html">
+<question id="scc9e-ch03-ques-14" data-block_type="exercise_4_14.html">
 <p id="scc9e-ch03-p-219" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.14 Ring-no-answer.</phrase> A common form of nonresponse in telephone surveys is &#8220;ring-no-answer.&#8221; That is, a call is made to an active number but no one answers. The Italian National Statistical Institute looked at nonresponse to a government survey of households in Italy during the periods January 1 to Easter and July 1 to August 31. All calls were made between 7 and 10 <phrase block_type="small">P.M.</phrase>, but 21.4&#37; gave &#8220;ring-noanswer&#8221; in one period versus 41.5&#37; &#8220;ring-no-answer&#8221; in the other period. Which period do you think had the higher rate of no answers? Why? Explain why a high rate of nonresponse makes sample results less reliable.</p>
 </question>
 <question id="scc9e-ch03-ques-15">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">4.15 Race relations.</phrase> Here are two opinion poll questions asked about race relations in the United States.</p>
+<p id="scc9e-ch03-p-220"><phrase block_type="CR-X-NL-N-ri">4.15 Race relations.</phrase> Here are two opinion poll questions asked about race relations in the United States.</p>
 <p id="scc9e-ch03-p-221" block_type="CR-X-NL-EXT"><em>We&#8217;d like to know how you would rate relations between various groups in the United States these days. Would you say relations between whites and blacks are very good, somewhat good, somewhat bad, or very bad?</em></p>
 <p id="scc9e-ch03-p-222" block_type="CR-X-NL-EXT"><em>Do you think race relations in the U.S. are generally good or generally bad?</em></p>
 <p id="scc9e-ch03-p-223" block_type="CR-X-NL">In response to the first question, 72&#37; of non-Hispanic whites and 66&#37; of blacks answered relations between blacks and whites are &#8220;very good&#8221; or &#8220;somewhat good.&#8221; Sixty-one percent (61&#37;) of those answering the second question responded &#8220;generally bad.&#8221;</p>
 <p id="scc9e-ch03-p-224" block_type="CR-X-NL">The first question came from a poll that was conducted in March 2015. The second question came from a poll that was conducted between April 30 and May 3 of that same year. Between the two polls, a man named Freddie Gray died after being in the custody of the Baltimore police. In what ways do you think this event may have affected the responses to the two different polls? Do you think the results would be different if the question from the second poll had been worded like the question from the first poll?</p>
 </question>
-<question id="scc9e-ch03-ques-16" data-filename="question_4_16.html">
+<question id="scc9e-ch03-ques-16" data-block_type="exercise_4_16.html">
 <p id="scc9e-ch03-p-225" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.16 The environment and the economy.</phrase> Here are two opinion poll questions asked in December 2009 about protecting the environment versus protecting the economy.</p>
 <p id="scc9e-ch03-p-226" block_type="CR-X-NL-EXT"><em>Often there are trade-offs or sacrifices people must make in deciding what is important to them. Generally speaking, when a trade-off has to be made, which is more important to you: stimulating the economy or protecting the environment?</em></p>
 <p id="scc9e-ch03-p-228" block_type="CR-X-NL-EXT"><em>Which worries you more: that the U.S. will NOT take the actions necessary to prevent the catastrophic effects of global warming because of fears those actions would harm the economy or that the U.S. WILL take actions to protect against global warming and those actions will cripple the U.S. economy?</em></p>
 <p id="scc9e-ch03-p-229" block_type="CR-X-NL">In response to the first question, 61&#37; said stimulating the economy was more important. But only 46&#37; of those asked the second question said they were afraid that the United States will take actions to protect against global warming and that those actions will cripple the U.S. economy. Why do you think the second wording discouraged more people from expressing more concern about the economy than about the environment?</p>
 </question>
 <p id="scc9e_page_86" block_type="page_start" data-margin-content="left">86</p>
-<question id="scc9e-ch03-ques-17" data-filename="question_4_17.html">
+<question id="scc9e-ch03-ques-17" data-block_type="exercise_4_17.html">
 <p id="scc9e-ch03-p-230" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.17 Amending the Constitution.</phrase> You are writing an opinion poll question about a proposed amendment to the Constitution. You can ask if people are in favor of &#8220;changing the Constitution&#8221; or &#8220;adding to the Constitution&#8221; by approving the amendment.</p>
 <list id="scc9e-ch03-list-13" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch03-li-51"><p id="scc9e-ch03-p-231" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Why do you think the responses to these two questions will produce different percentages in favor?</p></li>
@@ -428,12 +432,12 @@
 </list>
 </question>
 <question id="scc9e-ch03-ques-18">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">4.18 Right to refuse services.</phrase> The Supreme Court of the United States released a ruling on same-sex marriage in June 2015. Prior to the release of this ruling, many agencies conducted polls about same-sex marriage. In April 2015, a Quinnipiac University poll asked two questions about businesses and services to gays and lesbians. Here are the two questions:</p>
+<p id="scc9e-ch03-p-233"><phrase block_type="CR-X-NL-N-ri">4.18 Right to refuse services.</phrase> The Supreme Court of the United States released a ruling on same-sex marriage in June 2015. Prior to the release of this ruling, many agencies conducted polls about same-sex marriage. In April 2015, a Quinnipiac University poll asked two questions about businesses and services to gays and lesbians. Here are the two questions:</p>
 <p id="scc9e-ch03-p-234" block_type="CR-X-NL-EXT"><em>Do you think businesses should or should not be allowed to refuse services to gays and lesbians?</em></p>
 <p id="scc9e-ch03-p-235" block_type="CR-X-NL-EXT"><em>What if the business says homosexuality violates its owners&#8217; religious beliefs? In that case, do you think the business should or should not be allowed to refuse services to gays and lesbians?</em></p>
 <p id="scc9e-ch03-p-236" block_type="CR-X-NL">One of these questions drew 35&#37; saying the businesses should be allowed to refuse services; the other drew 26&#37; with the same response. Which wording produced the higher percentage? Why?</p>
 </question>
-<question id="scc9e-ch03-ques-19" data-filename="question_4_19.html">
+<question id="scc9e-ch03-ques-19" data-block_type="exercise_4_19.html">
 <p id="scc9e-ch03-p-237" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.19 Wording survey questions.</phrase> Comment on each of the following as a potential sample survey question. Is the question clear? Is it slanted toward a desired response? (Survey questions on issues that one might regard as inflammatory are often prone to slanted wording.)</p>
 <list id="scc9e-ch03-list-14" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch03-li-53"><p id="scc9e-ch03-p-238" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Which of the following best represents your opinion on gun control?</p>
@@ -447,7 +451,7 @@
 </list>
 </question>
 <p id="scc9e_page_87" block_type="page_start" data-margin-content="right">87</p>
-<question id="scc9e-ch03-ques-20" data-filename="question_4_20.html">
+<question id="scc9e-ch03-ques-20" data-block_type="exercise_4_20.html">
 <p id="scc9e-ch03-p-245" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.20 Bad survey questions.</phrase> Write your own examples of bad sample survey questions.</p>
 <list id="scc9e-ch03-list-16" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch03-li-59"><p id="scc9e-ch03-p-246" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Write a biased question designed to get one answer rather than another.</p></li>
@@ -455,17 +459,17 @@
 </list>
 </question>
 <question id="scc9e-ch03-ques-21">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">4.21 Appraising a poll.</phrase> In January 2015, <em>The Wall Street Journal</em> published an article on satisfaction with the U.S. economy and other issues. The article noted 45&#37; of Americans were very or somewhat satisfied with the state of the U.S. economy, even though 49&#37; felt America is in a state of decline. News articles tend to be brief in describing sample surveys. Here is part of <em>The Wall Street Journal</em>&#8217;s description of this poll:</p>
+<p id="scc9e-ch03-p-248"><phrase block_type="CR-X-NL-N-ri">4.21 Appraising a poll.</phrase> In January 2015, <em>The Wall Street Journal</em> published an article on satisfaction with the U.S. economy and other issues. The article noted 45&#37; of Americans were very or somewhat satisfied with the state of the U.S. economy, even though 49&#37; felt America is in a state of decline. News articles tend to be brief in describing sample surveys. Here is part of <em>The Wall Street Journal</em>&#8217;s description of this poll:</p>
 <p id="scc9e-ch03-p-249" block_type="CR-X-NL-EXT"><em>The . . . poll was based on nationwide telephone interviews of 800 adults, including 280 respondents who use only a cellphone. . . . Individuals were selected proportionate to the nation&#8217;s population in accordance with a probability sample. . . . The data&#8217;s margin of error is plus or minus 3.46 percentage points.</em></p>
 <p id="scc9e-ch03-p-250" block_type="CR-X-NL"><link href="alias:page_80">Page 80</link> lists several &#8220;questions to ask&#8221; about an opinion poll. What answers does <em>The Wall Street Journal</em> give to each of these questions?</p>
 </question>
 <question id="scc9e-ch03-ques-22">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">4.22 Appraising a poll.</phrase> A June 2015 <em>New York Times</em> article about the inequality of wealth and income discussed the results of a sample survey that found, for example, that 67&#37; of those surveyed think the gap between the rich and the poor in the United States is getting larger. Here is part of the <em>Times</em>&#8217;s statement &#8220;How the Poll Was Conducted&#8221;:</p>
+<p id="scc9e-ch03-p-251"><phrase block_type="CR-X-NL-N-ri">4.22 Appraising a poll.</phrase> A June 2015 <em>New York Times</em> article about the inequality of wealth and income discussed the results of a sample survey that found, for example, that 67&#37; of those surveyed think the gap between the rich and the poor in the United States is getting larger. Here is part of the <em>Times</em>&#8217;s statement &#8220;How the Poll Was Conducted&#8221;:</p>
 <p id="scc9e-ch03-p-252" block_type="CR-X-NL-EXT"><em>The latest New York Times/CBS News Poll is based on telephone interviews conducted May 28 to 31 with 1,022 adults throughout the United States . . .</em></p>
 <p id="scc9e-ch03-p-253" block_type="CR-X-NL-EXT"><em>The sample of land-line telephone exchanges called was randomly selected by a computer . . .</em></p>
 <p id="scc9e-ch03-p-254" block_type="CR-X-NL">The <em>Times</em>&#8217;s statement goes on to say that cell phone numbers were also randomly selected by a computer and that the samples of landline and cell phone responses were combined and appropriately adjusted. <link href="alias:page_80">Page 80</link> lists several &#8220;questions to ask&#8221; about an opinion poll. What answers does the <em>Times</em> give to each of these questions?</p>
 </question>
-<question id="scc9e-ch03-ques-23" data-filename="question_4_23.html">
+<question id="scc9e-ch03-ques-23" data-block_type="exercise_4_23.html">
 <p id="scc9e-ch03-p-255" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.23 Closed versus open questions.</phrase> Two basic types of questions are closed questions and open questions. A closed question asks the subject for one or more of a fixed set of responses. An open question allows the subject to answer in his or her own words; the interviewer writes down the responses and classifies them later. An example of an open question is</p>
 <p id="scc9e-ch03-p-256" block_type="CR-X-NL-EXT"><em>What do you believe about the afterlife?</em></p>
 <p id="scc9e-ch03-p-258" block_type="CR-X-NL">An example of a closed question is</p>
@@ -480,20 +484,20 @@
 <p id="scc9e-ch03-p-265" block_type="CR-X-NL">What are the advantages and disadvantages of open and closed questions?</p>
 </question>
 <p id="scc9e_page_88" block_type="page_start" data-margin-content="left">88</p>
-<question id="scc9e-ch03-ques-24" data-filename="question_4_24.html">
+<question id="scc9e-ch03-ques-24" data-block_type="exercise_4_24.html">
 <p id="scc9e-ch03-p-266" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.24 Telling the truth?</phrase> Many subjects don&#8217;t give honest answers to questions about activities that are illegal or sensitive in some other way. One study divided a large group of white adults into thirds at random. All were asked if they had ever used cocaine. The first group was interviewed by telephone: 21&#37; said Yes. In the group visited at home by an interviewer, 25&#37; said Yes. The final group was interviewed at home but answered the question on an anonymous form that they sealed in an envelope. Of this group, 28&#37; said they had used cocaine.</p>
 <list id="scc9e-ch03-list-18" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch03-li-66"><p id="scc9e-ch03-p-267" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Which result do you think is closest to the truth? Why?</p></li>
 <li id="scc9e-ch03-li-67"><p id="scc9e-ch03-p-268" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Give two other examples of behavior you think would be underreported in a telephone survey.</p></li>
 </list>
 </question>
-<question id="scc9e-ch03-ques-25" data-filename="question_4_25.html">
+<question id="scc9e-ch03-ques-25" data-block_type="exercise_4_25.html">
 <p id="scc9e-ch03-p-269" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.25 Did you vote?</phrase> When the Current Population Survey asked the adults in its sample of 56,000 households if they voted in the 2012 presidential election, 61.8&#37; said they had. The margin of error was less than 0.3&#37;. In fact, only 58.2&#37; of the adult population voted in that election. Why do you think the CPS result missed by 12 times the margin of error?</p>
 </question>
-<question id="scc9e-ch03-ques-26" data-filename="question_4_26.html">
+<question id="scc9e-ch03-ques-26" data-block_type="exercise_4_26.html">
 <p id="scc9e-ch03-p-270" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.26 A party poll.</phrase> At a party, there are 20 students over age 21 and 40 students under age 21. You choose, at random, two of those over 21 and separately choose at random four of those under 21 to interview about attitudes toward alcohol. You have given every student at the party the same chance to be interviewed: what is that chance? Why is your sample not an SRS?</p>
 </question>
-<question id="scc9e-ch03-ques-27" data-filename="question_4_27.html">
+<question id="scc9e-ch03-ques-27" data-block_type="exercise_4_27.html">
 <p id="scc9e-ch03-p-271" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.27 A stratified sample.</phrase> A club has 30 student members and 10 faculty members. The students are</p>
 <list id="scc9e-ch03-list-19" type="unordered" block_type="none">
 <li id="scc9e-ch03-li-68"><p id="scc9e-ch03-p-272" block_type="CR-X-NL">Aguirre</p></li>
@@ -547,24 +551,24 @@
 </list>
 </question>
 <p id="scc9e_page_89" block_type="page_start" data-margin-content="right">89</p>
-<question id="scc9e-ch03-ques-28" data-filename="question_4_28.html">
+<question id="scc9e-ch03-ques-28" data-block_type="exercise_4_28.html">
 <p id="scc9e-ch03-p-317" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.28 A stratified sample.</phrase> A state university has 4900 in-state students and 2100 out-of-state students. A financial aid officer wants to poll the opinions of a random sample of students. In order to give adequate attention to the opinions of out-of-state students, the financial aid officer decides to choose a stratified random sample of 200 in-state students and 200 out-of-state students. The officer has alphabetized lists of in-state and out-of-state students.</p>
 <list id="scc9e-ch03-list-22" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch03-li-110"><p id="scc9e-ch03-p-318" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain how you would assign labels and use random digits to choose the desired sample. Use the <em>Simple Random Sample</em> applet, other technology, or <link href="table_a.html">Table A</link> at line 122 and give the first five in-state students and the first five out-of-state students in your sample.</p></li>
 <li id="scc9e-ch03-li-111"><p id="scc9e-ch03-p-319" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What is the chance that any one of the 4900 in-state students will be in your sample? What is the chance that any one of the 2100 out-of-state students will be in your sample?</p></li>
 </list>
 </question>
-<question id="scc9e-ch03-ques-29" data-filename="question_4_29.html">
+<question id="scc9e-ch03-ques-29" data-block_type="exercise_4_29.html">
 <p id="scc9e-ch03-p-320" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.29 Sampling by accountants.</phrase> Accountants use stratified samples during audits to verify a company&#8217;s records of such things as accounts receivable. The stratification is based on the dollar amount of the item and often includes 100&#37; sampling of the largest items. One company reports 5000 accounts receivable. Of these, 100 are in amounts over &#36;50,000; 500 are in amounts between &#36;1000 and &#36;50,000; and the remaining 4400 are in amounts under &#36;1000. Using these groups as strata, you decide to verify all of the largest accounts and to sample 5&#37; of the midsize accounts and 1&#37; of the small accounts. How would you label the two strata from which you will sample? Use the <em>Simple Random Sample</em> applet, other technology, or <link href="table_a.html">Table A</link>, starting at line 115, to select <em>only the first five</em> accounts from each of these strata.</p>
 </question>
-<question id="scc9e-ch03-ques-30" data-filename="question_4_30.html">
+<question id="scc9e-ch03-ques-30" data-block_type="exercise_4_30.html">
 <p id="scc9e-ch03-p-321" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.30 A sampling paradox?</phrase> <link href="example_4_8.html">Example 8</link> compares two SRSs of a university&#8217;s undergraduate and graduate students. The sample of undergraduates contains a smaller fraction of the population, 1 out of 90, versus 1 out of 15 for graduate students. Yet sampling 1 out of 90 undergraduates gives a smaller margin of error than sampling 1 out of 15 graduate students. Explain to someone who knows no statistics why this happens.</p>
 </question>
 <question id="scc9e-ch03-ques-31">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">4.31 Appraising a poll.</phrase> <link href="exercise_4_22.html">Exercise 4.22</link> gives part of the description of a sample survey from <em>The New York Times</em>. It appears that the sample was taken in several stages. Why can we say this? The first stage no doubt used a stratified sample, though the <em>Times</em> does not say this. Explain why it would be bad practice to use an SRS from all possible telephone numbers rather than a stratified sample of landline-only, cell-phone-only, and dual-phone users.</p>
+<p id="scc9e-ch03-p-323"><phrase block_type="CR-X-NL-N-ri">4.31 Appraising a poll.</phrase> <link href="exercise_4_22.html">Exercise 4.22</link> gives part of the description of a sample survey from <em>The New York Times</em>. It appears that the sample was taken in several stages. Why can we say this? The first stage no doubt used a stratified sample, though the <em>Times</em> does not say this. Explain why it would be bad practice to use an SRS from all possible telephone numbers rather than a stratified sample of landline-only, cell-phone-only, and dual-phone users.</p>
 </question>
 <question id="scc9e-ch03-ques-32">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">4.32 Multistage sampling.</phrase> An article in the journal <em>Science</em> looks at differences in attitudes toward genetically modified foods between Europe and the United States. This calls for sample surveys. The European survey chose a sample of 1000 adults in each of 17 European countries. Here&#8217;s part of the description: &#8220;The Eurobarometer survey is a multistage, random-probability face-to-face sample survey.&#8221;</p>
+<p id="scc9e-ch03-p-324"><phrase block_type="CR-X-NL-N-ri">4.32 Multistage sampling.</phrase> An article in the journal <em>Science</em> looks at differences in attitudes toward genetically modified foods between Europe and the United States. This calls for sample surveys. The European survey chose a sample of 1000 adults in each of 17 European countries. Here&#8217;s part of the description: &#8220;The Eurobarometer survey is a multistage, random-probability face-to-face sample survey.&#8221;</p>
 <list id="scc9e-ch03-list-23" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch03-li-112"><p id="scc9e-ch03-p-325" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What does &#8220;multistage&#8221; mean?</p></li>
 <li id="scc9e-ch03-li-113"><p id="scc9e-ch03-p-326" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> You can see that the first stage was stratified. What were the strata?</p></li>
@@ -572,18 +576,18 @@
 </list>
 </question>
 <p id="scc9e_page_90" block_type="page_start" data-margin-content="left">90</p>
-<question id="scc9e-ch03-ques-33" data-filename="question_4_33.html">
+<question id="scc9e-ch03-ques-33" data-block_type="exercise_4_33.html">
 <p id="scc9e-ch03-p-328" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.33 Online courses in high schools?</phrase> What do adults believe about requiring online courses in high schools? Are opinions different in urban, suburban, and rural areas? To find out, researchers wanted to ask adults this question:</p>
 <p id="scc9e-ch03-p-329" block_type="CR-X-NL-EXT"><em>It has become common for education courses after high school to be taken online. In your opinion, should public high schools in your community require every student to take at least one course online while in high school?</em></p>
 <p id="scc9e-ch03-p-330" block_type="CR-X-NL">Because most people live in heavily populated urban and suburban areas, an SRS might contain few rural adults. Moreover, it is too expensive to choose people at random from a large region. We should start by choosing school districts rather than people. Describe a suitable sample design for this study, and explain the reasoning behind your choice of design.</p>
 </question>
-<question id="scc9e-ch03-ques-34" data-filename="question_4_34.html">
-<p id="scc9e-ch03-p-331" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.34 Systematic random samples.</phrase> The last stage of the Current Population Survey (<link href="example_4_7.html">Example 7</link>) uses a <strong>systematic random sample</strong>. An example will illustrate the idea of a systematic sample. Suppose that we must choose four rooms out of the 100 rooms in a dormitory. Because 100<m:math display='inline'><m:mo>/</m:mo></m:math>4 = 25, we can think of the list of 100 rooms as four lists of 25 rooms each. Choose one of the first 25 rooms at random, using <link href="table_a.html">Table A</link>. The sample will contain this room and the rooms 25, 50, and 75 places down the list from it. If 13 is chosen, for example, then the systematic random sample consists of the rooms numbered 13, 38, 63, and 88. Use <link href="table_a.html">Table A</link> to choose a systematic random sample of five rooms from a list of 200. Enter the table at line 120.</p>
+<question id="scc9e-ch03-ques-34" data-block_type="exercise_4_34.html">
+<p id="scc9e-ch03-p-331" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.34 Systematic random samples.</phrase> The last stage of the Current Population Survey (<link href="example_4_7.html">Example 7</link>) uses a <strong>systematic random sample</strong>. An example will illustrate the idea of a systematic sample. Suppose that we must choose four rooms out of the 100 rooms in a dormitory. Because 100<phrase data-math="math_6"></phrase>4 = 25, we can think of the list of 100 rooms as four lists of 25 rooms each. Choose one of the first 25 rooms at random, using <link href="table_a.html">Table A</link>. The sample will contain this room and the rooms 25, 50, and 75 places down the list from it. If 13 is chosen, for example, then the systematic random sample consists of the rooms numbered 13, 38, 63, and 88. Use <link href="table_a.html">Table A</link> to choose a systematic random sample of five rooms from a list of 200. Enter the table at line 120.</p>
 </question>
-<question id="scc9e-ch03-ques-35" data-filename="question_4_35.html">
+<question id="scc9e-ch03-ques-35" data-block_type="exercise_4_35.html">
 <p id="scc9e-ch03-p-332" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.35 Systematic isn&#8217;t simple.</phrase> <link href="exercise_4_34.html">Exercise 4.34</link> describes a systematic random sample. Like an SRS, a systematic sample gives all individuals the same chance to be chosen. Explain why this is true, then explain carefully why a systematic sample is nonetheless <em>not</em> an SRS.</p>
 </question>
-<question id="scc9e-ch03-ques-36" data-filename="question_4_36.html">
+<question id="scc9e-ch03-ques-36" data-block_type="exercise_4_36.html">
 <p id="scc9e-ch03-p-333" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.36 Planning a survey of students.</phrase> The student government plans to ask a random sample of students their opinions about on-campus parking. The university provides a list of the 20,000 enrolled students to serve as a sampling frame.</p>
 <list id="scc9e-ch03-list-24" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch03-li-115"><p id="scc9e-ch03-p-334" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> How would you choose an SRS of 200 students?</p></li>
@@ -592,7 +596,7 @@
 </list>
 </question>
 <p id="scc9e_page_91" block_type="page_start" data-margin-content="right">91</p>
-<question id="scc9e-ch03-ques-37" data-filename="question_4_37.html">
+<question id="scc9e-ch03-ques-37" data-block_type="exercise_4_37.html">
 <p id="scc9e-ch03-p-338" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.37 Sampling students.</phrase> You want to investigate the attitudes of students at your school toward the school&#8217;s policy on extra fees for lab courses. You have a grant that will pay the costs of contacting about 500 students.</p>
 <list id="scc9e-ch03-list-25" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch03-li-118"><p id="scc9e-ch03-p-339" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Specify the exact population for your study. For example, will you include part-time students?</p></li>
@@ -600,11 +604,11 @@
 <li id="scc9e-ch03-li-120"><p id="scc9e-ch03-p-341" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Briefly discuss the practical difficulties that you anticipate. For example, how will you contact the students in your sample?</p></li>
 </list>
 </question>
-<question id="scc9e-ch03-ques-38" data-filename="question_4_38.html">
+<question id="scc9e-ch03-ques-38" data-block_type="exercise_4_38.html">
 <p id="scc9e-ch03-p-342" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">4.38 Mall interviews.</phrase> <link href="example_2_1.html">Example 1</link> in <link href="scc9e-ch02.xml">Chapter 2</link> (page 23) describes mall interviewing. This is an example of a convenience sample. Why do mall interviews not produce probability samples?</p>
 </question>
 <question id="scc9e-ch03-ques-39">
-<p id="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">4.39 Partial-birth abortion?</phrase> Here are three opinion poll questions on the same issue, with the poll results:</p>
+<p id="scc9e-ch03-p-343"><phrase block_type="CR-X-NL-N-ri">4.39 Partial-birth abortion?</phrase> Here are three opinion poll questions on the same issue, with the poll results:</p>
 <p id="scc9e-ch03-p-344" block_type="CR-X-NL-EXT"><em>As you may know, the Supreme Court recently upheld a law that makes the procedure commonly known as a partial birth abortion illegal. Do you favor or oppose this ruling by the Supreme Court?</em> Result: 53&#37; favor; 34&#37; oppose.</p>
 <p id="scc9e-ch03-p-345" block_type="CR-X-NL-EXT"><em>[T]he Supreme Court . . . upheld a law that makes . . . partial birth abortion illegal. [This] procedure [is] performed in the late-term of pregnancy, when in some cases the baby is old enough to survive. . . . The court&#8217;s ruling . . . [doesn&#8217;t] make an exception for the [mother&#8217;s] health. . . . Do you favor or oppose this ruling . . . ?</em> Result: 47&#37; favor; 43&#37; oppose.</p>
 <p id="scc9e-ch03-p-346" block_type="CR-X-NL-EXT"><em>. . . I would like to ask your opinion about a specific abortion procedure known as a &#8220;late-term&#8221; . . . or &#8220;partial-birth&#8221; abortion, which is sometimes performed . . . during the last few months of pregnancy. Do you think . . . the government should make this procedure illegal, or do you think . . . the procedure should be legal?</em> Result: 66&#37; illegal; 28&#37; legal.</p>

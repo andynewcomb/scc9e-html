@@ -171,7 +171,7 @@
 <p id="scc9e_page_11" block_type="page_start" data-margin-content="right">11</p>
 <box id="scc9e-ch01-box-14" numbered="false" block_type="BX2">
 <p id="scc9e-ch01-p-62" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch01-ques-01" data-filename="question_1_1.html">
+<question id="scc9e-ch01-ques-01" block_type="exercise_1_1.html">
 <p id="scc9e-ch01-p-63" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">1.1 Legalizing marijuana.</phrase> The Pew Research Center conducted a poll on March 25&#8211;29, 2015. They asked:</p>
 <p id="scc9e-ch01-p-64" block_type="BX2-QUE">Do you think the use of marijuana should be made legal or not?</p>
 <p id="scc9e-ch01-p-65" block_type="BX2-QUE">The Pew Research Center reported that the poll consisted of telephone interviews with 1500 randomly selected adult Americans. What do you think the population is? What is the sample?</p>
@@ -214,7 +214,7 @@
 </box>
 <box id="scc9e-ch01-box-19" numbered="false" block_type="BX2">
 <p id="scc9e-ch01-p-81" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch01-ques-02" data-filename="question_1_2.html">
+<question id="scc9e-ch01-ques-02" block_type="exercise_1_2.html">
 <p id="scc9e-ch01-p-82" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">1.2 Posting lectures on the class website.</phrase> To determine what students found most helpful, an educational researcher examined student comments from several classes he taught. Mentioned most often was the fact that copies of lectures were posted on the class website for students to download. The researcher recommended that instructors post lecture notes on their course websites. Was this an observational study or an experiment?</p>
 </question>
 </box>
@@ -233,7 +233,8 @@
 <li id="scc9e-ch01-li-05"><p id="scc9e-ch01-p-90" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> A <strong>census</strong> attempts to measure every individual in a population.</p></li>
 <li id="scc9e-ch01-li-06"><p id="scc9e-ch01-p-91" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> <strong>Experiments</strong> actually do something to individuals in order to see how they respond. The goal of an experiment is usually to learn whether some treatment actually causes a certain response.</p></li>
 </list>
-<p id="scc9e-ch01-p-92"> In reasoning from data to a conclusion, we start with the data. Where the data come from is the first step in the argument. The nature and validity of the conclusion are affected by this first step. Two sources of data are observational studies and experiments. Observational studies are best suited for a conclusion that involves describing some group or situation without disturbing the scene we observe. Sample surveys are a type of observational study in which we draw conclusions about a population by observing only a part of the population (the sample). Experiments are best suited for a conclusion that involves determining if a treatment causes a change in a response.</p>
+<p id="scc9e-ch01-p-92" block_type="SUM-TXT-ni">
+<image asset-id="scc9e-ch01-img-08" alt="image" src="asset/global_images/LinkIt.jpg"/>In reasoning from data to a conclusion, we start with the data. Where the data come from is the first step in the argument. The nature and validity of the conclusion are affected by this first step. Two sources of data are observational studies and experiments. Observational studies are best suited for a conclusion that involves describing some group or situation without disturbing the scene we observe. Sample surveys are a type of observational study in which we draw conclusions about a population by observing only a part of the population (the sample). Experiments are best suited for a conclusion that involves determining if a treatment causes a change in a response.</p>
 <p id="scc9e_page_15" block_type="page_start" data-margin-content="right">15</p>
 <p id="scc9e-ch01-p-93" block_type="SUM-TXT">In the next several chapters, we discuss these sources of data in more detail. We will see what makes for a good observational study and for a good experiment. And we will see how a bad observational study or experiment undermines the validity of the conclusions we wish to make.</p>
 <box id="scc9e-ch01-box-20" numbered="false" block_type="case_title">
@@ -258,7 +259,7 @@
 <section id="scc9e-ch01-sec-09" block_type="CR-X-H" chapter="ch1" numbered="false" level="1" print_page="15">
 <section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
 <p id="scc9e-ch01-p-103" block_type="CR-X"><em>For <link href="exercise_1_1.html">Exercise 1.1</link>, see page 11; for <link href="exercise_1_2.html">Exercise 1.2</link>, see page 13.</em></p>
-<question id="scc9e-ch01-ques-03" data-filename="question_1_3.html">
+<question id="scc9e-ch01-ques-03" block_type="exercise_1_3.html">
 <p id="scc9e-ch01-p-104" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.3 Individuals and variables.</phrase> A national survey by the Pew Research Center and <em>USA Today</em>, conducted August 20&#8211;24, 2014, was based on telephone interviews among a national sample of 1501 adults, 18 years of age or older, living in all 50 U.S. states and the District of Columbia. Those interviewed were asked to rate the job performance of police forces across the country for holding officers accountable when misconduct occurs. Possible ratings were &#8220;Excellent,&#8221; &#8220;Good,&#8221; &#8220;Only fair,&#8221; and &#8220;Poor.&#8221; Seventy percent of black respondents gave a rating of &#8220;Poor,&#8221; while only 27&#37; of white respondents gave a rating of &#8220;Poor.&#8221; For this study,</p>
 <p id="scc9e_page_16" block_type="page_start" data-margin-content="left">16</p>
 <list id="scc9e-ch01-list-04" type="ordered" block_type="lower-alpha">
@@ -268,7 +269,7 @@
 <li id="scc9e-ch01-li-17"><p id="scc9e-ch01-p-108" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> neither (a) nor (b).</p></li>
 </list>
 </question>
-<question id="scc9e-ch01-ques-04" data-filename="question_1_4.html">
+<question id="scc9e-ch01-ques-04" block_type="exercise_1_4.html">
 <p id="scc9e-ch01-p-109" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.4 Population and sample.</phrase> For the survey described in the previous exercise,</p>
 <list id="scc9e-ch01-list-05" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch01-li-18"><p id="scc9e-ch01-p-110" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the population is the 1501 adults interviewed and the sample are those who gave a rating of poor.</p></li>
@@ -277,7 +278,7 @@
 <li id="scc9e-ch01-li-21"><p id="scc9e-ch01-p-113" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> the population is all adults, 18 years of age or older, living in all 50 U.S. states and the District of Columbia, and the sample is the 1501 adults interviewed.</p></li>
 </list>
 </question>
-<question id="scc9e-ch01-ques-05" data-filename="question_1_5.html">
+<question id="scc9e-ch01-ques-05" block_type="exercise_1_5.html">
 <p id="scc9e-ch01-p-114" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.5 Observational studies and experiments.</phrase> Researchers at The Ohio State University studied the effect of acetaminophen on emotion. The study included a total of 167 volunteers. Approximately half were randomly assigned to take acetaminophen and the other half a placebo. All subjects were shown a variety of images intended to invoke emotions. &#8220;Whether they saw things likely to make them feel bad or make them feel good, the acetaminophen group had a less-intense response. It&#8217;s not that they didn&#8217;t feel sad or happy, just that they felt less (by about 10 to 20&#37;) than their placebo-swallowing peers. It doesn&#8217;t turn them into zombies. It doesn&#8217;t turn them into robots,&#8221; one of the researchers said. Which of the following is true?</p>
 <list id="scc9e-ch01-list-06" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch01-li-22"><p id="scc9e-ch01-p-115" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> This is an observational study, and participants were volunteers.</p></li>
@@ -286,7 +287,7 @@
 <li id="scc9e-ch01-li-25"><p id="scc9e-ch01-p-118" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> This is an experiment, and participants were randomly assigned to treatments.</p></li>
 </list>
 </question>
-<question id="scc9e-ch01-ques-06" data-filename="question_1_6.html">
+<question id="scc9e-ch01-ques-06" block_type="exercise_1_6.html">
 <p id="scc9e-ch01-p-119" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.6 Response variable.</phrase> For the study described in the previous exercise, the response variable is which of the following?</p>
 <list id="scc9e-ch01-list-07" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch01-li-26"><p id="scc9e-ch01-p-120" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Some measure of emotional intensity invoked by the images</p></li>
@@ -295,7 +296,7 @@
 <li id="scc9e-ch01-li-29"><p id="scc9e-ch01-p-123" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> The 167 volunteers</p></li>
 </list>
 </question>
-<question id="scc9e-ch01-ques-07" data-filename="question_1_7.html">
+<question id="scc9e-ch01-ques-07" block_type="exercise_1_7.html">
 <p id="scc9e-ch01-p-124" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.7 A census?</phrase> A study is considered to be a census if</p>
 <list id="scc9e-ch01-list-08" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch01-li-30"><p id="scc9e-ch01-p-125" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the population of interest is very large.</p></li>
@@ -308,7 +309,7 @@
 <section id="scc9e-ch01-sec-10" block_type="CR-X-H-v1" chapter="ch1" numbered="false" level="1" print_page="17">
 <section-metadata><section-title>CHAPTER 1 EXERCISES</section-title></section-metadata>
 <p id="scc9e_page_17" block_type="page_start" data-margin-content="right">17</p>
-<question id="scc9e-ch01-ques-08" data-filename="question_1_8.html">
+<question id="scc9e-ch01-ques-08" block_type="exercise_1_8.html">
 <p id="scc9e-ch01-p-129" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.8 Miles per gallon.</phrase> Here is a small part of a data set that describes the fuel economy (in miles per gallon) of 2015 model motor vehicles.</p>
 <list id="scc9e-ch01-list-09" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch01-li-34"><p id="scc9e-ch01-p-130" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What are the individuals in this data set?</p></li>
@@ -375,7 +376,7 @@
 </tbody>
 </table>
 </question>
-<question id="scc9e-ch01-ques-09" data-filename="question_1_9.html">
+<question id="scc9e-ch01-ques-09" block_type="exercise_1_9.html">
 <p id="scc9e-ch01-p-132" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.9 Athletes&#8217; salaries.</phrase> Here is a small part of a data set that describes Major League Baseball players as of opening day of the 2015 season.</p>
 <list id="scc9e-ch01-list-10" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch01-li-36"><p id="scc9e-ch01-p-133" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What individuals does this data set describe?</p></li>
@@ -436,20 +437,21 @@
 </tbody>
 </table>
 </question>
-<question id="scc9e-ch01-ques-10" data-filename="question_1_10.html">
+<question id="scc9e-ch01-ques-10" block_type="exercise_1_10.html">
 <p id="scc9e-ch01-p-136" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.10 Who recycles?</phrase> In <link href="example_1_1.html">Example 1</link>, weight is not a good measure of the participation of households in different neighborhoods in a city recycling program. What variables would you measure in its place?</p>
 </question>
-<question id="scc9e-ch01-ques-11" data-filename="question_1_11.html">
+<question id="scc9e-ch01-ques-11" block_type="exercise_1_11.html">
 <p id="scc9e-ch01-p-137" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.11 Sampling moms.</phrase> Pregnant and breast-feeding women should eat at least 12 ounces of fish and seafood per week to ensure their babies&#8217; optimal brain development, according to a coalition of top scientists from private groups and federal agencies. A nutritionist wants to know whether pregnant women are eating at least 12 ounces of fish per week. To do so, she obtains a list of the 340 members of a local chain of prenatal fitness clubs and mails a questionnaire to 60 of these women selected at random. Only 21 questionnaires are returned. What is the population in this study? What is the sample from which information is actually obtained? What percentage of the women whom the nutritionist tried to contact responded?</p>
 </question>
 <p id="scc9e_page_18" block_type="page_start" data-margin-content="left">18</p>
-<question id="scc9e-ch01-ques-12">
-<p id="scc9e-ch01-p-138"><phrase block_type="CR-X-NL-N-ri">1.12 The death penalty.</phrase> A press release by the Gallup News Service says that, based on a poll conducted on October 12&#8211;15, 2014, it found that 63&#37; of Americans respond Yes when asked this question: &#8220;Are you in favor of the death penalty for a person convicted of murder?&#8221; Toward the end of the article, you read: &#8220;Results for this Gallup poll are based on 1017 telephone interviews&#8221; and &#8220;based on a random sample of adults, 18 years and older living in all 50 U.S. states and the District of Columbia.&#8221; What variable did this poll measure? What population do you think Gallup wants information about? What was the sample?</p>
+<question id="scc9e-ch01-ques-12" block_type="exercise_1_12.html">
+<p id="scc9e-ch01-p-138" block_type="CR-X-NL">
+<image asset-id="scc9e-ch01-img-10" alt="image" src="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">1.12 The death penalty.</phrase> A press release by the Gallup News Service says that, based on a poll conducted on October 12&#8211;15, 2014, it found that 63&#37; of Americans respond Yes when asked this question: &#8220;Are you in favor of the death penalty for a person convicted of murder?&#8221; Toward the end of the article, you read: &#8220;Results for this Gallup poll are based on 1017 telephone interviews&#8221; and &#8220;based on a random sample of adults, 18 years and older living in all 50 U.S. states and the District of Columbia.&#8221; What variable did this poll measure? What population do you think Gallup wants information about? What was the sample?</p>
 </question>
-<question id="scc9e-ch01-ques-13" data-filename="question_1_13.html">
+<question id="scc9e-ch01-ques-13" block_type="exercise_1_13.html">
 <p id="scc9e-ch01-p-139" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.13 The political gender gap.</phrase> There may be a &#8220;gender gap&#8221; in political party preference in the United States, with women more likely than men to prefer Democratic candidates. A political scientist interviews a large sample of registered voters, both men and women. She asks each voter whether he or she voted for the Democratic or the Republican candidate in the last presidential election. Is this study an experiment? Why or why not? What variables does the study measure?</p>
 </question>
-<question id="scc9e-ch01-ques-14" data-filename="question_1_14.html">
+<question id="scc9e-ch01-ques-14" block_type="exercise_1_14.html">
 <p id="scc9e-ch01-p-140" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.14 What is the population?</phrase> For each of the following sampling situations, identify the population as exactly as possible. That is, say what kind of individuals the population consists of and say exactly which individuals fall in the population. If the information given is not sufficient, complete the description of the population by making reasonable assumptions about any missing information.</p>
 <list id="scc9e-ch01-list-11" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch01-li-39"><p id="scc9e-ch01-p-141" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> An opinion poll contacts 972 American adults and asks them, &#8220;Would you rather have a job working for the government or working for business?&#8221;</p></li>
@@ -457,7 +459,7 @@
 <li id="scc9e-ch01-li-41"><p id="scc9e-ch01-p-143" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The American Community Survey contacts 3.5 million households, including some in every county in the United States. This Census Bureau survey asks each household questions about their housing, economic, and social status.</p></li>
 </list>
 </question>
-<question id="scc9e-ch01-ques-15" data-filename="question_1_15.html">
+<question id="scc9e-ch01-ques-15" block_type="exercise_1_15.html">
 <p id="scc9e-ch01-p-144" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.15 What is the population?</phrase> For each of the following sampling situations, identify the population as exactly as possible. That is, say what kind of individuals the population consists of and say exactly which individuals fall in the population. If the information given is not sufficient, complete the description of the population in a reasonable way.</p>
 <p id="scc9e_page_19" block_type="page_start" data-margin-content="right">19</p>
 <list id="scc9e-ch01-list-12" type="ordered" block_type="lower-alpha">
@@ -466,20 +468,21 @@
 <li id="scc9e-ch01-li-44"><p id="scc9e-ch01-p-147" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The host of a local radio talk show wonders if people who are actively religious are more likely to trust their neighbors than those who are not. The station receives calls from 51 listeners who voice their opinions.</p></li>
 </list>
 </question>
-<question id="scc9e-ch01-ques-16">
-<p id="scc9e-ch01-p-148"><phrase block_type="CR-X-NL-N-ri">1.16 Teens&#8217; sleep needs.</phrase> A <em>Washington Post</em> article reported on a study about the sleep needs of teenagers. In the study, researchers measured the presence of the sleep-promoting hormone melatonin in teenagers&#8217; saliva at different times of the day. They learned that the melatonin levels rise later at night than they do in children and adults and remain at a higher level later in the morning. The teenagers who took part in the study were volunteers. Higher levels of melatonin indicate sleepiness. The researchers recommended that high schools start later in the day to accommodate the sleep needs of teens. Is this study an experiment, a sample survey, or an observational study that is not a sample survey? Explain your answer.</p>
+<question id="scc9e-ch01-ques-16" block_type="exercise_1_16.html">
+<p id="scc9e-ch01-p-148" block_type="CR-X-NL">
+<image asset-id="scc9e-ch01-img-11" alt="image" src="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">1.16 Teens&#8217; sleep needs.</phrase> A <em>Washington Post</em> article reported on a study about the sleep needs of teenagers. In the study, researchers measured the presence of the sleep-promoting hormone melatonin in teenagers&#8217; saliva at different times of the day. They learned that the melatonin levels rise later at night than they do in children and adults and remain at a higher level later in the morning. The teenagers who took part in the study were volunteers. Higher levels of melatonin indicate sleepiness. The researchers recommended that high schools start later in the day to accommodate the sleep needs of teens. Is this study an experiment, a sample survey, or an observational study that is not a sample survey? Explain your answer.</p>
 </question>
-<question id="scc9e-ch01-ques-17" data-filename="question_1_17.html">
+<question id="scc9e-ch01-ques-17" block_type="exercise_1_17.html">
 <p id="scc9e-ch01-p-149" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.17 Power lines and leukemia.</phrase> The study of power lines and leukemia in <link href="example_1_3.html">Example 3</link> compared two groups of individuals and measured many variables that might influence differences between the groups. Explain carefully why this study is <em>not</em> an experiment.</p>
 </question>
-<question id="scc9e-ch01-ques-18" data-filename="question_1_18.html">
+<question id="scc9e-ch01-ques-18" block_type="exercise_1_18.html">
 <p id="scc9e-ch01-p-150" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.18 Treating prostate disease.</phrase> A large study used records from Canada&#8217;s national health care system to compare the effectiveness of two ways to treat prostate disease. The two treatments are traditional surgery and a new method that does not require surgery. The records described many patients whose doctors had chosen one or the other method. The study found that patients treated by the new method were more likely to die within eight years.</p>
 <list id="scc9e-ch01-list-13" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch01-li-45"><p id="scc9e-ch01-p-151" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain why this is an observational study, not an experiment.</p></li>
 <li id="scc9e-ch01-li-46"><p id="scc9e-ch01-p-152" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Briefly describe the nature of an experiment to compare the two ways to treat prostate disease.</p></li>
 </list>
 </question>
-<question id="scc9e-ch01-ques-19" data-filename="question_1_19.html">
+<question id="scc9e-ch01-ques-19" block_type="exercise_1_19.html">
 <p id="scc9e-ch01-p-153" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.19 Walnuts and cholesterol.</phrase> Does eating walnuts increase the level of good cholesterol (HDL) and reduce the level of bad cholesterol (LDL)? Here are two ways to study this question.</p>
 <list id="scc9e-ch01-list-14" type="ordered" block_type="numbered">
 <li id="scc9e-ch01-li-47"><p id="scc9e-ch01-p-154" block_type="CR-X-NL"><phrase block_type="maker">1.</phrase> Researchers in Australia recruited 58 adults with diabetes for a research study. These subjects were randomly assigned to two treatment groups: a low-modified-fat diet group and a low-modified-fat diet group that included a handful of walnuts each day. After six months, researchers compared changes in HDL and LDL levels for the two groups.</p></li>
@@ -491,17 +494,19 @@
 <li id="scc9e-ch01-li-50"><p id="scc9e-ch01-p-157" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Why does the experiment give more useful information about whether walnuts increase HDL and reduce LDL?</p></li>
 </list>
 </question>
-<question id="scc9e-ch01-ques-20">
-<p id="scc9e-ch01-p-160"><phrase block_type="CR-X-NL-N-ri">1.20 Alcohol and cancer in women.</phrase> A <em>Washington Post</em> article reported on a study about alcohol consumption and cancer in women. Since 1996, a team of British researchers has been gathering detailed information from 1.28 million women aged 50 to 64. The researchers recorded how much alcohol the women reported consuming when they volunteered for the study and again three years later. The researchers then examined whether there was any link with the 68,775 cancers the women developed over an average of the next seven years. They found that even among women who consumed as little as 10 grams of alcohol a day on average (the equivalent of about one drink), the risk for cancer of the breast, liver, and rectum was elevated.</p>
+<question id="scc9e-ch01-ques-20" block_type="exercise_1_20.html">
+  <p id="scc9e-ch01-p-158" block_type="CR-X-NL">
+    <image asset-id="scc9e-ch01-img-12" alt="image" src="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">1.20 Alcohol and cancer in women.</phrase> A <em>Washington Post</em> article reported on a study about alcohol consumption and cancer in women. Since 1996, a team of British researchers has been gathering detailed information from 1.28 million women aged 50 to 64. The researchers recorded how much alcohol the women reported consuming when they volunteered for the study and again three years later. The researchers then examined whether there was any link with the 68,775 cancers the women developed over an average of the next seven years. They found that even among women who consumed as little as 10 grams of alcohol a day on average (the equivalent of about one drink), the risk for cancer of the breast, liver, and rectum was elevated.</p>
 <list id="scc9e-ch01-list-16" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch01-li-51"><p id="scc9e-ch01-p-159" block_type="CR-X-NL"><phrase block_type="maker">(a)</phrase> Is this an experiment? Explain your answer.</p></li>
 <li id="scc9e-ch01-li-52"><p id="scc9e-ch01-p-160" block_type="CR-X-NL"><phrase block_type="maker">(b)</phrase> We would prefer a sample survey to using women who volunteer for a study. What population does it appear that the researchers were interested in? What variables did they measure?</p></li>
 </list>
 </question>
-<question id="scc9e-ch01-ques-21">
-<p id="scc9e-ch01-p-161"><phrase block_type="CR-X-NL-N-ri">1.21 Bullying.</phrase> Researchers tracked 2668 people from early childhood through adulthood and found that 13-year-olds who are frequent targets of bullies were three times more likely than their nonvictimized peers to be depressed later as adults. What is the population in this study? What is the sample? What variables do the researchers measure?</p>
+<question id="scc9e-ch01-ques-21" block_type="exercise_1_21.html">
+<p id="scc9e-ch01-p-161" block_type="CR-X-NL">
+<image asset-id="scc9e-ch01-img-13" alt="image" src="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">1.21 Bullying.</phrase> Researchers tracked 2668 people from early childhood through adulthood and found that 13-year-olds who are frequent targets of bullies were three times more likely than their nonvictimized peers to be depressed later as adults. What is the population in this study? What is the sample? What variables do the researchers measure?</p>
 </question>
-<question id="scc9e-ch01-ques-22" data-filename="question_1_22.html">
+<question id="scc9e-ch01-ques-22" block_type="exercise_1_22.html">
 <p id="scc9e-ch01-p-162" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.22 Choose your study type.</phrase> What is the best way to answer each of the questions below: an experiment, a sample survey, or an observational study that is not a sample survey? Explain your choices.</p>
 <list id="scc9e-ch01-list-17" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch01-li-53"><p id="scc9e-ch01-p-163" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Is your school&#8217;s football team called for fewer penalties in home games than in away games?</p></li>
@@ -509,7 +514,7 @@
 <li id="scc9e-ch01-li-55"><p id="scc9e-ch01-p-165" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Do college students who have access to video recordings of course lectures perform better in the course than those who don&#8217;t?</p></li>
 </list>
 </question>
-<question id="scc9e-ch01-ques-23" data-filename="question_1_23.html">
+<question id="scc9e-ch01-ques-23" block_type="exercise_1_23.html">
 <p id="scc9e-ch01-p-166" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">1.23 Choose your study purpose.</phrase> Give an example of a question about pet owners, their behavior, or their opinions that would best be answered by</p>
 <list id="scc9e-ch01-list-18" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch01-li-56"><p id="scc9e-ch01-p-167" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> a sample survey.</p></li>
@@ -518,7 +523,7 @@
 </list>
 </question>
 <box id="scc9e-ch01-box-22" numbered="false" block_type="exploring-web">
-<p id="scc9e-ch01-p-170" block_type="QRL icon"><image asset-id="scc9e-ch01-img-14" alt="image" src="asset/ch1/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch01-p-170" block_type="QRL icon"><image asset-id="scc9e-ch01-img-14" alt="image" src="asset/global_images/bar_code.jpg"/></p>
 <p id="scc9e-ch01-p-171" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
 <p id="scc9e-ch01-p-172" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
 </box>

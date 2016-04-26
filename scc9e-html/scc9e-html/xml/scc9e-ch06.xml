@@ -126,7 +126,7 @@
 <p id="scc9e_page_126" block_type="page_start" data-margin-content="left">126</p>
 <box id="scc9e-ch06-box-13" numbered="false" block_type="BX2">
 <p id="scc9e-ch06-p-53" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch06-ques-01" data-filename="question_6_1.html">
+<question id="scc9e-ch06-ques-01" data-block_type="exercise_6_1.html">
 <p id="scc9e-ch06-p-54" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">6.1 The perfect cup.</phrase> One method for brewing coffee is the pour over. Ground coffee is placed in a filter-lined dripper (a metal or ceramic basket with holes in the bottom that fits over a carafe). Hot water is poured over the coffee and allowed to drip into the carafe. A coffee shop carries three brands of dripper, each brand differing in shape and the placement of holes through which the coffee drips. Some experts believe that moistening the filter with hot water before filling with grounds affects flavor, so the coffee shop plans the following experiment. For each brand of dripper, coffee is to be brewed both with the filter moistened and with the filter dry. A trained barista will brew two cups of coffee for each of the six combinations of dripper and wet/dry filter. A panel of trained tasters scores each cup for flavor on a scale of 1 to 10, with higher scores indicating better flavor.</p>
 <p id="scc9e-ch06-p-55" block_type="BX2-QUE">What are the explanatory variables and the response variables for this experiment? Make a diagram like <link href="figure_6_1.html">Figure 6.1</link> to describe the treatments. How many treatments are there? How many cups of coffee will be brewed?</p>
 </question>
@@ -203,7 +203,8 @@
 <li id="scc9e-ch06-li-04"><p id="scc9e-ch06-p-89" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> Many experiments use designs that are more complex than the basic <strong>completely randomized design</strong>, which divides all the subjects among all the treatments in one randomization. <strong>Matched pairs designs</strong> compare two treatments by giving one to each of a pair of similar subjects or by giving both to the same subject in random order. <strong>Block designs</strong> form blocks of similar subjects and assign treatments at random separately in each block.</p></li>
 <li id="scc9e-ch06-li-05"><p id="scc9e-ch06-p-90" block_type="SUM-BL-last"><phrase block_type="maker">&#8226;</phrase> The big ideas of <strong>randomization</strong>, <strong>control</strong>, and <strong>adequate numbers of subjects</strong> remain the keys to convincing experiments.</p></li>
 </list>
-<p id="scc9e-ch06-p-91">In <link href="scc9e-ch05.xml">Chapter 5</link>, we learned that well-designed randomized comparative experiments provide a sound basis for determining if a treatment causes changes in a response. In the real world, simple randomized comparative experiments don&#8217;t solve all the difficulties of experimenting. The placebo effect and researchers&#8217; expectations can introduce biases that undermine our conclusions. Just as samples suffer from nonresponse, experiments suffer from uncooperative subjects. Some subjects refuse to participate; others drop out before the experiment is complete; others don&#8217;t follow instructions, as when some subjects in a drug trial don&#8217;t take their pills. More complex designs and techniques, some of which were discussed in this chapter, are used to overcome real-world difficulties. We must pay careful attention to every aspect of an experiment to ensure that the conclusions we make are valid. And when reading about the results of experiments, you should use the ideas provided in this chapter to assess the quality of the conclusions.</p>
+<p id="scc9e-ch06-p-91" block_type="SUM-TXT-ni">
+<image asset-id="scc9e-ch06-img-10" alt="image" src="asset/global_images/LinkIt.jpg"/>In <link href="scc9e-ch05.xml">Chapter 5</link>, we learned that well-designed randomized comparative experiments provide a sound basis for determining if a treatment causes changes in a response. In the real world, simple randomized comparative experiments don&#8217;t solve all the difficulties of experimenting. The placebo effect and researchers&#8217; expectations can introduce biases that undermine our conclusions. Just as samples suffer from nonresponse, experiments suffer from uncooperative subjects. Some subjects refuse to participate; others drop out before the experiment is complete; others don&#8217;t follow instructions, as when some subjects in a drug trial don&#8217;t take their pills. More complex designs and techniques, some of which were discussed in this chapter, are used to overcome real-world difficulties. We must pay careful attention to every aspect of an experiment to ensure that the conclusions we make are valid. And when reading about the results of experiments, you should use the ideas provided in this chapter to assess the quality of the conclusions.</p>
 <box id="scc9e-ch06-box-21" numbered="false" block_type="case_title">
 <p id="scc9e-ch06-p-92" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> Use what you have learned in this chapter to evaluate the Case Study that opened the chapter. Start by reviewing the information on <link href="alias:page_117">page 117</link>. You can also read the EESEE story &#8220;Is Caffeine Dependence Real?&#8221; for additional information. Then answer each of the following questions in complete sentences. Be sure to communicate clearly enough for any of your classmates to understand what you are saying.</p>
 <p id="scc9e_page_132" block_type="page_start" data-margin-content="left">132</p>
@@ -215,7 +216,9 @@
 </list>
 </box>
 <box id="scc9e-ch06-box-22" numbered="false" block_type="launchpad">
-<p id="scc9e-ch06-p-97"> Online Resources</p>
+<p id="scc9e-ch06-p-97" block_type="CR-BIB-T">
+<image asset-id="scc9e-ch06-img-11" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources
+</p>
 <list id="scc9e-ch06-list-03" type="unordered" block_type="redbullet">
 <li id="scc9e-ch06-li-09"><p id="scc9e-ch06-p-98" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The Snapshot Video <em>Introduction to Statistics</em> describes real-world situations for which knowledge of statistical ideas is important.</p></li>
 </list>
@@ -224,7 +227,7 @@
 <section id="scc9e-ch06-sec-09" block_type="CR-X-H" chapter="ch6" numbered="false" level="1" print_page="132">
 <section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
 <p id="scc9e-ch06-p-99" block_type="CR-X"><em>For <link href="exercise_6_1.html">Exercise 6.1</link></em>, <em>see page 126</em>; <em>for <link href="exercise_6_2.html">Exercise 6.2</link></em>, <em>see page 129</em>.</p>
-<question id="scc9e-ch06-ques-02" data-filename="question_6_3.html">
+<question id="scc9e-ch06-ques-02" data-block_type="exercise_6_3.html">
 <p id="scc9e-ch06-p-100" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.3 Does meditation reduce anxiety?</phrase> An experiment that claimed to show that meditation reduces anxiety proceeded as follows. The experimenter interviewed the subjects and rated their level of anxiety. The subjects were then randomly assigned to two groups. The experimenter taught one group how to meditate, and they meditated daily for a month. The other group was simply encouraged to relax more. At the end of the month, the experimenter interviewed all the subjects again and rated their anxiety level. The meditation group had a greater decrease in anxiety than the group told to relax more. These results might be biased because</p>
 <list id="scc9e-ch06-list-04" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch06-li-10"><p id="scc9e-ch06-p-101" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> subjects should have been blinded to what treatment they received.</p></li>
@@ -233,7 +236,7 @@
 <li id="scc9e-ch06-li-13"><p id="scc9e-ch06-p-104" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> the experimenter failed to use proper blocking.</p></li>
 </list>
 </question>
-<question id="scc9e-ch06-ques-03" data-filename="question_6_4.html">
+<question id="scc9e-ch06-ques-03" data-block_type="exercise_6_4.html">
 <p id="scc9e-ch06-p-105" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.4 Effects of TV advertising.</phrase> What are the effects of repeated exposure to an advertising message? The answer may depend on both the length of the ad and how often it is repeated. An experiment investigated this question using undergraduate students. All students viewed a 40-minute television program that included ads for a new smartphone. Some subjects saw a 30-second commercial; others, a 90-second commercial. The same commercial was shown either one, three, or five times during the program. After viewing, all the students answered questions about their recall of the ad, their attitude toward the smartphone, and their intention to purchase it. In this experiment, the length of the commercial and the number of times it was shown are</p>
 <list id="scc9e-ch06-list-05" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch06-li-14"><p id="scc9e-ch06-p-106" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the responses.</p></li>
@@ -243,7 +246,7 @@
 </list>
 </question>
 <p id="scc9e_page_133" block_type="page_start" data-margin-content="right">133</p>
-<question id="scc9e-ch06-ques-04" data-filename="question_6_5.html">
+<question id="scc9e-ch06-ques-04" data-block_type="exercise_6_5.html">
 <p id="scc9e-ch06-p-110" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.5 Effects of TV advertising.</phrase> Which of the following is an important weakness of the experiment described in <link href="exercise_6_4.html">Exercise 6.4</link>?</p>
 <list id="scc9e-ch06-list-06" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch06-li-18"><p id="scc9e-ch06-p-111" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> This was not a matched pairs design.</p></li>
@@ -252,7 +255,7 @@
 <li id="scc9e-ch06-li-21"><p id="scc9e-ch06-p-114" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> This experiment did not use a placebo.</p></li>
 </list>
 </question>
-<question id="scc9e-ch06-ques-05" data-filename="question_6_6.html">
+<question id="scc9e-ch06-ques-05" data-block_type="exercise_6_6.html">
 <p id="scc9e-ch06-p-115" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.6 Reducing smoking.</phrase> The Community Intervention Trial for Smoking Cessation asked whether a community-wide advertising campaign would reduce smoking. The researchers located 11 pairs of communities, with each pair similar in location, size, economic status, and so on. One community in each pair was chosen at random to participate in the advertising campaign and the other was not. This is</p>
 <list id="scc9e-ch06-list-07" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch06-li-22"><p id="scc9e-ch06-p-116" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> an observational study.</p></li>
@@ -261,7 +264,7 @@
 <li id="scc9e-ch06-li-25"><p id="scc9e-ch06-p-119" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> a randomized block design.</p></li>
 </list>
 </question>
-<question id="scc9e-ch06-ques-06" data-filename="question_6_7.html">
+<question id="scc9e-ch06-ques-06" data-block_type="exercise_6_7.html">
 <p id="scc9e-ch06-p-120" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.7 Wine and heart health.</phrase> To explore the effects of red wine on heart health, you recruit 100 volunteers. Half are to drink one glass of red wine a day with dinner for a month. The other half are to abstain from any alcohol for a month. The diets of all volunteers are otherwise the same. Women and men may respond differently to wine. Forty of the volunteers are women and 60 are men, so the researchers separately randomly assign half the women to the wine group and half the men to the wine group. The remaining volunteers are assigned to the no alcohol group. This is an example of</p>
 <list id="scc9e-ch06-list-08" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch06-li-26"><p id="scc9e-ch06-p-121" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> a completely randomized design.</p></li>
@@ -277,13 +280,13 @@
 <p id="scc9e-ch06-p-125"><phrase block_type="CR-X-NL-N-ri">6.8 Magic mushrooms.</phrase> A <em>Washington Post</em> article reported that psilocybin, the active ingredient of &#8220;magic mushrooms,&#8221; promoted a mystical experience in two-thirds of people who took it for the first time, according to a study published in the online journal <em>Psychopharmacology</em>. The authors of the article stated that their &#8220;double-blind study evaluated the acute and longer-term psychological effects of a high dose of psilocybin relative to a comparison compound administered under comfortable, supportive conditions.&#8221; Explain to someone who knows no statistics what the term &#8220;double-blind&#8221; means here.</p>
 </question>
 <p id="scc9e_page_134" block_type="page_start" data-margin-content="left">134</p>
-<question id="scc9e-ch06-ques-08" data-filename="question_6_9.html">
+<question id="scc9e-ch06-ques-08" data-block_type="exercise_6_9.html">
 <p id="scc9e-ch06-p-126" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.9 Do antidepressants help?</phrase> A researcher studied the effect of an antidepressant on depression. He randomly assigned subjects with moderate levels of depression to two groups. One group received the antidepressant and the other a placebo. Subjects were blinded with respect to the treatment they received. After four weeks, the researcher interviewed all subjects and rated the change in their symptoms based on the comments of subjects during the interview. Critics said that the results were suspect because the ratings were not blind. Explain what this means and how lack of blindness could bias the reported results.</p>
 </question>
-<question id="scc9e-ch06-ques-09" data-filename="question_6_10.html">
+<question id="scc9e-ch06-ques-09" data-block_type="exercise_6_10.html">
 <p id="scc9e-ch06-p-127" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.10 Treating acne.</phrase> An article in a medical journal reports an experiment to see if pulsed laser dye therapy is effective in treating acne. The article describes the experiment as a &#8220;randomized, controlled, single-blinded, split-face clinical trial of a volunteer sample of 40 patients aged 13 years or older with facial acne conducted at an academic referral center from August 2002 to September 2003.&#8221; A split-face clinical trial is one in which one side of the face is treated and one side is not. What do you think &#8220;single-blinded&#8221; means here? Why isn&#8217;t a double-blind experiment possible?</p>
 </question>
-<question id="scc9e-ch06-ques-10" data-filename="question_6_11.html">
+<question id="scc9e-ch06-ques-10" data-block_type="exercise_6_11.html">
 <p id="scc9e-ch06-p-128" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.11 Bright bike lights.</phrase> Will requiring bicyclists to use bright, high-intensity xenon lights mounted on the front and rear of the bike reduce accidents with cars by making bikes more visible?</p>
 <list id="scc9e-ch06-list-09" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch06-li-30"><p id="scc9e-ch06-p-129" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Briefly discuss the design of an experiment to help answer this question. In particular, what response variables will you examine?</p></li>
@@ -294,10 +297,10 @@
 <p id="scc9e-ch06-p-131"><phrase block_type="CR-X-NL-N-ri">6.12 A high-fat diet prevents obesity?</phrase> A <em>Science News</em> article reported that according to a study conducted by researchers at Hebrew University of Jerusalem, a high-fat diet could reset the metabolism and prevent obesity. In the study, for 18 weeks, researchers fed a group of mice a high-fat diet on a fixed schedule (eating at the same time and for the same length of time every day). They compared these mice to three control groups: one that ate a low-fat diet on a fixed schedule, one that ate an unscheduled low-fat diet (in the quantity and frequency of its choosing), and one that ate an unscheduled high-fat diet. All four groups of mice gained weight throughout the experiment. However, the mice on the scheduled high-fat diet had a lower final body weight than the mice eating an unscheduled high-fat diet. Surprisingly, the mice on the scheduled high-fat diet also had a lower final body weight than the mice that ate an unscheduled low-fat diet, even though both groups consumed the same amount of calories. In addition, the mice on the scheduled high-fat diet exhibited a unique metabolic state in which the fats they ingested were not stored, but rather utilized for energy at times when no food was available, such as between meals. Briefly discuss the questions that arise in using this experiment to decide the benefits of a scheduled high-fat diet for humans.</p>
 </question>
 <p id="scc9e_page_135" block_type="page_start" data-margin-content="right">135</p>
-<question id="scc9e-ch06-ques-12" data-filename="question_6_13.html">
+<question id="scc9e-ch06-ques-12" data-block_type="exercise_6_13.html">
 <p id="scc9e-ch06-p-132" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.13 Blood-chilling and strokes.</phrase> A <em>Science News</em> article reported a study of the effect of cooling the blood of stroke patients on the extent of recovery 90 days after the stroke. Researchers randomly assigned 58 severe-stroke patients to receive either tPA (the standard treatment for stroke) or tPA plus blood-chilling. Regulators overseeing the study required a one-hour delay from the point at which tPA was given before cooling could be started. The researchers found no significant difference in the effects of the two treatments on recovery. Researchers also noted that the recovery rate for both groups was worse than the average seen in stroke patients nationwide but were not concerned. Why were they unconcerned?</p>
 </question>
-<question id="scc9e-ch06-ques-13" data-filename="question_6_14.html">
+<question id="scc9e-ch06-ques-13" data-block_type="exercise_6_14.html">
 <p id="scc9e-ch06-p-133" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.14 Beating sunburn with broccoli.</phrase> Some recent studies suggest that compounds in broccoli may be helpful in combating the effects of overexposure to ultraviolet radiation. Based on these studies, we hope to show that a cream consisting of a broccoli extract reduces sunburn pain. Sixty patients suffering from severe sunburn and needing pain relief are available. We will apply the cream to the sunburn of each patient and ask them an hour later, &#8220;About what percent of pain relief did you experience?&#8221;</p>
 <list id="scc9e-ch06-list-10" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch06-li-32"><p id="scc9e-ch06-p-134" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Why should we not simply apply the cream to all 60 patients and record the responses?</p></li>
@@ -306,7 +309,7 @@
 <li id="scc9e-ch06-li-35"><p id="scc9e-ch06-p-137" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> If patients are not told which treatment they are receiving, but the researchers assessing the effect of the treatment know, the experiment is single-blind. Should this experiment be double-blind? Explain.</p></li>
 </list>
 </question>
-<question id="scc9e-ch06-ques-14" data-filename="question_6_15.html">
+<question id="scc9e-ch06-ques-14" data-block_type="exercise_6_15.html">
 <p id="scc9e-ch06-p-138" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.15 Testing a natural remedy.</phrase> The statistical controversy presented in this chapter discusses issues surrounding the efficacy of natural remedies. The National Institutes of Health at last began sponsoring proper clinical trials of some natural remedies. In one study at Duke University, 330 patients with mild depression were enrolled in a trial to compare Saint-John&#8217;s-wort with a placebo and with Zoloft, a common prescription drug for depression. The Beck Depression Inventory is a common instrument that rates the severity of depression on a 0 to 3 scale.</p>
 <list id="scc9e-ch06-list-11" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch06-li-36"><p id="scc9e-ch06-p-139" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What would you use as the response variable to measure change in depression after treatment?</p></li>
@@ -315,7 +318,7 @@
 </list>
 </question>
 <p id="scc9e_page_136" block_type="page_start" data-margin-content="left">136</p>
-<question id="scc9e-ch06-ques-15" data-filename="question_6_16.html">
+<question id="scc9e-ch06-ques-15" data-block_type="exercise_6_16.html">
 <p id="scc9e-ch06-p-142" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.16 The placebo effect.</phrase> A survey of physicians found that some doctors give a placebo to a patient who complains of pain for which the physician can find no cause. If the patient&#8217;s pain improves, these doctors conclude that it had no physical basis. The medical school researchers who conducted the survey claimed that these doctors do not understand the placebo effect. Why?</p>
 </question>
 <question id="scc9e-ch06-ques-16">
@@ -335,7 +338,7 @@
 </list>
 </question>
 <p id="scc9e_page_137" block_type="page_start" data-margin-content="right">137</p>
-<question id="scc9e-ch06-ques-18" data-filename="question_6_19.html">
+<question id="scc9e-ch06-ques-18" data-block_type="exercise_6_19.html">
 <p id="scc9e-ch06-p-151" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.19 Ibuprofen and atherosclerosis.</phrase> The theory of atherosclerosis (hardening and narrowing of the arteries) emphasizes the role of inflammation in the vascular walls. Because ibuprofen is known to possess a wide range of anti-inflammatory actions, it was hypothesized that it might help in the prevention of atherosclerotic lesion development. Both a low-cholesterol and a high-cholesterol diet were used, as the extent of atherosclerosis is also affected by diet. Thirty-two New Zealand rabbits served as subjects in the experiment and, after three months, the percentage of the surface covered by atherosclerotic plaques in a region of the aorta was evaluated. Although ibuprofen did suppress the expression of a gene thought to be related to atherosclerosis, it was not shown to have an effect on the extent of fat-induced atherosclerotic lesions.</p>
 <list id="scc9e-ch06-list-14" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch06-li-45"><p id="scc9e-ch06-p-152" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What are the individuals and the response variable in this experiment?</p></li>
@@ -343,7 +346,7 @@
 <li id="scc9e-ch06-li-47"><p id="scc9e-ch06-p-154" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Use a diagram to describe a completely randomized design for this experiment. (Don&#8217;t actually do the randomization.)</p></li>
 </list>
 </question>
-<question id="scc9e-ch06-ques-19" data-filename="question_6_20.html">
+<question id="scc9e-ch06-ques-19" data-block_type="exercise_6_20.html">
 <p id="scc9e-ch06-p-155" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.20 Price change and fairness.</phrase> A marketing researcher wishes to study what factors affect the perceived fairness of a change in the price of an item from its advertised price. In particular, does the type of change in price (an increase or decrease) and the source of the information about the change affect the perceived fairness? In an experiment, 20 subjects interested in purchasing a new rug are recruited. They are told that the price of a rug in a certain store was advertised at &#36;500. Subjects are sent, one at a time, to the store, where they learn that the price has changed. Five subjects are told by a store clerk that the price has increased to &#36;550. Five subjects learn that the price has increased to &#36;550 from the price tag on the rug. Five subjects are told by a store clerk that the price has decreased to &#36;450. Five subjects learn that the price has decreased to &#36;450 from the price tag on the rug. After learning about the change in price, each subject is asked to rate the fairness of the change on a 10-point scale with 1 &#61; &#8220;very unfair&#8221; to 10 &#61; &#8220;very fair.&#8221;</p>
 <list id="scc9e-ch06-list-15" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch06-li-48"><p id="scc9e-ch06-p-156" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What are the explanatory variables and the response variables for this experiment?</p></li>
@@ -352,13 +355,13 @@
 </list>
 </question>
 <p id="scc9e_page_138" block_type="page_start" data-margin-content="left">138</p>
-<question id="scc9e-ch06-ques-20" data-filename="question_6_21.html">
+<question id="scc9e-ch06-ques-20" data-block_type="exercise_6_21.html">
 <p id="scc9e-ch06-p-159" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.21 Liquid water enhancers.</phrase> Bottled water, flavored and plain, is expected to become the largest segment of the liquid refreshment market by the end of the decade, surpassing traditional carbonated soft drinks. Kraft&#8217;s MiO, a liquid water enhancer, comes in a variety of flavors, and a few drops added to water gives a zero-calorie, flavored water drink. You wonder if those who drink flavored water like the taste of MiO as well as they like the taste of a competing flavored water product that comes ready to drink. Describe a matched pairs design to answer this question. Be sure to include any blinding of your subjects. What is your response variable going to be?</p>
 </question>
-<question id="scc9e-ch06-ques-21" data-filename="question_6_22.html">
+<question id="scc9e-ch06-ques-21" data-block_type="exercise_6_22.html">
 <p id="scc9e-ch06-p-160" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.22 Athletes take oxygen.</phrase> We often see players on the sidelines of a football game inhaling oxygen. Their coaches think this will speed their recovery. We might measure recovery from intense exertion as follows: Have a football player run 100 yards three times in quick succession. Then allow three minutes to rest before running 100 yards again. Time the final run. Describe the design of two experiments to investigate the effect of inhaling oxygen during the rest period. One of the experiments is to be a completely randomized design and the other a matched pairs design in which each student serves as his or her own control. Twenty football players are available as subjects. In both experiments, carry out the randomization required by the design.</p>
 </question>
-<question id="scc9e-ch06-ques-22" data-filename="question_6_23.html">
+<question id="scc9e-ch06-ques-22" data-block_type="exercise_6_23.html">
 <p id="scc9e-ch06-p-161" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.23 Font naturalness and perceived healthiness.</phrase> Can the font used in a packaged product affect our perception of the product&#8217;s healthiness? It was hypothesized that use of a natural font, which looks more handwritten and tends to be more slanted and curved, would lead to a higher perception of product healthiness than an unnatural font. Two fonts, Impact and Sketchflow Print, were used. These fonts were shown in a previous study to differ in their perceived naturalness, but otherwise were rated similarly on factors such as readability and likeability. Images of two identical packages, differing only in the font used, were available to be presented to the subjects. Participants read statements such as, &#8220;This product is healthy,&#8221; &#8220;This product is wholesome,&#8221; This product is natural,&#8221; and &#8220;This product is organic.&#8221; They then rated how much they agreed with the statements on a seven-point scale with &#8220;1&#8221; indicating strong agreement and &#8220;7&#8221; indicating strong disagreement. Each subject&#8217;s responses were combined to create a perceived healthiness score. The researchers have 100 students available to serve as subjects.</p>
 <list id="scc9e-ch06-list-16" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch06-li-51"><p id="scc9e-ch06-p-162" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Outline a completely randomized design to learn the effect of font naturalness on perceived healthiness.</p></li>
@@ -366,7 +369,7 @@
 </list>
 </question>
 <p id="scc9e_page_139" block_type="page_start" data-margin-content="right">139</p>
-<question id="scc9e-ch06-ques-23" data-filename="question_6_24.html">
+<question id="scc9e-ch06-ques-23" data-block_type="exercise_6_24.html">
 <p id="scc9e-ch06-p-164" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.24 Technology for teaching statistics.</phrase> The Brigham Young University statistics department performed randomized comparative experiments to compare teaching methods. Response variables include students&#8217; final-exam scores and a measure of their attitude toward statistics. One study compared two levels of technology for large lectures: standard (overhead projectors and chalk) and multimedia. The individuals in the study were the eight lectures in a basic statistics course. There were four instructors, each of whom taught two lectures. Because lecturers differed, a block design was used with their lectures forming four blocks. Suppose the lectures and lecturers were as follows.</p>
 <table id="scc9e-ch06-untab-01" numbered="false" block_type="UN-TABLE" attr="50">
 <tbody>
@@ -410,7 +413,7 @@
 </table>
 <p id="scc9e-ch06-p-165" block_type="cr-x-nl">Use a diagram to outline a block design for this experiment. <link href="figure_6_2.html">Figure 6.2</link> is a model.</p>
 </question>
-<question id="scc9e-ch06-ques-24" data-filename="question_6_25.html">
+<question id="scc9e-ch06-ques-24" data-block_type="exercise_6_25.html">
 <p id="scc9e-ch06-p-166" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.25 Comparing weight-loss treatments.</phrase> Twenty overweight females have agreed to participate in a study of the effectiveness of four weight-loss treatments: A, B, C, and D. The researcher first calculates how overweight each subject is by comparing the subject&#8217;s actual weight with her &#8220;ideal&#8221; weight. The subjects and their excess weights in pounds are</p>
 <table id="scc9e-ch06-untab-02" numbered="false" block_type="UN-TABLE" attr="50">
 <tbody>
@@ -482,7 +485,7 @@
 <li id="scc9e-ch06-li-54"><p id="scc9e-ch06-p-169" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Use <link href="table_a.html">Table A</link> (or statistical software) to randomly assign the four subjects in each block to the four weight-loss treatments. Be sure to explain exactly how you used the table.</p></li>
 </list>
 </question>
-<question id="scc9e-ch06-ques-25" data-filename="question_6_26.html">
+<question id="scc9e-ch06-ques-25" data-block_type="exercise_6_26.html">
 <p id="scc9e-ch06-p-170" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.26 In the corn field.</phrase> An agronomist (a specialist in crop production and soil chemistry) wants to compare the yield of four corn varieties. The field in which the experiment will be carried out increases in fertility from north to south. The agronomist therefore divides the field into 20 plots of equal size, arranged in five east-west rows of four plots each, and employs a block design with the rows of plots as the blocks.</p>
 <list id="scc9e-ch06-list-18" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch06-li-55"><p id="scc9e-ch06-p-171" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Draw a sketch of the field, divided into 20 plots. Label the rows Block 1 to Block 5.</p></li>
@@ -490,16 +493,16 @@
 </list>
 </question>
 <p id="scc9e_page_140" block_type="page_start" data-margin-content="left">140</p>
-<question id="scc9e-ch06-ques-26" data-filename="question_6_27.html">
+<question id="scc9e-ch06-ques-26" data-block_type="exercise_6_27.html">
 <p id="scc9e-ch06-p-173" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.27 Better sleep?</phrase> Is the time between when you go to bed and when you first wake up affected by the time you eat dinner and how much exercise you do during the day? Describe briefly the design of an experiment with two explanatory variables to investigate this question. Be sure to specify the treatments exactly and to tell how you will handle lurking variables such as amount of sleep the previous night.</p>
 </question>
-<question id="scc9e-ch06-ques-27" data-filename="question_6_28.html">
+<question id="scc9e-ch06-ques-27" data-block_type="exercise_6_28.html">
 <p id="scc9e-ch06-p-174" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.28 Dunkin&#8217; Donuts versus Starbucks.</phrase> Do consumers prefer the taste of a latte from Dunkin&#8217; Donuts or from Starbucks in a blind test in which neither latte is identified? Describe briefly the design of a matched pairs experiment to investigate this question.</p>
 </question>
-<question id="scc9e-ch06-ques-28" data-filename="question_6_29.html">
+<question id="scc9e-ch06-ques-28" data-block_type="exercise_6_29.html">
 <p id="scc9e-ch06-p-175" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.29 What do you want to know?</phrase> The previous two exercises illustrate the use of statistically designed experiments to answer questions that arise in everyday life. Select a question of interest to you that an experiment might answer and briefly discuss the design of an appropriate experiment.</p>
 </question>
-<question id="scc9e-ch06-ques-29" data-filename="question_6_30.html">
+<question id="scc9e-ch06-ques-29" data-block_type="exercise_6_30.html">
 <p id="scc9e-ch06-p-176" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">6.30 Doctors and nurses.</phrase> Nurse practitioners are nurses with advanced qualifications who often act much like primary-care physicians. An experiment assigned 1316 patients who had no regular source of medical care to either a doctor (510 patients) or a nurse practitioner (806 patients). All the patients had been diagnosed with asthma, diabetes, or high blood pressure before being assigned. The response variables included measures of the patients&#8217; health and of their satisfaction with their medical care after six months.</p>
 <list id="scc9e-ch06-list-19" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch06-li-57"><p id="scc9e-ch06-p-177" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Is the diagnosis (asthma, etc.) a treatment variable or a block? Why?</p></li>

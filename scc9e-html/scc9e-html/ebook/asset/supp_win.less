@@ -8,6 +8,11 @@
     h3 {
         display: none;
     }
+    img[src*="global_images"] {
+        float: left;
+        margin-right: 10px;
+        width: 73px;
+    }
 }
 // destyle examples
 [data-block_type="EXP"] {
@@ -36,8 +41,23 @@ div[data-type="section"][data-block_type="CR-X-H"] {
         }
     }
 }
+// exercises section
+div[data-type="section"][data-block_type="CR-X-H-v1"] {
+    [data-type="question"] {
+        [data-block_type="CR-X-NL-N-ri"] {
+	        &:hover {
+		            cursor: auto;
+		            text-decoration: none;
+	        }
+        }
+    }
+}
 /* destyle numbered figure title numbers */
-[data-block_type="FIGURE"] {
+// need to do ONLY if in figure popup (e.g. not example popup)
+div[data-type="section"] > [data-block_type="FIGURE"] {
+    img {
+        cursor: auto !important;
+    }
     [data-type="figure_text"] {
         [data-type="caption"] [data-block_type="FG-N-ri"]{
             font-weight: bold;

@@ -1,1 +1,17 @@
-﻿
+﻿div#scc9e-ch03-p-16a {
+  margin-top: -35px;
+}
+div#scc9e-ch03-box-14 {
+  margin-right: 2em;
+  margin-top: 61px;
+  margin-bottom: 44px;
+}
+div#scc9e_page_51 {
+  margin-top: -23px !important;
+}
+div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] ul[data-block_type="none"] {
+  border-top: 1px solid #005bab;
+  border-bottom: 1px solid #005bab;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}

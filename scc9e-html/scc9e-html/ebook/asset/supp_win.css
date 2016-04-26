@@ -8,6 +8,11 @@
 [data-type="question"] h3 {
   display: none;
 }
+[data-type="question"] img[src*="global_images"] {
+  float: left;
+  margin-right: 10px;
+  width: 73px;
+}
 [data-block_type="EXP"] [data-block_type="EXP-T"] p:hover {
   cursor: auto;
   text-decoration: none;
@@ -20,8 +25,15 @@ div[data-type="section"][data-block_type="CR-X-H"] [data-type="question"] [data-
   cursor: auto;
   text-decoration: none;
 }
+div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] [data-block_type="CR-X-NL-N-ri"]:hover {
+  cursor: auto;
+  text-decoration: none;
+}
 /* destyle numbered figure title numbers */
-[data-block_type="FIGURE"] [data-type="figure_text"] [data-type="caption"] [data-block_type="FG-N-ri"] {
+div[data-type="section"] > [data-block_type="FIGURE"] img {
+  cursor: auto !important;
+}
+div[data-type="section"] > [data-block_type="FIGURE"] [data-type="figure_text"] [data-type="caption"] [data-block_type="FG-N-ri"] {
   font-weight: bold;
   cursor: auto;
 }

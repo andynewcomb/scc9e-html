@@ -68,7 +68,7 @@
 <p id="scc9e-ch02-p-27" block_type="TXT">An SRS not only gives each individual an equal chance to be chosen (thus avoiding bias in the choice), but also gives every possible sample an equal chance to be chosen. Drawing names from a hat does this. Write 100 names on identical slips of paper and mix them in a hat. This is a population. Now draw 10 slips, one after the other. This is an SRS, because any 10 slips have the same chance as any other 10.</p>
 <box id="scc9e-ch02-box-08" numbered="false" block_type="BX2">
 <p id="scc9e-ch02-p-28" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch02-ques-01" data-filename="question_2_1.html">
+<question id="scc9e-ch02-ques-01" block_type="exercise_2_1.html">
 <p id="scc9e-ch02-p-29" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">2.1 Sampling my class.</phrase> There are 20 students in my class. They are listed on my class roster in alphabetical order. There are blank rows between the first five names on the list, the second five names on the list, the third five names on the list, and the last five names on the list. Thus, the list appears as four groups of five names, each separated by blank rows.</p>
 <p id="scc9e-ch02-p-30" block_type="BX2-QUE">I want to take a simple random sample consisting of four of the students in my class. To do this, I select a single student from each group of five as follows. I write the numbers 1 to 5 on identical slips of paper. I mix the slips in a hat and draw one at random. I count this number of students down in the first group of five and select this student. For example, if the number selected is 3, I select the third student in the first group of five on my class roster. I replace the slip in the hat, again mix the slips, and draw a new number. The student this many down on the list in the second group is selected. I repeat this process for the remaining two groups. Every student in the class has a 1-in-5 chance of being selected when I come to his or her group. Thus, every student has the same chance of being selected. Is the sample a simple random sample? Explain.</p>
 </question>
@@ -344,7 +344,7 @@
 <p id="scc9e_page_30" block_type="page_start" data-margin-content="left">30</p>
 <box id="scc9e-ch02-box-14" numbered="false" block_type="BX2">
 <p id="scc9e-ch02-p-60" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch02-ques-02" data-filename="question_2_2.html">
+<question id="scc9e-ch02-ques-02" block_type="exercise_2_2.html">
 <p id="scc9e-ch02-p-61" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">2.2 Evaluating teaching assistants.</phrase> To assess how its teaching assistants are performing, the statistics department at a large university randomly selects three of its teaching assistants each week and sends a faculty member to visit their classes. The current list of 20 teaching assistants is given here. Use software, an online tool (for example, the Research Randomizer), or <link href="table_a_1.html">Table A</link> at line 116 to choose three to be visited this week. Remember to begin by labeling the teaching assistants from 01 to 20.</p>
 <table id="scc9e-ch02-untab-05" numbered="false" block_type="UN-TABLE" attr="50">
 <tbody>
@@ -416,14 +416,16 @@
 <li id="scc9e-ch02-li-06"><p id="scc9e-ch02-p-71" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> The basic type of random sample is the <strong>simple random sample</strong>, which gives all samples of the same size the same chance to be the sample we actually choose.</p></li>
 <li id="scc9e-ch02-li-07"><p id="scc9e-ch02-p-72" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> To choose an SRS by hand, use a <strong>table of random digits</strong> such as <link href="table_a_1.html">Table A</link> in the back of the book, or use software.</p></li>
 </list>
-<p id="scc9e-ch02-p-73"> The first step in reasoning from data to a conclusion is obtaining data. In <link href="scc9e-ch01.xml">Chapter 1</link>, we discussed sample surveys as one way to collect data in an observational study. The method of selecting the sample in a sample survey affects how well the sample represents the population. Biased sampling methods, such as convenience sampling and voluntary response samples, produce data that can be misleading, resulting in incorrect conclusions. Simple random sampling avoids bias and produces data that give us confidence that the first step in our argument is sound.</p>
+<p id="scc9e-ch02-p-73" block_type="SUM-TXT-ni">
+<image asset-id="scc9e-ch02-img-09" alt="image" src="asset/global_images/LinkIt.jpg"/> The first step in reasoning from data to a conclusion is obtaining data. In <link href="scc9e-ch01.xml">Chapter 1</link>, we discussed sample surveys as one way to collect data in an observational study. The method of selecting the sample in a sample survey affects how well the sample represents the population. Biased sampling methods, such as convenience sampling and voluntary response samples, produce data that can be misleading, resulting in incorrect conclusions. Simple random sampling avoids bias and produces data that give us confidence that the first step in our argument is sound.</p>
 <p id="scc9e_page_32" block_type="page_start" data-margin-content="left">32</p>
 <p id="scc9e-ch02-p-74" block_type="SUM-TXT-ni">In the next chapter, we look more closely at what a simple random sample tells us about the population from which it is selected. And in <link href="scc9e-ch04.xml">Chapter 4</link>, we discuss some of the problems faced by people who take surveys in the real world.</p>
 <box id="scc9e-ch02-box-17" numbered="false" block_type="case_title">
 <p id="scc9e-ch02-p-75" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> To participate in the MLive poll described in the Case Study that opened the chapter, you had to choose to go online to the MLive website and click on one of the possible responses. Use what you have learned in this chapter to assess whether the data collected in such an online poll are good or bad. Your assessment should be written so that someone who knows no statistics will understand your reasoning.</p>
 </box>
 <box id="scc9e-ch02-box-18" numbered="false" block_type="launchpad">
-<p id="scc9e-ch02-p-76"> Online Resources</p>
+<p id="scc9e-ch02-p-76" block_type="CR-BIB-T">
+<image asset-id="scc9e-ch02-img-10" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/>Online Resources</p>
 <list id="scc9e-ch02-list-03" type="unordered" block_type="redbullet">
 <li id="scc9e-ch02-li-08"><p id="scc9e-ch02-p-77" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The Snapshot Video <em>Sampling</em> discusses the importance of sampling, the basics of sampling, simple random sampling, and some practical issues in selecting random samples.</p></li>
 <li id="scc9e-ch02-li-09"><p id="scc9e-ch02-p-78" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The video technology manuals explain how to select an SRS using Excel, JMP, Minitab, and the TI 83/84.</p></li>
@@ -434,7 +436,7 @@
 <section id="scc9e-ch02-sec-06" block_type="CR-X-H" chapter="ch2" numbered="false" level="1" print_page="32">
 <section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
 <p id="scc9e-ch02-p-80" block_type="CR-X"><em>For <link href="exercise_2_1.html">Exercise 2.1</link>, see page 25; for <link href="exercise_2_2.html">Exercise 2.2</link>, see page 30.</em></p>
-<question id="scc9e-ch02-ques-03" data-filename="question_2_3.html">
+<question id="scc9e-ch02-ques-03" block_type="exercise_2_3.html">
 <p id="scc9e-ch02-p-81" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.3 Biased sampling methods?</phrase> A method for selecting a sample is said to be biased if</p>
 <list id="scc9e-ch02-list-04" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch02-li-11"><p id="scc9e-ch02-p-82" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the race or gender of respondents is taken into account.</p></li>
@@ -443,7 +445,7 @@
 <li id="scc9e-ch02-li-14"><p id="scc9e-ch02-p-85" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> any of the above is true.</p></li>
 </list>
 </question>
-<question id="scc9e-ch02-ques-04" data-filename="question_2_4.html">
+<question id="scc9e-ch02-ques-04" block_type="exercise_2_4.html">
 <p id="scc9e-ch02-p-86" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.4 An online survey.</phrase> You go to a website to access a news story. In order to access the story, you are asked to answer a brief survey. If you choose not to answer the survey, you can only access the article for a fee.</p>
 <p id="scc9e_page_33" block_type="page_start" data-margin-content="right">33</p>
 <p id="scc9e-ch02-p-87" block_type="CR-X-NL">This method for obtaining a sample is an example of</p>
@@ -454,7 +456,7 @@
 <li id="scc9e-ch02-li-18"><p id="scc9e-ch02-p-91" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> a write-in opinion poll.</p></li>
 </list>
 </question>
-<question id="scc9e-ch02-ques-05" data-filename="question_2_5.html">
+<question id="scc9e-ch02-ques-05" block_type="exercise_2_5.html">
 <p id="scc9e-ch02-p-92" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.5 Simple random sample.</phrase> I plan to take a sample of 10 students in my introductory statistics class. Which of the following is a simple random sample?</p>
 <list id="scc9e-ch02-list-06" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch02-li-19"><p id="scc9e-ch02-p-93" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> I choose the 10 students sitting in the front row. Students select seats at random, so this would be a simple random sample.</p></li>
@@ -463,7 +465,7 @@
 <li id="scc9e-ch02-li-22"><p id="scc9e-ch02-p-96" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> All of the above are simple random samples.</p></li>
 </list>
 </question>
-<question id="scc9e-ch02-ques-06" data-filename="question_2_6.html">
+<question id="scc9e-ch02-ques-06" block_type="exercise_2_6.html">
 <p id="scc9e-ch02-p-97" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.6 Random digits?</phrase> Which of the following is true of a long string of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 produced by software that generates random digits or listed in a table of random digits?</p>
 <list id="scc9e-ch02-list-07" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch02-li-23"><p id="scc9e-ch02-p-98" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Any number in the string of digits is equally likely to be any of the 10 digits 0 through 9.</p></li>
@@ -472,7 +474,7 @@
 <li id="scc9e-ch02-li-26"><p id="scc9e-ch02-p-101" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> All of the above are true.</p></li>
 </list>
 </question>
-<question id="scc9e-ch02-ques-07" data-filename="question_2_7.html">
+<question id="scc9e-ch02-ques-07" block_type="exercise_2_7.html">
 <p id="scc9e-ch02-p-102" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.7 Choosing a simple random sample.</phrase> Angela, Juan, Kevin, Lucinda, and Tanya are students in my capstone course. I wish to select a simple random sample of two of them to work on a project. I label Angela as 1, Juan as 2, Kevin as 3, Lucinda as 4, and Tanya as 5. I generate the following sequence of four random digits using statistical software: 1, 7, 8, 4. Based on these digits, my simple random sample is</p>
 <list id="scc9e-ch02-list-08" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch02-li-27"><p id="scc9e-ch02-p-103" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Juan and Tanya.</p></li>
@@ -484,29 +486,33 @@
 </section>
 <section id="scc9e-ch02-sec-07" block_type="CR-X-H-v1" chapter="ch2" numbered="false" level="1" print_page="33">
 <section-metadata><section-title>CHAPTER 2 EXERCISES</section-title></section-metadata>
-<question id="scc9e-ch02-ques-08" data-filename="question_2_8.html">
+<question id="scc9e-ch02-ques-08" block_type="exercise_2_8.html">
 <p id="scc9e-ch02-p-107" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.8 Letters to the editor.</phrase> You work for a local newspaper that recently reported on a bill that would make it easier to create charter schools in the state. You report to the editor that 201 letters have been received on the issue, of which 171 oppose the legislation. &#8220;I&#8217;m surprised that most of our readers oppose the bill. I thought it would be quite popular,&#8221; says the editor. Are you convinced that a majority of the readers oppose the bill? How would you explain the statistical issue to the editor?</p>
 </question>
 <p id="scc9e_page_34" block_type="page_start" data-margin-content="left">34</p>
-<question id="scc9e-ch02-ques-09">
-<p id="scc9e-ch02-p-108"><phrase block_type="CR-X-NL-N-ri">2.9 Instant opinion.</phrase> On January 30, 2015, the <em>Los Angeles Times</em> ran an online poll on its website and asked readers the question, &#8220;Which NFL team would you like to see come to L.A.?&#8221; Readers could click on one of three buttons (a picture of the Oakland Raiders logo, a picture of the San Diego Chargers logo, and a picture of the St. Louis Rams logo) to vote. In all, 11,908 (33&#37;) selected the Oakland Raiders, 1939 (5&#37;) selected the San Diego Chargers, and 22,138 (62&#37;) selected the St. Louis Rams.</p>
+<question id="scc9e-ch02-ques-09" block_type="exercise_2_9.html">
+<p id="scc9e-ch02-p-108" block_type="CR-X-NL">
+<image asset-id="scc9e-ch02-img-11" alt="image" src="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">2.9 Instant opinion.</phrase> On January 30, 2015, the <em>Los Angeles Times</em> ran an online poll on its website and asked readers the question, &#8220;Which NFL team would you like to see come to L.A.?&#8221; Readers could click on one of three buttons (a picture of the Oakland Raiders logo, a picture of the San Diego Chargers logo, and a picture of the St. Louis Rams logo) to vote. In all, 11,908 (33&#37;) selected the Oakland Raiders, 1939 (5&#37;) selected the San Diego Chargers, and 22,138 (62&#37;) selected the St. Louis Rams.</p>
 <list id="scc9e-ch02-list-09" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch02-li-31"><p id="scc9e-ch02-p-109" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is the sample size for this poll?</p></li>
 <li id="scc9e-ch02-li-32"><p id="scc9e-ch02-p-110" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Explain why the poll may give unreliable information.</p></li>
 </list>
 </question>
-<question id="scc9e-ch02-ques-10">
-<p id="scc9e-ch02-p-109"><phrase block_type="CR-X-NL-N-ri">2.10 More instant opinion.</phrase> In early 2015, the <em>Drudge Report</em> ran an online poll asking participants to vote for who they preferred for the Republican presidential candidate. The choices were Jeb Bush, Ben Carson, Chris Christie, Ted Cruz, Mike Huckabee, Sarah Palin, Rand Paul, Rick Santorum, Donald Trump, Rick Perry, Carly Florina, Marco Rubio, and Scott Walker. When the poll closed in February 2015, Scott Walker had received 199,095 votes (44&#37;), Ted Cruz had received 58,844 votes (13&#37;), Rand Paul had received 51,770 votes (12&#37;), Ben Carson had received 37,945 votes (8&#37;), Donald Trump had received 23,974 votes (5&#37;), Sarah Palin had received 20,935 votes (5&#37;), Jeb Bush had received 18,864 votes (4&#37;), Marco Rubio had received 14,995 votes (3&#37;), Rick Perry had received 6268 votes (1&#37;), Mike Huckabee had received 6259 votes (1&#37;), Chris Christie had received 5726 votes (1&#37;), Rick Santorum had received 3038 votes (1&#37;), and Carly Fiorina had received 2291 votes (1&#37;).</p>
+<question id="scc9e-ch02-ques-10" block_type="exercise_2_10.html">>
+<p id="scc9e-ch02-p-111" block_type="CR-X-NL">
+<image asset-id="scc9e-ch02-img-12" alt="image" src="asset/global_images/news.jpg"/>
+<phrase block_type="CR-X-NL-N-ri">2.10 More instant opinion.</phrase> In early 2015, the <em>Drudge Report</em> ran an online poll asking participants to vote for who they preferred for the Republican presidential candidate. The choices were Jeb Bush, Ben Carson, Chris Christie, Ted Cruz, Mike Huckabee, Sarah Palin, Rand Paul, Rick Santorum, Donald Trump, Rick Perry, Carly Florina, Marco Rubio, and Scott Walker. When the poll closed in February 2015, Scott Walker had received 199,095 votes (44&#37;), Ted Cruz had received 58,844 votes (13&#37;), Rand Paul had received 51,770 votes (12&#37;), Ben Carson had received 37,945 votes (8&#37;), Donald Trump had received 23,974 votes (5&#37;), Sarah Palin had received 20,935 votes (5&#37;), Jeb Bush had received 18,864 votes (4&#37;), Marco Rubio had received 14,995 votes (3&#37;), Rick Perry had received 6268 votes (1&#37;), Mike Huckabee had received 6259 votes (1&#37;), Chris Christie had received 5726 votes (1&#37;), Rick Santorum had received 3038 votes (1&#37;), and Carly Fiorina had received 2291 votes (1&#37;).</p>
 <list id="scc9e-ch02-list-10" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch02-li-33"><p id="scc9e-ch02-p-112" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is the sample size for this poll?</p></li>
 <li id="scc9e-ch02-li-34"><p id="scc9e-ch02-p-113" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The sample size for this poll is much larger than is typical for polls such as the Gallup Poll. Explain why the poll may give unreliable information, even with such a large sample size.</p></li>
 </list>
 </question>
-<question id="scc9e-ch02-ques-11" data-filename="question_2_11.html">
+<question id="scc9e-ch02-ques-11" block_type="exercise_2_11.html">
 <p id="scc9e-ch02-p-114" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.11 Ann Landers takes a sample.</phrase> Advice columnist Ann Landers once asked her divorced readers whether they regretted their decision to divorce. She received approximately 30,000 responses, about 23,000 of which came from women. Nearly 75&#37; said they were glad they divorced, and most of them said they wished they had done it sooner. Explain why this sample is certainly biased. What is the likely direction of the bias? That is, is 75&#37; probably higher or lower than the truth about the population of all adults who have been divorced?</p>
 </question>
-<question id="scc9e-ch02-ques-12">
-<p id="scc9e-ch02-p-115"><phrase block_type="CR-X-NL-N-ri">2.12 We don&#8217;t like one-way streets.</phrase> Highway planners decided to make a main street in West Lafayette, Indiana, a one-way street. The <em>Lafayette Journal and Courier</em> took a one-day poll by inviting readers to call a telephone number to record their comments. The next day, the paper reported:</p>
+<question id="scc9e-ch02-ques-12" block_type="exercise_2_12.html">>
+<p id="scc9e-ch02-p-115" block_type="CR-X-NL">
+<image asset-id="scc9e-ch02-img-13" alt="image" src="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">2.12 We don&#8217;t like one-way streets.</phrase> Highway planners decided to make a main street in West Lafayette, Indiana, a one-way street. The <em>Lafayette Journal and Courier</em> took a one-day poll by inviting readers to call a telephone number to record their comments. The next day, the paper reported:</p>
 <p id="scc9e-ch02-p-116" block_type="CR-X-NL"><em>Journal and Courier readers overwhelmingly prefer two-way traffic flow in West Lafayette&#8217;s Village area to one-way streets. By nearly a 7&#8211;1 margin, callers on Wednesday complained about the one-way streets that have been in place since May. Of the 98 comments received, all but 14 said no to one-way.</em></p>
 <p id="scc9e_page_35" block_type="page_start" data-margin-content="right">35</p>
 <list id="scc9e-ch02-list-11" type="ordered" block_type="lower-alpha">
@@ -514,20 +520,21 @@
 <li id="scc9e-ch02-li-36"><p id="scc9e-ch02-p-118" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Is the proportion of this population who favor one-way streets almost certainly larger or smaller than the proportion 14/98 in the sample? Why?</p></li>
 </list>
 </question>
-<question id="scc9e-ch02-ques-13" data-filename="question_2_13.html">
+<question id="scc9e-ch02-ques-13" block_type="exercise_2_13.html">
 <p id="scc9e-ch02-p-119" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.13 Design your own bad sample.</phrase>  Your college wants to gather student opinion about parking for students on campus. It isn&#8217;t practical to contact all students.</p>
 <list id="scc9e-ch02-list-12" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch02-li-37"><p id="scc9e-ch02-p-120" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Give an example of a way to choose a sample of students that is poor practice because it depends on voluntary response.</p></li>
 <li id="scc9e-ch02-li-38"><p id="scc9e-ch02-p-121" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Give an example of a bad way to choose a sample that doesn&#8217;t use voluntary response.</p></li>
 </list>
 </question>
-<question id="scc9e-ch02-ques-14">
-<p id="scc9e-ch02-p-122"><phrase block_type="CR-X-NL-N-ri">2.14 A call-in opinion poll.</phrase> In 2005, the <em>San Francisco Bay Times</em> reported on a poll in New Zealand that found that New Zealanders opposed the nation&#8217;s new gay-inclusive civil-unions law by a 3&#8211;1 ratio. This poll was a call-in poll that cost &#36;1 to participate in. The <em>San Francisco Bay Times</em> article also reported that a scientific polling organization found that New Zealanders favor the law by a margin of 56.4&#37; to 39.3&#37;. Explain to someone who knows no statistics why the two polls can give such widely differing results and which poll is likely to be more reliable.</p>
+<question id="scc9e-ch02-ques-14" block_type="exercise_2_14.html">>
+<p id="scc9e-ch02-p-122" block_type="CR-X-NL">
+<image asset-id="scc9e-ch02-img-14" alt="image" src="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">2.14 A call-in opinion poll.</phrase> In 2005, the <em>San Francisco Bay Times</em> reported on a poll in New Zealand that found that New Zealanders opposed the nation&#8217;s new gay-inclusive civil-unions law by a 3&#8211;1 ratio. This poll was a call-in poll that cost &#36;1 to participate in. The <em>San Francisco Bay Times</em> article also reported that a scientific polling organization found that New Zealanders favor the law by a margin of 56.4&#37; to 39.3&#37;. Explain to someone who knows no statistics why the two polls can give such widely differing results and which poll is likely to be more reliable.</p>
 </question>
-<question id="scc9e-ch02-ques-15" data-filename="question_2_15.html">
+<question id="scc9e-ch02-ques-15" block_type="exercise_2_15.html">
 <p id="scc9e-ch02-p-123" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.15 Call-in versus random sample polls.</phrase> A national survey of TV network news viewers found that 48&#37; said they would believe a phone-in poll of 300,000 persons rather than a random sample of 1000 persons. Of the viewers, 42&#37; said they would believe the random sample poll. Explain to someone who knows no statistics why the opinions of only 1000 randomly chosen respondents are a better guide to what all people think than the opinions of 300,000 callers.</p>
 </question>
-<question id="scc9e-ch02-ques-16" data-filename="question_2_16.html">
+<question id="scc9e-ch02-ques-16" block_type="exercise_2_16.html">
 <p id="scc9e-ch02-p-124" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.16 Choose an SRS.</phrase> A firm wants to understand the attitudes of its minority managers toward its system for assessing management performance. Following is a list of all the firm&#8217;s managers who are members of minority groups. Use software or <link href="table_a_1.html">Table A</link> to choose five to be interviewed in detail about the performance appraisal system. If you use <link href="table_a_1.html">Table A</link>, begin at line 132 to choose the five to be interviewed.</p>
 <list id="scc9e-ch02-list-13" type="unordered" block_type="none">
 <li id="scc9e-ch02-li-39"><p id="scc9e-ch02-p-125" block_type="CR-X-NL">Baker</p></li>
@@ -563,7 +570,7 @@
 <li id="scc9e-ch02-li-69"><p id="scc9e-ch02-p-155" block_type="CR-X-NL">Zhu</p></li>
 </list>
 </question>
-<question id="scc9e-ch02-ques-17" data-filename="question_2_17.html">
+<question id="scc9e-ch02-ques-17" block_type="exercise_2_17.html">
 <p id="scc9e-ch02-p-156" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.17 Choose an SRS.</phrase> Your class in ancient Ugaritic religion is poorly taught and the class members have decided to complain to the dean. The class decides to choose six of its members at random to carry the complaint. The class list appears here. Choose an SRS of six using either software or the table of random digits, beginning at line 112.</p>
 <p id="scc9e_page_36" block_type="page_start" data-margin-content="left">36</p>
 <table id="scc9e-ch02-untab-06" numbered="false" block_type="UN-TABLE" attr="50">
@@ -616,28 +623,28 @@
 </tbody>
 </table>
 </question>
-<question id="scc9e-ch02-ques-18" data-filename="question_2_18.html">
+<question id="scc9e-ch02-ques-18" block_type="exercise_2_18.html">
 <p id="scc9e-ch02-p-157" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.18 An election day sample.</phrase> You want to choose an SRS of 20 of Columbus, Ohio&#8217;s, 636 voting precincts for special voting-fraud surveillance on election day.</p>
 <list id="scc9e-ch02-list-14" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch02-li-70"><p id="scc9e-ch02-p-158" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain clearly how you would label the 636 precincts. If you will use <link href="table_a_1.html">Table A</link> to choose an SRS, be sure to explain how many digits make up each of your labels.</p></li>
 <li id="scc9e-ch02-li-71"><p id="scc9e-ch02-p-159" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Use either software or <link href="table_a_1.html">Table A</link> to choose the SRS, and list the labels of the precincts you selected. If you use <link href="table_a_1.html">Table A</link>, enter <link href="table_a_1.html">Table A</link> at line 107.</p></li>
 </list>
-<question id="scc9e-ch02-ques-19">
 </question>
+<question id="scc9e-ch02-ques-19" block_type="exercise_2_19.html">
 <p id="scc9e-ch02-p-160" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.19 Is this an SRS?</phrase> A university has 30,000 undergraduate and 10,000 graduate students. A survey of student opinion concerning health care benefits for domestic partners of students selects 300 of the 30,000 undergraduate students at random and then separately selects 100 of the 10,000 graduate students at random. The 400 students chosen make up the sample.</p>
 <list id="scc9e-ch02-list-15" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch02-li-72"><p id="scc9e-ch02-p-161" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain why this sampling method gives each student an equal chance to be chosen.</p></li>
 <li id="scc9e-ch02-li-73"><p id="scc9e-ch02-p-162" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Nonetheless, this is not an SRS. Why not?</p></li>
 </list>
 </question>
-<question id="scc9e-ch02-ques-20" data-filename="question_2_20.html">
+<question id="scc9e-ch02-ques-20" block_type="exercise_2_20.html">
 <p id="scc9e-ch02-p-163" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.20 How much do students pay for rent?</phrase> A university&#8217;s housing and residence office wants to know how much students pay per month for rent in off-campus housing. The university does not have enough on-campus housing for students, and this information will be used in a brochure about student housing. The population contains 12,304 students who live in off-campus housing and have not yet graduated. The university will send a questionnaire to an SRS of 200 of these students, drawn from an alphabetized list.</p>
 <list id="scc9e-ch02-list-16" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch02-li-74"><p id="scc9e-ch02-p-164" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Describe how you would label the students in order to select the sample. If you will use <link href="table_a_1.html">Table A</link> to choose an SRS, be sure to explain how many digits make up each of your labels.</p></li>
 <li id="scc9e-ch02-li-75"><p id="scc9e-ch02-p-165" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Use software or <link href="table_a_1.html">Table A</link> to select the first five students in the sample. If you use <link href="table_a_1.html">Table A</link>, begin at line 125.</p></li>
 </list>
 </question>
-<question id="scc9e-ch02-ques-21" data-filename="question_2_21.html">
+<question id="scc9e-ch02-ques-21" block_type="exercise_2_21.html">
 <p id="scc9e-ch02-p-166" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.21 Apartment living.</phrase> You are planning a report on apartment living in a college town. You decide to select three apartment complexes at random for in-depth interviews with residents. Use software or <link href="table_a_1.html">Table A</link>, starting at line 112, to select a simple random sample of three of the following apartment complexes.</p>
 <list id="scc9e-ch02-list-17" type="unordered" block_type="none">
 <li id="scc9e-ch02-li-76"><p id="scc9e-ch02-p-167" block_type="CR-X-NL">Albany Commons</p></li>
@@ -678,7 +685,7 @@
 <li id="scc9e-ch02-li-110"><p id="scc9e-ch02-p-201" block_type="CR-X-NL">York Terrace</p></li>
 </list>
 </question>
-<question id="scc9e-ch02-ques-22" data-filename="question_2_22.html">
+<question id="scc9e-ch02-ques-22" block_type="exercise_2_22.html">
 <p id="scc9e-ch02-p-202" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.22 How do random digits behave?</phrase>  Which of the following statements are true of a table of random digits, and which are false? Explain your answers.</p>
 <list id="scc9e-ch02-list-18" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch02-li-111"><p id="scc9e-ch02-p-203" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Each pair of digits has chance 1/100 of being 00.</p></li>
@@ -686,20 +693,20 @@
 <li id="scc9e-ch02-li-113"><p id="scc9e-ch02-p-205" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The digits 12345 can never appear as a group because this pattern is not random.</p></li>
 </list>
 </question>
-<question id="scc9e-ch02-ques-23" data-filename="question_2_23.html">
+<question id="scc9e-ch02-ques-23" block_type="exercise_2_23.html">
 <p id="scc9e-ch02-p-206" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.23 Text in your vote.</phrase> During the television broadcast on the Big Ten Network of a 2010 basketball game at Ohio State between Ohio State and Penn State, the announcers asked the following question: &#8220;Which player has meant the most to his team this year: Talor Battle of Penn State, Evan Turner of Ohio State, or other?&#8221; Viewers were asked to text in their votes. Later in the program, the results were announced. Evan Turner received 72&#37; of the vote; Talor Battle, 26&#37;; and &#8220;other,&#8221; 2&#37;. Explain why this opinion poll is almost certainly biased.</p>
 </question>
-<question id="scc9e-ch02-ques-24" data-filename="question_2_24.html">
+<question id="scc9e-ch02-ques-24" block_type="exercise_2_24.html">
 <p id="scc9e-ch02-p-207" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.24 More randomization.</phrase> Most sample surveys call residential telephone numbers at random. They do not, however, always ask their questions of the person who picks up the phone. Instead, they ask about the adults who live in the residence and choose one at random to be in the sample. Why is this a good idea?</p>
 </question>
-<question id="scc9e-ch02-ques-25" data-filename="question_2_25.html">
+<question id="scc9e-ch02-ques-25" block_type="exercise_2_25.html">
 <p id="scc9e-ch02-p-208" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.25 Racial profiling and traffic stops.</phrase>  The Denver Police Department wants to know if Hispanic residents of Denver believe that the police use racial profiling when making traffic stops. A sociologist prepares several questions about the police. The police department chooses an SRS of 200 mailing addresses in predominantly Hispanic neighborhoods and sends a uniformed Hispanic police officer to each address to ask the questions of an adult living there.</p>
 <list id="scc9e-ch02-list-19" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch02-li-114"><p id="scc9e-ch02-p-209" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What are the population and the sample?</p></li>
 <li id="scc9e-ch02-li-115"><p id="scc9e-ch02-p-210" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Why are the results likely to be biased even though the sample is an SRS?</p></li>
 </list>
 </question>
-<question id="scc9e-ch02-ques-26" data-filename="question_2_26.html">
+<question id="scc9e-ch02-ques-26" block_type="exercise_2_26.html">
 <p id="scc9e-ch02-p-211" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">2.26 Random selection?</phrase> Choosing at random is a &#8220;fair&#8221; way to decide who gets some scarce good, in the sense that everyone has the same chance to win. But random choice isn&#8217;t always a good idea&#8212;sometimes we don&#8217;t want to treat everyone the same because some people have a better claim. In each of the following situations, would you support choosing at random? Give your reasons in each case.</p>
 <list id="scc9e-ch02-list-20" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch02-li-116"><p id="scc9e-ch02-p-212" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The basketball arena has 4000 student seats, and 7000 students want tickets. Shall we choose 4000 of the 7000 at random?</p>
@@ -709,7 +716,7 @@
 </list>
 </question>
 <box id="scc9e-ch02-box-19" numbered="false" block_type="exploring-web">
-<p id="scc9e-ch02-p-215" block_type="QRL icon"><image asset-id="scc9e-ch02-img-15" alt="image" src="asset/ch2/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch02-p-215" block_type="QRL icon"><image asset-id="scc9e-ch02-img-15" alt="image" src="asset/global_images/bar_code.jpg"/></p>
 <p id="scc9e-ch02-p-216" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
 <p id="scc9e-ch02-p-217" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
 </box>

@@ -42,7 +42,8 @@ var suppwins_Player_subtype = Player_subtype.extend({
          $('[data-type="question"] [data-block_type="CR-X-NL-N-ri"]').unbind(); // Titles for end of chapter exercises
          $('[data-block_type="h1"] [data-caption-compass]  > img').unbind();
          $('[data-block_type="h1"] [data-caption-compass]  > .compassImg img').unbind();
-         $('[data-block_type="h1"] [data-caption-compass] [data-block_type="FG-N-ri"]').unbind();
+         $('[data-caption-compass] [data-block_type="FG-N-ri"]').unbind();
+         //$('[data-block_type="h1"] [data-caption-compass] [data-block_type="FG-N-ri"]').unbind();
          $('[data-type="figure"][data-block_type="UN-FIGURE"] img').unbind();
          $('img').unbind();
 
@@ -59,6 +60,20 @@ var suppwins_Player_subtype = Player_subtype.extend({
              var supp_win = "../../../ch" + ch + "/supp_wins/figures/" + filename;
              pop_content(supp_win, "1015px", "700px");
          });
+         // add links on exercise references in the text
+         $('span[data_href^="exercise_"]').click(function () {
+             var filename = $(this).attr('data_href');
+             var ch = filename.replace(/exercise_(\d+).*/i, "$1");
+             var supp_win = "../../../ch" + ch + "/supp_wins/exercises/" + filename;
+             pop_content(supp_win, "1015px", "700px");
+         });
+         // add links on example references in the text
+         $('span[data_href^="example_"]').click(function () {
+             var filename = $(this).attr('data_href');
+             var ch = filename.replace(/example_(\d+).*/i, "$1");
+             var supp_win = "../../../ch" + ch + "/supp_wins/examples/" + filename;
+             pop_content(supp_win, "1020px", "500px");
+         });
 
          // adjust all image paths
          $('img[src^="asset/ch"]').each(function () {
@@ -66,6 +81,13 @@ var suppwins_Player_subtype = Player_subtype.extend({
              path = path.replace(/images/, "../..");
              $(this).attr('src', path);
          });
+         // adjust global images relative to supp_wins directory
+         $('img[src^="asset/global_images"]').each(function () {
+             var path = $(this).attr('src');
+             path = path.replace(/asset/, "../../..");
+             $(this).attr('src', path);
+         });
+
 
 
 
