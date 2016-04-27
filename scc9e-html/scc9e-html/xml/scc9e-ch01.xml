@@ -1,7 +1,7 @@
 <chapter id="scc9e-ch01" number="1" title="Chapter 1: Where Do Data Come From?" start-numbering-at="1" numbered="true">
 <section id="scc9e-ch01-sec-01" block_type="part_intro" title="PART 1" numbered="false" level="1" print_page="1">
 <section-metadata><section-title>PART I</section-title></section-metadata>
-<figure id="scc9e-ch01-unfig-01" block_type="part_opener" numbered="false" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch01-unfig-01" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="17MOORESCC-MSE_9e_PO01.html">
 <layout align="right" width="medium" border="false"/>
 <image asset-id="scc9e-ch01-img-01" alt="image" src="asset/ch1/17MOORESCC-MSE_9e_PO01.jpg"/>
 <asset_source><phrase block_type="PO-PH-CL">Richard B. Levine/Newscom</phrase></asset_source>
@@ -15,7 +15,7 @@
 <p id="scc9e-ch01-p-04" block_type="CN">1</p>
 <p id="scc9e-ch01-p-05" block_type="CT">Where Do Data Come From?</p>
 <p id="scc9e_page_3" block_type="page_start" data-margin-content="right">3</p>
-<figure id="scc9e-ch01-unfig-02" block_type="CO-PH-CL" numbered="false" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch01-unfig-02" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="17MOORESCC-MSE_9e_CO01.html">
 <layout align="right" width="medium" border="false"/>
 <image asset-id="scc9e-ch01-img-02" alt="image" src="asset/ch1/17MOORESCC-MSE_9e_CO01.jpg"/>
 <asset_source><phrase block_type="CO-PH-CL">Sacramento Bee/Contributor/Getty Images</phrase></asset_source>

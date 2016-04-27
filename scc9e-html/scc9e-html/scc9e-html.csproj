@@ -435,14 +435,10 @@
     <Content Include="xml\scc9e-ch01.xml" />
     <Content Include="xml\scc9e-ch02.xml" />
     <Content Include="xml\scc9e-ch03.xml" />
-    <Content Include="xml\scc9e-ch03.xml_no_math.xml" />
     <Content Include="xml\scc9e-ch04.xml" />
-    <Content Include="xml\scc9e-ch04.xml_no_math.xml" />
     <Content Include="xml\scc9e-ch05.xml" />
-    <Content Include="xml\scc9e-ch05.xml_no_math.xml" />
     <Content Include="xml\scc9e-ch06.xml" />
     <Content Include="xml\scc9e-ch12.xml" />
-    <Content Include="xml\scc9e-ch12.xml_no_math.xml" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
@@ -454,6 +450,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="xml\addDataFilename.pl" />
+    <Content Include="xml\math2js.pl" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />

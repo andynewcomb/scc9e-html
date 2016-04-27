@@ -274,7 +274,7 @@ var Player_subtype = Player_manuscript_type.extend({
         // note the second case, when a figure acts like the box
 	                var title = $('h2.section-title');
 	                var box = $('h2.section-title + [data-block_type="margin-statistics"]');
-	                var fig = $('h2.section-title + [data-type="figure"]');
+	                var fig = $('[data-block_type="h1"] h2.section-title + [data-type="figure"]');
 	                if (box.length != 0) { box.insertBefore(title); }
 	                else if (fig.length != 0) { fig.insertBefore(title); }
 

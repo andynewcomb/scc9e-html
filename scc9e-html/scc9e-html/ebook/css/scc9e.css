@@ -184,22 +184,45 @@ div[data-type="section"][data-block_type="chapter"] [data-type="figure"][data-la
 div[data-type="section"][data-block_type="chapter"] [data-type="figure"][data-layout-align="right"] [data-type="asset_source"] {
   display: none;
 }
-div[data-type="section"][data-block_type="chapter"] div[data-block_type="BX4-H-ri"] {
+div[data-type="section"][data-block_type="chapter"] div[data-block_type="BX4"] {
+  font-family: "arial", sans-serif;
+}
+div[data-type="section"][data-block_type="chapter"] div[data-block_type="BX4"] div[data-block_type="BX4-H-ri"] {
   background-color: white;
   padding-top: 2em;
 }
-div[data-type="section"][data-block_type="chapter"] div[data-block_type="BX4-H-ri"] p {
+div[data-type="section"][data-block_type="chapter"] div[data-block_type="BX4"] div[data-block_type="BX4-H-ri"] p {
   color: #485f6b;
   font-family: "arial", sans-serif;
   font-size: 0.92em;
   text-align: justify;
 }
-div[data-type="section"][data-block_type="chapter"] div[data-block_type="BX4-TXT"] p {
+div[data-type="section"][data-block_type="chapter"] div[data-block_type="BX4"] div[data-block_type="BX4-TXT"] p {
   text-indent: 1.5em;
+}
+div[data-type="section"][data-block_type="chapter"] div[data-block_type="BX4-H-ri"] {
+  font-family: "arial", sans-serif;
+}
+div[data-type="section"][data-block_type="chapter"] div[data-block_type="BX4-H-ri"] h3 {
+  display: none;
+}
+div[data-type="section"][data-block_type="chapter"] div[data-block_type="BX4-H-ri"] div[data-block_type="BX4-TXT-I"] p {
+  text-indent: 1.5em;
+  font-family: "arial", sans-serif;
+}
+div[data-type="section"][data-block_type="chapter"] div[data-block_type="BX4-H-ri"] table {
+  font-family: "arial", sans-serif;
 }
 span[data-block_type="BX4-H-ri"] {
   color: #005bab;
   font-weight: bold;
+}
+span[data-block_type="BX4-H-ri"] div[data-block_type="BX4-TXT-I"] p {
+  text-indent: 1.5em;
+  font-family: "arial", sans-serif;
+}
+span[data-block_type="BX4-H-ri"] table {
+  font-family: "arial", sans-serif;
 }
 div[data-type="section"][data-block_type="h1"] {
   width: 675px;
@@ -218,6 +241,15 @@ div[data-type="section"][data-block_type="h1"] > div[data-block_type="TXT-ni"] p
 div[data-type="section"][data-block_type="h1"] > div[data-block_type="TXT"] p {
   text-align: justify;
   text-indent: 1.5em;
+}
+div[data-type="section"][data-block_type="h1"] [data-block_type="EXT-TXT"] {
+  margin: 1em 0;
+}
+div[data-type="section"][data-block_type="h1"] [data-block_type="UL-first"] {
+  margin: .5em 0;
+}
+div[data-type="section"][data-block_type="h1"] [data-block_type="EXP-ul"] {
+  margin: .5em 0;
 }
 div[data-type="section"][data-block_type="h1"] [data-block_type="BX1"] {
   background-color: transparent;
@@ -390,6 +422,7 @@ div[data-block_type="BX3"] [data-type="box_inner"] {
   border-left: 1px solid black;
   border-right: 1px solid black;
   padding: 1em;
+  overflow: hidden;
 }
 div[data-block_type="BX3"] [data-block_type="BX3-H"] {
   background-color: #ef3b23;
@@ -754,6 +787,7 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] h2.section-title {
 div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] {
   margin-bottom: 3em;
   margin-top: 2em;
+  text-align: justify;
 }
 div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] h3 {
   display: none;
@@ -762,6 +796,9 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] [sr
   float: left;
   margin-right: 10px;
   width: 73px;
+}
+div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] [data-block_type="CR-X-NL-EXT"] {
+  margin: .5em 0;
 }
 div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] [data-block_type="CR-X-NL-N-ri"] {
   color: #ef3b23;
@@ -814,4 +851,8 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] [data-block_type="explorin
   font-weight: bold;
   cursor: pointer;
   color: #008db7;
+}
+/* remove all credit lines -- are there any exceptions to this general rule? */
+[data-type="asset_source"] {
+  display: none;
 }

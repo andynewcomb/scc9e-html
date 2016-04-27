@@ -1,1 +1,17 @@
-﻿
+﻿/* margin statistics box that spans full column width */
+div#scc9e-ch06-box-16 {
+  float: none;
+  margin: 2em 0 1em 0;
+  width: inherit;
+}
+/* statistical controversies figure */
+div#scc9e-ch06-unfig-05 {
+  margin: 14px 0 0 30px;
+}
+/* page number adjustments */
+div#scc9e_page_126 {
+  margin-top: -3em !important;
+}
+div#scc9e_page_130 {
+  margin-top: -2em !important;
+}
