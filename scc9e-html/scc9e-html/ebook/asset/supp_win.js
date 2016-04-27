@@ -125,9 +125,17 @@ var suppwins_Player_subtype = Player_subtype.extend({
 
          } else {
              // place caption above figure image in number figure supplemental windows
-             var figImg = $('[data-block_type="FIGURE"] > img');
+             var figImg = $('[data-type="figure"] > img');
              var figText = $('[data-block_type="FIGURE"] [data-type="figure_text"]');
-             figText.insertBefore(figImg);
+             if (figText.length > 0) {
+                 figText.insertBefore(figImg);
+             }
+
+             var scale = 1.15;
+             var natimg = document.getElementsByTagName("img")[0];
+             var natWidth = natimg.naturalWidth;
+             var w = natWidth * scale;
+             figImg.css({ width: w });
          }
 
     
@@ -137,14 +145,14 @@ var suppwins_Player_subtype = Player_subtype.extend({
 
         // Figure supp windows
         // size of figures in the supplemental windows should be 15% larger than main page
-            $('[data-type="section"] > [data-type="figure"] > img').each(function() {
-                var scale = 1.15;
-                var image = $(this); //update... this will accidentally find <img> in caption too.
-                var natimg = document.getElementsByTagName("img")[0];
-                var natWidth = natimg.naturalWidth;
-                var w = image.naturalWidth * scale;
-                image.css({ width: w });
-            });
+            //$('[data-type="section"] > [data-type="figure"] > img').each(function() {
+            //    var scale = 1.15;
+            //    var image = $(this); //update... this will accidentally find <img> in caption too.
+            //    var natimg = document.getElementsByTagName("img")[0];
+            //    var natWidth = natimg.naturalWidth;
+            //    var w = natWidth * scale;
+            //    image.css({ width: w });
+            //});
 
      } // end initialize2
 

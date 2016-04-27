@@ -46,7 +46,6 @@ div[data-type="section"] > [data-block_type="FIGURE"] [data-type="figure_text"] 
   margin: 2em auto !important;
 }
 [data-type="section"] > [data-type="figure"] img {
-  max-width: initial;
   cursor: auto !important;
 }
 /* turn off asset credits */

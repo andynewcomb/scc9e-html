@@ -102,15 +102,14 @@ var Player_subtype = Player_manuscript_type.extend({
     		    alignment.attr({align : alignment.attr('data-layout-align')});
 	        });
 	        // get rid of digfir attributes (don't want the default styling/functionality in our way)
-        	$('[data-caption-compass]').removeAttr( "data-layout-align" );
-	        $('[data-caption-compass]').removeAttr( "data-layout-width");
-	        $('[data-caption-compass]').removeAttr( "style" );
-	        $('[data-caption-compass]').removeAttr( "data-type" );
-	        $('[data-caption-compass] > img').removeAttr("data-layout-width")
-	        //$('[data-caption-compass] > img').css("cursor", "");
-	        $('[data-caption-compass] > img').css("height", "initial");
-	        $('[data-caption-compass] > img').css("width", "initial");
-	        //$('[data-caption-compass] > img').css("style", "");
+	        //$('[data-type="figure"]').removeAttr("data-layout-align");
+	        $('[data-type="figure"]').removeAttr("data-layout-width");
+	        $('[data-type="figure"]').removeAttr("style");
+	        //$('[data-type="figure"]').css("width", "initial");
+	        //$('[data-type="figure"]').css("height", "initial");
+	        $('[data-type="figure"] > img').removeAttr("data-layout-width")
+	        //$('[data-type="figure"] > img').css("height", "initial");
+	        //$('[data-type="figure"] > img').css("width", "initial");
 
         //change the size of the img by a percentage
         /*
@@ -158,6 +157,12 @@ var Player_subtype = Player_manuscript_type.extend({
             //page references
                 //No need to do anything. XML supplied by vendor should be good. Linking functionality taken care of by digfir
             
+                //turn in text references from <a> to <spans> (avoiding digfir default linking)
+                $('a[href^="table_"], a[href^="figure_"], a[href^="exercise_"], a[href^="example_"]').each(function () {
+                    var text = $(this).html();
+                    $(this).replaceWith("<span data_href=" + $(this).attr("href") + ">" + text + "</span>");
+                });
+                
 
             //popup requests to supplemental windows for examples/exercises/figures/table will use this function.
 	            //Input is URL, width/height of window
@@ -166,12 +171,6 @@ var Player_subtype = Player_manuscript_type.extend({
 	                var newWin = window.open(url,'_blank','width='+w+',height='+h+',menubar=0,location=0,scrollbars=yes','');
 	                newWin.moveTo(150, 150);
                 };
-                //turn in text references from <a> to <spans> (avoiding digfir default linking)
-                $('a[href^="table_"], a[href^="figure_"], a[href^="exercise_"], a[href^="example_"]').each(function () {
-                    var text = $(this).html();
-                    $(this).replaceWith("<span data_href=" + $(this).attr("href") + ">" + text + "</span>");
-                });
-                
 
             //Table references
                 // Number in caption of table needs linked, along with title
@@ -234,18 +233,18 @@ var Player_subtype = Player_manuscript_type.extend({
 
 
             //NUMBERED FIGURE LINKS
-	            // add link on the figure image
-	                $('[data-caption-compass]  > .compassImg img').click(function() {
-                        var fignum = $(this).attr('src').replace(/fig_([\d_]+)/i, "$1");
-                        var supp_win = fignum.replace(/.*0?(\d+)_0?(\d+)\.jpg/, "asset/ch$1/supp_wins/figures/figure_$1_$2.html");
-	                    pop_content(supp_win, "1015px", "700px");
-                    });
-                // add link on the figure image (sometimes img is not inside "compass"... occurs when caption in default place under figure)
-	                $('[data-caption-compass]  > img').click(function() {
-                        var fignum = $(this).attr('src').replace(/fig_([\d_]+)/i, "$1");
-                        var supp_win = fignum.replace(/.*0?(\d+)_0?(\d+)\.jpg/, "asset/ch$1/supp_wins/figures/figure_$1_$2.html");
-	                    pop_content(supp_win, "1015px", "700px");
-                    });
+	            //// add link on the figure image
+	            //    $('[data-caption-compass]  > .compassImg img').click(function() {
+                //        var fignum = $(this).attr('src').replace(/fig_([\d_]+)/i, "$1");
+                //        var supp_win = fignum.replace(/.*0?(\d+)_0?(\d+)\.jpg/, "asset/ch$1/supp_wins/figures/figure_$1_$2.html");
+	            //        pop_content(supp_win, "1015px", "700px");
+                //    });
+                //// add link on the figure image (sometimes img is not inside "compass"... occurs when caption in default place under figure)
+	            //    $('[data-caption-compass]  > img').click(function() {
+                //        var fignum = $(this).attr('src').replace(/fig_([\d_]+)/i, "$1");
+                //        var supp_win = fignum.replace(/.*0?(\d+)_0?(\d+)\.jpg/, "asset/ch$1/supp_wins/figures/figure_$1_$2.html");
+	            //        pop_content(supp_win, "1015px", "700px");
+                //    });
 	            // add link on the figure number in caption
 	                $('[data-caption-compass] [data-block_type="FG-N-ri"]').click(function() {
                         var fignum = $(this).text().replace(/FIGURE ([\d\.]+)/i, "$1");
@@ -278,25 +277,6 @@ var Player_subtype = Player_manuscript_type.extend({
 	                var fig = $('[data-block_type="h1"] h2.section-title + [data-type="figure"]');
 	                if (box.length != 0) { box.insertBefore(title); }
 	                else if (fig.length != 0) { fig.insertBefore(title); }
-
-            
-
-
-
-
-        //All supplemental window javascript shall be done here
-
-            //Numbered figures supp windows
-                //size of figures in the supplemental windows should be 15% larger than main page
-                	//$('body#supp_win > #manuscript > img').each(function() {
-		            //    var scale = .23;
-		            //    image = $(this) //update... this will accidentally find <img> in caption too. 
-		            //    var h = image.height() * scale;
-		            //    var w = image.width() * scale;
-		            //    image.css({ height: h, width: w });
-	                //});
-
-
 
 
 
