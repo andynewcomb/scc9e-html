@@ -818,6 +818,7 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] ul[
 }
 div[data-type="section"][data-block_type="CR-X-H-v1"] [data-block_type="exploring-web"] {
   margin-bottom: 4em;
+  background-color: transparent;
   /*[data-block_type="WEBTX"] {
 
         }*/
