@@ -33,6 +33,9 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] [da
 div[data-type="section"] > [data-block_type="FIGURE"] img {
   cursor: auto !important;
 }
+div[data-type="section"] > [data-block_type="FIGURE"] [data-type="figure_text"] {
+  margin-bottom: 1em;
+}
 div[data-type="section"] > [data-block_type="FIGURE"] [data-type="figure_text"] [data-type="caption"] [data-block_type="FG-N-ri"] {
   font-weight: bold;
   cursor: auto;

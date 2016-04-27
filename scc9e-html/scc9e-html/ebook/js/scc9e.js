@@ -264,7 +264,8 @@ var Player_subtype = Player_manuscript_type.extend({
                 // add link on the figure image
 	                $('[data-type="figure"][data-block_type]!="FIGURE"] img').click(function () {
 	                    var filename = $(this).parent().attr("data-filename");
-	                    var supp_win = filename.replace(/(.*0?(\d+)_0?\d+\.html)/, "asset/ch$2/supp_wins/figures/$1");
+	                    //var supp_win = filename.replace(/(.*0?(\d+)_0?\d+\.html)/, "asset/ch$2/supp_wins/figures/$1");
+	                    var supp_win = "asset/ch" + chapter_number + "/supp_wins/figures/" + filename;
 	                    pop_content(supp_win, "1015px", "700px");
 	                });
 
