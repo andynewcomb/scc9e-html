@@ -152,6 +152,10 @@
     <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_7.html" />
     <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_8.html" />
     <Content Include="ebook\asset\ch1\supp_wins\exercises\exercise_1_9.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\figures\17MOORESCC-MSE_9e_CO01.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\figures\17MOORESCC-MSE_9e_PO01.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\figures\1_17MOORESCC-MSE_9e_Car_01_01.html" />
+    <Content Include="ebook\asset\ch1\supp_wins\figures\1_17MOORESCC-MSE_9e_P_01_01.html" />
     <Content Include="ebook\asset\ch1\supp_wins\figures\figure_1_1.html" />
     <Content Include="ebook\asset\ch2\supp_wins\examples\example_2_1.html" />
     <Content Include="ebook\asset\ch2\supp_wins\examples\example_2_2.html" />

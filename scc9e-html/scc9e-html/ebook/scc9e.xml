@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<manifest id="scc9e" timestamp="1461789104" supp_win="0"><manuscript id="570e8e35757a2efc24000000" title="Chapter 1: Where Do Data Come From?" question-delivery-method="ARGA" number="1">
+    <section id="scc9e-ch01-sec-01" folder="false" filename="scc9e_ch1_1.html" dlapFilename="scc9e_ch1_1_dlap.xml" numquestions="0">
+      <title>PART I</title>
+    </section>
+    <section title="Where Do Data Come From?" id="scc9e-ch01-sec-02" folder="false" filename="scc9e_ch1_2.html" dlapFilename="scc9e_ch1_2_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch01-sec-03" folder="false" filename="scc9e_ch1_3.html" dlapFilename="scc9e_ch1_3_dlap.xml" numquestions="0">
+      <title>Talking about data: Individuals and variables</title>
+    </section>
+    <section id="scc9e-ch01-sec-04" folder="false" filename="scc9e_ch1_4.html" dlapFilename="scc9e_ch1_4_dlap.xml" numquestions="0">
+      <title>Observational studies</title>
+    </section>
+    <section id="scc9e-ch01-sec-05" folder="false" filename="scc9e_ch1_5.html" dlapFilename="scc9e_ch1_5_dlap.xml" numquestions="0">
+      <title>Sample surveys</title>
+    </section>
+    <section id="scc9e-ch01-sec-06" folder="false" filename="scc9e_ch1_6.html" dlapFilename="scc9e_ch1_6_dlap.xml" numquestions="0">
+      <title>Census</title>
+    </section>
+    <section id="scc9e-ch01-sec-07" folder="false" filename="scc9e_ch1_7.html" dlapFilename="scc9e_ch1_7_dlap.xml" numquestions="0">
+      <title>Experiments</title>
+    </section>
+    <section id="scc9e-ch01-sec-08" folder="false" filename="scc9e_ch1_8.html" dlapFilename="scc9e_ch1_8_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch01-sec-09" folder="false" filename="scc9e_ch1_9.html" dlapFilename="scc9e_ch1_9_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch01-sec-10" folder="false" filename="scc9e_ch1_10.html" dlapFilename="scc9e_ch1_10_dlap.xml" numquestions="0">
+      <title>CHAPTER 1 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="57100d67757a2e053a000001" title="Chapter 12: Describing Distributions with Numbers" question-delivery-method="ARGA" number="269">
+    <section title="Producing Data" id="moorescc9e-ch12-sec1-01" folder="false" filename="scc9e_ch12_1.html" dlapFilename="scc9e_ch12_1_dlap.xml" numquestions="0"/>
+    <section id="moorescc9e-ch12-sec1-02" folder="false" filename="scc9e_ch12_2.html" dlapFilename="scc9e_ch12_2_dlap.xml" numquestions="0">
+      <title>Median and quartiles</title>
+    </section>
+    <section id="moorescc9e-ch12-sec1-03" folder="false" filename="scc9e_ch12_3.html" dlapFilename="scc9e_ch12_3_dlap.xml" numquestions="0">
+      <title>The five-number summary and boxplots</title>
+    </section>
+    <section id="moorescc9e-ch12-sec1-04" folder="false" filename="scc9e_ch12_4.html" dlapFilename="scc9e_ch12_4_dlap.xml" numquestions="0">
+      <title>Mean and standard deviation</title>
+    </section>
+    <section id="moorescc9e-ch12-sec1-05" folder="false" filename="scc9e_ch12_5.html" dlapFilename="scc9e_ch12_5_dlap.xml" numquestions="0">
+      <title>Choosing numerical descriptions</title>
+    </section>
+    <section id="moorescc9e-ch12-sec1-06" folder="false" filename="scc9e_ch12_6.html" dlapFilename="scc9e_ch12_6_dlap.xml" numquestions="0">
+      <title><phrase block_type="SUM-H-ri"><strong>STATISTICS</strong></phrase> IN SUMMARY</title>
+    </section>
+    <section id="moorescc9e-ch12-sec1-07" folder="false" filename="scc9e_ch12_7.html" dlapFilename="scc9e_ch12_7_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="moorescc9e-ch12-sec1-08" folder="false" filename="scc9e_ch12_8.html" dlapFilename="scc9e_ch12_8_dlap.xml" numquestions="0">
+      <title>CHAPTER 12 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="571b96fe757a2eb002000000" title="Chapter 3: What Do Samples Tell Us?" question-delivery-method="ARGA" number="3">
+    <section title="What Do Samples Tell Us?" id="scc9e-ch03-sec-01" folder="false" filename="scc9e_ch3_1.html" dlapFilename="scc9e_ch3_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch03-sec-02" folder="false" filename="scc9e_ch3_2.html" dlapFilename="scc9e_ch3_2_dlap.xml" numquestions="0">
+      <title>From sample to population</title>
+    </section>
+    <section id="scc9e-ch03-sec-03" folder="false" filename="scc9e_ch3_3.html" dlapFilename="scc9e_ch3_3_dlap.xml" numquestions="0">
+      <title>Sampling variability</title>
+    </section>
+    <section id="scc9e-ch03-sec-04" folder="false" filename="scc9e_ch3_4.html" dlapFilename="scc9e_ch3_4_dlap.xml" numquestions="0">
+      <title>Margin of error and all that</title>
+    </section>
+    <section id="scc9e-ch03-sec-05" folder="false" filename="scc9e_ch3_5.html" dlapFilename="scc9e_ch3_5_dlap.xml" numquestions="0">
+      <title>Confidence statements</title>
+    </section>
+    <section id="scc9e-ch03-sec-06" folder="false" filename="scc9e_ch3_6.html" dlapFilename="scc9e_ch3_6_dlap.xml" numquestions="0">
+      <title>Sampling from large populations</title>
+    </section>
+    <section id="scc9e-ch03-sec-07" folder="false" filename="scc9e_ch3_7.html" dlapFilename="scc9e_ch3_7_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch03-sec-08" folder="false" filename="scc9e_ch3_8.html" dlapFilename="scc9e_ch3_8_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch03-sec-09" folder="false" filename="scc9e_ch3_9.html" dlapFilename="scc9e_ch3_9_dlap.xml" numquestions="0">
+      <title>CHAPTER 3 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="571b9766757a2e9c02000000" title="Chapter 4: Sample Surveys in the Real World" question-delivery-method="ARGA" number="4">
+    <section title="Sample Surveys in the Real World" id="scc9e-ch04-sec-01" folder="false" filename="scc9e_ch4_1.html" dlapFilename="scc9e_ch4_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch04-sec-02" folder="false" filename="scc9e_ch4_2.html" dlapFilename="scc9e_ch4_2_dlap.xml" numquestions="0">
+      <title>How sample surveys go wrong</title>
+    </section>
+    <section id="scc9e-ch04-sec-03" folder="false" filename="scc9e_ch4_3.html" dlapFilename="scc9e_ch4_3_dlap.xml" numquestions="0">
+      <title>Sampling errors</title>
+    </section>
+    <section id="scc9e-ch04-sec-04" folder="false" filename="scc9e_ch4_4.html" dlapFilename="scc9e_ch4_4_dlap.xml" numquestions="0">
+      <title>Nonsampling errors</title>
+    </section>
+    <section id="scc9e-ch04-sec-05" folder="false" filename="scc9e_ch4_5.html" dlapFilename="scc9e_ch4_5_dlap.xml" numquestions="0">
+      <title>Wording questions</title>
+    </section>
+    <section id="scc9e-ch04-sec-06" folder="false" filename="scc9e_ch4_6.html" dlapFilename="scc9e_ch4_6_dlap.xml" numquestions="0">
+      <title>How to live with nonsampling errors</title>
+    </section>
+    <section id="scc9e-ch04-sec-07" folder="false" filename="scc9e_ch4_7.html" dlapFilename="scc9e_ch4_7_dlap.xml" numquestions="0">
+      <title>Sample design in the real world</title>
+    </section>
+    <section id="scc9e-ch04-sec-08" folder="false" filename="scc9e_ch4_8.html" dlapFilename="scc9e_ch4_8_dlap.xml" numquestions="0">
+      <title>The challenge of Internet surveys</title>
+    </section>
+    <section id="scc9e-ch04-sec-09" folder="false" filename="scc9e_ch4_9.html" dlapFilename="scc9e_ch4_9_dlap.xml" numquestions="0">
+      <title>Probability samples</title>
+    </section>
+    <section id="scc9e-ch04-sec-10" folder="false" filename="scc9e_ch4_10.html" dlapFilename="scc9e_ch4_10_dlap.xml" numquestions="0">
+      <title>Questions to ask before you believe a poll</title>
+    </section>
+    <section id="scc9e-ch04-sec-11" folder="false" filename="scc9e_ch4_11.html" dlapFilename="scc9e_ch4_11_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch04-sec-12" folder="false" filename="scc9e_ch4_12.html" dlapFilename="scc9e_ch4_12_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch04-sec-13" folder="false" filename="scc9e_ch4_13.html" dlapFilename="scc9e_ch4_13_dlap.xml" numquestions="0">
+      <title>CHAPTER 4 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="571b97a6757a2ebc02000000" title="Chapter 5: Experiments, Good and Bad" question-delivery-method="ARGA" number="5">
+    <section title="Experiments, Good and Bad" id="scc9e-ch05-sec-01" folder="false" filename="scc9e_ch5_1.html" dlapFilename="scc9e_ch5_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch05-sec-02" folder="false" filename="scc9e_ch5_2.html" dlapFilename="scc9e_ch5_2_dlap.xml" numquestions="0">
+      <title>Talking about experiments</title>
+    </section>
+    <section id="scc9e-ch05-sec-03" folder="false" filename="scc9e_ch5_3.html" dlapFilename="scc9e_ch5_3_dlap.xml" numquestions="0">
+      <title>How to experiment badly</title>
+    </section>
+    <section id="scc9e-ch05-sec-04" folder="false" filename="scc9e_ch5_4.html" dlapFilename="scc9e_ch5_4_dlap.xml" numquestions="0">
+      <title>Randomized comparative experiments</title>
+    </section>
+    <section id="scc9e-ch05-sec-05" folder="false" filename="scc9e_ch5_5.html" dlapFilename="scc9e_ch5_5_dlap.xml" numquestions="0">
+      <title>The logic of experimental design</title>
+    </section>
+    <section id="scc9e-ch05-sec-06" folder="false" filename="scc9e_ch5_6.html" dlapFilename="scc9e_ch5_6_dlap.xml" numquestions="0">
+      <title>Statistical significance</title>
+    </section>
+    <section id="scc9e-ch05-sec-07" folder="false" filename="scc9e_ch5_7.html" dlapFilename="scc9e_ch5_7_dlap.xml" numquestions="0">
+      <title>How to live with observational studies</title>
+    </section>
+    <section id="scc9e-ch05-sec-08" folder="false" filename="scc9e_ch5_8.html" dlapFilename="scc9e_ch5_8_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch05-sec-09" folder="false" filename="scc9e_ch5_9.html" dlapFilename="scc9e_ch5_9_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch05-sec-10" folder="false" filename="scc9e_ch5_10.html" dlapFilename="scc9e_ch5_10_dlap.xml" numquestions="0">
+      <title>CHAPTER 5 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="571b97e9757a2ec602000000" title="Chapter 6: Experiments in the Real World" question-delivery-method="ARGA" number="6">
+    <section title="Experiments in the Real World" id="scc9e-ch06-sec-01" folder="false" filename="scc9e_ch6_1.html" dlapFilename="scc9e_ch6_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch06-sec-02" folder="false" filename="scc9e_ch6_2.html" dlapFilename="scc9e_ch6_2_dlap.xml" numquestions="0">
+      <title>Equal treatment for all</title>
+    </section>
+    <section id="scc9e-ch06-sec-03" folder="false" filename="scc9e_ch6_3.html" dlapFilename="scc9e_ch6_3_dlap.xml" numquestions="0">
+      <title>Double-blind experiments</title>
+    </section>
+    <section id="scc9e-ch06-sec-04" folder="false" filename="scc9e_ch6_4.html" dlapFilename="scc9e_ch6_4_dlap.xml" numquestions="0">
+      <title>Refusals, nonadherers, and dropouts</title>
+    </section>
+    <section id="scc9e-ch06-sec-05" folder="false" filename="scc9e_ch6_5.html" dlapFilename="scc9e_ch6_5_dlap.xml" numquestions="0">
+      <title>Can we generalize?</title>
+    </section>
+    <section id="scc9e-ch06-sec-06" folder="false" filename="scc9e_ch6_6.html" dlapFilename="scc9e_ch6_6_dlap.xml" numquestions="0">
+      <title>Experimental design in the real world</title>
+    </section>
+    <section id="scc9e-ch06-sec-07" folder="false" filename="scc9e_ch6_7.html" dlapFilename="scc9e_ch6_7_dlap.xml" numquestions="0">
+      <title>Matched pairs and block designs</title>
+    </section>
+    <section id="scc9e-ch06-sec-08" folder="false" filename="scc9e_ch6_8.html" dlapFilename="scc9e_ch6_8_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch06-sec-09" folder="false" filename="scc9e_ch6_9.html" dlapFilename="scc9e_ch6_9_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch06-sec-10" folder="false" filename="scc9e_ch6_10.html" dlapFilename="scc9e_ch6_10_dlap.xml" numquestions="0">
+      <title>CHAPTER 6 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="570e97de757a2ed91c00000f" title="Chapter 2: Samples, Good and Bad" question-delivery-method="ARGA" number="2">
+    <section title="Samples, Good and Bad" id="scc9e-ch02-sec-01" folder="false" filename="scc9e_ch2_1.html" dlapFilename="scc9e_ch2_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch02-sec-02" folder="false" filename="scc9e_ch2_2.html" dlapFilename="scc9e_ch2_2_dlap.xml" numquestions="0">
+      <title>How to sample badly</title>
+    </section>
+    <section id="scc9e-ch02-sec-03" folder="false" filename="scc9e_ch2_3.html" dlapFilename="scc9e_ch2_3_dlap.xml" numquestions="0">
+      <title>Simple random samples</title>
+    </section>
+    <section id="scc9e-ch02-sec-04" folder="false" filename="scc9e_ch2_4.html" dlapFilename="scc9e_ch2_4_dlap.xml" numquestions="0">
+      <title>Can you trust a sample?</title>
+    </section>
+    <section id="scc9e-ch02-sec-05" folder="false" filename="scc9e_ch2_5.html" dlapFilename="scc9e_ch2_5_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch02-sec-06" folder="false" filename="scc9e_ch2_6.html" dlapFilename="scc9e_ch2_6_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch02-sec-07" folder="false" filename="scc9e_ch2_7.html" dlapFilename="scc9e_ch2_7_dlap.xml" numquestions="0">
+      <title>CHAPTER 2 EXERCISES</title>
+    </section>
+  </manuscript></manifest>
