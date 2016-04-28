@@ -128,22 +128,26 @@ var suppwins_Player_subtype = Player_subtype.extend({
              var figImg = $('[data-block_type="FIGURE"] > img');
              var figText = $('[data-block_type="FIGURE"] [data-type="figure_text"]');
              figText.insertBefore(figImg);
+
+
+
          }
 
     
         // EXERCISE SUPPLEMENTAL WINDOW CODE
         // wrap in BX2 box for styling
         $('[data-type="section"][data-block_type="h1"] > [data-type="question"]').wrap('<div data-type="box" data-block_type="BX2"></div>');
-
         // Figure supp windows
         // size of figures in the supplemental windows should be 15% larger than main page
             $('[data-type="section"] > [data-type="figure"] > img').each(function() {
+                alert("here");
                 var scale = 1.15;
                 var image = $(this); //update... this will accidentally find <img> in caption too.
                 var natimg = document.getElementsByTagName("img")[0];
                 var natWidth = natimg.naturalWidth;
-                var w = image.naturalWidth * scale;
+                var w = natWidth.naturalWidth * scale;
                 image.css({ width: w });
+                alert("here");
             });
 
      } // end initialize2
