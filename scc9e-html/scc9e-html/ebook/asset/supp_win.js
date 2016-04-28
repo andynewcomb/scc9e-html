@@ -132,10 +132,10 @@ var suppwins_Player_subtype = Player_subtype.extend({
              }
 
              var scale = 1.15;
-             var natimg = document.getElementsByTagName("img")[0];
-             var natWidth = natimg.naturalWidth;
-             var w = natWidth * scale;
-             figImg.css({ width: w });
+             figImg.css('width', 'auto');
+             var w = parseInt(figImg.css('width'));
+             var neww = w * scale;
+             figImg.css('width', neww );
          }
 
     
