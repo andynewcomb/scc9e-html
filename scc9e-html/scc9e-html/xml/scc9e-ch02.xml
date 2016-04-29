@@ -330,7 +330,7 @@
 </tr>
 </tbody>
 </table>
-<p id="scc9e-ch02-p-52" block_type="EXP-mid">Each two-digit group in <link href="table_a_1.html">Table A</link> is equally likely to be any of the 100 possible groups, 00, 01, 02, . . . , 99. So two-digit groups choose two-digit labels at random. That&#8217;s just what we want.</p>
+<p id="scc9e-ch02-p-52" block_type="EXP-first">Each two-digit group in <link href="table_a_1.html">Table A</link> is equally likely to be any of the 100 possible groups, 00, 01, 02, . . . , 99. So two-digit groups choose two-digit labels at random. That&#8217;s just what we want.</p>
 <p id="scc9e-ch02-p-53" block_type="EXP-mid">Joan used only labels 01 to 30, so we ignore all other two-digit groups. The first five labels between 01 and 30 that we encounter in the table choose our sample. Of the first 10 labels in line 130, we ignore five because they are too high (over 30). The others are 05, 16, 17, 17, and 17. The clients labeled 05, 16, and 17 go into the sample. Ignore the second and third 17s because that client is already in the sample. Now run your finger across line 130 (and continue to line 131 if needed) until five clients are chosen.</p>
 <p id="scc9e-ch02-p-54" block_type="EXP-mid">The sample is the clients labeled 05, 16, 17, 20, 19. These are Bailey Trucking, JL Appliances, Johnson Commodities, MagicTan, and Liu&#8217;s Chinese Restaurant.</p>
 </box>
@@ -513,7 +513,7 @@
 <question id="scc9e-ch02-ques-12" block_type="exercise_2_12.html">>
 <p id="scc9e-ch02-p-115" block_type="CR-X-NL">
 <image asset-id="scc9e-ch02-img-13" alt="image" src="asset/global_images/news.jpg"/><phrase block_type="CR-X-NL-N-ri">2.12 We don&#8217;t like one-way streets.</phrase> Highway planners decided to make a main street in West Lafayette, Indiana, a one-way street. The <em>Lafayette Journal and Courier</em> took a one-day poll by inviting readers to call a telephone number to record their comments. The next day, the paper reported:</p>
-<p id="scc9e-ch02-p-116" block_type="CR-X-NL"><em>Journal and Courier readers overwhelmingly prefer two-way traffic flow in West Lafayette&#8217;s Village area to one-way streets. By nearly a 7&#8211;1 margin, callers on Wednesday complained about the one-way streets that have been in place since May. Of the 98 comments received, all but 14 said no to one-way.</em></p>
+<p id="scc9e-ch02-p-116" block_type="CR-X-NL-EXT"><em>Journal and Courier readers overwhelmingly prefer two-way traffic flow in West Lafayette&#8217;s Village area to one-way streets. By nearly a 7&#8211;1 margin, callers on Wednesday complained about the one-way streets that have been in place since May. Of the 98 comments received, all but 14 said no to one-way.</em></p>
 <p id="scc9e_page_35" block_type="page_start" data-margin-content="right">35</p>
 <list id="scc9e-ch02-list-11" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch02-li-35"><p id="scc9e-ch02-p-117" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What population do you think the newspaper wants information about?</p></li>

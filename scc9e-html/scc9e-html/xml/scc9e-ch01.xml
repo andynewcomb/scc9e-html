@@ -34,7 +34,7 @@
 <box id="scc9e-ch01-box-02" numbered="false" block_type="BX1">
 <p id="scc9e-ch01-p-11" block_type="BX1-T">Individuals and variables</p>
 <p id="scc9e-ch01-p-12" block_type="BX1-TXT-ni"><strong>Individuals</strong> are the objects described by a set of data. Individuals may be people, but they may also be animals or things.</p>
-<p id="scc9e-ch01-p-13" block_type="BX1-TXT-ni">A <strong>variable</strong> is any characteristic of an individual. A variable can take different values for different individuals.</p>
+<p id="scc9e-ch01-p-13" block_type="BX1-TXT-i">A <strong>variable</strong> is any characteristic of an individual. A variable can take different values for different individuals.</p>
 </box>
 <p id="scc9e-ch01-p-14" block_type="TXT">For example, here are the first lines of a professor&#8217;s data set at the end of a statistics course:</p>
 <table id="scc9e-ch01-untab-01" numbered="false" block_type="UN-TABLE" attr="75">
@@ -82,7 +82,7 @@
 <box id="scc9e-ch01-box-03" numbered="false" block_type="BX1">
 <p id="scc9e-ch01-p-17" block_type="BX1-T">Categorical and numerical variables</p>
 <p id="scc9e-ch01-p-18" block_type="BX1-TXT-ni">A <strong>categorical variable</strong> simply places an individual into one of several groups or categories.</p>
-<p id="scc9e-ch01-p-19" block_type="BX1-TXT-ni">A <strong>numerical variable</strong> takes numerical values for which arithmetic operations such as adding and averaging make sense. A numerical variable is sometimes referred to as a <strong>quantitative variable</strong>.</p>
+<p id="scc9e-ch01-p-19" block_type="BX1-TXT-i">A <strong>numerical variable</strong> takes numerical values for which arithmetic operations such as adding and averaging make sense. A numerical variable is sometimes referred to as a <strong>quantitative variable</strong>.</p>
 </box>
 <p id="scc9e_page_5" block_type="page_start" data-margin-content="right">5</p>
 <p id="scc9e-ch01-p-20" block_type="TXT">Bad judgment in choosing variables can lead to data that cost lots of time and money but don&#8217;t shed light on the world. What constitutes good judgment can be controversial. Here are examples of the challenges in deciding what data to collect.</p>
@@ -131,14 +131,14 @@
 <section id="scc9e-ch01-sec-05" block_type="h1" chapter="ch1" numbered="false" level="1" print_page="8">
 <section-metadata><section-title>Sample surveys</section-title></section-metadata>
 <box id="scc9e-ch01-box-08" numbered="false" block_type="margin-statistics">
-<p id="scc9e-ch01-p-39" block_type="MN-TXT"><image asset-id="scc9e-ch01-img-05" alt="image" src="asset/global_images/statistics_icon.jpg"/><phrase block_type="MN-T-ri">You just don&#8217;t understand</phrase> A sample survey of journalists and scientists found quite a communications gap. Journalists think that scientists are arrogant, while scientists think that journalists are ignorant. We won&#8217;t take sides, but here is one interesting result from the survey: 82&#37; of the scientists agree that the &#8220;media do not understand statistics well enough to explain new findings&#8221; in medicine and other fields.</p>
+<p id="scc9e-ch01-p-39" block_type="MN-TXT"><image asset-id="scc9e-ch01-img-05" alt="image" src="asset/global_images/statistics_icon.jpg"/><phrase block_type="MN-T-ri">You just don&#8217;t under-<wbr/>stand</phrase> A sample survey of journalists and scientists found quite a communications gap. Journalists think that scientists are arrogant, while scientists think that journalists are ignorant. We won&#8217;t take sides, but here is one interesting result from the survey: 82&#37; of the scientists agree that the &#8220;media do not understand statistics well enough to explain new findings&#8221; in medicine and other fields.</p>
 </box>
 <p id="scc9e-ch01-p-38" block_type="TXT-ni">You don&#8217;t have to eat the entire pot of soup to know it needs more salt. That is the idea of sampling: to gain information about the whole by examining only a part. <strong>Sample surveys</strong> are an important kind of observational study. They survey some group of individuals by studying only some of its members, selected not because they are of special interest but because they represent the larger group. Here is the vocabulary we use to discuss sampling.</p>
 <p id="scc9e_page_9" block_type="page_start" data-margin-content="right">9</p>
 <box id="scc9e-ch01-box-09" numbered="false" block_type="BX1">
 <p id="scc9e-ch01-p-40" block_type="BX1-T">Populations and samples</p>
 <p id="scc9e-ch01-p-41" block_type="BX1-TXT-ni">The <strong>population</strong> in a statistical study is the entire group of individuals about which we want information.</p>
-<p id="scc9e-ch01-p-42" block_type="BX1-TXT-ni">A <strong>sample</strong> is the part of the population from which we actually collect information and is used to draw conclusions about the whole.</p>
+<p id="scc9e-ch01-p-42" block_type="BX1-TXT-i">A <strong>sample</strong> is the part of the population from which we actually collect information and is used to draw conclusions about the whole.</p>
 </box>
 <p id="scc9e-ch01-p-43" block_type="TXT">Notice that the <em>population</em> is the group we want to study. If we want information about all U.S. college students, that is our population&#8212;even if students at only one college are available for sampling. To make sense of any sample result, you must know what population the sample represents. Did a preelection poll, for example, ask the opinions of all adults? Or citizens only? Registered voters only? Democrats only? The <em>sample</em> consists of the people we actually have information about. If the poll can&#8217;t contact some of the people it selected, those people aren&#8217;t in the sample.</p>
 <p id="scc9e-ch01-p-44" block_type="TXT">The distinction between population and sample is basic to statistics. The following examples illustrate this distinction and also introduce some major uses of sampling. These brief descriptions also indicate the variables measured for each individual in the sample.</p>

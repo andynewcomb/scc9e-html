@@ -16,9 +16,9 @@ body {
 #manuscript {
 	font-family: "times new roman", serif;
 	font-size: 20.5px;
-	margin-left: auto;
-	margin-right: auto;
 	margin: 0;
+    margin-left: auto;
+	margin-right: auto;
 	position: relative;
 	width: 985px;
 }
@@ -222,6 +222,7 @@ div[data-type="section"][data-block_type="chapter"] {
     // another case box NOT in BX4 parent
     div[data-block_type="BX4-H-ri"] {
 	    font-family: "arial",sans-serif;
+        background-color: transparent;
         h3 {
             display: none;
         }
@@ -338,11 +339,11 @@ div[data-type="section"][data-block_type="h1"] {
     }
     /* floating photos */
     [data-type="figure"] {
-        [data-layout-align="right"] {
+        &[data-layout-align="right"] {
 	        margin-bottom: 0;
 	        margin-right: -100px;
         }
-        [data-layout-align="left"] {
+        &[data-layout-align="left"] {
 	        margin-bottom: 0;
 	        margin-left: -100px;
         }
@@ -391,6 +392,11 @@ div[data-type="section"][data-block_type="h1"] {
             cursor: pointer;
             text-decoration: underline;
         }
+    }
+
+    [data-block_type="EXP-MCL"] {
+        text-align: center;
+        margin: 1em 0;
     }
 
     span[data-block_type="EXP-N-ri"] {
@@ -534,12 +540,13 @@ div[data-block_type="UN-TABLE"][data-type="table"] {
     table {
 	    margin-left: auto;
 	    margin-right: auto;
+        background-color: transparent;
 	    tr {
             &.tborder {
                 border-top: 1px solid @med-blue;
             }
             &.bborder {
-                border-top: 1px solid @med-blue;
+                border-bottom: 1px solid @med-blue;
             }
 		    td.tborder {
 			    border-top: 1px solid @med-blue;
@@ -672,6 +679,10 @@ div[data-type="section"][data-block_type="SUM-H"] {
         [data-block_type="SUM-H-ri"] {
 	        color: @dk-blue;
         }
+    }
+    /* added block type for indention */
+    [data-block_type="SUM-TXT-i"] {
+        text-indent: 1.5em;
     }
     /* blue bullet list */
     [data-block_type="SUM-hd1"] {
@@ -866,9 +877,19 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] {
 		        text-decoration: underline;
 	        }
         }
+        ol[data-block_type="numbered"] {
+	        list-style-type: none;
+	        margin-left: 0;
+            li {
+                margin: 6px 0;
+            }
+        }
         ol[data-block_type="lower-alpha"] {
 	        list-style-type: none;
 	        margin-left: 0;
+            li {
+                margin: 6px 0;
+            }
         }
         ul[data-block_type="none"] {
 	        list-style-type: none;
