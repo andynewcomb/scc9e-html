@@ -1,4 +1,8 @@
-﻿div#scc9e-ch04-box-10 {
+﻿div[id="scc9e-ch04-untab-01"] table {
+  width: 400px !important;
+  color: #485f6b;
+}
+div#scc9e-ch04-box-10 {
   float: right;
   margin: 2em -122px 0 1em;
 }
