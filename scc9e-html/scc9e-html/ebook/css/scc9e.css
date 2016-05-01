@@ -725,7 +725,7 @@ div[data-type="section"][data-block_type="SUM-H"] [src="asset/global_images/laun
   float: left;
   padding-right: 10px;
   position: relative;
-  top: 5px;
+  top: -2px;
 }
 div[data-type="section"][data-block_type="SUM-H"] [data-block_type="CR-BIB-T"] strong {
   color: red;

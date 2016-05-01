@@ -331,6 +331,7 @@
     <Content Include="ebook\asset\css\tablebg.png" />
     <Content Include="ebook\asset\global_images\bar_code.jpg" />
     <Content Include="ebook\asset\global_images\launchpad.jpg" />
+    <Content Include="ebook\asset\global_images\launchpad_ML_logo_cmyk.jpg" />
     <Content Include="ebook\asset\global_images\link_it.jpg" />
     <Content Include="ebook\asset\global_images\news.jpg" />
     <Content Include="ebook\asset\global_images\statistics_icon.jpg" />
