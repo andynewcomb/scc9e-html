@@ -466,6 +466,12 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="docs\01_MooreSCC9e_92937_Ch01_01-20_2nd_Pass.pdf" />
+    <Content Include="docs\02_MooreSCC9e_92937_Ch02_21-38_2nd_Pass.pdf" />
+    <Content Include="docs\03_MooreSCC9e_92937_Ch03_39-62_2nd_Pass.pdf" />
+    <Content Include="docs\04_MooreSCC9e_92937_Ch04_63-92_2nd_Pass.pdf" />
+    <Content Include="docs\05_MooreSCC9e_92937_Ch05_93-116_2nd_Pass.pdf" />
+    <Content Include="docs\06_MooreSCC9e_92937_Ch06_117-140_2nd_Pass.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
