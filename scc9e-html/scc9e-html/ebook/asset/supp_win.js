@@ -140,8 +140,12 @@ var suppwins_Player_subtype = Player_subtype.extend({
 
     
         // EXERCISE SUPPLEMENTAL WINDOW CODE
-        // wrap in BX2 box for styling
-        $('[data-type="section"][data-block_type="h1"] > [data-type="question"]').wrap('<div data-type="box" data-block_type="BX2"></div>');
+        // "Now it's your turn" exercises - wrap in BX2 box for styling
+         $('[data-type="section"][data-block_type="h1"] > [data-type="question"]').wrap('<div data-type="box" data-block_type="BX2"></div>');
+         // "Now it's your turn" exercises need title "Now it's your turn" added to the supplemental window
+         $('[data-type="section"][data-block_type="h1"] [data-block_type="BX2"]').prepend('<div data-block_type="BX2-H"><p>NOW IT&apos;S YOUR TURN</p></div>');
+
+         
 
         // Figure supp windows
         // size of figures in the supplemental windows should be 15% larger than main page
