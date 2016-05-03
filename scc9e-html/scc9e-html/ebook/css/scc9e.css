@@ -436,6 +436,7 @@ div[data-block_type="BX3"] [data-block_type="BX3-T"] {
   font-size: 1.1em;
   font-weight: bold;
   margin-bottom: .5em;
+  margin-top: .5em;
 }
 div[data-block_type="BX3"] [data-block_type="BX3-TXT-ni"] {
   text-align: justify;
@@ -844,6 +845,7 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] [data-block_type="explorin
   margin-left: auto;
   margin-right: auto;
   border: 0;
+  padding: 0;
 }
 /* numbered figures */
 [data-block_type="FIGURE"] {
