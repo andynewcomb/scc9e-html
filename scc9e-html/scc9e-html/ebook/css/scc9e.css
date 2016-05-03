@@ -363,6 +363,14 @@ div[data-type="section"][data-block_type="h1"] [data-block_type="margin-statisti
 [data-block_type="EXP"] ul[data-block_type="none"] {
   list-style-type: none;
 }
+[data-block_type="EXP"] div[data-caption-compass="S"] {
+  margin-left: -17px;
+  padding-left: 17px;
+  margin-bottom: 0;
+  padding-bottom: 2em;
+  margin-top: 0;
+  padding-top: 2em;
+}
 [data-block_type="MN-TXT"] p {
   font-family: "arial", sans-serif;
   font-size: .75em;
@@ -846,6 +854,7 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] [data-block_type="explorin
   margin-right: auto;
   border: 0;
   padding: 0;
+  border-radius: 0;
 }
 /* numbered figures */
 [data-block_type="FIGURE"] {

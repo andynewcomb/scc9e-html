@@ -2,6 +2,14 @@
   width: 400px !important;
   color: #485f6b;
 }
+div[id="scc9e-ch03-unfig-02"] {
+  margin-right: 0;
+  padding-left: 1em;
+}
+div[id="scc9e-ch04-unfig-04"] {
+  position: relative;
+  left: -100px;
+}
 div#scc9e-ch04-box-10 {
   float: right;
   margin: 2em -122px 0 1em;
@@ -11,7 +19,7 @@ div#scc9e-ch04-box-18 {
   margin: 2em -122px 0 1em;
 }
 div#scc9e-ch04-box-07 {
-  width: 480px;
+  width: 300px;
 }
 div#scc9e-ch04-unfig-03 {
   margin-top: 2em;
