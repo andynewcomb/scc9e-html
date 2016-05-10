@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manuscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML" manuscript-id="08" name="" title="Moore_Chapter_08" xsi:noNamespaceSchemaLocation="xsd/digfir_manuscript.xsd">
+<chapter id="scc9e-ch08" number="8" title="Chapter 8: Measuring" start-numbering-at="163" numbered="true">
+<section id="scc9e-ch08-sec-01" block_type="chapter" title="Measuring" numbered="false" level="1" print_page="163">
+<p id="scc9e-ch08-p-01" block_type="CN">8</p>
+<p id="scc9e-ch08-p-02" block_type="CT">Measuring</p>
+<p id="scc9e-ch08-p-03" block_type="page_start" data-margin-content="right">163</p>
+<figure id="scc9e-ch08-unfig-01" block_type="CO-PH-CL" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch08-img-01" alt="image" src="images/17MOORESCC-MSE_9e_CO08.jpg"/>
+<asset_source><phrase block_type="PH-CL">MedicalRF.com/Corbis</phrase></asset_source>
+</figure>
+<box id="scc9e-ch08-box-01" numbered="false" block_type="BX4-H-ri">
+<p id="scc9e-ch08-p-04" block_type="BX4-TXT-FIRST"><phrase block_type="BX4-H-ri">CASE STUDY</phrase> Are people with larger brains more intelligent? People have investigated this question throughout history. To answer it, we must <strong>measure</strong> &#8220;intelligence.&#8221; This requires us to reduce the vague idea to a number that can go up or down. The first step is to say what we mean by intelligence. Does a vast knowledge of many subjects constitute intelligence? How about the ability to solve difficult puzzles or do complicated mathematical calculations? Or is it some combination of all of these?</p>
+<p id="scc9e-ch08-p-05" block_type="BX4-TXT-I">Once we decide what intelligence is, we must actually produce the numbers. Should we use the score on a written test? Perhaps a formula that also includes grades in school would be better. Not only is it hard to say exactly what &#8220;intelligence&#8221; is, but it&#8217;s hard to attach a number to measure whatever we say it is. And in the end, can we even trust the number we produce?</p>
+<p id="scc9e-ch08-p-06" block_type="BX4-TXT-I">By the end of this chapter, you will have learned principles that will help you understand the process of measurement and determine whether you can trust the resulting numbers.</p>
+</box>
+</section>
+<section id="scc9e-ch08-sec-02" block_type="h1" chapter="ch8" numbered="false" level="1" print_page="163">
+<section-metadata><section-title>Measurement basics</section-title></section-metadata>
+<p id="scc9e-ch08-p-07" block_type="TXT-ni">Statistics deals with data, and the data may or may not be numbers. For example, planning the production of data through a sample or an experiment does not, by itself, produce numbers. Once we have our sample respondents or our experimental subjects, we must still <em>measure</em> whatever characteristics interest us. First, think broadly: Are we trying to measure the right things? Are we overlooking some outcomes that are important, even though they may be hard to measure?</p>
+<p id="scc9e-ch08-p-08" block_type="page_start" data-margin-content="left">164</p>
+<box id="scc9e-ch08-box-02" numbered="false" block_type="EXP">
+<p id="scc9e-ch08-p-09" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 1</phrase> But what about the patients?</p>
+<p id="scc9e-ch08-p-10" block_type="EXP-first">Clinical trials tend to measure things that are easy to measure: blood pressure, tumor size, virus concentration in the blood. They often don&#8217;t directly measure what matters most to patients&#8212;does the treatment really improve their lives? One study found that only 5&#37; of trials published between 1980 and 1997 measured the effect of treatments on patients&#8217; emotional well-being or their ability to function in social settings.</p>
+</box>
+<p id="scc9e-ch08-p-11" block_type="TXT">Once we have decided what properties we want to measure, we can think about how to do the measurements.</p>
+<box id="scc9e-ch08-box-03" numbered="false" block_type="BX1">
+<p id="scc9e-ch08-p-12" block_type="BX1-T">Measurement</p>
+<p id="scc9e-ch08-p-13" block_type="BX1-TXT-ni">We <strong>measure</strong> a property of a person or thing when we assign a value to represent the property.</p>
+<p id="scc9e-ch08-p-14" block_type="BX1-TXT-i">We often use an <strong>instrument</strong> to make a measurement. We may have a choice of the <strong>units</strong> we use to record the measurements.</p>
+<p id="scc9e-ch08-p-15" block_type="BX1-TXT-i">The result of measurement is a numerical <strong>variable</strong> that takes different values for people or things that differ in whatever we are measuring.</p>
+</box>
+<box id="scc9e-ch08-box-04" numbered="false" block_type="margin-statistics">
+<p id="scc9e-ch08-p-16" block_type="MN-TXT"><image asset-id="scc9e-ch08-img-01" alt="image" src="images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">What are your units?</phrase> Not paying attention to units of measurement can get you into trouble. In 1999, the <em>Mars Climate Orbiter</em> burned up in the Martian atmosphere. It was supposed to be 93 miles (150 kilometers) above the planet but was, in fact, only 35 miles (57 kilometers) up. It seems that Lockheed Martin, which built the <em>Orbiter</em>, specified important measurements in English units (pounds, miles). The National Aeronautics and Space Administration team, who flew the spacecraft, thought the numbers were in metric system units (kilograms,  kilometers). There went &#36;125 million.</p>
+</box>
+<box id="scc9e-ch08-box-05" numbered="false" block_type="EXP">
+<p id="scc9e-ch08-p-17" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> Length, college readiness, highway safety</p>
+<p id="scc9e-ch08-p-18" block_type="EXP-first">To measure the length of a bed, you can use a tape measure as the <em>instrument</em>. You can choose either inches or centimeters as the <em>unit of measurement</em>. If you choose centimeters, your <em>variable</em> is the length of the bed in centimeters.</p>
+<p id="scc9e-ch08-p-19" block_type="EXP-mid">To measure a student&#8217;s readiness for college, you might ask the student to take the SAT Reasoning exam. The exam is the <em>instrument</em>. The <em>variable</em> is the student&#8217;s score in points, somewhere between 400 and 1600 if you combine the Evidence-Based Reading and Writing and Mathematics sections of the SAT. &#8220;Points&#8221; are the <em>units of measurement</em>, but these are determined by a complicated scoring system described at the SAT website (<link href="http://www.collegeboard.com">www.collegeboard.com</link>).</p>
+<p id="scc9e-ch08-p-20" block_type="page_start" data-margin-content="right">165</p>
+<p id="scc9e-ch08-p-21" block_type="EXP-mid">How can you measure the safety of traveling on the highway? You might decide to use the number of people who die in motor vehicle accidents in a year as a <em>variable</em> to measure highway safety. The government&#8217;s Fatality Analysis Reporting System collects data on all fatal traffic crashes. The <em>unit of measurement</em> is the number of people who died, and the Fatality Analysis Reporting System serves as our measuring <em>instrument</em>.</p>
+</box>
+<p id="scc9e-ch08-p-22" block_type="TXT">Here are some questions you should ask about the variables in any statistical study:</p>
+<list id="scc9e-ch08-list-01" type="ordered" block_type="numbered">
+<li id="scc9e-ch08-li-01"><p id="scc9e-ch08-p-23" block_type="NL-First"><phrase block_type="maker">1.</phrase> Exactly how is the variable defined?</p></li>
+<li id="scc9e-ch08-li-02"><p id="scc9e-ch08-p-24" block_type="NL-First"><phrase block_type="maker">2.</phrase> Is the variable an accurate way to describe the property it claims to measure?</p></li>
+<li id="scc9e-ch08-li-03"><p id="scc9e-ch08-p-25" block_type="NL-Last"><phrase block_type="maker">3.</phrase> How dependable are the measurements?</p></li>
+</list>
+<p id="scc9e-ch08-p-26" block_type="TXT-ni">We don&#8217;t often design our own measuring devices&#8212;we use the results of the SAT or the Fatality Analysis Reporting System, for example&#8212;so we won&#8217;t go deeply into that aspect of measurement. Any consumer of numbers, however, should know a bit about how they are produced.</p>
+</section>
+<section id="scc9e-ch08-sec-03" block_type="h1" chapter="ch8" numbered="false" level="1" print_page="165">
+<section-metadata><section-title>Know your variables</section-title></section-metadata>
+<p id="scc9e-ch08-p-27" block_type="TXT-ni">Measurement is the process of turning concepts like length or employment status into precisely defined variables. Using a tape measure to turn the idea of &#8220;length&#8221; into a number is straightforward because we know exactly what we mean by length. Measuring college readiness is controversial because it isn&#8217;t clear exactly what makes a student ready for college work. Using SAT scores at least says exactly how we will get numbers. Measuring leisure time requires that we first say what time counts as leisure. Even counting highway deaths requires us to say exactly what counts as a highway death: Pedestrians hit by cars? People in cars hit by a train at a crossing? People who die from injuries six months after an accident? We can simply accept the government&#8217;s counts, but someone had to answer those and other questions in order to know what to count. For example, to be included the Fatality Analysis Reporting System, &#8220;a crash must involve a motor vehicle traveling on a trafficway customarily open to the public and must result in the death of at least one person (occupant of a vehicle or a non-motorist) within 30 days of the crash.&#8221; The details of when a death is counted as a highway death are necessary because they can make a difference in the data.</p>
+<p id="scc9e-ch08-p-28" block_type="page_start" data-margin-content="left">166</p>
+<box id="scc9e-ch08-box-06" numbered="false" block_type="EXP">
+<p id="scc9e-ch08-p-29" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> Measuring unemployment</p>
+<p id="scc9e-ch08-p-30" block_type="EXP-first">Each month the Bureau of Labor Statistics (BLS) announces the <em>unemployment rate</em> for the previous month. People who are not available for work (retired people, for example, or students who do not want to work while in school) should not be counted as unemployed just because they don&#8217;t have a job. To be unemployed, a person must first be in the labor force. That is, the person must be available for work and looking for work. The unemployment rate is</p>
+<p id="scc9e-ch08-p-31" block_type="EXP-first"><m:math display='block'><m:mrow><m:mtext>unemployment&#x00A0;rate&#x00A0;=</m:mtext><m:mfrac><m:mrow><m:mtext>number&#x00A0;of&#x00A0;people&#x00A0;unemployed</m:mtext></m:mrow><m:mrow><m:mtext>number&#x00A0;of&#x00A0;people&#x00A0;in&#x00A0;the&#x00A0;labor&#x00A0;force</m:mtext></m:mrow></m:mfrac></m:mrow></m:math></p>
+<p id="scc9e-ch08-p-32" block_type="EXP-mid">To complete the exact definition of the unemployment rate, the BLS has very detailed descriptions of what it means to be &#8220;in the labor force&#8221; and what it means to be &#8220;employed.&#8221; For example, if you are on strike but expect to return to the same job, you count as employed. If you are not working and did not look for work in the last two weeks, you are not in the labor force. So, people who say they want to work but are too discouraged to keep looking for a job don&#8217;t count as unemployed. The details matter. The official unemployment rate would be different if the government were to use a different definition of unemployment.</p>
+</box>
+<p id="scc9e-ch08-p-33" block_type="TXT">The BLS estimates the unemployment rate based on interviews with the sample in the monthly Current Population Survey. The interviewer can&#8217;t simply ask, &#8220;Are you in the labor force?&#8221; and &#8220;Are you employed?&#8221; Many questions are needed to classify a person as employed, unemployed, or not in the labor force. Changing the questions can change the unemployment rate. At the beginning of 1994, after several years of planning, the BLS introduced computer-assisted interviewing and improved its questions. <link href="figure_8_1.html">Figure 8.1</link> is a graph of the unemployment rate that appeared on the front page of the BLS monthly news release on the employment situation. There is a gap in the graph before January 1994 because of the change in the interviewing process. The unemployment rate would have been 6.3&#37; under the old system. It was 6.7&#37; under the new system. That&#8217;s a big enough difference to make politicians unhappy.</p>
+</section>
+<section id="scc9e-ch08-sec-04" block_type="h1" chapter="ch8" numbered="false" level="1" print_page="166">
+<section-metadata><section-title>Measurements, valid and invalid</section-title></section-metadata>
+<p id="scc9e-ch08-p-34" block_type="TXT-ni">No one would object to using a tape measure reading in centimeters to measure the length of a bed. Many people object to using SAT scores to measure readiness for college. Let&#8217;s shortcut that debate: just measure the height in inches of all applicants and accept the tallest. Bad idea, you say. Why? Because height has nothing to do with being prepared for college. In more formal language, height is not a <em>valid</em> measure of a student&#8217;s academic background.</p>
+<p id="scc9e-ch08-p-35" block_type="page_start" data-margin-content="right">167</p>
+<figure id="scc9e-ch08-fig-01" block_type="FIGURE" data-caption-compass="S" numbered="true" number="8.1" mmtype="image" mmsrc="" attr="">
+<layout align="center" width="medium" border="true"/>
+<image asset-id="scc9e-ch08-img-01" alt="image" src="images/17MOORESCC-MSE_9e_fig_08_01.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 8.1</phrase> <phrase block_type="FG-CAP">The unemployment rate from August 1991 to July 1994. The gap shows the effect of a change in how the government measures unemployment.</phrase></caption>
+</figure>
+<box id="scc9e-ch08-box-07" numbered="false" block_type="BX1">
+<p id="scc9e-ch08-p-36" block_type="BX1-T">Valid measurement</p>
+<p id="scc9e-ch08-p-37" block_type="BX1-TXT-ni">A variable is a <strong>valid</strong> measure of a property if it is relevant or appropriate as a representation of that property.</p>
+</box>
+<p id="scc9e-ch08-p-38" block_type="TXT">It is valid to measure length with a tape measure. It isn&#8217;t valid to measure a student&#8217;s readiness for college by recording her height. The BLS unemployment rate is a valid measure, even though changes in the official definitions would give a somewhat different measure. Let&#8217;s think about measures, both valid and invalid, in some other settings.</p>
+<box id="scc9e-ch08-box-08" numbered="false" block_type="EXP">
+<p id="scc9e-ch08-p-39" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> Measuring highway safety</p>
+<p id="scc9e-ch08-p-40" block_type="EXP-ni">Roads got better. Speed limits increased. Big SUVs and crossovers have replaced some cars, while smaller cars and hybrid vehicles have replaced others. Enforcement campaigns reduced drunk driving. How did highway safety change between 2007 and 2012 in this changing environment?</p>
+<figure id="scc9e-ch08-unfig-02" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="right" width="small" border="false"/>
+<image asset-id="scc9e-ch08-img-01" alt="image" src="images/17MOORESCC-MSE_9e_P_08_01.jpg"/>
+<asset_source><phrase block_type="PH-CL">Mahaux Photography/Getty Images</phrase></asset_source>
+</figure>
+<p id="scc9e-ch08-p-41" block_type="EXP-mid">We could just count deaths from motor vehicles. The Fatality Analysis Reporting System says there were 41,259 deaths in 2007 and 33,561 deaths five years later in 2012. The number of deaths decreased. These numbers alone show progress. However, we need to keep in mind other things that happened during this same time frame to determine how much progress has been made. For example, the number of licensed drivers rose from 206 million in 2007 to 212 million in 2012. The number of miles that people drove decreased from 3031 billion to 2969 billion during this same time period. If more people drive fewer miles, should we expect more or fewer deaths? The count of deaths alone is not a valid measure of highway safety. So what should we use instead?</p>
+<p id="scc9e-ch08-p-42" block_type="page_start" data-margin-content="left">168</p>
+<p id="scc9e-ch08-p-43" block_type="EXP-mid">Rather than a <em>count</em>, we should use a <em>rate</em>. The number of deaths per mile driven takes into account the fact that more people drive more miles than in the past. In 2012, vehicles drove 2,969,000,000,000 miles in the United States. Because this number is so large, it is usual to measure safety by deaths per 100 million miles driven rather than deaths per mile. For 2012, this death rate is</p>
+<p id="scc9e-ch08-p-44" block_type="EXP-first"><m:math display='block'><m:mtable columnalign='left'><m:mtr><m:mtd><m:mfrac><m:mrow><m:mtext>motor&#x00A0;vehicle&#x00A0;deaths</m:mtext></m:mrow><m:mrow><m:mtext>100s&#x00A0;of&#x00A0;millions&#x00A0;of&#x00A0;miles&#x00A0;driven</m:mtext></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>33,561</m:mtext></m:mrow><m:mrow><m:mtext>29,690</m:mtext></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mtext>=&#x00A0;1</m:mtext><m:mtext>.1</m:mtext></m:mtd></m:mtr></m:mtable></m:math></p>
+<p id="scc9e-ch08-p-45" block_type="EXP-mid">The death rate fell from 1.4 deaths per 100 million miles in 2007 to 1.1 in 2012. That&#8217;s a decrease&#8212;there were 21&#37; fewer deaths per mile driven in 2012 than in 2007. Driving became safer during this time period even though there were more drivers on the roads.</p>
+</box>
+<box id="scc9e-ch08-box-09" numbered="false" block_type="BX1">
+<p id="scc9e-ch08-p-46" block_type="BX1-T">Rates and counts</p>
+<p id="scc9e-ch08-p-47" block_type="BX1-TXT-ni">Often, a <strong>rate</strong> (a fraction, proportion, or percentage) at which something occurs is a more valid measure than a simple <strong>count</strong> of occurrences.</p>
+</box>
+<box id="scc9e-ch08-box-10" numbered="false" block_type="BX2">
+<p id="scc9e-ch08-p-48" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch08-ques-01">
+    <p id="scc9e-ch08-p-49" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">8.1 Driver fatigue.</phrase> A researcher studied the number of traffic accidents that were attributed to driver fatigue at different times of the day. He noticed that the number of accidents was higher in the late afternoon (between 5 and 6 <phrase block_type="smallcaps">P.M</phrase>.) than in the early afternoon (between 1 and 2 <phrase block_type="smallcaps">P.M.</phrase>). He concluded that driver fatigue plays a more prominent role in traffic accidents in the late afternoon than in the early afternoon. Do you think this conclusion is justified?</p>
+</question>
+</box>
+<p id="scc9e-ch08-p-50" block_type="page_start" data-margin-content="right">169</p>
+<p id="scc9e-ch08-p-51" block_type="TXT">Using height to measure readiness for college and using counts when rates are needed are examples of clearly invalid measures. The tougher questions concern measures that are neither clearly invalid nor obviously valid.</p>
+<box id="scc9e-ch08-box-11" numbered="false" block_type="EXP">
+<p id="scc9e-ch08-p-52" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 5</phrase> Achievement tests</p>
+<p id="scc9e-ch08-p-53" block_type="EXP-ni">When you take a chemistry exam, you hope that it will ask you about the main points of material listed in the course syllabus. If it does, the exam is a valid measure of how much you know about the course material. The College Board, which administers the SAT, also offers Advanced Placement (AP) exams in a variety of disciplines. These AP exams are not very controversial. Experts can judge validity by comparing the test questions with the syllabus of material the questions are supposed to cover.</p>
+</box>
+<box id="scc9e-ch08-box-12" numbered="false" block_type="EXP">
+<p id="scc9e-ch08-p-54" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 6</phrase> IQ tests</p>
+<p id="scc9e-ch08-p-55" block_type="EXP-ni">Psychologists would like to measure aspects of the human personality that can&#8217;t be observed directly, such as &#8220;intelligence&#8221; or &#8220;authoritarian personality.&#8221; Does an IQ test measure intelligence? Some psychologists say Yes rather loudly. There is such a thing as general intelligence, they argue, and the various standard IQ tests do measure it, though not perfectly. Other experts say No equally loudly. There is no single intelligence, just a variety of mental abilities (for example, logical, linguistic, spatial, musical, kinesthetic, interpersonal, and intrapersonal) that no one instrument can measure.</p>
+<p id="scc9e-ch08-p-56" block_type="EXP-mid">The disagreement over the validity of IQ tests is rooted in disagreement over the nature of intelligence. If we can&#8217;t agree on exactly what intelligence is, we can&#8217;t agree on how to measure it.</p>
+</box>
+<p id="scc9e-ch08-p-57" block_type="TXT">Statistics is little help in these examples. The examples start with an idea like &#8220;knowledge of chemistry&#8221; or &#8220;intelligence.&#8221; If the idea is vague, validity becomes a matter of opinion. However, statistics can help a lot if we refine the idea of validity a bit.</p>
+<box id="scc9e-ch08-box-13" numbered="false" block_type="EXP">
+<p id="scc9e-ch08-p-58" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 7</phrase> The SAT again</p>
+<p id="scc9e-ch08-p-59" block_type="EXP-ni">&#8220;SAT bias will illegally cheat thousands of young women out of college admissions and scholarship aid they have earned by superior classroom performance.&#8221; That&#8217;s what the organization FairTest said when the 1999 SAT scores were released. The gender gap was larger on the math part of the test, where women averaged 495 and men averaged 531. Fifteen years later, in 2014, the gap remained. Among high school seniors, women averaged 499 and men 530 on the math part of the test. The federal Office of Civil Rights says that tests on which women and minorities score lower are discriminatory.</p>
+<p id="scc9e-ch08-p-60" block_type="page_start" data-margin-content="left">170</p>
+<p id="scc9e-ch08-p-61" block_type="EXP-mid">The College Board, which administers the SAT, replies that there are many reasons some groups have lower average scores than others. For example, more women than men from families with low incomes and little education sign up for the SAT. Students whose parents have low incomes and little education have, on the average, fewer advantages at home and in school than richer students. They have lower SAT scores because their backgrounds have not prepared them as well for college. The mere fact of lower scores doesn&#8217;t imply that the test is not valid.</p>
+</box>
+<p id="scc9e-ch08-p-62" block_type="TXT">Is the SAT a valid measure of readiness for college? &#8220;Readiness for college academic work&#8221; is a vague concept that probably combines inborn intelligence (whatever we decide that is), learned knowledge, study and test-taking skills, and motivation to work at academic subjects. Opinions will always differ about whether SAT scores (or any other measure) accurately reflect this vague concept.</p>
+<p id="scc9e-ch08-p-63" block_type="TXT">Instead, we ask a simpler and more easily answered question: do SAT scores help predict students&#8217; success in college? Success in college is a clear concept, measured by whether students graduate and by their college grades. Students with high SAT scores are more likely to graduate and earn (on the average) higher grades than students with low SAT scores. We say that SAT scores have <em>predictive validity</em> as measures of readiness for college. This is the only kind of validity that data can assess directly.</p>
+<box id="scc9e-ch08-box-14" numbered="false" block_type="BX1">
+<p id="scc9e-ch08-p-64" block_type="BX1-T">Predictive validity</p>
+<p id="scc9e-ch08-p-65" block_type="BX1-TXT-ni">A measurement of a property has <strong>predictive validity</strong> if it can be used to predict success on tasks that are related to the property measured.</p>
+</box>
+<box id="scc9e-ch08-box-15" numbered="false" block_type="margin-statistics">
+<p id="scc9e-ch08-p-66" block_type="MN-TXT"><image asset-id="scc9e-ch08-img-01" alt="image" src="images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">What can&#8217;t be measured matters</phrase> One member of the young Edmonton Oilers hockey team of 1981 finished last in almost everything one can measure: strength, speed, reflexes, eyesight. That was Wayne Gretzky, soon to be known as &#8220;the Great One.&#8217;&#8217; He broke the National Hockey League scoring record that year, then scored yet more points in seven different seasons. Somehow the physical measurements didn&#8217;t catch what made Gretzky the best hockey player ever. Not everything that matters can be measured.</p>
+</box>
+<p id="scc9e-ch08-p-67" block_type="TXT">Predictive validity is the clearest and most useful form of validity from the statistical viewpoint. &#8220;Do SAT scores help predict college grades?&#8221; is a much clearer question than &#8220;Do IQ test scores measure intelligence?&#8221; However, predictive validity is not a yes-or-no idea. We must ask <em>how accurately</em> SAT scores predict college grades. Moreover, we must ask <em>for what groups</em> the SAT has predictive validity. It is possible, for example, that the SAT predicts college grades well for men but not for women. There are statistical ways to describe &#8220;how accurately.&#8221; The Statistical Controversies feature in this chapter asks you to think about these issues.</p>
+<p id="scc9e-ch08-p-68" block_type="page_start" data-margin-content="right">171</p>
+<box id="scc9e-ch08-box-16" numbered="false" block_type="BX3">
+<p id="scc9e-ch08-p-69" block_type="BX3-H"><phrase block_type="BX3-H-ri">STATISTICAL</phrase> CONTROVERSIES</p>
+<p id="scc9e-ch08-p-70" block_type="BX3-T">SAT Exams in College Admissions</p>
+<figure id="scc9e-ch08-unfig-03" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="left" width="small" border="false"/>
+<image asset-id="scc9e-ch08-img-01" alt="image" src="images/17MOORESCC-MSE_9e_P_08_02.jpg"/>
+<asset_source><phrase block_type="PH-CL">Susan Stava/The New York Times/Redux</phrase></asset_source>
+</figure>
+<p id="scc9e-ch08-p-71" block_type="BX3-TXT-ni">Colleges use a variety of measures to make admissions decisions. The student&#8217;s record in high school is the most important, but SAT scores do matter, especially at selective colleges. The SAT has the advantage of being a national test. An A in algebra means different things in different high schools, but an SAT Math score of 625 means the same thing everywhere. The SAT can&#8217;t measure willingness to work hard or creativity, so it won&#8217;t predict college performance exactly, but most colleges have long found it helpful.</p>
+<p id="scc9e-ch08-p-72" block_type="BX3-TXT">The accompanying table gives some results about how well SAT scores predict first-year college grades from a sample of 151,316 students in 2006. The numbers in the table say what percentage of the variation among students in college grades can be predicted by SAT scores (Critical Reading, Writing, and Math tests combined), by high school grades, and by SAT and high school grades together. An entry of 0&#37; would mean no predictive validity, and 100&#37; would mean predictions were always exactly correct.</p>
+<p id="scc9e-ch08-p-73" block_type="BX3-TXT">How well do you think SAT scores predict first-year college grades? Should SAT scores be used in deciding college admissions?</p>
+<table id="scc9e-ch08-untab-01" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<th align="center" block_type="TB1-COLHD"></th>
+<th align="center" block_type="TB1-COLHD">All institutions</th>
+<th align="center" block_type="TB1-COLHD">Private institutions</th>
+<th align="center" block_type="TB1-COLHD">Public institutions</th>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="TB1-TXT">SAT</td>
+<td align="center" block_type="TB1-TXT">28&#37;</td>
+<td align="center" block_type="TB1-TXT">32&#37;</td>
+<td align="center" block_type="TB1-TXT">27&#37;</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">School grades</td>
+<td align="center" block_type="TB1-TXT">29&#37;</td>
+<td align="center" block_type="TB1-TXT">30&#37;</td>
+<td align="center" block_type="TB1-TXT">28&#37;</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TB1-TXT">Both together</td>
+<td align="center" block_type="TB1-TXT">38&#37;</td>
+<td align="center" block_type="TB1-TXT">42&#37;</td>
+<td align="center" block_type="TB1-TXT">37&#37;</td>
+</tr>
+</tbody>
+</table>
+</box>
+</section>
+<section id="scc9e-ch08-sec-05" block_type="h1" chapter="ch8" numbered="false" level="1" print_page="171">
+<section-metadata><section-title>Measurements, accurate and inaccurate</section-title></section-metadata>
+<p id="scc9e-ch08-p-74" block_type="TXT-ni">Using a bathroom scale to measure your weight is valid. If your scale is like many commonly used ones, however, the measurement may not be very accurate. It measures weight, but it may not give the true weight. Let&#8217;s say that originally your scale always read 3 pounds too high, so</p>
+<p id="scc9e-ch08-p-75" block_type="EQ">measured weight = true weight &#43; 3 pounds</p>
+<p id="scc9e-ch08-p-76" block_type="page_start" data-margin-content="left">172</p>
+<p id="scc9e-ch08-p-77" block_type="TXT">If that is the whole story, the scale will always give the same reading for the same true weight. Most scales vary a bit&#8212;they don&#8217;t always give the same reading when you step off and step right back on. Your scale now is somewhat old and rusty. It still always reads 3 pounds too high because its aim is off, but now it is also erratic, so readings deviate from 3 pounds. This morning it sticks a bit and reads 1 pound too low for that reason. So the reading is</p>
+<p id="scc9e-ch08-p-78" block_type="EQ">measured weight = true weight &#43; 3 pounds &#8722; 1 pound</p>
+<p id="scc9e-ch08-p-79" block_type="TXT-ni">When you step off and step right back on, the scale sticks in a different spot that makes it read 1 pound too high. The reading you get is now</p>
+<p id="scc9e-ch08-p-80" block_type="EQ">measured weight = true weight &#43; 3 pounds &#43; 1 pound</p>
+<p id="scc9e-ch08-p-81" block_type="TXT-ni">You don&#8217;t like the fact that this second reading is higher than the first, so you again step off and step right back on. The scale again sticks in a different spot and you get the reading</p>
+<p id="scc9e-ch08-p-82" block_type="EQ">measured weight = true weight &#43; 3 pounds &#8722; 1.5 pounds</p>
+<p id="scc9e-ch08-p-83" block_type="TXT-ni">If you have nothing better to do than keep stepping on and off the scale, you will keep getting different readings. They center on a reading 3 pounds too high, but they vary about that center.</p>
+<p id="scc9e-ch08-p-84" block_type="TXT">Your scale has two kinds of errors. If it didn&#8217;t stick, the scale would always read 3 pounds high. That is true every time anyone steps on the scale. This systematic error that occurs every time we make a measurement is called <em>bias</em>. Your scale also sticks&#8212;but how much this changes the reading differs every time someone steps on the scale. Sometimes stickiness pushes the scale reading up; sometimes it pulls it down. The result is that the scale weighs 3 pounds too high on the average, but its reading varies when we weigh the same thing repeatedly. We can&#8217;t predict the error due to stickiness, so we call it <em>random error</em>.</p>
+<box id="scc9e-ch08-box-17" numbered="false" block_type="BX1">
+<p id="scc9e-ch08-p-85" block_type="BX1-T">Errors in measurement</p>
+<p id="scc9e-ch08-p-86" block_type="BX1-TXT-ni">We can think about errors in measurement this way:</p>
+<p id="scc9e-ch08-p-87" block_type="EQ">measured value = true value &#43; bias &#43; random error</p>
+<p id="scc9e-ch08-p-88" block_type="BX1-TXT-i">A measurement process has <strong>bias</strong> if it systematically tends to overstate or understate the true value of the property it measures.</p>
+<p id="scc9e-ch08-p-89" block_type="BX1-TXT-i">A measurement process has <strong>random error</strong> if repeated measurements on the same individual give different results. If the random error is small, we say the measurement is <strong>reliable</strong>.</p>
+<p id="scc9e-ch08-p-90" block_type="page_start" data-margin-content="right">173</p>
+<p id="scc9e-ch08-p-91" block_type="BX1-TXT-i">To determine if the random error is small, we can use a quantity called the <strong>variance</strong>. The variance of <em>n</em> repeated measurements on the same individual is computed as follows:</p>
+<list id="scc9e-ch08-list-02" type="ordered" block_type="numbered">
+<li id="scc9e-ch08-li-04"><p id="scc9e-ch08-p-92" block_type="BX1-NL-first"><phrase block_type="maker">1.</phrase> Find the arithmetic average of these <em>n</em> measurements.</p></li>
+<li id="scc9e-ch08-li-05"><p id="scc9e-ch08-p-93" block_type="BX1-NL-mid"><phrase block_type="maker">2.</phrase> Compute the difference between each observation and the arithmetic average and square each of these differences.</p></li>
+<li id="scc9e-ch08-li-06"><p id="scc9e-ch08-p-94" block_type="BX1-NL-mid"><phrase block_type="maker">3.</phrase> Average the squared differences by dividing their sum by <em>n </em>&#8722;<em> </em>1. This average squared difference is the variance.</p></li>
+</list>
+<p id="scc9e-ch08-p-95" block_type="BX1-TXT-ni">A reliable measurement process will have a small variance.</p>
+</box>
+<p id="scc9e-ch08-p-96" block_type="TXT">For the three measurements on our sticky scale, suppose that our true weight is 130 pounds. Then the three measurements are</p>
+<p id="scc9e-ch08-p-97" block_type="TXT-ni">130 &#43; 3 &#8722; 1 = 132 pounds</p>
+<p id="scc9e-ch08-p-98" block_type="TXT-ni">130 &#43; 3 &#43; 1 = 134 pounds</p>
+<p id="scc9e-ch08-p-99" block_type="TXT-ni">130 &#43; 3 &#8722; 1.5 = 131.5 pounds</p>
+<p id="scc9e-ch08-p-100" block_type="TXT-ni">The average of these three measurements is</p>
+<p id="scc9e-ch08-p-101" block_type="EQ">(132 &#43; 134 &#43; 131.5)/3 = 397.5/3 = 132.5 pounds</p>
+<p id="scc9e-ch08-p-102" block_type="TXT-ni">The differences between each measurement and the average are</p>
+<p id="scc9e-ch08-p-103" block_type="EQ">132 &#8722; 132.5 = &#8722;0.5</p>
+<p id="scc9e-ch08-p-104" block_type="EQ">134 &#8722; 132.5 = 1.5</p>
+<p id="scc9e-ch08-p-105" block_type="EQ">131.5 &#8722; 132.5 = &#8722;1</p>
+<p id="scc9e-ch08-p-106" block_type="TXT-ni">The sum of the squares of these differences is</p>
+<p id="scc9e-ch08-p-107" block_type="EQ">(&#8722;0.5)<sup>2</sup> &#43; (1.5)<sup>2</sup> &#43; (&#8722;1)<sup>2</sup> = 0.25 &#43; 2.25 &#43; 1 = 3.5</p>
+<p id="scc9e-ch08-p-108" block_type="TXT-ni">and so the variance of these random errors is</p>
+<p id="scc9e-ch08-p-109" block_type="EQ">3.5/(3 &#8722; 1) = 1.75</p>
+<p id="scc9e-ch08-p-110" block_type="TXT">In the text box, we said that a reliable measurement process will have a small variance. In this example, the variance of 1.75 is quite small relative to the actual weights, so it appears that the measurement process using this scale is reliable.</p>
+<p id="scc9e-ch08-p-111" block_type="TXT">A scale that always reads the same when it weighs the same item is perfectly reliable even if it is biased. For such a scale, the variance of the measurements will be 0.</p>
+<p id="scc9e-ch08-p-112" block_type="TXT">Reliability says only that the result is dependable. Bias means that in repeated measurements the <em>tendency</em> is to systematically either overstate or understate the true value. It does not necessarily mean that every measurement overstates or understates the true value. Bias and lack of reliability are different kinds of error. And don&#8217;t confuse reliability with validity just because both sound like good qualities. Using a scale to measure weight is valid even if the scale is not reliable.</p>
+<p id="scc9e-ch08-p-113" block_type="page_start" data-margin-content="left">174</p>
+<figure id="scc9e-ch08-unfig-04" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch08-img-01" alt="image" src="images/17MOORESCC-MSE_9e_Car_08_01.jpg"/>
+</figure>
+<p id="scc9e-ch08-p-114" block_type="TXT">Here&#8217;s an example of a measurement that is reliable but not valid.</p>
+<box id="scc9e-ch08-box-18" numbered="false" block_type="EXP">
+<p id="scc9e-ch08-p-115" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 8</phrase> Do big skulls house smart brains?</p>
+<p id="scc9e-ch08-p-116" block_type="EXP-ni">In the mid-nineteenth century, it was thought that measuring the volume of a human skull would measure the intelligence of the skull&#8217;s owner. It was difficult to measure a skull&#8217;s volume reliably, even after it was no longer attached to its owner. Paul Broca, a professor of surgery, showed that filling a skull with small lead shot, then pouring out the shot and weighing it, gave quite reliable measurements of the skull&#8217;s volume. These accurate measurements do not, however, give a valid measure of intelligence. Skull volume turned out to have no relation to intelligence or achievement.</p>
+</box>
+<box id="scc9e-ch08-box-19" numbered="false" block_type="BX2">
+<p id="scc9e-ch08-p-117" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch08-ques-02">
+<p id="scc9e-ch08-p-118" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">8.2 The most popular burger joint.</phrase> If you live in the United States, you may have heard your friends debate whether In-N-Out Burger or Five Guys Burgers and Fries has the better hamburger. According to the Consumer Reports National Research Center, In-N-Out Burger ranked first in both 2011 and 2014. Five Guys Burgers and Fries ranked third in 2011 but seventh in 2014. Is this proof that In-N-Out has better burgers? Do you think these ratings are biased, unreliable, or both? Explain your answer.</p>
+</question>
+</box>
+</section>
+<section id="scc9e-ch08-sec-06" block_type="h1" chapter="ch8" numbered="false" level="1" print_page="174">
+<section-metadata><section-title>Improving reliability, reducing bias</section-title></section-metadata>
+<p id="scc9e-ch08-p-119" block_type="TXT-ni">What time is it? Much modern technology, such as the Global Positioning System, which uses satellite signals to tell you where you are, requires very exact measurements of time. In 1967, the International Committee for Weights and Measures defined the second to be the time required for 9,192,631,770 vibrations of a cesium atom. The cesium atom is not affected by changes in temperature, humidity, and air pressure, like physical clocks are. The National Institute of Standards and Technology (NIST) has the world&#8217;s most accurate atomic clock and broadcasts the results (with some loss in transmission) by radio, telephone, and Internet.</p>
+<p id="scc9e-ch08-p-120" block_type="page_start" data-margin-content="right">175</p>
+<box id="scc9e-ch08-box-20" numbered="false" block_type="EXP">
+<p id="scc9e-ch08-p-121" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 9</phrase> Really accurate time</p>
+<p id="scc9e-ch08-p-122" block_type="EXP-ni">NIST&#8217;s atomic clock is very accurate but not perfectly accurate. The world standard is Coordinated Universal Time, compiled by the International Bureau of Weights and Measures (BIPM) in S&#232;vres, France. BIPM doesn&#8217;t have a better clock than NIST. It calculates the time by averaging the results of more than 200 atomic clocks around the world. NIST tells us (after the fact) how much it misses the correct time by. Here are the last 12 errors as we write, in seconds:</p>
+<table id="scc9e-ch08-untab-02" numbered="false" block_type="UN-TABLE" attr="50">
+<tbody>
+<tr>
+<td align="char" char="." block_type="EXP-MCL">0.0000000075</td>
+<td align="char" char="." block_type="EXP-MCL">0.0000000012</td>
+</tr>
+<tr>
+<td align="char" char="." block_type="EXP-MCL">0.0000000069</td>
+<td align="char" char="." block_type="EXP-MCL">&#8722;0.0000000020</td>
+</tr>
+<tr>
+<td align="char" char="." block_type="EXP-MCL">0.0000000067</td>
+<td align="char" char="." block_type="EXP-MCL">&#8722;0.0000000045</td>
+</tr>
+<tr>
+<td align="char" char="." block_type="EXP-MCL">0.0000000063</td>
+<td align="char" char="." block_type="EXP-MCL">&#8722;0.0000000046</td>
+</tr>
+<tr>
+<td align="char" char="." block_type="EXP-MCL">0.0000000041</td>
+<td align="char" char="." block_type="EXP-MCL">&#8722;0.0000000042</td>
+</tr>
+<tr>
+<td align="char" char="." block_type="EXP-MCL">0.0000000032</td>
+<td align="char" char="." block_type="EXP-MCL">&#8722;0.0000000036</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch08-p-123" block_type="EXP-mid">In the long run, NIST&#8217;s measurements of time are not biased. The NIST second is sometimes shorter than the BIPM second and sometimes longer, not always off in the same direction. NIST&#8217;s measurements are very reliable, but the preceding numbers do show some variation. There is no such thing as a perfectly reliable measurement. The average (mean) of several measurements is more reliable than a single measurement. That&#8217;s one reason BIPM combines the time measurements of many atomic clocks.</p>
+</box>
+<p id="scc9e-ch08-p-124" block_type="TXT">Scientists everywhere repeat their measurements and use the average to get more reliable results. Even students in a chemistry lab often do this. Just as larger samples reduce variation in a sample statistic, averaging over more measurements reduces variation in the final result.</p>
+<box id="scc9e-ch08-box-21" numbered="false" block_type="BX1">
+<p id="scc9e-ch08-p-125" block_type="BX1-T">Use averages to improve reliability</p>
+<p id="scc9e-ch08-p-126" block_type="BX1-TXT-ni">No measuring process is perfectly reliable. The <strong>average</strong> of several repeated measurements of the same individual is more reliable (less variable) than a single measurement.</p>
+</box>
+<p id="scc9e-ch08-p-127" block_type="page_start" data-margin-content="left">176</p>
+<figure id="scc9e-ch08-fig-02" block_type="FIGURE" data-caption-compass="NE" numbered="true" number="8.2" mmtype="image" mmsrc="" attr="">
+<layout align="left" width="small" border="true"/>
+<image asset-id="scc9e-ch08-img-01" alt="image" src="images/17MOORESCC-MSE_9e_fig_08_02.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 8.2</phrase> <phrase block_type="FG-CAP">This atomic clock at the National Institute of Standards and Technology is accurate to 1 second in 6 million years. (Source: NIST.)</phrase></caption>
+</figure>
+<p id="scc9e-ch08-p-128" block_type="TXT">Unfortunately, there is no similarly straightforward way to reduce the bias of measurements. Bias depends on how good the measuring instrument is. To reduce the bias, you need a better instrument. The atomic clock at NIST (<link href="figure_8_2.html">Figure 8.2</link>) is accurate to 1 second in 6 million years but is a bit large to put beside your bed.</p>
+<box id="scc9e-ch08-box-22" numbered="false" block_type="EXP">
+<p id="scc9e-ch08-p-129" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 10</phrase> Measuring unemployment again</p>
+<p id="scc9e-ch08-p-130" block_type="EXP-ni">Measuring unemployment is also &#8220;measurement.&#8221; The concepts of bias and reliability apply here just as they do to measuring length or time.</p>
+<p id="scc9e-ch08-p-131" block_type="EXP-mid">The Bureau of Labor Statistics checks the <em>reliability</em> of its measurements of unemployment by having supervisors reinterview about 5&#37; of the sample. This is repeated measurement on the same individual, just as a student in a chemistry lab measures a weight several times.</p>
+<p id="scc9e-ch08-p-132" block_type="EXP-mid">The BLS attacks <em>bias</em> by improving its instrument. That&#8217;s what happened in 1994, when the Current Population Survey was given its biggest overhaul in more than 50 years. The old system for measuring unemployment, for example, underestimated unemployment among women because the detailed procedures had not kept up with changing patterns of women&#8217;s work. The new measurement system corrected that bias&#8212;and raised the reported rate of unemployment.</p>
+</box>
+</section>
+<section id="scc9e-ch08-sec-07" block_type="h1" chapter="ch8" numbered="false" level="1" print_page="176">
+<section-metadata><section-title>Pity the poor psychologist</section-title></section-metadata>
+<p id="scc9e-ch08-p-133" block_type="TXT-ni">Statisticians think about measurement much the same way as they think about sampling. In both settings, the big idea is to ask, &#8220;What would happen if we did this many times?&#8221; In sampling, we want to estimate a population parameter, and we worry that our estimate may be biased or vary too much from sample to sample. Now we want to measure the true value of some property, and we worry that our measurement may be biased or vary too much when we repeat the measurement on the same individual. Bias is systematic error that happens every time; high variability (low reliability) means that our result can&#8217;t be trusted because it isn&#8217;t repeatable.</p>
+<p id="scc9e-ch08-p-134" block_type="TXT">Thinking of measurement this way is pretty straightforward when you are measuring your weight. To start with, you have a clear idea of what your &#8220;true weight&#8221; is. You know that there are really good scales around: start at the doctor&#8217;s office, go to the physics lab, end up at NIST. You can measure your weight as accurately as you wish. This makes it easy to see that your bathroom scale always reads 3 pounds too high. Reliability is also easy to describe&#8212;step on and off the scale many times and see how much its readings vary.</p>
+<p id="scc9e-ch08-p-135" block_type="page_start" data-margin-content="right">177</p>
+<p id="scc9e-ch08-p-136" block_type="TXT">Asking &#8220;What would happen if we did this many times?&#8221; is a lot harder to put into practice when we want to measure &#8220;intelligence&#8221; or &#8220;readiness for college.&#8221; Consider as an example the poor psychologist who wants to measure &#8220;authoritarian personality.&#8221;</p>
+<box id="scc9e-ch08-box-23" numbered="false" block_type="EXP">
+<p id="scc9e-ch08-p-137" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 11</phrase> Authoritarian personality?</p>
+<p id="scc9e-ch08-p-138" block_type="EXP-ni">Do some people have a personality type that disposes them to rigid thinking and to following strong leaders? Psychologists looking back on the Nazis after World War II thought so. In 1950, a group of psychologists developed the &#8220;F-scale&#8221; as an instrument to measure &#8220;authoritarian personality.&#8221; The F-scale asks how strongly you agree or disagree with statements such as the following:</p>
+<list id="scc9e-ch08-list-03" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch08-li-07"><p id="scc9e-ch08-p-139" block_type="BX1-BL-first"><phrase block_type="maker">&#8226;</phrase> Obedience and respect for authority are the most important virtues children should learn.</p></li>
+<li id="scc9e-ch08-li-08"><p id="scc9e-ch08-p-140" block_type="BX1-BL-first"><phrase block_type="maker">&#8226;</phrase> Science has its place, but there are many important things that can never be understood by the human mind.</p></li>
+</list>
+<p id="scc9e-ch08-p-141" block_type="EXP-mid">Strong agreement with such statements marks you as authoritarian. The F-scale and the idea of the authoritarian personality continue to be prominent in psychology, especially in studies of prejudice and right-wing extremist movements.</p>
+</box>
+<p id="scc9e-ch08-p-142" block_type="TXT">Here are some questions we might ask about using the F-scale to measure &#8220;authoritarian personality.&#8221; The same questions come to mind when we think about IQ tests or the SAT exam.</p>
+<list id="scc9e-ch08-list-04" type="ordered" block_type="numbered">
+<li id="scc9e-ch08-li-09"><p id="scc9e-ch08-p-143" block_type="NL-First"><phrase block_type="maker">1.</phrase> Just what is an &#8220;authoritarian personality&#8221;? We understand this much less well than we understand your weight. The answer in practice seems to be &#8220;whatever the F-scale measures.&#8221; Any claim for validity must rest on what kinds of behavior high F-scale scores go along with. That is, we fall back on predictive validity.</p></li>
+<li id="scc9e-ch08-li-10"><p id="scc9e-ch08-p-144" block_type="NL-First"><phrase block_type="maker">2.</phrase> The F in &#8220;F-scale&#8221; stands for Fascist. As the second question in <link href="example_8_11.html">Example 11</link> suggests, people who hold traditional religious beliefs are likely to get higher F-scale scores than similar people who don&#8217;t hold those beliefs. Does the instrument reflect the beliefs of those who developed it? That is, would people with different beliefs come up with a quite different instrument?</p></li>
+<li id="scc9e-ch08-li-11"><p id="scc9e-ch08-p-145" block_type="NL-First"><phrase block_type="maker">3.</phrase> You think you know what your true weight is. What is the true value of your F-scale score? The measuring devices at NIST can help us find a true weight but not a true authoritarianism score. If we suspect that the instrument is biased as a measure of &#8220;authoritarian personality&#8221; because it penalizes religious beliefs, how can we check that?</p>
+<p id="scc9e-ch08-p-146" block_type="page_start" data-margin-content="left">178</p></li>
+<li id="scc9e-ch08-li-12"><p id="scc9e-ch08-p-147" block_type="NL-Last"><phrase block_type="maker">4.</phrase> You can weigh yourself many times to learn the reliability of your bathroom scale. If you take the F-scale test many times, you remember what answers you gave the first time. That is, repeats of the same psychological measurement are not really repeats. Thus, reliability is hard to check in practice. Psychologists sometimes develop several forms of the same instrument in order to repeat their measurements. But how do we know these forms are really equivalent?</p></li>
+</list>
+<p id="scc9e-ch08-p-148" block_type="TXT-ni">The point is not that psychologists lack answers to these questions. The first two are controversial because not all psychologists think about human personality in the same way. The second two questions have at least partial answers but not simple answers. The point is that &#8220;measurement,&#8221; which seems so straightforward when we measure weight, is complicated indeed when we try to measure human personality.</p>
+<p id="scc9e-ch08-p-149" block_type="TXT">There is a larger lesson here. Be wary of statistical &#8220;facts&#8221; about squishy topics like authoritarian personality, intelligence, and even readiness for college. The numbers look solid, as numbers always do. But data are a human product and reflect human desires, prejudices, and weaknesses. If we don&#8217;t understand and agree on what we are measuring, the numbers may produce more disagreement than enlightenment.</p>
+</section>
+<section id="scc9e-ch08-sec-08" block_type="SUM-H" chapter="ch8" numbered="false" level="1" print_page="178">
+<section-metadata><section-title><phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase></section-title></section-metadata>
+<p id="scc9e-ch08-p-150" block_type="SUM-hd1">Chapter Specifics</p>
+<list id="scc9e-ch08-list-05" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch08-li-13"><p id="scc9e-ch08-p-151" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> To <strong>measure</strong> something means to assign a number to some property of an individual.</p></li>
+<li id="scc9e-ch08-li-14"><p id="scc9e-ch08-p-152" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> When we measure many individuals, we have values of a <strong>variable</strong> that describes them.</p></li>
+<li id="scc9e-ch08-li-15"><p id="scc9e-ch08-p-153" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> Variables are recorded in <strong>units</strong>.</p></li>
+<li id="scc9e-ch08-li-16"><p id="scc9e-ch08-p-154" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> When you work with data or read about a statistical study, ask if the variables are <strong>valid</strong> as numerical measures of the concepts the study discusses.</p></li>
+<li id="scc9e-ch08-li-17"><p id="scc9e-ch08-p-155" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> Often, a <strong>rate</strong> is a more valid measure than a <strong>count</strong>.</p></li>
+<li id="scc9e-ch08-li-18"><p id="scc9e-ch08-p-156" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> Validity is simple for measurements of physical properties such as length, weight, and time. When we want to measure human personality and other vague properties, <strong>predictive validity</strong> is the most useful way to say whether our measures are valid.</p>
+<p id="scc9e-ch08-p-157" block_type="page_start" data-margin-content="right">179</p></li>
+<li id="scc9e-ch08-li-19"><p id="scc9e-ch08-p-158" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> Also ask if there are <strong>errors in measurement</strong> that reduce the value of the data. You can think about errors in measurement like this:</p>
+<p id="scc9e-ch08-p-159" block_type="EQ">measured value = true value &#43; bias &#43; random error</p></li>
+<li id="scc9e-ch08-li-20"><p id="scc9e-ch08-p-160" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> Some ways of measuring are <strong>biased</strong>, or systematically wrong in the same direction.</p></li>
+<li id="scc9e-ch08-li-21"><p id="scc9e-ch08-p-161" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> To reduce bias, you must use a better <strong>instrument</strong> to make the measurements.</p></li>
+<li id="scc9e-ch08-li-22"><p id="scc9e-ch08-p-162" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> Other measuring processes lack <strong>reliability</strong> so that measuring the same individuals again would give quite different results due to <strong>random error</strong>.</p></li>
+<li id="scc9e-ch08-li-23"><p id="scc9e-ch08-p-163" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> A reliable measuring process will have a small <strong>variance</strong> of the measurements. You can improve the reliability of a measurement by repeating it several times and using the <strong>average</strong> result.</p></li>
+</list>
+<p id="scc9e-ch08-p-164" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch08-img-01" alt="image" src="images/LinkIt.jpg"/> In reasoning from data to a conclusion, we start with the data. In statistics, data are ultimately represented by numbers. The planning of the production of data through a sample or experiment does not by itself produce these numbers. The extent to which these numbers represent the characteristics we wish to study affects the quality and relevance of our conclusions. When you work with data or read about a statistical study, ask exactly how the variables are defined and whether they leave out some things you want to know. This chapter presents several ideas to think about in assessing the variables measured and hence the conclusions based on these measurements.</p>
+<box id="scc9e-ch08-box-24" numbered="false" block_type="case_title">
+<p id="scc9e-ch08-p-165" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> The Case Study that opened the chapter is motivated by research conducted in 1991 by Willerman, Schultz, Rutledge, and Bigler. Read about this study in the EESEE story &#8220;Brain Size and Intelligence,&#8221; and use what you have learned in this chapter to answer the following questions.</p>
+<list id="scc9e-ch08-list-06" type="ordered" block_type="numbered">
+<li id="scc9e-ch08-li-24"><p id="scc9e-ch08-p-166" block_type="BX4-TXT-first"><phrase block_type="maker">1.</phrase> How did the researchers measure brain size? Is this a valid measure of brain size? Is it reliable? Is it biased?</p></li>
+<li id="scc9e-ch08-li-25"><p id="scc9e-ch08-p-167" block_type="BX4-TXT-first"><phrase block_type="maker">2.</phrase> How did the researchers measure intelligence? Is this a valid measure of intelligence?</p></li>
+<li id="scc9e-ch08-li-26"><p id="scc9e-ch08-p-168" block_type="BX4-TXT-first"><phrase block_type="maker">3.</phrase> The researchers found some evidence that brain size and intelligence are related. However, the study described in <link href="example_8_8.html">Example 8</link> did not. Discuss the differences in the two studies.</p></li>
+</list>
+</box>
+<p id="scc9e-ch08-p-169" block_type="page_start" data-margin-content="left">180</p>
+<box id="scc9e-ch08-box-25" numbered="false" block_type="launchpad">
+<p id="scc9e-ch08-p-170" block_type="CR-BIB-T"><image asset-id="scc9e-ch08-img-01" alt="image" src="images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<list id="scc9e-ch08-list-07" type="unordered" block_type="redbullet">
+<li id="scc9e-ch08-li-27"><p id="scc9e-ch08-p-171" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> <em>LearningCurve</em> has good questions to check your understanding of the concepts.</p></li>
+</list>
+</box>
+</section>
+<section id="scc9e-ch08-sec-09" block_type="CR-X-H" chapter="ch8" numbered="false" level="1" print_page="180">
+<section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
+<p id="scc9e-ch08-p-172" block_type="CR-X"><em>For <link href="exercise_8_1.html">Exercise 8.1</link>, see page 168; for <link href="exercise_8_2.html">Exercise 8.2</link>, see page 174.</em></p>
+<question id="scc9e-ch08-ques-03">
+<p id="scc9e-ch08-p-173" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.3 Comparing marijuana use.</phrase> According to the 2011&#8211;2012 National Survey on Drug Use and Health, among young adults aged 18&#8211;25 years, approximately 29.2&#37; of young adults in Arizona, approximately 34.4&#37; of young adults in Michigan, and approximately 30.4&#37; of young adults in Virginia used marijuana in the past year. Which of the following is true?</p>
+<list id="scc9e-ch08-list-08" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch08-li-28"><p id="scc9e-ch08-p-174" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> We cannot use these percentages to compare marijuana use by young adults in these states because we do not know how many young adults used marijuana in the past year in each state.</p></li>
+<li id="scc9e-ch08-li-29"><p id="scc9e-ch08-p-175" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> We cannot use these percentages to compare marijuana use by young adults in these states because we do not know how many young adults live in each state.</p></li>
+<li id="scc9e-ch08-li-30"><p id="scc9e-ch08-p-176" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> We can use these percentages to compare marijuana use by young adults in these states because we are given rates.</p></li>
+<li id="scc9e-ch08-li-31"><p id="scc9e-ch08-p-177" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> None of the above is true.</p></li>
+</list>
+</question>
+<question id="scc9e-ch08-ques-04">
+<p id="scc9e-ch08-p-178" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.4 What is the instrument of measurement?</phrase> A college president is interested in student satisfaction with recreational facilities on campus. A questionnaire is sent to all students and asks them to rate their satisfaction on a scale of 1 to 5 (with 5 being the best). The instrument of measurement is</p>
+<list id="scc9e-ch08-list-09" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch08-li-32"><p id="scc9e-ch08-p-179" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> a student.</p></li>
+<li id="scc9e-ch08-li-33"><p id="scc9e-ch08-p-180" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> the questionnaire.</p></li>
+<li id="scc9e-ch08-li-34"><p id="scc9e-ch08-p-181" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> the rating on the scale.</p></li>
+<li id="scc9e-ch08-li-35"><p id="scc9e-ch08-p-182" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> satisfaction.</p></li>
+</list>
+</question>
+<question id="scc9e-ch08-ques-05">
+<p id="scc9e-ch08-p-183" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.5 Weight at the doctor&#8217;s office.</phrase> When you visit the doctor&#8217;s office, several measurements may be taken, one of which is your weight. A doctor&#8217;s office encourages patients to keep their shoes on to be weighed and promises to subtract 2 pounds for the weight of the patient&#8217;s shoes. Which of the following is true once the patient&#8217;s weight is adjusted by 2 pounds?</p>
+<list id="scc9e-ch08-list-10" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch08-li-36"><p id="scc9e-ch08-p-184" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> This will be a reliable measure of the patient&#8217;s weight.</p></li>
+<li id="scc9e-ch08-li-37"><p id="scc9e-ch08-p-185" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> This will be a valid measure of the patient&#8217;s weight.</p></li>
+<li id="scc9e-ch08-li-38"><p id="scc9e-ch08-p-186" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> This will be an unbiased measure of the patient&#8217;s weight.</p></li>
+<li id="scc9e-ch08-li-39"><p id="scc9e-ch08-p-187" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> None of the above is true.</p></li>
+</list>
+</question>
+<question id="scc9e-ch08-ques-06">
+<p id="scc9e-ch08-p-188" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.6 Measuring athletic ability.</phrase> Which of the following is <em>not</em> a valid measurement of athletic ability?</p>
+<list id="scc9e-ch08-list-11" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch08-li-40"><p id="scc9e-ch08-p-189" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Time (in seconds) to run a 100-meter dash</p></li>
+<li id="scc9e-ch08-li-41"><p id="scc9e-ch08-p-190" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Number of times a person goes to the gym per week</p></li>
+<li id="scc9e-ch08-li-42"><p id="scc9e-ch08-p-191" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Maximum weight (in pounds) a person can bench-press</p></li>
+<li id="scc9e-ch08-li-43"><p id="scc9e-ch08-p-192" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> Number of sit-ups a person can do in one minute</p></li>
+</list>
+</question>
+<p id="scc9e-ch08-p-193" block_type="page_start" data-margin-content="right">181</p>
+<question id="scc9e-ch08-ques-07">
+<p id="scc9e-ch08-p-194" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.7 Comparing teaching assistants (TAs).</phrase> Professor Holmes has two teaching assistants who grade homework for a Statistics 101 course. Professor Holmes gives each of the two teaching assistants a rubric (a clear scoring guide) for the TAs to use when they grade the assignments. Holmes gives each TA the same student&#8217;s paper to grade and has each TA grade the paper according to the rubric. Professor Holmes is doing this to try to guarantee the scores given by the TAs are</p>
+<list id="scc9e-ch08-list-12" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch08-li-44"><p id="scc9e-ch08-p-195" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> not biased.</p></li>
+<li id="scc9e-ch08-li-45"><p id="scc9e-ch08-p-196" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> predictive.</p></li>
+<li id="scc9e-ch08-li-46"><p id="scc9e-ch08-p-197" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> reliable.</p></li>
+<li id="scc9e-ch08-li-47"><p id="scc9e-ch08-p-198" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> valid.</p></li>
+</list>
+</question>
+</section>
+<section id="scc9e-ch08-sec-10" block_type="CR-X-H-v1" chapter="ch8" numbered="false" level="1" print_page="181">
+<section-metadata><section-title>CHAPTER 8 EXERCISES</section-title></section-metadata>
+<question id="scc9e-ch08-ques-08">
+<p id="scc9e-ch08-p-199" block_type="CR-X-H-V1"><strong>CHAPTER 8 EXERCISES</strong></p>
+</question>
+<question id="scc9e-ch08-ques-09">
+<p id="scc9e-ch08-p-200" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.8 Counting the unemployed?</phrase>  We could measure the extent of unemployment by a count (the number of people who are unemployed) or by a rate (the percentage of the labor force that is unemployed). The number of people in the labor force grew from 115 million in June 1985, to 132 million in June 1995, to 149 million in June 2005, to 157 million in June 2015. Use these facts to explain why the count of unemployed people is not a valid measure of the extent of unemployment.</p>
+</question>
+<question id="scc9e-ch08-ques-10">
+<p id="scc9e-ch08-p-201" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.9 Measuring a healthy lifestyle.</phrase>  You want to measure the &#8220;healthiness&#8221; of college students&#8217; lifestyles. Give an example of a clearly invalid way to measure healthiness. Then briefly describe a measurement process that you think is valid.</p>
+</question>
+<question id="scc9e-ch08-ques-11">
+<p id="scc9e-ch08-p-202" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.10 Rates versus counts.</phrase> Customers returned 40 cell phones to Verizon this spring, and only 15 to Best Buy next door. Verizon sold 800 cell phones this spring, while Best Buy sold 200.</p>
+<list id="scc9e-ch08-list-13" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch08-li-48"><p id="scc9e-ch08-p-203" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Verizon had a greater number of cell phones returned. Why does this not show that Verizon&#8217;s cell phone customers were less satisfied than those of Best Buy?</p></li>
+<li id="scc9e-ch08-li-49"><p id="scc9e-ch08-p-204" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What is the rate of returns (percentage of cell phones returned) at each of the stores?</p></li>
+<li id="scc9e-ch08-li-50"><p id="scc9e-ch08-p-205" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Use the rates of returns that you calculated to explain to a friend which store you would suggest your friend go to to purchase a cell phone.</p></li>
+</list>
+</question>
+<question id="scc9e-ch08-ques-12">
+<p id="scc9e-ch08-p-206" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.11 Seat belt safety.</phrase> The National Highway Traffic Safety Administration reports that in 2013, 9777 occupants of motor vehicles who were wearing a restraint died in motor vehicle accidents and 9580 who were not wearing a restraint died. These numbers suggest that not using a restraining device is safer than using one. The <em>counts</em> aren&#8217;t fully convincing, however. What <em>rates</em> would you like to know to compare the safety of using a restraint with not using one?</p>
+</question>
+<question id="scc9e-ch08-ques-13">
+    <p id="scc9e-ch08-p-207" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.12 Tough course?</phrase> A friend tells you, &#8220;In the 7:30 <phrase block_type="smallcaps">A.M.</phrase> lecture for Statistics 101, 9 students failed, but 20 students failed in the 1:30 <phrase block_type="smallcaps">P.M.</phrase> lecture. The 1:30 <phrase block_type="smallcaps">P.M.</phrase> prof is a tougher grader than the 7:30 <phrase block_type="smallcaps">A.M</phrase>. prof.&#8221; Explain why the conclusion may not be true. What additional information would you need to compare the classes?</p>
+</question>
+<p id="scc9e-ch08-p-208" block_type="page_start" data-margin-content="left">182</p>
+<question id="scc9e-ch08-ques-14">
+<p id="scc9e-ch08-p-209" block_type="CR-X-NL"><image asset-id="scc9e-ch08-img-01" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">8.13 Obesity.</phrase> An article in the June 30, 2010, <em>Columbus Dispatch</em> reported on the prevalence of obesity among adults in the 50 states. Based on information in the article, California has approximately 6.7 million obese adults, and Texas has approximately 5.2 million. On the other hand, Mississippi has a little over 730,000 obese adults. Do these numbers make a convincing case that California and Texas have a more substantial problem with obesity than Mississippi?</p>
+</question>
+<question id="scc9e-ch08-ques-15">
+<p id="scc9e-ch08-p-210" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.14 Capital punishment.</phrase> Between 1977 and 2014, 1394 convicted criminals were put to death in the United States. Here are data on the number of executions in several states during those years, as well as the estimated June 1, 2014, population of these states:</p>
+<table id="scc9e-ch08-untab-03" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<th align="center" block_type="TBN-COLHD">State</th>
+<th align="center" block_type="TBN-COLHD">Population<br/>(thousands)</th>
+<th align="center" block_type="TBN-COLHD">Executions</th>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="TB1-TXT">Alabama</td>
+<td align="char" char="," block_type="TB1-TXT">4,849</td>
+<td align="center" block_type="TB1-TXT">56</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Arkansas</td>
+<td align="char" char="," block_type="TB1-TXT">2,966</td>
+<td align="center" block_type="TB1-TXT">27</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Delaware</td>
+<td align="char" char="," block_type="TB1-TXT">936</td>
+<td align="center" block_type="TB1-TXT">16</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Florida</td>
+<td align="char" char="," block_type="TB1-TXT">19,893</td>
+<td align="center" block_type="TB1-TXT">89</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Indiana</td>
+<td align="char" char="," block_type="TB1-TXT">6,597</td>
+<td align="center" block_type="TB1-TXT">20</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Nevada</td>
+<td align="char" char="," block_type="TB1-TXT">2,839</td>
+<td align="center" block_type="TB1-TXT">12</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Oklahoma</td>
+<td align="char" char="," block_type="TB1-TXT">3,878</td>
+<td align="center" block_type="TB1-TXT">111</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TB1-TXT">Texas</td>
+<td align="char" char="," block_type="TB1-TXT">26,957</td>
+<td align="center" block_type="TB1-TXT">518</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch08-p-211" block_type="CR-X-NL">Texas and Florida are among the leaders in executions. Because these are large states, we might expect them to have many executions. Find the <em>rate</em> of executions for each of the states just listed, in executions per million population. Because population is given in thousands, you can find the rate per million as</p>
+<p id="scc9e-ch08-p-212" block_type="CR-X-NL">rate per million =</p>
+<p id="scc9e-ch08-p-213" block_type="CR-X-NL"><m:math display='block'><m:mrow><m:mfrac><m:mrow><m:mtext>executions</m:mtext></m:mrow><m:mrow><m:mtext>population&#x00A0;in&#x00A0;thousands</m:mtext></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mtext>1000</m:mtext></m:mrow></m:math>
+</p>
+<p id="scc9e-ch08-p-214" block_type="CR-X-NL">Arrange the states in order of the number of executions relative to population. Are Texas and Florida still high by this measure? Does any other state stand out when you examine the rates?</p>
+</question>
+<question id="scc9e-ch08-ques-16">
+<p id="scc9e-ch08-p-215" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.15 Measuring intelligence.</phrase> One way &#8220;intelligence&#8221; can be interpreted is as &#8220;general problem-solving ability.&#8221; Explain why it is <em>not</em> valid to measure intelligence by a test that asks questions such as</p>
+<list id="scc9e-ch08-list-14" type="unordered" block_type="none">
+<li id="scc9e-ch08-li-51"><p id="scc9e-ch08-p-216" block_type="UL-first"><em>Who wrote &#8220;The Star-Spangled Banner&#8221;?</em></p></li>
+<li id="scc9e-ch08-li-52"><p id="scc9e-ch08-p-217" block_type="UL-first"><em>Who won the last soccer World Cup?</em></p></li>
+</list>
+</question>
+<question id="scc9e-ch08-ques-17">
+<p id="scc9e-ch08-p-218" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.16 Measuring life&#8217;s quality.</phrase> Is life in Britain getting better or worse? The usual government data do not measure &#8220;better&#8221; or &#8220;worse&#8221; directly. So the British government announced that it wanted to add measures of such things as housing, traffic, and air pollution. &#8220;The quality of life is not simply economic,&#8221; said a deputy prime minister. Help them out: how would you measure &#8220;traffic&#8221; and its impact on the quality of life?</p>
+</question>
+<question id="scc9e-ch08-ques-18">
+<p id="scc9e-ch08-p-219" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.17 Measuring pain.</phrase> There are 9 million enrollees in the Department of Veterans Affairs health care system. It wants doctors and nurses to treat pain as a &#8220;fifth vital sign&#8221; to be recorded along with blood pressure, pulse, temperature, and breathing rate. Help out the VA: how would you measure a patient&#8217;s pain? [<em>Note</em>: There is not one correct answer for this question.]</p>
+</question>
+<p id="scc9e-ch08-p-220" block_type="page_start" data-margin-content="right">183</p>
+<question id="scc9e-ch08-ques-19">
+<p id="scc9e-ch08-p-221" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.18 Fighting cancer.</phrase> Congress wants the medical establishment to show that progress is being made in fighting cancer. Here are some variables that might be used:</p>
+<list id="scc9e-ch08-list-15" type="ordered" block_type="numbered">
+<li id="scc9e-ch08-li-53"><p id="scc9e-ch08-p-222" block_type="CR-X-NL-lvl2"><phrase block_type="maker">1.</phrase> Total deaths from cancer. These have risen sharply over time, from 331,000 in 1970, to 505,000 in 1990, to 572,000 in 2011.</p></li>
+<li id="scc9e-ch08-li-54"><p id="scc9e-ch08-p-223" block_type="CR-X-NL-lvl2"><phrase block_type="maker">2.</phrase> The percentage of all Americans who die from cancer. The percentage of deaths due to cancer rose steadily, from 17.2&#37; in 1970 to 23.5&#37; in 1990, then leveled off around 23.2&#37; in 2007.</p></li>
+<li id="scc9e-ch08-li-55"><p id="scc9e-ch08-p-224" block_type="CR-X-NL-lvl2"><phrase block_type="maker">3.</phrase> The percentage of cancer patients who survive for five years from the time the disease is discovered. These rates are rising slowly. The five-year survival rate was 50&#37; in the 1975 to 1977 period and 66.5&#37; from 2005 to 2011.</p></li>
+</list>
+<p id="scc9e-ch08-p-225" block_type="CR-X-NL">None of these variables is fully valid as a measure of the effectiveness of cancer treatment. Explain why Variables 1 and 2 could increase even if treatment is getting more effective and why Variable 3 could increase even if treatment is getting less effective.</p>
+</question>
+<question id="scc9e-ch08-ques-20">
+<p id="scc9e-ch08-p-226" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.19 Testing job applicants.</phrase> The law requires that tests given to job applicants must be shown to be directly job related. The Department of Labor believes that an employment test called the General Aptitude Test Battery (GATB) is valid for a broad range of jobs. As in the case of the SAT, blacks and Hispanics get lower average scores on the GATB than do whites. Describe briefly what must be done to establish that the GATB has predictive validity as a measure of future performance on the job.</p>
+</question>
+<question id="scc9e-ch08-ques-21">
+<p id="scc9e-ch08-p-227" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.20 Validity, bias, reliability.</phrase> This winter I went to a local pharmacy to have my weight and blood pressure measured using a sophisticated electronic machine at the front of the store next to the checkout counter. Will the measurement of my weight be biased? Reliable? Valid? Explain your answer.</p>
+</question>
+<question id="scc9e-ch08-ques-22">
+<p id="scc9e-ch08-p-228" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.21 An activity on bias.</phrase> Let&#8217;s study bias in an intuitive measurement. <link href="figure_8_3.html">Figure 8.3</link> is a drawing of a tilted glass. Reproduce this drawing on 10 sheets of paper. Choose 10 people: five men and five women. Explain that the drawing represents a tilted glass of water. Ask each subject to draw the water level when this tilted glass is holding as much water as it can.</p>
+<p id="scc9e-ch08-p-229" block_type="CR-X-NL">The correct level is horizontal (straight back from the lower lip of the glass). Many people make large errors in estimating the level. Use a protractor to measure the angle of each subject&#8217;s error. Were your subjects systematically wrong in the same direction? How large was the average error? Was there a clear difference between the average errors made by men and by women?</p>
+<figure id="scc9e-ch08-fig-03" block_type="FIGURE" data-caption-compass="S" numbered="true" number="8.3" mmtype="image" mmsrc="" attr="">
+<layout align="center" width="medium" border="true"/>
+<image asset-id="scc9e-ch08-img-01" alt="image" src="images/17MOORESCC-MSE_9e_fig_08_03.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 8.3</phrase> <phrase block_type="FG-CAP">A tilted glass, for <link href="exercise_8_21.html">Exercise 8.21</link>. Can you draw the level of water in the glass when it is as full as possible?</phrase></caption>
+</figure>
+</question>
+<p id="scc9e-ch08-p-230" block_type="page_start" data-margin-content="left">184</p>
+<question id="scc9e-ch08-ques-23">
+<p id="scc9e-ch08-p-231" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.22 An activity on bias and reliability.</phrase> Cut five pieces of string having these lengths in inches:</p>
+<p id="scc9e-ch08-p-232" block_type="EQ">2.9&#8195;9.5&#8195;5.7&#8195;4.2&#8195;7.6</p>
+<list id="scc9e-ch08-list-16" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch08-li-56"><p id="scc9e-ch08-p-233" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Show the pieces to another student one at a time, asking the subject to estimate the length to the nearest 10th of an inch by eye. The error your subject makes is measured value minus true value and can be either positive or negative. What is the average of the five errors? Explain why this average would be close to 0 if there were no bias and we used many pieces of string rather than just five.</p></li>
+<li id="scc9e-ch08-li-57"><p id="scc9e-ch08-p-234" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The following day, ask the subject to again estimate the length of each piece of string. (Present them in a different order on the second day.) Explain why the five differences between the first and second guesses would all be 0 if your subject were a perfectly reliable measurer of length. The bigger the differences, the less reliable your subject is. What is the average difference (ignoring whether they are positive or negative) for your subject?</p></li>
+</list>
+</question>
+<question id="scc9e-ch08-ques-24">
+<p id="scc9e-ch08-p-235" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.23 More on bias and reliability.</phrase>  The previous exercise gives five true values for lengths. A subject measures each length twice by eye. Make up a set of results from this activity that matches each of the following descriptions. For simplicity, assume that bias means the same fixed error every time rather than an &#8220;on the average&#8221; error in many measurements.</p>
+<list id="scc9e-ch08-list-17" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch08-li-58"><p id="scc9e-ch08-p-236" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The subject has a bias of 0.5 inch too long and is perfectly reliable.</p></li>
+<li id="scc9e-ch08-li-59"><p id="scc9e-ch08-p-237" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The subject has no bias but is not perfectly reliable, so the average difference in repeated measurements is 0.5 inch.</p></li>
+</list>
+</question>
+<question id="scc9e-ch08-ques-25">
+<p id="scc9e-ch08-p-238" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.24 Even more on bias and reliability.</phrase> <link href="exercise_8_22.html">Exercise 8.22</link> gives five true values for lengths. A subject measures the first length (true length = 2.9 inches) four times by eye. His measurements are</p>
+<p id="scc9e-ch08-p-239" block_type="CR-X-NL">3.0&#8195;2.9&#8195;3.1&#8195;3.0</p>
+<p id="scc9e-ch08-p-240" block_type="CR-X-NL">Suppose his measurements have a bias of &#43;0.1 inch.</p>
+<list id="scc9e-ch08-list-18" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch08-li-60"><p id="scc9e-ch08-p-241" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What are the four random errors for his measurements?</p></li>
+<li id="scc9e-ch08-li-61"><p id="scc9e-ch08-p-242" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What is the variance of his four measurements?</p></li>
+</list>
+</question>
+<question id="scc9e-ch08-ques-26">
+<p id="scc9e-ch08-p-243" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.25 Does job training work?</phrase> To measure the effectiveness of government training programs, it is usual to compare workers&#8217; pay before and after training. But many workers sign up for training when their pay drops or they are laid off. So the &#8220;before&#8221; pay is unusually low, and the pay gain looks large.</p>
+<list id="scc9e-ch08-list-19" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch08-li-62"><p id="scc9e-ch08-p-244" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Is this bias or random error in measuring the effect of training on pay? Why?</p></li>
+<li id="scc9e-ch08-li-63"><p id="scc9e-ch08-p-245" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> How would you measure the success of training programs?</p></li>
+</list>
+</question>
+<question id="scc9e-ch08-ques-27">
+<p id="scc9e-ch08-p-246" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.26 A recipe for poor reliability.</phrase> Every month, the government releases data on &#8220;personal savings.&#8221; This number tells us how many dollars individuals saved the previous month. Savings are calculated by subtracting personal spending (an enormously large number) from personal income (another enormous number). The result is one of the government&#8217;s least reliable statistics.</p>
+<p id="scc9e-ch08-p-247" block_type="CR-X-NL">Give a numerical example to show that small percentage changes in two very large numbers can produce a big percentage change in the difference between those numbers. A variable that is the difference between two big numbers is usually not very reliable.</p>
+</question>
+<p id="scc9e-ch08-p-248" block_type="page_start" data-margin-content="right">185</p>
+<question id="scc9e-ch08-ques-28">
+<p id="scc9e-ch08-p-249" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.27 Measuring crime.</phrase> Crime data make headlines. We measure the amount of crime by the number of crimes committed or (better) by crime rates (crimes per 100,000 population). The FBI publishes data on crime in the United States by compiling crimes reported to police departments. The FBI data are recorded in the Uniform Crime Reporting Program and are based on reports from more than 18,000 law enforcement agencies across the United States. The National Crime Victimization Survey publishes data about crimes based on a national probability sample of about 90,000 households per year. The victim survey shows almost two times as many crimes as the FBI report. Explain why the FBI report has a large downward bias for many types of crime. (Here is a case in which bias in producing data leads to bias in measurement.)</p>
+</question>
+<question id="scc9e-ch08-ques-29">
+<p id="scc9e-ch08-p-250" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.28 Measuring crime.</phrase> Twice each year, the National Crime Victimization Survey asks a random sample of households whether they have been victims of crime and, if so, the details. In all, nearly 160,000 people in about 90,000 households answer these questions per year. If other people in a household are in the room while one person is answering questions, the measurement of, for example, rape and other sexual assaults could be seriously biased. Why? Would the presence of other people lead to overreporting or underreporting of sexual assaults?</p>
+</question>
+<question id="scc9e-ch08-ques-30">
+<p id="scc9e-ch08-p-251" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.29 Measuring pulse rate.</phrase> You want to measure your resting pulse rate. You might count the number of beats in five seconds and multiply by 12 to get beats per minute.</p>
+<list id="scc9e-ch08-list-20" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch08-li-64"><p id="scc9e-ch08-p-252" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Consider counting the number of beats in 15 seconds and multiplying by 4 to get beats per minute. In what way will this improve the reliability of your measurement?</p></li>
+<li id="scc9e-ch08-li-65"><p id="scc9e-ch08-p-253" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Why are the first two measurement methods less reliable than actually measuring the number of beats in a minute?</p></li>
+</list>
+</question>
+<question id="scc9e-ch08-ques-31">
+<p id="scc9e-ch08-p-254" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.30 Testing job applicants.</phrase> A company used to give IQ tests to all job applicants. This is now illegal because IQ is not related to the performance of workers in all the company&#8217;s jobs. Does the reason for the policy change involve the <em>reliability</em>, the <em>bias</em>, or the <em>validity</em> of IQ tests as a measure of future job performance? Explain your answer.</p>
+</question>
+<question id="scc9e-ch08-ques-32">
+<p id="scc9e-ch08-p-255" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.31 The best earphones.</phrase> You are writing an article for a consumer magazine based on a survey of the magazine&#8217;s readers that asked about satisfaction with mid-priced earphones for the iPad and iPhone. Of 1648 readers who reported owning the Apple in-ear headphone with remote and mic, 347 gave it an outstanding rating. Only 69 outstanding ratings were given by the 134 readers who owned Klipsch Image S4i earphones with microphone. Describe an appropriate variable, which can be computed from these counts, to measure high satisfaction with a make of earphone. Compute the values of this variable for the Apple and Klipsch earphones. Which brand has the better high-satisfaction rating?</p>
+</question>
+<p id="scc9e-ch08-p-256" block_type="page_start" data-margin-content="left">186</p>
+<question id="scc9e-ch08-ques-33">
+<p id="scc9e-ch08-p-257" block_type="CR-X-NL"><image asset-id="scc9e-ch08-img-01" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">8.32 Where to work?</phrase> Each year, <em>Forbes</em> magazine ranks the 2000 largest metropolitan areas in the United States in an article on the best places for businesses and careers. First place in 2014 went to Raleigh, North Carolina. Raleigh was ranked third in 2013. Second place in 2014 went to Des Moines, Iowa. Des Moines was ranked first in 2013. Anchorage, Alaska, was ranked 53rd in 2014 but was ranked 18th in 2013! Are these facts evidence that <em>Forbes</em>&#8217;s ratings are invalid, biased, or unreliable? Explain your choice.</p>
+</question>
+<question id="scc9e-ch08-ques-34">
+<p id="scc9e-ch08-p-258" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.33 Validity, bias, reliability.</phrase> Give your own example of a measurement process that is valid but has large bias. Then give your own example of a measurement process that is invalid but highly reliable.</p>
+</question>
+<box id="scc9e-ch08-box-26" numbered="false" block_type="exploring-web">
+<p id="scc9e-ch08-p-259" block_type="QRL icon"><image asset-id="scc9e-ch08-img-01" alt="image" src="images/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch08-p-260" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
+<p id="scc9e-ch08-p-261" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
+</box>
+</section>
+</chapter>
+</manuscript>
