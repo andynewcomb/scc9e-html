@@ -103,7 +103,7 @@ var suppwins_Player_subtype = Player_subtype.extend({
             var supp_win = fignum.replace(/.*0?(\d+)_0?(\d+)\.jpg/, "../../../ch$1/supp_wins/figures/figure_$1_$2.html");
             pop_content(supp_win, "1015px", "700px");
         });
-        // add link on the figure image (sometimes img is not inside "compass"... occurs when caption in default place under figure)
+        // add link on the figure image 
         $('[data-caption-compass]  > img').click(function () {
             var fignum = $(this).attr('src').replace(/fig_([\d_]+)/i, "$1");
             var supp_win = fignum.replace(/.*0?(\d+)_0?(\d+)\.jpg/, "../../../ch$1/supp_wins/figures/figure_$1_$2.html");
@@ -115,13 +115,13 @@ var suppwins_Player_subtype = Player_subtype.extend({
             var supp_win = fignum.replace(/(\d+)\.(\d+)/, "../../../ch$1/supp_wins/figures/figure_$1_$2.html");
             pop_content(supp_win, "1015px", "700px");
         });
-        //UNNUMBERED FIGURE LINKS
+        //UNNUMBERED FIGURE IMAGE LINKS
         // add link on the figure image
-        $('[data-type="figure"][data-block_type]!="FIGURE"] img').click(function () {
-            var filename = $(this).parent().attr("data-filename");
-            var supp_win = filename.replace(/(.*0?(\d+)_0?\d+\.html)/, "../../../ch$2/supp_wins/figures/$1");
-            pop_content(supp_win, "1015px", "700px");
-        });
+        //$('[data-type="figure"][data-block_type="UN-FIGURE"] img').click(function () {
+        //    var filename = $(this).parent().attr("data-filename");
+        //    var supp_win = filename.replace(/(.*0?(\d+)_0?\d+\.html)/, "../../../ch$2/supp_wins/figures/$1");
+        //    pop_content(supp_win, "1015px", "700px");
+        //});
 
          } else {
              // place caption above figure image in number figure supplemental windows
