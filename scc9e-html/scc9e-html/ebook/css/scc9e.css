@@ -10,6 +10,7 @@ body {
   margin-right: auto;
   position: relative;
   width: 985px;
+  padding-top: 50px;
 }
 div[data-type="section"] {
   margin-left: auto;
