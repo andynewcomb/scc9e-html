@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manuscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML" manuscript-id="10" name="" title="Moore_Chapter_10" xsi:noNamespaceSchemaLocation="xsd/digfir_manuscript.xsd">
-<chapter id="scc9e-ch10" number="10" title="Chapter 10: Graphs, Good and Bad" start-numbering-at="213" numbered="true">
+<chapter id="scc9e-ch10" number="10" title="Chapter 10: Graphs, Good and Bad" start-numbering-at="10" numbered="true">
 <section id="scc9e-ch10-sec-01" block_type="part_intro" title="PART 2" numbered="false" level="1" print_page="213">
 <section-metadata><section-title>PART II</section-title></section-metadata>
 <figure id="scc9e-ch10-unfig-01" block_type="part_opener" numbered="false" mmtype="image" mmsrc="" attr="">
 <layout align="right" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-01" alt="image" src="images/17MOORESCC-MSE_9e_PO02.jpg"/>
+<image asset-id="scc9e-ch10-img-01" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_PO02.jpg"/>
 <asset_source><phrase block_type="PO-PH-CL">iStockphoto/Thinkstock</phrase></asset_source>
 </figure>
 <p id="scc9e_page_213" block_type="page_start" data-margin-content="right">213</p>
@@ -19,7 +17,7 @@
 <p id="scc9e_page_215" block_type="page_start" data-margin-content="right">215</p>
 <figure id="scc9e-ch10-unfig-02" block_type="CO-PH-CL" numbered="false" mmtype="image" mmsrc="" attr="">
 <layout align="right" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-02" alt="image" src="images/17MOORESCC-MSE_9e_CO10.jpg"/>
+<image asset-id="scc9e-ch10-img-02" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_CO10.jpg"/>
 <asset_source><phrase block_type="PH-CL">Monkey Business Images/Shutterstock Images LLC</phrase></asset_source>
 </figure>
 <box id="scc9e-ch10-box-01" numbered="false" block_type="BX4-H-ri">
@@ -31,12 +29,12 @@
 <section-metadata><section-title><strong>Data tables</strong></section-title></section-metadata>
 <p id="scc9e-ch10-p-09" block_type="TXT-ni">Take a look at the <em>Statistical Abstract of the United States</em>, an annual volume packed with almost every variety of numerical information. Has the number of private elementary and secondary schools grown over time? What about minority enrollments in these schools? How many college degrees were given in each of the past several years, and how were these degrees divided among fields of study and by the age, race, and sex of the students? You can find all this and more in the education section of the <em>Statistical Abstract</em>. The tables <em>summarize</em> data. We don&#8217;t want to see information on every college degree individually, only the counts in categories of interest to us.</p>
 <p id="scc9e_page_216" block_type="page_start" data-margin-content="left">216</p>
-<figure id="scc9e-ch10-fig-01" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.1" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-01" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.1" mmtype="image" mmsrc="" attr="" data-filename="figure_10_1.html">
 <layout align="center" width="large" border="false"/>
-<image asset-id="scc9e-ch10-img-03" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_01.jpg"/>
+<image asset-id="scc9e-ch10-img-03" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_01.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.1</phrase> <phrase block_type="FG-CAP">Top five causes of death compared across four age categories. (<link href="http://www.cdc.gov/nchs/data/databriefs/db115.htm">http://www.cdc.gov/nchs/data/databriefs/db115.htm</link>)</phrase></caption>
 </figure>
-<box id="scc9e-ch10-box-02" numbered="false" block_type="EXP">
+<box id="scc9e-ch10-box-02" numbered="false" block_type="EXP" data-filename="example_10_1.html">
 <p id="scc9e-ch10-p-10" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 1</phrase> What makes a clear table?</p>
 <p id="scc9e-ch10-p-11" block_type="EXP-first">How well educated are adults? <link href="table_10_1.html">Table 10.1</link> presents the data for people aged 25 years and over. This table illustrates some good practices for data tables. It is clearly <em>labeled</em> so that we can see the subject of the data at once. The main heading describes the general subject of the data and gives the date because these data will change over time. Labels within the table identify the variables and state the <em>units</em> in which they are measured. Notice, for example, that the counts are in thousands. The <em>source</em> of the data appears at the foot of the table. This Census Bureau publication in fact presents data from our old friend, the Current Population Survey.</p>
 </box>
@@ -94,7 +92,7 @@
 <p id="scc9e-ch10-p-13" block_type="BX1-T">Distribution of a variable</p>
 <p id="scc9e-ch10-p-14" block_type="BX1-TXT-ni">The <strong>distribution</strong> of a variable tells us what values it takes and how often it takes these values.</p>
 </box>
-<box id="scc9e-ch10-box-04" numbered="false" block_type="EXP">
+<box id="scc9e-ch10-box-04" numbered="false" block_type="EXP" data-filename="example_10_2.html">
 <p id="scc9e-ch10-p-15" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> Roundoff errors</p>
 <p id="scc9e-ch10-p-16" block_type="EXP-first">Did you check <link href="table_10_1.html">Table 10.1</link> for consistency? The total number of people should be</p>
 <p id="scc9e-ch10-p-17" block_type="EXP-EQ">26,458 &#43; 62,240 &#43; 34,919 &#43; 20,790 &#43; 42,256 &#43; 24,623 = 209,286 (thousands)</p>
@@ -116,34 +114,34 @@
 <section-metadata><section-title><strong>Pie charts and bar graphs</strong></section-title></section-metadata>
 <p id="scc9e-ch10-p-24" block_type="TXT-ni">The variable displayed in <link href="table_10_1.html">Table 10.1</link>, &#8220;level of education,&#8217;&#8217; is a categorical variable. There are six possible values of the variable. To picture this distribution in a graph, we might use a <strong>pie chart</strong>. <link href="figure_10_2.html">Figure 10.2</link> is a pie chart of the level of education of people aged 25 years and over. Pie charts show how a whole is divided into parts. To make a pie chart, first draw a circle. The circle represents the whole, in this case all people aged 25 years and over. Wedges within the circle represent the parts, with the angle spanned by each wedge in proportion to the size of that part. For example, 20.2&#37; of those in this age group and over have a bachelor&#8217;s degree but not an advanced degree. Because there are 360 degrees in a circle, the &#8220;bachelor&#8217;s degree&#8217;&#8217; wedge spans an angle of</p>
 <p id="scc9e-ch10-p-25" block_type="EQ">0.202 &#215; 360 = 72.72 degrees</p>
-<figure id="scc9e-ch10-fig-02" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.2" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-02" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.2" mmtype="image" mmsrc="" attr="" data-filename="figure_10_2.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-04" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_02.jpg"/>
+<image asset-id="scc9e-ch10-img-04" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_02.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.2</phrase> <phrase block_type="FG-CAP">Pie chart of the distribution of level of education among persons aged 25 years and over in 2014.</phrase></caption>
 </figure>
 <p id="scc9e_page_219" block_type="page_start" data-margin-content="right">219</p>
 <p id="scc9e-ch10-p-26" block_type="TXT">Pie charts force us to see that the parts do make a whole. However, it is much easier for our eyes to compare the heights of the bars on a bar graph than it is to compare the size of the angles on a pie chart.</p>
 <p id="scc9e-ch10-p-27" block_type="TXT"><link href="figure_10_3.html">Figure 10.3</link> is a <strong>bar graph</strong> of the same data. There is a single bar for each education level. The height of each bar shows the percentage of people aged 25 years and over who have attained that level of education. Notice that each bar has the same width&#8212;this is always the case with a bar graph. Also, there is a space between the bars. It is obvious on either the pie chart or bar graph that the largest category is &#8220;High school graduate.&#8217;&#8217; However, smaller differences are much more subtle on a pie chart. It is very clear on the bar graph that &#8220;Bachelor&#8217;s degree&#8217;&#8217; is the second largest category. This is not as clear on the pie chart. Bar graphs are better for making comparisons of the sizes of categories. In addition, if there is a natural ordering of the variable, such as how much education a person has, this order can be displayed along the horizontal axis of the bar graph but cannot be displayed in an obvious way in a pie chart.</p>
-<figure id="scc9e-ch10-fig-03" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.3" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-03" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.3" mmtype="image" mmsrc="" attr="" data-filename="figure_10_3.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-05" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_03.jpg"/>
+<image asset-id="scc9e-ch10-img-05" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_03.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.3</phrase> <phrase block_type="FG-CAP">Bar graph of the distribution of level of education among persons aged 25 years and over in 2014.</phrase></caption>
 </figure>
 <p id="scc9e_page_220" block_type="page_start" data-margin-content="left">220</p>
 <p id="scc9e-ch10-p-28" block_type="TXT">Pie charts and bar graphs can show the distribution (either counts or percentages) of a categorical variable such as level of education. A pie chart usually displays the percentage for each category (rather than the count) and only works if you have all the categories (the percentages add to 100). A bar graph can display an entire distribution or can be used to display only a few categories. A bar graph can also compare the size of categories that are not parts of one whole. If you have one number to represent each category, you can use a bar graph.</p>
-<box id="scc9e-ch10-box-06" numbered="false" block_type="EXP">
+<box id="scc9e-ch10-box-06" numbered="false" block_type="EXP" data-filename="example_10_3.html">
 <p id="scc9e-ch10-p-29" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> High taxes?</p>
 <p id="scc9e-ch10-p-30" block_type="EXP-first"><link href="figure_10_4.html">Figure 10.4</link> compares the level of taxation in eight democratic nations. Each democratic nation is a category and each category is described by one value, so a bar graph is a good choice for a graphical display of these data. The heights of the bars show the percentages of each nation&#8217;s gross domestic product (GDP, the total value of all goods and services produced) that is taken in taxes. Americans accustomed to complaining about high taxes may be surprised to see that the United States, at 25.4&#37; of GDP, is at the bottom of the group. Notice that a pie chart is not possible for these data because we are displaying eight separate quantities, not the parts of a whole.</p>
 </box>
-<figure id="scc9e-ch10-fig-04" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.4" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-04" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.4" mmtype="image" mmsrc="" attr="" data-filename="figure_10_4.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-06" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_04.jpg"/>
+<image asset-id="scc9e-ch10-img-06" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_04.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.4</phrase> <phrase block_type="FG-CAP">Total tax revenue as a percentage of GDP in eight countries that are part of the OECD, <link href="example_10_3.html">Example 3</link>. (Data from the Organization for Economic Cooperation and Development, <link href="http://stats.oecd.org/index.aspx">http://stats.oecd.org/index.aspx</link>)</phrase></caption>
 </figure>
 <p id="scc9e_page_221" block_type="page_start" data-margin-content="right">221</p>
 <box id="scc9e-ch10-box-07" numbered="false" block_type="BX2">
 <p id="scc9e-ch10-p-31" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch10-ques-01">
+<question id="scc9e-ch10-ques-01" block_type="exercise_10_1.html">
 <p id="scc9e-ch10-p-32" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">10.1 Taxes.</phrase> There are currently seven states in the United States that do not collect income tax. The accompanying table contains the combined state and average local sales tax in 2014 for these seven states as computed by the Tax Foundation.</p>
 <table id="scc9e-ch10-untab-01" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
@@ -183,29 +181,29 @@
 <p id="scc9e-ch10-p-33" block_type="BX2-QUE_Txt">Is the variable &#8220;state&#8217;&#8217; categorical or quantitative? Should you use a pie chart or a bar graph to display the state and average local sales tax for these states? Why?</p>
 </question>
 </box>
-<box id="scc9e-ch10-box-08" numbered="false" block_type="EXP">
+<box id="scc9e-ch10-box-08" numbered="false" block_type="EXP" data-filename="example_10_4.html">
 <p id="scc9e-ch10-p-34" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> Government tax revenue breakdown</p>
 <p id="scc9e-ch10-p-35" block_type="EXP-first">Governments generate tax revenue through various means. In its 2014 report, the Tax Foundation analyzed data for 2011 from the Organisation for Economic Co-operation and Development (OECD). The United States&#8217; tax revenue comprises individual income tax (37.1&#37;), social insurance tax (22.8&#37;), consumption tax (18.3&#37;), property tax (12.4&#37;), and corporate income tax (9.4&#37;). A bar graph is appropriate to display these data because we have one value to explain the size of each tax category. Notice, a pie graph is appropriate as well, because these are all the parts of a whole. What if we wanted to compare the distribution of tax revenue for the United States to the average for all the other OECD countries? Pie charts are not good for comparisons. <link href="figure_10_5.html">Figure 10.5</link> is a bar graph for the distribution of government tax revenue for the United States with a second set of bars representing the average for all other OECD nations adjacent to the bars for the United States. This is called a side-by-side bar graph. A side-by-side bar graph is useful for making comparisons. It is now clear that the United States relies more heavily on individual income tax, while the other countries rely more heavily on consumption taxes.</p>
 </box>
 <p id="scc9e_page_222" block_type="page_start" data-margin-content="left">222</p>
-<figure id="scc9e-ch10-fig-05" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.5" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-05" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.5" mmtype="image" mmsrc="" attr="" data-filename="figure_10_5.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-07" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_05.jpg"/>
+<image asset-id="scc9e-ch10-img-07" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_05.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.5</phrase> <phrase block_type="FG-CAP">Side-by-side bar graph comparing the distribution for sources of government tax revenue in 2011 for the United States to the average of all other countries belonging to the Organisation for Economic Co-operation and Development. (<link href="http://taxfoundation.org/article/sources-government-revenue-oecd-2014">http://taxfoundation.org/article/sources-government-revenue-oecd-2014</link>)</phrase></caption>
 </figure>
 </section>
 <section id="scc9e-ch10-sec-06" block_type="h1" chapter="ch10" numbered="false" level="1" print_page="222">
 <section-metadata><section-title><strong>Beware the pictogram</strong></section-title></section-metadata>
 <p id="scc9e-ch10-p-36" block_type="TXT-ni">Bar graphs compare several quantities by means of the differing heights of bars that represent the quantities. Our eyes, however, react to the <em>area</em> of the bars as well as to their height. When all bars have the same width, the area (width &#215; height) varies in proportion to the height and our eyes receive the right impression. When you draw a bar graph, make the bars equally wide. Artistically speaking, bar graphs are a bit dull. It is tempting to replace the bars with pictures for greater eye appeal.</p>
-<box id="scc9e-ch10-box-09" numbered="false" block_type="EXP">
+<box id="scc9e-ch10-box-09" numbered="false" block_type="EXP" data-filename="example_10_5.html">
 <p id="scc9e-ch10-p-37" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 5</phrase> A misleading graph</p>
 <p id="scc9e-ch10-p-38" block_type="EXP-first"><link href="figure_10_6.html">Figure 10.6</link> is a <strong>pictogram</strong>. It is a bar graph in which pictures replace the bars. The graph is aimed at consumers shopping for a vacuum. It claims that a Dyson vacuum has more than twice the suction of any other vacuum. The numbers above the vacuums show the calculated air watts for three vacuums. We see the Dyson vacuum (far right) has roughly four times the air watts (160 is roughly 4 times 43) of the vacuum on the far left. However, this graphic makes it appear as though there is a much larger difference. Why is this?</p>
 <p id="scc9e-ch10-p-39" block_type="EXP-mid">To magnify a picture, the artist must increase <em>both</em> height and width to avoid distortion of the image. By increasing both the height and width of the Dyson vacuum, it appears to be 4 &#215; 4 = 16 times larger. Remember a bar graph should have bars of equal width&#8212;only the heights of the bars should vary. Replacing the bars on a bar graph with pictures is tempting, but it is difficult to keep the &#8220;bar&#8221; width equal without distorting the picture.</p>
 </box>
 <p id="scc9e_page_223" block_type="page_start" data-margin-content="right">223</p>
-<figure id="scc9e-ch10-fig-06" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.6" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-06" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.6" mmtype="image" mmsrc="" attr="" data-filename="figure_10_6.html">
 <layout align="right" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-08" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_06.jpg"/>
+<image asset-id="scc9e-ch10-img-08" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_06.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.6</phrase> <phrase block_type="FG-CAP">Advertisement found on Dyson&#8217;s website for vacuum cleaners claiming a Dyson vacuum has more than twice the suction of any other vacuum, <link href="example_10_5.html">Example 5</link>. (<link href="http://www.dyson.com/United States.aspx">http://www.dyson.com/United States.aspx</link>)</phrase></caption>
 </figure>
 </section>
@@ -217,24 +215,24 @@
 <p id="scc9e-ch10-p-42" block_type="BX1-TXT-ni">A <strong>line graph</strong> of a quantitative variable plots each observation against the time at which it was measured. Always put time on the horizontal scale of your plot and the variable you are measuring on the vertical scale. Connect the data points by lines to display the change over time.</p>
 </box>
 <p id="scc9e-ch10-p-43" block_type="TXT">When constructing a line graph, make sure to use equally spaced time intervals on the horizontal axis to avoid distortion. Line graphs can also be used to show how a quantitative variable changes over time, broken down according to some other categorical variable. Use a separate line for each category.</p>
-<box id="scc9e-ch10-box-11" numbered="false" block_type="EXP">
+<box id="scc9e-ch10-box-11" numbered="false" block_type="EXP" data-filename="example_10_6.html">
 <p id="scc9e-ch10-p-44" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 6</phrase> Unemployment by education level</p>
 <p id="scc9e-ch10-p-45" block_type="EXP-first">How has unemployment changed over time? <link href="figure_10_7.html">Figure 10.7</link> is a line graph of the monthly national unemployment rate, by education level, for the United States from October 2008 through October 2014. For example, the unemployment rate for October 2009 was 15.2&#37; for those with less than a high school diploma, 11&#37; for those with a high school diploma, 8.7&#37; for those with some college, and 4.7&#37; for those with a bachelor&#8217;s degree or higher.</p>
-<figure id="scc9e-ch10-unfig-03" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-unfig-03" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="10_17MOORESCC-MSE_9e_P_10_01.html">
 <layout align="right" width="small" border="false"/>
-<image asset-id="scc9e-ch10-img-09" alt="image" src="images/17MOORESCC-MSE_9e_P_10_01.jpg"/>
+<image asset-id="scc9e-ch10-img-09" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_P_10_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">AP Photo/Stephan Savoia</phrase></asset_source>
 </figure>
 </box>
 <p id="scc9e_page_224" block_type="page_start" data-margin-content="left">224</p>
-<figure id="scc9e-ch10-fig-07" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.7" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-07" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.7" mmtype="image" mmsrc="" attr="" data-filename="figure_10_7.html">
 <layout align="center" width="large" border="false"/>
-<image asset-id="scc9e-ch10-img-10" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_07.jpg"/>
+<image asset-id="scc9e-ch10-img-10" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_07.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.7</phrase> <phrase block_type="FG-CAP">Monthly unemployment rate for four education categories from October 2008 through October 2014 reported by the Bureau of Labor Statistics. (<link href="http://www.bls.gov/opub/ted/2014/ted&#95;20141112.htm">http://www.bls.gov/opub/ted/2014/ted&#95;20141112.htm</link>)</phrase></caption>
 </figure>
 <p id="scc9e-ch10-p-46" block_type="TXT">It would be difficult to see patterns in a long table of numbers. <link href="figure_10_7.html">Figure 10.7</link> makes the patterns clear. What should we look for?</p>
 <box id="scc9e-ch10-box-12" numbered="false" block_type="margin-statistics">
-<p id="scc9e-ch10-p-50" block_type="MN-TXT"><image asset-id="scc9e-ch10-img-11" alt="image" src="images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">The Vietnam effect</phrase> Folklore says that during the Vietnam War, many men went to college to avoid being drafted. Statistician Howard Wainer looked for traces of this ``Vietnam effect&#8217;&#8217; by plotting data against time. He found that scores on the Armed Forces Qualifying Test (an IQ test given to recruits) dipped sharply during the war, then rebounded. Scores on the SAT exams, taken by students applying to college, also dropped at the beginning of the war. It appears that the men who chose college over the army lowered the average test scores in both places.</p>
+<p id="scc9e-ch10-p-50" block_type="MN-TXT"><image asset-id="scc9e-ch10-img-11" alt="image" src="asset/global_images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">The Vietnam effect</phrase> Folklore says that during the Vietnam War, many men went to college to avoid being drafted. Statistician Howard Wainer looked for traces of this ``Vietnam effect&#8217;&#8217; by plotting data against time. He found that scores on the Armed Forces Qualifying Test (an IQ test given to recruits) dipped sharply during the war, then rebounded. Scores on the SAT exams, taken by students applying to college, also dropped at the beginning of the war. It appears that the men who chose college over the army lowered the average test scores in both places.</p>
 </box>
 <list id="scc9e-ch10-list-01" type="unordered" block_type="bluebullet">
 <li id="scc9e-ch10-li-01"><p id="scc9e-ch10-p-47" block_type="BL-first"><phrase block_type="maker">&#8226;</phrase> First, look for an <strong>overall pattern</strong>. For example, a <strong>trend</strong> is a long-term upward or downward movement over time. Unemployment was at its highest for all education groups in 2009 and 2010, due to the Great Recession. Since then, the overall trend is showing a decrease in the unemployment rate for all education levels (each line is generally decreasing).</p></li>
@@ -250,11 +248,11 @@
 <p id="scc9e-ch10-p-53" block_type="TXT">The line graph of <link href="figure_10_7.html">Figure 10.7</link> shows the unemployment rate for four different education levels. A line graph may have only one line or more than one, as was the case in <link href="figure_10_7.html">Figure 10.7</link>. Picturing the unemployment rate for all four groups over this time period gives an additional message. We see that unemployment is always lower with more education&#8212;a strong argument for a college education! Also, the increase in unemployment was much more drastic during the Great Recession for the lower education levels. It appears that the unemployment rate is much more stable for those with higher education levels and much more variable for those with lower education levels.</p>
 <box id="scc9e-ch10-box-14" numbered="false" block_type="BX2">
 <p id="scc9e-ch10-p-54" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch10-ques-02">
+<question id="scc9e-ch10-ques-02" block_type="exercise_10_2.html">
 <p id="scc9e-ch10-p-55" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">10.2 Food stamp participation.</phrase> The Supplemental Nutrition Assistance Program (SNAP), formerly know as the Food Stamp Program, is a federal program that provides money to be spent on food to eligible low-income individuals and families. The following table gives the percent of the population receiving benefits.</p>
-<figure id="scc9e-ch10-unfig-04" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-unfig-04" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="10_17MOORESCC-MSE_9e_P_10_02.html">
 <layout align="right" width="small" border="false"/>
-<image asset-id="scc9e-ch10-img-12" alt="image" src="images/17MOORESCC-MSE_9e_P_10_02.jpg"/>
+<image asset-id="scc9e-ch10-img-12" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_P_10_02.jpg"/>
 <asset_source><phrase block_type="PH-CL">SNAP-ED/USDA</phrase></asset_source>
 </figure>
 <table id="scc9e-ch10-untab-02" numbered="false" block_type="UN-TABLE" attr="100">
@@ -346,7 +344,7 @@
 <section id="scc9e-ch10-sec-08" block_type="h1" chapter="ch10" numbered="false" level="1" print_page="226">
 <section-metadata><section-title><strong>Watch those scales!</strong></section-title></section-metadata>
 <p id="scc9e-ch10-p-57" block_type="TXT-ni">Because graphs speak so strongly, they can mislead the unwary. The careful reader of a line graph looks closely at the <em>scales</em> marked off on the axes.</p>
-<box id="scc9e-ch10-box-15" numbered="false" block_type="EXP">
+<box id="scc9e-ch10-box-15" numbered="false" block_type="EXP" data-filename="example_10_7.html">
 <p id="scc9e-ch10-p-58" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 7</phrase> Living together</p>
 <p id="scc9e-ch10-p-59" block_type="EXP-first">The number of unmarried couples living together has increased in recent years, to the point that some people say that cohabitation is delaying or even replacing marriage. <link href="figure_10_8.html">Figure 10.8</link> presents two line graphs of the number of unmarried-couple households in the United States. The data once again come from the Current Population Survey. The graph on the left suggests a steady but moderate increase. The right-hand graph says that cohabitation is thundering upward.</p>
 <p id="scc9e-ch10-p-60" block_type="EXP-mid">The secret is in the scales. You can transform the left-hand graph into the right-hand graph by stretching the vertical scale, squeezing the horizontal scale, and cutting off the vertical scale just above and below the values to be plotted. Now you know how to either exaggerate or play down a trend in a line graph.</p>
@@ -354,24 +352,24 @@
 </box>
 <p id="scc9e-ch10-p-62" block_type="TXT">Another important issue concerning scales is the following. When examining the change in the price or value of an item over time, plotting the actual increase can be misleading. It is often better to plot the percentage increase from the previous period.</p>
 <p id="scc9e_page_227" block_type="page_start" data-margin-content="right">227</p>
-<figure id="scc9e-ch10-fig-08" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.8" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-08" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.8" mmtype="image" mmsrc="" attr="" data-filename="figure_10_8.html">
 <layout align="center" width="large" border="false"/>
-<image asset-id="scc9e-ch10-img-13" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_08.jpg"/>
+<image asset-id="scc9e-ch10-img-13" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_08.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.8</phrase> <phrase block_type="FG-CAP">The effect of changing the scales in a line graph, <link href="example_10_7.html">Example 7</link>. Both graphs plot the same data, but the right-hand graph makes the increase appear much more rapid.</phrase></caption>
 </figure>
-<box id="scc9e-ch10-box-16" numbered="false" block_type="EXP">
+<box id="scc9e-ch10-box-16" numbered="false" block_type="EXP" data-filename="example_10_8.html">
 <p id="scc9e-ch10-p-63" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 8</phrase> Getting rich in hindsight</p>
 <p id="scc9e-ch10-p-64" block_type="EXP-first">The end of the twentieth century saw a great bull market (a period when the value of stocks rises) in U.S. common stocks. How great? Pictures tell the tale more clearly than words.</p>
 <p id="scc9e-ch10-p-65" block_type="EXP-mid">Look first at <link href="figure_10_9.html">Figure 10.9</link>. This shows the percentage increase or decrease in stocks (measured by the Standard &#38; Poor&#8217;s 500 index) in each year from 1971 to 2011. Until 1982, stock prices bounce up and down. Sometimes they go down a lot&#8212;stocks lost 14.7&#37; of their value in 1973 and another 26.5&#37; in 1974. But starting in 1982, stocks go up in 17 of the next 18 years, often by a lot. From 2000 to 2009 stocks again bounce up and down, with a large loss of 37&#37; in the recession that began in 2008.</p>
 <p id="scc9e_page_228" block_type="page_start" data-margin-content="left">228</p>
-<figure id="scc9e-ch10-fig-09" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.9" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-09" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.9" mmtype="image" mmsrc="" attr="" data-filename="figure_10_9.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-14" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_09.jpg"/>
+<image asset-id="scc9e-ch10-img-14" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_09.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.9</phrase> <phrase block_type="FG-CAP">Percentage increase or decrease in the S&#38;P 500 index of common stock prices, 1971 to 2011, <link href="example_10_8.html">Example 8</link>.</phrase></caption>
 </figure>
-<figure id="scc9e-ch10-fig-10" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.10" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-10" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.10" mmtype="image" mmsrc="" attr="" data-filename="figure_10_10.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-15" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_10.jpg"/>
+<image asset-id="scc9e-ch10-img-15" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_10.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.10</phrase> <phrase block_type="FG-CAP">Value at the end of each year, 1971 to 2011, of &#36;1000 invested in the S&#38;P 500 index at the end of 1970, <link href="example_10_8.html">Example 8</link>.</phrase></caption>
 </figure>
 <p id="scc9e-ch10-p-66" block_type="EXP-mid"><link href="figure_10_10.html">Figure 10.10</link> shows, in hindsight, how you could have become rich in the period from 1971 to 2011. If you had invested &#36;1000 in stocks at the end of 1970, the graph shows how much money you would have had at the end of each of the following years. After 1974, your &#36;1000 was down to &#36;853, and at the end of 1981, it had grown to only &#36;2145. That&#8217;s an increase of only 7.2&#37; a year. Your money would have grown faster in a bank during these years. Then the great bull market begins its work. By the end of 2011, it would have turned your &#36;1000 into &#36;36,108. Unfortunately, over the next 10 years as a whole, stocks lost value, and by the end of 2009, your &#36;36,108 would have declined to &#36;32,818.</p>
@@ -389,23 +387,23 @@
 <li id="scc9e-ch10-li-06"><p id="scc9e-ch10-p-72" block_type="BL-last"><phrase block_type="maker">&#8226;</phrase> <strong>Pay attention to what the eye sees.</strong> Avoid pictograms and be careful choosing scales. Avoid fancy &#8220;three-dimensional&#8217;&#8217; effects that confuse the eye without adding information. Ask if a simple change in a graph would make the message clearer.</p></li>
 </list>
 <p id="scc9e_page_230" block_type="page_start" data-margin-content="left">230</p>
-<figure id="scc9e-ch10-fig-11" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.11" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-11" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.11" mmtype="image" mmsrc="" attr="" data-filename="figure_10_11.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-16" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_11.jpg"/>
+<image asset-id="scc9e-ch10-img-16" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_11.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.11</phrase> <phrase block_type="FG-CAP">Chart junk: this graph is so cluttered with unnecessary ink that it is hard to see the data, <link href="example_10_9.html">Example 9</link>.</phrase></caption>
 </figure>
-<box id="scc9e-ch10-box-18" numbered="false" block_type="EXP">
+<box id="scc9e-ch10-box-18" numbered="false" block_type="EXP" data-filename="example_10_9.html">
 <p id="scc9e-ch10-p-73" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 9</phrase> The rise in college education</p>
 <p id="scc9e-ch10-p-74" block_type="EXP-first"><link href="figure_10_11.html">Figure 10.11</link> shows the rise in the percentage of women aged 25 years and over who have at least a bachelor&#8217;s degree. There are only five data points, so a line graph should be simple. <link href="figure_10_11.html">Figure 10.11</link> isn&#8217;t simple. The artist couldn&#8217;t resist a nice background sketch and also cluttered the graph with grid lines. We find it harder than it should be to see the data. Using pictures of the female graduate at each time point distorts the values in the same way as a pictogram. Grid lines on a graph serve no purpose&#8212;if your audience must know the actual numbers, give them a table along with the graph. A good graph uses no more ink than is needed to present the data clearly. In statistical graphics, decoration is always a distraction from the data, and sometimes an actual distortion of the data.</p>
 </box>
-<box id="scc9e-ch10-box-19" numbered="false" block_type="EXP">
+<box id="scc9e-ch10-box-19" numbered="false" block_type="EXP" data-filename="example_10_10.html">
 <p id="scc9e-ch10-p-75" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 10</phrase> High taxes, reconsidered</p>
 <p id="scc9e-ch10-p-76" block_type="EXP-first"><link href="figure_10_4.html">Figure 10.4</link> is a respectable bar graph comparing taxes as a percentage of gross domestic product in eight countries. The countries are arranged alphabetically. Wouldn&#8217;t it be clearer to arrange them in order of their tax burdens? <link href="figure_10_12.html">Figure 10.12</link> does this. This simple change improves the graph by making it clearer where each country stands in the group of eight countries. <link href="figure_10_12.html">Figure 10.12</link> also demonstrates the ability to display a bar graph horizontally.</p>
 </box>
 <p id="scc9e_page_231" block_type="page_start" data-margin-content="right">231</p>
-<figure id="scc9e-ch10-fig-12" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.12" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-12" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.12" mmtype="image" mmsrc="" attr="" data-filename="figure_10_12.html">
 <layout align="center" width="large" border="false"/>
-<image asset-id="scc9e-ch10-img-17" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_12.jpg"/>
+<image asset-id="scc9e-ch10-img-17" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_12.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.12</phrase> <phrase block_type="FG-CAP">Total U.S. government tax revenue as a percentage of the GDP for eight countries who are part of the OECD, <link href="example_10_10.html">Example 10</link>. Changing the order of the bars has improved the graph in <link href="figure_10_4.html">Figure 10.4</link>. (<link href="http://stats.oecd.org/index.aspx">http://stats.oecd.org/index.aspx</link>)</phrase></caption>
 </figure>
 </section>
@@ -423,13 +421,13 @@
 </li>
 <li id="scc9e-ch10-li-13"><p id="scc9e-ch10-p-84" block_type="SUM-BL-last"><phrase block_type="maker">&#8226;</phrase> Graphs can mislead the eye. Avoid <strong>pictograms</strong> that replace the bars of a bar graph by pictures whose height and width both change. Look at the scales of a line graph to see if they have been stretched or squeezed to create a particular impression. Avoid clutter that makes the data hard to see.</p></li>
 </list>
-<p id="scc9e-ch10-p-85" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch10-img-18" alt="image" src="images/LinkIt.jpg"/> In reasoning from data to a conclusion, where the data come from is important. We studied this in <link href="scc9e-ch01.xml">Chapters 1</link> through <link href="scc9e-ch09.xml">9</link>. Once we have the data, and are satisfied that they were produced appropriately, we can begin to determine what the data tell us. Tables and graphs help us do this. In this chapter, we learned some basic methods for displaying data with tables and graphs. We learned what information these graphics provide. An important type of information is the distribution of the data&#8212;the values that occur and how often they occur. The concept of the distribution of data or the distribution of a variable is a fundamental way that statisticians think about data. We will encounter it again and again in future chapters.</p>
+<p id="scc9e-ch10-p-85" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch10-img-18" alt="image" src="asset/global_images/LinkIt.jpg"/> In reasoning from data to a conclusion, where the data come from is important. We studied this in <link href="scc9e-ch01.xml">Chapters 1</link> through <link href="scc9e-ch09.xml">9</link>. Once we have the data, and are satisfied that they were produced appropriately, we can begin to determine what the data tell us. Tables and graphs help us do this. In this chapter, we learned some basic methods for displaying data with tables and graphs. We learned what information these graphics provide. An important type of information is the distribution of the data&#8212;the values that occur and how often they occur. The concept of the distribution of data or the distribution of a variable is a fundamental way that statisticians think about data. We will encounter it again and again in future chapters.</p>
 <p id="scc9e-ch10-p-86" block_type="SUM-TXT">Data that are produced badly can mislead us. Likewise, graphs that are produced badly can mislead us. In this chapter, we learned how to recognize bad graphics. Developing &#8220;graphic sense,&#8217;&#8217; the habit of asking if a graphic accurately and clearly displays our data, is as important as developing &#8220;number sense,&#8217;&#8217; discussed in <link href="scc9e-ch09.xml">Chapter 9</link>.</p>
 <box id="scc9e-ch10-box-20" numbered="false" block_type="case_title">
 <p id="scc9e-ch10-p-87" block_type="BX4-TXT-FIRST"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> Look again at <link href="figure_10_1.html">Figure 10.1</link>, described in the Case Study that opened the chapter. Based on what you have learned, is <link href="figure_10_1.html">Figure 10.1</link> the best graphical representation of the top five leading causes of death across four major age categories? What are the drawbacks to the current graphical display? Discuss which graphical display would be better and why. If you have access to statistical software, create the graphical display you think is better.</p>
 </box>
 <box id="scc9e-ch10-box-21" numbered="false" block_type="launchpad">
-<p id="scc9e-ch10-p-88" block_type="CR-BIB-T"><image asset-id="scc9e-ch10-img-19" alt="image" src="images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<p id="scc9e-ch10-p-88" block_type="CR-BIB-T"><image asset-id="scc9e-ch10-img-19" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
 <list id="scc9e-ch10-list-04" type="unordered" block_type="redbullet">
 <li id="scc9e-ch10-li-14"><p id="scc9e-ch10-p-89" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The Snapshots Video <em>Visualizing and Summarizing Categorical Data</em> discusses categorical data and describes pie charts and bar graphs to summarize categorical data in the context of data from a NASA program.</p></li>
 <li id="scc9e-ch10-li-15"><p id="scc9e-ch10-p-90" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The StatClips Video <em>Summaries and Pictures for Categorical Data</em> discusses how to draw a pie chart and a bar graph using two examples.</p></li>
@@ -444,7 +442,7 @@
 <section id="scc9e-ch10-sec-11" block_type="CR-X-H" chapter="ch10" numbered="false" level="1" print_page="233">
 <section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
 <p id="scc9e-ch10-p-94" block_type="CR-X"><em>For <link href="exercise_10_1.html">Exercise 10.1</link>, see page 223; for <link href="exercise_10_2.html">Exercise 10.2</link>, see page 227.</em></p>
-<question id="scc9e-ch10-ques-03">
+<question id="scc9e-ch10-ques-03" block_type="exercise_10_3.html">
 <p id="scc9e-ch10-p-95" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.3 Categorical and quantitative variables.</phrase> A survey was conducted and respondents were asked what color car they drive and how many miles they travel per day. The variable type for &#8220;car color&#8221; and &#8220;miles per day&#8221; are</p>
 <list id="scc9e-ch10-list-05" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch10-li-19"><p id="scc9e-ch10-p-96" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> both categorical.</p></li>
@@ -452,7 +450,7 @@
 <li id="scc9e-ch10-li-21"><p id="scc9e-ch10-p-98" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> car color&#8212;quantitative, miles per day&#8212;categorical.</p></li>
 <li id="scc9e-ch10-li-22"><p id="scc9e-ch10-p-99" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> car color&#8212;categorical, miles per day&#8212;quantitative.</p></li>
 </list></question>
-<question id="scc9e-ch10-ques-04">
+<question id="scc9e-ch10-ques-04" block_type="exercise_10_4.html">
 <p id="scc9e-ch10-p-100" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.4 Line graph.</phrase> Which of the following is not acceptable for a line graph?</p>
 <list id="scc9e-ch10-list-06" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch10-li-23"><p id="scc9e-ch10-p-101" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Having lines that cross</p></li>
@@ -460,7 +458,7 @@
 <li id="scc9e-ch10-li-25"><p id="scc9e-ch10-p-103" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Having time intervals that are not equally spaced</p></li>
 <li id="scc9e-ch10-li-26"><p id="scc9e-ch10-p-104" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> Including seasonal variation</p></li>
 </list></question>
-<question id="scc9e-ch10-ques-05">
+<question id="scc9e-ch10-ques-05" block_type="exercise_10_5.html">
 <p id="scc9e-ch10-p-105" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.5 Distributions.</phrase> A recent report on the religious affiliation of Hispanics says 55&#37; are Catholic, 22&#37; Protestant, 18&#37; unaffiliated, and 4&#37; other. This adds up to 99&#37;. You conclude</p>
 <list id="scc9e-ch10-list-07" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch10-li-27"><p id="scc9e-ch10-p-106" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the remaining 1&#37; are not accounted for.</p></li>
@@ -468,7 +466,7 @@
 <li id="scc9e-ch10-li-29"><p id="scc9e-ch10-p-108" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> this is due to roundoff error.</p></li>
 <li id="scc9e-ch10-li-30"><p id="scc9e-ch10-p-109" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> there is a religion missing from the survey.</p></li>
 </list></question>
-<question id="scc9e-ch10-ques-06">
+<question id="scc9e-ch10-ques-06" block_type="exercise_10_6.html">
 <p id="scc9e-ch10-p-110" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.6 Which graph?</phrase> You have the average SAT score of entering freshmen for five universities. The best graphical display for these data would be a</p>
 <list id="scc9e-ch10-list-08" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch10-li-31"><p id="scc9e-ch10-p-111" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> pie chart.</p></li>
@@ -476,7 +474,7 @@
 <li id="scc9e-ch10-li-33"><p id="scc9e-ch10-p-113" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> line graph.</p></li>
 <li id="scc9e-ch10-li-34"><p id="scc9e-ch10-p-114" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> side-by-side bar graph.</p></li>
 </list></question>
-<question id="scc9e-ch10-ques-07">
+<question id="scc9e-ch10-ques-07" block_type="exercise_10_7.html">
 <p id="scc9e-ch10-p-115" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.7 Which graph?</phrase> You want to show how the price of cable television has changed over the years. You should use a</p>
 <list id="scc9e-ch10-list-09" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch10-li-35"><p id="scc9e-ch10-p-116" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> pie chart.</p></li>
@@ -484,7 +482,7 @@
 <li id="scc9e-ch10-li-37"><p id="scc9e-ch10-p-118" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> line graph.</p></li>
 <li id="scc9e-ch10-li-38"><p id="scc9e-ch10-p-119" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> side-by-side bar graph.</p></li>
 </list></question>
-<question id="scc9e-ch10-ques-08">
+<question id="scc9e-ch10-ques-08" block_type="exercise_10_8.html">
 <p id="scc9e-ch10-p-120" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.8 Bar graph.</phrase> For a bar graph to be accurate,</p>
 <list id="scc9e-ch10-list-10" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch10-li-39"><p id="scc9e-ch10-p-121" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> it should be vertical.</p></li>
@@ -497,13 +495,13 @@
 <section id="scc9e-ch10-sec-12" block_type="CR-X-H-v1" chapter="ch10" numbered="false" level="1" print_page="234">
 <section-metadata><section-title>CHAPTER 10 EXERCISES</section-title></section-metadata>
 <p id="scc9e_page_234" block_type="page_start" data-margin-content="left">234</p>
-<question id="scc9e-ch10-ques-09">
+<question id="scc9e-ch10-ques-09" block_type="exercise_10_9.html">
 <p id="scc9e-ch10-p-125" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.9 Lottery sales.</phrase> States sell lots of lottery tickets. <link href="table_10_2.html">Table 10.2</link> shows where the money comes from in the state of Illinois. Make a bar graph that shows the distribution of lottery sales by type of game. Is it also proper to make a pie chart of these data? Explain.</p>
 </question>
-<question id="scc9e-ch10-ques-10">
+<question id="scc9e-ch10-ques-10" block_type="exercise_10_10.html">
 <p id="scc9e-ch10-p-126" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.10 Consistency?</phrase> <link href="table_10_2.html">Table 10.2</link> shows how Illinois state lottery sales are divided among different types of games. What is the sum of the amounts spent on the 11 types of games? Why is this sum not exactly equal to the total given in the table?</p>
 </question>
-<question id="scc9e-ch10-ques-11">
+<question id="scc9e-ch10-ques-11" block_type="exercise_10_11.html">
 <p id="scc9e-ch10-p-127" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.11 Marital status.</phrase> In the U.S. Census Bureau document <em>America&#8217;s Families and Living Arrangements: 2011</em>, we find these data on the marital status of American women aged 15 years and older as of 2011:</p>
 <table id="scc9e-ch10-untab-03" numbered="false" block_type="UN-TABLE" attr="60">
 <tbody>
@@ -594,54 +592,54 @@
 </tr>
 </tbody></table>
 <p id="scc9e_page_235" block_type="page_start" data-margin-content="right">235</p>
-<question id="scc9e-ch10-ques-12">
+<question id="scc9e-ch10-ques-12" block_type="exercise_10_12.html">
 <p id="scc9e-ch10-p-131" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.12 We pay high interest.</phrase> <link href="figure_10_13.html">Figure 10.13</link> shows a graph taken from an advertisement for an investment that promises to pay a higher interest rate than bank accounts and other competing investments. Is this graph a correct comparison of the four interest rates? Explain your answer.</p>
 </question>
-<question id="scc9e-ch10-ques-13"><p id="scc9e-ch10-p-132" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.13 Attitudes on same-sex marriage.</phrase> Attitudes on same-sex marriage have changed over time, but they also differ according to age. <link href="figure_10_14.html">Figure 10.14</link> shows change in the attitudes on same-sex marriage for four generational cohorts. Comment on the overall trend in change in attitude. Explain how attitude on same-sex marriage differs according to generation.</p>
+<question id="scc9e-ch10-ques-13" block_type="exercise_10_13.html"><p id="scc9e-ch10-p-132" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.13 Attitudes on same-sex marriage.</phrase> Attitudes on same-sex marriage have changed over time, but they also differ according to age. <link href="figure_10_14.html">Figure 10.14</link> shows change in the attitudes on same-sex marriage for four generational cohorts. Comment on the overall trend in change in attitude. Explain how attitude on same-sex marriage differs according to generation.</p>
 </question>
-<question id="scc9e-ch10-ques-14">
+<question id="scc9e-ch10-ques-14" block_type="exercise_10_14.html">
 <p id="scc9e-ch10-p-133" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.14 Murder weapons.</phrase> The 2010 <em>Statistical Abstract of the United States</em> reports FBI data on murders for 2007. In that year, 49.6&#37; of all murders were committed with handguns, 18.4&#37; with other firearms, 12.1&#37; with knives or other cutting implements, 5.8&#37; with a part of the body (usually the hands, fists, or feet), and 4.4&#37; with blunt objects. Make a graph to display these data. Do you need an &#8220;other methods&#8217;&#8217; category? Why?</p>
-<figure id="scc9e-ch10-fig-13" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.13" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-13" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.13" mmtype="image" mmsrc="" attr="" data-filename="figure_10_13.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-20" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_13.jpg"/>
+<image asset-id="scc9e-ch10-img-20" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_13.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.13</phrase> <phrase block_type="FG-CAP">Comparing interest rates, <link href="exercise_10_12.html">Exercise 10.12</link>.</phrase></caption>
 </figure>
-<figure id="scc9e-ch10-fig-14" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.14" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-14" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.14" mmtype="image" mmsrc="" attr="" data-filename="figure_10_14.html">
 <layout align="center" width="large" border="false"/>
-<image asset-id="scc9e-ch10-img-21" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_14.jpg"/>
+<image asset-id="scc9e-ch10-img-21" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_14.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.14</phrase> <phrase block_type="FG-CAP">Changing attitudes on same-sex marriage by generational cohort, <link href="exercise_10_13.html">Exercise 10.13</link>. (Data from Pew Research Center)</phrase></caption>
 </figure>
 </question>
 <p id="scc9e_page_236" block_type="page_start" data-margin-content="left">236</p>
-<question id="scc9e-ch10-ques-15">
+<question id="scc9e-ch10-ques-15" block_type="exercise_10_15.html">
 <p id="scc9e-ch10-p-134" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.15 The cost of imported oranges.</phrase> <link href="figure_10_15.html">Figure 10.15</link> is a line graph of the average cost of imported oranges each month from July 1995 to April 2012. These data are the price in U.S. dollars per metric ton.</p>
 <list id="scc9e-ch10-list-12" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch10-li-46"><p id="scc9e-ch10-p-135" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The graph shows strong seasonal variation. How is this visible in the graph? Why would you expect the price of oranges to show seasonal variation?</p></li>
 <li id="scc9e-ch10-li-47"><p id="scc9e-ch10-p-136" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What is the overall trend in orange prices during this period, after we take account of the seasonal variation?</p></li>
 </list>
 </question>
-<question id="scc9e-ch10-ques-16">
+<question id="scc9e-ch10-ques-16" block_type="exercise_10_16.html">
 <p id="scc9e-ch10-p-137" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.16 College freshmen.</phrase> A survey of college freshmen in 2007 asked what field they planned to study. The results: 12.8&#37;, arts and humanities; 17.7&#37;, business; 9.2&#37;, education; 19.3&#37;, engineering, biological sciences, or physical sciences; 14.5&#37;, professional; and 11.1&#37;, social science.</p>
 <list id="scc9e-ch10-list-13" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch10-li-48"><p id="scc9e-ch10-p-138" block_type="CR-X-NL"><phrase block_type="maker">(a)</phrase> What percentage of college freshmen plan to study fields other than those listed?</p></li>
 <li id="scc9e-ch10-li-49"><p id="scc9e-ch10-p-139" block_type="CR-X-NL"><phrase block_type="maker">(b)</phrase> Make a graph that compares the percentages of college freshmen planning to study various fields.</p></li>
 </list>
 </question>
-<question id="scc9e-ch10-ques-17">
+<question id="scc9e-ch10-ques-17" block_type="exercise_10_17.html">
 <p id="scc9e-ch10-p-140" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.17 Decreasing trend?</phrase> A common statistic considered by administration at universities is credit hour production. This is calculated by taking the credit hours for a course taught times the student enrollment. For example, a faculty member teaching two 3-credit courses with 50 students each would have produced 6 &#215; 50 = 300 credit hours. Suppose you are the chair for the department of statistics and you give <link href="figure_10_16.html">Figure 10.16</link> to your dean. The dean asks you to explain the disturbing decreasing trend. How should you respond?</p>
-<figure id="scc9e-ch10-fig-15" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.15" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-15" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.15" mmtype="image" mmsrc="" attr="" data-filename="figure_10_15.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-22" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_15.jpg"/>
+<image asset-id="scc9e-ch10-img-22" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_15.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.15</phrase> <phrase block_type="FG-CAP">The price of oranges, July 1995 to April 2012, <link href="exercise_10_15.html">Exercise 10.15</link>.</phrase></caption>
 </figure>
-<figure id="scc9e-ch10-fig-16" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.16" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-16" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.16" mmtype="image" mmsrc="" attr="" data-filename="figure_10_16.html">
 <layout align="center" width="large" border="false"/>
-<image asset-id="scc9e-ch10-img-23" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_16.jpg"/>
+<image asset-id="scc9e-ch10-img-23" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_16.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.16</phrase> <phrase block_type="FG-CAP">Bar graph depicting credit hours produced for each faculty member in a department, <link href="exercise_10_17.html">Exercise 10.17</link>.</phrase></caption>
 </figure>
 </question>
 <p id="scc9e_page_237" block_type="page_start" data-margin-content="right">237</p>
-<question id="scc9e-ch10-ques-18">
+<question id="scc9e-ch10-ques-18" block_type="exercise_10_18.html">
 <p id="scc9e-ch10-p-141" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.18 Civil disorders.</phrase> The years around 1970 brought unrest to many U.S. cities. Here are government data on the number of civil disturbances in each three-month period during the years 1968 to 1972.</p>
 <list id="scc9e-ch10-list-14" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch10-li-50"><p id="scc9e-ch10-p-142" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Make a line graph of these data.</p></li>
@@ -716,40 +714,40 @@
 <td align="center" block_type="TBN-TXT">5</td>
 </tr>
 </tbody></table>
-<figure id="scc9e-ch10-fig-17" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.17" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-17" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.17" mmtype="image" mmsrc="" attr="" data-filename="figure_10_17.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-24" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_17.jpg"/>
+<image asset-id="scc9e-ch10-img-24" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_17.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.17</phrase> <phrase block_type="FG-CAP">A side-by-side bar graph of educational attainment by sex, for those aged 25 and older, <link href="exercise_10_19.html">Exercise 10.19</link>. (Data collected in the 2014 Current Population Survey)</phrase></caption>
 </figure>
 </question>
 <p id="scc9e_page_238" block_type="page_start" data-margin-content="left">238</p>
-<question id="scc9e-ch10-ques-19">
+<question id="scc9e-ch10-ques-19" block_type="exercise_10_19.html">
 <p id="scc9e-ch10-p-144" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.19 Educational attainment by sex.</phrase> <link href="figure_10_17.html">Figure 10.17</link> is a side-by-side bar graph of educational attainment, by sex, for those aged 25 and older. These data were collected in the 2014 Current Population Survey. Compare educational attainment for males and females. Comment on any patterns you see.</p>
 </question>
-<question id="scc9e-ch10-ques-20">
-<p id="scc9e-ch10-p-145" block_type="CR-X-NL"><image asset-id="scc9e-ch10-img-25" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">10.20 A bad graph?</phrase> <link href="figure_10_18.html">Figure 10.18</link> shows a graph that appeared in the <em>Lexington (Ky.) Herald-Leader</em> on October 5, 1975. Discuss the correctness of this graph.</p>
-<figure id="scc9e-ch10-fig-18" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.18" mmtype="image" mmsrc="" attr="">
+<question id="scc9e-ch10-ques-20" block_type="exercise_10_20.html">
+<p id="scc9e-ch10-p-145" block_type="CR-X-NL"><image asset-id="scc9e-ch10-img-25" alt="image" src="asset/global_images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">10.20 A bad graph?</phrase> <link href="figure_10_18.html">Figure 10.18</link> shows a graph that appeared in the <em>Lexington (Ky.) Herald-Leader</em> on October 5, 1975. Discuss the correctness of this graph.</p>
+<figure id="scc9e-ch10-fig-18" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.18" mmtype="image" mmsrc="" attr="" data-filename="figure_10_18.html">
 <layout align="right" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-26" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_18.jpg"/>
+<image asset-id="scc9e-ch10-img-26" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_18.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.18</phrase> <phrase block_type="FG-CAP">A newspaper&#8217;s graph of the value of the British pound, <link href="exercise_10_20.html">Exercise 10.20</link>. (Data from <em>Lexington (Ky.) Herald Leader</em>, Associated Press, 1975)</phrase></caption>
 </figure>
 </question>
-<question id="scc9e-ch10-ques-21">
+<question id="scc9e-ch10-ques-21" block_type="exercise_10_21.html">
 <p id="scc9e-ch10-p-146" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.21 Seasonal variation.</phrase> You examine the average temperature in Chicago each month for many years. Do you expect a line graph of the data to show seasonal variation? Describe the kind of seasonal variation you expect to see.</p>
 </question>
-<question id="scc9e-ch10-ques-22">
+<question id="scc9e-ch10-ques-22" block_type="exercise_10_22.html">
 <p id="scc9e-ch10-p-147" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.22 Sales are up.</phrase> The sales at your new gift shop in December are double the November value. Should you conclude that your shop is growing more popular and will soon make you rich? Explain your answer.</p>
 </question>
 <p id="scc9e_page_239" block_type="page_start" data-margin-content="right">239</p>
-<question id="scc9e-ch10-ques-23">
-<p id="scc9e-ch10-p-148" block_type="CR-X-NL"><image asset-id="scc9e-ch10-img-27" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">10.23 Counting employed people.</phrase> A news article says:</p>
+<question id="scc9e-ch10-ques-23" block_type="exercise_10_23.html">
+<p id="scc9e-ch10-p-148" block_type="CR-X-NL"><image asset-id="scc9e-ch10-img-27" alt="image" src="asset/global_images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">10.23 Counting employed people.</phrase> A news article says:</p>
 <p id="scc9e-ch10-p-149" block_type="CR-X-NL"><em>The report that employment plunged in June, with nonfarm payrolls declining by 117,000, helped to persuade the Federal Reserve to cut interest rates yet again. . . . In reality, however, there were 457,000 more people employed in June than in May</em>.</p>
 <p id="scc9e-ch10-p-150" block_type="CR-X-NL">What explains the difference between the fact that employment went up by 457,000 and the official report that employment went down by 117,000?</p>
 </question>
-<question id="scc9e-ch10-ques-24">
+<question id="scc9e-ch10-ques-24" block_type="exercise_10_24.html">
 <p id="scc9e-ch10-p-151" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.24 The sunspot cycle.</phrase> Some plots against time show <strong>cycles</strong> of up-and-down movements. <link href="figure_10_19.html">Figure 10.19</link> is a line graph of the average number of sunspots on the sun&#8217;s visible face for each month from 1900 to 2011. What is the approximate length of the sunspot cycle? That is, how many years are there between the successive valleys in the graph? Is there any overall trend in the number of sunspots?</p>
 </question>
-<question id="scc9e-ch10-ques-25">
+<question id="scc9e-ch10-ques-25" block_type="exercise_10_25.html">
 <p id="scc9e-ch10-p-152" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.25 Trucks versus cars.</phrase> Do consumers prefer trucks, SUVs, and minivans to passenger cars? Here are data on sales and leases of new cars and trucks in the United States. (The definition of &#8220;truck&#8217;&#8217; includes SUVs and minivans.) Plot two line graphs on the same axes to compare the change in car and truck sales over time. Describe the trend that you see.</p>
 <table id="scc9e-ch10-untab-05" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
@@ -851,13 +849,13 @@
 </tr>
 </tbody></table>
 </question>
-<question id="scc9e-ch10-ques-26">
+<question id="scc9e-ch10-ques-26" block_type="exercise_10_26.html">
 <p id="scc9e-ch10-p-153" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.26 Who sells cars?</phrase> <link href="figure_10_20.html">Figure 10.20</link> is a pie chart of the percentage of passenger car sales in 1997 by various manufacturers. The artist has tried to make the graph attractive by using the wheel of a car for the &#8220;pie.&#8217;&#8217; Is the graph still a correct display of the data? Explain your answer.</p>
 </question>
-<question id="scc9e-ch10-ques-27">
+<question id="scc9e-ch10-ques-27" block_type="exercise_10_27.html">
 <p id="scc9e-ch10-p-154" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.27 Who sells cars?</phrase> Make a bar graph of the data in <link href="exercise_10_26.html">Exercise 10.26</link>. What advantage does your new graph have over the pie chart in <link href="figure_10_20.html">Figure 10.20</link>?</p>
 </question>
-<question id="scc9e-ch10-ques-28">
+<question id="scc9e-ch10-ques-28" block_type="exercise_10_28.html">
 <p id="scc9e-ch10-p-155" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.28 The Border Patrol.</phrase> Here are the numbers of deportable aliens caught by the U.S. Border Patrol for 1971 through 2009. Display these data in a graph. What are the most important facts that the data show?</p>
 <table id="scc9e-ch10-untab-09" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
@@ -937,30 +935,30 @@
 <td align="center" block_type="TBN-TXT">556</td>
 </tr>
 </tbody></table>
-<figure id="scc9e-ch10-fig-19" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.19" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-19" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.19" mmtype="image" mmsrc="" attr="" data-filename="figure_10_19.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-28" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_19.jpg"/>
+<image asset-id="scc9e-ch10-img-28" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_19.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.19</phrase> <phrase block_type="FG-CAP">The sunspot cycle, <link href="exercise_10_24.html">Exercise 10.24</link>. This is a line graph of the average number of sunspots per month for the years 1900&#8211;2011. (Data from the National Oceanic and Atmospheric Administration)</phrase></caption>
 </figure>
-<figure id="scc9e-ch10-fig-20" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.20" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch10-fig-20" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.20" mmtype="image" mmsrc="" attr="" data-filename="figure_10_20.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch10-img-29" alt="image" src="images/17MOORESCC-MSE_9e_fig_10_20.jpg"/>
+<image asset-id="scc9e-ch10-img-29" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_20.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.20</phrase> <phrase block_type="FG-CAP">Passenger car sales by several manufacturers in 1997, <link href="exercise_10_26.html">Exercise 10.26</link>.</phrase></caption>
 </figure>
 </question>
 <p id="scc9e_page_240" block_type="page_start" data-margin-content="left">240</p>
-<question id="scc9e-ch10-ques-29">
+<question id="scc9e-ch10-ques-29" block_type="exercise_10_29.html">
 <p id="scc9e-ch10-p-156" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.29 Bad habits.</phrase> According to the National Household Survey on Drug Use and Health, when asked in 2012, 41&#37; of those aged 18 to 24 years used cigarettes in the past year, 9&#37; used smokeless tobacco, 36.3&#37; used illicit drugs, and 10.4&#37; used pain relievers or sedatives. Explain why it is <em>not</em> correct to display these data in a pie chart.</p>
 </question>
 <p id="scc9e_page_241" block_type="page_start" data-margin-content="right">241</p>
-<question id="scc9e-ch10-ques-30">
+<question id="scc9e-ch10-ques-30" block_type="exercise_10_30.html">
 <p id="scc9e-ch10-p-157" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.30 Accidental deaths.</phrase> In 2011 there were 130,557 deaths from unintentional injury in the United States. Among these were 38,851 deaths from poisoning, 33,804 from motor vehicle accidents, 30,208 from falls, 6,601 from suffocation, and 3,391 from drowning.</p>
 <list id="scc9e-ch10-list-15" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch10-li-52"><p id="scc9e-ch10-p-158" block_type="CR-X-NL"><phrase block_type="maker">(a)</phrase> Find the percentage of accidental deaths from each of these causes, rounded to the nearest percent. What percentage of accidental deaths were due to other causes?</p></li>
 <li id="scc9e-ch10-li-53"><p id="scc9e-ch10-p-159" block_type="CR-X-NL"><phrase block_type="maker">(b)</phrase> Make a well-labeled graph of the distribution of causes of accidental deaths.</p></li>
 </list>
 </question>
-<question id="scc9e-ch10-ques-31">
+<question id="scc9e-ch10-ques-31" block_type="exercise_10_31.html">
 <p id="scc9e-ch10-p-160" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.31 Yields of money market funds.</phrase> Many people invest in money market funds. These are mutual funds that attempt to maintain a constant price of &#36;1 per share while paying monthly interest. <link href="table_10_3.html">Table 10.3</link> gives the average annual interest rates (in percent) paid by all taxable money market funds from 1973 (the first full year in which such funds were available) to 2008.</p>
 <list id="scc9e-ch10-list-16" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch10-li-54"><p id="scc9e-ch10-p-161" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Make a line graph of the interest paid by money market funds for these years.</p></li>
@@ -1275,10 +1273,9 @@
 </question>
 <p id="scc9e_page_242" block_type="page_start" data-margin-content="left">242</p>
 <box id="scc9e-ch10-box-22" numbered="false" block_type="exploring-web">
-<p id="scc9e-ch10-p-167" block_type="QRL icon"><image asset-id="scc9e-ch10-img-30" alt="image" src="images/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch10-p-167" block_type="QRL icon"><image asset-id="scc9e-ch10-img-30" alt="image" src="asset/global_images/SCC 9e new qrcode 2 17 16.jpg"/></p>
 <p id="scc9e-ch10-p-168" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
 <p id="scc9e-ch10-p-169" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
 </box>
 </section>
 </chapter>
-</manuscript>

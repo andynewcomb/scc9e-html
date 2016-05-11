@@ -410,6 +410,12 @@
     <Content Include="ebook\css\scc9e_ch1.min.css">
       <DependentUpon>scc9e_ch1.css</DependentUpon>
     </Content>
+    <Content Include="ebook\css\scc9e_ch10.css">
+      <DependentUpon>scc9e_ch10.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch10.min.css">
+      <DependentUpon>scc9e_ch10.css</DependentUpon>
+    </Content>
     <Content Include="ebook\css\scc9e_ch2.css">
       <DependentUpon>scc9e_ch2.less</DependentUpon>
     </Content>
@@ -444,6 +450,48 @@
     <Content Include="ebook\css\scc9e_ch6.less" />
     <Content Include="ebook\css\scc9e_ch6.min.css">
       <DependentUpon>scc9e_ch6.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch7.css">
+      <DependentUpon>scc9e_ch7.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch7.min.css">
+      <DependentUpon>scc9e_ch7.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch8.css">
+      <DependentUpon>scc9e_ch8.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch8.min.css">
+      <DependentUpon>scc9e_ch8.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch9.css">
+      <DependentUpon>scc9e_ch9.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch9.min.css">
+      <DependentUpon>scc9e_ch9.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_part1.css">
+      <DependentUpon>scc9e_part1.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_part1.min.css">
+      <DependentUpon>scc9e_part1.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_part2.css">
+      <DependentUpon>scc9e_part2.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_part2.min.css">
+      <DependentUpon>scc9e_part2.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_part3.css">
+      <DependentUpon>scc9e_part3.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_part3.min.css">
+      <DependentUpon>scc9e_part3.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_part4.css">
+      <DependentUpon>scc9e_part4.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_part4.min.css">
+      <DependentUpon>scc9e_part4.css</DependentUpon>
     </Content>
     <Content Include="ebook\js\bh_cleanup.js" />
     <Content Include="ebook\js\digfir_ebook_fw.js" />
@@ -562,6 +610,14 @@
     <Content Include="docs\09_MooreSCC9e_92937_Ch09_187-202_2nd_Pass.pdf" />
     <Content Include="docs\10_MooreSCC9e_92937_Ch10_213-242_2nd_Pass.pdf" />
     <Content Include="docs\scc9e_ebooklinkinggrid_4_20_urls_updated-1.xls" />
+    <Content Include="ebook\css\scc9e_ch7.less" />
+    <Content Include="ebook\css\scc9e_ch8.less" />
+    <Content Include="ebook\css\scc9e_ch9.less" />
+    <Content Include="ebook\css\scc9e_ch10.less" />
+    <Content Include="ebook\css\scc9e_part1.less" />
+    <Content Include="ebook\css\scc9e_part2.less" />
+    <Content Include="ebook\css\scc9e_part3.less" />
+    <Content Include="ebook\css\scc9e_part4.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

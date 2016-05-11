@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manuscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML" manuscript-id="09" name="" title="Moore_Chapter_09" xsi:noNamespaceSchemaLocation="xsd/digfir_manuscript.xsd">
-<chapter id="scc9e-ch09" number="9" title="Chapter 9: Do the Numbers Make Sense?" start-numbering-at="187" numbered="true">
+<chapter id="scc9e-ch09" number="9" title="Chapter 9: Do the Numbers Make Sense?" start-numbering-at="9" numbered="true">
 <section id="scc9e-ch09-sec-01" block_type="chapter" title="Do the Numbers Make Sense?" numbered="false" level="1" print_page="187">
 <p id="scc9e-ch09-p-1" block_type="CN">9</p>
 <p id="scc9e-ch09-p-2" block_type="CT">Do the Numbers Make Sense?</p>
 <p id="scc9e_page_187" block_type="page_start" data-margin-content="right">187</p>
 <figure id="scc9e-ch09-unfig-1" block_type="CO-PH-CL" numbered="false" mmtype="image" mmsrc="" attr="">
 <layout align="right" width="medium" border="false"/>
-<image asset-id="scc9e-ch09-img-1" alt="image" src="images/17MOORESCC-MSE_9e_CO09.jpg"/>
+<image asset-id="scc9e-ch09-img-1" alt="image" src="asset/ch9/17MOORESCC-MSE_9e_CO09.jpg"/>
 <asset_source><phrase block_type="PH-CL">Andersen Ross/Blend Images/Corbis</phrase></asset_source>
 </figure>
 <box id="scc9e-ch09-box-1" numbered="false" block_type="BX4-H-ri">
@@ -24,15 +22,15 @@
 <section-metadata><section-title>What didn&#8217;t they tell us?</section-title></section-metadata>
 <p id="scc9e-ch09-p-9" block_type="TXT-ni">The most common way to mislead with data is to cite correct numbers that don&#8217;t quite mean what they appear to say because we aren&#8217;t told the full story. The numbers are not made up, so the fact that the information is a bit incomplete may be an innocent oversight. Here are some examples. You decide how innocent they are.</p>
 <p id="scc9e_page_188" block_type="page_start" data-margin-content="left">188</p>
-<box id="scc9e-ch09-box-2" numbered="false" block_type="EXP">
+<box id="scc9e-ch09-box-2" numbered="false" block_type="EXP" data-filename="example_9_1.html">
 <p id="scc9e-ch09-p-11" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 1</phrase> Snow! Snow! Snow!</p>
 <p id="scc9e-ch09-p-12" block_type="EXP-first">Crested Butte attracts skiers by advertising that it has the highest average snowfall of any ski town in Colorado. That&#8217;s true. But skiers want snow on the ski slopes, not in the town&#8212;and many other Colorado resorts get more snow on the slopes.</p>
 </box>
-<box id="scc9e-ch09-box-3" numbered="false" block_type="EXP">
+<box id="scc9e-ch09-box-3" numbered="false" block_type="EXP" data-filename="example_9_2.html">
 <p id="scc9e-ch09-p-13" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> Yet more snow</p>
 <p id="scc9e-ch09-p-14" block_type="EXP-first">News reports of snowstorms say things like &#8220;A winter storm spread snow across the area, causing 28 minor traffic accidents.&#8221; Eric Meyer, a reporter in Milwaukee, Wisconsin, says he often called the sheriff to gather such numbers. One day, he decided to ask the sheriff how many minor accidents are typical in good weather: about 48, said the sheriff. Perhaps, says Meyer, the news should say, &#8220;Today&#8217;s winter storm prevented 20 minor traffic accidents.&#8221;</p>
 </box>
-<box id="scc9e-ch09-box-4" numbered="false" block_type="EXP">
+<box id="scc9e-ch09-box-4" numbered="false" block_type="EXP" data-filename="example_9_3.html">
 <p id="scc9e-ch09-p-15" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> We attract really good students</p>
 <p id="scc9e-ch09-p-16" block_type="EXP-first">Colleges know that many prospective students look at popular guidebooks to decide where to apply for admission. The guidebooks print information supplied by the colleges themselves. Surely no college would simply lie about, say, the average SAT score of its entering students or admission rates. But we do want our scores to look good and admission standards to appear high. What would happen if SAT scores were optional when applying for admission? Students with low scores will tend to not include them as part of their application so that average scores increase. In addition, the number of applicants increases, admittance rates decrease, and a college appears more selective.</p>
 <p id="scc9e-ch09-p-17" block_type="EXP-mid">Hobart and William Smith Colleges adopted an SAT-optional policy for fall 2006, and their reported average SAT scores jumped 20 points. At the same time, national average SAT scores declined.</p>
@@ -42,7 +40,7 @@
 <section id="scc9e-ch09-sec-03" block_type="h1" chapter="ch9" numbered="false" level="1" print_page="188">
 <section-metadata><section-title>Are the numbers consistent with each other?</section-title></section-metadata>
 <p id="scc9e-ch09-p-19" block_type="TXT-ni">Here is an example.</p>
-<box id="scc9e-ch09-box-5" numbered="false" block_type="EXP">
+<box id="scc9e-ch09-box-5" numbered="false" block_type="EXP" data-filename="example_9_4.html">
 <p id="scc9e-ch09-p-20" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> The case of the missing vans</p>
 <p id="scc9e-ch09-p-21" block_type="EXP-first">Auto manufacturers lend their dealers money to help them keep vehicles on their lots. The loans are repaid when the vehicles are sold. A Long Island auto dealer named John McNamara borrowed more than &#36;6 billion from General Motors between 1985 and 1991. In December 1990 alone, Mr. McNamara borrowed &#36;425 million to buy 17,000 GM vans customized by an Indiana company, allegedly for sale overseas. GM happily lent McNamara the money because he always repaid the loans.</p>
 <p id="scc9e_page_189" block_type="page_start" data-margin-content="right">189</p>
@@ -50,13 +48,13 @@
 <p id="scc9e-ch09-p-24" block_type="EXP-mid">Having looked at the numbers, you can guess the rest. McNamara admitted in federal court in 1992 that he was defrauding GM on a massive scale. The Indiana company was a shell company set up by McNamara, its invoices were phony, and the vans didn&#8217;t exist. McNamara borrowed vastly from GM, used most of each loan to pay off the previous loan (thus establishing a record as a good credit risk), and skimmed off a bit for himself. The bit he skimmed amounted to more than &#36;400 million. GM set aside &#36;275 million to cover its losses. Two executives, who should have looked at the numbers relevant to their business, were fired.</p>
 </box>
 <p id="scc9e-ch09-p-25" block_type="TXT">John McNamara fooled General Motors because GM didn&#8217;t compare his numbers with others. No one asked how a dealer could buy 17,000 vans in a single month for export when the entire custom van industry produces just 17,000 vans a month and only a bit over 1&#37; are exported. Speaking of GM, here&#8217;s another example in which the numbers don&#8217;t line up with each other.</p>
-<box id="scc9e-ch09-box-6" numbered="false" block_type="EXP">
+<box id="scc9e-ch09-box-6" numbered="false" block_type="EXP" data-filename="example_9_5.html">
 <p id="scc9e-ch09-p-26" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 5</phrase> We won!</p>
 <p id="scc9e-ch09-p-27" block_type="EXP-first">GM&#8217;s Cadillac brand was the best-selling luxury car in the United States for 57 years in a row. In 1998, Ford&#8217;s Lincoln brand seemed to be winning until the last moment. Said the <em>New York Times,</em> &#8220;After reporting almost unbelievable sales results in December, Cadillac eked out a come-from-behind victory by just 222 cars.&#8221; The final count was 187,343 for Cadillac, 187,121 for Lincoln. Then GM reported that Cadillac sales dropped 38&#37; in January. How could sales be so different in December and January? Could it be that some January sales were counted in the previous year&#8217;s total? Just enough, say, to win by 222 cars? Yes, indeed. In May, GM confessed that it sold 4773 fewer Cadillacs in December than it had claimed.</p>
 </box>
 <p id="scc9e_page_190" block_type="page_start" data-margin-content="left">190</p>
 <p id="scc9e-ch09-p-29" block_type="TXT">In the General Motors examples, we suspect something is wrong because numbers don&#8217;t agree as we think they should. Here&#8217;s an example where we <em>know</em> something is wrong because the numbers don&#8217;t agree. This is part of an article on a cancer researcher at the Sloan-Kettering Institute, which was accused of committing the ultimate scientific sin, falsifying data.</p>
-<box id="scc9e-ch09-box-7" numbered="false" block_type="EXP">
+<box id="scc9e-ch09-box-7" numbered="false" block_type="EXP" data-filename="example_9_6.html">
 <p id="scc9e-ch09-p-30" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 6</phrase> Fake data</p>
 <p id="scc9e-ch09-p-31" block_type="EXP-first">When reporting data about the Minnesota mouse experiments, the cancer researcher mentioned above reported percentages of successes for groups of 20 mice as 53, 58, 63, 46, 48, and 67. This is impossible, because any percentage of 20 must be a multiple of 5!</p>
 </box>
@@ -64,21 +62,21 @@
 <section id="scc9e-ch09-sec-04" block_type="h1" chapter="ch9" numbered="false" level="1" print_page="190">
 <section-metadata><section-title>Are the numbers plausible?</section-title></section-metadata>
 <p id="scc9e-ch09-p-32" block_type="TXT-ni">As the General Motors examples illustrate, you can often detect dubious numbers simply because they don&#8217;t seem plausible. Sometimes, you can check an implausible number against data in reliable sources such as the annual <em>Statistical Abstract of the United States</em>. Sometimes, as the next example illustrates, you can do a calculation to show that a number isn&#8217;t realistic.</p>
-<box id="scc9e-ch09-box-8" numbered="false" block_type="EXP">
+<box id="scc9e-ch09-box-8" numbered="false" block_type="EXP" data-filename="example_9_7.html">
 <p id="scc9e-ch09-p-33" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 7</phrase> Now that&#8217;s relief!</p>
-<figure id="scc9e-ch09-unfig-2" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch09-unfig-2" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="9_17MOORESCC-MSE_9e_P_09_01.html">
 <layout align="left" width="small" border="false"/>
-<image asset-id="scc9e-ch09-img-2" alt="image" src="images/17MOORESCC-MSE_9e_P_09_01.jpg"/>
+<image asset-id="scc9e-ch09-img-2" alt="image" src="asset/ch9/17MOORESCC-MSE_9e_P_09_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">Smiley N. Pool/Dallas Morning News/Corbis</phrase></asset_source>
 </figure>
 <p id="scc9e-ch09-p-34" block_type="EXP-first">Hurricane Katrina struck the Gulf Coast in August 2005 and caused massive destruction. In September 2005, Senators Mary Landrieu (Democrat) and David Vitter (Republican) of Louisiana introduced the Hurricane Katrina Disaster Relief and Economic Recovery Act in Congress. This bill sought a total of &#36;250 billion in federal funds to provide long-term relief and assistance to the people of New Orleans and the Gulf Coast. Not all of this was to be spent on New Orleans alone, and the money was not meant to be distributed directly to residents affected by the hurricane. However, at the time, several people noticed that if you were one of the 484,674 residents of New Orleans, &#36;250 billion in federal funds was the equivalent of</p>
 <p id="scc9e_page_191" block_type="page_start" data-margin-content="right">191</p>
-<p id="scc9e-ch09-p-36" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mtext>dollars&#xa0;per&#xa0;resident</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>250</m:mn><m:mtext>,</m:mtext><m:mn>000</m:mn><m:mtext>,</m:mtext><m:mn>000</m:mn><m:mtext>,</m:mtext><m:mn>000</m:mn></m:mrow><m:mrow><m:mn>484</m:mn><m:mtext>,</m:mtext><m:mn>674</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>515</m:mn><m:mtext>,</m:mtext><m:mn>810.6</m:mn><m:mtext>&#xa0;</m:mtext></m:mrow></m:math></p>
+<p id="scc9e-ch09-p-36" block_type="EXP-EQ"><phrase data-math="math_1"></phrase></p>
 <p id="scc9e-ch09-p-37" block_type="EXP-ni">This would mean that a family of four would receive about &#36;2,063,240!</p>
 </box>
 <box id="scc9e-ch09-box-9" numbered="false" block_type="BX2">
 <p id="scc9e-ch09-p-38" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch09-ques-1">
+<question id="scc9e-ch09-ques-1" block_type="exercise_9_1.html">
 <p id="scc9e-ch09-p-39" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">9.1 The abundant melon field.</phrase> The very respectable journal <em>Science,</em> in an article on insects that attack plants, mentioned a California field that produces 750,000 melons per acre. Is this plausible? You may want to use the fact that an acre covers 43,560 square feet.</p>
 </question>
 </box>
@@ -86,7 +84,7 @@
 <section id="scc9e-ch09-sec-05" block_type="h1" chapter="ch9" numbered="false" level="1" print_page="191">
 <section-metadata><section-title>Are the numbers too good to be true?</section-title></section-metadata>
 <p id="scc9e-ch09-p-40" block_type="TXT-ni">In <link href="example_9_6.html">Example 6</link>, lack of consistency led to the suspicion that the data were phony. <em>Too much precision or regularity</em> can lead to the same suspicion, as when a student&#8217;s lab report contains data that are exactly as the theory predicts. The laboratory instructor knows that the accuracy of the equipment and the student&#8217;s laboratory technique are not good enough to give such perfect results. He suspects that the student made them up. Here is an example about fraud in medical research.</p>
-<box id="scc9e-ch09-box-10" numbered="false" block_type="EXP">
+<box id="scc9e-ch09-box-10" numbered="false" block_type="EXP" data-filename="example_9_8.html">
 <p id="scc9e-ch09-p-41" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 8</phrase> More fake data</p>
 <p id="scc9e-ch09-p-42" block_type="EXP-first">As an up-and-coming radiologist at the University of California, San Diego, Robert Slutsky appeared to publish many articles. However, when a reviewer was asked to write a letter for Slutsky&#8217;s promotion, the reviewer discovered that two articles written by Slutsky had the exact same data, but with different numbers of subjects. Needless to say, Slutsky did not get a promotion&#8212;in fact, he resigned.</p>
 </box>
@@ -96,51 +94,46 @@
 <section-metadata><section-title>Is the arithmetic right?</section-title></section-metadata>
 <p id="scc9e-ch09-p-44" block_type="TXT-ni">Conclusions that are wrong or just incomprehensible are often the result of small arithmetic errors. Rates and percentages cause particular trouble.</p>
 <p id="scc9e_page_192" block_type="page_start" data-margin-content="left">192</p>
-<box id="scc9e-ch09-box-11" numbered="false" block_type="EXP">
+<box id="scc9e-ch09-box-11" numbered="false" block_type="EXP" data-filename="example_9_9.html">
 <p id="scc9e-ch09-p-46" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 9</phrase> Oh, those percents</p>
 <p id="scc9e-ch09-p-47" block_type="EXP-first">Here are a couple of examples involving percents. During the December 4, 2009, episode of the TV show <em>Fox &#38; Friends,</em> a graphic was displayed with the question heading: &#8220;Did scientists falsify research to support their own theories on global warming?&#8221; The results, attributed to a Rasmussen Reports Poll on global warming, indicated that 59&#37; of people believed this was &#8220;somewhat likely,&#8221; 35&#37; thought it was &#8220;very likely,&#8221; and 26&#37; considered it &#8220;not very likely.&#8221; That adds up to a whopping 120&#37; of those polled! Turns out that <em>Fox &#38; Friends</em> misquoted the actual Rasmussen Reports Poll results but didn&#8217;t notice the error.</p>
 <p id="scc9e-ch09-p-48" block_type="EXP-mid">Even smart people have problems with percentages. A newsletter for female university teachers asked, &#8220;Does it matter that women are 550&#37; (five and a half times) less likely than men to be appointed to a professional grade?&#8221; Now 100&#37; of something is all there is. If you take away 100&#37;, there is nothing left. We have no idea what &#8220;550&#37; less likely&#8221; might mean. Although we can&#8217;t be sure, it is possible that the newsletter meant that the likelihood for women is the likelihood for men divided by 5.5. In this case, the percentage decrease would be</p>
-<p id="scc9e-ch09-p-49" block_type="EXP-EQ"><m:math display='block'><m:mtable columnalign='left' columnspacing='0.5em'><m:mtr><m:mtd><m:mstyle displaystyle='true'><m:mrow><m:mtext>percentage&#xa0;decrease</m:mtext></m:mrow></m:mstyle></m:mtd><m:mtd><m:mstyle displaystyle='true'><m:mrow><m:mo>=</m:mo></m:mrow></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mrow><m:mfrac><m:mrow><m:mtext>likelihood&#xa0;for&#xa0;men</m:mtext><m:mo>&#x2212;</m:mo><m:mtext>likelihood&#xa0;for&#xa0;women</m:mtext></m:mrow><m:mrow><m:mtext>likelihood&#xa0;for&#xa0;men</m:mtext></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn><m:mi>&#x0025;</m:mi></m:mrow></m:mstyle></m:mtd></m:mtr>
-<m:mtr><m:mtd/><m:mtd><m:mstyle displaystyle='true'><m:mrow><m:mo>=</m:mo></m:mrow></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mrow><m:mfrac><m:mrow><m:mtext>likelihood&#xa0;for&#xa0;men</m:mtext><m:mo>&#x2212;</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>likelihood&#xa0;for&#xa0;men/</m:mtext><m:mn>5.5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>likelihood&#xa0;for&#xa0;men</m:mtext></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn><m:mi>&#x0025;</m:mi></m:mrow></m:mstyle></m:mtd></m:mtr>
-<m:mtr><m:mtd/><m:mtd><m:mstyle displaystyle='true'><m:mrow><m:mo>=</m:mo></m:mrow></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>&#x2212;</m:mo><m:mrow><m:mo>(</m:mo><m:mrow> <m:mn>1</m:mn><m:mo>/</m:mo><m:mn>5.5</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>1</m:mn></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn><m:mi>&#x0025;</m:mi></m:mrow></m:mstyle></m:mtd></m:mtr>
-<m:mtr><m:mtd/><m:mtd><m:mstyle displaystyle='true'><m:mrow><m:mo>=</m:mo></m:mrow></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mrow><m:mfrac><m:mrow><m:mn>4.5</m:mn></m:mrow><m:mrow><m:mn>5.5</m:mn></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn><m:mi>&#x0025;</m:mi><m:mo>=</m:mo><m:mn>81.8</m:mn><m:mi>&#x0025;</m:mi></m:mrow></m:mstyle></m:mtd></m:mtr></m:mtable></m:math></p>
+<p id="scc9e-ch09-p-49" block_type="EXP-EQ"><phrase data-math="math_2"></phrase></p>
 </box>
 <p id="scc9e-ch09-p-53" block_type="TXT">Arithmetic is a skill that is easily lost if not used regularly. Fortunately, those who continue to do arithmetic are less likely to be taken in by meaningless numbers. A little thought and a calculator go a long way.</p>
-<box id="scc9e-ch09-box-12" numbered="false" block_type="EXP">
+<box id="scc9e-ch09-box-12" numbered="false" block_type="EXP" data-filename="example_9_10.html">
 <p id="scc9e-ch09-p-54" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 10</phrase> Summertime is burglary time</p>
 <p id="scc9e-ch09-p-55" block_type="EXP-first">An advertisement for a home security system says, &#8220;When you go on vacation, burglars go to work. According to FBI statistics, over 26&#37; of home burglaries take place between Memorial Day and Labor Day.&#8221;</p>
 <p id="scc9e-ch09-p-56" block_type="EXP-mid">This is supposed to convince us that burglars are more active in the summer vacation period. Look at your calendar. There are 14 weeks between Memorial Day and Labor Day. As a percentage of the 52 weeks in the year, this is</p>
-<p id="scc9e-ch09-p-57" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:mn>52</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.269</m:mn><m:mtext>&#x2009;</m:mtext><m:mtext>&#x2009;</m:mtext><m:mrow><m:mo>(</m:mo><m:mrow><m:mtext>that&#xa0;is</m:mtext><m:mo>,</m:mo><m:mtext>&#xa0;</m:mtext><m:mn>26.9</m:mn><m:mi>&#x0025;</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:math></p>
+<p id="scc9e-ch09-p-57" block_type="EXP-EQ"><phrase data-math="math_3"></phrase></p>
 <p id="scc9e_page_193" block_type="page_start" data-margin-content="right">193</p>
 <p id="scc9e-ch09-p-58" block_type="EXP-first">So the ad claims that 26&#37; of burglaries occur in 27&#37; of the year. This seems to make sense, so there is no cause for concern.</p>
 </box>
 <box id="scc9e-ch09-box-13" numbered="false" block_type="margin-statistics">
-<p id="scc9e-ch09-p-60" block_type="MN-TXT"><image asset-id="scc9e-ch09-img-3" alt="image" src="images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">Just a little arithmetic mistake</phrase> In 1994, an investment club of grandmotherly women wrote a best-seller, <em>The Beardstown Ladies&#8217; Common-Sense Investment Guide: How We Beat the Stock Market&#8212;and How You Can, Too</em>. On the book cover and in their many TV appearances, the down-home authors claimed a 23.4&#37; annual return, beating the market and most professionals. Four years later, a skeptic discovered that the club treasurer had entered data incorrectly. The Beardstown ladies&#8217; true return was only 9.1&#37;, far short of the overall stock market return of 14.9&#37; in the same period. We all make mistakes, but most of them don&#8217;t earn as much money as this one did.</p>
+<p id="scc9e-ch09-p-60" block_type="MN-TXT"><image asset-id="scc9e-ch09-img-3" alt="image" src="asset/global_images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">Just a little arithmetic mistake</phrase> In 1994, an investment club of grandmotherly women wrote a best-seller, <em>The Beardstown Ladies&#8217; Common-Sense Investment Guide: How We Beat the Stock Market&#8212;and How You Can, Too</em>. On the book cover and in their many TV appearances, the down-home authors claimed a 23.4&#37; annual return, beating the market and most professionals. Four years later, a skeptic discovered that the club treasurer had entered data incorrectly. The Beardstown ladies&#8217; true return was only 9.1&#37;, far short of the overall stock market return of 14.9&#37; in the same period. We all make mistakes, but most of them don&#8217;t earn as much money as this one did.</p>
 </box>
-<box id="scc9e-ch09-box-14" numbered="false" block_type="EXP">
+<box id="scc9e-ch09-box-14" numbered="false" block_type="EXP" data-filename="example_9_11.html">
 <p id="scc9e-ch09-p-61" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 11</phrase> The old folks are coming</p>
 <p id="scc9e-ch09-p-62" block_type="EXP-first">A writer in <em>Science</em> claimed in 1976 that &#8220;people over 65, now numbering 10 million, will number 30 million by the year 2000, and will constitute an unprecedented 25 percent of the population.&#8221; Sound the alarm: the elderly were going to triple in a quarter century to become a fourth of the population.</p>
 <p id="scc9e-ch09-p-63" block_type="EXP-mid">Let&#8217;s check the arithmetic. Thirty million is 25&#37; of 120 million, because</p>
-<p id="scc9e-ch09-p-64" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mfrac><m:mrow><m:mn>30</m:mn></m:mrow><m:mrow><m:mn>120</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.25</m:mn></m:mrow></m:math></p>
+<p id="scc9e-ch09-p-64" block_type="EXP-EQ"><phrase data-math="math_4"></phrase></p>
 <p id="scc9e-ch09-p-65" block_type="EXP-first">So the writer&#8217;s numbers make sense only if the population in 2000 is 120 million. The U.S. population in 1975 was already 216 million. Something is wrong.</p>
 <p id="scc9e-ch09-p-66" block_type="EXP-mid">Thus alerted, we can check the <em>Statistical Abstract of the United States</em> to learn the truth. In 1975, there were 22.4 million people over age 65, not 10 million. That&#8217;s more than 10&#37; of the total population. The estimate of 30 million by the year 2000 was only about 11&#37; of the population of 281 million for that year. Looking back, we now know that people at least 65 years old were 12&#37; of the total U.S. population. As people live longer, the numbers of the elderly are growing. But growth from 10&#37; to 12&#37; over 25 years is far slower than the <em>Science</em> writer claimed.</p>
 </box>
 <p id="scc9e-ch09-p-67" block_type="TXT">Calculating the percentage increase or decrease in some quantity seems particularly prone to mistakes. The percentage change in a quantity is found by</p>
-<p id="scc9e-ch09-p-68" block_type="EQ"><m:math display='block'><m:mrow><m:mtext>percentage&#xa0;change</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>amount&#xa0;of&#xa0;change</m:mtext></m:mrow><m:mrow><m:mtext>starting&#xa0;value</m:mtext></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn></m:mrow></m:math></p>
-<box id="scc9e-ch09-box-15" numbered="false" block_type="EXP">
+<p id="scc9e-ch09-p-68" block_type="EQ"><phrase data-math="math_5"></phrase></p>
+<box id="scc9e-ch09-box-15" numbered="false" block_type="EXP" data-filename="example_9_12.html">
 <p id="scc9e-ch09-p-69" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 12</phrase> Stocks go up, stocks go down</p>
 <p id="scc9e-ch09-p-70" block_type="EXP-first">On September 10, 2001, the NASDAQ composite index of stock prices closed at 1695.38. The next day the September 11 terrorist attacks occurred. A year later, on September 9, 2002, the NASDAQ index closed at 1304.60. What percentage decrease was this?</p>
 <p id="scc9e_page_194" block_type="page_start" data-margin-content="left">194</p>
-<p id="scc9e-ch09-p-72" block_type="EXP-EQ"><m:math display='block'><m:mtable columnalign='left' columnspacing='0.5em'><m:mtr><m:mtd><m:mstyle displaystyle='true'><m:mrow><m:mtext>percentage&#xa0;change</m:mtext></m:mrow></m:mstyle></m:mtd><m:mtd><m:mstyle displaystyle='true'><m:mrow><m:mo>=</m:mo></m:mrow></m:mstyle></m:mtd><m:mtd><m:mstyle displaystyle='true'><m:mrow><m:mfrac><m:mrow><m:mtext>amount&#xa0;of&#xa0;change</m:mtext></m:mrow><m:mrow><m:mtext>starting&#xa0;value</m:mtext></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn></m:mrow></m:mstyle></m:mtd></m:mtr>
-<m:mtr><m:mtd/><m:mtd><m:mstyle displaystyle='true'><m:mrow><m:mo>=</m:mo></m:mrow></m:mstyle></m:mtd><m:mtd><m:mstyle displaystyle='true'><m:mrow><m:mfrac><m:mrow><m:mn>1304.60</m:mn><m:mo>&#x2212;</m:mo><m:mn>1695.38</m:mn></m:mrow><m:mrow><m:mn>1695.38</m:mn></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn></m:mrow></m:mstyle></m:mtd></m:mtr>
-<m:mtr><m:mtd/><m:mtd><m:mstyle displaystyle='true'><m:mrow><m:mo>=</m:mo></m:mrow></m:mstyle></m:mtd><m:mtd><m:mstyle displaystyle='true'><m:mrow><m:mfrac><m:mrow><m:mn>&#x2212;</m:mn><m:mn>390.78</m:mn></m:mrow><m:mrow><m:mn>1695.38</m:mn></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn><m:mo>=</m:mo><m:mo>&#x2212;</m:mo><m:mn>0.230</m:mn><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn><m:mo>=</m:mo><m:mo>&#x2212;</m:mo><m:mn>23.0</m:mn><m:mi>&#x0025;</m:mi></m:mrow></m:mstyle></m:mtd></m:mtr></m:mtable></m:math></p>
+<p id="scc9e-ch09-p-72" block_type="EXP-EQ"><phrase data-math="math_6"></phrase></p>
 <p id="scc9e-ch09-p-75" block_type="EXP-mid">That&#8217;s a sizable drop. Of course, stock prices go up as well as down. From September 10, 2002, to September 9, 2003, the NASDAQ index rose from 1320.09 to 1873.43. That&#8217;s a percentage increase of</p>
-<p id="scc9e-ch09-p-76" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mfrac><m:mrow><m:mtext>amount&#xa0;of&#xa0;change</m:mtext></m:mrow><m:mrow><m:mtext>starting&#xa0;value</m:mtext></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>553.34</m:mn></m:mrow><m:mrow><m:mn>1320.09</m:mn></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn><m:mo>=</m:mo><m:mn>41.9</m:mn><m:mi>&#x0025;</m:mi></m:mrow></m:math></p>
+<p id="scc9e-ch09-p-76" block_type="EXP-EQ"><phrase data-math="math_7"></phrase></p>
 <p id="scc9e-ch09-p-77" block_type="EXP-mid">Remember to always use the <em>starting</em> value, not the smaller value, in the denominator of your fraction. Also remember that you are interested in the <em>percentage</em> change, not the actual change (here, the 41.9&#37; is the correct value to report instead of the 553.34 difference).</p>
 </box>
 <box id="scc9e-ch09-box-16" numbered="false" block_type="BX2">
 <p id="scc9e-ch09-p-78" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch09-ques-2">
+<question id="scc9e-ch09-ques-2" block_type="exercise_9_2.html">
 <p id="scc9e-ch09-p-79" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">9.2 Percentage increase and decrease.</phrase> On the first quiz of the term (worth 20 points total), a student scored a 5. On the second quiz, he scored a 10. Verify that the percentage increase from the first to the second quiz is 100&#37;. On the third quiz, the student again scored a 5. Is it correct to say that the percentage decrease from the second to the third quiz is 100&#37;?</p>
 </question>
 </box>
@@ -150,17 +143,17 @@
 <section-metadata><section-title>Is there a hidden agenda?</section-title></section-metadata>
 <p id="scc9e-ch09-p-81" block_type="TXT-ni">Lots of people feel strongly about various issues, so strongly that they would like the numbers to support their feelings. Often, they can find support in numbers by choosing carefully which numbers to report or by working hard to squeeze the numbers into the shape they prefer. Here are two examples.</p>
 <p id="scc9e_page_195" block_type="page_start" data-margin-content="right">195</p>
-<box id="scc9e-ch09-box-17" numbered="false" block_type="EXP">
+<box id="scc9e-ch09-box-17" numbered="false" block_type="EXP" data-filename="example_9_13.html">
 <p id="scc9e-ch09-p-83" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 13</phrase> Heart disease in women</p>
 <p id="scc9e-ch09-p-84" block_type="EXP-first">A highway billboard says simply, &#8220;Half of all heart disease victims are women.&#8221; What might be the agenda behind this true statement? Perhaps the billboard sponsors just want to make women aware that they do face risks from heart disease. (Surveys show that many women underestimate the risk of heart disease.)</p>
-<figure id="scc9e-ch09-unfig-3" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch09-unfig-3" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="9_17MOORESCC-MSE_9e_Car_09_01.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch09-img-4" alt="image" src="images/17MOORESCC-MSE_9e_Car_09_01.jpg"/>
+<image asset-id="scc9e-ch09-img-4" alt="image" src="asset/ch9/17MOORESCC-MSE_9e_Car_09_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">&#169; The New Yorker Collection 1977 Dana Fraden from <link href="http://www.cartoonbank.com">cartoonbank.com</link>. All Rights Reserved.</phrase></asset_source>
 </figure>
 <p id="scc9e-ch09-p-85" block_type="EXP-mid">On the other hand, perhaps the sponsors want to fight what some people see as an overemphasis on male heart disease. In that case, we might want to know that although half of heart disease victims are women, they are on the average much older than male victims. Roughly 50,000 women under age 65 and 100,000 men under age 65 die from heart disease each year. The American Heart Association says, &#8220;Risk of death due to coronary heart disease in women is roughly similar to that of men 10 years younger.&#8221;</p>
 </box>
-<box id="scc9e-ch09-box-18" numbered="false" block_type="EXP">
+<box id="scc9e-ch09-box-18" numbered="false" block_type="EXP" data-filename="example_9_14.html">
 <p id="scc9e-ch09-p-86" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 14</phrase> Income inequality</p>
 <p id="scc9e-ch09-p-87" block_type="EXP-first">During the economic boom of the 1980s and 1990s in the United States, the gap between the highest and lowest earners widened. In 1980, the bottom fifth of households received 4.3&#37; of all income, and the top fifth received 43.7&#37;. By 1998, the share of the bottom fifth had fallen to 3.6&#37; of all income, and the share of the top fifth of households had risen to 49.2&#37;. That is, the top fifth&#8217;s share was almost 14 times the bottom fifth&#8217;s share.</p>
 <p id="scc9e-ch09-p-88" block_type="EXP-mid">Can we massage the numbers to make it appear that the income gap is smaller than it actually is? An article in <em>Forbes</em> (a magazine read mainly by rich people) tried. First, according to data from the Current Population Survey, household income tends to be larger for larger households, so let&#8217;s change to income per person. The rich pay more taxes, so look at income after taxes. The poor receive food stamps and other assistance, so let&#8217;s count that. Finally, high earners work more hours than low earners, so we should adjust for hours worked. After all this, the share of the top fifth is only three times that of the bottom fifth. Of course, hours worked are reduced by illness, disability, care of children and aged parents, and so on. If <em>Forbes</em>&#8217;s hidden agenda is to show that income inequality isn&#8217;t important, we may not agree.</p>
@@ -180,13 +173,13 @@
 <li id="scc9e-ch09-li-7"><p id="scc9e-ch09-p-97" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> Be suspicious when numbers are <strong>too regular or agree too well</strong> with what their author would like to see.</p></li>
 <li id="scc9e-ch09-li-8"><p id="scc9e-ch09-p-98" block_type="SUM-BL-last"><phrase block_type="maker">&#8226;</phrase> Look with special care if you suspect the numbers are put forward in support of some <strong>hidden agenda</strong>.</p></li>
 </list>
-<p id="scc9e-ch09-p-99" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch09-img-5" alt="image" src="images/LinkIt.jpg"/> In <link href="scc9e-ch01.xml">Chapters 1</link> through <link href="scc9e-ch08.xml">8</link>, we have seen that we should always ask how the data were produced and exactly what was measured. Both affect the quality of any conclusions drawn. The goal is to gain insight by means of the numbers that make up our data. Numbers are most likely to yield insights to those who examine them properly. We need to develop &#8220;number sense,&#8221; the habit of asking if the numbers make sense. To assist you, in this chapter we have provided you with examples of bad data and of good data used wrongly. If you form the habit of looking at numbers properly, your friends will soon think that you are brilliant. They might even be right.</p>
+<p id="scc9e-ch09-p-99" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch09-img-5" alt="image" src="asset/global_images/LinkIt.jpg"/> In <link href="scc9e-ch01.xml">Chapters 1</link> through <link href="scc9e-ch08.xml">8</link>, we have seen that we should always ask how the data were produced and exactly what was measured. Both affect the quality of any conclusions drawn. The goal is to gain insight by means of the numbers that make up our data. Numbers are most likely to yield insights to those who examine them properly. We need to develop &#8220;number sense,&#8221; the habit of asking if the numbers make sense. To assist you, in this chapter we have provided you with examples of bad data and of good data used wrongly. If you form the habit of looking at numbers properly, your friends will soon think that you are brilliant. They might even be right.</p>
 <p id="scc9e_page_197" block_type="page_start" data-margin-content="right">197</p>
 <box id="scc9e-ch09-box-19" numbered="false" block_type="case_title">
 <p id="scc9e-ch09-p-101" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> How were the issues of &#8220;fudging the numbers&#8221; reported in the <em>New York Times</em> article mentioned in the Case Study that opened the chapter discovered? In some cases, unusual changes in rankings prompted a more careful look at the data on which the rankings were based. In other cases, suspicious numbers raised concerns. Examples of such suspicious numbers are discussed more thoroughly in the EESEE story &#8220;Quality of College Rankings.&#8221; This story describes some &#8220;suspect&#8221; data in the 1995 <em>U.S. News &#38; World Report</em> annual rankings of accredited four-year colleges and universities. Read the story and then examine the data described in the story. Are any of the numbers suspect? Why? You might look at the questions in the EESEE story to help you identify possible sources of suspicious numbers.</p>
 </box>
 <box id="scc9e-ch09-box-20" numbered="false" block_type="launchpad">
-<p id="scc9e-ch09-p-102" block_type="CR-BIB-T"><image asset-id="scc9e-ch09-img-6" alt="image" src="images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<p id="scc9e-ch09-p-102" block_type="CR-BIB-T"><image asset-id="scc9e-ch09-img-6" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
 <list id="scc9e-ch09-list-3" type="unordered" block_type="redbullet">
 <li id="scc9e-ch09-li-9"><p id="scc9e-ch09-p-103" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> <em>LearningCurve</em> has good questions to check your understanding of the concepts.</p></li>
 </list>
@@ -195,7 +188,7 @@
 <section id="scc9e-ch09-sec-09" block_type="CR-X-H" chapter="ch9" numbered="false" level="1" print_page="197">
 <section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
 <p id="scc9e-ch09-p-104" block_type="CR-X"><em>For <link href="exercise_9_1.html">Exercise 9.1</link>, see page 193; for <link href="exercise_9_2.html">Exercise 9.2</link>, see page 196.</em></p>
-<question id="scc9e-ch09-ques-3">
+<question id="scc9e-ch09-ques-3" block_type="exercise_9_3.html">
 <p id="scc9e-ch09-p-105" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.3 Academic good standing.</phrase> To be in good standing at college, a student needs to maintain a certain grade point average (GPA). Typically, a student who falls below 2.0 is put on academic probation for at least a semester. At a local college, administrators wanted to increase the GPA to remain in good standing from 2.0 and reported that the anticipated increase of on probation students would be from 3&#37; to 5&#37; of the student body. Relatively speaking, the increase in the percentage of students at the college who would be on academic probation would be</p>
 <list id="scc9e-ch09-list-4" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch09-li-10"><p id="scc9e-ch09-p-106" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> 2&#37; over the current figure.</p></li>
@@ -204,7 +197,7 @@
 <li id="scc9e-ch09-li-13"><p id="scc9e-ch09-p-109" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> We cannot determine the percentage increase because we do not know how many students attend the college.</p></li>
 </list>
 </question>
-<question id="scc9e-ch09-ques-4">
+<question id="scc9e-ch09-ques-4" block_type="exercise_9_4.html">
 <p id="scc9e-ch09-p-110" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.4 HIV infection rates.</phrase> According to a June 2015 report by the Centers for Disease Control and Prevention (CDC), one in eight Americans with HIV do not know that they are infected with the virus. The night the report was released, a news station reported &#8220;1 in 8 Americans do not know that they are infected with HIV.&#8221; What is wrong with the news station&#8217;s reporting? (<em>Note:</em> More than one answer is possible.)</p>
 <list id="scc9e-ch09-list-5" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch09-li-14"><p id="scc9e-ch09-p-111" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Nothing is wrong. The news station reported exactly the information it should have.</p></li>
@@ -214,7 +207,7 @@
 </list>
 </question>
 <p id="scc9e_page_198" block_type="page_start" data-margin-content="left">198</p>
-<question id="scc9e-ch09-ques-5">
+<question id="scc9e-ch09-ques-5" block_type="exercise_9_5.html">
 <p id="scc9e-ch09-p-116" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.5 Decreasing household trash.</phrase> A large city has started a new recycling program that aims to reduce household trash by 25&#37; by educating residents about more household items that can be recycled. A friend of yours says, &#8220;This is great! The amount of recycling will increase by 25&#37;. That&#8217;s a great start!&#8221; What is wrong with your friend&#8217;s comment?</p>
 <list id="scc9e-ch09-list-6" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch09-li-18"><p id="scc9e-ch09-p-117" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Your friend assumed that the amount of trash and the amount of recycling was equal to begin with.</p></li>
@@ -223,7 +216,7 @@
 <li id="scc9e-ch09-li-21"><p id="scc9e-ch09-p-120" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> None of the above.</p></li>
 </list>
 </question>
-<question id="scc9e-ch09-ques-6">
+<question id="scc9e-ch09-ques-6" block_type="exercise_9_6.html">
 <p id="scc9e-ch09-p-121" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.6 Increasing test scores.</phrase> The average score on an exam in organic chemistry was 60. The professor gave a retest and reported that the average score on the exam increased by 25&#37;. This means that the average score on the retest was</p>
 <list id="scc9e-ch09-list-7" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch09-li-22"><p id="scc9e-ch09-p-122" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> 45&#37;.</p></li>
@@ -232,7 +225,7 @@
 <li id="scc9e-ch09-li-25"><p id="scc9e-ch09-p-125" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> It is impossible to know without having all of the scores from the retest.</p></li>
 </list>
 </question>
-<question id="scc9e-ch09-ques-7">
+<question id="scc9e-ch09-ques-7" block_type="exercise_9_7.html">
 <p id="scc9e-ch09-p-126" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.7 Classes on Fridays.</phrase> A professor is concerned that not enough courses at his college hold class meetings on Fridays. After speaking with administrators, the professor finds out that 15&#37; of courses have class meetings on Fridays. At this school, classes meet on either Monday-Wednesday-Friday or Tuesday-Thursday and do not meet on Saturday or Sunday.</p>
 <list id="scc9e-ch09-list-8" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch09-li-26"><p id="scc9e-ch09-p-127" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The 15&#37; figure is about right because Friday is one of seven days of the week.</p></li>
@@ -244,39 +237,39 @@
 </section>
 <section id="scc9e-ch09-sec-10" block_type="CR-X-H-v1" chapter="ch9" numbered="false" level="1" print_page="198">
 <section-metadata><section-title>CHAPTER 9 EXERCISES</section-title></section-metadata>
-<question id="scc9e-ch09-ques-8">
-<p id="scc9e-ch09-p-131" block_type="CR-X-NL"><image asset-id="scc9e-ch09-img-7" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">9.8 Drunk driving.</phrase> A newspaper article on drunk driving cited data on traffic deaths in Rhode Island: &#8220;Forty-two percent of all fatalities occurred on Friday, Saturday, and Sunday, apparently because of increased drinking on the weekends.&#8221; What percent of the week do Friday, Saturday, and Sunday make up? Are you surprised that 42&#37; of fatalities occur on those days?</p>
+<question id="scc9e-ch09-ques-8" block_type="exercise_9_8.html">
+<p id="scc9e-ch09-p-131" block_type="CR-X-NL"><image asset-id="scc9e-ch09-img-7" alt="image" src="asset/global_images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">9.8 Drunk driving.</phrase> A newspaper article on drunk driving cited data on traffic deaths in Rhode Island: &#8220;Forty-two percent of all fatalities occurred on Friday, Saturday, and Sunday, apparently because of increased drinking on the weekends.&#8221; What percent of the week do Friday, Saturday, and Sunday make up? Are you surprised that 42&#37; of fatalities occur on those days?</p>
 </question>
-<question id="scc9e-ch09-ques-9">
+<question id="scc9e-ch09-ques-9" block_type="exercise_9_9.html">
 <p id="scc9e-ch09-p-132" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.9 Advertising painkillers.</phrase> An advertisement for the pain reliever Tylenol was headlined &#8220;Why Doctors Recommend Tylenol More Than All Leading Aspirin Brands Combined.&#8221; The makers of Bayer Aspirin, in a reply headlined &#8220;Makers of Tylenol, Shame on You!,&#8221; accused Tylenol of misleading by giving the truth but not the whole truth. You be the detective. How is Tylenol&#8217;s claim misleading even if true?</p>
 </question>
 <p id="scc9e_page_199" block_type="page_start" data-margin-content="right">199</p>
-<question id="scc9e-ch09-ques-10">
+<question id="scc9e-ch09-ques-10" block_type="exercise_9_10.html">
 <p id="scc9e-ch09-p-134" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.10 Advertising painkillers.</phrase> Anacin was long advertised as containing &#8220;more of the ingredient doctors recommend most.&#8221; Another over-the-counter pain reliever claimed that &#8220;doctors specify Bufferin most&#8221; over other &#8220;leading brands.&#8221; Both advertising claims were literally true; the Federal Trade Commission found them both misleading. Explain why. (<em>Hint:</em> What is the active pain reliever in both Anacin and Bufferin?)</p>
 </question>
-<question id="scc9e-ch09-ques-11">
+<question id="scc9e-ch09-ques-11" block_type="exercise_9_11.html">
 <p id="scc9e-ch09-p-135" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.11 Deer in the suburbs.</phrase> Westchester County is a suburban area covering 438 square miles immediately north of New York City. A garden magazine claimed that the county is home to 800,000 deer. Do a calculation that shows this claim to be implausible.</p>
 </question>
-<question id="scc9e-ch09-ques-12">
+<question id="scc9e-ch09-ques-12" block_type="exercise_9_12.html">
 <p id="scc9e-ch09-p-136" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.12 Suicides among Vietnam veterans.</phrase> Did the horrors of fighting in Vietnam drive many veterans of that war to suicide? A figure of 150,000 suicides among Vietnam veterans in the 20 years following the end of the war has been widely quoted. Explain why this number is not plausible. To help you, here are some facts: about 20,000 to 25,000 American men commit suicide each year; about 3 million men served in Southeast Asia during the Vietnam War; there were roughly 93 million adult men in the United States 20 years after the war.</p>
 </question>
-<question id="scc9e-ch09-ques-13">
+<question id="scc9e-ch09-ques-13" block_type="exercise_9_13.html">
 <p id="scc9e-ch09-p-137" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.13 Trash at sea?</phrase> A report on the problem of vacation cruise ships polluting the sea by dumping garbage overboard said:</p>
 <p id="scc9e-ch09-p-138" block_type="CR-X-NL"><em>On a seven-day cruise, a medium-size ship (about 1,000 passengers) might accumulate 222,000 coffee cups, 72,000 soda cans, 40,000 beer cans and bottles, and 11,000 wine bottles.</em></p>
 <p id="scc9e-ch09-p-139" block_type="CR-X-NL">Are these numbers plausible? Do some arithmetic to back up your conclusion. Suppose, for example, that the crew is as large as the passenger list. How many cups of coffee must each person drink every day?</p>
 </question>
-<question id="scc9e-ch09-ques-14">
+<question id="scc9e-ch09-ques-14" block_type="exercise_9_14.html">
 <p id="scc9e-ch09-p-140" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.14 Funny numbers.</phrase> Here&#8217;s a quotation from a book review in a scientific journal:</p>
 <p id="scc9e-ch09-p-141" block_type="CR-X-NL"><em>. . . a set of 20 studies with 57 percent reporting significant results, of which 42 percent agree on one conclusion while the remaining 15 percent favor another conclusion, often the opposite one.</em></p>
 <p id="scc9e-ch09-p-142" block_type="CR-X-NL">Do the numbers given in this quotation make sense? Can you determine how many of the 20 studies agreed on &#8220;one conclusion,&#8221; how many favored another conclusion, and how many did not report significant results?</p>
 </question>
-<question id="scc9e-ch09-ques-15">
-<p id="scc9e-ch09-p-143" block_type="CR-X-NL"><image asset-id="scc9e-ch09-img-8" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">9.15 Airport delays.</phrase> An article in a midwestern newspaper about flight delays at major airports said:</p>
+<question id="scc9e-ch09-ques-15" block_type="exercise_9_15.html">
+<p id="scc9e-ch09-p-143" block_type="CR-X-NL"><image asset-id="scc9e-ch09-img-8" alt="image" src="asset/global_images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">9.15 Airport delays.</phrase> An article in a midwestern newspaper about flight delays at major airports said:</p>
 <p id="scc9e-ch09-p-144" block_type="CR-X-NL"><em>According to a Gannett News Service study of U.S. airlines&#8217; performance during the past five months, Chicago&#8217;s O&#8217;Hare Field scheduled 114,370 flights. Nearly 10 percent, 1,136, were canceled.</em></p>
 <p id="scc9e-ch09-p-145" block_type="CR-X-NL">Check the newspaper&#8217;s arithmetic. What percent of scheduled flights from O&#8217;Hare were actually canceled?</p>
 </question>
-<question id="scc9e-ch09-ques-16">
-<p id="scc9e-ch09-p-146" block_type="CR-X-NL"><image asset-id="scc9e-ch09-img-9" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">9.16 How many miles do we drive?</phrase> Here is an excerpt from Robert Sullivan&#8217;s &#8220;A Slow-Road Movement?&#8221; in the Sunday magazine section of the <em>New York Times</em> on June 25, 2006:</p>
+<question id="scc9e-ch09-ques-16" block_type="exercise_9_16.html">
+<p id="scc9e-ch09-p-146" block_type="CR-X-NL"><image asset-id="scc9e-ch09-img-9" alt="image" src="asset/global_images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">9.16 How many miles do we drive?</phrase> Here is an excerpt from Robert Sullivan&#8217;s &#8220;A Slow-Road Movement?&#8221; in the Sunday magazine section of the <em>New York Times</em> on June 25, 2006:</p>
 <p id="scc9e-ch09-p-147" block_type="CR-X-NL"><em>In 1956, Americans drove 628 million miles; in 2002, 2.8 billion. . . . In 1997, according to the Department of Transportation, the Interstate System handled more than 1 trillion ton-miles of stuff, a feat executed by 21 million truckers driving approximately 412 billion miles.</em></p>
 <list id="scc9e-ch09-list-9" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch09-li-30"><p id="scc9e-ch09-p-149" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> There were at least 100 million drivers in the United States in 2002. How many miles per driver per year is 2.8 billion miles? Does this seem plausible?</p></li>
@@ -285,43 +278,43 @@
 </list>
 </question>
 <p id="scc9e_page_200" block_type="page_start" data-margin-content="left">200</p>
-<question id="scc9e-ch09-ques-17">
-<p id="scc9e-ch09-p-152" block_type="CR-X-NL"><image asset-id="scc9e-ch09-img-10" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">9.17 Battered women?</phrase> A letter to the editor of the <em>New York Times</em> complained about a <em>Times</em> editorial that said &#8220;an American woman is beaten by her husband or boyfriend every 15 seconds.&#8221; The writer of the letter claimed that &#8220;at that rate, 21 million women would be beaten by their husbands or boyfriends every year. That is simply not the case.&#8221; He cited the National Crime Victimization Survey, which estimated 56,000 cases of violence against women by their husbands and 198,000 by boyfriends or former boyfriends. The survey showed 2.2 million assaults against women in all, most by strangers or someone the woman knew who was not her past or present husband or boyfriend.</p>
+<question id="scc9e-ch09-ques-17" block_type="exercise_9_17.html">
+<p id="scc9e-ch09-p-152" block_type="CR-X-NL"><image asset-id="scc9e-ch09-img-10" alt="image" src="asset/global_images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">9.17 Battered women?</phrase> A letter to the editor of the <em>New York Times</em> complained about a <em>Times</em> editorial that said &#8220;an American woman is beaten by her husband or boyfriend every 15 seconds.&#8221; The writer of the letter claimed that &#8220;at that rate, 21 million women would be beaten by their husbands or boyfriends every year. That is simply not the case.&#8221; He cited the National Crime Victimization Survey, which estimated 56,000 cases of violence against women by their husbands and 198,000 by boyfriends or former boyfriends. The survey showed 2.2 million assaults against women in all, most by strangers or someone the woman knew who was not her past or present husband or boyfriend.</p>
 <list id="scc9e-ch09-list-10" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch09-li-33"><p id="scc9e-ch09-p-153" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> First do the arithmetic. Every 15 seconds is 4 per minute. At that rate, how many beatings would take place in an hour? In a day? In a year? Is the letter writer&#8217;s arithmetic correct?</p></li>
 <li id="scc9e-ch09-li-34"><p id="scc9e-ch09-p-154" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Is the letter writer correct to claim that the <em>Times</em> overstated the number of cases of domestic violence against women?</p></li>
 </list>
 </question>
-<question id="scc9e-ch09-ques-18">
-<p id="scc9e-ch09-p-155" block_type="CR-X-NL"><image asset-id="scc9e-ch09-img-11" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">9.18 We can read, but can we count?</phrase> The U.S. Census Bureau once gave a simple test of literacy in English to a random sample of 3400 people. The <em>New York Times</em> printed some of the questions under the headline &#8220;113&#37; of Adults in U.S. Failed This Test.&#8221; Why is the percent in the headline clearly wrong?</p>
+<question id="scc9e-ch09-ques-18" block_type="exercise_9_18.html">
+<p id="scc9e-ch09-p-155" block_type="CR-X-NL"><image asset-id="scc9e-ch09-img-11" alt="image" src="asset/global_images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">9.18 We can read, but can we count?</phrase> The U.S. Census Bureau once gave a simple test of literacy in English to a random sample of 3400 people. The <em>New York Times</em> printed some of the questions under the headline &#8220;113&#37; of Adults in U.S. Failed This Test.&#8221; Why is the percent in the headline clearly wrong?</p>
 </question>
-<question id="scc9e-ch09-ques-19">
+<question id="scc9e-ch09-ques-19" block_type="exercise_9_19.html">
 <p id="scc9e-ch09-p-156" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.19 Stocks go down.</phrase> On September 29, 2008, the Dow Jones Industrial Average dropped 778 points from its opening level of 11,143. This was the biggest one-day decline ever. By what percentage did the Dow drop that day? On October 28, 1929, the Dow Jones Industrial Average dropped 38 points from its opening level of 299. By what percentage did the Dow drop that day? This was the second-biggest one-day percentage drop ever.</p>
 </question>
-<question id="scc9e-ch09-ques-20">
+<question id="scc9e-ch09-ques-20" block_type="exercise_9_20.html">
 <p id="scc9e-ch09-p-157" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.20 Poverty.</phrase> The number of Americans living below the official poverty line increased from 24,975,000 to 45,318,000 in the 38 years between 1976 and 2013. What percentage increase was this? You should not conclude from these values alone that poverty became more common during this time period. Why not?</p>
 </question>
-<question id="scc9e-ch09-ques-21">
+<question id="scc9e-ch09-ques-21" block_type="exercise_9_21.html">
 <p id="scc9e-ch09-p-158" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.21 Reducing CO<sub>2</sub> emissions.</phrase> An online article reported the following:</p>
 <p id="scc9e-ch09-p-159" block_type="CR-X-NL"><em>In order to limit warming to two degrees Celsius and permit development, several developed countries would have to reduce their CO<sub>2</sub> emissions by more than 100 percent.</em></p>
 <p id="scc9e-ch09-p-160" block_type="CR-X-NL">Explain carefully why it is impossible to reduce anything by more than 100&#37;.</p>
 </question>
 <p id="scc9e_page_201" block_type="page_start" data-margin-content="right">201</p>
-<question id="scc9e-ch09-ques-22">
-<p id="scc9e-ch09-p-162" block_type="CR-X-NL"><image asset-id="scc9e-ch09-img-13" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">9.22 Are men more promiscuous?</phrase> Are men more promiscuous by nature than women? Surveys seem to bear this out, with men reporting more sexual partners than women.</p>
+<question id="scc9e-ch09-ques-22" block_type="exercise_9_22.html">
+<p id="scc9e-ch09-p-162" block_type="CR-X-NL"><image asset-id="scc9e-ch09-img-13" alt="image" src="asset/global_images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">9.22 Are men more promiscuous?</phrase> Are men more promiscuous by nature than women? Surveys seem to bear this out, with men reporting more sexual partners than women.</p>
 <p id="scc9e-ch09-p-163" block_type="CR-X-NL-lvl2">On August 12, 2007, the <em>New York Times</em> reported the following.</p>
 <p id="scc9e-ch09-p-164" block_type="CR-X-NL"><em>One survey, recently reported by the U.S. government, concluded that men had a median of seven female sex partners. Women had a median of four male sex partners. Another study, by British researchers, stated that men had 12.7 heterosexual partners in their lifetimes and women had 6.5.</em></p>
 <p id="scc9e-ch09-p-165" block_type="CR-X-NL">There is one mathematical problem with these results. What is this problem?</p>
 </question>
-<question id="scc9e-ch09-ques-23">
+<question id="scc9e-ch09-ques-23" block_type="exercise_9_23.html">
 <p id="scc9e-ch09-p-166" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.23 Don&#8217;t dare to drive?</phrase> A university sends a monthly newsletter on health to its employees. One issue included a column called &#8220;What Is the Chance?&#8221; that said:</p>
 <p id="scc9e-ch09-p-167" block_type="CR-X-NL"><em>Chance that you&#8217;ll die in a car accident this year: 1 in 75.</em></p>
 <p id="scc9e-ch09-p-168" block_type="CR-X-NL">There are about 310 million people in the United States. About 40,000 people die each year from motor vehicle accidents. What is the chance a typical person will die in a motor vehicle accident this year?</p>
 </question>
-<question id="scc9e-ch09-ques-24">
+<question id="scc9e-ch09-ques-24" block_type="exercise_9_24.html">
 <p id="scc9e-ch09-p-169" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.24 How many miles of highways?</phrase> <em>Organic Gardening</em> magazine once said that &#8220;the U.S. Interstate Highway System spans 3.9 million miles and is wearing out 50&#37; faster than it can be fixed. Continuous road deterioration adds &#36;7 billion yearly in fuel costs to motorists.&#8221; The distance from the east coast to the west coast of the United States is about 3000 miles. How many separate highways across the continent would be needed to account for 3.9 million miles of roads? What do you conclude about the number of miles in the interstate system?</p>
 </question>
-<question id="scc9e-ch09-ques-25">
+<question id="scc9e-ch09-ques-25" block_type="exercise_9_25.html">
 <p id="scc9e-ch09-p-170" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.25 In the garden.</phrase> <em>Organic Gardening</em> magazine, describing how to improve your garden&#8217;s soil, said, &#8220;Since a 6-inch layer of soil in a 100-square-foot plot weighs about 45,000 pounds, adding 230 pounds of compost will give you an instant 5&#37; organic matter.&#8221;</p>
 <list id="scc9e-ch09-list-11" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch09-li-35"><p id="scc9e-ch09-p-171" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What percent of 45,000 is 230?</p></li>
@@ -329,10 +322,10 @@
 <li id="scc9e-ch09-li-37"><p id="scc9e-ch09-p-173" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> It appears from part (b) that the 45,000 pounds isn&#8217;t right. In fact, soil weighs about 75 pounds per cubic foot. If we use the correct weight, is the &#8220;5&#37; organic matter&#8221; conclusion roughly correct?</p></li>
 </list>
 </question>
-<question id="scc9e-ch09-ques-26">
+<question id="scc9e-ch09-ques-26" block_type="exercise_9_26.html">
 <p id="scc9e-ch09-p-174" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.26 No eligible men?</phrase> A news report quotes a sociologist as saying that for every 233 unmarried women in their 40s in the United States, there are only 100 unmarried men in their 40s. These numbers point to an unpleasant social situation for women of that age. Are the numbers plausible? (<em>Optional:</em> The <em>Statistical Abstract of the United States</em> has a table titled &#8220;Marital status of the population by age and sex&#8221; that gives the actual counts.)</p>
 </question>
-<question id="scc9e-ch09-ques-27">
+<question id="scc9e-ch09-ques-27" block_type="exercise_9_27.html">
 <p id="scc9e-ch09-p-175" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.27 Too good to be true?</phrase> The late English psychologist Cyril Burt was known for his studies of the IQ scores of identical twins who were raised apart. The high correlation between the IQs of separated twins in Burt&#8217;s studies pointed to heredity as a major factor in IQ. (&#8220;Correlation&#8221; measures how closely two variables are connected. We will meet correlation in <link href="scc9e-ch14.xml">Chapter 14</link>.) Burt wrote several accounts of his work, adding more pairs of twins over time. Here are his reported correlations as he published them:</p>
 <table id="scc9e-ch09-untab-01" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
@@ -356,24 +349,23 @@
 <p id="scc9e-ch09-p-177" block_type="CR-X-NL">What is suspicious here?</p>
 </question>
 <p id="scc9e_page_202" block_type="page_start" data-margin-content="left">202</p>
-<question id="scc9e-ch09-ques-28">
+<question id="scc9e-ch09-ques-28" block_type="exercise_9_28.html">
 <p id="scc9e-ch09-p-178" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.28 Where you start matters.</phrase> When comparing numbers over time, you can slant the comparison by choosing your starting point. Say the Chicago Cubs lose five games, then win four, then lose one. You can truthfully say that the Cubs have lost 6 of their last 10 games (sounds bad) or that they have won 4 of their last 5 (sounds good).</p>
 <p id="scc9e-ch09-p-179" block_type="CR-X-NL">The following example can also be used to make numbers sound bad or good. The median income of American households (in dollars of 2013 buying power) was &#36;51,735 in 1990, &#36;56,800 in 2000, and &#36;51,939 in 2013. All three values are in dollars of 2013 buying power, which allows us to compare the numbers directly. By what percentage did household income increase between 1990 and 2013? Between 2000 and 2013? You see that you can make the income trend sound bad or good by choosing your starting point.</p>
 </question>
-<question id="scc9e-ch09-ques-29">
+<question id="scc9e-ch09-ques-29" block_type="exercise_9_29.html">
 <p id="scc9e-ch09-p-180" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.29 Being on top also matters.</phrase> The previous exercise noted that median household income decreased slightly between 2000 and 2013. The top 5&#37; of households earned &#36;196,440 or more in 2000 and &#36;196,000 or more in 2013. It is important to note that these amounts are both in dollars of 2013 buying power, which allows us to compare the numbers directly. By what percentage did the income of top earners decrease between 2000 and 2013? How does this compare with the percentage decrease in median household income between 2000 and 2013?</p>
 </question>
-<question id="scc9e-ch09-ques-30">
+<question id="scc9e-ch09-ques-30" block_type="exercise_9_30.html">
 <p id="scc9e-ch09-p-181" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">9.30 Boating safety.</phrase> Data on accidents in recreational boating in the U.S. Coast Guard&#8217;s <em>Recreational Boating Statistics Report</em> show that the number of deaths dropped from 676 in 2004 to 610 in 2013. The number of injuries reported also fell from 3363 in 2004 to 2678 in 2013. Why does it make sense that the number of deaths in these data is less than number of injuries? Which count (deaths or injuries) is probably more accurate?</p>
 </question>
-<question id="scc9e-ch09-ques-31">
-<p id="scc9e-ch09-p-182" block_type="CR-X-NL"><image asset-id="scc9e-ch09-img-12" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">9.31 Obesity and income.</phrase> An article in the November 3, 2009, issue of the <em>Guardian</em> reported, &#8220;A separate opinion poll yesterday suggested that 50&#37; of obese people earn less than the national average income.&#8221; Income has a distribution that is such that more than 50&#37; of all workers would earn less than the national average. Is this evidence that obese people tend to earn less than other workers?</p>
+<question id="scc9e-ch09-ques-31" block_type="exercise_9_31.html">
+<p id="scc9e-ch09-p-182" block_type="CR-X-NL"><image asset-id="scc9e-ch09-img-12" alt="image" src="asset/global_images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">9.31 Obesity and income.</phrase> An article in the November 3, 2009, issue of the <em>Guardian</em> reported, &#8220;A separate opinion poll yesterday suggested that 50&#37; of obese people earn less than the national average income.&#8221; Income has a distribution that is such that more than 50&#37; of all workers would earn less than the national average. Is this evidence that obese people tend to earn less than other workers?</p>
 </question>
 <box id="scc9e-ch09-box-21" numbered="false" block_type="exploring-web">
-<p id="scc9e-ch09-p-183" block_type="QRL icon"><image asset-id="scc9e-ch09-img-13" alt="image" src="images/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch09-p-183" block_type="QRL icon"><image asset-id="scc9e-ch09-img-13" alt="image" src="asset/global_images/SCC 9e new qrcode 2 17 16.jpg"/></p>
 <p id="scc9e-ch09-p-184" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
 <p id="scc9e-ch09-p-185" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
 </box>
 </section>
 </chapter>
-</manuscript>

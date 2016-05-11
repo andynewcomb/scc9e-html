@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manuscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML" manuscript-id="01" name="" title="Moore_Part_01" xsi:noNamespaceSchemaLocation="xsd/digfir_manuscript.xsd">
-<chapter id="scc9e-part01" number="1" title="PART I REVIEW" start-numbering-at="203" numbered="true">
+<chapter id="scc9e-part01" title="PART I REVIEW" numbered="false">
 <section id="scc9e-part01-sec-01" block_type="part" title="PART I REVIEW" numbered="false" level="1" print_page="203">
 <p id="scc9e_page_203" block_type="page_start" data-margin-content="right">203</p>
 <p id="scc9e-part01-p-01" block_type="PR-N">PART I REVIEW</p>
 <p id="scc9e-part01-p-02" block_type="PR-TXT-first"><phrase block_type="drop">T</phrase>he first and most important question to ask about any statistical study is &#8220;Where do the data come from?&#8217;&#8217; <link href="scc9e-ch01.xml">Chapter 1</link> addressed this question. The distinction between observational and experimental data is a key part of the answer. Good statistics starts with good designs for producing data. <link href="scc9e-ch02.xml">Chapters 2</link>, <link href="scc9e-ch03.xml">3</link>, and <link href="scc9e-ch04.xml">4</link> discussed sampling, the art of choosing part of a population to represent the whole. <link href="figure_I_1.html">Figure I.1</link> summarizes the big idea of a simple random sample. <link href="scc9e-ch05.xml">Chapters 5</link> and <link href="scc9e-ch06.xml">6</link> dealt with the statistical aspects of designing experiments, studies that impose some treatment in order to learn about the response. The big idea is the randomized comparative experiment. <link href="figure_I_2.html">Figure I.2</link> outlines the simplest design.</p>
-<figure id="scc9e-part01-fig-01" block_type="FIGURE" data-caption-compass="S" numbered="true" number="I.1" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-part01-fig-01" block_type="FIGURE" data-caption-compass="S" numbered="true" number="I.1" mmtype="image" mmsrc="" attr="" data-filename="figure_I_1.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-part01-img-01" alt="image" src="images/17MOORESCC-MSE_9e_fig_Part-I_01.jpg"/>
+<image asset-id="scc9e-part01-img-01" alt="image" src="asset/part1/17MOORESCC-MSE_9e_fig_Part-I_01.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure I.1</phrase> <phrase block_type="FG-CAP">The idea of a simple random sample.</phrase></caption>
 </figure>
-<figure id="scc9e-part01-fig-02" block_type="FIGURE" data-caption-compass="S" numbered="true" number="I.2" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-part01-fig-02" block_type="FIGURE" data-caption-compass="S" numbered="true" number="I.2" mmtype="image" mmsrc="" attr="" data-filename="figure_I_2.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-part01-img-02" alt="image" src="images/17MOORESCC-MSE_9e_fig_Part-I_02.jpg"/>
+<image asset-id="scc9e-part01-img-02" alt="image" src="asset/part1/17MOORESCC-MSE_9e_fig_Part-I_02.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure I.2</phrase> <phrase block_type="FG-CAP">The idea of a randomized comparative experiment.</phrase></caption>
 </figure>
 <p id="scc9e-part01-p-03" block_type="TXT">Random sampling and randomized comparative experiments are perhaps the most important statistical inventions of the twentieth century. Both were slow to gain acceptance, and you will still see many voluntary response samples and uncontrolled experiments. Both random samples and randomized experiments involve the deliberate use of chance to eliminate bias and produce a regular pattern of outcomes. The regular pattern allows us to give margins of error, make confidence statements, and assess the statistical significance of conclusions based on samples or experiments.</p>
@@ -68,7 +66,7 @@
 <section id="scc9e-part01-sec-03" block_type="PR-SUM-H" chapter="part1" numbered="false" level="1" print_page="205">
 <section-metadata><section-title><phrase block_type="PR-SUM-N-ri">PART I</phrase> REVIEW EXERCISES</section-title></section-metadata>
 <p id="scc9e-part01-p-37" block_type="PR-TXT-ni">Review exercises are short and straightforward exercises that help you solidify the basic ideas and skills in each part of this book. We have provided &#8220;hints&#8217;&#8217; that indicate where you can find the relevant material for the odd-numbered problems.</p>
-<question id="scc9e-part01-ques-01">
+<question id="scc9e-part01-ques-01" block_type="exercise_I_1.html">
 <p id="scc9e-part01-p-38" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.1 Know these terms.</phrase> A friend who knows no statistics has encountered some statistical terms in reading for her psychology course. Explain each of the following terms in one or two simple sentences.</p>
 <list id="scc9e-part01-list-06" type="ordered" block_type="lower-alpha">
 <li id="scc9e-part01-li-32"><p id="scc9e-part01-p-39" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Simple random sample. (<em>Hint</em>: See <link href="alias:page_24">pages 24</link>&#8211;<link href="alias:page_26">26</link>.)</p></li>
@@ -78,7 +76,7 @@
 </list>
 </question>
 <p id="scc9e_page_206" block_type="page_start" data-margin-content="left">206</p>
-<question id="scc9e-part01-ques-02">
+<question id="scc9e-part01-ques-02" block_type="exercise_I_2.html">
 <p id="scc9e-part01-p-43" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.2 Know these terms.</phrase> A friend who knows no statistics has encountered some statistical terms in her biology course. Explain each of the following terms in one or two simple sentences.</p>
 <list id="scc9e-part01-list-07" type="ordered" block_type="lower-alpha">
 <li id="scc9e-part01-li-36"><p id="scc9e-part01-p-44" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Observational study.</p></li>
@@ -87,10 +85,10 @@
 <li id="scc9e-part01-li-39"><p id="scc9e-part01-p-47" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> Matched pairs.</p></li>
 </list>
 </question>
-<question id="scc9e-part01-ques-03">
+<question id="scc9e-part01-ques-03" block_type="exercise_I_3.html">
 <p id="scc9e-part01-p-48" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.3 A biased sample.</phrase> A student plans to collect student opinions for a class assignment. He decides to post on his Facebook page a request for people to text him their opinions. Explain why this sampling method is almost certainly biased. (<em>Hint</em>: See <link href="alias:page_21">pages 21</link>&#8211;<link href="alias:page_24">24</link>.)</p>
 </question>
-<question id="scc9e-part01-ques-04">
+<question id="scc9e-part01-ques-04" block_type="exercise_I_4.html">
 <p id="scc9e-part01-p-49" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.4 Select an SRS.</phrase> A student at a large university wants to study the responses that students receive when calling an academic department for information. She selects an SRS of four departments from the following list for her study. Use software or Table A at line 115 to do this.</p>
 <p id="scc9e-part01-p-50" block_type="EXP-MCL">Accounting</p>
 <p id="scc9e-part01-p-51" block_type="EXP-MCL">Architecture</p>
@@ -123,7 +121,7 @@
 <p id="scc9e-part01-p-78" block_type="EXP-MCL">Sociology</p>
 <p id="scc9e-part01-p-79" block_type="EXP-MCL">Veterinary Science</p>
 </question>
-<question id="scc9e-part01-ques-05">
+<question id="scc9e-part01-ques-05" block_type="exercise_I_5.html">
 <p id="scc9e-part01-p-80" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.5 Select an SRS.</phrase> The faculty grievance system at a university specifies that a five-member hearing panel shall be drawn at random from the 25-member grievance committee. Use software or Table A at line 128 to draw an SRS of size four from the following committee members.</p>
 <p id="scc9e-part01-p-81" block_type="EXP-MCL">Anis</p>
 <p id="scc9e-part01-p-82" block_type="EXP-MCL">Atlas</p>
@@ -153,45 +151,45 @@
 <p id="scc9e-part01-p-106" block_type="EXP-MCL">(<em>Hint</em>: See <link href="alias:page_26">pages 26</link>&#8211;<link href="alias:page_29">29</link>.)</p>
 </question>
 <p id="scc9e_page_207" block_type="page_start" data-margin-content="right">207</p>
-<question id="scc9e-part01-ques-06">
+<question id="scc9e-part01-ques-06" block_type="exercise_I_6.html">
 <p id="scc9e-part01-p-107" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.6 Errors in surveys.</phrase> Give an example of a source of nonsampling error in a sample survey. Then give an example of a source of sampling error.</p>
 </question>
-<question id="scc9e-part01-ques-07">
+<question id="scc9e-part01-ques-07" block_type="exercise_I_7.html">
 <p id="scc9e-part01-p-108" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.7 Errors in surveys.</phrase> An overnight opinion poll calls randomly selected telephone numbers. This polling method misses all people without a phone. Is this a source of nonsampling error or of sampling error? Does the poll&#8217;s announced margin of error take this source of error into account? (<em>Hint</em>: See <link href="alias:page_64">pages 64</link>&#8211;<link href="alias:page_70">70</link>.)</p>
 </question>
-<question id="scc9e-part01-ques-08">
+<question id="scc9e-part01-ques-08" block_type="exercise_I_8.html">
 <p id="scc9e-part01-p-109" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.8 Errors in surveys.</phrase> A college chooses an SRS of 100 students from the registrar&#8217;s list of all undergraduates to interview about student life. If it selected two SRSs of 100 students at the same time, the two samples would give somewhat different results. Is this variation a source of sampling error or of nonsampling error? Does the survey&#8217;s announced margin of error take this source of error into account?</p>
 </question>
-<question id="scc9e-part01-ques-09">
+<question id="scc9e-part01-ques-09" block_type="exercise_I_9.html">
 <p id="scc9e-part01-p-110" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.9 Errors in surveys.</phrase> <link href="exercise_I_7.html">Exercises I.7</link> and <link href="exercise_I_8.html">I.8</link> each mention a source of error in a sample survey. Would each kind of error be reduced by doubling the size of the sample with no other changes in the survey procedures? Explain your answers. (<em>Hint</em>: See <link href="alias:page_43">pages 43</link>&#8211;<link href="alias:page_47">47</link> and <link href="alias:page_65">pages 65</link>&#8211;<link href="alias:page_70">70</link>.)</p>
 </question>
-<question id="scc9e-part01-ques-10">
+<question id="scc9e-part01-ques-10" block_type="exercise_I_10.html">
 <p id="scc9e-part01-p-111" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.10 Errors in surveys.</phrase> A Gallup Poll found that 46&#37; of American smartphone users agree with the statement, &#8220;I can&#8217;t imagine my life without my smartphone.&#8221; The Gallup press release says:</p>
 <p id="scc9e-part01-p-112" block_type="EXP-first"><em>Results of attitudes and behaviors of smartphone usage are based on 15,747 members of the Gallup Panel who have smartphones. . . . For results based on this sample, one can say that the margin of sampling error is &#177;1 percentage point at the 95&#37; confidence level.</em></p>
 <p id="scc9e-part01-p-113" block_type="CR-X-NL-lvl2">The release also points out that this margin of error is due only to sampling error. Give one example of a source of error in the poll result that is <em>not</em> included in this margin of error.</p>
 </question>
-<question id="scc9e-part01-ques-11">
-<p id="scc9e-part01-p-114" block_type="CR-X-NL"><image asset-id="scc9e-part01-img-03" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">I.11 Find the margin of error.</phrase> On April 24, 2015, &#8220;Bruce Jenner&#8212;The Interview&#8221; was aired. The interview was between Diane Sawyer and Bruce Jenner and discussed Jenner&#8217;s experience as a transgender person. Jenner came out to the public as Caitlyn Jenner on June 1, 2015. An NBC News Online Survey asked a national sample of 2153 adults aged 18 and over, &#8220;Caitlyn Jenner, the transgender Olympic champion formerly known as Bruce Jenner, recently revealed her transition on the cover of <em>Vanity Fair</em>. Do you think Caitlyn Jenner&#8217;s public transition will help society become more accepting of transgender people?&#8221; Twenty percent of those surveyed replied that Jenner&#8217;s public transition &#8220;will help a lot,&#8221; while 46&#37; responded &#8220;will help a little.&#8221;</p>
+<question id="scc9e-part01-ques-11" block_type="exercise_I_11.html">
+<p id="scc9e-part01-p-114" block_type="CR-X-NL"><image asset-id="scc9e-part01-img-03" alt="image" src="asset/global_images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">I.11 Find the margin of error.</phrase> On April 24, 2015, &#8220;Bruce Jenner&#8212;The Interview&#8221; was aired. The interview was between Diane Sawyer and Bruce Jenner and discussed Jenner&#8217;s experience as a transgender person. Jenner came out to the public as Caitlyn Jenner on June 1, 2015. An NBC News Online Survey asked a national sample of 2153 adults aged 18 and over, &#8220;Caitlyn Jenner, the transgender Olympic champion formerly known as Bruce Jenner, recently revealed her transition on the cover of <em>Vanity Fair</em>. Do you think Caitlyn Jenner&#8217;s public transition will help society become more accepting of transgender people?&#8221; Twenty percent of those surveyed replied that Jenner&#8217;s public transition &#8220;will help a lot,&#8221; while 46&#37; responded &#8220;will help a little.&#8221;</p>
 <list id="scc9e-part01-list-08" type="ordered" block_type="lower-alpha">
 <li id="scc9e-part01-li-40"><p id="scc9e-part01-p-115" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is the population for this 2015 survey? (<em>Hint</em>: See <link href="alias:page_8">pages 8</link>&#8211;<link href="alias:page_10">10</link>.)</p></li>
 <li id="scc9e-part01-li-41"><p id="scc9e-part01-p-116" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Assuming the 2015 survey used random sampling, use the quick and approximate method to find a margin of error. Then give a complete confidence statement for a conclusion about the population. (<em>Hint</em>: See <link href="alias:page_45">pages 45</link>&#8211;<link href="alias:page_47">47</link>.)</p></li>
 </list>
 </question>
 <p id="scc9e_page_208" block_type="page_start" data-margin-content="left">208</p>
-<question id="scc9e-part01-ques-12">
+<question id="scc9e-part01-ques-12" block_type="exercise_I_12.html">
 <p id="scc9e-part01-p-117" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.12 Find the margin of error.</phrase> A May 2015 Quinnipiac University Poll asked 2105 American adults (18 years and over), &#8220;As you may know, David Letterman has retired. Thinking about other late-night television talk show hosts who are currently on TV, who is your favorite?&#8221; Jimmy Fallon came out on top, with 20&#37; of Americans favoring him over others.</p>
 <list id="scc9e-part01-list-09" type="ordered" block_type="lower-alpha">
 <li id="scc9e-part01-li-42"><p id="scc9e-part01-p-118" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is the population for this sample survey?</p></li>
 <li id="scc9e-part01-li-43"><p id="scc9e-part01-p-119" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">(b)</phrase> Assuming the sample was a random sample, use the quick and approximate method to find a margin of error. Make a confidence statement about the opinion of the population.</p></li>
 </list>
 </question>
-<question id="scc9e-part01-ques-13">
+<question id="scc9e-part01-ques-13" block_type="exercise_I_13.html">
 <p id="scc9e-part01-p-120" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.13 What kind of sample?</phrase> At a party, there are 30 students over age 21 and 20 students under age 21. You choose at random six of those over 21 and separately choose at random four of those under 21 to interview about attitudes toward alcohol. You have given every student at the party the same chance to be interviewed: what is that chance? Why is your sample not an SRS? What is this kind of sample called? (<em>Hint</em>: See <link href="alias:page_24">pages 24</link>&#8211;<link href="alias:page_27">27</link> and pages <link href="alias:page_73">73</link>&#8211;<link href="alias:page_75">75</link>.)</p>
 </question>
-<question id="scc9e-part01-ques-14">
+<question id="scc9e-part01-ques-14" block_type="exercise_I_14.html">
 <p id="scc9e-part01-p-121" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.14 Design an experiment.</phrase> A university&#8217;s Department of Statistics wants to attract more majors. It prepares two advertising brochures. Brochure A stresses the intellectual excitement of statistics. Brochure B stresses how much money statisticians make. Which will be more attractive to first-year students? You have a questionnaire to measure interest in majoring in statistics, and you have 50 first-year students to work with. Outline the design of an experiment to decide which brochure works better.</p>
 </question>
-<question id="scc9e-part01-ques-15">
+<question id="scc9e-part01-ques-15" block_type="exercise_I_15.html">
 <p id="scc9e-part01-p-122" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.15 Design an experiment.</phrase> Gary and Greg share an apartment 10 miles from campus. Gary thinks that the fastest way to get to campus is to take the shortest route, which involves taking several side streets. Greg thinks the fastest way is to take the route with the highest speed limits, which involves taking the highway most of the way but is two miles longer than Gary&#8217;s route. You recruit 20 friends who are willing to try either method and time how long it takes them to arrive on campus. Outline the design of an experiment to decide which method takes less time. (<em>Hint</em>: See <link href="alias:page_98">pages 98</link>&#8211;<link href="alias:page_101">101</link>.)</p>
 <p id="scc9e-part01-p-123" block_type="cr-x-nl-lvl2"><link href="exercise_I_16.html">Exercises I.16</link> to <link href="exercise_I_19.html">I.19</link> are based on an article in the <em>Journal of the American Medical Association</em> that compares the use of antibiotics to treat uncomplicated acute appendicitis instead of surgery with an appendectomy. Here is information from the article&#8217;s summary:</p>
 <list id="scc9e-part01-list-10" type="unordered" block_type="none">
@@ -202,19 +200,19 @@
 </list>
 </question>
 <p id="scc9e_page_209" block_type="page_start" data-margin-content="right">209</p>
-<question id="scc9e-part01-ques-16">
+<question id="scc9e-part01-ques-16" block_type="exercise_I_16.html">
 <p id="scc9e-part01-p-128" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.16 Know these terms.</phrase> Explain in one sentence each what &#8220;randomized&#8217;&#8217; and &#8220;clinical trial&#8217;&#8217; mean in the description of the design of the study.</p>
 </question>
-<question id="scc9e-part01-ques-17">
+<question id="scc9e-part01-ques-17" block_type="exercise_I_17.html">
 <p id="scc9e-part01-p-129" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.17 Experiment basics.</phrase> Identify the subjects, the explanatory variable, and several response variables for this study. (<em>Hint</em>: See <link href="alias:page_93">pages 93</link>&#8211;<link href="alias:page_95">95</link>.)</p>
 </question>
-<question id="scc9e-part01-ques-18">
+<question id="scc9e-part01-ques-18" block_type="exercise_I_18.html">
 <p id="scc9e-part01-p-130" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.18 Design an experiment.</phrase> Use a diagram to outline the design of the experiment in this medical study.</p>
 </question>
-<question id="scc9e-part01-ques-19">
+<question id="scc9e-part01-ques-19" block_type="exercise_I_19.html">
 <p id="scc9e-part01-p-131" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.19 Ethics.</phrase> What are the three first principles of data ethics? Explain briefly what the medical study must do to apply each of these principles. (<em>Hint</em>: See <link href="alias:page_141">pages 141</link>&#8211;<link href="alias:page_143">143</link>.)</p>
 </question>
-<question id="scc9e-part01-ques-20">
+<question id="scc9e-part01-ques-20" block_type="exercise_I_20.html">
 <p id="scc9e-part01-p-132" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.20 Measuring.</phrase> Joni wants to measure the degree to which male college students belong to the political left. She decides simply to measure the length of their hair&#8211;longer hair will mean more left-wing.</p>
 <list id="scc9e-part01-list-11" type="ordered" block_type="lower-alpha">
 <li id="scc9e-part01-li-48"><p id="scc9e-part01-p-133" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">(a)</phrase> Is this method likely to be reliable? Why?</p></li>
@@ -222,10 +220,10 @@
 <li id="scc9e-part01-li-50"><p id="scc9e-part01-p-135" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">(c)</phrase> Nevertheless, it is possible that measuring politics by hair length might have some predictive validity. Explain how this could happen.</p></li>
 </list>
 </question>
-<question id="scc9e-part01-ques-21">
+<question id="scc9e-part01-ques-21" block_type="exercise_I_21.html">
 <p id="scc9e-part01-p-136" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.21 Reliability.</phrase> You are laboring through a chemistry laboratory assignment in which you measure the conductivity of a solution. What does it mean for your measurement to be reliable? How can you improve the reliability of your final result? (<em>Hint</em>: See <link href="alias:page_174">pages 174</link>&#8211;<link href="alias:page_178">178</link>.)</p>
 </question>
-<question id="scc9e-part01-ques-22">
+<question id="scc9e-part01-ques-22" block_type="exercise_I_22.html">
 <p id="scc9e-part01-p-137" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.22 Observation or experiment?</phrase> The Nurses&#8217; Health Study has queried a sample of more than 100,000 female registered nurses every two years since 1976. Beginning in 1980, the study asked questions about diet, including alcohol consumption. The researchers concluded that &#8220;light-to-moderate drinkers had a significantly lower risk of death&#8217;&#8217; than either nondrinkers or heavy drinkers.</p>
 <list id="scc9e-part01-list-12" type="ordered" block_type="lower-alpha">
 <li id="scc9e-part01-li-51"><p id="scc9e-part01-p-138" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">(a)</phrase> Is the Nurses&#8217; Health Study an observational study or an experiment? Why?</p></li>
@@ -233,7 +231,7 @@
 <li id="scc9e-part01-li-53"><p id="scc9e-part01-p-140" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">(c)</phrase> Suggest some lurking variables that might explain why moderate drinkers have lower death rates than nondrinkers. (The study did adjust for these variables.)</p></li>
 </list>
 </question>
-<question id="scc9e-part01-ques-23">
+<question id="scc9e-part01-ques-23" block_type="exercise_I_23.html">
 <p id="scc9e-part01-p-141" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.23 Observation or experiment?</phrase> In a study of the relationship between physical fitness and personality, middle-aged college faculty who have volunteered for an exercise program are divided into low-fitness and high-fitness groups on the basis of a physical examination. All subjects then take a personality test. The high-fitness group has a higher average score for &#8220;self-confidence.&#8217;&#8217;</p>
 <list id="scc9e-part01-list-13" type="ordered" block_type="lower-alpha">
 <li id="scc9e-part01-li-54"><p id="scc9e-part01-p-142" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">(a)</phrase> Is this an observational study or an experiment? Why? (<em>Hint</em>: See <link href="alias:page_7">pages 7</link>&#8211;<link href="alias:page_8">8</link> and <link href="alias:page_12">12</link>&#8211;<link href="alias:page_24">24</link>.)</p></li>
@@ -241,17 +239,17 @@
 </list>
 </question>
 <p id="scc9e_page_210" block_type="page_start" data-margin-content="left">210</p>
-<question id="scc9e-part01-ques-24">
+<question id="scc9e-part01-ques-24" block_type="exercise_I_24.html">
 <p id="scc9e-part01-p-144" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.24 Percents up and down.</phrase> Between January 14, 2015, and July 14, 2015, the average price of regular gasoline increased from &#36;2.08 per gallon to &#36;2.78 per gallon.</p>
 <list id="scc9e-part01-list-14" type="ordered" block_type="lower-alpha">
 <li id="scc9e-part01-li-56"><p id="scc9e-part01-p-145" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">(a)</phrase> Verify that this is a 34&#37; increase in price.</p></li>
 <li id="scc9e-part01-li-57"><p id="scc9e-part01-p-146" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">(b)</phrase> If the price of gasoline decreases by 34&#37; from its July 14, 2015, level of &#36;2.78 per gallon, what would be the new price? Notice that a 34&#37; increase followed by a 34&#37; decrease does not take us back to the starting point.</p></li>
 </list>
 </question>
-<question id="scc9e-part01-ques-25">
+<question id="scc9e-part01-ques-25" block_type="exercise_I_25.html">
 <p id="scc9e-part01-p-147" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.25 Percentage decrease.</phrase> On Monday, September 10, 2001 (the day before the September 11 attacks), the NASDAQ stock index closed the day at 1695. By the end of Monday, September 17, 2001 (the first full day of trading after the attacks), the NASDAQ stock index had dropped to 1580. By what percentage did the index drop? (<em>Hint</em>: See <link href="alias:page_193">pages 193</link>&#8211;<link href="alias:page_196">196</link>.)</p>
 </question>
-<question id="scc9e-part01-ques-26">
+<question id="scc9e-part01-ques-26" block_type="exercise_I_26.html">
 <p id="scc9e-part01-p-148" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">I.26 An implausible number?</phrase> <em>Newsweek</em> once said in a story that a woman who is not currently married at age 40 has a better chance of being killed by a terrorist than of getting married. Do you think this is plausible? What kind of data would help you check this claim?</p>
 </question>
 </section>
@@ -286,4 +284,3 @@
 </question>
 </section>
 </chapter>
-</manuscript>

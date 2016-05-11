@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manuscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML" manuscript-id="07" name="" title="Moore_Chapter_07" xsi:noNamespaceSchemaLocation="xsd/digfir_manuscript.xsd">
-<chapter id="scc9e-ch07" number="7" title="Chapter 7: Data Ethics" start-numbering-at="141" numbered="true">
+<chapter id="scc9e-ch07" number="7" title="Chapter 7: Data Ethics" start-numbering-at="7" numbered="true">
 <section id="scc9e-ch07-sec-01" block_type="chapter" title="Data Ethics" numbered="false" level="1" print_page="141">
 <p id="scc9e-ch07-p-01" block_type="CN">7</p>
 <p id="scc9e-ch07-p-02" block_type="CT">Data Ethics</p>
 <p id="scc9e-ch07-p-03" block_type="page_start" data-margin-content="right">141</p>
 <figure id="scc9e-ch07-unfig-01" block_type="CO-PH-CL" numbered="false" mmtype="image" mmsrc="" attr="">
 <layout align="right" width="medium" border="false"/>
-<image asset-id="scc9e-ch07-img-01" alt="image" src="images/17MOORESCC-MSE_9e_CO07.jpg"/>
+<image asset-id="scc9e-ch07-img-01" alt="image" src="asset/ch7/17MOORESCC-MSE_9e_CO07.jpg"/>
 <asset_source><phrase block_type="PH-CL">Andrew Watson/Photolibrary/Getty Images</phrase></asset_source>
 </figure>
 <box id="scc9e-ch07-box-01" numbered="false" block_type="BX4-H-ri">
@@ -19,7 +17,7 @@
 <section-metadata><section-title>First principles</section-title></section-metadata>
 <p id="scc9e-ch07-p-06" block_type="TXT-ni">The production and use of data, like all human endeavors, raise ethical questions. We won&#8217;t discuss the telemarketer who begins a telephone sales pitch with &#8220;I&#8217;m conducting a survey,&#8221; when the goal is to sell you something rather than collect useful information. Such deception is clearly unethical. It enrages legitimate survey organizations, which find the public less willing to talk with them. Neither will we discuss those few researchers who, in the pursuit of professional advancement, publish fake data. There is no ethical question here&#8212;faking data to advance your career is just wrong. It will end your career when uncovered. But just how honest must researchers be about real, unfaked data? Here is an example that suggests the answer is &#8220;More honest than they often are.&#8221;</p>
 <p id="scc9e-ch07-p-07" block_type="page_start" data-margin-content="left">142</p>
-<box id="scc9e-ch07-box-02" numbered="false" block_type="EXP">
+<box id="scc9e-ch07-box-02" numbered="false" block_type="EXP" data-filename="example_7_1.html">
 <p id="scc9e-ch07-p-08" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 1</phrase> Missing details</p>
 <p id="scc9e-ch07-p-09" block_type="EXP-first">Papers reporting scientific research are supposed to be short, with no extra baggage. Brevity can allow the researchers to avoid complete honesty about their data. Did they choose their subjects in a biased way? Did they report data on only some of their subjects? Did they try several statistical analyses and report only the ones that supported what the researchers hoped to find? The statistician John Bailar screened more than 4000 medical papers in more than a decade as consultant to the <em>New England Journal of Medicine</em>. He says, &#8220;When it came to the statistical review, it was often clear that critical information was lacking, and the gaps nearly always had the practical effect of making the authors&#8217; conclusions look stronger than they should have.&#8221; The situation is no doubt worse in fields that screen published work less carefully. </p>
 </box>
@@ -42,7 +40,7 @@
 <p id="scc9e-ch07-p-21" block_type="TXT">The most pressing issue concerning institutional review boards is whether their workload has become so large that their effectiveness in protecting subjects drops. When the government temporarily stopped human-subject research at Duke University Medical Center in 1999 due to inadequate protection of subjects, more than 2000 studies at Duke were in progress. That&#8217;s a lot of review work. There are shorter review procedures for projects that involve only minimal risks to subjects, such as most sample surveys. When a board is overloaded, there is a temptation to put more proposals in the minimal-risk category to speed the work.</p>
 <box id="scc9e-ch07-box-04" numbered="false" block_type="BX2">
 <p id="scc9e-ch07-p-22" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch07-ques-01">
+<question id="scc9e-ch07-ques-01" block_type="exercise_7_1.html">
 <p id="scc9e-ch07-p-23" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">7.1 Does this really need to be reviewed?</phrase> A college professor would like to investigate a new method for teaching statistics. He teaches two lectures. He will use the standard approach to teaching in one lecture and the new approach in the other. Should he seek institutional review board approval before proceeding? </p>
 </question>
 </box>
@@ -51,7 +49,7 @@
 <section-metadata><section-title>Informed consent</section-title></section-metadata>
 <p id="scc9e-ch07-p-24" block_type="page_start" data-margin-content="left">144</p>
 <p id="scc9e-ch07-p-25" block_type="TXT-ni">Both words in the phrase &#8220;informed consent&#8221; are important, and both can be controversial. Subjects must be <em>informed</em> in advance about the nature of a study and any risk of harm it may bring. In the case of a sample survey, physical harm is not possible. The subjects should be told what kinds of questions the survey will ask and about how much of their time it will take. Experimenters must tell subjects the nature and purpose of the study and outline possible risks. Subjects must then <em>consent,</em> usually in writing.</p>
-<box id="scc9e-ch07-box-05" numbered="false" block_type="EXP">
+<box id="scc9e-ch07-box-05" numbered="false" block_type="EXP" data-filename="example_7_2.html">
 <p id="scc9e-ch07-p-26" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> Who can consent?</p>
 <p id="scc9e-ch07-p-27" block_type="EXP-first">Are there some subjects who can&#8217;t give informed consent? It was once common, for example, to test new vaccines on prison inmates who gave their consent in return for good-behavior credit. Now we worry that prisoners are not really free to refuse, and the law forbids medical experiments in prisons.</p>
 <p id="scc9e-ch07-p-28" block_type="EXP-mid">Children can&#8217;t give fully informed consent, so the usual procedure is to ask their parents. A study of new ways to teach reading is about to start at a local elementary school, so the study team sends consent forms home to parents. Many parents don&#8217;t return the forms. Can their children take part in the study because the parents did not say No, or should we allow only children whose parents returned the form and said Yes?</p>
@@ -60,13 +58,13 @@
 </box>
 <box id="scc9e-ch07-box-06" numbered="false" block_type="BX2">
 <p id="scc9e-ch07-p-31" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch07-ques-02">
+<question id="scc9e-ch07-ques-02" block_type="exercise_7_2.html">
 <p id="scc9e-ch07-p-32" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">7.2 Informed consent? </phrase>A 72-year-old man with multiple sclerosis is hospitalized. His doctor feels he may need to be placed on a feeding tube soon to ensure adequate nourishment. He asks the patient about this in the morning and the patient agrees. However, in the evening (before the tube has been placed), the patient becomes disoriented and seems confused about his decision to have the feeding tube placed. He tells the doctor he doesn&#8217;t want it in. The doctor revisits the question in the morning, when the patient is again lucid. Unable to recall his state of mind from the previous evening, the patient again agrees to the procedure. Do you believe the patient has given informed consent to the procedure?</p>
 </question>
 </box>
 <p id="scc9e-ch07-p-33" block_type="page_start" data-margin-content="right">145</p>
 <box id="scc9e-ch07-box-07" numbered="false" block_type="margin-statistics">
-<p id="scc9e-ch07-p-34" block_type="MN-TXT"><image asset-id="scc9e-ch07-img-02" alt="image" src="images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">Statisticians, honest and dishonest</phrase> Developed nations rely on government statisticians to produce honest data. We trust the monthly unemployment rate, for example, to guide both public and private decisions. Honesty can&#8217;t be taken for granted, however. In 1998, the Russian government arrested the top statisticians in the State Committee for Statistics. They were accused of taking bribes to fudge data to help companies avoid taxes. &#8220;It means that we know nothing about the performance of Russian companies,&#8221; said one newspaper editor.</p>
+<p id="scc9e-ch07-p-34" block_type="MN-TXT"><image asset-id="scc9e-ch07-img-02" alt="image" src="asset/global_images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">Statisticians, honest and dishonest</phrase> Developed nations rely on government statisticians to produce honest data. We trust the monthly unemployment rate, for example, to guide both public and private decisions. Honesty can&#8217;t be taken for granted, however. In 1998, the Russian government arrested the top statisticians in the State Committee for Statistics. They were accused of taking bribes to fudge data to help companies avoid taxes. &#8220;It means that we know nothing about the performance of Russian companies,&#8221; said one newspaper editor.</p>
 </box>
 <p id="scc9e-ch07-p-35" block_type="TXT">The difficulties of informed consent do not vanish even for capable subjects. Some researchers, especially in medical trials, regard consent as a barrier to getting patients to participate in research. They may not explain all possible risks; they may not point out that there are other therapies that might be better than those being studied; they may be too optimistic when talking with patients even when the consent form has all the right details. On the other hand, mentioning every possible risk leads to very long consent forms that really are barriers. &#8220;They are like rental car contracts,&#8221; one lawyer said. Some subjects don&#8217;t read forms that run five or six printed pages. Others are frightened by the large number of possible (but unlikely) disasters that might happen and so refuse to participate. Of course, unlikely disasters sometimes happen. When they do, lawsuits follow, and the consent forms become yet longer and more detailed.</p>
 </section>
@@ -74,26 +72,26 @@
 <section-metadata><section-title>Confidentiality</section-title></section-metadata>
 <p id="scc9e-ch07-p-36" block_type="TXT-ni">Ethical problems do not disappear once a study has been cleared by the review board, has obtained consent from its subjects, and has actually collected data about the subjects. It is important to protect the subjects&#8217; privacy by keeping all data about individuals confidential. The report of an opinion poll may say what percentage of the 1500 respondents felt that legal immigration should be reduced. It may not report what <em>you</em> said about this or any other issue.</p>
 <p id="scc9e-ch07-p-37" block_type="TXT">Confidentiality is not the same as <strong>anonymity</strong>. Anonymity means that subjects are anonymous&#8212;their names are not known even to the director of the study. It is not possible to determine which subject produced which data. Anonymity is rare in statistical studies. Even where anonymity is possible (mainly in surveys conducted by mail), it prevents any follow-up to improve nonresponse or inform subjects of results.</p>
-<figure id="scc9e-ch07-unfig-02" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch07-unfig-02" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="7_17MOORESCC-MSE_9e_Car_07_01.html">
 <layout align="right" width="small" border="false"/>
-<image asset-id="scc9e-ch07-img-03" alt="image" src="images/17MOORESCC-MSE_9e_Car_07_01.jpg"/>
+<image asset-id="scc9e-ch07-img-03" alt="image" src="asset/ch7/17MOORESCC-MSE_9e_Car_07_01.jpg"/>
 </figure>
 <p id="scc9e-ch07-p-38" block_type="TXT">Any breach of confidentiality is a serious violation of data ethics. The best practice is to separate the identity of the subjects from the rest of the data at once. Sample surveys, for example, use the identification only to check on who did or did not respond. In an era of advanced technology, however, it is no longer enough to be sure that each individual set of data protects people&#8217;s privacy. The U.S. government, for example, maintains a vast amount of information about citizens in many separate databases&#8212;census responses, tax returns, Social Security information, data from surveys such as the Current Population Survey, and so on. Many of these databases can be searched by computers for statistical studies. A clever computer search of several databases might be able, by combining information, to identify you and learn a great deal about you, even if your name and other identification have been removed from the data available for search. A colleague from Germany once remarked that &#8220;female full professor of statistics with a PhD from the United States&#8221; was enough to identify her among all the 83 million residents of Germany. Privacy and confidentiality of data are hot issues among statisticians in the computer age. Computer hacking and thefts of laptops containing data add to the difficulties. Is it even possible to guarantee confidentiality of data stored in databases that can be hacked or stolen? <link href="figure_7_1.html">Figure 7.1</link> displays the Internet privacy policy that appears on the Social Security website.</p>
 <p id="scc9e-ch07-p-39" block_type="page_start" data-margin-content="left">146</p>
-<box id="scc9e-ch07-box-08" numbered="false" block_type="EXP">
+<box id="scc9e-ch07-box-08" numbered="false" block_type="EXP" data-filename="example_7_3.html">
 <p id="scc9e-ch07-p-40" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> Use of government databases</p>
 <p id="scc9e-ch07-p-41" block_type="EXP-ni">Citizens are required to give information to the government. Think of tax returns and Social Security contributions, for example, in the United States. The government needs these data for administrative purposes&#8212;to see if we paid the right amount of tax and how large a Social Security benefit we are owed when we retire. Some people feel that individuals should be able to forbid any other use of their data, even with all identification removed. This would prevent using government records to study, say, the ages, incomes, and household sizes of Social Security recipients. Such a study could well be vital to debates on reforming Social Security.</p>
 </box>
 <box id="scc9e-ch07-box-09" numbered="false" block_type="BX2">
 <p id="scc9e-ch07-p-42" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch07-ques-03">
+<question id="scc9e-ch07-ques-03" block_type="exercise_7_3.html">
 <p id="scc9e-ch07-p-43" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">7.3 Anonymous or confidential?</phrase> A website describes one of its procedures for HIV testing as completely private. Your results are delivered to you and no one else&#8212;nothing is reported to your insurance or placed on your medical records. Does this practice offer anonymity or confidentiality? </p>
 </question>
 </box>
 <p id="scc9e-ch07-p-44" block_type="page_start" data-margin-content="right">147</p>
-<figure id="scc9e-ch07-fig-01" block_type="FIGURE" data-caption-compass="S" numbered="true" number="7.1" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch07-fig-01" block_type="FIGURE" data-caption-compass="S" numbered="true" number="7.1" mmtype="image" mmsrc="" attr="" data-filename="figure_7_1.html">
 <layout align="center" width="medium" border="true"/>
-<image asset-id="scc9e-ch07-img-04" alt="image" src="images/17MOORESCC-MSE_9e_fig_07_02.jpg"/>
+<image asset-id="scc9e-ch07-img-04" alt="image" src="asset/ch7/17MOORESCC-MSE_9e_fig_07_02.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 7.1</phrase> <phrase block_type="FG-CAP">The privacy policy of the government&#8217;s Social Security Administration website. (Source: Social Security Administration.)</phrase></caption>
 </figure>
 </section>
@@ -107,10 +105,10 @@
 <li id="scc9e-ch07-li-03"><p id="scc9e-ch07-p-49" block_type="BL-first"><phrase block_type="maker">&#8226;</phrase> Both medical ethics and international human rights standards say that &#8220;the interests of the subject must always prevail over the interests of science and society.&#8221;</p></li>
 </list>
 <box id="scc9e-ch07-box-10" numbered="false" block_type="margin-statistics">
-<p id="scc9e-ch07-p-50" block_type="MN-TXT"><image asset-id="scc9e-ch07-img-05" alt="image" src="images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">Who owns published data?</phrase> A researcher gathers data and publishes it. Who owns the data? The U.S. Supreme Court has ruled that &#8220;data&#8221; are facts and cannot be copyrighted. However, compilations of facts are generally copyrightable. So the answer to who owns data is not always clear. No permission is required for the use of published data or the creative use of a subset of data. Data from a table used to make a graphical presentation or data read off a graph can be used freely without permission. But beyond these guidelines, there is tremendous variation in determining whether permission is needed.</p>
+<p id="scc9e-ch07-p-50" block_type="MN-TXT"><image asset-id="scc9e-ch07-img-05" alt="image" src="asset/global_images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">Who owns published data?</phrase> A researcher gathers data and publishes it. Who owns the data? The U.S. Supreme Court has ruled that &#8220;data&#8221; are facts and cannot be copyrighted. However, compilations of facts are generally copyrightable. So the answer to who owns data is not always clear. No permission is required for the use of published data or the creative use of a subset of data. Data from a table used to make a graphical presentation or data read off a graph can be used freely without permission. But beyond these guidelines, there is tremendous variation in determining whether permission is needed.</p>
 </box>
 <p id="scc9e-ch07-p-51" block_type="TXT-ni">The quoted words are from the 1964 Helsinki Declaration of the World Medical Association, the most respected international standard. The most outrageous examples of unethical experiments are those that ignore the interests of the subjects.</p>
-<box id="scc9e-ch07-box-11" numbered="false" block_type="EXP">
+<box id="scc9e-ch07-box-11" numbered="false" block_type="EXP" data-filename="example_7_4.html">
 <p id="scc9e-ch07-p-52" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> The Tuskegee syphilis study</p>
 <p id="scc9e-ch07-p-53" block_type="EXP-ni">In the 1930s, syphilis was common among black men in the rural South of the United States, a group that had almost no access to medical care. The Public Health Service recruited 399 poor black sharecroppers with syphilis and 201 others without the disease in order to observe how syphilis progressed when no treatment was given. Beginning in 1943, penicillin became available to treat syphilis. However, the study subjects were not treated, even after penicillin became a standard treatment for syphilis. In fact, the Public Health Service tried to prevent any treatment until word leaked out and forced an end to the study in 1972.</p>
 <p id="scc9e-ch07-p-54" block_type="EXP-mid">The Tuskegee study is an extreme example of investigators following their own interests and ignoring the well-being of their subjects. A 1996 review said, &#8220;It has come to symbolize racism in medicine, ethical misconduct in human research, paternalism by physicians, and government abuse of vulnerable people.&#8221; In 1997, President Clinton formally apologized to the surviving participants in a White House ceremony.</p>
@@ -120,12 +118,12 @@
 <p id="scc9e-ch07-p-57" block_type="page_start" data-margin-content="right">149</p>
 <p id="scc9e-ch07-p-58" block_type="EXT-TXT"><em>On the one hand, there must be sufficient belief in the agent&#8217;s potential to justify exposing half the subjects to it. On the other hand, there must be sufficient doubt about its efficacy to justify withholding it from the other half of subjects who might be assigned to placebos. </em></p>
 <p id="scc9e-ch07-p-59" block_type="TXT">Why is it ethical to give a control group of patients a placebo? Well, we know that placebos often work. Patients on placebos often show real improvement. What is more, placebos have no harmful side effects. So in the state of balancing belief and doubt described by Dr. Hennekens, the placebo group may be getting a better treatment than the drug group. If we <em>knew</em> which treatment was better, we would give it to everyone. When we don&#8217;t know, it is ethical to try both and compare them. Here are some harder questions about placebos, with arguments on both sides.</p>
-<box id="scc9e-ch07-box-12" numbered="false" block_type="EXP">
+<box id="scc9e-ch07-box-12" numbered="false" block_type="EXP" data-filename="example_7_5.html">
 <p id="scc9e-ch07-p-60" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 5</phrase> Placebo controls?</p>
 <p id="scc9e-ch07-p-61" block_type="EXP-ni">You are testing a new drug. Is it ethical to give a placebo to a control group if an effective drug already exists?</p>
-<figure id="scc9e-ch07-unfig-03" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch07-unfig-03" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="7_17MOORESCC-MSE_9e_P_07_01.html">
 <layout align="right" width="small" border="false"/>
-<image asset-id="scc9e-ch07-img-06" alt="image" src="images/17MOORESCC-MSE_9e_P_07_01.jpg"/>
+<image asset-id="scc9e-ch07-img-06" alt="image" src="asset/ch7/17MOORESCC-MSE_9e_P_07_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">Ron Chapple Stock/Corbis</phrase></asset_source>
 </figure>
 <list id="scc9e-ch07-list-02" type="unordered" block_type="none">
@@ -134,7 +132,7 @@
 </list>
 </box>
 <p id="scc9e-ch07-p-64" block_type="page_start" data-margin-content="left">150</p>
-<box id="scc9e-ch07-box-13" numbered="false" block_type="EXP">
+<box id="scc9e-ch07-box-13" numbered="false" block_type="EXP" data-filename="example_7_6.html">
 <p id="scc9e-ch07-p-65" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 6</phrase> Sham surgery</p>
 <p id="scc9e-ch07-p-66" block_type="EXP-ni">&#8220;Randomized, double-blind, placebo-controlled trials are the gold standard for evaluating new interventions and are routinely used to assess new medical therapies.&#8221; So says an article in the <em>New England Journal of Medicine</em> that discusses the treatment of Parkinson&#8217;s disease. The article isn&#8217;t about the new treatment, which offers hope of reducing the tremors and lack of control brought on by the disease, but about the ethics of studying the treatment.</p>
 <p id="scc9e-ch07-p-67" block_type="EXP-mid">The law requires well-designed experiments to show that new drugs work and are safe. Not so with surgery&#8212;only about 7&#37; of studies of surgery use randomized comparisons. Surgeons think their operations succeed, but innovators always think their innovations work. Even if the patients are helped, the placebo effect may deserve most of the credit. So we don&#8217;t really know whether many common surgeries are worth the risk they carry. To find out, do a proper experiment. That includes a &#8220;sham surgery&#8221; to serve as a placebo. In the case of Parkinson&#8217;s disease, the promising treatment involves surgery to implant new cells. The placebo subjects get the same surgery, but the cells are not implanted.</p>
@@ -155,7 +153,7 @@
 </box>
 <box id="scc9e-ch07-box-15" numbered="false" block_type="BX2">
 <p id="scc9e-ch07-p-78" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch07-ques-04">
+<question id="scc9e-ch07-ques-04" block_type="exercise_7_4.html">
 <p id="scc9e-ch07-p-79" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">7.4 Ethics and scientific research.</phrase> The authors of a paper on clinical research and ethics stated the following. </p>
 <p id="scc9e-ch07-p-80" block_type="EXT-TXT"><em>For a clinical research protocol to be ethical, the methods must be valid and practically feasible: the research must have a clear scientific objective; be designed using accepted principles, methods, and reliable practices; have sufficient power to definitively test the objective; and offer a plausible data analysis plan. In addition, it must be possible to execute the proposed study.</em></p>
 <p id="scc9e-ch07-p-81" block_type="BX2-QUE">Do you think this rules out observational studies as &#8220;ethical&#8221;?</p>
@@ -166,7 +164,7 @@
 <section-metadata><section-title>Behavioral and social science experiments</section-title></section-metadata>
 <p id="scc9e-ch07-p-82" block_type="TXT-ni">When we move from medicine to the behavioral and social sciences, the direct risks to experimental subjects are less acute, but so are the possible benefits to the subjects. Consider, for example, the experiments conducted by psychologists in their study of human behavior.</p>
 <p id="scc9e-ch07-p-83" block_type="page_start" data-margin-content="left">152</p>
-<box id="scc9e-ch07-box-16" numbered="false" block_type="EXP">
+<box id="scc9e-ch07-box-16" numbered="false" block_type="EXP" data-filename="example_7_7.html">
 <p id="scc9e-ch07-p-84" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 7</phrase> Keep out of my space</p>
 <p id="scc9e-ch07-p-85" block_type="EXP-ni">Psychologists observe that people have a &#8220;personal space&#8221; and get annoyed if others come too close to them. We don&#8217;t like strangers to sit at our table in a coffee shop if other tables are available, and we see people move apart in elevators if there is room to do so. Americans tend to require more personal space than people in most other cultures. Can violations of personal space have physical, as well as emotional, effects?</p>
 <p id="scc9e-ch07-p-86" block_type="EXP-mid">Investigators set up shop in a men&#8217;s public restroom. They blocked off urinals to force men walking in to use either a urinal next to an experimenter (treatment group) or a urinal separated from the experimenter (control group). Another experimenter, using a periscope from a toilet stall, measured how long the subject took to start urinating and how long he kept at it. </p>
@@ -179,7 +177,7 @@
 <p id="scc9e-ch07-p-90" block_type="TXT">The &#8220;Ethical Principles&#8221; of the American Psychological Association require consent unless a study merely observes behavior in a public place. They allow deception only when it is necessary to the study, does not hide information that might influence a subject&#8217;s willingness to participate, and is explained to subjects as soon as possible. The personal space study of <link href="example_7_7.html">Example 7</link> (from the 1970s) does not meet current ethical standards.</p>
 <p id="scc9e-ch07-p-91" block_type="TXT">We see that the basic requirement for informed consent is understood differently in medicine and psychology. Here is an example of another setting with yet another interpretation of what is ethical. The subjects get no information and give no consent. They don&#8217;t even know that an experiment may be sending them to jail for the night.</p>
 <p id="scc9e-ch07-p-92" block_type="page_start" data-margin-content="right">153</p>
-<box id="scc9e-ch07-box-17" numbered="false" block_type="EXP">
+<box id="scc9e-ch07-box-17" numbered="false" block_type="EXP" data-filename="example_7_8.html">
 <p id="scc9e-ch07-p-93" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 8</phrase> Domestic violence</p>
 <p id="scc9e-ch07-p-94" block_type="EXP-ni">How should police respond to domestic violence calls? In the past, the usual practice was to remove the offender and order the offender to stay out of the household overnight. Police were reluctant to make arrests because the victims rarely pressed charges. Women&#8217;s groups argued that arresting offenders would help prevent future violence even if no charges were filed. Is there evidence that arrest will reduce future offenses? That&#8217;s a question that experiments have tried to answer.</p>
 <p id="scc9e-ch07-p-95" block_type="EXP-mid">A typical domestic violence experiment compares two treatments: arrest the suspect and hold him overnight or warn the suspect and release him. When police officers reach the scene of a domestic violence call, they calm the participants and investigate. Weapons or death threats require an arrest. If the facts permit an arrest but do not require it, an officer radios headquarters for instructions. The person on duty opens the next envelope in a file prepared in advance by a statistician. The envelopes contain the treatments in random order. The police either arrest the suspect or warn and release him, depending on the contents of the envelope. The researchers then monitor police records and visit the victim to see if the domestic violence reoccurs.</p>
@@ -196,7 +194,7 @@
 <li id="scc9e-ch07-li-12"><p id="scc9e-ch07-p-101" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> All information about individual subjects must be kept <strong>confidential</strong>.</p></li>
 </list>
 <p id="scc9e-ch07-p-102" block_type="page_start" data-margin-content="left">154</p>
-<p id="scc9e-ch07-p-103" block_type="SUM-TXT"><image asset-id="scc9e-ch07-img-07" alt="image" src="images/LinkIt.jpg"/> The production and use of data to make decisions, like all human endeavors, raise ethical questions. In real-world applications of statistics, these must be addressed as part of the process of reasoning from data to a conclusion. The principles discussed in this chapter are a good start in addressing these questions, but many ethical debates remain, especially in the area of experiments with humans. Many of the debates concern the right balance between the welfare of the subjects and the future benefits of the experiment. Remember that randomized comparative experiments can answer questions that can&#8217;t be answered without them. Also remember that &#8220;the interests of the subject must always prevail over the interests of science and society.&#8221;</p>
+<p id="scc9e-ch07-p-103" block_type="SUM-TXT"><image asset-id="scc9e-ch07-img-07" alt="image" src="asset/global_images/LinkIt.jpg"/> The production and use of data to make decisions, like all human endeavors, raise ethical questions. In real-world applications of statistics, these must be addressed as part of the process of reasoning from data to a conclusion. The principles discussed in this chapter are a good start in addressing these questions, but many ethical debates remain, especially in the area of experiments with humans. Many of the debates concern the right balance between the welfare of the subjects and the future benefits of the experiment. Remember that randomized comparative experiments can answer questions that can&#8217;t be answered without them. Also remember that &#8220;the interests of the subject must always prevail over the interests of science and society.&#8221;</p>
 <box id="scc9e-ch07-box-18" numbered="false" block_type="case_title">
 <p id="scc9e-ch07-p-104" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> Use what you have learned in this chapter to evaluate the Case Study that opened the chapter. In particular, do the following.</p>
 <list id="scc9e-ch07-list-06" type="ordered" block_type="numbered">
@@ -205,7 +203,7 @@
 </list>
 </box>
 <box id="scc9e-ch07-box-19" numbered="false" block_type="launchpad">
-<p id="scc9e-ch07-p-107" block_type="CR-BIB-T"><image asset-id="scc9e-ch07-img-08" alt="image" src="images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<p id="scc9e-ch07-p-107" block_type="CR-BIB-T"><image asset-id="scc9e-ch07-img-08" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
 <list id="scc9e-ch07-list-07" type="unordered" block_type="redbullet">
 <li id="scc9e-ch07-li-15"><p id="scc9e-ch07-p-108" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The StatBoards Video <em>Informed Consent and Psychological Experimentation</em> discusses a real example involving issues of informed consent.</p></li>
 </list>
@@ -214,7 +212,7 @@
 <section id="scc9e-ch07-sec-09" block_type="CR-X-H" chapter="ch7" numbered="false" level="1" print_page="154">
 <section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
 <p id="scc9e-ch07-p-109" block_type="CR-X"><em>For <link href="exercise_7_1.html">Exercise 7.1</link>, see page 143; for <link href="exercise_7_2.html">Exercise 7.2</link>, see page 144; for <link href="exercise_7_3.html">Exercise 7.3</link>, see page 146; for <link href="exercise_7_4.html">Exercise 7.4</link>, see page 151.</em></p>
-<question id="scc9e-ch07-ques-05">
+<question id="scc9e-ch07-ques-05" block_type="exercise_7_5.html">
 <p id="scc9e-ch07-p-110" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.5 Institutional review board.</phrase> The purpose of an institutional review board is </p>
 <list id="scc9e-ch07-list-08" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch07-li-16"><p id="scc9e-ch07-p-111" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> to decide whether a proposed study will produce valuable information.</p></li>
@@ -223,7 +221,7 @@
 <li id="scc9e-ch07-li-19"><p id="scc9e-ch07-p-114" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> all of the above.</p></li>
 </list>
 </question>
-<question id="scc9e-ch07-ques-06">
+<question id="scc9e-ch07-ques-06" block_type="exercise_7_6.html">
 <p id="scc9e-ch07-p-115" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.6 Informed consent.</phrase> Informed consent should include </p>
 <list id="scc9e-ch07-list-09" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch07-li-20"><p id="scc9e-ch07-p-116" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> consent by the subject, usually in writing.</p></li>
@@ -233,7 +231,7 @@
 </list>
 </question>
 <p id="scc9e-ch07-p-120" block_type="page_start" data-margin-content="right">155</p>
-<question id="scc9e-ch07-ques-07">
+<question id="scc9e-ch07-ques-07" block_type="exercise_7_7.html">
 <p id="scc9e-ch07-p-121" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.7 Confidentiality?</phrase> If, in a study, it is not possible to determine which subjects produced which data, we would say </p>
 <list id="scc9e-ch07-list-10" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch07-li-24"><p id="scc9e-ch07-p-122" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the subjects are anonymous.</p></li>
@@ -242,7 +240,7 @@
 <li id="scc9e-ch07-li-27"><p id="scc9e-ch07-p-125" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> the study is blind, but not double-blind.</p></li>
 </list>
 </question>
-<question id="scc9e-ch07-ques-08">
+<question id="scc9e-ch07-ques-08" block_type="exercise_7_8.html">
 <p id="scc9e-ch07-p-126" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.8 Clinical trials.</phrase> A clinical trial is </p>
 <list id="scc9e-ch07-list-11" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch07-li-28"><p id="scc9e-ch07-p-127" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> an observational study held in a controlled, clinical environment.</p></li>
@@ -251,7 +249,7 @@
 <li id="scc9e-ch07-li-31"><p id="scc9e-ch07-p-130" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> the review, by a court, of ethical violations in medical studies.</p></li>
 </list>
 </question>
-<question id="scc9e-ch07-ques-09">
+<question id="scc9e-ch07-ques-09" block_type="exercise_7_9.html">
 <p id="scc9e-ch07-p-131" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.9 Ethics.</phrase> Which of the following would be considered unethical in an experiment? </p>
 <list id="scc9e-ch07-list-12" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch07-li-32"><p id="scc9e-ch07-p-132" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Failure to obtain informed consent from subjects</p></li>
@@ -264,7 +262,7 @@
 <section id="scc9e-ch07-sec-10" block_type="CR-X-H-v1" chapter="ch5" numbered="false" level="1" print_page="155">
 <section-metadata><section-title>CHAPTER 7 EXERCISES</section-title></section-metadata>
 <p id="scc9e-ch07-p-136" block_type="CR-X-NL">Most of the exercises in this chapter pose issues for discussion. There are no right or wrong answers, but there are more and less thoughtful answers.</p>
-<question id="scc9e-ch07-ques-10">
+<question id="scc9e-ch07-ques-10" block_type="exercise_7_10.html">
 <p id="scc9e-ch07-p-137" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.10 Minimal risk?</phrase> You are a member of your college&#8217;s institutional review board. You must decide whether several research proposals qualify for less rigorous review because they involve only minimal risk to subjects. Federal regulations say that &#8220;minimal risk&#8221; means the risks are no greater than &#8220;those ordinarily encountered in daily life or during the performance of routine physical or psychological examinations or tests.&#8221; That&#8217;s vague. Which of these do you think qualifies as &#8220;minimal risk&#8221;? Explain your reasoning. </p>
 <list id="scc9e-ch07-list-13" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch07-li-36"><p id="scc9e-ch07-p-138" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Take hair and nail clippings in a nondisfiguring manner.</p></li>
@@ -274,7 +272,7 @@
 <li id="scc9e-ch07-li-40"><p id="scc9e-ch07-p-142" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(e)</phrase> Take extra specimens from a subject who is undergoing an invasive clinical procedure such as a bronchoscopy (a procedure in which a physician views the inside of the airways for diagnostic and therapeutic purposes using an instrument that is inserted into the airways, usually through the nose or mouth).</p></li>
 </list>
 </question>
-<question id="scc9e-ch07-ques-11">
+<question id="scc9e-ch07-ques-11" block_type="exercise_7_11.html">
 <p id="scc9e-ch07-p-143" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.11 Who serves on the review board?</phrase> Government regulations require that institutional review boards consist of at least five people, including at least one scientist, one nonscientist, and one person from outside the institution. Most boards are larger, but many contain just one outsider.</p>
 <list id="scc9e-ch07-list-14" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch07-li-41"><p id="scc9e-ch07-p-144" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Why should review boards contain people who are not scientists?</p></li>
@@ -282,17 +280,17 @@
 </list>
 </question>
 <p id="scc9e-ch07-p-146" block_type="page_start" data-margin-content="left">156</p>
-<question id="scc9e-ch07-ques-12">
+<question id="scc9e-ch07-ques-12" block_type="exercise_7_12.html">
 <p id="scc9e-ch07-p-147" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.12 Institutional review boards.</phrase> If your college or university has an institutional review board that screens all studies that use human subjects, get a copy of the document that describes this board (you can probably find it online). At larger institutions, you may find multiple institutional review boards&#8212;for example, separate boards for medical studies and for studies in the social sciences. </p>
 <list id="scc9e-ch07-list-15" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch07-li-43"><p id="scc9e-ch07-p-148" block_type="CR-X-NL"><phrase block_type="maker">(a)</phrase> According to this document, what are the duties of the board?</p></li>
 <li id="scc9e-ch07-li-44"><p id="scc9e-ch07-p-149" block_type="CR-X-NL"><phrase block_type="maker">(b)</phrase> How are members of the board chosen? How many members are not scientists? How many members are not employees of the institution? Do these members have some special expertise, or are they simply members of the &#8220;general public&#8221;?</p></li>
 </list>
 </question>
-<question id="scc9e-ch07-ques-13">
+<question id="scc9e-ch07-ques-13" block_type="exercise_7_13.html">
 <p id="scc9e-ch07-p-150" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.13 Informed consent.</phrase> A researcher suspects that people who are abused as children tend to be more prone to severe depression as young adults. She prepares a questionnaire that measures depression and that also asks many personal questions about childhood experiences. Write a description of the purpose of this research to be read by subjects in order to obtain their informed consent. You must balance the conflicting goals of not deceiving the subjects as to what the questionnaire will tell about them and of not biasing the sample by scaring off people with painful childhood experiences.</p>
 </question>
-<question id="scc9e-ch07-ques-14">
+<question id="scc9e-ch07-ques-14" block_type="exercise_7_14.html">
 <p id="scc9e-ch07-p-151" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.14 Is consent needed?</phrase> In which of the following circumstances would you allow collecting personal information without the subjects&#8217; consent? Why?</p>
 <list id="scc9e-ch07-list-16" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch07-li-45"><p id="scc9e-ch07-p-152" block_type="CR-X-NL"><phrase block_type="maker">(a)</phrase> A government agency takes a random sample of income tax returns to obtain information on the marital status and average income of people who identify themselves as belonging to an ultraconservative political group. Only the marital status and income are recorded from the returns, not the names.</p></li>
@@ -300,7 +298,7 @@
 <li id="scc9e-ch07-li-47"><p id="scc9e-ch07-p-154" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> A social psychologist pretends to be converted to membership in an ultraconservative political group and attends private meetings to study the behavior patterns of members.</p></li>
 </list>
 </question>
-<question id="scc9e-ch07-ques-15">
+<question id="scc9e-ch07-ques-15" block_type="exercise_7_15.html">
 <p id="scc9e-ch07-p-155" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.15 Coercion?</phrase> The U.S. Department of Health and Human Services regulations for informed consent state that &#8220;An investigator shall seek such consent only under circumstances that provide the prospective subject or the representative sufficient opportunity to consider whether or not to participate and that minimize the possibility of coercion or undue influence.&#8221; Coercion occurs when an overt or implicit threat of harm is intentionally presented by one person to another in order to obtain compliance. Which of the following circumstances do you believe constitutes coercion? Discuss. </p>
 <list id="scc9e-ch07-list-17" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch07-li-48"><p id="scc9e-ch07-p-156" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> An investigator tells a prospective subject that she or he will lose access to needed health services if she or he does not participate in the research.</p></li>
@@ -308,7 +306,7 @@
 </list>
 </question>
 <p id="scc9e-ch07-p-158" block_type="page_start" data-margin-content="right">157</p>
-<question id="scc9e-ch07-ques-16">
+<question id="scc9e-ch07-ques-16" block_type="exercise_7_16.html">
 <p id="scc9e-ch07-p-159" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.16 Undue influence?</phrase> Undue influence in obtaining informed consent often occurs through an offer of an excessive or inappropriate reward or other overture in order to obtain compliance. Which of the following circumstances do you believe constitutes undue influence? Discuss. </p>
 <list id="scc9e-ch07-list-18" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch07-li-50"><p id="scc9e-ch07-p-160" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The patients of a physician are asked to participate in a study in which the physician is also the investigator.</p></li>
@@ -316,34 +314,34 @@
 <li id="scc9e-ch07-li-52"><p id="scc9e-ch07-p-162" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Research subjects are paid in exchange for their participation.</p></li>
 </list>
 </question>
-<question id="scc9e-ch07-ques-17">
+<question id="scc9e-ch07-ques-17" block_type="exercise_7_17.html">
 <p id="scc9e-ch07-p-163" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.17 Students as subjects.</phrase> Students taking Psychology 001 are required to serve as experimental subjects. Students in Psychology 002 are not required to serve, but they are given extra credit if they do so. Students in Psychology 003 are required either to sign up as subjects or to write a term paper. Serving as an experimental subject may be educational, but current ethical standards frown on using &#8220;dependent subjects&#8221; such as prisoners or charity medical patients. Students are certainly somewhat dependent on their teachers. Do you object to any of these course policies? If so, which ones, and why?</p>
 </question>
-<question id="scc9e-ch07-ques-18">
+<question id="scc9e-ch07-ques-18" block_type="exercise_7_18.html">
 <p id="scc9e-ch07-p-164" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.18 How common is HIV infection?</phrase> Researchers from Yale University, working with medical teams in Tanzania, wanted to know how common infection with the AIDS virus is among pregnant women in that African country. To do this, they planned to test blood samples drawn from pregnant women.</p>
 <p id="scc9e-ch07-p-165" block_type="CR-X-NL">Yale&#8217;s institutional review board insisted that the researchers get the informed consent of each woman and tell her the results of the test. This is the usual procedure in developed nations. The Tanzanian government did not want to tell the women why blood was drawn or tell them the test results. The government feared panic if many people turned out to have an incurable disease for which the country&#8217;s medical system could not provide care. The study was canceled. Do you think that Yale was right to apply its usual standards for protecting subjects? Explain your answer.</p>
 </question>
-<question id="scc9e-ch07-ques-19">
+<question id="scc9e-ch07-ques-19" block_type="exercise_7_19.html">
 <p id="scc9e-ch07-p-166" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.19 Anonymous or confidential?</phrase> One of the most important nongovernment surveys in the United States is the General Social Survey (see <link href="example_1_7.html">Example 7</link> in <link href="scc9e-ch01.xml">Chapter 1</link>). The GSS regularly monitors public opinion on a wide variety of political and social issues. Interviews are conducted in person in the subject&#8217;s home. Are a subject&#8217;s responses to GSS questions anonymous, confidential, or both? Explain your answer. You may wish to visit the GSS website at <link href="http://www.gss.norc.org">gss.norc.org</link></p>
 </question>
 <p id="scc9e-ch07-p-167" block_type="page_start" data-margin-content="left">158</p>
-<question id="scc9e-ch07-ques-20">
+<question id="scc9e-ch07-ques-20" block_type="exercise_7_20.html">
 <p id="scc9e-ch07-p-168" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.20 Anonymous or confidential?</phrase> The website for <link href="http://www.STDHELP.org">STDHELP.org</link> contains the following information about one method offered for HIV testing: &#8220;The clinic will require you to provide some information that allows them to deliver your results. Typically a random numeric code is used for identification, and your name or social security number are never used in the process. There are no written results that are documented . . .&#8221; Does this practice offer anonymity or just confidentiality?</p>
 </question>
-<question id="scc9e-ch07-ques-21">
+<question id="scc9e-ch07-ques-21" block_type="exercise_7_21.html">
 <p id="scc9e-ch07-p-169" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.21 Anonymous or confidential?</phrase> A website is looking for volunteers for a research study involving methicillin-resistant <em>Staphylococcus aureus</em> (MRSA), a bacterial infection that is highly resistant to some antibiotics. The website contains the following information about the study: &#8220;The Alliance for the Prudent Use of Antibiotics is looking for individuals who have or have had MRSA to fill out an anonymous survey and provide suggestions on how to improve treatment. The survey will help us to find out more about the concerns of people affected by MRSA . . .&#8221; Following the announcement is a web link that takes you to the questionnaire. Does this study really provide anonymity or just confidentiality? Explain your answer.</p>
 </question>
-<question id="scc9e-ch07-ques-22">
+<question id="scc9e-ch07-ques-22" block_type="exercise_7_22.html">
 <p id="scc9e-ch07-p-170" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.22 Sunshine laws.</phrase> All states in the United States have open records laws, sometimes known as &#8220;Sunshine Laws,&#8221; that give citizens access to government meetings and records. This includes, for example, reports of crimes and recordings of 911 calls. Crime reports will include the names of anyone accused of the crime. Suppose a 10-year-old juvenile is accused of committing a crime. A reporter from the local newspaper asks for a copy of the crime report. The sheriff refuses to provide the report because the accused is a juvenile and he believes the name of the accused should be confidential. Is this an issue of confidentiality? Discuss.</p>
 </question>
-<question id="scc9e-ch07-ques-23">
+<question id="scc9e-ch07-ques-23" block_type="exercise_7_23.html">
 <p id="scc9e-ch07-p-171" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.23 https.</phrase> Generally, secure websites use encryption and authentication standards to protect the confidentiality of web transactions. The most commonly used protocol for web security has been TLS, or Transport Layer Security. This technology is still commonly referred to as SSL. Websites with addresses beginning with https use this protocol. Do you believe that https websites provide true confidentially? Do you think it is possible to guarantee the confidentiality of data on any website? Discuss.</p>
 </question>
-<question id="scc9e-ch07-ques-24">
+<question id="scc9e-ch07-ques-24" block_type="exercise_7_24.html">
 <p id="scc9e-ch07-p-172" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.24 Not really anonymous.</phrase> Some common practices may appear to offer anonymity while actually delivering only confidentiality. Market researchers often use mail surveys that do not ask the respondent&#8217;s identity but contain hidden codes on the questionnaire that identify the respondent. A false claim of anonymity is clearly unethical. If only confidentiality is promised, is it also unethical to say nothing about the identifying code, perhaps causing respondents to believe their replies are anonymous?</p>
 </question>
 <p id="scc9e-ch07-p-173" block_type="page_start" data-margin-content="right">159</p>
-<question id="scc9e-ch07-ques-25">
+<question id="scc9e-ch07-ques-25" block_type="exercise_7_25.html">
 <p id="scc9e-ch07-p-174" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.25 Human biological materials.</phrase> Long ago, doctors drew a blood specimen from you as part of treating minor anemia. Unknown to you, the sample was stored. Now researchers plan to use stored samples from you and many other people to look for genetic factors that may influence anemia. It is no longer possible to ask your consent because you are no longer alive. Modern technology can read your entire genetic makeup from the blood sample.</p>
 <list id="scc9e-ch07-list-19" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch07-li-53"><p id="scc9e-ch07-p-175" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Do you think it violates the principle of informed consent to use your blood sample if your name is on it but you were not told that it might be saved and studied later?</p></li>
@@ -351,26 +349,26 @@
 <li id="scc9e-ch07-li-55"><p id="scc9e-ch07-p-177" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Perhaps we should use biological materials such as blood samples only from patients who have agreed to allow the material to be stored for later use in research. It isn&#8217;t possible to say in advance what kind of research, so this falls short of the usual standard for informed consent. Is this practice nonetheless acceptable, given complete confidentiality and the fact that using the sample can&#8217;t physically harm the patient?</p></li>
 </list>
 </question>
-<question id="scc9e-ch07-ques-26">
+<question id="scc9e-ch07-ques-26" block_type="exercise_7_26.html">
 <p id="scc9e-ch07-p-178" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.26 Equal treatment.</phrase> Researchers on depression proposed to investigate the effect of supplemental therapy and counseling on the quality of life of adults with depression. Eligible patients on the rolls of a large medical clinic were to be randomly assigned to treatment and control groups. The treatment group would be offered dental care, vision testing, transportation, and other services not available without charge to the control group. The review board felt that providing these services to some but not other persons in the same institution raised ethical questions. Do you agree? Explain your answer.</p>
 </question>
-<question id="scc9e-ch07-ques-27">
+<question id="scc9e-ch07-ques-27" block_type="exercise_7_27.html">
 <p id="scc9e-ch07-p-179" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.27 Sham surgery?</phrase> Clinical trials like the Parkinson&#8217;s disease study mentioned in <link href="example_7_6.html">Example 6</link> are becoming more common. One medical researcher says, &#8220;This is just the beginning. Tomorrow, if you have a new procedure, you will have to do a double-blind placebo trial.&#8221; <link href="example_7_6.html">Example 6</link> outlines the arguments for and against testing surgery just as drugs are tested. When would you allow sham surgery in a clinical trial of a new surgery?</p>
 </question>
-<question id="scc9e-ch07-ques-28">
+<question id="scc9e-ch07-ques-28" block_type="exercise_7_28.html">
 <p id="scc9e-ch07-p-180" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.28 The Willowbrook hepatitis studies.</phrase> In the 1960s, children entering the Willowbrook State School, an institution for the mentally retarded, were deliberately infected with hepatitis. The researchers argued that almost all children in the institution quickly became infected anyway. The studies showed for the first time that two strains of hepatitis existed. This finding contributed to the development of effective vaccines. Despite these valuable results, the Willowbrook studies are now considered an example of unethical research. Explain why, according to current ethical standards, useful results are not enough to allow a study.</p>
 </question>
-<question id="scc9e-ch07-ques-29">
+<question id="scc9e-ch07-ques-29" block_type="exercise_7_29.html">
 <p id="scc9e-ch07-p-181" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.29 AIDS clinical trials.</phrase> Now that effective treatments for AIDS are at last available, is it ethical to test treatments that may be less effective? Combinations of several powerful drugs reduce the level of HIV in the blood and at least delay illness and death from AIDS. But effectiveness depends on how damaged the patient&#8217;s immune system is and what drugs he or she has previously taken. There are strong side effects, and patients must be able to take more than a dozen pills on time every day. Because AIDS is often fatal and the combination therapy works, we might argue that it isn&#8217;t ethical to test any new treatment for AIDS that might possibly be less effective. But that might prevent discovery of better treatments. This is a strong example of the conflict between doing the best we know for patients now and finding better treatments for other patients in the future. How can we ethically test new drugs for AIDS?</p>
 </question>
 <p id="scc9e-ch07-p-182" block_type="page_start" data-margin-content="left">160</p>
-<question id="scc9e-ch07-ques-30">
+<question id="scc9e-ch07-ques-30" block_type="exercise_7_30.html">
 <p id="scc9e-ch07-p-183" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.30 AIDS trials in Africa.</phrase> Effective drugs for treating AIDS are very expensive, so most African nations cannot afford to give them to large numbers of people. Yet AIDS is more common in parts of Africa than anywhere else. A few clinical trials are looking at ways to prevent pregnant mothers infected with HIV from passing the infection to their unborn children, a major source of HIV infections in Africa. Some people say these trials are unethical because they do not give effective AIDS drugs to their subjects, as would be required in rich nations. Others reply that the trials are looking for treatments that can work in the real world in Africa and that they promise benefits at least to the children of their subjects. What do you think?</p>
 </question>
-<question id="scc9e-ch07-ques-31">
+<question id="scc9e-ch07-ques-31" block_type="exercise_7_31.html">
 <p id="scc9e-ch07-p-184" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.31 AIDS trials in Africa.</phrase> One of the most important goals of AIDS research is to find a vaccine that will protect against HIV. Because AIDS is so common in parts of Africa, that is the easiest place to test a vaccine. It is likely, however, that a vaccine would be so expensive that it could not (at least at first) be widely used in Africa. Is it ethical to test in Africa if the benefits go mainly to rich countries? The treatment group of subjects would get the vaccine, and the placebo group would later be given the vaccine if it proved effective. So the actual subjects would benefit&#8212;it is the future benefits that would go elsewhere. What do you think? Explain your answer.</p>
 </question>
-<question id="scc9e-ch07-ques-32">
+<question id="scc9e-ch07-ques-32" block_type="exercise_7_32.html">
 <p id="scc9e-ch07-p-185" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.32 Opinion polls.</phrase> The congressional campaigns are in full swing, and the candidates have hired polling organizations to take regular polls to find out what the voters think about the issues. What information should the pollsters be required to give out?</p>
 <list id="scc9e-ch07-list-20" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch07-li-56"><p id="scc9e-ch07-p-186" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What does the standard of informed consent, as discussed in this chapter, require the pollsters to tell potential respondents?</p></li>
@@ -379,36 +377,35 @@
 </list>
 </question>
 <p id="scc9e-ch07-p-189" block_type="page_start" data-margin-content="right">161</p>
-<question id="scc9e-ch07-ques-33">
+<question id="scc9e-ch07-ques-33" block_type="exercise_7_33.html">
 <p id="scc9e-ch07-p-190" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.33 A right to know?</phrase> Some people think that the law should require that all political poll results be made public. Otherwise, the possessors of poll results can use the information to their own advantage. They can act on the information, release only selected parts of it, or time the release for best effect. A candidate&#8217;s organization replies that they are paying for the poll in order to gain information for their own use, not to amuse the public. Do you favor requiring complete disclosure of political poll results? What about other private surveys, such as market research surveys of consumer tastes?</p>
 </question>
-<question id="scc9e-ch07-ques-34">
+<question id="scc9e-ch07-ques-34" block_type="exercise_7_34.html">
 <p id="scc9e-ch07-p-191" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.34 Telling the government.</phrase> The 2010 census was a short-form-only census. The decennial long form was eliminated. The American Community Survey (ACS) replaced the long form in 2010 and will collect long-form-type information throughout the decade rather than only once every 10 years. The 2010 ACS asked detailed questions, for example: </p>
 <p id="scc9e-ch07-p-192" block_type="CR-X-NL"><em>Does this house, apartment, or mobile home have a) hot and cold piped water?; b) a flush toilet?; c) a bathtub or shower?; d) a sink or faucet?; e) a stove or range?; f) a refrigerator?; and g) telephone service from which you can both make and receive calls? Include cell phones.</em> </p>
 <p id="scc9e-ch07-p-193" block_type="CR-X-NL">The form also asked for individual income in dollars, broken down by source, and whether any &#8220;physical, mental, or emotional condition&#8221; caused the respondent difficulty in &#8220;concentrating, remembering, or making decisions.&#8221;</p>
 <p id="scc9e-ch07-p-194" block_type="CR-X-NL">Give brief arguments for and against the use of the ACS form: the government has legitimate uses for such information, but the questions seem to invade people&#8217;s privacy.</p>
 </question>
-<question id="scc9e-ch07-ques-35">
+<question id="scc9e-ch07-ques-35" block_type="exercise_7_35.html">
 <p id="scc9e-ch07-p-195" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.35 Charging for data?</phrase> Data produced by the government are often available free or at low cost to private users. For example, satellite weather data produced by the U.S. National Weather Service are available free to TV stations for their weather reports and to anyone on the Web. <em>Opinion 1: Government data should be available to everyone at minimal cost.</em> European governments, on the other hand, charge TV stations for weather data. <em>Opinion 2: The satellites are expensive, and the TV stations are making a profit from their weather services, so they should share the cost.</em> Which opinion do you support, and why?</p>
 </question>
-<question id="scc9e-ch07-ques-36">
+<question id="scc9e-ch07-ques-36" block_type="exercise_7_36.html">
 <p id="scc9e-ch07-p-196" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.36 Surveys of youth.</phrase> The Centers for Disease Control and Prevention, in a survey of teenagers, asked the subjects if they had ever had sexual intercourse. Males who said Yes were then asked, &#8220;That very first time that you had sexual intercourse with a female, how old were you?&#8221; and &#8220;Please tell me the name or initials of your first sexual partner so that I can refer to her during the interview.&#8221; Should consent of parents be required to ask minors about sex, drugs, and other such issues, or is consent of the minors themselves enough? Give reasons for your opinion.</p>
 </question>
-<question id="scc9e-ch07-ques-37">
+<question id="scc9e-ch07-ques-37" block_type="exercise_7_37.html">
 <p id="scc9e-ch07-p-197" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.37 Deceiving subjects.</phrase> Students sign up to be subjects in a psychology experiment. When they arrive, they are placed in a room and assigned a task. During the task, the subject hears a loud thud from an adjacent room and then a piercing cry for help. Some subjects are placed in a room by themselves. Others are placed in a room with &#8220;confederates&#8221; who have been instructed by the researcher to look up upon hearing the cry, then return to their task. The treatments being compared are whether the subject is alone in the room or in the room with confederates. Will the subject ignore the cry for help?</p>
 <p id="scc9e-ch07-p-198" block_type="CR-X-NL">The students had agreed to take part in an unspecified study, and the true nature of the experiment is explained to them afterward. Do you think this study is ethically okay?</p>
 </question>
 <p id="scc9e-ch07-p-199" block_type="page_start" data-margin-content="left">162</p>
-<question id="scc9e-ch07-ques-38">
+<question id="scc9e-ch07-ques-38" block_type="exercise_7_38.html">
 <p id="scc9e-ch07-p-200" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">7.38 Tempting subjects.</phrase> A psychologist conducts the following experiment: he measures the attitude of subjects toward cheating, then has them take a mathematics skills exam in which the subjects are tempted to cheat. Subjects are told that high scores will receive a &#36;100.00 gift certificate and that the purpose of the experiment is to see if rewards affect performance. The exam is computer-based and multiple choice. Subjects are left alone in a room with a computer on which the exam is available and are told that they are to click on the answer they believe is correct. However, when subjects click on an answer, a small pop-up window appears with the correct answer indicated. When the pop-up window is closed, it is possible to change the answer selected. The computer records&#8212;unknown to the subjects&#8212;whether or not they change their answers after closing the pop-up window. After completing the exam, attitude toward cheating is retested.</p>
 <p id="scc9e-ch07-p-201" block_type="CR-X-NL">Subjects who cheat tend to change their attitudes to find cheating more acceptable. Those who resist the temptation to cheat tend to condemn cheating more strongly on the second test of attitude. These results confirm the psychologist&#8217;s theory.</p>
 <p id="scc9e-ch07-p-202" block_type="CR-X-NL">This experiment tempts subjects to cheat. The subjects are led to believe that they can cheat secretly when, in fact, they are observed. Is this experiment ethically objectionable? Explain your position.</p>
 </question>
 <box id="scc9e-ch07-box-20" numbered="false" block_type="exploring-web">
-<p id="scc9e-ch07-p-203" block_type="QRL icon"><image asset-id="scc9e-ch07-img-09" alt="image" src="images/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch07-p-203" block_type="QRL icon"><image asset-id="scc9e-ch07-img-09" alt="image" src="asset/global_images/SCC 9e new qrcode 2 17 16.jpg"/></p>
 <p id="scc9e-ch07-p-204" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
 <p id="scc9e-ch07-p-205" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
 </box>
 </section>
 </chapter>
-</manuscript>
