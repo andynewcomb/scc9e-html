@@ -101,6 +101,92 @@ span[data_href]:hover {
   cursor: pointer;
   text-decoration: underline;
 }
+/* part review */
+div[data-type="section"][data-block_type="part"] h2 {
+  display: none;
+}
+div[data-type="section"][data-block_type="part"] div[data-block_type="PR-N"] p {
+  color: #ef3b23;
+  border-bottom: 4px double black;
+  font-family: "arial", sans-serif;
+  font-size: 2em;
+  margin-bottom: 1.2em;
+  padding-bottom: 0.15em;
+}
+div[data-type="section"][data-block_type="part"] [data-block_type="drop"] {
+  color: #fdb315;
+  float: left;
+  font-size: 90px;
+  line-height: 78px;
+  text-shadow: 0 -1px black, 0 1px black, 1px 0 black, -1px 0 black;
+  font-family: arial, sans-serif;
+}
+/* part summary/exercises/projects */
+div[data-type="section"][data-block_type="PR-SUM-H"] h2 {
+  border-bottom: 5px solid #ef3b23;
+  color: #005bab;
+  font-family: "arial", sans-serif;
+  font-size: 1.05em;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+div[data-type="section"][data-block_type="PR-SUM-H"] h2 [data-block_type="PR-SUM-N-ri"] {
+  color: #005bab;
+  font-weight: bold;
+}
+div[data-type="section"][data-block_type="PR-SUM-H"] ol {
+  margin-left: 0;
+  list-style-type: none;
+}
+div[data-type="section"][data-block_type="PR-SUM-H"] ol [data-block_type="maker"] {
+  font-weight: bold;
+}
+div[data-type="section"][data-block_type="PR-SUM-H"] [data-type="question"] {
+  margin-bottom: 3em;
+  margin-top: 2em;
+  text-align: justify;
+}
+div[data-type="section"][data-block_type="PR-SUM-H"] [data-type="question"] h3 {
+  display: none;
+}
+div[data-type="section"][data-block_type="PR-SUM-H"] [data-type="question"] [src="asset/global_images/news.jpg"] {
+  float: left;
+  margin-right: 10px;
+  width: 73px;
+}
+div[data-type="section"][data-block_type="PR-SUM-H"] [data-type="question"] [data-block_type="CR-X-NL-N-ri"] {
+  color: #ef3b23;
+  font-family: "arial", sans-serif;
+  font-weight: normal;
+}
+div[data-type="section"][data-block_type="PR-SUM-H"] [data-type="question"] [data-block_type="CR-X-NL-N-ri"]:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+div[data-type="section"][data-block_type="PR-SUM-H"] [data-type="question"] ol[data-block_type="numbered"] {
+  list-style-type: none;
+  margin-left: 0;
+}
+div[data-type="section"][data-block_type="PR-SUM-H"] [data-type="question"] ol[data-block_type="numbered"] li {
+  margin: 6px 0;
+}
+div[data-type="section"][data-block_type="PR-SUM-H"] [data-type="question"] ol[data-block_type="numbered"] li [data-block_type="maker"] {
+  font-weight: normal;
+}
+div[data-type="section"][data-block_type="PR-SUM-H"] [data-type="question"] ol[data-block_type="lower-alpha"] {
+  list-style-type: none;
+  margin-left: 0;
+}
+div[data-type="section"][data-block_type="PR-SUM-H"] [data-type="question"] ol[data-block_type="lower-alpha"] li {
+  margin: 6px 0;
+}
+div[data-type="section"][data-block_type="PR-SUM-H"] [data-type="question"] ol[data-block_type="lower-alpha"] li [data-block_type="maker"] {
+  font-weight: normal;
+}
+div[data-type="section"][data-block_type="PR-SUM-H"] [data-type="question"] ul[data-block_type="none"] {
+  list-style-type: none;
+}
 /* part openers */
 div[data-type="section"][data-block_type="part_intro"] {
   background-image: url(../asset/css/partbg.png);

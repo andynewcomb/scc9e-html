@@ -32,6 +32,10 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] [data-type="question"] [da
   cursor: auto;
   text-decoration: none;
 }
+div[data-type="section"][data-block_type="PR-SUM-H"] [data-type="question"] [data-block_type="CR-X-NL-N-ri"]:hover {
+  cursor: auto;
+  text-decoration: none;
+}
 /* destyle numbered figure title numbers */
 div[data-type="section"] > [data-block_type="FIGURE"] img {
   cursor: auto !important;

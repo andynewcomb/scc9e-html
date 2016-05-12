@@ -53,15 +53,23 @@ var suppwins_Player_subtype = Player_subtype.extend({
          // add relative paths for inline links
          $('span[data_href^="figure_"]').click(function() {
              var filename = $(this).attr('data_href');
-             var ch = filename.replace(/figure_(\d+).*/i, "$1");
+             var ch = filename.replace(/figure_([\dIV]+).*/i, "$1");
              var supp_win = "../../../ch" + ch + "/supp_wins/figures/" + filename;
+             supp_win = supp_win.replace(/chI\//i, "part1/"); //account for part figures too
+             supp_win = supp_win.replace(/chII\//i, "part2/"); //account for part figures too
+             supp_win = supp_win.replace(/chIII\//i, "part3/"); //account for part figures too
+             supp_win = supp_win.replace(/chIV\//i, "part4/"); //account for part figures to
              pop_content(supp_win, "1015px", "700px");
          });
          // add links on exercise references in the text
          $('span[data_href^="exercise_"]').click(function () {
              var filename = $(this).attr('data_href');
-             var ch = filename.replace(/exercise_(\d+).*/i, "$1");
+             var ch = filename.replace(/exercise_([\dIV]+).*/i, "$1");
              var supp_win = "../../../ch" + ch + "/supp_wins/exercises/" + filename;
+             supp_win = supp_win.replace(/chI\//i, "part1/"); //account for part figures too
+             supp_win = supp_win.replace(/chII\//i, "part2/"); //account for part figures too
+             supp_win = supp_win.replace(/chIII\//i, "part3/"); //account for part figures too
+             supp_win = supp_win.replace(/chIV\//i, "part4/"); //account for part figures to
              pop_content(supp_win, "1015px", "700px");
          });
          // add links on example references in the text

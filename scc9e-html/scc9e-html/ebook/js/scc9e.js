@@ -176,7 +176,7 @@ var Player_subtype = Player_manuscript_type.extend({
                 // Number in caption of table needs linked, along with title
                     $('[data-block_type="TABLE"] [data-type="table_caption"]').click(function () {
                         //need table number	               
-                        var tabnum = $(this).find('span[data-block_type="TBN-N-ri"]').text().replace(/ *TABLE (\d+)\.(\d+).*/i, "table_$1_$2.html");
+                        var tabnum = $(this).find('span[data-block_type^="TBN-N"]').text().replace(/ *TABLE (\d+)\.(\d+).*/i, "table_$1_$2.html");
                         var supp_win = "asset/ch" + tabnum.replace(/table_(\d+)_.*/, "$1") + "/supp_wins/tables/" + tabnum;
                         pop_content(supp_win, "1020px", "500px");
                     });
@@ -219,15 +219,23 @@ var Player_subtype = Player_manuscript_type.extend({
                     //these are at end of chapter
                     $('[data-type="question"] [data-block_type="CR-X-NL-N-ri"]').click(function () {
                         //need question number	               
-                        var exernum = $(this).text().replace(/ *(\d+)\.(\d+).*/i, "exercise_$1_$2.html");
-                        var supp_win = "asset/ch" + exernum.replace(/exercise_(\d+)_.*/, "$1") + "/supp_wins/exercises/" + exernum;
+                        var exernum = $(this).text().replace(/ *([\div]+)\.(\d+).*/i, "exercise_$1_$2.html");
+                        var supp_win = "asset/ch" + exernum.replace(/exercise_([\div]+)_.*/i, "$1") + "/supp_wins/exercises/" + exernum;
+                        supp_win = supp_win.replace(/chI\//i, "part1/"); //account for part figures too
+                        supp_win = supp_win.replace(/chII\//i, "part2/"); //account for part figures too
+                        supp_win = supp_win.replace(/chIII\//i, "part3/"); //account for part figures too
+                        supp_win = supp_win.replace(/chIV\//i, "part4/"); //account for part figures too
                         pop_content(supp_win, "1020px", "500px");
                     });
                 // add link on exercise references in the text
                     $('span[data_href^="exercise_"]').click(function () {
                         var filename = $(this).attr('data_href');
-                        var ch = filename.replace(/exercise_(\d+).*/i, "$1");
+                        var ch = filename.replace(/exercise_([\dIV]+).*/i, "$1");
                         var supp_win = "asset/ch" + ch + "/supp_wins/exercises/" + filename;
+                        supp_win = supp_win.replace(/chI\//i, "part1/"); //account for part figures too
+                        supp_win = supp_win.replace(/chII\//i, "part2/"); //account for part figures too
+                        supp_win = supp_win.replace(/chIII\//i, "part3/"); //account for part figures too
+                        supp_win = supp_win.replace(/chIV\//i, "part4/"); //account for part figures too
                         pop_content(supp_win, "1015px", "700px");
                     });
 
@@ -247,24 +255,37 @@ var Player_subtype = Player_manuscript_type.extend({
                 //    });
 	            // add link on the figure number in caption
 	                $('[data-caption-compass] [data-block_type="FG-N-ri"]').click(function() {
-                        var fignum = $(this).text().replace(/FIGURE ([\d\.]+)/i, "$1");
-                        var supp_win = fignum.replace(/(\d+)\.(\d+)/, "asset/ch$1/supp_wins/figures/figure_$1_$2.html");
+                        var fignum = $(this).text().replace(/FIGURE ([\d\.iv]+)/i, "$1");
+                        var supp_win = fignum.replace(/([\div]+)\.(\d+)/i, "asset/ch$1/supp_wins/figures/figure_$1_$2.html"); //account for part figures too
+                        supp_win = supp_win.replace(/chI\//i, "part1/"); //account for part figures too
+                        supp_win = supp_win.replace(/chII\//i, "part2/"); //account for part figures too
+                        supp_win = supp_win.replace(/chIII\//i, "part3/"); //account for part figures too
+                        supp_win = supp_win.replace(/chIV\//i, "part4/"); //account for part figures too
 	                    pop_content(supp_win, "1015px", "700px");
 	                });
+                    
                 // add link on figure references in the text	                
 	                $('span[data_href^="figure_"]').click(function () {
 	                    var filename = $(this).attr('data_href');
-	                    var ch = filename.replace(/figure_(\d+).*/i, "$1");
+	                    var ch = filename.replace(/figure_([\div]+).*/i, "$1");
 	                    var supp_win = "asset/ch" + ch + "/supp_wins/figures/" + filename;
+	                    supp_win = supp_win.replace(/chI\//i, "part1/"); //account for part figures too
+	                    supp_win = supp_win.replace(/chII\//i, "part2/"); //account for part figures too
+	                    supp_win = supp_win.replace(/chIII\//i, "part3/"); //account for part figures too
+	                    supp_win = supp_win.replace(/chIV\//i, "part4/"); //account for part figures to
 	                    pop_content(supp_win, "1015px", "700px");
 	                });
         
-            //UNNUMBERED FIGURE LINKS
+            //NUMBERED FIGURE LINKS
                 // add link on the figure image
 	                $('[data-type="figure"][data-block_type="FIGURE"] img').click(function () {
 	                    var filename = $(this).parent().attr("data-filename");
-	                    //var supp_win = filename.replace(/(.*0?(\d+)_0?\d+\.html)/, "asset/ch$2/supp_wins/figures/$1");
-	                    var supp_win = "asset/ch" + chapter_number + "/supp_wins/figures/" + filename;
+	                    var cha = filename.replace(/figure_([\div]+).*/i, "$1");
+	                    var supp_win = "asset/ch" + cha + "/supp_wins/figures/" + filename;
+	                    supp_win = supp_win.replace(/chI\//i, "part1/"); //account for part figures too
+	                    supp_win = supp_win.replace(/chII\//i, "part2/"); //account for part figures too
+	                    supp_win = supp_win.replace(/chIII\//i, "part3/"); //account for part figures too
+	                    supp_win = supp_win.replace(/chIV\//i, "part4/"); //account for part figures to
 	                    pop_content(supp_win, "1015px", "700px");
 	                });
 

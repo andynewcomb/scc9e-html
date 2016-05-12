@@ -48,7 +48,7 @@ print "chapter: $chapter\n";
 $xml_contents =~ s/(<box[^>]*block_type="EXP"[^>]*)(>\s*<p[^>]*>\s*<phrase[^>]*block_type="EXP-N-ri">EXAMPLE (\d+))/$1 data-filename="example_${chapter}_$3.html"$2/gs;
 
 # tables (numbered)
-$xml_contents =~ s/(<table[^>]*block_type="TABLE"[^>]*)(>.*?<phrase block_type="TBN-N-ri">TABLE (\d+)\.(\d+))/$1 data-filename="table_${chapter}_$4.html"$2/gs;
+$xml_contents =~ s/(<table[^>]*block_type="TABLE"[^>]*)(>.*?<phrase block_type="TBN-N[^"]*">TABLE (\d+)\.(\d+))/$1 data-filename="table_${chapter}_$4.html"$2/gs;
 
 
 # figures (numbered)
