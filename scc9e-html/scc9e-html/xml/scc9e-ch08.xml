@@ -73,14 +73,14 @@
 <p id="scc9e-ch08-p-37" block_type="BX1-TXT-ni">A variable is a <strong>valid</strong> measure of a property if it is relevant or appropriate as a representation of that property.</p>
 </box>
 <p id="scc9e-ch08-p-38" block_type="TXT">It is valid to measure length with a tape measure. It isn&#8217;t valid to measure a student&#8217;s readiness for college by recording her height. The BLS unemployment rate is a valid measure, even though changes in the official definitions would give a somewhat different measure. Let&#8217;s think about measures, both valid and invalid, in some other settings.</p>
-<box id="scc9e-ch08-box-08" numbered="false" block_type="EXP" data-filename="example_8_4.html">
-<p id="scc9e-ch08-p-39" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> Measuring highway safety</p>
-<p id="scc9e-ch08-p-40" block_type="EXP-ni">Roads got better. Speed limits increased. Big SUVs and crossovers have replaced some cars, while smaller cars and hybrid vehicles have replaced others. Enforcement campaigns reduced drunk driving. How did highway safety change between 2007 and 2012 in this changing environment?</p>
 <figure id="scc9e-ch08-unfig-02" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="8_17MOORESCC-MSE_9e_P_08_01.html">
 <layout align="right" width="small" border="false"/>
 <image asset-id="scc9e-ch08-img-01" alt="image" src="asset/ch8/17MOORESCC-MSE_9e_P_08_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">Mahaux Photography/Getty Images</phrase></asset_source>
 </figure>
+  <box id="scc9e-ch08-box-08" numbered="false" block_type="EXP" data-filename="example_8_4.html">
+<p id="scc9e-ch08-p-39" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> Measuring highway safety</p>
+<p id="scc9e-ch08-p-40" block_type="EXP-ni">Roads got better. Speed limits increased. Big SUVs and crossovers have replaced some cars, while smaller cars and hybrid vehicles have replaced others. Enforcement campaigns reduced drunk driving. How did highway safety change between 2007 and 2012 in this changing environment?</p>
 <p id="scc9e-ch08-p-41" block_type="EXP-mid">We could just count deaths from motor vehicles. The Fatality Analysis Reporting System says there were 41,259 deaths in 2007 and 33,561 deaths five years later in 2012. The number of deaths decreased. These numbers alone show progress. However, we need to keep in mind other things that happened during this same time frame to determine how much progress has been made. For example, the number of licensed drivers rose from 206 million in 2007 to 212 million in 2012. The number of miles that people drove decreased from 3031 billion to 2969 billion during this same time period. If more people drive fewer miles, should we expect more or fewer deaths? The count of deaths alone is not a valid measure of highway safety. So what should we use instead?</p>
 <p id="scc9e-ch08-p-42" block_type="page_start" data-margin-content="left">168</p>
 <p id="scc9e-ch08-p-43" block_type="EXP-mid">Rather than a <em>count</em>, we should use a <em>rate</em>. The number of deaths per mile driven takes into account the fact that more people drive more miles than in the past. In 2012, vehicles drove 2,969,000,000,000 miles in the United States. Because this number is so large, it is usual to measure safety by deaths per 100 million miles driven rather than deaths per mile. For 2012, this death rate is</p>
@@ -117,12 +117,13 @@
 </box>
 <p id="scc9e-ch08-p-62" block_type="TXT">Is the SAT a valid measure of readiness for college? &#8220;Readiness for college academic work&#8221; is a vague concept that probably combines inborn intelligence (whatever we decide that is), learned knowledge, study and test-taking skills, and motivation to work at academic subjects. Opinions will always differ about whether SAT scores (or any other measure) accurately reflect this vague concept.</p>
 <p id="scc9e-ch08-p-63" block_type="TXT">Instead, we ask a simpler and more easily answered question: do SAT scores help predict students&#8217; success in college? Success in college is a clear concept, measured by whether students graduate and by their college grades. Students with high SAT scores are more likely to graduate and earn (on the average) higher grades than students with low SAT scores. We say that SAT scores have <em>predictive validity</em> as measures of readiness for college. This is the only kind of validity that data can assess directly.</p>
-<box id="scc9e-ch08-box-14" numbered="false" block_type="BX1">
-<p id="scc9e-ch08-p-64" block_type="BX1-T">Predictive validity</p>
-<p id="scc9e-ch08-p-65" block_type="BX1-TXT-ni">A measurement of a property has <strong>predictive validity</strong> if it can be used to predict success on tasks that are related to the property measured.</p>
-</box>
 <box id="scc9e-ch08-box-15" numbered="false" block_type="margin-statistics">
 <p id="scc9e-ch08-p-66" block_type="MN-TXT"><image asset-id="scc9e-ch08-img-01" alt="image" src="asset/global_images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">What can&#8217;t be measured matters</phrase> One member of the young Edmonton Oilers hockey team of 1981 finished last in almost everything one can measure: strength, speed, reflexes, eyesight. That was Wayne Gretzky, soon to be known as &#8220;the Great One.&#8217;&#8217; He broke the National Hockey League scoring record that year, then scored yet more points in seven different seasons. Somehow the physical measurements didn&#8217;t catch what made Gretzky the best hockey player ever. Not everything that matters can be measured.</p>
+</box>
+
+  <box id="scc9e-ch08-box-14" numbered="false" block_type="BX1">
+<p id="scc9e-ch08-p-64" block_type="BX1-T">Predictive validity</p>
+<p id="scc9e-ch08-p-65" block_type="BX1-TXT-ni">A measurement of a property has <strong>predictive validity</strong> if it can be used to predict success on tasks that are related to the property measured.</p>
 </box>
 <p id="scc9e-ch08-p-67" block_type="TXT">Predictive validity is the clearest and most useful form of validity from the statistical viewpoint. &#8220;Do SAT scores help predict college grades?&#8221; is a much clearer question than &#8220;Do IQ test scores measure intelligence?&#8221; However, predictive validity is not a yes-or-no idea. We must ask <em>how accurately</em> SAT scores predict college grades. Moreover, we must ask <em>for what groups</em> the SAT has predictive validity. It is possible, for example, that the SAT predicts college grades well for men but not for women. There are statistical ways to describe &#8220;how accurately.&#8221; The Statistical Controversies feature in this chapter asks you to think about these issues.</p>
 <p id="scc9e-ch08-p-68" block_type="page_start" data-margin-content="right">171</p>
@@ -398,9 +399,6 @@
 </section>
 <section id="scc9e-ch08-sec-10" block_type="CR-X-H-v1" chapter="ch8" numbered="false" level="1" print_page="181">
 <section-metadata><section-title>CHAPTER 8 EXERCISES</section-title></section-metadata>
-<question id="scc9e-ch08-ques-08">
-<p id="scc9e-ch08-p-199" block_type="CR-X-H-V1"><strong>CHAPTER 8 EXERCISES</strong></p>
-</question>
 <question id="scc9e-ch08-ques-09" block_type="exercise_8_8.html">
 <p id="scc9e-ch08-p-200" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">8.8 Counting the unemployed?</phrase>  We could measure the extent of unemployment by a count (the number of people who are unemployed) or by a rate (the percentage of the labor force that is unemployed). The number of people in the labor force grew from 115 million in June 1985, to 132 million in June 1995, to 149 million in June 2005, to 157 million in June 2015. Use these facts to explain why the count of unemployed people is not a valid measure of the extent of unemployment.</p>
 </question>

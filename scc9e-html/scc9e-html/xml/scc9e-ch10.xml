@@ -202,7 +202,7 @@
 </box>
 <p id="scc9e_page_223" block_type="page_start" data-margin-content="right">223</p>
 <figure id="scc9e-ch10-fig-06" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.6" mmtype="image" mmsrc="" attr="" data-filename="figure_10_6.html">
-<layout align="right" width="medium" border="false"/>
+<layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch10-img-08" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_06.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.6</phrase> <phrase block_type="FG-CAP">Advertisement found on Dyson&#8217;s website for vacuum cleaners claiming a Dyson vacuum has more than twice the suction of any other vacuum, <link href="example_10_5.html">Example 5</link>. (<link href="http://www.dyson.com/United States.aspx">http://www.dyson.com/United States.aspx</link>)</phrase></caption>
 </figure>
@@ -215,14 +215,15 @@
 <p id="scc9e-ch10-p-42" block_type="BX1-TXT-ni">A <strong>line graph</strong> of a quantitative variable plots each observation against the time at which it was measured. Always put time on the horizontal scale of your plot and the variable you are measuring on the vertical scale. Connect the data points by lines to display the change over time.</p>
 </box>
 <p id="scc9e-ch10-p-43" block_type="TXT">When constructing a line graph, make sure to use equally spaced time intervals on the horizontal axis to avoid distortion. Line graphs can also be used to show how a quantitative variable changes over time, broken down according to some other categorical variable. Use a separate line for each category.</p>
-<box id="scc9e-ch10-box-11" numbered="false" block_type="EXP" data-filename="example_10_6.html">
-<p id="scc9e-ch10-p-44" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 6</phrase> Unemployment by education level</p>
-<p id="scc9e-ch10-p-45" block_type="EXP-first">How has unemployment changed over time? <link href="figure_10_7.html">Figure 10.7</link> is a line graph of the monthly national unemployment rate, by education level, for the United States from October 2008 through October 2014. For example, the unemployment rate for October 2009 was 15.2&#37; for those with less than a high school diploma, 11&#37; for those with a high school diploma, 8.7&#37; for those with some college, and 4.7&#37; for those with a bachelor&#8217;s degree or higher.</p>
 <figure id="scc9e-ch10-unfig-03" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="10_17MOORESCC-MSE_9e_P_10_01.html">
 <layout align="right" width="small" border="false"/>
 <image asset-id="scc9e-ch10-img-09" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_P_10_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">AP Photo/Stephan Savoia</phrase></asset_source>
 </figure>
+  <box id="scc9e-ch10-box-11" numbered="false" block_type="EXP" data-filename="example_10_6.html">
+<p id="scc9e-ch10-p-44" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 6</phrase> Unemployment by education level</p>
+<p id="scc9e-ch10-p-45" block_type="EXP-first">How has unemployment changed over time? <link href="figure_10_7.html">Figure 10.7</link> is a line graph of the monthly national unemployment rate, by education level, for the United States from October 2008 through October 2014. For example, the unemployment rate for October 2009 was 15.2&#37; for those with less than a high school diploma, 11&#37; for those with a high school diploma, 8.7&#37; for those with some college, and 4.7&#37; for those with a bachelor&#8217;s degree or higher.</p>
+
 </box>
 <p id="scc9e_page_224" block_type="page_start" data-margin-content="left">224</p>
 <figure id="scc9e-ch10-fig-07" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.7" mmtype="image" mmsrc="" attr="" data-filename="figure_10_7.html">
@@ -727,7 +728,7 @@
 <question id="scc9e-ch10-ques-20" block_type="exercise_10_20.html">
 <p id="scc9e-ch10-p-145" block_type="CR-X-NL"><image asset-id="scc9e-ch10-img-25" alt="image" src="asset/global_images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">10.20 A bad graph?</phrase> <link href="figure_10_18.html">Figure 10.18</link> shows a graph that appeared in the <em>Lexington (Ky.) Herald-Leader</em> on October 5, 1975. Discuss the correctness of this graph.</p>
 <figure id="scc9e-ch10-fig-18" block_type="FIGURE" data-caption-compass="S" numbered="true" number="10.18" mmtype="image" mmsrc="" attr="" data-filename="figure_10_18.html">
-<layout align="right" width="medium" border="false"/>
+<layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch10-img-26" alt="image" src="asset/ch10/17MOORESCC-MSE_9e_fig_10_18.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 10.18</phrase> <phrase block_type="FG-CAP">A newspaper&#8217;s graph of the value of the British pound, <link href="exercise_10_20.html">Exercise 10.20</link>. (Data from <em>Lexington (Ky.) Herald Leader</em>, Associated Press, 1975)</phrase></caption>
 </figure>

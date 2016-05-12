@@ -62,13 +62,14 @@
 <section id="scc9e-ch09-sec-04" block_type="h1" chapter="ch9" numbered="false" level="1" print_page="190">
 <section-metadata><section-title>Are the numbers plausible?</section-title></section-metadata>
 <p id="scc9e-ch09-p-32" block_type="TXT-ni">As the General Motors examples illustrate, you can often detect dubious numbers simply because they don&#8217;t seem plausible. Sometimes, you can check an implausible number against data in reliable sources such as the annual <em>Statistical Abstract of the United States</em>. Sometimes, as the next example illustrates, you can do a calculation to show that a number isn&#8217;t realistic.</p>
-<box id="scc9e-ch09-box-8" numbered="false" block_type="EXP" data-filename="example_9_7.html">
-<p id="scc9e-ch09-p-33" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 7</phrase> Now that&#8217;s relief!</p>
 <figure id="scc9e-ch09-unfig-2" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="9_17MOORESCC-MSE_9e_P_09_01.html">
-<layout align="left" width="small" border="false"/>
+<layout align="right" width="small" border="false"/>
 <image asset-id="scc9e-ch09-img-2" alt="image" src="asset/ch9/17MOORESCC-MSE_9e_P_09_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">Smiley N. Pool/Dallas Morning News/Corbis</phrase></asset_source>
 </figure>
+  <box id="scc9e-ch09-box-8" numbered="false" block_type="EXP" data-filename="example_9_7.html">
+<p id="scc9e-ch09-p-33" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 7</phrase> Now that&#8217;s relief!</p>
+
 <p id="scc9e-ch09-p-34" block_type="EXP-first">Hurricane Katrina struck the Gulf Coast in August 2005 and caused massive destruction. In September 2005, Senators Mary Landrieu (Democrat) and David Vitter (Republican) of Louisiana introduced the Hurricane Katrina Disaster Relief and Economic Recovery Act in Congress. This bill sought a total of &#36;250 billion in federal funds to provide long-term relief and assistance to the people of New Orleans and the Gulf Coast. Not all of this was to be spent on New Orleans alone, and the money was not meant to be distributed directly to residents affected by the hurricane. However, at the time, several people noticed that if you were one of the 484,674 residents of New Orleans, &#36;250 billion in federal funds was the equivalent of</p>
 <p id="scc9e_page_191" block_type="page_start" data-margin-content="right">191</p>
 <p id="scc9e-ch09-p-36" block_type="EXP-EQ"><phrase data-math="math_1"></phrase></p>
@@ -143,14 +144,14 @@
 <section-metadata><section-title>Is there a hidden agenda?</section-title></section-metadata>
 <p id="scc9e-ch09-p-81" block_type="TXT-ni">Lots of people feel strongly about various issues, so strongly that they would like the numbers to support their feelings. Often, they can find support in numbers by choosing carefully which numbers to report or by working hard to squeeze the numbers into the shape they prefer. Here are two examples.</p>
 <p id="scc9e_page_195" block_type="page_start" data-margin-content="right">195</p>
-<box id="scc9e-ch09-box-17" numbered="false" block_type="EXP" data-filename="example_9_13.html">
-<p id="scc9e-ch09-p-83" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 13</phrase> Heart disease in women</p>
-<p id="scc9e-ch09-p-84" block_type="EXP-first">A highway billboard says simply, &#8220;Half of all heart disease victims are women.&#8221; What might be the agenda behind this true statement? Perhaps the billboard sponsors just want to make women aware that they do face risks from heart disease. (Surveys show that many women underestimate the risk of heart disease.)</p>
 <figure id="scc9e-ch09-unfig-3" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="9_17MOORESCC-MSE_9e_Car_09_01.html">
-<layout align="center" width="medium" border="false"/>
+<layout align="right" width="medium" border="false"/>
 <image asset-id="scc9e-ch09-img-4" alt="image" src="asset/ch9/17MOORESCC-MSE_9e_Car_09_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">&#169; The New Yorker Collection 1977 Dana Fraden from <link href="http://www.cartoonbank.com">cartoonbank.com</link>. All Rights Reserved.</phrase></asset_source>
 </figure>
+  <box id="scc9e-ch09-box-17" numbered="false" block_type="EXP" data-filename="example_9_13.html">
+<p id="scc9e-ch09-p-83" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 13</phrase> Heart disease in women</p>
+<p id="scc9e-ch09-p-84" block_type="EXP-first">A highway billboard says simply, &#8220;Half of all heart disease victims are women.&#8221; What might be the agenda behind this true statement? Perhaps the billboard sponsors just want to make women aware that they do face risks from heart disease. (Surveys show that many women underestimate the risk of heart disease.)</p>
 <p id="scc9e-ch09-p-85" block_type="EXP-mid">On the other hand, perhaps the sponsors want to fight what some people see as an overemphasis on male heart disease. In that case, we might want to know that although half of heart disease victims are women, they are on the average much older than male victims. Roughly 50,000 women under age 65 and 100,000 men under age 65 die from heart disease each year. The American Heart Association says, &#8220;Risk of death due to coronary heart disease in women is roughly similar to that of men 10 years younger.&#8221;</p>
 </box>
 <box id="scc9e-ch09-box-18" numbered="false" block_type="EXP" data-filename="example_9_14.html">

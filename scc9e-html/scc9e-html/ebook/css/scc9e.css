@@ -335,6 +335,25 @@ div[data-type="section"][data-block_type="h1"] [data-block_type="margin-statisti
   position: relative;
   width: 90px;
 }
+div[data-type="section"][data-block_type="h1"] [data-block_type="margin-statistics"] [src="asset/global_images/BPS6e_nugget_icon.jpg"] {
+  bottom: 31px;
+  float: left;
+  margin-bottom: -31px;
+  padding-right: 7px;
+  position: relative;
+  width: 90px;
+}
+div[data-type="section"][data-block_type="h1"] ol[data-block_type="numbered"] {
+  list-style-type: none;
+  margin-left: 0;
+}
+div[data-type="section"][data-block_type="h1"] ol[data-block_type="numbered"] span[data-block_type="maker"] {
+  font-weight: bold;
+}
+div[data-type="section"][data-block_type="h1"] ol[data-block_type="numbered"] > li > div > p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 /* example boxes */
 [data-block_type="EXP"] {
   background-color: white;
@@ -365,6 +384,9 @@ div[data-type="section"][data-block_type="h1"] [data-block_type="margin-statisti
   text-transform: uppercase;
 }
 [data-block_type="EXP"] ul[data-block_type="none"] {
+  list-style-type: none;
+}
+[data-block_type="EXP"] ol[data-block_type="numbered"] {
   list-style-type: none;
 }
 [data-block_type="EXP"] div[data-caption-compass="S"] {
@@ -560,49 +582,53 @@ div[data-block_type="TABLE"] [data-type="table_text"] [data-block_type="TBN-N-ri
   color: #008db7;
   font-weight: bold;
 }
-div[data-block_type="TABLE"] [data-type="table"] {
+div[data-block_type="TABLE"] [data-type="table_text"] [data-block_type="TBN-N"] {
+  color: #008db7;
+  font-weight: bold;
+}
+div[data-block_type="TABLE"][data-type="table"] {
   background-color: transparent;
 }
-div[data-block_type="TABLE"] [data-type="table"] table {
+div[data-block_type="TABLE"][data-type="table"] table {
   background-color: transparent;
   margin-left: auto;
   margin-right: auto;
 }
-div[data-block_type="TABLE"] [data-type="table"] table tr.tborder {
+div[data-block_type="TABLE"][data-type="table"] table tr.tborder {
   border-top: 1px solid #008db7;
 }
-div[data-block_type="TABLE"] [data-type="table"] table tr.bborder {
+div[data-block_type="TABLE"][data-type="table"] table tr.bborder {
   border-bottom: 1px solid #008db7;
 }
-div[data-block_type="TABLE"] [data-type="table"] table tr td.tborder {
+div[data-block_type="TABLE"][data-type="table"] table tr td.tborder {
   border-top: 1px solid #008db7;
 }
-div[data-block_type="TABLE"] [data-type="table"] table tr td.bborder {
+div[data-block_type="TABLE"][data-type="table"] table tr td.bborder {
   border-bottom: 1px solid #008db7;
 }
-div[data-block_type="TABLE"] [data-type="table"] table tr td.lborder {
+div[data-block_type="TABLE"][data-type="table"] table tr td.lborder {
   border-left: 1px solid #008db7;
 }
-div[data-block_type="TABLE"] [data-type="table"] table tr td.rborder {
+div[data-block_type="TABLE"][data-type="table"] table tr td.rborder {
   border-right: 1px solid #008db7;
 }
-div[data-block_type="TABLE"] [data-type="table"] table tr th.tborder {
+div[data-block_type="TABLE"][data-type="table"] table tr th.tborder {
   border-top: 1px solid #008db7;
 }
-div[data-block_type="TABLE"] [data-type="table"] table tr th.bborder {
+div[data-block_type="TABLE"][data-type="table"] table tr th.bborder {
   border-bottom: 1px solid #008db7;
 }
-div[data-block_type="TABLE"] [data-type="table"] table tr th.lborder {
+div[data-block_type="TABLE"][data-type="table"] table tr th.lborder {
   border-left: 1px solid #008db7;
 }
-div[data-block_type="TABLE"] [data-type="table"] table tr th.rborder {
+div[data-block_type="TABLE"][data-type="table"] table tr th.rborder {
   border-right: 1px solid #008db7;
 }
-div[data-block_type="TABLE"] [data-type="table"] td {
+div[data-block_type="TABLE"][data-type="table"] td {
   border: none;
   font-family: inherit;
 }
-div[data-block_type="TABLE"] [data-type="table"] th {
+div[data-block_type="TABLE"][data-type="table"] th {
   background-color: transparent;
   border-bottom: 1px solid #008db7;
   border: none;
@@ -610,7 +636,7 @@ div[data-block_type="TABLE"] [data-type="table"] th {
   padding-bottom: .25em;
   padding-top: .25em;
 }
-div[data-block_type="TABLE"] [data-type="table"] [data-block_type="TBN-SC"] {
+div[data-block_type="TABLE"][data-type="table"] [data-block_type="TBN-SC"] {
   font-size: .8em;
   text-align: left;
 }
@@ -863,6 +889,7 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] [data-block_type="explorin
 /* numbered figures */
 [data-block_type="FIGURE"] {
   margin: 2em 0;
+  /* funky numbered figures that are floated into the margin, but have caption centered in main text    */
 }
 [data-block_type="FIGURE"] [data-type="figure_text"] {
   font-family: sans-serif;
@@ -874,6 +901,16 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] [data-block_type="explorin
   font-weight: bold;
   cursor: pointer;
   color: #008db7;
+}
+[data-block_type="FIGURE"][align="left"] {
+  margin-top: 0;
+}
+/*centered equations*/
+div[data-block_type="EQ"],
+div[data-block_type="EXP-EQ"] {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
 }
 /* remove all credit lines -- are there any exceptions to this general rule? */
 [data-type="asset_source"] {

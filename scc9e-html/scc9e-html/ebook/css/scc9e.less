@@ -366,6 +366,25 @@ div[data-type="section"][data-block_type="h1"] {
 	        position: relative;
 	        width: 90px;
         }
+        [src="asset/global_images/BPS6e_nugget_icon.jpg"] {
+	        bottom: 31px;
+	        float: left;
+	        margin-bottom: -31px;
+	        padding-right: 7px;
+	        position: relative;
+	        width: 90px;
+        }
+    }
+    ol[data-block_type="numbered"] {
+        list-style-type: none;
+        margin-left:0;
+        span[data-block_type="maker"] {
+            font-weight:bold;
+        }
+        > li > div > p {
+            margin-top:1em;
+            margin-bottom:1em;
+        }
     }
 }
 
@@ -403,6 +422,9 @@ div[data-type="section"][data-block_type="h1"] {
     }
 
     ul[data-block_type="none"] {
+        list-style-type: none;
+    }
+    ol[data-block_type="numbered"] {
         list-style-type: none;
     }
     //centered, numbered figures in examples
@@ -613,9 +635,13 @@ div[data-block_type="TABLE"] {
 	        color: @med-blue;
 	        font-weight: bold;
         }
+        [data-block_type="TBN-N"] {
+	        color: @med-blue;
+	        font-weight: bold;
+        }
     }
 
-    [data-type="table"] {
+    &[data-type="table"] {
         background-color: transparent;
         table {
 	        background-color: transparent;
@@ -944,11 +970,21 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] {
             color: @med-blue;
         }
     }
+    /* funky numbered figures that are floated into the margin, but have caption centered in main text    */
+    &[align="left"] {margin-top:0;}
 }
+/*centered equations*/
+div[data-block_type="EQ"], div[data-block_type="EXP-EQ"] {
+    margin-top:1em;
+    margin-bottom:1em;
+    text-align:center;
+}
+
 /* remove all credit lines -- are there any exceptions to this general rule? */
 [data-type="asset_source"] {
 	display: none;
 }
+
 
 
 

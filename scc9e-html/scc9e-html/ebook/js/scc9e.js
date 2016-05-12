@@ -279,7 +279,11 @@ var Player_subtype = Player_manuscript_type.extend({
 	                else if (fig.length != 0) { fig.insertBefore(title); }
 
 
-
+        // bar code at end of chapter exercises sections was filenamed with spaces (illegal in digfir)
+	                $('img[src="asset/global_images/SCC 9e new qrcode 2 17 16.jpg"]').attr("src", "asset/global_images/bar_code.jpg");
+	                $('img[src="asset/global_images/SCC%209e%20new%20qrcode%202%2017%2016.jpg"]').attr("src", "asset/global_images/bar_code.jpg");
+        // newspaper icon also filenamed with spaces
+	                $('img[src="asset/global_images/A)%20In%20the%20NEWS%20cyan.jpg"]').attr("src", "asset/global_images/news.jpg");
 	
 	// New feature to allow table columns to align content by character.
 	// This should always come after any custom JS code you add.  If you

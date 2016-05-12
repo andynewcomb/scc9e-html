@@ -1,1 +1,10 @@
-﻿
+﻿ul[data-block_type="bullet"] {
+  list-style-type: none;
+  margin-left: 0;
+}
+#scc9e-ch09-box-13 {
+  float: right;
+  margin-left: 1em;
+  margin-right: -100px;
+  margin-bottom: .5em;
+}
