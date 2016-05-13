@@ -83,7 +83,7 @@ var suppwins_Player_subtype = Player_subtype.extend({
          // adjust all image paths
          $('img[src^="asset/ch"]').each(function () {
              var path = $(this).attr('src');
-             path = path.replace(/images/, "../..");
+             path = path.replace(/asset/, "../../..");
              $(this).attr('src', path);
          });
          // adjust global images relative to supp_wins directory

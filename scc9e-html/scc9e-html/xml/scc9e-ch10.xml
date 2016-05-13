@@ -39,7 +39,7 @@
 <p id="scc9e-ch10-p-11" block_type="EXP-first">How well educated are adults? <link href="table_10_1.html">Table 10.1</link> presents the data for people aged 25 years and over. This table illustrates some good practices for data tables. It is clearly <em>labeled</em> so that we can see the subject of the data at once. The main heading describes the general subject of the data and gives the date because these data will change over time. Labels within the table identify the variables and state the <em>units</em> in which they are measured. Notice, for example, that the counts are in thousands. The <em>source</em> of the data appears at the foot of the table. This Census Bureau publication in fact presents data from our old friend, the Current Population Survey.</p>
 </box>
 <p id="scc9e_page_217" block_type="page_start" data-margin-content="right">217</p>
-<table id="scc9e-ch10-tab-01" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_ch10_1.html">
+<table id="scc9e-ch10-tab-01" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_10_1.html">
 <table_caption><phrase block_type="TBN-N">TABLE 10.1</phrase> <phrase block_type="TBN-T">Education of people aged 25 years and over in 2014</phrase></table_caption>
 <tbody>
 <tr>
@@ -533,7 +533,7 @@
 <li id="scc9e-ch10-li-45"><p id="scc9e-ch10-p-130" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Would it also be correct to use a pie chart? Explain.</p></li>
 </list>
 </question>
-<table id="scc9e-ch10-tab-02" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_ch10_2.html">
+<table id="scc9e-ch10-tab-02" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_10_2.html">
 <table_caption><phrase block_type="TBN-N">TABLE 10.2</phrase> <phrase block_type="TBN-T">Illinois state lottery sales by type of game, fiscal year 2010</phrase></table_caption>
 <tbody>
 <tr>
@@ -967,7 +967,7 @@
 <li id="scc9e-ch10-li-56"><p id="scc9e-ch10-p-163" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> A plot against time may show a consistent <strong>trend</strong> underneath cycles. When did interest rates reach their overall peak during these years? Describe the general trend downward since that year.</p></li>
 </list>
 <p id="scc9e-ch10-p-164" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">10.32 The Boston Marathon.</phrase> Women were allowed to enter the Boston Marathon in 1972. The time (in minutes, rounded to the nearest minute) for each winning woman from 1972 to 2015 appears in <link href="table_10_4.html">Table 10.4</link>.</p>
-<table id="scc9e-ch10-tab-03" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_ch10_3.html">
+<table id="scc9e-ch10-tab-03" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_10_3.html">
 <table_caption><phrase block_type="TBN-N">TABLE 10.3</phrase> <phrase block_type="TBN-T">Average annual interest rates (in percent) paid by money market funds, 1973&#8211;2008</phrase></table_caption>
 <tbody>
 <tr class="bborder">
@@ -1104,7 +1104,7 @@
 <td colspan="11" block_type="TBN-SC"><em>Source:</em> Albert J. Fredman, &#8220;A closer look at money market funds,&#8217;&#8217; <em>American Association of Individual Investors Journal</em>, February 1997, pp. 22&#8211;27; and the 2010 <em>Statistical Abstract of the United States</em>.</td>
 </tr>
 </tbody></table>
-<table id="scc9e-ch10-tab-04" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_ch10_4.html">
+<table id="scc9e-ch10-tab-04" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_10_4.html">
 <table_caption><phrase block_type="TBN-N">TABLE 10.4</phrase> <phrase block_type="TBN-T">Women&#8217;s winning times (minutes) in the Boston Marathon, 1972&#8211;2015</phrase></table_caption>
 <tbody>
 <tr class="bborder">
