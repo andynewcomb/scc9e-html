@@ -638,6 +638,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="docs\marked_up\" />
     <Folder Include="ebook\asset\ch1\supp_wins\tables\" />
     <Folder Include="ebook\asset\ch2\supp_wins\tables\" />
     <Folder Include="ebook\asset\ch3\supp_wins\tables\" />
