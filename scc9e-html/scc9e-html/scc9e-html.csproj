@@ -618,6 +618,10 @@
     <Content Include="ebook\css\scc9e_part2.less" />
     <Content Include="ebook\css\scc9e_part3.less" />
     <Content Include="ebook\css\scc9e_part4.less" />
+    <Content Include="docs\final\01_MooreSCC9e_92937_Ch01_01-20_3rd_Pass.pdf" />
+    <Content Include="docs\final\02_MooreSCC9e_92937_Ch02_21-38_3rd_Pass.pdf" />
+    <Content Include="docs\final\03_MooreSCC9e_92937_Ch03_39-62_3rd_Pass.pdf" />
+    <Content Include="docs\final\04_MooreSCC9e_92937_Ch04_63-92_3rd_Pass.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
