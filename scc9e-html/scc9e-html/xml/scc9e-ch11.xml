@@ -18,7 +18,7 @@
 <section-metadata><section-title>Histograms</section-title></section-metadata>
 <p id="scc9e-ch11-p-07" block_type="TXT-ni">Categorical variables record group membership, such as the marital status of a man or the race of a college student. We can use a pie chart or bar graph to display the distribution of categorical variables because they have relatively few values. What about quantitative variables such as the SAT scores of students admitted to a college or the income of families? These variables take so many values that a graph of the distribution is clearer if nearby values are grouped together. The most common graph of the distribution of a quantitative variable is a <strong>histogram</strong>.</p>
 <p id="scc9e_page_244" block_type="page_start" data-margin-content="left">244</p>
-<box id="scc9e-ch11-box-002" numbered="false" block_type="EXP">
+<box id="scc9e-ch11-box-002" numbered="false" block_type="EXP" data-filename="example_11_1.html">
 <p id="scc9e-ch11-p-09" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 1</phrase> How to make a histogram</p>
 <p id="scc9e-ch11-p-010" block_type="EXP-first"><link href="table_11_1.html">Table 11.1</link> presents the percentage of residents aged 65 years and over in each of the 50 states. To make a histogram of this distribution, proceed as follows.</p>
 <p id="scc9e-ch11-p-011" block_type="EXP-first"><phrase block_type="cs_bl">Step 1. Divide the range of the data into classes of equal width.</phrase> The data in <link href="table_11_1.html">Table 11.1</link> range from 7.3 to 17.4, so we choose as our classes</p>
@@ -29,7 +29,7 @@
 <p id="scc9e-ch11-p-016" block_type="EXP-EQ">.</p>
 <p id="scc9e-ch11-p-017" block_type="EXP-EQ">17.0 &#8804; percentage over 65 &#60; 18.0</p>
 <p id="scc9e-ch11-p-018" block_type="EXP-ni">Be sure to specify the classes precisely so that each individual falls into exactly one class. In other words, be sure that the classes are <em>exclusive</em> (no individual is in more than one class) and <em>exhaustive</em> (every individual appears in some class). A state with 7.9&#37; of its residents aged 65 or older would fall into the first class, but 8.0&#37; fall into the second.</p>
-<table id="scc9e-ch11-tab-1" numbered="false" block_type="TABLE" caption-placement="Top" attr="115">
+<table id="scc9e-ch11-tab-1" numbered="false" block_type="TABLE" caption-placement="Top" attr="115" data-filename="table_11_1.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE 11.1</phrase> <phrase block_type="TBN-T">Percentage of residents aged 65 and over in the states, July 2008</phrase></table_caption>
 <tbody>
 <tr class="bborder">
@@ -230,7 +230,7 @@
 <p id="scc9e-ch11-p-021" block_type="EXP-first"><phrase block_type="cs_bl">Step 3. Draw the histogram.</phrase> Mark on the horizontal axis the scale for the variable whose distribution you are displaying. That&#8217;s &#8220;percentage of residents aged 65 and over&#8221; in this example. The scale runs from 5 to 20 because that range spans the classes we chose. The vertical axis contains the scale of counts. Each bar represents a class. The base of the bar covers the class, and the bar height is the class count. There is no horizontal space between the bars unless a class is empty, so that its bar has height zero. <link href="figure_11_1.html">Figure 11.1</link> is our histogram.</p>
 </box>
 <p id="scc9e-ch11-p-022" block_type="TXT">Just as with bar graphs, our eyes respond to the area of the bars in a histogram. Be sure that the classes for a histogram have equal widths. There is no one right choice for the number of classes. Some people recommend between 10 and 20 classes but suggest using fewer when the size of the data set is small. Too few classes will give a &#8220;skyscraper&#8221; histogram, with all values in a few classes with tall bars. Too many classes will produce a &#8220;pancake&#8221; graph, with most classes having one or no observations. Neither choice will give a good picture of the shape of the distribution. You must use your judgment in choosing classes to display the shape. Statistics software will choose the classes for you and may use slightly different rules than those we have discussed. The computer&#8217;s choice is usually a good one, but you can change it if you want. When using statistical software, it is good practice to check what rules are used to determine the classes.</p>
-<figure id="scc9e-ch11-fig-001" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.1" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch11-fig-001" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.1" mmtype="image" mmsrc="" attr="" data-filename="figure_11_1.html">
 <layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch11-img-002" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_01.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.1</phrase> <phrase block_type="FG-CAP">Histogram of the percentages of residents aged 65 and older in the 50 states, <link href="example_11_1.html">Example 1</link>. Note the two outliers.</phrase></caption>
@@ -241,7 +241,7 @@
 </box>
 <box id="scc9e-ch11-box-003" numbered="false" block_type="BX2">
 <p id="scc9e-ch11-p-025" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch11-quest-001">
+<question id="scc9e-ch11-quest-001" block_type="exercise_11_1.html">
 <p id="scc9e-ch11-p-026" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">11.1 Personal record for weightlifting.</phrase> Bodyshop Athletics keeps a dry erase board for members to keep track of their personal record for various events. The &#8220;dead lift&#8217;&#8217; is a weightlifting maneuver where a barbell is lifted from the floor to the hips. The following data are the personal records for members at Bodyshop Athletics in pounds lifted during the dead lift.</p>
 <table id="scc9e-ch11-untab-2" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
@@ -396,22 +396,22 @@
 </list>
 </box>
 <p id="scc9e-ch11-p-042" block_type="TXT">We will learn how to describe center and variability numerically in <link href="scc9e-ch12.xml">Chapter 12</link>. For now, we can describe the center of a distribution by its <em>midpoint</em>, the value at roughly the middle of all the values in the distribution. We can describe the variability of a distribution by giving the <em>smallest and largest values</em>, ignoring any outliers.</p>
-<box id="scc9e-ch11-box-007" numbered="false" block_type="EXP">
+<box id="scc9e-ch11-box-007" numbered="false" block_type="EXP" data-filename="example_11_2.html">
 <p id="scc9e-ch11-p-043" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> Describing distributions</p>
 <p id="scc9e-ch11-p-044" block_type="EXP-first">Look again at the histogram in <link href="figure_11_1.html">Figure 11.1</link>. <strong>Shape:</strong> The distribution has a <em>single peak</em>. It is roughly <em>symmetric</em>&#8212;that is, the pattern is similar on both sides of the peak. <strong>Center:</strong> The midpoint of the distribution is close to the single peak, at about 13&#37;. <strong>Variability:</strong> The variability is about 9&#37; to 18&#37; if we ignore the outliers.</p>
 </box>
-<figure id="scc9e-ch11-unfig-002" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch11-unfig-002" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="11_17MOORESCC-MSE_9e_P_11_01.html">
 <layout align="left" width="small" border="false"/>
 <image asset-id="scc9e-ch11-img-004" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_P_11_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">Caiaimage/Robert Daly/Getty Images</phrase></asset_source>
 </figure>
-<box id="scc9e-ch11-box-008" numbered="false" block_type="EXP">
+<box id="scc9e-ch11-box-008" numbered="false" block_type="EXP" data-filename="example_11_3.html">
 <p id="scc9e-ch11-p-045" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> Tuition and fees in Illinois</p>
 <p id="scc9e-ch11-p-046" block_type="EXP-first">There are 116 colleges and universities in Illinois. Their tuition and fees for the 2009&#8211;2010 school year run from &#36;1974 at Moraine Valley Community College to &#36;38,550 at the University of Chicago. <link href="figure_11_2.html">Figure 11.2</link> is a histogram of the tuition and fees charged by all 116 Illinois colleges and universities. We see that many (mostly community colleges) charge less than &#36;4000. The distribution extends out to the right. At the upper extreme, two colleges charge between &#36;36,000 and &#36;40,000.</p>
 <p id="scc9e-ch11-p-047" block_type="EXP-mid">The distribution of tuition and fees at Illinois colleges, shown in <link href="figure_11_2.html">Figure 11.2</link>, has a quite different <strong>shape</strong> from the distribution in <link href="figure_11_1.html">Figure 11.1</link>. There is a strong <em>peak</em> in the lowest cost class. Most colleges charge less than &#36;8000, but there is a long right tail extending up to almost &#36;40,000. We call a distribution with a long tail on one side <em>skewed</em>. The <strong>center</strong> is roughly &#36;8000 (half the colleges charge less than this). The <strong>variability</strong> is large, from &#36;1974 to more than &#36;38,000. There are no outliers&#8212;the colleges with the highest tuition just continue the long right tail that is part of the overall pattern.</p>
 </box>
 <p id="scc9e_page_249" block_type="page_start" data-margin-content="right">249</p>
-<figure id="scc9e-ch11-fig-002" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.2" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch11-fig-002" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.2" mmtype="image" mmsrc="" attr="" data-filename="figure_11_2.html">
 <layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch11-img-005" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_02.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.2</phrase> <phrase block_type="FG-CAP">Histogram of the tuition and fees charged by 116 Illinois colleges and universities in the 2009&#8211;2010 academic year, <link href="example_11_3.html">Example 3</link>. (Data from <link href="http://www.isac.org">www.isac.org</link>.)</phrase></caption>
@@ -424,7 +424,7 @@
 </box>
 <p id="scc9e-ch11-p-053" block_type="TXT">A distribution is symmetric if the two sides of a figure like a histogram are exact mirror images of each other. Data are almost never exactly symmetric, so we are willing to call histograms like that in <link href="figure_11_1.html">Figure 11.1</link> roughly symmetric as an overall description. The tuition distribution in <link href="figure_11_2.html">Figure 11.2</link>, on the other hand, is clearly skewed to the right. Here are more examples.</p>
 <p id="scc9e_page_250" block_type="page_start" data-margin-content="left">250</p>
-<box id="scc9e-ch11-box-010" numbered="false" block_type="EXP">
+<box id="scc9e-ch11-box-010" numbered="false" block_type="EXP" data-filename="example_11_4.html">
 <p id="scc9e-ch11-p-055" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> Lake elevation levels</p>
 <p id="scc9e-ch11-p-056" block_type="EXP-first">Lake Murray is a manmade reservoir located in South Carolina. It is used mainly for recreation, such as boating, fishing, and water sports. It is also used to provide backup hydroelectric power for South Carolina Electric and Gas. The lake levels fluctuate with the highest levels in summer (for safe boating and good fishing) and the lowest levels in winter (for water quality). Water can be released at the dam in the case of heavy rains or to let water out to maintain winter levels. The U.S. Geological Survey (USGS) monitors water levels in Lake Murray. The histograms in <link href="figure_11_3.html">Figure 11.3</link> were created using 67,810 hourly elevation levels from November 1, 2007, through August 11, 2015.</p>
 <p id="scc9e-ch11-p-057" block_type="EXP-mid">The two histograms of lake levels were made from the same data set, and the histograms look identical in shape. The shape of the distribution of lake levels is skewed left because the left side of the histogram is longer. The minimum lake level is 350 feet, and the maximum is 359 feet. Using the histogram on the right, by adding the height of the bar for 358 and 359 feet elevations, we see the lake level is at 358 or 359 roughly 40&#37; of the time. Using this information, it appears that a lake level of 357 feet is the midpoint of the distribution.</p>
@@ -432,31 +432,31 @@
 </box>
 <p id="scc9e-ch11-p-059" block_type="TXT">It is not uncommon in the current world to have very large data sets. Google uses big data to rank web pages and provide the best search results. Banks use big data to analyze spending patterns and learn when to flag your debit or credit card for fraudulent use. Large firms use big data to analyze market patterns and adapt marketing strategies accordingly. Our data set of size 67,810 is actually small in the realm of &#8220;big data&#8221; but is still big enough to see that it is almost always better to use a relative frequency histogram when sample sizes grow large. A relative frequency histogram is also a better choice if one wants to make comparisons between two distributions.</p>
 <p id="scc9e_page_251" block_type="page_start" data-margin-content="right">251</p>
-<figure id="scc9e-ch11-fig-003" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.3" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch11-fig-003" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.3" mmtype="image" mmsrc="" attr="" data-filename="figure_11_3.html">
 <layout align="center" width="large" border="false"/>
 <image asset-id="scc9e-ch11-img-006" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_03.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.3</phrase> <phrase block_type="FG-CAP">U.S. Geological Survey (USGS) reported hourly lake levels from November 1, 2007, through August 11, 2015, for Lake Murray, SC. There are 67,810 lake-level observations. The histogram on the left is showing the number of times the lake was at each level. The histogram on the right shows these same data as the percentage of times Lake Murray reached each level.</phrase></caption>
 </figure>
-<box id="scc9e-ch11-box-011" numbered="false" block_type="EXP">
+<box id="scc9e-ch11-box-011" numbered="false" block_type="EXP" data-filename="example_11_5.html">
 <p id="scc9e-ch11-p-061" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 5</phrase> Shakespeare&#8217;s words</p>
 <p id="scc9e-ch11-p-062" block_type="EXP-first"><link href="figure_11_4.html">Figure 11.4</link> shows the distribution of lengths of words used in Shakespeare&#8217;s plays. This distribution has a single peak and is somewhat skewed to the right. There are many short words (three and four letters) and few very long words (10, 11, or 12 letters), so that the right tail of the histogram extends out farther than the left tail. The center of the distribution is about 4. That is, about half of Shakespeare&#8217;s words have four or fewer letters. The variability is from 1 letter to 12 letters.</p>
 <p id="scc9e-ch11-p-063" block_type="EXP-mid">Notice that the vertical scale in <link href="figure_11_4.html">Figure 11.4</link> is not the <em>count</em> of words but the <em>percentage</em> of all of Shakespeare&#8217;s words that have each length. A histogram of percentages rather than counts is convenient because this was a large data set. Different kinds of writing have different distributions of word lengths, but all are right-skewed because short words are common and very long words are rare.</p>
 </box>
 <p id="scc9e-ch11-p-064" block_type="TXT">The overall shape of a distribution is important information about a variable. Some types of data regularly produce distributions that are symmetric or skewed. For example, the sizes of living things of the same species (like lengths of crickets) tend to be symmetric. Data on incomes (whether of individuals, companies, or nations) are usually strongly skewed to the right. There are many moderate incomes, some large incomes, and a few very large incomes. It is very common for data to be skewed to the right when they have a strict minimum value (often 0). Income and the lengths of Shakespeare&#8217;s words are examples. Likewise, data that have a strict maximum value (such as 100, as in student test scores) are often skewed to the left. Do remember that many distributions have shapes that are neither symmetric nor skewed. Some data show other patterns. Scores on an exam, for example, may have a cluster near the top of the scale if many students did well. Or they may show two distinct peaks if a tough problem divided the class into those who did and didn&#8217;t solve it. Use your eyes and describe what you see.</p>
 <p id="scc9e_page_252" block_type="page_start" data-margin-content="left">252</p>
-<figure id="scc9e-ch11-fig-004" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.4" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch11-fig-004" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.4" mmtype="image" mmsrc="" attr="" data-filename="figure_11_4.html">
 <layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch11-img-007" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_04.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.4</phrase> <phrase block_type="FG-CAP">The distribution of word lengths used by Shakespeare in his plays, <link href="example_11_5.html">Example 5</link>. This distribution is skewed to the right. (Data from C. B. Williams, <em>Style and Vocabulary: Numerical Studies</em>, Griffin, 1970.)</phrase></caption>
 </figure>
 <box id="scc9e-ch11-box-012" numbered="false" block_type="BX2">
 <p id="scc9e-ch11-p-066" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch11-quest-002">
+<question id="scc9e-ch11-quest-002" block_type="exercise_11_2.html">
 <p id="scc9e-ch11-p-067" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">11.2 Height distribution.</phrase> Height distributions generally have a predictable pattern. In a large introductory statistics class, students were asked to report their height. The histogram in <link href="figure_11_5.html">Figure 11.5</link> displays the distribution of heights, in inches, for 266 females from this class. Describe the shape, center, and variability of this distribution. Are there any outliers?</p>
 </question>
 </box>
 <p id="scc9e_page_253" block_type="page_start" data-margin-content="right">253</p>
-<figure id="scc9e-ch11-fig-005" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.5" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch11-fig-005" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.5" mmtype="image" mmsrc="" attr="" data-filename="figure_11_5.html">
 <layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch11-img-008" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_05.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.5</phrase> <phrase block_type="FG-CAP">Heights in inches for 266 females in a large introductory statistics class.</phrase></caption>
@@ -474,12 +474,12 @@
 <li id="scc9e-ch11-li-005"><p id="scc9e-ch11-p-074" block_type="BX1-NL-last"><phrase block_type="maker">3.</phrase> Write each leaf in the row to the right of its stem, in increasing order out from the stem.</p></li>
 </list>
 </box>
-<box id="scc9e-ch11-box-014" numbered="false" block_type="EXP">
+<box id="scc9e-ch11-box-014" numbered="false" block_type="EXP" data-filename="example_11_6.html">
 <p id="scc9e-ch11-p-075" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 6</phrase> Stemplot of the &#8220;65 and over&#8221; data</p>
 <p id="scc9e-ch11-p-076" block_type="EXP-first">For the &#8220;65 and over&#8221; percentages in <link href="table_11_1.html">Table 11.1</link>, the whole-number part of the observation is the stem, and the final digit (tenths) is the leaf. The Alabama entry, 13.8, has stem 13 and leaf 8. Stems can have as many digits as needed, but each leaf must consist of only a single digit. <link href="figure_11_6.html">Figure 11.6</link> shows the steps in making a stemplot for the data in <link href="table_11_1.html">Table 11.1</link>. First, write the stems. Then go through the table adding a leaf for each observation. Finally, arrange the leaves in increasing order out from each stem.</p>
 </box>
 <p id="scc9e_page_254" block_type="page_start" data-margin-content="left">254</p>
-<figure id="scc9e-ch11-fig-006" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.6" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch11-fig-006" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.6" mmtype="image" mmsrc="" attr="" data-filename="figure_11_6.html">
 <layout align="center" width="large" border="false"/>
 <image asset-id="scc9e-ch11-img-009" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_06.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.6</phrase> <phrase block_type="FG-CAP">Making a stemplot of the data in <link href="table_11_1.html">Table 11.1</link>. Whole percents form the stems, and tenths of a percent form the leaves.</phrase></caption>
@@ -492,7 +492,7 @@
 <p id="scc9e-ch11-p-083" block_type="TXT-ni">These values appear in <link href="figure_11_7.html">Figure 11.7</link> on the stems 9, 9, 7, and 10.</p>
 <p id="scc9e-ch11-p-084" block_type="TXT">The chief advantage of a stemplot is that it displays the actual values of the observations. We can see from the stemplot in <link href="figure_11_7.html">Figure 11.7</link>, but not from the histogram in <link href="figure_11_2.html">Figure 11.2</link>, that Illinois&#8217;s most expensive college charges &#36;38,600 (rounded to the nearest hundred dollars). Stemplots are also faster to draw than histograms. A stemplot requires that we use the first digit or digits as stems. This amounts to an automatic choice of classes and can give a poor picture of the distribution. Stemplots do not work well with large data sets because the stems then have too many leaves.</p>
 <p id="scc9e_page_255" block_type="page_start" data-margin-content="right">255</p>
-<figure id="scc9e-ch11-fig-007" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.7" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch11-fig-007" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.7" mmtype="image" mmsrc="" attr="" data-filename="figure_11_7.html">
 <layout align="center" width="large" border="false"/>
 <image asset-id="scc9e-ch11-img-010" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_07.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.7</phrase> <phrase block_type="FG-CAP">Stemplot of the Illinois tuition and fee data. (Data from <link href="http://www.isac.org">www.isac.org</link>.)</phrase></caption>
@@ -525,7 +525,7 @@
 </list>
 </box>
 <p id="scc9e_page_257" block_type="page_start" data-margin-content="right">257</p>
-<figure id="scc9e-ch11-fig-008" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.8" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch11-fig-008" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.8" mmtype="image" mmsrc="" attr="" data-filename="figure_11_8.html">
 <layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch11-img-013" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_08.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.8</phrase> <phrase block_type="FG-CAP">Histogram of the amount of dietary fiber (in grams) in 77 different brands of cereal.</phrase></caption>
@@ -534,7 +534,7 @@
 <section id="scc9e-ch11-sec1-005" block_type="CR-X-H" chapter="ch11" numbered="false" level="1" print_page="257">
 <section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
 <p id="scc9e-ch11-p-0101" block_type="CR-X"><em>For <link href="exercise_11_1.html">Exercise 11.1</link>, see page 248; for <link href="exercise_11_2.html">Exercise 11.2</link>, see page 254.</em></p>
-<question id="scc9e-ch11-quest-003">
+<question id="scc9e-ch11-quest-003" block_type="exercise_11_3.html">
 <p id="scc9e-ch11-p-0102" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.3 Histograms.</phrase> Use a histogram when</p>
 <list id="scc9e-ch11-list-006" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch11-li-016"><p id="scc9e-ch11-p-0103" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the number of observations is small.</p></li>
@@ -543,7 +543,7 @@
 <li id="scc9e-ch11-li-019"><p id="scc9e-ch11-p-0106" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> you want to show the actual observations.</p></li>
 </list>
 </question>
-<question id="scc9e-ch11-quest-004">
+<question id="scc9e-ch11-quest-004" block_type="exercise_11_4.html">
 <p id="scc9e-ch11-p-0107" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.4 Histograms.</phrase> The heights of the bars on a relative frequency histogram displaying the lengths of rivers will add to</p>
 <list id="scc9e-ch11-list-007" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch11-li-020"><p id="scc9e-ch11-p-0108" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> 100&#37;.</p></li>
@@ -552,7 +552,7 @@
 <li id="scc9e-ch11-li-023"><p id="scc9e-ch11-p-0111" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> the midpoint of the distribution.</p></li>
 </list>
 </question>
-<question id="scc9e-ch11-quest-005">
+<question id="scc9e-ch11-quest-005" block_type="exercise_11_5.html">
 <p id="scc9e-ch11-p-0112" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.5 Stemplots.</phrase> An advantage of a stemplot over a histogram is</p>
 <list id="scc9e-ch11-list-008" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch11-li-024"><p id="scc9e-ch11-p-0113" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> they are good for really large data sets.</p></li>
@@ -561,7 +561,7 @@
 <li id="scc9e-ch11-li-027"><p id="scc9e-ch11-p-0116" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> the classes are chosen for you.</p></li>
 </list>
 </question>
-<question id="scc9e-ch11-quest-006">
+<question id="scc9e-ch11-quest-006" block_type="exercise_11_6.html">
 <p id="scc9e-ch11-p-0117" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.6 Shape of distributions.</phrase> <link href="figure_11_9.html">Figure 11.9</link> contains exam scores for 500 students. What is the shape of the exam score distribution?</p>
 <list id="scc9e-ch11-list-009" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch11-li-028"><p id="scc9e-ch11-p-0118" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> symmetric</p></li>
@@ -570,7 +570,7 @@
 <li id="scc9e-ch11-li-031"><p id="scc9e-ch11-p-0121" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> none of the above</p></li>
 </list>
 </question>
-<question id="scc9e-ch11-quest-007">
+<question id="scc9e-ch11-quest-007" block_type="exercise_11_7.html">
 <p id="scc9e-ch11-p-0122" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.7 Shape of distributions.</phrase> In a certain town, most haircuts are between &#36;10 and &#36;20, but a few salons cater to high-end clients and charge &#36;30 to &#36;60. The distribution of haircut prices is</p>
 <list id="scc9e-ch11-list-010" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch11-li-032"><p id="scc9e-ch11-p-0123" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> symmetric.</p></li>
@@ -580,7 +580,7 @@
 </list>
 </question>
 <p id="scc9e_page_258" block_type="page_start" data-margin-content="left">258</p>
-<figure id="scc9e-ch11-fig-009" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.9" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch11-fig-009" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.9" mmtype="image" mmsrc="" attr="" data-filename="figure_11_9.html">
 <layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch11-img-014" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_09.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.9</phrase> <phrase block_type="FG-CAP">Histogram of the exam scores for 500 students.</phrase></caption>
@@ -588,21 +588,21 @@
 </section>
 <section id="scc9e-ch11-sec1-006" block_type="CR-X-H-v1" chapter="ch11" numbered="false" level="1" print_page="258">
 <section-metadata><section-title>CHAPTER 11 EXERCISES</section-title></section-metadata>
-<question id="scc9e-ch11-quest-008">
+<question id="scc9e-ch11-quest-008" block_type="exercise_11_8.html">
 <p id="scc9e-ch11-p-0128" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.8 Lightning storms.</phrase> <link href="figure_11_10.html">Figure 11.10</link> comes from a study of lightning storms in Colorado. It shows the distribution of the hour of the day during which the first lightning flash for that day occurred. Describe the shape, center, and variability of this distribution. Are there any outliers?</p>
 </question>
-<figure id="scc9e-ch11-fig-010" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.10" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch11-fig-010" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.10" mmtype="image" mmsrc="" attr="" data-filename="figure_11_10.html">
 <layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch11-img-015" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_10.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.10</phrase> <phrase block_type="FG-CAP">Histogram of the time of day at which the day&#8217;s first lightning flash occurred (from a study in Colorado), <link href="exercise_11_8.html">Exercise 11.8</link>. (Data from an episode in the Annenberg/Corporation for Public Broadcasting telecourse <em>Against All Odds: Inside Statistics</em>.)</phrase></caption>
 </figure>
 <p id="scc9e_page_259" block_type="page_start" data-margin-content="right">259</p>
-<figure id="scc9e-ch11-fig-011" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.11" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch11-fig-011" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.11" mmtype="image" mmsrc="" attr="" data-filename="figure_11_11.html">
 <layout align="center" width="small" border="false"/>
 <image asset-id="scc9e-ch11-img-016" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_11.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.11</phrase> <phrase block_type="FG-CAP">Stemplot of the percentage of each state&#8217;s residents who are 18 to 34 years old, <link href="exercise_11_9.html">Exercise 11.9</link>.</phrase></caption>
 </figure>
-<question id="scc9e-ch11-quest-009">
+<question id="scc9e-ch11-quest-009" block_type="exercise_11_9.html">
 <p id="scc9e-ch11-p-0130" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.9 Where do 18- to 34-year-olds live?</phrase> <link href="figure_11_11.html">Figure 11.11</link> is a stemplot of the percentage of residents aged 18 to 34 in each of the 50 states in July 2008. As in <link href="figure_11_6.html">Figure 11.6</link> (page 256) for older residents, the stems are whole percents and the leaves are tenths of a percent.</p>
 <list id="scc9e-ch11-list-011" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch11-li-036"><p id="scc9e-ch11-p-0131" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Utah has the largest percentage of young adults. What is the percentage for this state?</p></li>
@@ -610,23 +610,23 @@
 <li id="scc9e-ch11-li-038"><p id="scc9e-ch11-p-0133" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Is the distribution for young adults more or less variable than the distribution in <link href="figure_11_6.html">Figure 11.6</link> for older adults?</p></li>
 </list>
 </question>
-<question id="scc9e-ch11-quest-0010">
+<question id="scc9e-ch11-quest-0010" block_type="exercise_11_10.html">
 <p id="scc9e-ch11-p-0134" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.10 Minority students in engineering.</phrase> <link href="figure_11_12.html">Figure 11.12</link> is a histogram of the number of minority students (black, Hispanic, Native American) who earned doctorate degrees in engineering from each of 152 universities in the years 2000 through 2002. Briefly describe the shape, center, and variability of this distribution. The classes for <link href="figure_11_12.html">Figure 11.12</link> are 1&#8211;5, 6&#8211;10, and so on.</p>
 </question>
-<question id="scc9e-ch11-quest-0011">
+<question id="scc9e-ch11-quest-0011" block_type="exercise_11_11.html">
 <p id="scc9e-ch11-p-0135" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.11 Returns on common stocks.</phrase> The total return on a stock is the change in its market price plus any dividend payments made. Total return is usually expressed as a percentage of the beginning price. <link href="figure_11_13.html">Figure 11.13</link> is a histogram of the distribution of total returns for all 1528 common stocks listed on the New York Stock Exchange in one year.</p>
-<figure id="scc9e-ch11-fig-012" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.12" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch11-fig-012" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.12" mmtype="image" mmsrc="" attr="" data-filename="figure_11_12.html">
 <layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch11-img-017" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_12.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.12</phrase> <phrase block_type="FG-CAP">The distribution of the number of engineering doctorates earned by minority students at 152 universities, 2000&#8211;2002, <link href="exercise_11_10.html">Exercise 11.10</link>. (Data from the 2003 National Science Foundation Survey of Earned Doctorates, <link href="http://webcaspar.nsf.gov/">http://webcaspar.nsf.gov/</link>.)</phrase></caption>
 </figure>
 <p id="scc9e_page_260" block_type="page_start" data-margin-content="left">260</p>
-<figure id="scc9e-ch11-fig-013" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.13" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch11-fig-013" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.13" mmtype="image" mmsrc="" attr="" data-filename="figure_11_13.html">
 <layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch11-img-018" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_13.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.13</phrase> <phrase block_type="FG-CAP">The distribution of total returns for all New York Stock Exchange common stocks in one year, <link href="exercise_11_11.html">Exercise 11.11</link>. (Data from J. K. Ford, &#8220;Diversification: How Many Stocks Will Suffice?&#8221; <em>American Association of Individual Investors Journal</em>, January 1990, pp. 14&#8211;16.)</phrase></caption>
 </figure>
-<figure id="scc9e-ch11-fig-014" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.14" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch11-fig-014" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.14" mmtype="image" mmsrc="" attr="" data-filename="figure_11_14.html">
 <layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch11-img-019" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_14.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.14</phrase> <phrase block_type="FG-CAP">U.S. Geological Survey (USGS) data on average monthly Lake Murray elevations from November 1990 to July 2006, <link href="exercise_11_12.html">Exercise 11.12</link>.</phrase></caption>
@@ -638,11 +638,11 @@
 <li id="scc9e-ch11-li-042"><p id="scc9e-ch11-p-0139" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> Explain why we prefer a histogram to a stemplot for describing the returns on 1528 common stocks.</p></li>
 </list>
 </question>
-<question id="scc9e-ch11-quest-0012">
+<question id="scc9e-ch11-quest-0012" block_type="exercise_11_12.html">
 <p id="scc9e-ch11-p-0141" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.12 More lake levels.</phrase> <link href="figure_11_14.html">Figure 11.14</link> contains average monthly lake levels for Lake Murray in South Carolina. Describe the shape, center, and variability of the distribution of lake levels.</p>
 </question>
 <p id="scc9e_page_261" block_type="page_start" data-margin-content="right">261</p>
-<table id="scc9e-ch11-tab-2" numbered="false" block_type="TABLE" caption-placement="Top" attr="100">
+<table id="scc9e-ch11-tab-2" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_11_2.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE 11.2</phrase> <phrase block_type="TBN-T">Combined city/highway gas mileage for model year 2015 midsize cars</phrase></table_caption>
 <tbody>
 <tr class="bborder">
@@ -746,17 +746,17 @@
 </tr>
 </tbody>
 </table>
-<question id="scc9e-ch11-quest-0013">
+<question id="scc9e-ch11-quest-0013" block_type="exercise_11_13.html">
 <p id="scc9e-ch11-p-0143" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.13 Automobile fuel economy.</phrase> Government regulations require automakers to give the city and highway gas mileages for each model of car. <link href="table_11_2.html">Table 11.2</link> gives the combined highway and city mileages (miles per gallon) for 31 model year 2015 sedans. Make a stemplot of the combined gas mileages of these cars. What can you say about the overall shape of the distribution? Where is the center (the value such that half the cars have better gas mileage and half have worse gas mileage)? Some of these cars are electric and the reported milage is the electric equivalent. These cars have far higher mileage. How many electric cars are in this data set?</p>
 </question>
-<question id="scc9e-ch11-quest-0014">
+<question id="scc9e-ch11-quest-0014" block_type="exercise_11_14.html">
 <p id="scc9e-ch11-p-0144" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.14 The obesity epidemic.</phrase> Medical authorities describe the spread of obesity in the United States as an epidemic. <link href="table_11_3.html">Table 11.3</link> gives the percentage of adults who were obese in each of the 50 states in 2009. Display the distribution in a graph and briefly describe its shape, center, and variability.</p>
 </question>
-<question id="scc9e-ch11-quest-0015">
+<question id="scc9e-ch11-quest-0015" block_type="exercise_11_15.html">
 <p id="scc9e-ch11-p-0145" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.15 Yankee money.</phrase> <link href="table_11_4.html">Table 11.4</link> gives the salaries of the players on the New York Yankees baseball team for the 2015 season. Make a histogram of these data. Is the distribution roughly symmetric, skewed to the right, or skewed to the left? Explain.</p>
 </question>
 <p id="scc9e_page_262" block_type="page_start" data-margin-content="left">262</p>
-<table id="scc9e-ch11-tab-3" numbered="false" block_type="TABLE" caption-placement="Top" attr="115">
+<table id="scc9e-ch11-tab-3" numbered="false" block_type="TABLE" caption-placement="Top" attr="115" data-filename="table_11_3.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE 11.3</phrase> <phrase block_type="TBN-T">Percentage of adult population who are obese, 2009</phrase></table_caption>
 <tbody>
 <tr class="bborder">
@@ -908,7 +908,7 @@
 </tr>
 </tbody>
 </table>
-<table id="scc9e-ch11-tab-4" numbered="false" block_type="TABLE" caption-placement="Top" attr="100">
+<table id="scc9e-ch11-tab-4" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_11_4.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE 11.4</phrase> <phrase block_type="TBN-T">Salaries of the New York Yankees, 2015</phrase></table_caption>
 <tbody>
 <tr class="bborder">
@@ -995,7 +995,7 @@
 </tbody>
 </table>
 <p id="scc9e_page_263" block_type="page_start" data-margin-content="right">263</p>
-<question id="scc9e-ch11-quest-0016">
+<question id="scc9e-ch11-quest-0016" block_type="exercise_11_16.html">
 <p id="scc9e-ch11-p-0148" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.16 The statistics of writing style.</phrase> Numerical data can distinguish different types of writing, and sometimes even individual authors. Here are data collected by students on the percentages of words of 1 to 15 letters used in articles in <em>Popular Science</em> magazine:</p>
 <table id="scc9e-ch11-untab-3" numbered="false" block_type="UN-TABLE" attr="85">
 <tbody>
@@ -1062,10 +1062,10 @@
 <li id="scc9e-ch11-li-044"><p id="scc9e-ch11-p-0150" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> How does the distribution of lengths of words used in <em>Popular Science</em> compare with the similar distribution in <link href="figure_11_4.html">Figure 11.4</link> (page 254) for Shakespeare&#8217;s plays? Look in particular at short words (two, three, and four letters) and very long words (more than 10 letters).</p></li>
 </list>
 </question>
-<question id="scc9e-ch11-quest-0017">
+<question id="scc9e-ch11-quest-0017" block_type="exercise_11_17.html">
 <p id="scc9e-ch11-p-0151" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.17 What&#8217;s my shape?</phrase> Do you expect the distribution of the total player payroll for each of the 30 teams in Major League Baseball to be roughly symmetric, clearly skewed to the right, or clearly skewed to the left? Why?</p>
 </question>
-<question id="scc9e-ch11-quest-0018">
+<question id="scc9e-ch11-quest-0018" block_type="exercise_11_18.html">
 <p id="scc9e-ch11-p-0152" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.18 Asians in the eastern states.</phrase> Here are the percentages of the population who are of Asian origin in each state east of the Mississippi River in 2008:</p>
 <table id="scc9e-ch11-untab-6" numbered="false" block_type="UN-TABLE" attr="115">
 <tbody>
@@ -1157,7 +1157,7 @@
 </table>
 <p id="scc9e-ch11-p-0153" block_type="CR-X-NL">Make a stemplot of these data. Describe the overall pattern of the distribution. Are there any outliers?</p>
 </question>
-<question id="scc9e-ch11-quest-0019">
+<question id="scc9e-ch11-quest-0019" block_type="exercise_11_19.html">
 <p id="scc9e-ch11-p-0154" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.19 How many calories does a hot dog have?</phrase> <em>Consumer Reports</em> magazine presented the following data on the number of calories in a hot dog for each of 17 brands of meat hot dogs:</p>
 <table id="scc9e-ch11-untab-7" numbered="false" block_type="UN-TABLE" attr="80">
 <tbody>
@@ -1190,7 +1190,7 @@
 <p id="scc9e-ch11-p-0155" block_type="CR-X-NL">Make a stemplot of the distribution of calories in meat hot dogs and briefly describe the shape of the distribution. Most brands of meat hot dogs contain a mixture of beef and pork, with up to 15&#37; poultry allowed by government regulations. The only brand with a different makeup was Eat Slim Veal Hot Dogs. Which point on your stemplot do you think represents this brand?</p>
 </question>
 <p id="scc9e_page_264" block_type="page_start" data-margin-content="left">264</p>
-<table id="scc9e-ch11-tab-5" numbered="false" block_type="TABLE" caption-placement="Top" attr="80">
+<table id="scc9e-ch11-tab-5" numbered="false" block_type="TABLE" caption-placement="Top" attr="80" data-filename="table_11_5.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE 11.5</phrase> <phrase block_type="TBN-T">Age distribution in the United States, 1950 and 2050 (in millions of persons)</phrase></table_caption>
 <tbody>
 <tr class="bborder">
@@ -1263,7 +1263,7 @@
 </tr>
 </tbody>
 </table>
-<question id="scc9e-ch11-quest-0020">
+<question id="scc9e-ch11-quest-0020" block_type="exercise_11_20.html">
 <p id="scc9e-ch11-p-0157" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.20 The changing age distribution of the United States.</phrase> The distribution of the ages of a nation&#8217;s population has a strong influence on economic and social conditions. <link href="table_11_5.html">Table 11.5</link> shows the age distribution of U.S. residents in 1950 and 2050, in millions of persons. The 1950 data come from that year&#8217;s census. The 2050 data are projections made by the Census Bureau.</p>
 <list id="scc9e-ch11-list-014" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch11-li-045"><p id="scc9e-ch11-p-0158" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Because the total population in 2050 is much larger than the 1950 population, comparing percentages in each age group is clearer than comparing counts. Make a table of the percentage of the total population in each age group for both 1950 and 2050.</p></li>
@@ -1271,7 +1271,7 @@
 <li id="scc9e-ch11-li-047"><p id="scc9e-ch11-p-0160" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Make a histogram of the projected age distribution for the year 2050. Use the same scales as in part (b) for easy comparison. What are the most important changes in the U.S. age distribution projected for the 100-year period between 1950 and 2050?</p></li>
 </list>
 </question>
-<question id="scc9e-ch11-quest-0021">
+<question id="scc9e-ch11-quest-0021" block_type="exercise_11_21.html">
 <p id="scc9e-ch11-p-0161" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.21 Babe Ruth&#8217;s home runs.</phrase> Here are the numbers of home runs that Babe Ruth hit in his 15 years with the New York Yankees, 1920 to 1934:</p>
 <table id="scc9e-ch11-untab-8" numbered="false" block_type="UN-TABLE" attr="95">
 <tbody>
@@ -1300,7 +1300,7 @@
 <p id="scc9e-ch11-p-0162" block_type="CR-X-NL">Make a stemplot of these data. Is the distribution roughly symmetric, clearly skewed, or neither? About how many home runs did Ruth hit in a typical year? Is his famous 60 home runs in 1927 an outlier?</p>
 </question>
 <p id="scc9e_page_265" block_type="page_start" data-margin-content="right">265</p>
-<question id="scc9e-ch11-quest-0022">
+<question id="scc9e-ch11-quest-0022" block_type="exercise_11_22.html">
 <p id="scc9e-ch11-p-0164" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.22 Back-to-back stemplot.</phrase> The current major league single-season home run record is held by Barry Bonds of the San Francisco Giants. Here are Bonds&#8217;s home run counts for 1986 to 2007:</p>
 <table id="scc9e-ch11-untab-9" numbered="false" block_type="UN-TABLE" attr="80">
 <tbody>
@@ -1340,10 +1340,10 @@
 </table>
 <p id="scc9e-ch11-p-0165" block_type="CR-X-NL">A <strong>back-to-back stemplot</strong> helps us compare two distributions. Write the stems as usual, but with a vertical line both to their left and to their right. On the right, put leaves for Ruth (<link href="exercise_11_21.html">Exercise 11.21</link>). On the left, put leaves for Bonds. Arrange the leaves on each stem in increasing order out from the stem. Now write a brief comparison of Ruth and Bonds as home run hitters.</p>
 </question>
-<question id="scc9e-ch11-quest-0023">
+<question id="scc9e-ch11-quest-0023" block_type="exercise_11_23.html">
 <p id="scc9e-ch11-p-0166" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.23 When it rains, it pours.</phrase> On July 25 to 26, 1979, 42.00 inches of rain fell on Alvin, Texas. That&#8217;s the most rain ever recorded in Texas for a 24-hour period. <link href="table_11_6.html">Table 11.6</link> gives the maximum precipitation ever recorded in 24 hours (through 2010) at any weather station in each state. The record amount varies a great deal from state to state&#8212;hurricanes bring extreme rains on the Atlantic coast, and the mountain West is generally dry. Make a graph to display the distribution of records for the states. Mark where your state lies in this distribution. Briefly describe the distribution.</p>
 </question>
-<table id="scc9e-ch11-tab-6" numbered="false" block_type="TABLE" caption-placement="Top" attr="110">
+<table id="scc9e-ch11-tab-6" numbered="false" block_type="TABLE" caption-placement="Top" attr="110" data-filename="table_11_6.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE 11.6</phrase> <phrase block_type="TBN-T">Record 24-hour precipitation amounts (inches) by state</phrase></table_caption>
 <tbody>
 <tr class="bborder">
