@@ -592,7 +592,11 @@
     <Content Include="xml\scc9e-ch08.xml" />
     <Content Include="xml\scc9e-ch09.xml" />
     <Content Include="xml\scc9e-ch10.xml" />
+    <Content Include="xml\scc9e-ch11.xml" />
     <Content Include="xml\scc9e-ch12.xml" />
+    <Content Include="xml\scc9e-ch12og.xml" />
+    <Content Include="xml\scc9e-ch13.xml" />
+    <Content Include="xml\scc9e-ch14.xml" />
     <Content Include="xml\scc9e-Part1Review.xml" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
