@@ -183,7 +183,7 @@
 </table>
 <p id="scc9e_page_245" block_type="page_start" data-margin-content="right">245</p>
 <p id="scc9e-ch11-p-020" block_type="EXP-first"><phrase block_type="cs_bl">Step 2. Count the number of individuals in each class.</phrase> Here are the counts:</p>
-<table id="scc9e-ch11-untab-1" numbered="false" block_type="UN-TABLE" attr="100">
+<table id="scc9e-ch11-untab-1" numbered="false" block_type="UN-TABLE" attr="93">
 <tbody>
 <tr class="tborder">
 <th align="center" block_type="TB1-COLHD">Class</th>
@@ -229,16 +229,17 @@
 </table>
 <p id="scc9e-ch11-p-021" block_type="EXP-first"><phrase block_type="cs_bl">Step 3. Draw the histogram.</phrase> Mark on the horizontal axis the scale for the variable whose distribution you are displaying. That&#8217;s &#8220;percentage of residents aged 65 and over&#8221; in this example. The scale runs from 5 to 20 because that range spans the classes we chose. The vertical axis contains the scale of counts. Each bar represents a class. The base of the bar covers the class, and the bar height is the class count. There is no horizontal space between the bars unless a class is empty, so that its bar has height zero. <link href="figure_11_1.html">Figure 11.1</link> is our histogram.</p>
 </box>
-<p id="scc9e-ch11-p-022" block_type="TXT">Just as with bar graphs, our eyes respond to the area of the bars in a histogram. Be sure that the classes for a histogram have equal widths. There is no one right choice for the number of classes. Some people recommend between 10 and 20 classes but suggest using fewer when the size of the data set is small. Too few classes will give a &#8220;skyscraper&#8221; histogram, with all values in a few classes with tall bars. Too many classes will produce a &#8220;pancake&#8221; graph, with most classes having one or no observations. Neither choice will give a good picture of the shape of the distribution. You must use your judgment in choosing classes to display the shape. Statistics software will choose the classes for you and may use slightly different rules than those we have discussed. The computer&#8217;s choice is usually a good one, but you can change it if you want. When using statistical software, it is good practice to check what rules are used to determine the classes.</p>
+<box id="scc9e-ch11-exp1-001" numbered="false" block_type="margin-statistics">
+<p id="scc9e-ch11-p-024" block_type="MN-TXT"><image asset-id="scc9e-ch11-img-003" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">What the eye really sees</phrase> We make the bars in bar graphs and histograms equal in width because the eye responds to their area. That&#8217;s roughly true. Careful study by statistician William Cleveland shows that our eyes &#8220;see&#8221; the size of a bar in proportion to the 0.7 power of its area. Suppose, for example, that one figure in a pictogram is both twice as high and twice as wide as another. The area of the bigger figure is 4 times that of the smaller. But we perceive the bigger figure as only 2.6 times the size of the smaller because 2.6 is 4 to the 0.7 power.</p>
+</box>
+  <p id="scc9e-ch11-p-022" block_type="TXT">Just as with bar graphs, our eyes respond to the area of the bars in a histogram. Be sure that the classes for a histogram have equal widths. There is no one right choice for the number of classes. Some people recommend between 10 and 20 classes but suggest using fewer when the size of the data set is small. Too few classes will give a &#8220;skyscraper&#8221; histogram, with all values in a few classes with tall bars. Too many classes will produce a &#8220;pancake&#8221; graph, with most classes having one or no observations. Neither choice will give a good picture of the shape of the distribution. You must use your judgment in choosing classes to display the shape. Statistics software will choose the classes for you and may use slightly different rules than those we have discussed. The computer&#8217;s choice is usually a good one, but you can change it if you want. When using statistical software, it is good practice to check what rules are used to determine the classes.</p>
 <figure id="scc9e-ch11-fig-001" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.1" mmtype="image" mmsrc="" attr="" data-filename="figure_11_1.html">
 <layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch11-img-002" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_01.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.1</phrase> <phrase block_type="FG-CAP">Histogram of the percentages of residents aged 65 and older in the 50 states, <link href="example_11_1.html">Example 1</link>. Note the two outliers.</phrase></caption>
 </figure>
 <p id="scc9e_page_246" block_type="page_start" data-margin-content="left">246</p>
-<box id="scc9e-ch11-exp1-001" numbered="false" block_type="margin-statistics">
-<p id="scc9e-ch11-p-024" block_type="MN-TXT"><image asset-id="scc9e-ch11-img-003" alt="image" src="images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">What the eye really sees</phrase> We make the bars in bar graphs and histograms equal in width because the eye responds to their area. That&#8217;s roughly true. Careful study by statistician William Cleveland shows that our eyes &#8220;see&#8221; the size of a bar in proportion to the 0.7 power of its area. Suppose, for example, that one figure in a pictogram is both twice as high and twice as wide as another. The area of the bigger figure is 4 times that of the smaller. But we perceive the bigger figure as only 2.6 times the size of the smaller because 2.6 is 4 to the 0.7 power.</p>
-</box>
+
 <box id="scc9e-ch11-box-003" numbered="false" block_type="BX2">
 <p id="scc9e-ch11-p-025" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
 <question id="scc9e-ch11-quest-001" block_type="exercise_11_1.html">
@@ -401,7 +402,7 @@
 <p id="scc9e-ch11-p-044" block_type="EXP-first">Look again at the histogram in <link href="figure_11_1.html">Figure 11.1</link>. <strong>Shape:</strong> The distribution has a <em>single peak</em>. It is roughly <em>symmetric</em>&#8212;that is, the pattern is similar on both sides of the peak. <strong>Center:</strong> The midpoint of the distribution is close to the single peak, at about 13&#37;. <strong>Variability:</strong> The variability is about 9&#37; to 18&#37; if we ignore the outliers.</p>
 </box>
 <figure id="scc9e-ch11-unfig-002" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="11_17MOORESCC-MSE_9e_P_11_01.html">
-<layout align="left" width="small" border="false"/>
+<layout align="right" width="small" border="false"/>
 <image asset-id="scc9e-ch11-img-004" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_P_11_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">Caiaimage/Robert Daly/Getty Images</phrase></asset_source>
 </figure>
@@ -508,7 +509,7 @@
 <li id="scc9e-ch11-li-009"><p id="scc9e-ch11-p-090" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> When you look at a graph, look for an <strong>overall pattern</strong> and for <strong>deviations</strong> from that pattern, such as <strong>outliers</strong>.</p></li>
 <li id="scc9e-ch11-li-010"><p id="scc9e-ch11-p-091" block_type="SUM-BL-last"><phrase block_type="maker">&#8226;</phrase> We can characterize the overall pattern of a histogram or stemplot by describing its <strong>shape</strong>, <strong>center,</strong> and <strong>variability.</strong> Some distributions have simple shapes, such as <strong>symmetric</strong>, <strong>skewed left,</strong> or <strong>skewed right,</strong> but others are too irregular to describe by a simple shape.</p></li>
 </list>
-<p id="scc9e-ch11-p-092" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch11-img-011" alt="image" src="images/LinkIt.jpg"/> In <link href="scc9e-ch10.xml">Chapter 10</link>, we learned how to use tables and graphs to see what data tell us. In this chapter, we looked at two additional graphs&#8212;histograms and stemplots&#8212;that help us make sense of large collections of numbers. These graphics are pictures of the distribution of a single quantitative variable. Although the bar graphs in <link href="scc9e-ch10.xml">Chapter 10</link> look much like histograms, the difference is that bar graphs are used to display the distribution of a categorical variable, while histograms display the distribution of a quantitative variable. The overall pattern (shape, center, and variability) and deviations from this pattern (outliers) are important features of the distribution of a variable. We will look more carefully at these features in future chapters. In addition, these features will figure prominently in some of the conclusions that we will draw about a variable from data.</p>
+<p id="scc9e-ch11-p-092" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch11-img-011" alt="image" src="asset/global_images/LinkIt.jpg"/> In <link href="scc9e-ch10.xml">Chapter 10</link>, we learned how to use tables and graphs to see what data tell us. In this chapter, we looked at two additional graphs&#8212;histograms and stemplots&#8212;that help us make sense of large collections of numbers. These graphics are pictures of the distribution of a single quantitative variable. Although the bar graphs in <link href="scc9e-ch10.xml">Chapter 10</link> look much like histograms, the difference is that bar graphs are used to display the distribution of a categorical variable, while histograms display the distribution of a quantitative variable. The overall pattern (shape, center, and variability) and deviations from this pattern (outliers) are important features of the distribution of a variable. We will look more carefully at these features in future chapters. In addition, these features will figure prominently in some of the conclusions that we will draw about a variable from data.</p>
 <box id="scc9e-ch11-box-015" numbered="false" block_type="case_title">
 <p id="scc9e-ch11-p-093" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> <link href="figure_11_8.html">Figure 11.8</link> is a histogram of the distribution of the amount of dietary fiber in 77 brands of cereal found on the shelves of a grocery store. Use what you have learned in this chapter to answer the following questions.</p>
 <list id="scc9e-ch11-list-004" type="ordered" block_type="numbered">
@@ -518,7 +519,7 @@
 </list>
 </box>
 <box id="scc9e-ch11-exp1-002" numbered="false" block_type="launchpad">
-<p id="scc9e-ch11-p-097" block_type="CR-BIB-T"><image asset-id="scc9e-ch11-img-012" alt="image" src="images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<p id="scc9e-ch11-p-097" block_type="CR-BIB-T"><image asset-id="scc9e-ch11-img-012" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
 <list id="scc9e-ch11-list-005" type="unordered" block_type="redbullet">
 <li id="scc9e-ch11-li-014"><p id="scc9e-ch11-p-098" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The StatBoards Video, <em>Creating and Interpreting a Histogram</em>, describes how to construct a histogram.</p></li>
 <li id="scc9e-ch11-li-015"><p id="scc9e-ch11-p-099" block_type="CR-BIB-BL-last"><phrase block_type="maker">&#8226;</phrase> The Snapshots Video, <em>Visualizing Quantitative Data</em>, discusses stemplots and histograms in the setting of two real examples.</p></li>
@@ -613,23 +614,19 @@
 <question id="scc9e-ch11-quest-0010" block_type="exercise_11_10.html">
 <p id="scc9e-ch11-p-0134" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.10 Minority students in engineering.</phrase> <link href="figure_11_12.html">Figure 11.12</link> is a histogram of the number of minority students (black, Hispanic, Native American) who earned doctorate degrees in engineering from each of 152 universities in the years 2000 through 2002. Briefly describe the shape, center, and variability of this distribution. The classes for <link href="figure_11_12.html">Figure 11.12</link> are 1&#8211;5, 6&#8211;10, and so on.</p>
 </question>
-<question id="scc9e-ch11-quest-0011" block_type="exercise_11_11.html">
-<p id="scc9e-ch11-p-0135" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.11 Returns on common stocks.</phrase> The total return on a stock is the change in its market price plus any dividend payments made. Total return is usually expressed as a percentage of the beginning price. <link href="figure_11_13.html">Figure 11.13</link> is a histogram of the distribution of total returns for all 1528 common stocks listed on the New York Stock Exchange in one year.</p>
 <figure id="scc9e-ch11-fig-012" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.12" mmtype="image" mmsrc="" attr="" data-filename="figure_11_12.html">
 <layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch11-img-017" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_12.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.12</phrase> <phrase block_type="FG-CAP">The distribution of the number of engineering doctorates earned by minority students at 152 universities, 2000&#8211;2002, <link href="exercise_11_10.html">Exercise 11.10</link>. (Data from the 2003 National Science Foundation Survey of Earned Doctorates, <link href="http://webcaspar.nsf.gov/">http://webcaspar.nsf.gov/</link>.)</phrase></caption>
 </figure>
+  <question id="scc9e-ch11-quest-0011" block_type="exercise_11_11.html">
+<p id="scc9e-ch11-p-0135" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.11 Returns on common stocks.</phrase> The total return on a stock is the change in its market price plus any dividend payments made. Total return is usually expressed as a percentage of the beginning price. <link href="figure_11_13.html">Figure 11.13</link> is a histogram of the distribution of total returns for all 1528 common stocks listed on the New York Stock Exchange in one year.</p>
+
 <p id="scc9e_page_260" block_type="page_start" data-margin-content="left">260</p>
 <figure id="scc9e-ch11-fig-013" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.13" mmtype="image" mmsrc="" attr="" data-filename="figure_11_13.html">
 <layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch11-img-018" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_13.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 11.13</phrase> <phrase block_type="FG-CAP">The distribution of total returns for all New York Stock Exchange common stocks in one year, <link href="exercise_11_11.html">Exercise 11.11</link>. (Data from J. K. Ford, &#8220;Diversification: How Many Stocks Will Suffice?&#8221; <em>American Association of Individual Investors Journal</em>, January 1990, pp. 14&#8211;16.)</phrase></caption>
-</figure>
-<figure id="scc9e-ch11-fig-014" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.14" mmtype="image" mmsrc="" attr="" data-filename="figure_11_14.html">
-<layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch11-img-019" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_14.jpg"/>
-<caption><phrase block_type="FG-N-ri">Figure 11.14</phrase> <phrase block_type="FG-CAP">U.S. Geological Survey (USGS) data on average monthly Lake Murray elevations from November 1990 to July 2006, <link href="exercise_11_12.html">Exercise 11.12</link>.</phrase></caption>
 </figure>
 <list id="scc9e-ch11-list-012" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch11-li-039"><p id="scc9e-ch11-p-0136" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Describe the overall shape of the distribution of total returns.</p></li>
@@ -641,7 +638,16 @@
 <question id="scc9e-ch11-quest-0012" block_type="exercise_11_12.html">
 <p id="scc9e-ch11-p-0141" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.12 More lake levels.</phrase> <link href="figure_11_14.html">Figure 11.14</link> contains average monthly lake levels for Lake Murray in South Carolina. Describe the shape, center, and variability of the distribution of lake levels.</p>
 </question>
+<figure id="scc9e-ch11-fig-014" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.14" mmtype="image" mmsrc="" attr="" data-filename="figure_11_14.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch11-img-019" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_14.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 11.14</phrase> <phrase block_type="FG-CAP">U.S. Geological Survey (USGS) data on average monthly Lake Murray elevations from November 1990 to July 2006, <link href="exercise_11_12.html">Exercise 11.12</link>.</phrase></caption>
+</figure>
 <p id="scc9e_page_261" block_type="page_start" data-margin-content="right">261</p>
+
+<question id="scc9e-ch11-quest-0013" block_type="exercise_11_13.html">
+<p id="scc9e-ch11-p-0143" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.13 Automobile fuel economy.</phrase> Government regulations require automakers to give the city and highway gas mileages for each model of car. <link href="table_11_2.html">Table 11.2</link> gives the combined highway and city mileages (miles per gallon) for 31 model year 2015 sedans. Make a stemplot of the combined gas mileages of these cars. What can you say about the overall shape of the distribution? Where is the center (the value such that half the cars have better gas mileage and half have worse gas mileage)? Some of these cars are electric and the reported milage is the electric equivalent. These cars have far higher mileage. How many electric cars are in this data set?</p>
+</question>
 <table id="scc9e-ch11-tab-2" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_11_2.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE 11.2</phrase> <phrase block_type="TBN-T">Combined city/highway gas mileage for model year 2015 midsize cars</phrase></table_caption>
 <tbody>
@@ -746,16 +752,9 @@
 </tr>
 </tbody>
 </table>
-<question id="scc9e-ch11-quest-0013" block_type="exercise_11_13.html">
-<p id="scc9e-ch11-p-0143" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.13 Automobile fuel economy.</phrase> Government regulations require automakers to give the city and highway gas mileages for each model of car. <link href="table_11_2.html">Table 11.2</link> gives the combined highway and city mileages (miles per gallon) for 31 model year 2015 sedans. Make a stemplot of the combined gas mileages of these cars. What can you say about the overall shape of the distribution? Where is the center (the value such that half the cars have better gas mileage and half have worse gas mileage)? Some of these cars are electric and the reported milage is the electric equivalent. These cars have far higher mileage. How many electric cars are in this data set?</p>
-</question>
-<question id="scc9e-ch11-quest-0014" block_type="exercise_11_14.html">
+  <question id="scc9e-ch11-quest-0014" block_type="exercise_11_14.html">
 <p id="scc9e-ch11-p-0144" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.14 The obesity epidemic.</phrase> Medical authorities describe the spread of obesity in the United States as an epidemic. <link href="table_11_3.html">Table 11.3</link> gives the percentage of adults who were obese in each of the 50 states in 2009. Display the distribution in a graph and briefly describe its shape, center, and variability.</p>
 </question>
-<question id="scc9e-ch11-quest-0015" block_type="exercise_11_15.html">
-<p id="scc9e-ch11-p-0145" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.15 Yankee money.</phrase> <link href="table_11_4.html">Table 11.4</link> gives the salaries of the players on the New York Yankees baseball team for the 2015 season. Make a histogram of these data. Is the distribution roughly symmetric, skewed to the right, or skewed to the left? Explain.</p>
-</question>
-<p id="scc9e_page_262" block_type="page_start" data-margin-content="left">262</p>
 <table id="scc9e-ch11-tab-3" numbered="false" block_type="TABLE" caption-placement="Top" attr="115" data-filename="table_11_3.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE 11.3</phrase> <phrase block_type="TBN-T">Percentage of adult population who are obese, 2009</phrase></table_caption>
 <tbody>
@@ -908,6 +907,11 @@
 </tr>
 </tbody>
 </table>
+<question id="scc9e-ch11-quest-0015" block_type="exercise_11_15.html">
+<p id="scc9e-ch11-p-0145" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.15 Yankee money.</phrase> <link href="table_11_4.html">Table 11.4</link> gives the salaries of the players on the New York Yankees baseball team for the 2015 season. Make a histogram of these data. Is the distribution roughly symmetric, skewed to the right, or skewed to the left? Explain.</p>
+</question>
+<p id="scc9e_page_262" block_type="page_start" data-margin-content="left">262</p>
+
 <table id="scc9e-ch11-tab-4" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_11_4.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE 11.4</phrase> <phrase block_type="TBN-T">Salaries of the New York Yankees, 2015</phrase></table_caption>
 <tbody>
@@ -1497,7 +1501,7 @@
 </table>
 <p id="scc9e_page_266" block_type="page_start" data-margin-content="left">266</p>
 <box id="scc9e-ch11-exp1-003" numbered="false" block_type="exploring-web">
-<p id="scc9e-ch11-p-0167" block_type="QRL icon"><image asset-id="scc9e-ch11-img-020" alt="image" src="images/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch11-p-0167" block_type="QRL icon"><image asset-id="scc9e-ch11-img-020" alt="image" src="asset/global_images/SCC 9e new qrcode 2 17 16.jpg"/></p>
 <p id="scc9e-ch11-p-0168" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
 <p id="scc9e-ch11-p-0169" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
 </box>

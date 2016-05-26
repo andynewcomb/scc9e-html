@@ -201,12 +201,13 @@
 <li id="scc9e-ch12-li-003"><p id="scc9e-ch12-p026" block_type="BX1-NL-last"><phrase block_type="maker">3.</phrase> If the number of observations <phrase data-math="math_13"></phrase> is even, the median <phrase data-math="math_14"></phrase> is the average of the two center observations in the ordered list. The location of the median is again (<em>n</em> + 1)<phrase data-math="math_15"></phrase>2 from the bottom of the list.</p></li>
 </list>
 </box>
-<p id="scc9e-ch12-p027" block_type="TXT">The Census Bureau website provides data on income inequality. For example, it tells us that in 2013 the median income of Hispanic households was &#36;40,963. That&#8217;s helpful but incomplete. Do most Hispanic households earn close to this amount, or are the incomes very variable? The simplest useful description of a distribution consists of both a measure of <em>center</em> and a measure of <em>variability</em>. If we choose the median (the midpoint) to describe center, the quartiles (in particular, the difference between the quartiles) provide natural descriptions of variability. Again, the idea is clear: find the points one-quarter and three-quarters up the ordered list of observations. Again, we need a rule to make the idea precise. The rule for calculating the quartiles uses the rule for the median.</p>
-<p id="scc9e_page_270" block_type="page_start" data-margin-content="left">270</p>
 <figure id="scc9e-ch12-unfig-003" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="12_17MOORESCC-MSE_9e_Car_12_01.html">
 <layout align="left" width="medium" border="false"/>
 <image asset-id="scc9e-ch12-img-003" alt="image" src="asset/ch12/17MOORESCC-MSE_9e_Car_12_01.jpg"/>
 </figure>
+  <p id="scc9e-ch12-p027" block_type="TXT">The Census Bureau website provides data on income inequality. For example, it tells us that in 2013 the median income of Hispanic households was &#36;40,963. That&#8217;s helpful but incomplete. Do most Hispanic households earn close to this amount, or are the incomes very variable? The simplest useful description of a distribution consists of both a measure of <em>center</em> and a measure of <em>variability</em>. If we choose the median (the midpoint) to describe center, the quartiles (in particular, the difference between the quartiles) provide natural descriptions of variability. Again, the idea is clear: find the points one-quarter and three-quarters up the ordered list of observations. Again, we need a rule to make the idea precise. The rule for calculating the quartiles uses the rule for the median.</p>
+<p id="scc9e_page_270" block_type="page_start" data-margin-content="left">270</p>
+
 <box id="scc9e-ch12-box-04" numbered="false" block_type="BX1">
 <p id="scc9e-ch12-p029" block_type="BX1-T">The quartiles <em>Q</em><sub>1</sub> and <em>Q</em><sub>3</sub></p>
 <p id="scc9e-ch12-p030" block_type="BX1-TXT-ni">To calculate the <strong>quartiles</strong>:</p>
@@ -656,13 +657,30 @@
 </table>
 <p id="scc9e-ch12-p0123" block_type="EXP-mid">You can see that risk (variability) goes up as the mean return goes up, just as financial theory claims. Treasury bills and bonds are ways of loaning money to the U.S. government. Treasury bills are paid back in one year, so their return changes from year to year depending on interest rates. Bonds are 30-year loans. They are riskier because the value of a bond you own will drop if interest rates go up. Stocks are even riskier. They give higher returns (on the average in the long run) but at the cost of lots of sharp ups and downs along the way. As the stemplot in <link href="figure_12_7.html">Figure 12.7</link> shows, stocks went up by as much as 50&#37; and down by as much as 26&#37; in one year during the 50 years covered by our data.</p>
 </box>
-<figure id="scc9e-ch12-fig-009" block_type="FIGURE" data-caption-compass="NE" numbered="true" number="12.7" mmtype="image" mmsrc="" attr="" data-filename="figure_12_7.html">
-<layout align="left" width="small" border="false"/>
+<figure id="scc9e-ch12-fig-009" block_type="FIGURE" data-caption-compass="S" numbered="true" number="12.7" mmtype="image" mmsrc="" attr="" data-filename="figure_12_7.html">
+<layout align="center" width="small" border="false"/>
 <image asset-id="scc9e-ch12-img-009" alt="image" src="asset/ch12/17MOORESCC-MSE_9e_fig_12_07.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 12.7</phrase> <phrase block_type="FG-CAP">Stemplot of the yearly returns on common stocks for the 50 years 1950&#8211;1999, <link href="example_12_5.html">Example 5</link>. The returns are rounded to the nearest whole percent. The stems are 10s of percents and the leaves are single percents.</phrase></caption>
 </figure>
+</section>
+<section id="scc9e-ch12-sec1-004" block_type="h1" chapter="ch12" numbered="false" level="1" print_page="281">
+<section-metadata><section-title>Choosing numerical descriptions</section-title></section-metadata>
 <p id="scc9e_page_281" block_type="page_start" data-margin-content="right">281</p>
-<table id="scc9e-ch12-tab-1" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_12_1.html">
+<figure id="scc9e-ch12-fig-010" block_type="FIGURE" numbered="true" number="12.8" mmtype="image" mmsrc="" attr="" data-filename="figure_12_8.html">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch12-img-010" alt="image" src="asset/ch12/17MOORESCC-MSE_9e_fig_12_08.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 12.8</phrase> <phrase block_type="FG-CAP">Stemplot of the salaries of Cleveland Cavaliers players, from <link href="table_12_1.html">Table 12.1</link>.</phrase></caption>
+</figure>
+  <p id="scc9e-ch12-p0124" block_type="TXT-ni">The five-number summary is easy to understand and is the best short description for most distributions. The mean and standard deviation are harder to understand but are more common. How can we decide which of these two descriptions of center and variability to use? Let&#8217;s start by comparing the mean and the median. &#8220;Midpoint&#8217;&#8217; and &#8220;arithmetic average&#8217;&#8217; are both reasonable ideas for describing the center of a set of data, but they are different ideas with different uses. The most important distinction is that the mean (the average) is strongly influenced by a few extreme observations and the median (the midpoint) is not.</p>
+
+  <box id="scc9e-ch12-box-017" numbered="false" block_type="EXP" data-filename="example_12_6.html">
+<p id="scc9e-ch12-p0125" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 6</phrase> Mean versus median</p>
+<p id="scc9e-ch12-p0126" block_type="EXP-first"><link href="table_12_1.html">Table 12.1</link> gives the approximate salaries (in millions of dollars) of the 15 members of the Cleveland Cavaliers basketball team for the 2014&#8211;2015 season. You can calculate that the mean is <phrase data-math="math_44"></phrase> million and that the median is <phrase data-math="math_45"></phrase> million. No wonder professional basketball players have big houses.</p>
+<p id="scc9e-ch12-p0127" block_type="EXP-mid">Why is the mean so much higher than the median? <link href="figure_12_8.html">Figure 12.8</link> is a stemplot of the salaries, with millions as stems. The distribution is skewed to the right, and there are two high outliers. The very high salaries of LeBron James and Kevin Love pull up the sum of the salaries and so pull up the mean. If we drop the outliers, the mean for the other 13 players is only &#36;3.5 million. The median doesn&#8217;t change nearly as much: it drops from &#36;2.7 million to &#36;2.6 million.</p>
+<p id="scc9e_page_282" block_type="page_start" data-margin-content="left">282</p>
+<p id="scc9e-ch12-p0128" block_type="EXP-mid">We can make the mean as large as we like by just increasing LeBron James&#39;s salary. The mean will follow one outlier up and up. But to the median, LeBron&#8217;s salary just counts as one observation at the upper end of the distribution. Moving it from &#36;20.6 million to &#36;206 million would not change the median at all.</p>
+</box>
+<table id="scc9e-ch12-tab-1" numbered="false" block_type="TABLE" caption-placement="Top" attr="115" data-filename="table_12_1.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE 12.1</phrase> <phrase block_type="TBN-T">Salaries of the Cleveland Cavaliers, 2014&#8211;2015 season</phrase></table_caption>
 <tbody>
 <tr class="bborder">
@@ -724,24 +742,8 @@
 </tr>
 </tbody>
 </table>
-</section>
-<section id="scc9e-ch12-sec1-004" block_type="h1" chapter="ch12" numbered="false" level="1" print_page="281">
-<section-metadata><section-title>Choosing numerical descriptions</section-title></section-metadata>
-<p id="scc9e-ch12-p0124" block_type="TXT-ni">The five-number summary is easy to understand and is the best short description for most distributions. The mean and standard deviation are harder to understand but are more common. How can we decide which of these two descriptions of center and variability to use? Let&#8217;s start by comparing the mean and the median. &#8220;Midpoint&#8217;&#8217; and &#8220;arithmetic average&#8217;&#8217; are both reasonable ideas for describing the center of a set of data, but they are different ideas with different uses. The most important distinction is that the mean (the average) is strongly influenced by a few extreme observations and the median (the midpoint) is not.</p>
-<box id="scc9e-ch12-box-017" numbered="false" block_type="EXP" data-filename="example_12_6.html">
-<p id="scc9e-ch12-p0125" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 6</phrase> Mean versus median</p>
-<p id="scc9e-ch12-p0126" block_type="EXP-first"><link href="table_12_1.html">Table 12.1</link> gives the approximate salaries (in millions of dollars) of the 15 members of the Cleveland Cavaliers basketball team for the 2014&#8211;2015 season. You can calculate that the mean is <phrase data-math="math_44"></phrase> million and that the median is <phrase data-math="math_45"></phrase> million. No wonder professional basketball players have big houses.</p>
-<p id="scc9e-ch12-p0127" block_type="EXP-mid">Why is the mean so much higher than the median? <link href="figure_12_8.html">Figure 12.8</link> is a stemplot of the salaries, with millions as stems. The distribution is skewed to the right, and there are two high outliers. The very high salaries of LeBron James and Kevin Love pull up the sum of the salaries and so pull up the mean. If we drop the outliers, the mean for the other 13 players is only &#36;3.5 million. The median doesn&#8217;t change nearly as much: it drops from &#36;2.7 million to &#36;2.6 million.</p>
-<figure id="scc9e-ch12-fig-010" block_type="FIGURE" data-caption-compass="SW" numbered="true" number="12.8" mmtype="image" mmsrc="" attr="" data-filename="figure_12_8.html">
-<layout align="right" width="medium" border="false"/>
-<image asset-id="scc9e-ch12-img-010" alt="image" src="asset/ch12/17MOORESCC-MSE_9e_fig_12_08.jpg"/>
-<caption><phrase block_type="FG-N-ri">Figure 12.8</phrase> <phrase block_type="FG-CAP">Stemplot of the salaries of Cleveland Cavaliers players, from <link href="table_12_1.html">Table 12.1</link>.</phrase></caption>
-</figure>
-<p id="scc9e_page_282" block_type="page_start" data-margin-content="left">282</p>
-<p id="scc9e-ch12-p0128" block_type="EXP-mid">We can make the mean as large as we like by just increasing LeBron James&#39;s salary. The mean will follow one outlier up and up. But to the median, LeBron&#8217;s salary just counts as one observation at the upper end of the distribution. Moving it from &#36;20.6 million to &#36;206 million would not change the median at all.</p>
-</box>
-<box id="scc9e-ch12-box-018" numbered="false" block_type="margin-statistics">
-<p id="scc9e-ch12-p0129" block_type="MN-TXT"><image asset-id="scc9e-ch12-img-011" alt="image" src="images/BPS6e_nugget_icon.jpg"/><phrase block_type="MN-T-ri">Poor New York?</phrase> Is New York a rich state? New York&#8217;s mean income per person ranks seventh among the states, right up there with its rich neighbors Connecticut and New Jersey, which rank first and second. But while Connecticut and New Jersey rank third and second in median household income, New York stands 17th. What&#8217;s going on? Just another example of mean versus median. New York has many very highly paid people, who pull up its mean income per person. But it also has a higher proportion of poor households than do Connecticut and New Jersey, and this brings the median down. New York is not a rich state&#8212;it&#8217;s a state with extremes of wealth and poverty.</p>
+  <box id="scc9e-ch12-box-018" numbered="false" block_type="margin-statistics">
+<p id="scc9e-ch12-p0129" block_type="MN-TXT"><image asset-id="scc9e-ch12-img-011" alt="image" src="asset/global_images/statistics_icon.jpg"/><phrase block_type="MN-T-ri">Poor New York?</phrase> Is New York a rich state? New York&#8217;s mean income per person ranks seventh among the states, right up there with its rich neighbors Connecticut and New Jersey, which rank first and second. But while Connecticut and New Jersey rank third and second in median household income, New York stands 17th. What&#8217;s going on? Just another example of mean versus median. New York has many very highly paid people, who pull up its mean income per person. But it also has a higher proportion of poor households than do Connecticut and New Jersey, and this brings the median down. New York is not a rich state&#8212;it&#8217;s a state with extremes of wealth and poverty.</p>
 </box>
 <p id="scc9e-ch12-p0130" block_type="TXT">The mean and median of a symmetric distribution are close to each other. In fact, <phrase data-math="math_46"></phrase> and <phrase data-math="math_47"></phrase> are exactly equal if the distribution is exactly symmetric. In skewed distributions, however, the mean runs away from the median toward the long tail. Many distributions of monetary values&#8212;incomes, house prices, wealth&#8212;are strongly skewed to the right. The mean may be much larger than the median. For example, we saw in <link href="example_12_3.html">Example 3</link> that the distribution of incomes for blacks, Hispanics, and whites is skewed to the right. The Census Bureau website gives the mean incomes for 2013 as &#36;49,629 for blacks, &#36;54,644 for Hispanics, and &#36;75,839 for whites. Compare these with the corresponding medians of &#36;34,598, &#36;40,963, and &#36;55,257. Because monetary data often have a few extremely high observations, descriptions of these distributions usually employ the median.</p>
 <p id="scc9e-ch12-p0131" block_type="TXT">You should think about more than symmetry versus skewness when choosing between the mean and the median. The distribution of selling prices for homes in Middletown is no doubt skewed to the right&#8212;but if the Middletown City Council wants to estimate the total market value of all houses in order to set tax rates, the mean and not the median helps them out because the mean will be larger. (The total market value is just the number of houses times the mean market value and has no connection with the median.)</p>
@@ -769,7 +771,7 @@
 <li id="scc9e-ch12-li-021"><p id="scc9e-ch12-p0145" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> The mean and standard deviation can be changed a lot by a few outliers. The mean and median are the same for symmetric distributions, but the mean moves further toward the long tail of a skewed distribution.</p></li>
 <li id="scc9e-ch12-li-022"><p id="scc9e-ch12-p0146" block_type="SUM-BL-last"><phrase block_type="maker">&#8226;</phrase> In general, use the five-number summary to describe most distributions and the mean and standard deviation only for roughly symmetric distributions.</p></li>
 </list>
-<p id="scc9e-ch12-p0147" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch12-img-012" alt="image" src="images/LinkIt.jpg"/> In <link href="scc9e-ch11.xml">Chapter 11</link>, we discussed histograms and stemplots as graphical displays of the distribution of a single quantitative variable. We were interested in the shape, center, and variability of the distribution. In this chapter, we introduce numbers to describe the center and variability. For symmetric distributions, the mean and standard deviation are used to describe the center and variability. For distributions that are not roughly symmetric, we use the five-number summary to describe the center and variability.</p>
+<p id="scc9e-ch12-p0147" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch12-img-012" alt="image" src="asset/global_images/LinkIt.jpg"/> In <link href="scc9e-ch11.xml">Chapter 11</link>, we discussed histograms and stemplots as graphical displays of the distribution of a single quantitative variable. We were interested in the shape, center, and variability of the distribution. In this chapter, we introduce numbers to describe the center and variability. For symmetric distributions, the mean and standard deviation are used to describe the center and variability. For distributions that are not roughly symmetric, we use the five-number summary to describe the center and variability.</p>
 <p id="scc9e-ch12-p0148" block_type="SUM-TXT">In most of the examples, we used graphical displays and numbers to describe the distribution of data on a single quantitative variable. These data are typically a sample from some population. Thus, the numbers that describe features of the distribution are statistics, as discussed in <link href="scc9e-ch03.xml">Chapter 3</link>. In the next chapter, we begin to think about distributions of populations. Thus, the numbers that describe features of these distributions are parameters. In later chapters, we will use statistics to draw conclusions, or make inferences, about parameters. Drawing conclusions about parameters that describe the center of a distribution of a single quantitative variable will be an important type of inference.</p>
 <box id="scc9e-ch12-box-020" numbered="false" block_type="case_title">
 <p id="scc9e-ch12-p0150" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> Find the data on income by education at the Census Bureau website listed in the Notes and Data Sources section at the end of the book. Use what you have learned in this chapter to answer the following questions.</p>
@@ -781,11 +783,11 @@
 </box>
 <p id="scc9e_page_285" block_type="page_start" data-margin-content="right">285</p>
 <box id="scc9e-ch12-box-021" numbered="false" block_type="launchpad">
-<p id="scc9e-ch12-p0154" block_type="CR-BIB-T"><image asset-id="scc9e-ch12-img-013" alt="image" src="images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<p id="scc9e-ch12-p0154" block_type="CR-BIB-T"><image asset-id="scc9e-ch12-img-013" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
 <list id="scc9e-ch12-list-008" type="unordered" block_type="redbullet">
-<li id="scc9e-ch12-li-026"><p id="scc9e-ch12-p0155" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The StatClips Videos <em>Summaries of Quantitative Data <link href="example_a.html">Example A</link>, <link href="example_b.html">Example B</link>, and <link href="example_c.html">Example C</link></em> describe how to compute the mean, standard deviation, and median of data.</p></li>
-<li id="scc9e-ch12-li-027"><p id="scc9e-ch12-p0156" block_type="CR-BIB-BL-last"><phrase block_type="maker">&#8226;</phrase> The StatClips Video <em>Exploratory Pictures for Quantitative Data <link href="example_c.html">Example C</link></em> describes how to construct boxplots.</p></li>
-<li id="scc9e-ch12-li-028"><p id="scc9e-ch12-p0157" block_type="CR-BIB-BL-last"><phrase block_type="maker">&#8226;</phrase> The Snapshots Video <em>Summarizing Quantitative Data</em> discusses the mean, standard deviation, and median of data, as well as boxplots, in the context of a real example.</p></li>
+<li id="scc9e-ch12-li-026"><p id="scc9e-ch12-p0155" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The StatClips Videos <em>Summaries of Quantitative Data <link href="http://www.whfreeman.com/BrainHoney/Resource/6710/SitebuilderUploads/shared_resources/videos/StatClip_Examples/sc_ex_Summ_of_QuantData_A.html" target="_blank">Example A</link>, <link href="http://www.whfreeman.com/BrainHoney/Resource/6710/SitebuilderUploads/shared_resources/videos/StatClip_Examples/sc_ex_Summ_of_QuantData_B.html" target="_blank">Example B</link>, and <link href="http://www.whfreeman.com/BrainHoney/Resource/6710/SitebuilderUploads/shared_resources/videos/StatClip_Examples/sc_ex_Summ_of_QuantData_C.html" target="_blank">Example C</link></em> describe how to compute the mean, standard deviation, and median of data.</p></li>
+<li id="scc9e-ch12-li-027"><p id="scc9e-ch12-p0156" block_type="CR-BIB-BL-last"><phrase block_type="maker">&#8226;</phrase> The StatClips Video <em>Exploratory Pictures for Quantitative Data <link href="http://www.whfreeman.com/BrainHoney/Resource/6710/SitebuilderUploads/shared_resources/videos/StatClip_Examples/sc_ex_Exploratory_Pics_QuantData_C.html" target="_blank">Example C</link></em> describes how to construct boxplots.</p></li>
+<li id="scc9e-ch12-li-028"><p id="scc9e-ch12-p0157" block_type="CR-BIB-BL-last"><phrase block_type="maker">&#8226;</phrase> <link href="http://www.whfreeman.com/BrainHoney/Resource/6710/SitebuilderUploads/shared_resources/videos/Snapshots/snap_summarizing_quantdata.html" target="_blank">The Snapshots Video <em>Summarizing Quantitative Data</em></link> discusses the mean, standard deviation, and median of data, as well as boxplots, in the context of a real example.</p></li>
 </list>
 </box>
 </section>
@@ -987,7 +989,7 @@
 </question>
 <question id="scc9e-ch12-quest-0021" block_type="exercise_12_21.html">
 <p id="scc9e-ch12-p0210" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">12.21 Immigrants in the eastern states.</phrase> Here are the number of legal immigrants (in thousands) who settled in each state east of the Mississippi River in 2013:</p>
-<table id="scc9e-ch12-untab-18" numbered="false" block_type="UN-TABLE" attr="100">
+<table id="scc9e-ch12-untab-18" numbered="false" block_type="UN-TABLE" attr="115">
 <tbody>
 <tr class="tborder">
 <td align="char" char="." block_type="TBN-TXT">Alabama</td>
@@ -1094,15 +1096,7 @@
 <question id="scc9e-ch12-quest-0027" block_type="exercise_12_27.html">
 <p id="scc9e-ch12-p0221" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">12.27 State SAT scores.</phrase> We want to compare the distributions of average SAT Math and Writing scores for the states and the District of Columbia. We enter these data into a computer with the names SATM for Math scores and SATW for Writing scores. At the bottom of the page is output from the statistical software package Minitab. (Other software produces similar output. Some software uses rules for finding the quartiles that differ slightly from ours. So software may not give exactly the answer you would get by hand.)</p>
 <p id="scc9e-ch12-p0222" block_type="CR-X-NL">Use this output to make boxplots of SAT Math and Writing scores for the states. Briefly compare the two distributions in words.</p>
-</question>
-<question id="scc9e-ch12-quest-0028" block_type="exercise_12_28.html">
-<p id="scc9e-ch12-p0223" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">12.28 Do SUVs waste gas?</phrase> <link href="table_11_2.html">Table 11.2</link> (page 261) gives the highway fuel consumption (in miles per gallon) for 31 model year 2015 mid-sized cars. You found the five-number summary for these data in <link href="exercise_12_14.html">Exercise 12.14</link>. Here are the highway gas mileages for 26 four-wheel-drive model year 2015 sport utility vehicles:</p>
-<list id="scc9e-ch12-list-019" type="ordered" block_type="lower-alpha">
-<li id="scc9e-ch12-li-060"><p id="scc9e-ch12-p0224" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Give a graphical and numerical description of highway fuel consumption for SUVs. What are the main features of the distribution?</p></li>
-<li id="scc9e-ch12-li-061"><p id="scc9e-ch12-p0225" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Make boxplots to compare the highway fuel consumption of the mid-size cars in <link href="table_11_2.html">Table 11.2</link> and SUVs. What are the most important differences between the two distributions?</p></li>
-</list>
-</question>
-<table id="scc9e-ch12-untab-19" numbered="false" block_type="UN-TABLE" attr="115">
+  <table id="scc9e-ch12-untab-19" numbered="false" block_type="UN-TABLE" attr="115">
 <tbody>
 <tr>
 <td align="center" colspan="9" block_type="TBN-TXT"><strong>Minitab output for <link href="exercise_12_27.html">Exercise 12.27</link></strong></td>
@@ -1142,6 +1136,15 @@
 </tr>
 </tbody>
 </table>
+</question>
+<question id="scc9e-ch12-quest-0028" block_type="exercise_12_28.html">
+<p id="scc9e-ch12-p0223" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">12.28 Do SUVs waste gas?</phrase> <link href="table_11_2.html">Table 11.2</link> (page 261) gives the highway fuel consumption (in miles per gallon) for 31 model year 2015 mid-sized cars. You found the five-number summary for these data in <link href="exercise_12_14.html">Exercise 12.14</link>. Here are the highway gas mileages for 26 four-wheel-drive model year 2015 sport utility vehicles:</p>
+<list id="scc9e-ch12-list-019" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch12-li-060"><p id="scc9e-ch12-p0224" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Give a graphical and numerical description of highway fuel consumption for SUVs. What are the main features of the distribution?</p></li>
+<li id="scc9e-ch12-li-061"><p id="scc9e-ch12-p0225" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Make boxplots to compare the highway fuel consumption of the mid-size cars in <link href="table_11_2.html">Table 11.2</link> and SUVs. What are the most important differences between the two distributions?</p></li>
+</list>
+</question>
+
 <p id="scc9e_page_290" block_type="page_start" data-margin-content="left">290</p>
 <table id="scc9e-ch12-untab-20" numbered="false" block_type="UN-TABLE" attr="115">
 <tbody>
@@ -1362,7 +1365,7 @@
 <p id="scc9e-ch12-p0259" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">12.39 What graph to draw?</phrase> We now understand three kinds of graphs to display distributions of quantitative variables: histograms, stemplots, and boxplots. Give an example (just words, no data) of a situation in which you would prefer that graphing method.</p>
 </question>
 <box id="scc9e-ch12-box-022" numbered="false" block_type="exploring-web">
-<p id="scc9e-ch12-p0260" block_type="QRL icon"><image asset-id="scc9e-ch12-img-017" alt="image" src="images/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch12-p0260" block_type="QRL icon"><image asset-id="scc9e-ch12-img-017" alt="image" src="asset/global_images/SCC 9e new qrcode 2 17 16.jpg"/></p>
 <p id="scc9e-ch12-p0261" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
 <p id="scc9e-ch12-p0262" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
 </box>
