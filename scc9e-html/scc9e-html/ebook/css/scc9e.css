@@ -277,6 +277,9 @@ div[data-type="section"][data-block_type="chapter"] [data-type="figure"][data-la
 div[data-type="section"][data-block_type="chapter"] [data-type="figure"][data-layout-align="right"] [data-type="asset_source"] {
   display: none;
 }
+div[data-type="section"][data-block_type="chapter"] [data-type="figure"][data-layout-align="right"] img {
+  cursor: default !important;
+}
 div[data-type="section"][data-block_type="chapter"] div[data-block_type="BX4-H-ri"] {
   font-family: "arial", sans-serif;
   background-color: transparent;
@@ -300,6 +303,30 @@ div[data-type="section"][data-block_type="chapter"] div[data-block_type="BX4-H-r
 }
 div[data-type="section"][data-block_type="chapter"] div[data-block_type="BX4-H-ri"] table {
   font-family: "arial", sans-serif;
+}
+div[data-type="section"][data-block_type="chapter"] ol[data-block_type="numbered"] {
+  list-style-type: none;
+  margin-left: 0;
+}
+div[data-type="section"][data-block_type="chapter"] ol[data-block_type="numbered"] span[data-block_type="maker"] {
+  font-weight: bold;
+}
+div[data-type="section"][data-block_type="chapter"] ol[data-block_type="numbered"] > li > div > p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+div[data-type="section"][data-block_type="chapter"] ul[data-block_type="bluebullet"] {
+  list-style-type: none;
+  margin-left: 1em;
+  margin-top: 0em;
+}
+div[data-type="section"][data-block_type="chapter"] ul[data-block_type="bluebullet"] span[data-block_type="maker"] {
+  color: #005bab;
+  margin-left: -20px;
+  position: absolute;
+}
+div[data-type="section"][data-block_type="chapter"] ul[data-block_type="bluebullet"] li {
+  margin: .5em 0;
 }
 div[data-type="section"][data-block_type="h1"] {
   width: 675px;
@@ -482,6 +509,9 @@ div[data-type="section"][data-block_type="h1"] ol[data-block_type="numbered"] > 
   padding-bottom: 2em;
   margin-top: 0;
   padding-top: 2em;
+}
+[data-block_type="EXP"] span[data-block_type="cs_bl"] {
+  font-weight: bold;
 }
 [data-block_type="MN-TXT"] p {
   font-family: "arial", sans-serif;
@@ -1001,4 +1031,33 @@ div[data-block_type="EXP-EQ"] {
 /* remove all credit lines -- are there any exceptions to this general rule? */
 [data-type="asset_source"] {
   display: none;
+}
+div[data-caption-compass="S"] {
+  min-width: 675px;
+}
+div[data-caption-compass="S"] > img {
+  margin-left: auto;
+  margin-right: auto;
+}
+div[data-caption-compass="S"] div[data-type="figure_text"] {
+  min-width: 675px;
+}
+[data-type="figure"][data-layout-border="false"][data-caption-compass="SW"] {
+  width: 985px;
+  position: relative;
+  left: -310px;
+}
+[data-type="figure"][data-layout-border="false"][data-caption-compass="SW"] div[data-type="figure_text"] {
+  display: table-cell;
+  vertical-align: bottom;
+  width: 250px;
+  padding-right: 60px;
+}
+[data-type="figure"][data-layout-border="false"][data-caption-compass="SW"] .compassImg {
+  display: table-cell;
+  width: 675px;
+}
+[data-type="figure"][data-layout-border="false"][data-caption-compass="SW"] .compassImg img {
+  margin-left: auto;
+  margin-right: auto;
 }

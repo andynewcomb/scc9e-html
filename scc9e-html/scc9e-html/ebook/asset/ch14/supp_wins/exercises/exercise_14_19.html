@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+<title>Exercise 14.19</title>
+<link href = "../../../../css/boilerplate.css" media="screen" rel="stylesheet" type="text/css" >
+<link href = "../../../../css/jquery-ui-custom.css" media="screen" rel="stylesheet" type="text/css" >
+<link href = "../../../../css/manuscript.css" media="screen" rel="stylesheet" type="text/css" >
+<link href = "../../../../css/digfir_ebook_fw.css" media="screen" rel="stylesheet" type="text/css" >
+<link href = "../../../../css/scc9e.css" media="screen" rel="stylesheet" type="text/css" >
+<link href = "../../../../css/scc9e_ch14.css" media="screen" rel="stylesheet" type="text/css" >
+<link href = "../../../../asset/supp_win.css" media="screen" rel="stylesheet" type="text/css" >
+</head>
+<body id="supp_win">
+<div id="manuscript">
+<div data-type="section" data-block_type="CR-X-H-v1">
+<div data-type="question" data-block_type="exercise_14_19.html" id="scc9e-ch14-quest-019">
+<h3>Question
+			    <span data-type="number">14.19 </span><span data-type="title"></span>
+</h3>
+<div data-block_type="CR-X-NL" id="scc9e-ch14-p-0163"><p><span data-block_type="CR-X-NL-N-ri">14.19 Death by intent.</span> Homicide and suicide are both intentional means of ending a life. However, the reason for committing a homicide is different than that for suicide, and we might expect homicide and suicide rates to be uncorrelated. On the other hand, both can involve some degree of violence, so perhaps we might expect some level of correlation in the rates. <span data-type="link" data-href="table_14_1.html">Table 14.1</span> gives data from 2008&#8211;2010 for 26 counties in Ohio. Rates are per 100,000 people. The data also indicate that the homicide rates for some counties should be treated with caution because of low counts (Y = Yes, treat with caution, and N = No, do not treat with caution).</p></div>
+<ol data-block_type="lower-alpha" id="scc9e-ch14-list-015">
+<li><div data-block_type="CR-X-NL-lvl2" id="scc9e-ch14-p-0164"><p><span data-block_type="maker">(a)</span> Make a scatterplot of the data for the counties for which the data do not need to be treated with caution. Use homicide rate as the explanatory variable.</p></div></li>
+<li><div data-block_type="CR-X-NL-lvl2" id="scc9e-ch14-p-0165"><p><span data-block_type="maker">(b)</span> Is the association between these variables positive or negative? What is the form of the relationship? How strong is the relationship?</p></div></li>
+<li><div data-block_type="CR-X-NL-lvl2" id="scc9e-ch14-p-0166"><p><span data-block_type="maker">(c)</span> Now add the data for the counties for which the data do need to be treated with caution to your graph, using a different color or a different plotting symbol. Does the pattern of the relationship that you observed in part (b) hold for the counties for which the data do need to be treated with caution also?</p></div></li>
+</ol>
+<div data-type="table" data-filename="table_14_1.html" data-block_type="TABLE" id="scc9e-ch14-tab-1" data-layout-align data-layout-width data-layout-border data-mmsrc data-attr="115">
+<div data-type="table_text">
+<span data-type="number">Table : </span><span data-type="table_caption"><span data-block_type="TBN-N-ri">TABLE 14.1</span> <span data-block_type="TBN-T">Homicide and suicide rates per 100,000 people</span></span>
+</div>
+<table><tbody>
+<tr class="bborder">
+<th data-block_type="TBN-COLHD" align="center">County</th>
+<th data-block_type="TBN-COLHD" align="char">Homicide<br>rate</th>
+<th data-block_type="TBN-COLHD" align="char">Suicide<br>rate</th>
+<th class="rborder" data-block_type="TBN-COLHD" align="center">Caution</th>
+<th data-block_type="TBN-COLHD" align="char">County</th>
+<th data-block_type="TBN-COLHD" align="char">Homicide<br>rate</th>
+<th data-block_type="TBN-COLHD" align="char">Suicide<br>rate</th>
+<th data-block_type="TBN-COLHD" align="center">Caution</th>
+</tr>
+<tr>
+<td data-block_type="TBN-TXT" align="center">Allen</td>
+<td data-block_type="TBN-TXT" align="char">4.2</td>
+<td data-block_type="TBN-TXT" align="char">9.2</td>
+<td class="rborder" data-block_type="TBN-TXT" align="center">Y</td>
+<td data-block_type="TBN-TXT" align="char">Lorrain</td>
+<td data-block_type="TBN-TXT" align="char">3.1</td>
+<td data-block_type="TBN-TXT" align="char">11.0</td>
+<td data-block_type="TBN-TXT" align="center">Y</td>
+</tr>
+<tr>
+<td data-block_type="TBN-TXT" align="center">Ashtabula</td>
+<td data-block_type="TBN-TXT" align="char">1.8</td>
+<td data-block_type="TBN-TXT" align="char">15.5</td>
+<td class="rborder" data-block_type="TBN-TXT" align="center">Y</td>
+<td data-block_type="TBN-TXT" align="char">Lucas</td>
+<td data-block_type="TBN-TXT" align="char">7.4</td>
+<td data-block_type="TBN-TXT" align="char">13.3</td>
+<td data-block_type="TBN-TXT" align="center">N</td>
+</tr>
+<tr>
+<td data-block_type="TBN-TXT" align="center">Butler</td>
+<td data-block_type="TBN-TXT" align="char">2.6</td>
+<td data-block_type="TBN-TXT" align="char">12.7</td>
+<td class="rborder" data-block_type="TBN-TXT" align="center">Y</td>
+<td data-block_type="TBN-TXT" align="char">Mahoning</td>
+<td data-block_type="TBN-TXT" align="char">10.9</td>
+<td data-block_type="TBN-TXT" align="char">12.4</td>
+<td data-block_type="TBN-TXT" align="center">N</td>
+</tr>
+<tr>
+<td data-block_type="TBN-TXT" align="center">Clermont</td>
+<td data-block_type="TBN-TXT" align="char">1.0</td>
+<td data-block_type="TBN-TXT" align="char">16.0</td>
+<td class="rborder" data-block_type="TBN-TXT" align="center">Y</td>
+<td data-block_type="TBN-TXT" align="char">Medina</td>
+<td data-block_type="TBN-TXT" align="char">0.5</td>
+<td data-block_type="TBN-TXT" align="char">10.0</td>
+<td data-block_type="TBN-TXT" align="center">Y</td>
+</tr>
+<tr>
+<td data-block_type="TBN-TXT" align="center">Clark</td>
+<td data-block_type="TBN-TXT" align="char">5.6</td>
+<td data-block_type="TBN-TXT" align="char">14.5</td>
+<td class="rborder" data-block_type="TBN-TXT" align="center">N</td>
+<td data-block_type="TBN-TXT" align="char">Miami</td>
+<td data-block_type="TBN-TXT" align="char">2.6</td>
+<td data-block_type="TBN-TXT" align="char">9.2</td>
+<td data-block_type="TBN-TXT" align="center">Y</td>
+</tr>
+<tr>
+<td data-block_type="TBN-TXT" align="center">Columbiana</td>
+<td data-block_type="TBN-TXT" align="char">3.5</td>
+<td data-block_type="TBN-TXT" align="char">16.6</td>
+<td class="rborder" data-block_type="TBN-TXT" align="center">N</td>
+<td data-block_type="TBN-TXT" align="char">Montgomery</td>
+<td data-block_type="TBN-TXT" align="char">9.5</td>
+<td data-block_type="TBN-TXT" align="char">15.2</td>
+<td data-block_type="TBN-TXT" align="center">N</td>
+</tr>
+<tr>
+<td data-block_type="TBN-TXT" align="center">Cuyahoga</td>
+<td data-block_type="TBN-TXT" align="char">9.2</td>
+<td data-block_type="TBN-TXT" align="char">9.5</td>
+<td class="rborder" data-block_type="TBN-TXT" align="center">N</td>
+<td data-block_type="TBN-TXT" align="char">Portage</td>
+<td data-block_type="TBN-TXT" align="char">1.6</td>
+<td data-block_type="TBN-TXT" align="char">9.6</td>
+<td data-block_type="TBN-TXT" align="center">Y</td>
+</tr>
+<tr>
+<td data-block_type="TBN-TXT" align="center">Delaware</td>
+<td data-block_type="TBN-TXT" align="char">0.8</td>
+<td data-block_type="TBN-TXT" align="char">7.6</td>
+<td class="rborder" data-block_type="TBN-TXT" align="center">Y</td>
+<td data-block_type="TBN-TXT" align="char">Stark</td>
+<td data-block_type="TBN-TXT" align="char">4.7</td>
+<td data-block_type="TBN-TXT" align="char">13.5</td>
+<td data-block_type="TBN-TXT" align="center">N</td>
+</tr>
+<tr>
+<td data-block_type="TBN-TXT" align="center">Franklin</td>
+<td data-block_type="TBN-TXT" align="char">8.7</td>
+<td data-block_type="TBN-TXT" align="char">11.4</td>
+<td class="rborder" data-block_type="TBN-TXT" align="center">N</td>
+<td data-block_type="TBN-TXT" align="char">Summit</td>
+<td data-block_type="TBN-TXT" align="char">4.9</td>
+<td data-block_type="TBN-TXT" align="char">11.5</td>
+<td data-block_type="TBN-TXT" align="center">N</td>
+</tr>
+<tr>
+<td data-block_type="TBN-TXT" align="center">Greene</td>
+<td data-block_type="TBN-TXT" align="char">2.7</td>
+<td data-block_type="TBN-TXT" align="char">12.8</td>
+<td class="rborder" data-block_type="TBN-TXT" align="center">Y</td>
+<td data-block_type="TBN-TXT" align="char">Trumbull</td>
+<td data-block_type="TBN-TXT" align="char">5.8</td>
+<td data-block_type="TBN-TXT" align="char">16.6</td>
+<td data-block_type="TBN-TXT" align="center">N</td>
+</tr>
+<tr>
+<td data-block_type="TBN-TXT" align="center">Hamilton</td>
+<td data-block_type="TBN-TXT" align="char">8.9</td>
+<td data-block_type="TBN-TXT" align="char">10.8</td>
+<td class="rborder" data-block_type="TBN-TXT" align="center">N</td>
+<td data-block_type="TBN-TXT" align="char">Warren</td>
+<td data-block_type="TBN-TXT" align="char">0.7</td>
+<td data-block_type="TBN-TXT" align="char">11.3</td>
+<td data-block_type="TBN-TXT" align="center">Y</td>
+</tr>
+<tr>
+<td data-block_type="TBN-TXT" align="center">Lake</td>
+<td data-block_type="TBN-TXT" align="char">1.8</td>
+<td data-block_type="TBN-TXT" align="char">11.3</td>
+<td class="rborder" data-block_type="TBN-TXT" align="center">Y</td>
+<td data-block_type="TBN-TXT" align="char">Wayne</td>
+<td data-block_type="TBN-TXT" align="char">1.8</td>
+<td data-block_type="TBN-TXT" align="char">8.9</td>
+<td data-block_type="TBN-TXT" align="center">Y</td>
+</tr>
+<tr class="bborder">
+<td data-block_type="TBN-TXT" align="center">Licking</td>
+<td data-block_type="TBN-TXT" align="char">4.5</td>
+<td data-block_type="TBN-TXT" align="char">12.9</td>
+<td class="rborder" data-block_type="TBN-TXT" align="center">N</td>
+<td data-block_type="TBN-TXT" align="char">Wood</td>
+<td data-block_type="TBN-TXT" align="char">1.0</td>
+<td data-block_type="TBN-TXT" align="char">7.4</td>
+<td data-block_type="TBN-TXT" align="center">Y</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="../../../../js/utilities.js"></script>
+<script type = "text/javascript" src="../../../../js/query_types.js"></script>
+<script type = "text/javascript" src="../../../../js/player.js"></script>
+<script type = "text/javascript" src="../../../../js/jquery.js"></script>
+<script type = "text/javascript" src="../../../../js/jquery-ui-1.8.16.custom.min.js"></script>
+<script type = "text/javascript" src="../../../../js/jquery_extensions.js"></script>
+<script type = "text/javascript" src="../../../../js/swfobject.js"></script>
+<script type = "text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script type = "text/javascript" src="../../../../js/digfir_ebook_fw.js"></script>
+<script type = "text/javascript" src="../../../../js/scc9e.js"></script>
+<script type = "text/javascript" src="../../../../js/scc9e_ch14.js"></script>
+<script type = "text/javascript" src="../../../supp_win.js"></script>
+<script type = "text/javascript">
+
+//<!--
+$(window).ready(function ()
+    {
+        player.initialize('52c6e83c757a2ef70c000000');
+    });
+//-->
+</script>
+</body>
+</html>

@@ -1,0 +1,523 @@
+<chapter id="scc9e-ch13" number="13" title="Chapter 13: Normal Distributions" start-numbering-at="13" numbered="true">
+<section id="scc9e-ch13-sec-001" block_type="chapter" title="Normal Distributions" numbered="false" level="1" print_page="293">
+<p id="scc9e-ch13-p-01" block_type="CN">13</p>
+<p id="scc9e-ch13-p-02" block_type="CT">Normal Distributions</p>
+<p id="scc9e_page_293" block_type="page_start" data-margin-content="right">293</p>
+<figure id="scc9e-ch13-unfig-001" block_type="CO-PH-CL" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-001" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_CO13.jpg"/>
+<asset_source><phrase block_type="PH-CL">Leonardo Patrizi/Getty Images</phrase></asset_source>
+</figure>
+<box id="scc9e-ch13-box-001" numbered="false" block_type="BX4-H-ri">
+<p id="scc9e-ch13-p-04" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri">CASE STUDY</phrase> Bar graphs and histograms are definitely old technology. Using bars to display data goes back to William Playfair (1759&#8211;1823), an English economist who was an early pioneer of data graphics. Histograms require that we choose classes, and their appearance can change with different choices. Surely modern software offers a better way to picture distributions?</p>
+<p id="scc9e-ch13-p-05" block_type="BX4-TXT-I">Software can replace the separate bars of a histogram with a smooth curve that represents the overall shape of a distribution. Look at <link href="figure_13_1.html">Figure 13.1</link>. The data are the number of text messages reported as being sent on a particular day in 2013 by a random sample of 447 high school seniors. The curve is generated from statistical software as a way of replacing the histogram. The software doesn&#8217;t start from the histogram&#8212;it starts with the actual observations and cleverly draws a curve to describe their distribution.</p>
+<p id="scc9e-ch13-p-06" block_type="BX4-TXT-I">In <link href="figure_13_1.html">Figure 13.1</link>, the software has caught the overall shape and shows the ripples in the long right tail more effectively than does the histogram. It struggles a bit with the peak: it has extended the curve beyond zero in an attempt to smooth out the sharp peak. In <link href="figure_13_2.html">Figure 13.2</link>, we apply the same software to a set of data with a more regularly shaped distribution. These are the body temperatures from a sample of 130 healthy adults. The software draws a curve that shows a distinctive symmetric, single-peaked bell shape.</p>
+<p id="scc9e-ch13-p-07" block_type="BX4-TXT-I">For the irregular distribution in <link href="figure_13_1.html">Figure 13.1</link>, we can&#8217;t do better. In the case of the very symmetric sampling data in <link href="figure_13_2.html">Figure 13.2</link>, however, there is another way to get a smooth curve. The distribution can be described by a specific kind of smooth curve called a <em>Normal curve</em>. <link href="figure_13_3.html">Figure 13.3</link> shows the Normal curve for these data. The curve looks a lot like the one in <link href="figure_13_2.html">Figure 13.2</link>, but a close look shows that it is smoother. The Normal curve is much easier to work with and does not require clever software.</p>
+<p id="scc9e-ch13-p-08" block_type="BX4-TXT-I">In this chapter, we will learn that Normal curves have special properties that help us use them and think about them. By the end of this chapter, you will be able to use these properties to answer questions about the underlying distributions represented in <link href="figure_13_2.html">Figure 13.2</link> and <link href="figure_13_3.html">13.3</link> that cannot easily be determined from the histograms.</p>
+</box>
+<p id="scc9e_page_294" block_type="page_start" data-margin-content="left">294</p>
+<figure id="scc9e-ch13-fig-001" block_type="FIGURE" data-caption-compass="S" numbered="true" number="13.1" mmtype="image" mmsrc="" attr="" data-filename="figure_13_1.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-002" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_01.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 13.1</phrase> <phrase block_type="FG-CAP">A histogram and a computer-drawn curve. Both picture the distribution of number of text messages reported as being sent on a particular day in 2013 by a random sample of 447 high school seniors. This distribution is skewed to the right. (This figure was created using the JMP software package.)</phrase></caption>
+</figure>
+<figure id="scc9e-ch13-fig-002" block_type="FIGURE" data-caption-compass="S" numbered="true" number="13.2" mmtype="image" mmsrc="" attr="" data-filename="figure_13_2.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-003" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_02.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 13.2</phrase> <phrase block_type="FG-CAP">A histogram and a computer-drawn curve. Both picture the distribution of body temperatures from a sample of 130 healthy adults. This distribution is quite symmetric. (This figure was created using the JMP software package.)</phrase></caption>
+</figure>
+<figure id="scc9e-ch13-fig-003" block_type="FIGURE" data-caption-compass="S" numbered="true" number="13.3" mmtype="image" mmsrc="" attr="" data-filename="figure_13_3.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-004" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_03.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 13.3</phrase> <phrase block_type="FG-CAP">A perfectly symmetric Normal curve used to describe the distribution of body temperatures.</phrase></caption>
+</figure>
+<p id="scc9e_page_295" block_type="page_start" data-margin-content="right">295</p>
+<p id="scc9e-ch13-p-011" block_type="TXT-ni">We now have a kit of graphical and numerical tools for describing distributions. What is more, we have a clear strategy for exploring data on a single quantitative variable:</p>
+<list id="scc9e-ch13-list-001" type="ordered" block_type="numbered">
+<li id="scc9e-ch13-li-001"><p id="scc9e-ch13-p-012" block_type="NL"><phrase block_type="maker">1.</phrase> Always plot your data: make a graph, usually a histogram or a stemplot.</p></li>
+<li id="scc9e-ch13-li-002"><p id="scc9e-ch13-p-013" block_type="NL"><phrase block_type="maker">2.</phrase> Look for the overall pattern (shape, center, variability) and for striking deviations such as outliers.</p></li>
+<li id="scc9e-ch13-li-003"><p id="scc9e-ch13-p-014" block_type="NL"><phrase block_type="maker">3.</phrase> Choose either the five-number summary or the mean and standard deviation to briefly describe center and variability in numbers.</p></li>
+</list>
+<p id="scc9e-ch13-p-015" block_type="TXT-ni">Here is one more step to add to this strategy:</p>
+<list id="scc9e-ch13-list-002" type="ordered" block_type="numbered" start="4">
+<li id="scc9e-ch13-li-004"><p id="scc9e-ch13-p-016" block_type="NL"><phrase block_type="maker">4.</phrase> Sometimes, the overall pattern of a large number of observations is so regular that we can describe it by a smooth curve.</p></li>
+</list>
+</section>
+<section id="scc9e-ch13-sec1-001" block_type="h1" chapter="ch13" numbered="false" level="1" print_page="295">
+<section-metadata><section-title>Density curves</section-title></section-metadata>
+<p id="scc9e-ch13-p-017" block_type="TXT-ni"><link href="figure_13_1.html">Figure 13.1</link> and <link href="figure_13_2.html">13.2</link> show curves used in place of histograms to picture the overall shape of a distribution of data. You can think of drawing a curve through the tops of the bars in a histogram, smoothing out the irregular ups and downs of the bars. There are two important distinctions between histograms and these curves. First, most histograms show the <em>counts</em> of observations in each class by the heights of their bars and, therefore, by the areas of the bars. We set up curves to show the <em>proportion</em> of observations in any region by areas under the curve. To do that, we choose the scale so that the total area under the curve is exactly 1. We then have a <strong>density curve</strong>. Second, a histogram is a plot of data obtained from a sample. We use this histogram to understand the actual distribution of the population from which the sample was selected. The density curve is intended to reflect the idealized shape of the population distribution.</p>
+<box id="scc9e-ch13-box-002" numbered="false" block_type="EXP" data-filename="example_13_1.html">
+<p id="scc9e-ch13-p-018" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 1</phrase> Using a density curve</p>
+<p id="scc9e-ch13-p-019" block_type="EXP-first"><link href="figure_13_4.html">Figure 13.4</link> copies <link href="figure_13_3.html">Figure 13.3</link>, showing the histogram and the Normal density curve that describe this data set of 130 body temperatures. What proportion of the temperatures are greater than or equal to 99 degrees Fahrenheit? From the actual 130 observations, we can count that exactly 19 are greater than or equal to 99&#176;F. So the proportion is 19/130, or 0.146. Because 99 is one of the break points between the classes in the histogram, the area of the shaded bars in <link href="figure_13_4.html">Figure 13.4(a)</link> makes up 0.146 of the total area of all the bars.</p>
+<p id="scc9e-ch13-p-020" block_type="EXP-mid">Now concentrate on the density curve drawn through the histogram. The total area under this curve is 1, and the shaded area in <link href="figure_13_4.html">Figure 13.4(b)</link> represents the proportion of observations that are greater than or equal to 99&#176;F. This area is 0.1587. You can see that the density curve is a quite good approximation&#8212;0.1587 is close to 0.146.</p>
+</box>
+<p id="scc9e_page_296" block_type="page_start" data-margin-content="left">296</p>
+<figure id="scc9e-ch13-fig-004" block_type="FIGURE" data-caption-compass="S" numbered="true" number="13.4" mmtype="image" mmsrc="" attr="" data-filename="figure_13_4.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-005" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_04.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 13.4</phrase> <phrase block_type="FG-CAP">A histogram and a Normal density curve, <link href="example_13_1.html">Example 1</link>. (a) The area of the shaded bars in the histogram represents observations greater than 99&#176;F. These make up 19 of the 130 observations. (b) The shaded area under the Normal curve represents the proportion of observations greater than 99&#176;F. This area is 0.1587.</phrase></caption>
+</figure>
+<p id="scc9e-ch13-p-022" block_type="TXT">The area under the density curve in <link href="example_13_1.html">Example 1</link> is not exactly equal to the true proportion because the curve is an idealized picture of the distribution. For example, the curve is exactly symmetric, but the actual data are only approximately symmetric. Because density curves are smoothed-out idealized pictures of the overall shapes of distributions, they are most useful for describing large numbers of observations.</p>
+</section>
+<section id="scc9e-ch13-sec1-002" block_type="h1" chapter="ch13" numbered="false" level="1" print_page="296">
+<section-metadata><section-title>The center and variability of a density curve</section-title></section-metadata>
+<p id="scc9e-ch13-p-023" block_type="TXT-ni">Density curves help us better understand our measures of center and variability. The median and quartiles are easy. Areas under a density curve represent proportions of the total number of observations. The median is the point with half the observations on either side. So, <em>the median of a density curve is the equal-areas point</em>, the point with half the area under the curve to its left and the remaining half of the area to its right. The quartiles divide the area under the curve into quarters. One-fourth of the area under the curve is to the left of the first quartile, and three-fourths of the area is to the left of the third quartile. You can roughly locate the median and quartiles of any density curve by eye by dividing the area under the curve into four equal parts.</p>
+<p id="scc9e_page_297" block_type="page_start" data-margin-content="right">297</p>
+<p id="scc9e-ch13-p-025" block_type="TXT">Because density curves are idealized patterns, a symmetric density curve is exactly symmetric. The median of a symmetric density curve is, therefore, at its center. <link href="figure_13_5.html">Figure 13.5(a)</link> shows the median of a symmetric curve. We can roughly locate the equal-areas point on a skewed curve like that in <link href="figure_13_5.html">Figure 13.5(b)</link> by eye.</p>
+<p id="scc9e-ch13-p-026" block_type="TXT">What about the mean? The mean of a set of observations is their arithmetic average. If we think of the observations as weights stacked on a seesaw, the mean is the point at which the seesaw would balance. This fact is also true of density curves. <em>The mean is the point at which the curve would balance if made of solid material</em>. <link href="figure_13_6.html">Figure 13.6</link> illustrates this fact about the mean. A symmetric curve balances at its center because the two sides are identical. <em>The mean and median of a symmetric density curve are equal</em>, as in <link href="figure_13_5.html">Figure 13.5(a)</link>. We know that the mean of a skewed distribution is pulled toward the long tail. <link href="figure_13_5.html">Figure 13.5(b)</link> shows how the mean of a skewed density curve is pulled toward the long tail more than is the median.</p>
+<figure id="scc9e-ch13-fig-005" block_type="FIGURE" data-caption-compass="S" numbered="true" number="13.5" mmtype="image" mmsrc="" attr="" data-filename="figure_13_5.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-006" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_05.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 13.5</phrase> <phrase block_type="FG-CAP">The median and mean for two density curves: (a) a symmetric Normal curve; (b) a curve that is skewed to the right.</phrase></caption>
+</figure>
+<figure id="scc9e-ch13-fig-006" block_type="FIGURE" data-caption-compass="S" numbered="true" number="13.6" mmtype="image" mmsrc="" attr="" data-filename="figure_13_6.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-007" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_06.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 13.6</phrase> <phrase block_type="FG-CAP">The mean of a density curve is the point at which it would balance.</phrase></caption>
+</figure>
+<p id="scc9e_page_298" block_type="page_start" data-margin-content="left">298</p>
+<box id="scc9e-ch13-box-003" numbered="false" block_type="BX1">
+<p id="scc9e-ch13-p-027" block_type="BX1-T">Median and mean of a density curve</p>
+<p id="scc9e-ch13-p-028" block_type="BX1-TXT-ni">The <strong>median</strong> of a density curve is the equal-areas point, the point that divides the area under the curve in half.</p>
+<p id="scc9e-ch13-p-029" block_type="BX1-TXT-i">The <strong>mean</strong> of a density curve is the balance point, or center of gravity, at which the curve would balance if made of solid material.</p>
+<p id="scc9e-ch13-p-030" block_type="BX1-TXT-i">The median and mean are the same for a symmetric density curve. They both lie at the center of the curve. The mean of a skewed curve is pulled away from the median in the direction of the long tail.</p>
+</box>
+</section>
+<section id="scc9e-ch13-sec1-003" block_type="h1" chapter="ch13" numbered="false" level="1" print_page="298">
+<section-metadata><section-title>Normal distributions</section-title></section-metadata>
+<p id="scc9e-ch13-p-032" block_type="TXT-ni">The density curves in <link href="figure_13_3.html">Figure 13.3</link> and <link href="figure_13_4.html">13.4</link> belong to a particularly important family: the Normal curves. (We capitalize &#8220;Normal&#8221; to remind you that these curves are special.) <link href="figure_13_7.html">Figure 13.7</link> presents two more Normal density curves. Normal curves are symmetric, single-peaked, and bell-shaped. Their tails fall off quickly, so we do not expect outliers. Because Normal distributions are symmetric, the mean and median lie together at the peak in the center of the curve.</p>
+<p id="scc9e-ch13-p-033" block_type="TXT">Normal curves also have the special property that we can locate the standard deviation of the distribution by eye on the curve. This isn&#8217;t true for most other density curves. Here&#8217;s how to do it. Imagine that you are skiing down a mountain that has the shape of a Normal curve. At first, you descend at an ever-steeper angle as you go out from the peak:</p>
+<figure id="scc9e-ch13-fig-007" block_type="FIGURE" data-caption-compass="S" numbered="true" number="13.7" mmtype="image" mmsrc="" attr="" data-filename="figure_13_7.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-008" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_07.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 13.7</phrase> <phrase block_type="FG-CAP">Two Normal curves. The standard deviation determines the variability of a Normal curve.</phrase></caption>
+</figure>
+<p id="scc9e_page_299" block_type="page_start" data-margin-content="right">299</p>
+<figure id="scc9e-ch13-unfig-002" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="13_17MOORESCC-MSE_9e_UNfig_13_01.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-009" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_UNfig_13_01.jpg"/>
+</figure>
+<p id="scc9e-ch13-p-035" block_type="TXT-ni">Fortunately, before you find yourself going straight down, the slope begins to grow flatter rather than steeper as you go out and down:</p>
+<figure id="scc9e-ch13-unfig-003" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="13_17MOORESCC-MSE_9e_UNfig_13_02.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-0010" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_UNfig_13_02.jpg"/>
+</figure>
+<p id="scc9e-ch13-p-036" block_type="TXT"><em>The points at which this change of curvature takes place are located one standard deviation on either side of the mean</em>. The standard deviations are marked on the two curves in <link href="figure_13_7.html">Figure 13.7</link>. You can feel the change as you run a pencil along a Normal curve, and so find the standard deviation.</p>
+<p id="scc9e-ch13-p-037" block_type="TXT">Normal curves have the special property that giving the mean and the standard deviation completely specifies the curve. The mean determines the center of the curve, and the standard deviation determines its shape. Changing the mean of a Normal distribution does <em>not</em> change its shape, only its location on the axis. Changing the standard deviation <em>does</em> change the shape of a Normal curve, as <link href="figure_13_7.html">Figure 13.7</link> illustrates. The distribution with the smaller standard deviation is less variable and more sharply peaked. Here is a summary of basic facts about Normal curves.</p>
+<box id="scc9e-ch13-box-004" numbered="false" block_type="BX1">
+<p id="scc9e-ch13-p-038" block_type="BX1-T">Normal density curves</p>
+<p id="scc9e-ch13-p-039" block_type="BX1-TXT-ni">The <strong>Normal curves</strong> are symmetric, bell-shaped curves that have these properties:</p>
+<list id="scc9e-ch13-list-003" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch13-li-005"><p id="scc9e-ch13-p-040" block_type="BX1-BL-first"><phrase block_type="maker">&#8226;</phrase> A specific Normal curve is completely described by giving its mean and its standard deviation.</p></li>
+<li id="scc9e-ch13-li-006"><p id="scc9e-ch13-p-041" block_type="BX1-BL-first"><phrase block_type="maker">&#8226;</phrase> The mean determines the center of the distribution. It is located at the center of symmetry of the curve.</p></li>
+<li id="scc9e-ch13-li-007"><p id="scc9e-ch13-p-042" block_type="BX1-BL-last"><phrase block_type="maker">&#8226;</phrase> The standard deviation determines the shape of the curve. It is the dis-tance from the mean to the change-of-curvature points on either side.</p></li>
+</list>
+</box>
+<p id="scc9e-ch13-p-043" block_type="TXT">Why are the Normal distributions important in statistics? First, Normal distributions are good descriptions for some distributions of <em>real data</em>. Normal curves were first applied to data by the great mathematician Carl Friedrich Gauss (1777&#8211;1855), who used them to describe the small errors made by astronomers and surveyors in repeated careful measurements of the same quantity. You will sometimes see Normal distributions labeled &#8220;Gaussian&#8221; in honor of Gauss. For much of the nineteenth century, Normal curves were called &#8220;error curves&#8221; because they were first used to describe the distribution of measurement errors. As it became clear that the distributions of some biological and psychological variables were at least roughly Normal, the &#8220;error curve&#8221; terminology was dropped. The curves were first called &#8220;Normal&#8221; by Francis Galton in 1889. Galton, a cousin of Charles Darwin, pioneered the statistical study of biological inheritance.</p>
+<box id="scc9e-ch13-box-005" numbered="false" block_type="margin-statistics">
+<p id="scc9e-ch13-p-045" block_type="MN-TXT"><image asset-id="scc9e-ch13-img-0011" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">The bell curve?</phrase> Does the distribution of human intelligence follow the &#8220;bell curve&#8221; of a Normal distribution? Scores on IQ tests do roughly follow a Normal distribution. That is because a test score is calculated from a person&#8217;s answers in a way that is designed to produce a Normal distribution. To conclude that intelligence follows a bell curve, we must agree that the test scores directly measure intelligence. Many psychologists don&#8217;t think there is one human characteristic that we can call &#8216;&#8216;intelligence&#8217;&#8217; and can measure by a single test score.</p>
+</box>
+  <p id="scc9e_page_300" block_type="page_start" data-margin-content="left">300</p>
+
+<p id="scc9e-ch13-p-046" block_type="TXT">Normal curves also describe the distribution of statistics such as sample proportions (when the sample size is large and the value of the proportion is moderate) and sample means when we take many samples from the same population. We will explore distributions of statistics in more detail in later chapters. The margins of error for the results of sample surveys are usually calculated from Normal curves. However, even though many sets of data follow a Normal distribution, many do not. Most income distributions, for example, are skewed to the right and so are not Normal. Non-Normal data, like nonnormal people, not only are common but are sometimes more interesting than their normal counterparts.</p>
+</section>
+<section id="scc9e-ch13-sec1-004" block_type="h1" chapter="ch13" numbered="false" level="1" print_page="300">
+<section-metadata><section-title>The 68&#8211;95&#8211;99.7 rule</section-title></section-metadata>
+<p id="scc9e-ch13-p-047" block_type="TXT-ni">There are many Normal curves, each described by its mean and standard deviation. All Normal curves share many properties. In particular, the standard deviation is the natural unit of measurement for Normal distributions. This fact is reflected in the following rule.</p>
+<box id="scc9e-ch13-box-006" numbered="false" block_type="BX1">
+<p id="scc9e-ch13-p-048" block_type="BX1-T">The 68&#8211;95&#8211;99.7 rule</p>
+<p id="scc9e-ch13-p-049" block_type="BX1-TXT-ni">In any Normal distribution, approximately</p>
+<list id="scc9e-ch13-list-004" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch13-li-008"><p id="scc9e-ch13-p-050" block_type="BX1-BL-first"><phrase block_type="maker">&#8226;</phrase> <strong>68&#37;</strong> of the observations fall within one standard deviation of the mean.</p></li>
+<li id="scc9e-ch13-li-009"><p id="scc9e-ch13-p-051" block_type="BX1-BL-first"><phrase block_type="maker">&#8226;</phrase> <strong>95&#37;</strong> of the observations fall within two standard deviations of the mean.</p></li>
+<li id="scc9e-ch13-li-010"><p id="scc9e-ch13-p-052" block_type="BX1-BL-last"><phrase block_type="maker">&#8226;</phrase> <strong>99.7&#37;</strong> of the observations fall within three standard deviations of the mean.</p></li>
+</list>
+</box>
+<p id="scc9e_page_301" block_type="page_start" data-margin-content="right">301</p>
+<figure id="scc9e-ch13-fig-008" block_type="FIGURE" data-caption-compass="S" numbered="true" number="13.8" mmtype="image" mmsrc="" attr="" data-filename="figure_13_8.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-0012" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_08.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 13.8</phrase> <phrase block_type="FG-CAP">The 68&#8211;95&#8211;99.7 rule for Normal distributions. Note the <em>x</em> axis, or the horizontal axis, displays the number of standard deviations from the mean.</phrase></caption>
+</figure>
+<p id="scc9e-ch13-p-054" block_type="TXT"><link href="figure_13_8.html">Figure 13.8</link> illustrates the 68&#8211;95&#8211;99.7 rule. By remembering these three numbers, you can think about Normal distributions without constantly making detailed calculations. Remember also, though, that no set of data is exactly described by a Normal curve. The 68&#8211;95&#8211;99.7 rule will be only approximately true for SAT scores or the lengths of crickets because these distributions are approximately Normal.</p>
+<figure id="scc9e-ch13-unfig-004" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="13_17MOORESCC-MSE_9e_P_13_01.html">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-0013" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_P_13_01.jpg"/>
+<asset_source><phrase block_type="PH-CL">Cultura Creative/Alamy</phrase></asset_source>
+</figure>
+  <box id="scc9e-ch13-box-007" numbered="false" block_type="EXP" data-filename="example_13_2.html">
+<p id="scc9e-ch13-p-055" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> Heights of young women</p>
+<p id="scc9e-ch13-p-056" block_type="EXP-first">The distribution of heights of women aged 18 to 24 is approximately Normal with mean 65 inches and standard deviation 2.5 inches. To use the 68&#8211;95&#8211;99.7 rule, always start by drawing a picture of the Normal curve. <link href="figure_13_9.html">Figure 13.9</link> shows what the rule says about women&#8217;s heights.</p>
+<p id="scc9e-ch13-p-057" block_type="EXP-mid">Half of the observations in any Normal distribution lie above the mean, so half of all young women are taller than 65 inches.</p>
+<p id="scc9e-ch13-p-058" block_type="EXP-mid">The central 68&#37; of any Normal distribution lies within one standard deviation of the mean. Half of this central 68&#37;, or 34&#37;, lies above the mean. So 34&#37; of young women are between 65 inches and 67.5 inches tall. Adding the 50&#37; who are shorter than 65 inches, we see that 84&#37; of young women have heights less than 67.5 inches. That leaves 16&#37; who are taller than 67.5 inches.</p>
+
+<p id="scc9e-ch13-p-059" block_type="EXP-mid">The central 95&#37; of any Normal distribution lies within two standard deviations of the mean. Two standard deviations is 5 inches here, so the middle 95&#37; of young women&#8217;s heights are between 60 inches (that&#8217;s 65 &#8722; 5) and 70 inches (that&#8217;s 65 + 5).</p>
+<p id="scc9e_page_302" block_type="page_start" data-margin-content="left">302</p>
+<figure id="scc9e-ch13-fig-009" block_type="FIGURE" data-caption-compass="S" numbered="true" number="13.9" mmtype="image" mmsrc="" attr="" data-filename="figure_13_9.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-0014" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_09.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 13.9</phrase> <phrase block_type="FG-CAP">The 68&#8211;95&#8211;99.7 rule for heights of young women, <link href="example_13_2.html">Example 2</link>. This Normal distribution has mean 65 inches and standard deviation 2.5 inches.</phrase></caption>
+</figure>
+<p id="scc9e-ch13-p-061" block_type="EXP-mid">The other 5&#37; of young women have heights outside the range from 60 to 70 inches. Because the Normal distributions are symmetric, half of these women are on the short side. The shortest 2.5&#37; of young women are less than 60 inches (5 feet) tall.</p>
+<p id="scc9e-ch13-p-062" block_type="EXP-mid">Almost all (99.7&#37;) of the observations in any Normal distribution lie within three standard deviations of the mean. Almost all young women are between 57.5 and 72.5 inches tall.</p>
+</box>
+<box id="scc9e-ch13-box-008" numbered="false" block_type="BX2">
+<p id="scc9e-ch13-p-063" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch13-quest-001" block_type="exercise_13_1.html">
+<p id="scc9e-ch13-p-064" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">13.1 Heights of young men.</phrase> The distribution of heights of young men is approximately Normal with mean 70 inches and standard deviation 2.5 inches. Between which heights do the middle 95&#37; of men fall?</p>
+</question>
+</box>
+</section>
+<section id="scc9e-ch13-sec1-005" block_type="h1" chapter="ch13" numbered="false" level="1" print_page="302">
+<section-metadata><section-title>Standard scores</section-title></section-metadata>
+<p id="scc9e-ch13-p-065" block_type="TXT-ni">Madison scored 600 on the SAT Mathematics college entrance exam. How good a score is this? That depends on where a score of 600 lies in the distribution of all scores. The SAT exams are scaled so that scores should roughly follow the Normal distribution with mean 500 and standard deviation 100. Madison&#8217;s 600 is one standard deviation above the mean. The 68&#8211;95&#8211;99.7 rule now tells us just where she stands (<link href="figure_13_10.html">Figure 13.10</link>). Half of all scores are below 500, and another 34&#37; are between 500 and 600. So, Madison did better than 84&#37; of the students who took the SAT. Her score report not only will say she scored 600 but will add that this is at the &#8220;84th percentile.&#8221; That&#8217;s statistics speak for &#8220;You did better than 84&#37; of those who took the test.&#8221;</p>
+<p id="scc9e_page_303" block_type="page_start" data-margin-content="right">303</p>
+<figure id="scc9e-ch13-fig-010" block_type="FIGURE" data-caption-compass="S" numbered="true" number="13.10" mmtype="image" mmsrc="" attr="" data-filename="figure_13_10.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-0015" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_10.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 13.10</phrase> <phrase block_type="FG-CAP">The 68&#8211;95&#8211;99.7 rule shows that 84&#37; of any Normal distribution lies to the left of the point one standard deviation above the mean. Here, this fact is applied to SAT scores.</phrase></caption>
+</figure>
+<p id="scc9e-ch13-p-067" block_type="TXT">Because the standard deviation is the natural unit of measurement for Normal distributions, we restated Madison&#8217;s score of 600 as &#8220;one standard deviation above the mean.&#8221; Observations expressed in standard deviations above or below the mean of a distribution are called <em>standard scores</em>. Standard scores are also sometimes referred to as z-scores.</p>
+<box id="scc9e-ch13-box-009" numbered="false" block_type="BX1">
+<p id="scc9e-ch13-p-068" block_type="BX1-T">Standard scores</p>
+<p id="scc9e-ch13-p-069" block_type="BX1-TXT-ni">The <strong>standard score</strong> for any observation is</p>
+<p id="scc9e-ch13-p-070" block_type="BX1-TXT-ni"><phrase data-math="math_1"></phrase></p>
+</box>
+<p id="scc9e-ch13-p-071" block_type="TXT">A standard score of 1 says that the observation in question lies one standard deviation above the mean. An observation with standard score &#8722;2 is two standard deviations below the mean. Standard scores can be used to compare values in different distributions. Of course, you should not use standard scores unless you are willing to use the standard deviation to describe the variability of the distributions. That requires that the distributions be at least roughly symmetric.</p>
+<p id="scc9e_page_304" block_type="page_start" data-margin-content="left">304</p>
+<box id="scc9e-ch13-box-010" numbered="false" block_type="EXP" data-filename="example_13_3.html">
+<p id="scc9e-ch13-p-073" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> ACT versus SAT scores</p>
+<p id="scc9e-ch13-p-074" block_type="EXP-first">Madison scored 600 on the SAT Mathematics exam. Her friend Gabriel took the American College Testing (ACT) test and scored 21 on the math part. ACT scores are Normally distributed with mean 18 and standard deviation 6. Assuming that both tests measure the same kind of ability, who has the higher score?</p>
+<p id="scc9e-ch13-p-075" block_type="EXP-mid">Madison&#8217;s standard score is</p>
+<p id="scc9e-ch13-p-076" block_type="EXP-EQ"><phrase data-math="math_2"></phrase></p>
+<p id="scc9e-ch13-p-077" block_type="EXP-first">Compare this with Gabriel&#8217;s standard score, which is</p>
+<p id="scc9e-ch13-p-078" block_type="EXP-EQ"><phrase data-math="math_3"></phrase></p>
+<p id="scc9e-ch13-p-079" block_type="EXP-mid">Because Madison&#8217;s score is 1 standard deviation above the mean and Gabriel&#8217;s is only 0.5 standard deviation above the mean, Madison&#8217;s performance is better.</p>
+</box>
+<box id="scc9e-ch13-box-011" numbered="false" block_type="BX2">
+<p id="scc9e-ch13-p-080" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch13-quest-002" block_type="exercise_13_2.html">
+<p id="scc9e-ch13-p-081" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">13.2 Heights of young men.</phrase> The distribution of heights of young men is approximately Normal with mean 70 inches and standard deviation 2.5 inches. What is the standard score of a height of 72 inches (6 feet)?</p>
+</question>
+</box>
+</section>
+<section id="scc9e-ch13-sec1-006" block_type="h1" chapter="ch13" numbered="false" level="1" print_page="304">
+<section-metadata><section-title>Percentiles of Normal distributions<termref term="fn_ch13_fn01"><sup>*</sup></termref></section-title></section-metadata>
+<p id="scc9e-ch13-p-082" block_type="TXT-ni">For Normal distributions, but not for other distributions, standard scores translate directly into <em>percentiles</em>.</p>
+<box id="scc9e-ch13-box-012" numbered="false" block_type="BX1">
+<p id="scc9e-ch13-p-083" block_type="BX1-T">Percentiles</p>
+<p id="scc9e-ch13-p-084" block_type="BX1-TXT-ni">The <strong>cth percentile</strong> of a distribution is a value such that <phrase data-math="math_4"></phrase> percent of the observations lie below it and the rest lie above.</p>
+</box>
+<p id="scc9e-ch13-p-085" block_type="TXT">The median of any distribution is the 50th percentile, and the quartiles are the 25th and 75th percentiles. In any Normal distribution, the point one standard deviation above the mean (standard score 1) is the 84th percentile. <link href="figure_13_10.html">Figure 13.10</link> shows why. Every standard score for a Normal distribution translates into a specific percentile, which is the same no matter what the mean and standard deviation of the original Normal distribution are. <link href="table_b.html">Table B</link> at the back of this book gives the percentiles corresponding to various standard scores. This table enables us to do calculations in greater detail than does the 68&#8211;95&#8211;99.7 rule.</p>
+<box id="scc9e-ch13-FN-001" block_type="FN" data-chapter="13" data-footnote-number="*"><p id="scc9e-ch13-p-086" block_type="FN">*This material is not needed to read the rest of the book.</p></box>
+<p id="scc9e_page_305" block_type="page_start" data-margin-content="right">305</p>
+<figure id="scc9e-ch13-unfig-005" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="13_17MOORESCC-MSE_9e_P_13_02.html">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-0016" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_P_13_02.jpg"/>
+<asset_source><phrase block_type="PH-CL">Jose Luis Pelaez, Inc./CORBIS</phrase></asset_source>
+</figure>
+  <box id="scc9e-ch13-box-013" numbered="false" block_type="EXP" data-filename="example_13_4.html">
+<p id="scc9e-ch13-p-087" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> Percentiles for college entrance exams</p>
+<p id="scc9e-ch13-p-088" block_type="EXP-first">Madison&#8217;s score of 600 on the SAT translates into a standard score of 1.0. We saw that the 68&#8211;95&#8211;99.7 rule says that this is the 84th percentile. <link href="table_b.html">Table B</link> is a bit more precise: it says that standard score 1 is the 84.13 percentile of a Normal distribution. Gabriel&#8217;s 21 on the ACT is a standard score of 0.5. <link href="table_b.html">Table B</link> says that this is the 69.15 percentile. Gabriel did well, but not as well as Madison. The percentile is easier to understand than either the raw score or the standard score. That&#8217;s why reports of exams such as the SAT usually give both the score and the percentile.</p>
+</box>
+<box id="scc9e-ch13-box-014" numbered="false" block_type="EXP" data-filename="example_13_5.html">
+<p id="scc9e-ch13-p-090" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 5</phrase> Finding the observation that matches a percentile</p>
+<p id="scc9e-ch13-p-091" block_type="EXP-first">How high must a student score on the SAT to fall in the top 10&#37; of all scores? That requires a score at or above the 90th percentile. Look in the body of <link href="table_b.html">Table B</link> for the percentiles closest to 90. You see that standard score 1.2 is the 88.49 percentile and standard score 1.3 is the 90.32 percentile. The percentile in the table closest to 90 is 90.32, so we conclude that a standard score of 1.3 is approximately the 90th percentile <em>of any Normal distribution</em>.</p>
+<p id="scc9e-ch13-p-092" block_type="EXP-mid">To go from the standard score back to the scale of SAT scores, &#8220;undo&#8221; the standard score calculation as follows:</p>
+<p id="scc9e-ch13-p-093" block_type="EXP-EQ">observation = mean + standard score &#215; standard deviation</p>
+<p id="scc9e-ch13-p-094" block_type="EXP-EQ">= 500 + (1.3)(100) = 630</p>
+<p id="scc9e-ch13-p-095" block_type="EXP-ni">A score of 630 or higher will be in the top 10&#37;. (More exactly, these scores are in the top 9.68&#37; because 630 is exactly the 90.32 percentile.)</p>
+</box>
+<box id="scc9e-ch13-box-015" numbered="false" block_type="EXP" data-filename="example_13_6.html">
+<p id="scc9e-ch13-p-096" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 6</phrase> Finding the percentile below a particular value</p>
+<p id="scc9e-ch13-p-097" block_type="EXP-first">Returning again to the distribution of SAT scores, if Ting obtains a score of 430 on this exam, what percentage of individuals score the same as or lower than Ting? To answer this question, we must first convert Ting&#8217;s score to a standard score. This standard score is</p>
+<p id="scc9e-ch13-p-098" block_type="EXP-EQ"><phrase data-math="math_5"></phrase></p>
+<p id="scc9e_page_306" block_type="page_start" data-margin-content="left">306</p>
+<p id="scc9e-ch13-p-0100" block_type="EXP-ni">From <link href="table_b.html">Table B</link>, we can see that the standard score of &#8722;0.7 corresponds to a percentile of 24.20. Therefore, 24.20&#37; of those individuals who took this exam score at or below Ting&#8217;s score of 430.</p>
+</box>
+<box id="scc9e-ch13-box-016" numbered="false" block_type="EXP" data-filename="example_13_7.html">
+<p id="scc9e-ch13-p-0101" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 7</phrase> Finding the percentile above a particular value</p>
+<p id="scc9e-ch13-p-0102" block_type="EXP-first">If Jordan scores 725 on the SAT Mathematics college entrance exam, what percentage of individuals would score at least as high or higher than Jordan? To answer this question, we must again begin by converting Jordan&#8217;s score to a standard score. This standard score is</p>
+<p id="scc9e-ch13-p-0103" block_type="EXP-EQ"><phrase data-math="math_6"></phrase></p>
+<p id="scc9e-ch13-p-0104" block_type="EXP-ni">To use <link href="table_b.html">Table B</link>, we must first round 2.25 to 2.3. From <link href="table_b.html">Table B</link>, we can see that the standard score of 2.3 corresponds to a percentile of 98.93. We might be tempted to assume our final answer will be 98.93&#37;. If we were attempting to determine the percentage of individuals who scored 725 or lower, our final answer would be 98.93&#37;. We want to know, however, the percentage who score 725 or higher. To find this percentage, we need to remember that the total area below the Normal curve is 1. Expressed as a percentage, the total area is 100&#37;. To find the percentage of values that fall at or above 725, we subtract the percentage of values that fall below 725 from 100&#37;. This gives us 100&#37; &#8722; 98.93&#37; = 1.07&#37;. Our final answer is that 1.07&#37; of individuals who take the SAT Mathematics college entrance exam score at or above Jordan&#8217;s score of 725.</p>
+</box>
+<box id="scc9e-ch13-box-017" numbered="false" block_type="BX2">
+<p id="scc9e-ch13-p-0105" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch13-quest-003" block_type="exercise_13_3.html">
+<p id="scc9e-ch13-p-0106" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">13.3 SAT scores.</phrase> How high must a student score on the SAT Mathematics test to fall in the top 25&#37; of all scores? What percentage of students obtain scores at or below 475? What percentage of students obtain scores at or above 580?</p>
+</question>
+</box>
+</section>
+<section id="scc9e-ch13-sec1-007" block_type="SUM-H" chapter="ch13" numbered="false" level="1" print_page="306">
+<section-metadata><section-title><phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase></section-title></section-metadata>
+<p id="scc9e-ch13-p-0107" block_type="SUM-hd1">Chapter Specifics</p>
+<list id="scc9e-ch13-list-005" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch13-li-011"><p id="scc9e-ch13-p-0108" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> Stemplots, histograms, and boxplots all describe the distributions of quantitative variables.</p></li>
+<li id="scc9e-ch13-li-012"><p id="scc9e-ch13-p-0109" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> <strong>Density curves</strong> also describe distributions. A density curve is a curve with area exactly 1 underneath it whose shape describes the overall pattern of a distribution.</p>
+<p id="scc9e_page_307" block_type="page_start" data-margin-content="right">307</p></li>
+<li id="scc9e-ch13-li-014"><p id="scc9e-ch13-p-0111" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> An area under the curve gives the proportion of the observations that fall in an interval of values.</p></li>
+<li id="scc9e-ch13-li-015"><p id="scc9e-ch13-p-0112" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> You can roughly locate the median (equal-areas point) and the mean (balance point) by eye on a density curve.</p></li>
+<li id="scc9e-ch13-li-016"><p id="scc9e-ch13-p-0113" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> Stemplots, histograms, and boxplots are created from samples. Density curves are intended to display the idealized shape of the distribution of the population from which the samples are taken.</p></li>
+<li id="scc9e-ch13-li-017"><p id="scc9e-ch13-p-0114" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> <strong>Normal curves</strong> are a special kind of density curve that describes the overall pattern of some sets of data. Normal curves are symmetric and bell-shaped. A specific Normal curve is completely described by its mean and standard deviation. You can locate the mean (center point) and the standard deviation (distance from the mean to the change-of-curvature points) on a Normal curve. All Normal distributions obey the <strong>68&#8211;95&#8211;99.7 rule</strong>.</p></li>
+<li id="scc9e-ch13-li-018"><p id="scc9e-ch13-p-0115" block_type="SUM-BL-last"><phrase block_type="maker">&#8226;</phrase> <strong>Standard scores</strong> express observations in standard deviation units about the mean, which has standard score 0. A given standard score corresponds to the same <strong>percentile</strong> in any Normal distribution. <link href="table_b.html">Table B</link> gives percentiles of Normal distributions.</p></li>
+</list>
+<p id="scc9e-ch13-p-0116" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch13-img-0017" alt="image" src="asset/global_images/LinkIt.jpg"/> <link href="scc9e-ch10.xml">Chapters 10</link>, <link href="scc9e-ch11.xml">11</link>, and <link href="scc9e-ch12.xml">12</link> provided us with a strategy for exploring data on a single quantitative variable.</p>
+<list id="scc9e-ch13-list-006" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch13-li-019"><p id="scc9e-ch13-p-0117" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> Make a graph, usually a histogram or stemplot.</p></li>
+<li id="scc9e-ch13-li-020"><p id="scc9e-ch13-p-0118" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> Look for the overall pattern (shape, center, variability) and striking deviations from the pattern.</p></li>
+<li id="scc9e-ch13-li-021"><p id="scc9e-ch13-p-0119" block_type="SUM-BL-last"><phrase block_type="maker">&#8226;</phrase> Choose the five-number summary or the mean and standard deviation to briefly describe the center and variability in numbers.</p></li>
+</list>
+<p id="scc9e-ch13-p-0120" block_type="SUM-TXT">In this chapter, we added another step: sometimes the overall pattern of a large number of observations is so regular that we can describe it by a smooth density curve, such as the Normal curve. This step also allows us to identify &#8220;a large number of observations&#8221; as a population and use density curves to describe the distribution of a population. We did precisely this when we used the Normal distribution to describe the distribution of the heights of all young women or the scores of all students on the SAT exam.</p>
+<p id="scc9e-ch13-p-0121" block_type="SUM-TXT">Using a density curve to describe the distribution of a population is a convenient summary, allowing us to determine percentiles of the distribution without having to see a list of all the values in the population. It also suggests the nature of the conclusions we might draw about a single quantitative variable. Use statistics that describe the distribution of the sample to draw conclusions about parameters that describe the distribution of a population. We will explore this in future chapters.</p>
+<p id="scc9e_page_308" block_type="page_start" data-margin-content="left">308</p>
+<box id="scc9e-ch13-box-018" numbered="false" block_type="case_title">
+<p id="scc9e-ch13-p-0123" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> The Normal curve that best approximates the distribution of body temperatures in <link href="figure_13_2.html">Figure 13.2</link> and <link href="figure_13_3.html">13.3</link> has mean 98.25&#176;F and standard deviation 0.73&#176;F. Use what you have learned in this chapter to answer the following questions.</p>
+<list id="scc9e-ch13-list-007" type="ordered" block_type="numbered">
+<li id="scc9e-ch13-li-022"><p id="scc9e-ch13-p-0125" block_type="BX4-TXT-first"><phrase block_type="maker">1.</phrase> According to the 68&#8211;95&#8211;99.7 rule, 68&#37; of body temperatures fall between what two values? Between what two values do 95&#37; of body temperatures fall?</p></li>
+<li id="scc9e-ch13-li-023"><p id="scc9e-ch13-p-0126" block_type="BX4-TXT-first"><phrase block_type="maker">2.</phrase> There was a time when 98.6&#176;F was considered the average body temperature. Given what you know about the distribution of body temperatures given in <link href="figure_13_2.html">Figure 13.2</link> and <link href="figure_13_3.html">13.3</link>, what percentage of individuals would you expect to have body temperatures greater than 98.6&#176;F? What percentage would you expect to have body temperature less than 98.6&#176;F?</p></li>
+</list>
+</box>
+<box id="scc9e-ch13-box-019" numbered="false" block_type="launchpad">
+<p id="scc9e-ch13-p-0127" block_type="CR-BIB-T"><image asset-id="scc9e-ch13-img-0018" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<list id="scc9e-ch13-list-008" type="unordered" block_type="redbullet">
+<li id="scc9e-ch13-li-024"><p id="scc9e-ch13-p-0128" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> <em>LearningCurve</em> has good questions to check your understanding of the concepts.</p></li>
+</list>
+</box>
+</section>
+<section id="scc9e-ch13-sec1-008" block_type="CR-X-H" chapter="ch13" numbered="false" level="1" print_page="308">
+<section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
+<p id="scc9e-ch13-p-0129" block_type="CR-X"><em>For <link href="exercise_13_1.html">Exercise 13.1</link>, see page 302; for <link href="exercise_13_2.html">Exercise 13.2</link>, see page 304; for <link href="exercise_13_3.html">Exercise 13.3</link>, see page 306.</em></p>
+<question id="scc9e-ch13-quest-004" block_type="exercise_13_4.html">
+<p id="scc9e-ch13-p-0130" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.4 Density curves.</phrase> One characteristic of a density curve is that there is a specific total area under the curve. What is this area equal to?</p>
+<list id="scc9e-ch13-list-009" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch13-li-025"><p id="scc9e-ch13-p-0131" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Exactly 1.</p></li>
+<li id="scc9e-ch13-li-026"><p id="scc9e-ch13-p-0132" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Approximately 1.</p></li>
+<li id="scc9e-ch13-li-027"><p id="scc9e-ch13-p-0133" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> It depends on what is being measured.</p></li>
+<li id="scc9e-ch13-li-028"><p id="scc9e-ch13-p-0134" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> It depends on whether the distribution is Normal.</p></li>
+</list>
+</question>
+<question id="scc9e-ch13-quest-005" block_type="exercise_13_5.html">
+<p id="scc9e-ch13-p-0135" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.5 The mean and median.</phrase> Which of the following is an incorrect statement?</p>
+<list id="scc9e-ch13-list-010" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch13-li-029"><p id="scc9e-ch13-p-0136" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> If a density curve is skewed to the right, the mean will be larger than the median.</p></li>
+<li id="scc9e-ch13-li-030"><p id="scc9e-ch13-p-0137" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> In a symmetric density curve, the mean is equal to the median.</p></li>
+<li id="scc9e-ch13-li-031"><p id="scc9e-ch13-p-0138" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The median is the balance point in a density curve.</p></li>
+<li id="scc9e-ch13-li-032"><p id="scc9e-ch13-p-0139" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> The mean of a skewed distribution is pulled toward the long tail.</p></li>
+</list>
+</question>
+<question id="scc9e-ch13-quest-006" block_type="exercise_13_6.html">
+<p id="scc9e-ch13-p-0140" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.6 Pulse rates.</phrase> Suppose that resting pulse rates for healthy adults are found to follow a Normal distribution, with a mean of 69 beats per minute and a standard deviation of 9.5 beats per minutes. If Bonnie has a pulse rate of 78.5 beats per minute, this means that</p>
+<list id="scc9e-ch13-list-011" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch13-li-033"><p id="scc9e-ch13-p-0141" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> approximately 32&#37; of adults have pulse rates higher than Bonnie&#8217;s.</p></li>
+<li id="scc9e-ch13-li-034"><p id="scc9e-ch13-p-0142" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> approximately 16&#37; of adults have pulse rates higher than Bonnie&#8217;s.</p></li>
+<li id="scc9e-ch13-li-035"><p id="scc9e-ch13-p-0143" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Bonnie&#8217;s pulse rate is two standard deviations above the mean.</p></li>
+<li id="scc9e-ch13-li-036"><p id="scc9e-ch13-p-0144" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> Bonnie&#8217;s pulse rate, when converted to a standard score, would be 1.5.</p></li>
+</list>
+</question>
+<p id="scc9e_page_309" block_type="page_start" data-margin-content="right">309</p>
+<question id="scc9e-ch13-quest-007" block_type="exercise_13_7.html">
+<p id="scc9e-ch13-p-0146" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.7 More on pulse rates.</phrase> Let&#8217;s again assume that the resting pulse rates for healthy adults follow a Normal distribution with a mean of 69 beats per minute and a standard deviation of 9.5 beats per minute. When converted to a standard score, Adam&#8217;s pulse rate becomes &#8722;0.5. How should this standard score be interpreted?</p>
+<list id="scc9e-ch13-list-012" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch13-li-037"><p id="scc9e-ch13-p-0147" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Adam should see a doctor because his pulse rate is unusually low.</p></li>
+<li id="scc9e-ch13-li-038"><p id="scc9e-ch13-p-0148" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Adam&#8217;s pulse rate is above the mean.</p></li>
+<li id="scc9e-ch13-li-039"><p id="scc9e-ch13-p-0149" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Exactly 5&#37; of healthy adults have pulse rates less than Adam&#8217;s pulse rate.</p></li>
+<li id="scc9e-ch13-li-040"><p id="scc9e-ch13-p-0150" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> Adam&#8217;s pulse rate is about one-half of a standard deviation below the mean.</p></li>
+</list>
+</question>
+<question id="scc9e-ch13-quest-008" block_type="exercise_13_8.html">
+<p id="scc9e-ch13-p-0151" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.8 Reading test scores.</phrase> A standardized reading test is given to fifth-grade students. Scores on this test are Normally distributed, with a mean of 32 points and a standard deviation of 8 points. When Corey gets his test results, he is told that his score is at the 95th percentile. What does this mean?</p>
+<list id="scc9e-ch13-list-013" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch13-li-041"><p id="scc9e-ch13-p-0152" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Corey&#8217;s score is higher than 95&#37; of the students who took this test.</p></li>
+<li id="scc9e-ch13-li-042"><p id="scc9e-ch13-p-0153" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Corey&#8217;s score is 48 points.</p></li>
+<li id="scc9e-ch13-li-043"><p id="scc9e-ch13-p-0154" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Corey&#8217;s score is exactly two standard deviations above the mean.</p></li>
+<li id="scc9e-ch13-li-044"><p id="scc9e-ch13-p-0155" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> All of the above.</p></li>
+</list>
+</question>
+</section>
+<section id="scc9e-ch13-sec1-009" block_type="CR-X-H-v1" chapter="ch13" numbered="false" level="1" print_page="309">
+<section-metadata><section-title>CHAPTER 13 EXERCISES</section-title></section-metadata>
+<question id="scc9e-ch13-quest-009" block_type="exercise_13_9.html">
+<p id="scc9e-ch13-p-0156" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.9 Density curves</phrase></p>
+<list id="scc9e-ch13-list-014" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch13-li-045"><p id="scc9e-ch13-p-0157" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Sketch a density curve that is symmetric but has a shape different from that of the Normal curves.</p></li>
+<li id="scc9e-ch13-li-046"><p id="scc9e-ch13-p-0158" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Sketch a density curve that is strongly skewed to the right.</p></li>
+</list>
+</question>
+<question id="scc9e-ch13-quest-010" block_type="exercise_13_10.html">
+<p id="scc9e-ch13-p-0159" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.10 Mean and median.</phrase> <link href="figure_13_11.html">Figure 13.11</link> shows density curves of several shapes. Briefly describe the overall shape of each distribution. Two or more points are marked on each curve. The mean and the median are among these points. For each curve, which point is the median and which is the mean?</p>
+</question>
+  <figure id="scc9e-ch13-fig-011" block_type="FIGURE" data-caption-compass="S" numbered="true" number="13.11" mmtype="image" mmsrc="" attr="" data-filename="figure_13_11.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-0019" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_11.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 13.11</phrase> <phrase block_type="FG-CAP">Four density curves of different shapes, <link href="exercise_13_10.html">Exercise 13.10</link>. In each case, the mean and the median are among the marked points.</phrase></caption>
+</figure>
+<question id="scc9e-ch13-quest-011" block_type="exercise_13_11.html">
+<p id="scc9e-ch13-p-0160" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.11 Random numbers.</phrase> If you ask a computer to generate &#8220;random numbers&#8221; between 0 and 1, you will get observations from a <em>uniform distribution</em>. <link href="figure_13_12.html">Figure 13.12</link> shows the density curve for a uniform distribution. This curve takes the constant value 1 between 0 and 1 and is zero outside that range. Use this density curve to answer these questions.</p>
+<list id="scc9e-ch13-list-015" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch13-li-047"><p id="scc9e-ch13-p-0161" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Why is the total area under the curve equal to 1?</p></li>
+<li id="scc9e-ch13-li-048"><p id="scc9e-ch13-p-0162" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The curve is symmetric. What is the value of the mean and median?</p></li>
+<li id="scc9e-ch13-li-049"><p id="scc9e-ch13-p-0163" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> What percentage of the observations lie between 0 and 0.1?</p></li>
+<li id="scc9e-ch13-li-050"><p id="scc9e-ch13-p-0164" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> What percentage of the observations lie between 0.6 and 0.9?</p></li>
+</list>
+</question>
+  <figure id="scc9e-ch13-fig-012" block_type="FIGURE" data-caption-compass="S" numbered="true" number="13.12" mmtype="image" mmsrc="" attr="" data-filename="figure_13_12.html">
+<layout align="left" width="small" border="false"/>
+<image asset-id="scc9e-ch13-img-0020" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_12.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 13.12</phrase> <phrase block_type="FG-CAP">The density curve of a uniform distribution, <link href="exercise_13_11.html">Exercise 13.11</link>. Observations from this distribution are spread &#8220;at random&#8221; between 0 and 1.</phrase></caption>
+</figure>
+<question id="scc9e-ch13-quest-012">
+<p id="scc9e-ch13-p-0165" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">IQ test scores.</phrase> <link href="figure_13_13.html">Figure 13.13</link> is a stemplot of the IQ test scores of 74 seventh-grade students. This distribution is very close to Normal with mean 111 and standard deviation 11. It includes all the seventh-graders in a rural Midwest school except for four low outliers who were dropped because they may have been ill or otherwise not paying attention to the test. Take the Normal distribution with mean 111 and standard deviation 11 as a description of the IQ test scores of all rural Midwest seventh-grade students. Use this distribution and the 68&#8211;95&#8211;99.7 rule to answer <link href="exercise_13_12.html">Exercises 13.12</link> to <link href="exercise_13_14.html">13.14</link>.</p>
+
+
+<figure id="scc9e-ch13-fig-013" block_type="FIGURE" data-caption-compass="S" numbered="true" number="13.13" mmtype="image" mmsrc="" attr="" data-filename="figure_13_13.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-0021" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_13.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 13.13</phrase> <phrase block_type="FG-CAP">Stemplot of the IQ scores of 74 seventh-grade students, <link href="exercise_13_12.html">Exercises 13.12</link>, <link href="exercise_13_13.html">13.13</link>, and <link href="exercise_13_14.html">13.14</link>.</phrase></caption>
+</figure>
+</question>
+<p id="scc9e_page_310" block_type="page_start" data-margin-content="left">310</p>
+<question id="scc9e-ch13-quest-013" block_type="exercise_13_12.html">
+<p id="scc9e-ch13-p-0167" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.12</phrase> Between what values do the IQ scores of 68&#37; of all rural Midwest seventh-graders lie?</p>
+</question>
+<p id="scc9e_page_311" block_type="page_start" data-margin-content="right">311</p>
+<question id="scc9e-ch13-quest-014" block_type="exercise_13_13.html">
+<p id="scc9e-ch13-p-0169" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.13</phrase> What percentage of IQ scores for rural Midwest seventh-graders are more than 100?</p>
+</question>
+<question id="scc9e-ch13-quest-015" block_type="exercise_13_14.html">
+<p id="scc9e-ch13-p-0170" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.14</phrase> What percentage of all students have IQ scores below 78? None of the 74 students in our sample school had scores this low. Are you surprised at this? Why?</p>
+</question>
+<question id="scc9e-ch13-quest-016" block_type="exercise_13_15.html">
+<p id="scc9e-ch13-p-0171" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.15 Length of pregnancies.</phrase> The length of human pregnancies from conception to birth varies according to a distribution that is approximately Normal with mean 266 days and standard deviation 16 days. Use the 68&#8211;95&#8211;99.7 rule to answer the following questions.</p>
+<list id="scc9e-ch13-list-016" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch13-li-051"><p id="scc9e-ch13-p-0172" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Almost all (99.7&#37;) pregnancies fall in what range of lengths?</p></li>
+<li id="scc9e-ch13-li-052"><p id="scc9e-ch13-p-0173" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> How long are the longest 2.5&#37; of all pregnancies?</p></li>
+</list>
+</question>
+<question id="scc9e-ch13-quest-017" block_type="exercise_13_16.html">
+<p id="scc9e-ch13-p-0174" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.16 A Normal curve.</phrase> What are the mean and standard deviation of the Normal curve in <link href="figure_13_14.html">Figure 13.14</link>?</p>
+</question>
+<figure id="scc9e-ch13-fig-014" block_type="FIGURE" data-caption-compass="S" numbered="true" number="13.14" mmtype="image" mmsrc="" attr="" data-filename="figure_13_14.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch13-img-0022" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_14.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 13.14</phrase> <phrase block_type="FG-CAP">What are the mean and standard deviation of this Normal density curve? <link href="exercise_13_16.html">Exercise 13.16</link>.</phrase></caption>
+</figure>
+  <question id="scc9e-ch13-quest-018" block_type="exercise_13_17.html">
+<p id="scc9e-ch13-p-0175" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.17 Horse pregnancies.</phrase> Bigger animals tend to carry their young longer before birth. The length of horse pregnancies from conception to birth varies according to a roughly Normal distribution with mean 336 days and standard deviation of three days. Use the 68&#8211;95&#8211;99.7 rule to answer the following questions.</p>
+<list id="scc9e-ch13-list-017" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch13-li-053"><p id="scc9e-ch13-p-0176" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Between what values do the lengths of the middle 95&#37; of all horse pregnancies fall?</p></li>
+<li id="scc9e-ch13-li-054"><p id="scc9e-ch13-p-0177" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What percentage of horse pregnancies are less than 333 days?</p></li>
+</list>
+</question>
+<question id="scc9e-ch13-quest-019" block_type="exercise_13_18.html">
+<p id="scc9e-ch13-p-0178" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.18 Three great hitters.</phrase> Three landmarks of baseball achievement are Ty Cobb&#8217;s batting average of .420 in 1911, Ted Williams&#8217;s .406 in 1941, and George Brett&#8217;s .390 in 1980. These batting averages cannot be compared directly because the distribution of major league batting averages has changed over the years. The distributions are quite symmetric and (except for outliers such as Cobb, Williams, and Brett) reasonably Normal. While the mean batting average has been held roughly constant by rule changes and the balance between hitting and pitching, the standard deviation has dropped over time. Here are the facts:</p>
+<table id="scc9e-ch13-untab-1" numbered="false" block_type="UN-TABLE" attr="90">
+<tbody>
+<tr class="tborder">
+<th align="center" block_type="CR-X-NL-MCL">Decade</th>
+<th align="char" char="." block_type="CR-X-NL-MCL">Mean</th>
+<th align="char" char="." block_type="CR-X-NL-MCL">Std. dev.</th>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="CR-X-NL-MCL">1910s</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">.266</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">.0371</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-X-NL-MCL">1940s</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">.267</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">.0326</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-X-NL-MCL">1970s</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">.261</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">.0317</td>
+</tr>
+</tbody>
+</table>
+
+<p id="scc9e-ch13-p-0179" block_type="CR-X-NL">Compute the standard scores for the batting averages of Cobb, Williams, and Brett to compare how far each stood above his peers.</p>
+</question>
+<p id="scc9e_page_312" block_type="page_start" data-margin-content="left">312</p>
+<question id="scc9e-ch13-quest-020" block_type="exercise_13_19.html">
+<p id="scc9e-ch13-p-0181" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.19 Comparing IQ scores.</phrase> The Wechsler Adult Intelligence Scale (WAIS) is an IQ test. Scores on the WAIS for the 20&#8211;34 age group are approximately Normally distributed with mean 110 and standard deviation 15. Scores for the 60&#8211;64 age group are approximately Normally distributed with mean 90 and standard deviation 15. Sarah, who is 30, scores 130 on the WAIS. Her mother, who is 60, takes the test and scores 110.</p>
+<list id="scc9e-ch13-list-018" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch13-li-055"><p id="scc9e-ch13-p-0182" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Express both scores as standard scores that show where each woman stands within her own age group.</p></li>
+<li id="scc9e-ch13-li-056"><p id="scc9e-ch13-p-0183" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Who scored higher relative to her age group, Sarah or her mother? Who has the higher absolute level of the variable measured by the test?</p></li>
+</list>
+</question>
+<question id="scc9e-ch13-quest-021" block_type="exercise_13_20.html">
+<p id="scc9e-ch13-p-0184" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.20 Men&#8217;s heights.</phrase> The distribution of heights of young men is approximately Normal with mean 70 inches and standard deviation 2.5 inches. Sketch a Normal curve on which this mean and standard deviation are correctly located. (<em>Hint</em>: Draw the curve first, locate the points where the curvature changes, and then mark the horizontal axis.)</p>
+</question>
+<question id="scc9e-ch13-quest-022" block_type="exercise_13_21.html">
+<p id="scc9e-ch13-p-0185" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.21 More on men&#8217;s heights.</phrase> The distribution of heights of young men is approximately Normal with mean 70 inches and standard deviation 2.5 inches. Use the 68&#8211;95&#8211;99.7 rule to answer the following questions.</p>
+<list id="scc9e-ch13-list-019" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch13-li-057"><p id="scc9e-ch13-p-0186" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What percentage of men are taller than 77.5 inches?</p></li>
+<li id="scc9e-ch13-li-058"><p id="scc9e-ch13-p-0187" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Between what heights do the middle 68&#37; of men fall?</p></li>
+<li id="scc9e-ch13-li-059"><p id="scc9e-ch13-p-0188" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> What percentage of men are shorter than 65 inches?</p></li>
+</list>
+</question>
+<question id="scc9e-ch13-quest-023" block_type="exercise_13_22.html">
+<p id="scc9e-ch13-p-0189" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.22 Heights of men and women.</phrase> The heights of young women are approximately Normal with mean 65 inches and standard deviation 2.5 inches. The heights of men in the same age group have mean 70 inches and standard deviation 2.5 inches. What percentage of women are taller than a man of average (mean) height?</p>
+</question>
+<question id="scc9e-ch13-quest-024" block_type="exercise_13_23.html">
+<p id="scc9e-ch13-p-0190" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.23 Heights of young adults.</phrase> The mean height of men aged 18&#8211;24 is about 70 inches. Women that age have a mean height of about 65 inches. Do you think that the distribution of heights for all Americans aged 18&#8211;24 is approximately Normal? Explain your answer.</p>
+</question>
+<question id="scc9e-ch13-quest-025" block_type="exercise_13_24.html">
+<p id="scc9e-ch13-p-0191" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.24 Sleep.</phrase> The distribution of hours of sleep per week night, among college students, is found to be Normally distributed, with a mean of seven hours and a standard deviation of one hour. Use this information and the 68&#8211;95&#8211;99.7 rule to answer the following questions.</p>
+<list id="scc9e-ch13-list-020" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch13-li-060"><p id="scc9e-ch13-p-0192" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What percentage of college students sleep more than seven hours? More than eight hours?</p></li>
+<li id="scc9e-ch13-li-061"><p id="scc9e-ch13-p-0193" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What range contains the middle 95&#37; of hours slept per week night by college students?</p></li>
+</list>
+</question>
+<question id="scc9e-ch13-quest-026" block_type="exercise_13_25.html">
+<p id="scc9e-ch13-p-0194" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.25 Cholesterol.</phrase> Low density lipoprotein, or LDL, is the main source of cholesterol buildup and blockage in the arteries. This is why LDL is known as &#8220;bad cholesterol.&#8221; LDL is measured in milligrams per deciliter of blood, or mg/dL. In a population of adults at risk for cardiovascular problems, the distribution of LDL levels is Normal, with a mean of 123 mg/dL and a standard deviation of 41 mg/dL. If an individual&#8217;s LDL is at least one standard deviation or more above the mean, he or she will be monitored carefully by a doctor. What percentage of individuals from this population will have LDL levels one or more standard deviations above the mean?</p>
+<p id="scc9e-ch13-p-0195" block_type="CR-X-NL">The following optional exercises require use of <link href="table_b.html">Table B</link> of Normal distribution percentiles.</p>
+</question>
+<p id="scc9e_page_313" block_type="page_start" data-margin-content="right">313</p>
+<question id="scc9e-ch13-quest-027" block_type="exercise_13_26.html">
+<p id="scc9e-ch13-p-0197" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.26 NCAA rules for athletes.</phrase> The National Collegiate Athletic Association (NCAA) requires Division II athletes to get a combined score of at least 820 on the Mathematics and Critical Reading sections of the SAT exam in order to compete in their first college year. In 2014, the combined scores of the millions of college-bound seniors taking the SATs were approximately Normal with mean 1010 and standard deviation approximately 218. What percentage of all college-bound seniors had scores less than 820?</p>
+</question>
+<question id="scc9e-ch13-quest-028" block_type="exercise_13_27.html">
+<p id="scc9e-ch13-p-0198" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.27 More NCAA rules.</phrase> For Division I athletes, the NCAA uses a sliding scale, based on both core GPA and the combined Mathematics and Critical Reading SAT score, to determine eligibility to compete in the first year of college. For athletes with a core GPA of 3.0, a score of at least 620 on the combined Mathematics and Critical Reading sections of the SAT exam is required. Use the information in the previous exercise to find the percentage of all SAT scores of college-bound seniors that are less than 620.</p>
+</question>
+<question id="scc9e-ch13-quest-029" block_type="exercise_13_28.html">
+<p id="scc9e-ch13-p-0199" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.28 800 on the SAT.</phrase> It is possible to score higher than 800 on the SAT, but scores above 800 are reported as 800. (That is, a student can get a reported score of 800 without a perfect paper.) In 2014, the scores of college-bound senior men on the SAT Math test followed a Normal distribution with mean 530 and standard deviation 123. What percentage of scores were above 800 (and so reported as 800)?</p>
+</question>
+<question id="scc9e-ch13-quest-030" block_type="exercise_13_29.html">
+<p id="scc9e-ch13-p-0200" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.29 Women&#8217;s SAT scores.</phrase> The average performance of women on the SAT, especially the math part, is lower than that of men. The reasons for this gender gap are controversial. In 2014, college-bound senior women&#8217;s scores on the SAT Math test followed a Normal distribution with mean 499 and standard deviation 114. The mean for men was 530. What percentage of women scored higher than the male mean?</p>
+</question>
+<question id="scc9e-ch13-quest-031" block_type="exercise_13_30.html">
+<p id="scc9e-ch13-p-0201" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.30 Are we getting smarter?</phrase> When the Stanford-Binet IQ test came into use in 1932, it was adjusted so that scores for each age group of children followed roughly the Normal distribution with mean 100 and standard deviation 15. The test is readjusted from time to time to keep the mean at 100. If present-day American children took the 1932 Stanford-Binet test, their mean score would be about 120. The reasons for the increase in IQ over time are not known but probably include better childhood nutrition and more experience in taking tests.</p>
+<list id="scc9e-ch13-list-021" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch13-li-062"><p id="scc9e-ch13-p-0202" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> IQ scores above 130 are often called &#8220;very superior.&#8221; What percentage of children had very superior scores in 1932?</p></li>
+<li id="scc9e-ch13-li-063"><p id="scc9e-ch13-p-0203" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> If present-day children took the 1932 test, what percentage would have very superior scores? (Assume that the standard deviation 15 does not change.)</p></li>
+</list>
+</question>
+<p id="scc9e_page_314" block_type="page_start" data-margin-content="left">314</p>
+<question id="scc9e-ch13-quest-032" block_type="exercise_13_31.html">
+<p id="scc9e-ch13-p-0205" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.31 Japanese IQ scores.</phrase> The Wechsler Intelligence Scale for Children is used (in several languages) in the United States and Europe. Scores in each case are approximately Normally distributed with mean 100 and standard deviation of 15. When the test was standardized in Japan, the mean was 111. To what percentile of the American-European distribution of scores does the Japanese mean correspond?</p>
+</question>
+<question id="scc9e-ch13-quest-033" block_type="exercise_13_32.html">
+<p id="scc9e-ch13-p-0206" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.32 The stock market.</phrase> The annual rate of return on stock indexes (which combine many individual stocks) is very roughly Normal. Since 1945, the Standard &#38; Poor&#8217;s 500 index has had a mean yearly return of 12.5&#37;, with a standard deviation of 17.8&#37;. Take this Normal distribution to be the distribution of yearly returns over a long period.</p>
+<list id="scc9e-ch13-list-022" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch13-li-064"><p id="scc9e-ch13-p-0207" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> In what range do the middle 95&#37; of all yearly returns lie?</p></li>
+<li id="scc9e-ch13-li-065"><p id="scc9e-ch13-p-0208" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The market is down for the year if the return on the index is less than zero. In what proportion of years is the market down?</p></li>
+<li id="scc9e-ch13-li-066"><p id="scc9e-ch13-p-0209" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> In what proportion of years does the index gain 25&#37; or more?</p></li>
+</list>
+</question>
+<question id="scc9e-ch13-quest-034" block_type="exercise_13_33.html">
+<p id="scc9e-ch13-p-0210" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.33 Locating the quartiles.</phrase> The quartiles of any distribution are the 25th and 75th percentiles. About how many standard deviations from the mean are the quartiles of any Normal distribution?</p>
+</question>
+<question id="scc9e-ch13-quest-035" block_type="exercise_13_34.html">
+<p id="scc9e-ch13-p-0211" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.34 Young women&#8217;s heights.</phrase> The heights of women aged 18&#8211;24 are approximately Normal with mean 65 inches and standard deviation 2.5 inches. How tall are the tallest 10&#37; of women? (Use the closest percentile that appears in <link href="table_b.html">Table B</link>.)</p>
+</question>
+<question id="scc9e-ch13-quest-036" block_type="exercise_13_35.html">
+<p id="scc9e-ch13-p-0212" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.35 High IQ scores.</phrase> Scores on the Wechsler Adult Intelligence Scale for the 20 to 34 age group are approximately Normally distributed with mean 110 and standard deviation 15. How high must a person score to be in the top 10&#37; of all scores?</p>
+</question>
+<box id="scc9e-ch13-box-020" numbered="false" block_type="exploring-web">
+<p id="scc9e-ch13-p-0213" block_type="QRL icon"><image asset-id="scc9e-ch13-img-0023" alt="image" src="asset/global_images/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch13-p-0214" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
+<p id="scc9e-ch13-p-0215" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
+</box>
+</section>
+</chapter>

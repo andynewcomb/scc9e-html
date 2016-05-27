@@ -416,6 +416,30 @@
     <Content Include="ebook\css\scc9e_ch10.min.css">
       <DependentUpon>scc9e_ch10.css</DependentUpon>
     </Content>
+    <Content Include="ebook\css\scc9e_ch11.css">
+      <DependentUpon>scc9e_ch11.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch11.min.css">
+      <DependentUpon>scc9e_ch11.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch113.css">
+      <DependentUpon>scc9e_ch113.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch113.min.css">
+      <DependentUpon>scc9e_ch113.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch12.css">
+      <DependentUpon>scc9e_ch12.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch12.min.css">
+      <DependentUpon>scc9e_ch12.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch14.css">
+      <DependentUpon>scc9e_ch14.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch14.min.css">
+      <DependentUpon>scc9e_ch14.css</DependentUpon>
+    </Content>
     <Content Include="ebook\css\scc9e_ch2.css">
       <DependentUpon>scc9e_ch2.less</DependentUpon>
     </Content>
@@ -592,7 +616,11 @@
     <Content Include="xml\scc9e-ch08.xml" />
     <Content Include="xml\scc9e-ch09.xml" />
     <Content Include="xml\scc9e-ch10.xml" />
+    <Content Include="xml\scc9e-ch11.xml" />
     <Content Include="xml\scc9e-ch12.xml" />
+    <Content Include="xml\scc9e-ch12og.xml" />
+    <Content Include="xml\scc9e-ch13.xml" />
+    <Content Include="xml\scc9e-ch14.xml" />
     <Content Include="xml\scc9e-Part1Review.xml" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
@@ -622,6 +650,10 @@
     <Content Include="docs\final\02_MooreSCC9e_92937_Ch02_21-38_3rd_Pass.pdf" />
     <Content Include="docs\final\03_MooreSCC9e_92937_Ch03_39-62_3rd_Pass.pdf" />
     <Content Include="docs\final\04_MooreSCC9e_92937_Ch04_63-92_3rd_Pass.pdf" />
+    <Content Include="ebook\css\scc9e_ch11.less" />
+    <Content Include="ebook\css\scc9e_ch12.less" />
+    <Content Include="ebook\css\scc9e_ch113.less" />
+    <Content Include="ebook\css\scc9e_ch14.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,1509 @@
+<chapter id="scc9e-ch11" number="11" title="Chapter 11: Displaying Distributions with Graphs" start-numbering-at="11" numbered="true">
+<section id="scc9e-ch11-sec-001" block_type="chapter" title="Displaying Distributions with Graphs" numbered="false" level="1" print_page="243">
+<p id="scc9e-ch11-p-01" block_type="CN">11</p>
+<p id="scc9e-ch11-p-02" block_type="CT">Displaying Distributions with Graphs</p>
+<p id="scc9e_page_243" block_type="page_start" data-margin-content="right">243</p>
+<figure id="scc9e-ch11-unfig-001" block_type="CO-PH-CL" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch11-img-001" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_CO11.jpg"/>
+<asset_source><phrase block_type="PH-CL">AP Photo/Daniel Ochoa de Olza</phrase></asset_source>
+</figure>
+<box id="scc9e-ch11-box-001" numbered="false" block_type="BX4-H-ri">
+<p id="scc9e-ch11-p-04" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri">CASE STUDY</phrase> Nutritionists tell us that a healthy diet should include 20 to 35 grams of fiber daily. Cereal manufacturers, hoping to attract health-conscious consumers, advertise their products as &#8221;high-fiber&#8217;&#8217; and other healthy options. The food label on the side of a box of cereal (mandated by the Food and Drug Administration) provides information that allows the consumer to choose a healthy breakfast cereal.</p>
+<p id="scc9e-ch11-p-05" block_type="BX4-TXT-I">If you go to the breakfast cereal aisle of your local grocery store, you will find lots of different cereals displayed. You could examine all the boxes to see how much fiber each contains, but how do you make sense of all the numbers? Is your favorite cereal, Wheaties, with 3 grams of dietary fiber, among those with the highest fiber content? You could make a list of the fiber content of all the cereals, but it can be difficult to see patterns in large lists. As we saw in <link href="scc9e-ch10.xml">Chapter 10</link>, graphs are a powerful way to make sense of large collections of numbers.</p>
+<p id="scc9e-ch11-p-06" block_type="BX4-TXT-I">In this chapter, we will study two types of graphics&#8212;histograms and stemplots (also called stem-and-leaf plots)&#8212;that help us make sense of large lists. By the end of this chapter, you will know how to make them and what to look for when you study one of these graphs.</p>
+</box>
+</section>
+<section id="scc9e-ch11-sec1-001" block_type="h1" chapter="ch11" numbered="false" level="1" print_page="243">
+<section-metadata><section-title>Histograms</section-title></section-metadata>
+<p id="scc9e-ch11-p-07" block_type="TXT-ni">Categorical variables record group membership, such as the marital status of a man or the race of a college student. We can use a pie chart or bar graph to display the distribution of categorical variables because they have relatively few values. What about quantitative variables such as the SAT scores of students admitted to a college or the income of families? These variables take so many values that a graph of the distribution is clearer if nearby values are grouped together. The most common graph of the distribution of a quantitative variable is a <strong>histogram</strong>.</p>
+<p id="scc9e_page_244" block_type="page_start" data-margin-content="left">244</p>
+<box id="scc9e-ch11-box-002" numbered="false" block_type="EXP" data-filename="example_11_1.html">
+<p id="scc9e-ch11-p-09" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 1</phrase> How to make a histogram</p>
+<p id="scc9e-ch11-p-010" block_type="EXP-first"><link href="table_11_1.html">Table 11.1</link> presents the percentage of residents aged 65 years and over in each of the 50 states. To make a histogram of this distribution, proceed as follows.</p>
+<p id="scc9e-ch11-p-011" block_type="EXP-first"><phrase block_type="cs_bl">Step 1. Divide the range of the data into classes of equal width.</phrase> The data in <link href="table_11_1.html">Table 11.1</link> range from 7.3 to 17.4, so we choose as our classes</p>
+<p id="scc9e-ch11-p-012" block_type="EXP-EQ">7.0 &#8804; percentage over 65 &#60; 8.0</p>
+<p id="scc9e-ch11-p-013" block_type="EXP-EQ">8.0 &#8804; percentage over 65 &#60; 9.0</p>
+<p id="scc9e-ch11-p-014" block_type="EXP-EQ">.</p>
+<p id="scc9e-ch11-p-015" block_type="EXP-EQ">.</p>
+<p id="scc9e-ch11-p-016" block_type="EXP-EQ">.</p>
+<p id="scc9e-ch11-p-017" block_type="EXP-EQ">17.0 &#8804; percentage over 65 &#60; 18.0</p>
+<p id="scc9e-ch11-p-018" block_type="EXP-ni">Be sure to specify the classes precisely so that each individual falls into exactly one class. In other words, be sure that the classes are <em>exclusive</em> (no individual is in more than one class) and <em>exhaustive</em> (every individual appears in some class). A state with 7.9&#37; of its residents aged 65 or older would fall into the first class, but 8.0&#37; fall into the second.</p>
+<table id="scc9e-ch11-tab-1" numbered="false" block_type="TABLE" caption-placement="Top" attr="115" data-filename="table_11_1.html">
+<table_caption><phrase block_type="TBN-N-ri">TABLE 11.1</phrase> <phrase block_type="TBN-T">Percentage of residents aged 65 and over in the states, July 2008</phrase></table_caption>
+<tbody>
+<tr class="bborder">
+<th align="center" block_type="TB1-COLHD">State</th>
+<th align="char" char="." block_type="TB1-COLHD" class="rborder">Percent</th>
+<th align="center" block_type="TB1-COLHD">State</th>
+<th align="char" char="." block_type="TB1-COLHD" class="rborder">Percent</th>
+<th align="center" block_type="TB1-COLHD">State</th>
+<th align="char" char="." block_type="TB1-COLHD">Percent</th>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Alabama</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">13.8</td>
+<td align="center" block_type="TB1-TXT">Louisiana</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">12.3</td>
+<td align="center" block_type="TB1-TXT">Ohio</td>
+<td align="char" char="." block_type="TB1-TXT">13.7</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Alaska</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">7.3</td>
+<td align="center" block_type="TB1-TXT">Maine</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">15.1</td>
+<td align="center" block_type="TB1-TXT">Oklahoma</td>
+<td align="char" char="." block_type="TB1-TXT">13.5</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Arizona</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">13.3</td>
+<td align="center" block_type="TB1-TXT">Maryland</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">12.1</td>
+<td align="center" block_type="TB1-TXT">Oregon</td>
+<td align="char" char="." block_type="TB1-TXT">13.3</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Arkansas</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">14.3</td>
+<td align="center" block_type="TB1-TXT">Massachusetts</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">13.4</td>
+<td align="center" block_type="TB1-TXT">Pennsylvania</td>
+<td align="char" char="." block_type="TB1-TXT">15.4</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">California</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">11.2</td>
+<td align="center" block_type="TB1-TXT">Michigan</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">13.0</td>
+<td align="center" block_type="TB1-TXT">Rhode Island</td>
+<td align="char" char="." block_type="TB1-TXT">14.1</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Colorado</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">10.4</td>
+<td align="center" block_type="TB1-TXT">Minnesota</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">12.5</td>
+<td align="center" block_type="TB1-TXT">South Carolina</td>
+<td align="char" char="." block_type="TB1-TXT">13.3</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Connecticut</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">13.7</td>
+<td align="center" block_type="TB1-TXT">Mississippi</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">12.7</td>
+<td align="center" block_type="TB1-TXT">South Dakota</td>
+<td align="char" char="." block_type="TB1-TXT">14.4</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Delaware</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">13.9</td>
+<td align="center" block_type="TB1-TXT">Missouri</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">13.6</td>
+<td align="center" block_type="TB1-TXT">Tennessee</td>
+<td align="char" char="." block_type="TB1-TXT">13.2</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Florida</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">17.4</td>
+<td align="center" block_type="TB1-TXT">Montana</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">14.2</td>
+<td align="center" block_type="TB1-TXT">Texas</td>
+<td align="char" char="." block_type="TB1-TXT">10.2</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Georgia</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">10.1</td>
+<td align="center" block_type="TB1-TXT">Nebraska</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">13.5</td>
+<td align="center" block_type="TB1-TXT">Utah</td>
+<td align="char" char="." block_type="TB1-TXT">9.0</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Hawaii</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">14.8</td>
+<td align="center" block_type="TB1-TXT">Nevada</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">11.4</td>
+<td align="center" block_type="TB1-TXT">Vermont</td>
+<td align="char" char="." block_type="TB1-TXT">14.0</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Idaho</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">12.0</td>
+<td align="center" block_type="TB1-TXT">New Hampshire</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">12.9</td>
+<td align="center" block_type="TB1-TXT">Virginia</td>
+<td align="char" char="." block_type="TB1-TXT">12.1</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Illinois</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">12.2</td>
+<td align="center" block_type="TB1-TXT">New Jersey</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">13.3</td>
+<td align="center" block_type="TB1-TXT">Washington</td>
+<td align="char" char="." block_type="TB1-TXT">12.0</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Indiana</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">12.8</td>
+<td align="center" block_type="TB1-TXT">New Mexico</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">13.1</td>
+<td align="center" block_type="TB1-TXT">West Virginia</td>
+<td align="char" char="." block_type="TB1-TXT">15.7</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Iowa</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">14.8</td>
+<td align="center" block_type="TB1-TXT">New York</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">13.4</td>
+<td align="center" block_type="TB1-TXT">Wisconsin</td>
+<td align="char" char="." block_type="TB1-TXT">13.3</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Kansas</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">13.1</td>
+<td align="center" block_type="TB1-TXT">North Carolina</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">12.4</td>
+<td align="center" block_type="TB1-TXT">Wyoming</td>
+<td align="char" char="." block_type="TB1-TXT">12.3</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TB1-TXT">Kentucky</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">13.3</td>
+<td align="center" block_type="TB1-TXT">North Dakota</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">14.7</td>
+<td align="center" block_type="TB1-TXT"></td>
+<td align="center" block_type="TB1-TXT"></td>
+</tr>
+<tr>
+<td colspan="6" block_type="TBN-SC"><em>Source</em>: <em>2010 Statistical Abstract of the United States</em>; available online at <link href="http://www.census.gov/library/publications/2009/compendia/statab/129ed.html">www.census.gov/library/publications/2009/compendia/statab/129ed.html.</link></td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e_page_245" block_type="page_start" data-margin-content="right">245</p>
+<p id="scc9e-ch11-p-020" block_type="EXP-first"><phrase block_type="cs_bl">Step 2. Count the number of individuals in each class.</phrase> Here are the counts:</p>
+<table id="scc9e-ch11-untab-1" numbered="false" block_type="UN-TABLE" attr="93">
+<tbody>
+<tr class="tborder">
+<th align="center" block_type="TB1-COLHD">Class</th>
+<th align="center" block_type="TB1-COLHD" class="rborder">Count</th>
+<th align="center" block_type="TB1-COLHD">Class</th>
+<th align="center" block_type="TB1-COLHD" class="rborder">Count</th>
+<th align="center" block_type="TB1-COLHD">Class</th>
+<th align="center" block_type="TB1-COLHD">Count</th>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="TB1-TXT">7.0 to 7.9</td>
+<td align="center" block_type="TB1-TXT" class="rborder">1</td>
+<td align="center" block_type="TB1-TXT">11.0 to 11.9</td>
+<td align="center" block_type="TB1-TXT" class="rborder">2</td>
+<td align="center" block_type="TB1-TXT">15.0 to 15.9</td>
+<td align="center" block_type="TB1-TXT">3</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">8.0 to 8.9</td>
+<td align="center" block_type="TB1-TXT" class="rborder">0</td>
+<td align="center" block_type="TB1-TXT">12.0 to 12.9</td>
+<td align="center" block_type="TB1-TXT" class="rborder">12</td>
+<td align="center" block_type="TB1-TXT">16.0 to 16.9</td>
+<td align="center" block_type="TB1-TXT">0</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">9.0 to 9.9</td>
+<td align="center" block_type="TB1-TXT" class="rborder">1</td>
+<td align="center" block_type="TB1-TXT">13.0 to 13.9</td>
+<td align="center" block_type="TB1-TXT" class="rborder">19</td>
+<td align="center" block_type="TB1-TXT">17.0 to 17.9</td>
+<td align="center" block_type="TB1-TXT">1</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TB1-TXT">10.0 to 10.9</td>
+<td align="center" block_type="TB1-TXT" class="rborder">3</td>
+<td align="center" block_type="TB1-TXT">14.0 to 14.9</td>
+<td align="center" block_type="TB1-TXT" class="rborder">8</td>
+<td align="center" block_type="TB1-TXT"></td>
+<td align="center" block_type="TB1-TXT"></td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch11-p-021" block_type="EXP-first"><phrase block_type="cs_bl">Step 3. Draw the histogram.</phrase> Mark on the horizontal axis the scale for the variable whose distribution you are displaying. That&#8217;s &#8220;percentage of residents aged 65 and over&#8221; in this example. The scale runs from 5 to 20 because that range spans the classes we chose. The vertical axis contains the scale of counts. Each bar represents a class. The base of the bar covers the class, and the bar height is the class count. There is no horizontal space between the bars unless a class is empty, so that its bar has height zero. <link href="figure_11_1.html">Figure 11.1</link> is our histogram.</p>
+</box>
+<box id="scc9e-ch11-exp1-001" numbered="false" block_type="margin-statistics">
+<p id="scc9e-ch11-p-024" block_type="MN-TXT"><image asset-id="scc9e-ch11-img-003" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">What the eye really sees</phrase> We make the bars in bar graphs and histograms equal in width because the eye responds to their area. That&#8217;s roughly true. Careful study by statistician William Cleveland shows that our eyes &#8220;see&#8221; the size of a bar in proportion to the 0.7 power of its area. Suppose, for example, that one figure in a pictogram is both twice as high and twice as wide as another. The area of the bigger figure is 4 times that of the smaller. But we perceive the bigger figure as only 2.6 times the size of the smaller because 2.6 is 4 to the 0.7 power.</p>
+</box>
+  <p id="scc9e-ch11-p-022" block_type="TXT">Just as with bar graphs, our eyes respond to the area of the bars in a histogram. Be sure that the classes for a histogram have equal widths. There is no one right choice for the number of classes. Some people recommend between 10 and 20 classes but suggest using fewer when the size of the data set is small. Too few classes will give a &#8220;skyscraper&#8221; histogram, with all values in a few classes with tall bars. Too many classes will produce a &#8220;pancake&#8221; graph, with most classes having one or no observations. Neither choice will give a good picture of the shape of the distribution. You must use your judgment in choosing classes to display the shape. Statistics software will choose the classes for you and may use slightly different rules than those we have discussed. The computer&#8217;s choice is usually a good one, but you can change it if you want. When using statistical software, it is good practice to check what rules are used to determine the classes.</p>
+<figure id="scc9e-ch11-fig-001" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.1" mmtype="image" mmsrc="" attr="" data-filename="figure_11_1.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch11-img-002" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_01.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 11.1</phrase> <phrase block_type="FG-CAP">Histogram of the percentages of residents aged 65 and older in the 50 states, <link href="example_11_1.html">Example 1</link>. Note the two outliers.</phrase></caption>
+</figure>
+<p id="scc9e_page_246" block_type="page_start" data-margin-content="left">246</p>
+
+<box id="scc9e-ch11-box-003" numbered="false" block_type="BX2">
+<p id="scc9e-ch11-p-025" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch11-quest-001" block_type="exercise_11_1.html">
+<p id="scc9e-ch11-p-026" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">11.1 Personal record for weightlifting.</phrase> Bodyshop Athletics keeps a dry erase board for members to keep track of their personal record for various events. The &#8220;dead lift&#8217;&#8217; is a weightlifting maneuver where a barbell is lifted from the floor to the hips. The following data are the personal records for members at Bodyshop Athletics in pounds lifted during the dead lift.</p>
+<table id="scc9e-ch11-untab-2" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<th align="center" block_type="TB1-COLHD">Member</th>
+<th align="center" block_type="TB1-COLHD" class="rborder">Weight</th>
+<th align="center" block_type="TB1-COLHD">Member</th>
+<th align="center" block_type="TB1-COLHD" class="rborder">Weight</th>
+<th align="center" block_type="TB1-COLHD">Member</th>
+<th align="center" block_type="TB1-COLHD">Weight</th>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="TB1-TXT">Baker, B.</td>
+<td align="center" block_type="TB1-TXT" class="rborder">175</td>
+<td align="center" block_type="TB1-TXT">G.T.C.</td>
+<td align="center" block_type="TB1-TXT" class="rborder">250</td>
+<td align="center" block_type="TB1-TXT">Pender</td>
+<td align="center" block_type="TB1-TXT">205</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Baker, T.</td>
+<td align="center" block_type="TB1-TXT" class="rborder">100</td>
+<td align="center" block_type="TB1-TXT">Harper</td>
+<td align="center" block_type="TB1-TXT" class="rborder">155</td>
+<td align="center" block_type="TB1-TXT">Porth</td>
+<td align="center" block_type="TB1-TXT">215</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Birnie</td>
+<td align="center" block_type="TB1-TXT" class="rborder">325</td>
+<td align="center" block_type="TB1-TXT">Horel</td>
+<td align="center" block_type="TB1-TXT" class="rborder">215</td>
+<td align="center" block_type="TB1-TXT">Ross</td>
+<td align="center" block_type="TB1-TXT">115</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Bonner</td>
+<td align="center" block_type="TB1-TXT" class="rborder">155</td>
+<td align="center" block_type="TB1-TXT">Hureau</td>
+<td align="center" block_type="TB1-TXT" class="rborder">285</td>
+<td align="center" block_type="TB1-TXT">Stapp</td>
+<td align="center" block_type="TB1-TXT">190</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Brown</td>
+<td align="center" block_type="TB1-TXT" class="rborder">235</td>
+<td align="center" block_type="TB1-TXT">Ingram</td>
+<td align="center" block_type="TB1-TXT" class="rborder">165</td>
+<td align="center" block_type="TB1-TXT">Stokes</td>
+<td align="center" block_type="TB1-TXT">305</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Burton</td>
+<td align="center" block_type="TB1-TXT" class="rborder">155</td>
+<td align="center" block_type="TB1-TXT">Johnson</td>
+<td align="center" block_type="TB1-TXT" class="rborder">175</td>
+<td align="center" block_type="TB1-TXT">Taylor, A.</td>
+<td align="center" block_type="TB1-TXT">165</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Coffey, L.</td>
+<td align="center" block_type="TB1-TXT" class="rborder">135</td>
+<td align="center" block_type="TB1-TXT">Jones, J.</td>
+<td align="center" block_type="TB1-TXT" class="rborder">195</td>
+<td align="center" block_type="TB1-TXT">Taylor, Z.</td>
+<td align="center" block_type="TB1-TXT">305</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Coffey, S.</td>
+<td align="center" block_type="TB1-TXT" class="rborder">275</td>
+<td align="center" block_type="TB1-TXT">Jones, L.</td>
+<td align="center" block_type="TB1-TXT" class="rborder">205</td>
+<td align="center" block_type="TB1-TXT">Thompson</td>
+<td align="center" block_type="TB1-TXT">285</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Collins, C.</td>
+<td align="center" block_type="TB1-TXT" class="rborder">215</td>
+<td align="center" block_type="TB1-TXT">LaMonica</td>
+<td align="center" block_type="TB1-TXT" class="rborder">235</td>
+<td align="center" block_type="TB1-TXT">Trent</td>
+<td align="center" block_type="TB1-TXT">135</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Collins, E.</td>
+<td align="center" block_type="TB1-TXT" class="rborder">95</td>
+<td align="center" block_type="TB1-TXT">Lee</td>
+<td align="center" block_type="TB1-TXT" class="rborder">165</td>
+<td align="center" block_type="TB1-TXT">Tucker</td>
+<td align="center" block_type="TB1-TXT">245</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Dalick, B.</td>
+<td align="center" block_type="TB1-TXT" class="rborder">225</td>
+<td align="center" block_type="TB1-TXT">Lord</td>
+<td align="center" block_type="TB1-TXT" class="rborder">405</td>
+<td align="center" block_type="TB1-TXT">Watson</td>
+<td align="center" block_type="TB1-TXT">155</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Dalick, K.</td>
+<td align="center" block_type="TB1-TXT" class="rborder">335</td>
+<td align="center" block_type="TB1-TXT">McCurry</td>
+<td align="center" block_type="TB1-TXT" class="rborder">165</td>
+<td align="center" block_type="TB1-TXT">Wind, J.</td>
+<td align="center" block_type="TB1-TXT">350</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Edens</td>
+<td align="center" block_type="TB1-TXT" class="rborder">255</td>
+<td align="center" block_type="TB1-TXT">Moore</td>
+<td align="center" block_type="TB1-TXT" class="rborder">145</td>
+<td align="center" block_type="TB1-TXT">Wind, K.</td>
+<td align="center" block_type="TB1-TXT">185</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TB1-TXT">Flowers</td>
+<td align="center" block_type="TB1-TXT" class="rborder">205</td>
+<td align="center" block_type="TB1-TXT">Morrison</td>
+<td align="center" block_type="TB1-TXT" class="rborder">145</td>
+<td align="center" block_type="TB1-TXT"></td>
+<td align="center" block_type="TB1-TXT"></td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch11-p-027" block_type="TB1-TXT">Make a histogram of this distribution following the three steps described in <link href="example_11_1.html">Example 1</link>. Create your classes using 75 &#8804; weight &#60; 125, then 125 &#8804; 175, and so on.</p>
+</question>
+</box>
+</section>
+<section id="scc9e-ch11-sec1-002" block_type="h1" chapter="ch11" numbered="false" level="1" print_page="247">
+<section-metadata><section-title>Interpreting histograms</section-title></section-metadata>
+<p id="scc9e_page_247" block_type="page_start" data-margin-content="right">247</p>
+<p id="scc9e-ch11-p-029" block_type="TXT-ni">Making a statistical graph is not an end in itself. The purpose of the graph is to help us understand the data. After you (or your computer) make a graph, always ask, &#8220;What do I see?&#8221; Here is a general strategy for looking at graphs.</p>
+<box id="scc9e-ch11-box-004" numbered="false" block_type="BX1">
+<p id="scc9e-ch11-p-030" block_type="BX1-T">Pattern and deviations</p>
+<p id="scc9e-ch11-p-031" block_type="BX1-TXT-ni">In any graph of data, look for an <strong>overall pattern</strong> and also for striking <strong>deviations</strong> from that pattern.</p>
+</box>
+<p id="scc9e-ch11-p-032" block_type="TXT">We have already applied this strategy to line graphs. Trend and seasonal variation are common overall patterns in a line graph. The more drastic decrease in unemployment in mid-2010 for those with less than a high school degree, seen in <link href="figure_10_7.html">Figure 10.7</link> (page 226), is deviating from the overall pattern of small dips and increases apparent throughout the rest of the line. This is an example of a striking deviation from the general pattern that one observes for the rest of the time period. In the case of the histogram of <link href="figure_11_1.html">Figure 11.1</link>, it is easiest to begin with deviations from the overall pattern of the histogram. Two states stand out as separated from the main body of the histogram. You can find them in the table once the histogram has called attention to them. Alaska has 7.3&#37; and Florida 17.4&#37; of its residents over age 65. These states are clear <em>outliers</em>.</p>
+<box id="scc9e-ch11-box-005" numbered="false" block_type="BX1">
+<p id="scc9e-ch11-p-033" block_type="BX1-T">Outliers</p>
+<p id="scc9e-ch11-p-034" block_type="BX1-TXT-ni">An <strong>outlier</strong> in any graph of data is an individual observation that falls outside the overall pattern of the graph.</p>
+</box>
+<p id="scc9e-ch11-p-035" block_type="TXT">Is Utah, with 9.0&#37; of its population over 65, an outlier? Whether an observation is an outlier is, to some extent, a matter of judgment, although statisticians have developed some objective criteria for identifying possible outliers. Utah is the smallest of the main body of observations and, unlike Alaska and Florida, is not separated from the general pattern. We would not call Utah an outlier. Once you have spotted outliers, look for an explanation. Many outliers are due to mistakes, such as typing 4.0 as 40. Other outliers point to the special nature of some observations. Explaining outliers usually requires some background information. It is not surprising that Alaska, the northern frontier, has few residents 65 and over and that Florida, a popular state for retirees, has many residents 65 and over.</p>
+<p id="scc9e-ch11-p-036" block_type="TXT">To see the <em>overall pattern</em> of a histogram, ignore any outliers. Here is a simple way to organize your thinking.</p>
+<p id="scc9e_page_248" block_type="page_start" data-margin-content="left">248</p>
+<box id="scc9e-ch11-box-006" numbered="false" block_type="BX1">
+<p id="scc9e-ch11-p-038" block_type="BX1-T">Overall pattern of a distribution</p>
+<p id="scc9e-ch11-p-039" block_type="BX1-TXT-ni">To describe the overall pattern of a distribution:</p>
+<list id="scc9e-ch11-list-001" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch11-li-001"><p id="scc9e-ch11-p-040" block_type="BX1-BL-first"><phrase block_type="maker">&#8226;</phrase> Describe the <strong>center</strong> and the <strong>variability</strong>.</p></li>
+<li id="scc9e-ch11-li-002"><p id="scc9e-ch11-p-041" block_type="BX1-BL-last"><phrase block_type="maker">&#8226;</phrase> Describe the <strong>shape</strong> of the histogram in a few words.</p></li>
+</list>
+</box>
+<p id="scc9e-ch11-p-042" block_type="TXT">We will learn how to describe center and variability numerically in <link href="scc9e-ch12.xml">Chapter 12</link>. For now, we can describe the center of a distribution by its <em>midpoint</em>, the value at roughly the middle of all the values in the distribution. We can describe the variability of a distribution by giving the <em>smallest and largest values</em>, ignoring any outliers.</p>
+<box id="scc9e-ch11-box-007" numbered="false" block_type="EXP" data-filename="example_11_2.html">
+<p id="scc9e-ch11-p-043" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> Describing distributions</p>
+<p id="scc9e-ch11-p-044" block_type="EXP-first">Look again at the histogram in <link href="figure_11_1.html">Figure 11.1</link>. <strong>Shape:</strong> The distribution has a <em>single peak</em>. It is roughly <em>symmetric</em>&#8212;that is, the pattern is similar on both sides of the peak. <strong>Center:</strong> The midpoint of the distribution is close to the single peak, at about 13&#37;. <strong>Variability:</strong> The variability is about 9&#37; to 18&#37; if we ignore the outliers.</p>
+</box>
+<figure id="scc9e-ch11-unfig-002" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="11_17MOORESCC-MSE_9e_P_11_01.html">
+<layout align="right" width="small" border="false"/>
+<image asset-id="scc9e-ch11-img-004" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_P_11_01.jpg"/>
+<asset_source><phrase block_type="PH-CL">Caiaimage/Robert Daly/Getty Images</phrase></asset_source>
+</figure>
+<box id="scc9e-ch11-box-008" numbered="false" block_type="EXP" data-filename="example_11_3.html">
+<p id="scc9e-ch11-p-045" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> Tuition and fees in Illinois</p>
+<p id="scc9e-ch11-p-046" block_type="EXP-first">There are 116 colleges and universities in Illinois. Their tuition and fees for the 2009&#8211;2010 school year run from &#36;1974 at Moraine Valley Community College to &#36;38,550 at the University of Chicago. <link href="figure_11_2.html">Figure 11.2</link> is a histogram of the tuition and fees charged by all 116 Illinois colleges and universities. We see that many (mostly community colleges) charge less than &#36;4000. The distribution extends out to the right. At the upper extreme, two colleges charge between &#36;36,000 and &#36;40,000.</p>
+<p id="scc9e-ch11-p-047" block_type="EXP-mid">The distribution of tuition and fees at Illinois colleges, shown in <link href="figure_11_2.html">Figure 11.2</link>, has a quite different <strong>shape</strong> from the distribution in <link href="figure_11_1.html">Figure 11.1</link>. There is a strong <em>peak</em> in the lowest cost class. Most colleges charge less than &#36;8000, but there is a long right tail extending up to almost &#36;40,000. We call a distribution with a long tail on one side <em>skewed</em>. The <strong>center</strong> is roughly &#36;8000 (half the colleges charge less than this). The <strong>variability</strong> is large, from &#36;1974 to more than &#36;38,000. There are no outliers&#8212;the colleges with the highest tuition just continue the long right tail that is part of the overall pattern.</p>
+</box>
+<p id="scc9e_page_249" block_type="page_start" data-margin-content="right">249</p>
+<figure id="scc9e-ch11-fig-002" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.2" mmtype="image" mmsrc="" attr="" data-filename="figure_11_2.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch11-img-005" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_02.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 11.2</phrase> <phrase block_type="FG-CAP">Histogram of the tuition and fees charged by 116 Illinois colleges and universities in the 2009&#8211;2010 academic year, <link href="example_11_3.html">Example 3</link>. (Data from <link href="http://www.isac.org">www.isac.org</link>.)</phrase></caption>
+</figure>
+<p id="scc9e-ch11-p-049" block_type="TXT">When you describe a distribution, concentrate on the main features. Look for major peaks, not for minor ups and downs in the bars of the histogram like those in <link href="figure_11_2.html">Figure 11.2</link>. Look for clear outliers, not just for the smallest and largest observations. Look for rough <em>symmetry</em> or clear <em>skewness</em>.</p>
+<box id="scc9e-ch11-box-009" numbered="false" block_type="BX1">
+<p id="scc9e-ch11-p-050" block_type="BX1-T">Symmetric and skewed distributions</p>
+<p id="scc9e-ch11-p-051" block_type="BX1-TXT-ni">A distribution is <strong>symmetric</strong> if the right and left sides of the histogram are approximately mirror images of each other.</p>
+<p id="scc9e-ch11-p-052" block_type="BX1-TXT-i">A distribution is <strong>skewed to the right</strong> if the right side of the histogram (containing the half of the observations with larger values) extends much farther out than the left side. It is <strong>skewed to the left</strong> if the left side of the histogram extends much farther out than the right side.</p>
+</box>
+<p id="scc9e-ch11-p-053" block_type="TXT">A distribution is symmetric if the two sides of a figure like a histogram are exact mirror images of each other. Data are almost never exactly symmetric, so we are willing to call histograms like that in <link href="figure_11_1.html">Figure 11.1</link> roughly symmetric as an overall description. The tuition distribution in <link href="figure_11_2.html">Figure 11.2</link>, on the other hand, is clearly skewed to the right. Here are more examples.</p>
+<p id="scc9e_page_250" block_type="page_start" data-margin-content="left">250</p>
+<box id="scc9e-ch11-box-010" numbered="false" block_type="EXP" data-filename="example_11_4.html">
+<p id="scc9e-ch11-p-055" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> Lake elevation levels</p>
+<p id="scc9e-ch11-p-056" block_type="EXP-first">Lake Murray is a manmade reservoir located in South Carolina. It is used mainly for recreation, such as boating, fishing, and water sports. It is also used to provide backup hydroelectric power for South Carolina Electric and Gas. The lake levels fluctuate with the highest levels in summer (for safe boating and good fishing) and the lowest levels in winter (for water quality). Water can be released at the dam in the case of heavy rains or to let water out to maintain winter levels. The U.S. Geological Survey (USGS) monitors water levels in Lake Murray. The histograms in <link href="figure_11_3.html">Figure 11.3</link> were created using 67,810 hourly elevation levels from November 1, 2007, through August 11, 2015.</p>
+<p id="scc9e-ch11-p-057" block_type="EXP-mid">The two histograms of lake levels were made from the same data set, and the histograms look identical in shape. The shape of the distribution of lake levels is skewed left because the left side of the histogram is longer. The minimum lake level is 350 feet, and the maximum is 359 feet. Using the histogram on the right, by adding the height of the bar for 358 and 359 feet elevations, we see the lake level is at 358 or 359 roughly 40&#37; of the time. Using this information, it appears that a lake level of 357 feet is the midpoint of the distribution.</p>
+<p id="scc9e-ch11-p-058" block_type="EXP-mid">Let&#8217;s examine the difference in the two histograms. The histogram on the left puts the count of observations on the vertical axis (this is called a frequency histogram), while the histogram on the right uses the percentage of times the lake reaches a certain level (this is called a relative frequency histogram). The frequency histogram tells us the lake reached an elevation of 358 feet approximately 24,000 times (24,041, to be exact!). If a fisherman considering a move to Lake Murray cares about how often the lake reaches a certain level, it is more illustrative to use the relative frequency histogram on the right, which reports the percentage of times the lake reached 358 feet. The height of the bar for 358 feet is 35, so the fisherman would know the lake is at the 358 foot elevation roughly 35&#37; of the time.</p>
+</box>
+<p id="scc9e-ch11-p-059" block_type="TXT">It is not uncommon in the current world to have very large data sets. Google uses big data to rank web pages and provide the best search results. Banks use big data to analyze spending patterns and learn when to flag your debit or credit card for fraudulent use. Large firms use big data to analyze market patterns and adapt marketing strategies accordingly. Our data set of size 67,810 is actually small in the realm of &#8220;big data&#8221; but is still big enough to see that it is almost always better to use a relative frequency histogram when sample sizes grow large. A relative frequency histogram is also a better choice if one wants to make comparisons between two distributions.</p>
+<p id="scc9e_page_251" block_type="page_start" data-margin-content="right">251</p>
+<figure id="scc9e-ch11-fig-003" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.3" mmtype="image" mmsrc="" attr="" data-filename="figure_11_3.html">
+<layout align="center" width="large" border="false"/>
+<image asset-id="scc9e-ch11-img-006" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_03.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 11.3</phrase> <phrase block_type="FG-CAP">U.S. Geological Survey (USGS) reported hourly lake levels from November 1, 2007, through August 11, 2015, for Lake Murray, SC. There are 67,810 lake-level observations. The histogram on the left is showing the number of times the lake was at each level. The histogram on the right shows these same data as the percentage of times Lake Murray reached each level.</phrase></caption>
+</figure>
+<box id="scc9e-ch11-box-011" numbered="false" block_type="EXP" data-filename="example_11_5.html">
+<p id="scc9e-ch11-p-061" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 5</phrase> Shakespeare&#8217;s words</p>
+<p id="scc9e-ch11-p-062" block_type="EXP-first"><link href="figure_11_4.html">Figure 11.4</link> shows the distribution of lengths of words used in Shakespeare&#8217;s plays. This distribution has a single peak and is somewhat skewed to the right. There are many short words (three and four letters) and few very long words (10, 11, or 12 letters), so that the right tail of the histogram extends out farther than the left tail. The center of the distribution is about 4. That is, about half of Shakespeare&#8217;s words have four or fewer letters. The variability is from 1 letter to 12 letters.</p>
+<p id="scc9e-ch11-p-063" block_type="EXP-mid">Notice that the vertical scale in <link href="figure_11_4.html">Figure 11.4</link> is not the <em>count</em> of words but the <em>percentage</em> of all of Shakespeare&#8217;s words that have each length. A histogram of percentages rather than counts is convenient because this was a large data set. Different kinds of writing have different distributions of word lengths, but all are right-skewed because short words are common and very long words are rare.</p>
+</box>
+<p id="scc9e-ch11-p-064" block_type="TXT">The overall shape of a distribution is important information about a variable. Some types of data regularly produce distributions that are symmetric or skewed. For example, the sizes of living things of the same species (like lengths of crickets) tend to be symmetric. Data on incomes (whether of individuals, companies, or nations) are usually strongly skewed to the right. There are many moderate incomes, some large incomes, and a few very large incomes. It is very common for data to be skewed to the right when they have a strict minimum value (often 0). Income and the lengths of Shakespeare&#8217;s words are examples. Likewise, data that have a strict maximum value (such as 100, as in student test scores) are often skewed to the left. Do remember that many distributions have shapes that are neither symmetric nor skewed. Some data show other patterns. Scores on an exam, for example, may have a cluster near the top of the scale if many students did well. Or they may show two distinct peaks if a tough problem divided the class into those who did and didn&#8217;t solve it. Use your eyes and describe what you see.</p>
+<p id="scc9e_page_252" block_type="page_start" data-margin-content="left">252</p>
+<figure id="scc9e-ch11-fig-004" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.4" mmtype="image" mmsrc="" attr="" data-filename="figure_11_4.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch11-img-007" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_04.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 11.4</phrase> <phrase block_type="FG-CAP">The distribution of word lengths used by Shakespeare in his plays, <link href="example_11_5.html">Example 5</link>. This distribution is skewed to the right. (Data from C. B. Williams, <em>Style and Vocabulary: Numerical Studies</em>, Griffin, 1970.)</phrase></caption>
+</figure>
+<box id="scc9e-ch11-box-012" numbered="false" block_type="BX2">
+<p id="scc9e-ch11-p-066" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch11-quest-002" block_type="exercise_11_2.html">
+<p id="scc9e-ch11-p-067" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">11.2 Height distribution.</phrase> Height distributions generally have a predictable pattern. In a large introductory statistics class, students were asked to report their height. The histogram in <link href="figure_11_5.html">Figure 11.5</link> displays the distribution of heights, in inches, for 266 females from this class. Describe the shape, center, and variability of this distribution. Are there any outliers?</p>
+</question>
+</box>
+<p id="scc9e_page_253" block_type="page_start" data-margin-content="right">253</p>
+<figure id="scc9e-ch11-fig-005" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.5" mmtype="image" mmsrc="" attr="" data-filename="figure_11_5.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch11-img-008" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_05.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 11.5</phrase> <phrase block_type="FG-CAP">Heights in inches for 266 females in a large introductory statistics class.</phrase></caption>
+</figure>
+</section>
+<section id="scc9e-ch11-sec1-003" block_type="h1" chapter="ch11" numbered="false" level="1" print_page="253">
+<section-metadata><section-title>Stemplots</section-title></section-metadata>
+<p id="scc9e-ch11-p-069" block_type="TXT-ni">Histograms are not the only graphical display of distributions. For small data sets, a <em>stemplot</em> (sometimes called a <em>stem-and-leaf plot</em>) is quicker to make and presents more detailed information.</p>
+<box id="scc9e-ch11-box-013" numbered="false" block_type="BX1">
+<p id="scc9e-ch11-p-070" block_type="BX1-T">Stemplot</p>
+<p id="scc9e-ch11-p-071" block_type="BX1-TXT-ni">To make a <strong>stemplot:</strong></p>
+<list id="scc9e-ch11-list-002" type="ordered" block_type="numbered">
+<li id="scc9e-ch11-li-003"><p id="scc9e-ch11-p-072" block_type="BX1-NL-first"><phrase block_type="maker">1.</phrase> Separate each observation into a <strong>stem</strong> consisting of all but the final (rightmost) digit and a <strong>leaf</strong>, the final digit. Stems may have as many digits as needed, but each leaf contains only a single digit. Do not include commas or decimal points with your leaves.</p></li>
+<li id="scc9e-ch11-li-004"><p id="scc9e-ch11-p-073" block_type="BX1-NL-mid"><phrase block_type="maker">2.</phrase> Write the stems in a vertical column with the smallest at the top, and draw a vertical line at the right of this column.</p></li>
+<li id="scc9e-ch11-li-005"><p id="scc9e-ch11-p-074" block_type="BX1-NL-last"><phrase block_type="maker">3.</phrase> Write each leaf in the row to the right of its stem, in increasing order out from the stem.</p></li>
+</list>
+</box>
+<box id="scc9e-ch11-box-014" numbered="false" block_type="EXP" data-filename="example_11_6.html">
+<p id="scc9e-ch11-p-075" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 6</phrase> Stemplot of the &#8220;65 and over&#8221; data</p>
+<p id="scc9e-ch11-p-076" block_type="EXP-first">For the &#8220;65 and over&#8221; percentages in <link href="table_11_1.html">Table 11.1</link>, the whole-number part of the observation is the stem, and the final digit (tenths) is the leaf. The Alabama entry, 13.8, has stem 13 and leaf 8. Stems can have as many digits as needed, but each leaf must consist of only a single digit. <link href="figure_11_6.html">Figure 11.6</link> shows the steps in making a stemplot for the data in <link href="table_11_1.html">Table 11.1</link>. First, write the stems. Then go through the table adding a leaf for each observation. Finally, arrange the leaves in increasing order out from each stem.</p>
+</box>
+<p id="scc9e_page_254" block_type="page_start" data-margin-content="left">254</p>
+<figure id="scc9e-ch11-fig-006" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.6" mmtype="image" mmsrc="" attr="" data-filename="figure_11_6.html">
+<layout align="center" width="large" border="false"/>
+<image asset-id="scc9e-ch11-img-009" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_06.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 11.6</phrase> <phrase block_type="FG-CAP">Making a stemplot of the data in <link href="table_11_1.html">Table 11.1</link>. Whole percents form the stems, and tenths of a percent form the leaves.</phrase></caption>
+</figure>
+<p id="scc9e-ch11-p-078" block_type="TXT">A stemplot looks like a histogram turned on end. The stemplot in <link href="figure_11_6.html">Figure 11.6</link> is just like the histogram in <link href="figure_11_1.html">Figure 11.1</link> because the classes chosen for the histogram are the same as the stems in the stemplot. <link href="figure_11_7.html">Figure 11.7</link> is a stemplot of the Illinois tuition data discussed in <link href="example_11_3.html">Example 3</link>. This stemplot has almost four times as many classes as the histogram of the same data in <link href="figure_11_2.html">Figure 11.2</link>. We interpret stemplots as we do histograms, looking for the overall pattern and for any outliers.</p>
+<p id="scc9e-ch11-p-079" block_type="TXT">You can choose the classes in a histogram. The classes (the stems) of a stemplot are given to you. You can get more flexibility by <strong>rounding</strong> the data so that the final digit after rounding is suitable as a leaf. Do this when the data have too many digits. For example, the tuition charges of Illinois colleges look like</p>
+<p id="scc9e-ch11-p-080" block_type="EQ">&#36;9,500&#8195;&#36;9,430&#8195;&#36;7,092&#8195;&#36;10,672&#8195;. . .</p>
+<p id="scc9e-ch11-p-081" block_type="TXT-ni">A stemplot would have too many stems if we took all but the final digit as the stem and the final digit as the leaf. To make the stemplot in <link href="figure_11_7.html">Figure 11.7</link>, we round these data to the nearest hundred dollars:</p>
+<p id="scc9e-ch11-p-082" block_type="EQ">95&#8195;94&#8195;71&#8195;107&#8195;. . .</p>
+<p id="scc9e-ch11-p-083" block_type="TXT-ni">These values appear in <link href="figure_11_7.html">Figure 11.7</link> on the stems 9, 9, 7, and 10.</p>
+<p id="scc9e-ch11-p-084" block_type="TXT">The chief advantage of a stemplot is that it displays the actual values of the observations. We can see from the stemplot in <link href="figure_11_7.html">Figure 11.7</link>, but not from the histogram in <link href="figure_11_2.html">Figure 11.2</link>, that Illinois&#8217;s most expensive college charges &#36;38,600 (rounded to the nearest hundred dollars). Stemplots are also faster to draw than histograms. A stemplot requires that we use the first digit or digits as stems. This amounts to an automatic choice of classes and can give a poor picture of the distribution. Stemplots do not work well with large data sets because the stems then have too many leaves.</p>
+<p id="scc9e_page_255" block_type="page_start" data-margin-content="right">255</p>
+<figure id="scc9e-ch11-fig-007" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.7" mmtype="image" mmsrc="" attr="" data-filename="figure_11_7.html">
+<layout align="center" width="large" border="false"/>
+<image asset-id="scc9e-ch11-img-010" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_07.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 11.7</phrase> <phrase block_type="FG-CAP">Stemplot of the Illinois tuition and fee data. (Data from <link href="http://www.isac.org">www.isac.org</link>.)</phrase></caption>
+</figure>
+</section>
+<section id="scc9e-ch11-sec1-004" block_type="SUM-H" chapter="ch11" numbered="false" level="1" print_page="255">
+<section-metadata><section-title><phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase></section-title></section-metadata>
+<p id="scc9e-ch11-p-086" block_type="SUM-hd1">Chapter Specifics</p>
+<list id="scc9e-ch11-list-003" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch11-li-006"><p id="scc9e-ch11-p-087" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> The <strong>distribution</strong> of a variable tells us what values the variable takes and how often it takes each value.</p></li>
+<li id="scc9e-ch11-li-007"><p id="scc9e-ch11-p-088" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> To display the distribution of a quantitative variable, use a <strong>histogram</strong> or a <strong>stemplot</strong>. We usually favor stemplots when we have a small number of observations and histograms for larger data sets. Make sure to choose the appropriate number of classes so that the distribution shape is displayed accurately. For really large data sets, use a histogram of percents (relative frequency histogram).</p>
+<p id="scc9e_page_256" block_type="page_start" data-margin-content="left">256</p></li>
+<li id="scc9e-ch11-li-009"><p id="scc9e-ch11-p-090" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> When you look at a graph, look for an <strong>overall pattern</strong> and for <strong>deviations</strong> from that pattern, such as <strong>outliers</strong>.</p></li>
+<li id="scc9e-ch11-li-010"><p id="scc9e-ch11-p-091" block_type="SUM-BL-last"><phrase block_type="maker">&#8226;</phrase> We can characterize the overall pattern of a histogram or stemplot by describing its <strong>shape</strong>, <strong>center,</strong> and <strong>variability.</strong> Some distributions have simple shapes, such as <strong>symmetric</strong>, <strong>skewed left,</strong> or <strong>skewed right,</strong> but others are too irregular to describe by a simple shape.</p></li>
+</list>
+<p id="scc9e-ch11-p-092" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch11-img-011" alt="image" src="asset/global_images/LinkIt.jpg"/> In <link href="scc9e-ch10.xml">Chapter 10</link>, we learned how to use tables and graphs to see what data tell us. In this chapter, we looked at two additional graphs&#8212;histograms and stemplots&#8212;that help us make sense of large collections of numbers. These graphics are pictures of the distribution of a single quantitative variable. Although the bar graphs in <link href="scc9e-ch10.xml">Chapter 10</link> look much like histograms, the difference is that bar graphs are used to display the distribution of a categorical variable, while histograms display the distribution of a quantitative variable. The overall pattern (shape, center, and variability) and deviations from this pattern (outliers) are important features of the distribution of a variable. We will look more carefully at these features in future chapters. In addition, these features will figure prominently in some of the conclusions that we will draw about a variable from data.</p>
+<box id="scc9e-ch11-box-015" numbered="false" block_type="case_title">
+<p id="scc9e-ch11-p-093" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> <link href="figure_11_8.html">Figure 11.8</link> is a histogram of the distribution of the amount of dietary fiber in 77 brands of cereal found on the shelves of a grocery store. Use what you have learned in this chapter to answer the following questions.</p>
+<list id="scc9e-ch11-list-004" type="ordered" block_type="numbered">
+<li id="scc9e-ch11-li-011"><p id="scc9e-ch11-p-094" block_type="CSNL1"><phrase block_type="maker">1.</phrase> Describe the overall shape, the center, and the variability of the distribution.</p></li>
+<li id="scc9e-ch11-li-012"><p id="scc9e-ch11-p-095" block_type="CSNL2"><phrase block_type="maker">2.</phrase> Are there any outliers?</p></li>
+<li id="scc9e-ch11-li-013"><p id="scc9e-ch11-p-096" block_type="CSNL2"><phrase block_type="maker">3.</phrase> Wheaties has 3 grams of dietary fiber. Is this a low, high, or typical amount?</p></li>
+</list>
+</box>
+<box id="scc9e-ch11-exp1-002" numbered="false" block_type="launchpad">
+<p id="scc9e-ch11-p-097" block_type="CR-BIB-T"><image asset-id="scc9e-ch11-img-012" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<list id="scc9e-ch11-list-005" type="unordered" block_type="redbullet">
+<li id="scc9e-ch11-li-014"><p id="scc9e-ch11-p-098" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The StatBoards Video, <em>Creating and Interpreting a Histogram</em>, describes how to construct a histogram.</p></li>
+<li id="scc9e-ch11-li-015"><p id="scc9e-ch11-p-099" block_type="CR-BIB-BL-last"><phrase block_type="maker">&#8226;</phrase> The Snapshots Video, <em>Visualizing Quantitative Data</em>, discusses stemplots and histograms in the setting of two real examples.</p></li>
+</list>
+</box>
+<p id="scc9e_page_257" block_type="page_start" data-margin-content="right">257</p>
+<figure id="scc9e-ch11-fig-008" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.8" mmtype="image" mmsrc="" attr="" data-filename="figure_11_8.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch11-img-013" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_08.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 11.8</phrase> <phrase block_type="FG-CAP">Histogram of the amount of dietary fiber (in grams) in 77 different brands of cereal.</phrase></caption>
+</figure>
+</section>
+<section id="scc9e-ch11-sec1-005" block_type="CR-X-H" chapter="ch11" numbered="false" level="1" print_page="257">
+<section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
+<p id="scc9e-ch11-p-0101" block_type="CR-X"><em>For <link href="exercise_11_1.html">Exercise 11.1</link>, see page 248; for <link href="exercise_11_2.html">Exercise 11.2</link>, see page 254.</em></p>
+<question id="scc9e-ch11-quest-003" block_type="exercise_11_3.html">
+<p id="scc9e-ch11-p-0102" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.3 Histograms.</phrase> Use a histogram when</p>
+<list id="scc9e-ch11-list-006" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch11-li-016"><p id="scc9e-ch11-p-0103" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the number of observations is small.</p></li>
+<li id="scc9e-ch11-li-017"><p id="scc9e-ch11-p-0104" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> you want to look at the distribution of a quantitative variable.</p></li>
+<li id="scc9e-ch11-li-018"><p id="scc9e-ch11-p-0105" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> you want to look at the distribution of a categorical variable.</p></li>
+<li id="scc9e-ch11-li-019"><p id="scc9e-ch11-p-0106" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> you want to show the actual observations.</p></li>
+</list>
+</question>
+<question id="scc9e-ch11-quest-004" block_type="exercise_11_4.html">
+<p id="scc9e-ch11-p-0107" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.4 Histograms.</phrase> The heights of the bars on a relative frequency histogram displaying the lengths of rivers will add to</p>
+<list id="scc9e-ch11-list-007" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch11-li-020"><p id="scc9e-ch11-p-0108" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> 100&#37;.</p></li>
+<li id="scc9e-ch11-li-021"><p id="scc9e-ch11-p-0109" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> the sample size.</p></li>
+<li id="scc9e-ch11-li-022"><p id="scc9e-ch11-p-0110" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> the sum of all the river lengths.</p></li>
+<li id="scc9e-ch11-li-023"><p id="scc9e-ch11-p-0111" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> the midpoint of the distribution.</p></li>
+</list>
+</question>
+<question id="scc9e-ch11-quest-005" block_type="exercise_11_5.html">
+<p id="scc9e-ch11-p-0112" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.5 Stemplots.</phrase> An advantage of a stemplot over a histogram is</p>
+<list id="scc9e-ch11-list-008" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch11-li-024"><p id="scc9e-ch11-p-0113" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> they are good for really large data sets.</p></li>
+<li id="scc9e-ch11-li-025"><p id="scc9e-ch11-p-0114" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> they are horizontal.</p></li>
+<li id="scc9e-ch11-li-026"><p id="scc9e-ch11-p-0115" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> one can recover the actual observations from the display.</p></li>
+<li id="scc9e-ch11-li-027"><p id="scc9e-ch11-p-0116" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> the classes are chosen for you.</p></li>
+</list>
+</question>
+<question id="scc9e-ch11-quest-006" block_type="exercise_11_6.html">
+<p id="scc9e-ch11-p-0117" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.6 Shape of distributions.</phrase> <link href="figure_11_9.html">Figure 11.9</link> contains exam scores for 500 students. What is the shape of the exam score distribution?</p>
+<list id="scc9e-ch11-list-009" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch11-li-028"><p id="scc9e-ch11-p-0118" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> symmetric</p></li>
+<li id="scc9e-ch11-li-029"><p id="scc9e-ch11-p-0119" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> skewed right</p></li>
+<li id="scc9e-ch11-li-030"><p id="scc9e-ch11-p-0120" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> skewed left</p></li>
+<li id="scc9e-ch11-li-031"><p id="scc9e-ch11-p-0121" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> none of the above</p></li>
+</list>
+</question>
+<question id="scc9e-ch11-quest-007" block_type="exercise_11_7.html">
+<p id="scc9e-ch11-p-0122" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.7 Shape of distributions.</phrase> In a certain town, most haircuts are between &#36;10 and &#36;20, but a few salons cater to high-end clients and charge &#36;30 to &#36;60. The distribution of haircut prices is</p>
+<list id="scc9e-ch11-list-010" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch11-li-032"><p id="scc9e-ch11-p-0123" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> symmetric.</p></li>
+<li id="scc9e-ch11-li-033"><p id="scc9e-ch11-p-0124" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> skewed right.</p></li>
+<li id="scc9e-ch11-li-034"><p id="scc9e-ch11-p-0125" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> skewed left.</p></li>
+<li id="scc9e-ch11-li-035"><p id="scc9e-ch11-p-0126" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> none of the above.</p></li>
+</list>
+</question>
+<p id="scc9e_page_258" block_type="page_start" data-margin-content="left">258</p>
+<figure id="scc9e-ch11-fig-009" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.9" mmtype="image" mmsrc="" attr="" data-filename="figure_11_9.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch11-img-014" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_09.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 11.9</phrase> <phrase block_type="FG-CAP">Histogram of the exam scores for 500 students.</phrase></caption>
+</figure>
+</section>
+<section id="scc9e-ch11-sec1-006" block_type="CR-X-H-v1" chapter="ch11" numbered="false" level="1" print_page="258">
+<section-metadata><section-title>CHAPTER 11 EXERCISES</section-title></section-metadata>
+<question id="scc9e-ch11-quest-008" block_type="exercise_11_8.html">
+<p id="scc9e-ch11-p-0128" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.8 Lightning storms.</phrase> <link href="figure_11_10.html">Figure 11.10</link> comes from a study of lightning storms in Colorado. It shows the distribution of the hour of the day during which the first lightning flash for that day occurred. Describe the shape, center, and variability of this distribution. Are there any outliers?</p>
+</question>
+<figure id="scc9e-ch11-fig-010" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.10" mmtype="image" mmsrc="" attr="" data-filename="figure_11_10.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch11-img-015" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_10.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 11.10</phrase> <phrase block_type="FG-CAP">Histogram of the time of day at which the day&#8217;s first lightning flash occurred (from a study in Colorado), <link href="exercise_11_8.html">Exercise 11.8</link>. (Data from an episode in the Annenberg/Corporation for Public Broadcasting telecourse <em>Against All Odds: Inside Statistics</em>.)</phrase></caption>
+</figure>
+<p id="scc9e_page_259" block_type="page_start" data-margin-content="right">259</p>
+<figure id="scc9e-ch11-fig-011" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.11" mmtype="image" mmsrc="" attr="" data-filename="figure_11_11.html">
+<layout align="center" width="small" border="false"/>
+<image asset-id="scc9e-ch11-img-016" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_11.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 11.11</phrase> <phrase block_type="FG-CAP">Stemplot of the percentage of each state&#8217;s residents who are 18 to 34 years old, <link href="exercise_11_9.html">Exercise 11.9</link>.</phrase></caption>
+</figure>
+<question id="scc9e-ch11-quest-009" block_type="exercise_11_9.html">
+<p id="scc9e-ch11-p-0130" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.9 Where do 18- to 34-year-olds live?</phrase> <link href="figure_11_11.html">Figure 11.11</link> is a stemplot of the percentage of residents aged 18 to 34 in each of the 50 states in July 2008. As in <link href="figure_11_6.html">Figure 11.6</link> (page 256) for older residents, the stems are whole percents and the leaves are tenths of a percent.</p>
+<list id="scc9e-ch11-list-011" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch11-li-036"><p id="scc9e-ch11-p-0131" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Utah has the largest percentage of young adults. What is the percentage for this state?</p></li>
+<li id="scc9e-ch11-li-037"><p id="scc9e-ch11-p-0132" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Ignoring Utah, describe the shape, center, and variability of this distribution.</p></li>
+<li id="scc9e-ch11-li-038"><p id="scc9e-ch11-p-0133" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Is the distribution for young adults more or less variable than the distribution in <link href="figure_11_6.html">Figure 11.6</link> for older adults?</p></li>
+</list>
+</question>
+<question id="scc9e-ch11-quest-0010" block_type="exercise_11_10.html">
+<p id="scc9e-ch11-p-0134" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.10 Minority students in engineering.</phrase> <link href="figure_11_12.html">Figure 11.12</link> is a histogram of the number of minority students (black, Hispanic, Native American) who earned doctorate degrees in engineering from each of 152 universities in the years 2000 through 2002. Briefly describe the shape, center, and variability of this distribution. The classes for <link href="figure_11_12.html">Figure 11.12</link> are 1&#8211;5, 6&#8211;10, and so on.</p>
+</question>
+<figure id="scc9e-ch11-fig-012" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.12" mmtype="image" mmsrc="" attr="" data-filename="figure_11_12.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch11-img-017" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_12.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 11.12</phrase> <phrase block_type="FG-CAP">The distribution of the number of engineering doctorates earned by minority students at 152 universities, 2000&#8211;2002, <link href="exercise_11_10.html">Exercise 11.10</link>. (Data from the 2003 National Science Foundation Survey of Earned Doctorates, <link href="http://webcaspar.nsf.gov/">http://webcaspar.nsf.gov/</link>.)</phrase></caption>
+</figure>
+  <question id="scc9e-ch11-quest-0011" block_type="exercise_11_11.html">
+<p id="scc9e-ch11-p-0135" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.11 Returns on common stocks.</phrase> The total return on a stock is the change in its market price plus any dividend payments made. Total return is usually expressed as a percentage of the beginning price. <link href="figure_11_13.html">Figure 11.13</link> is a histogram of the distribution of total returns for all 1528 common stocks listed on the New York Stock Exchange in one year.</p>
+
+<p id="scc9e_page_260" block_type="page_start" data-margin-content="left">260</p>
+<figure id="scc9e-ch11-fig-013" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.13" mmtype="image" mmsrc="" attr="" data-filename="figure_11_13.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch11-img-018" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_13.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 11.13</phrase> <phrase block_type="FG-CAP">The distribution of total returns for all New York Stock Exchange common stocks in one year, <link href="exercise_11_11.html">Exercise 11.11</link>. (Data from J. K. Ford, &#8220;Diversification: How Many Stocks Will Suffice?&#8221; <em>American Association of Individual Investors Journal</em>, January 1990, pp. 14&#8211;16.)</phrase></caption>
+</figure>
+<list id="scc9e-ch11-list-012" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch11-li-039"><p id="scc9e-ch11-p-0136" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Describe the overall shape of the distribution of total returns.</p></li>
+<li id="scc9e-ch11-li-040"><p id="scc9e-ch11-p-0137" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What is the approximate center of this distribution? Approximately what were the smallest and largest total returns? (This describes the variability of the distribution.)</p></li>
+<li id="scc9e-ch11-li-041"><p id="scc9e-ch11-p-0138" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> A return less than zero means that owners of the stock lost money. About what percentage of all stocks lost money?</p></li>
+<li id="scc9e-ch11-li-042"><p id="scc9e-ch11-p-0139" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> Explain why we prefer a histogram to a stemplot for describing the returns on 1528 common stocks.</p></li>
+</list>
+</question>
+<question id="scc9e-ch11-quest-0012" block_type="exercise_11_12.html">
+<p id="scc9e-ch11-p-0141" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.12 More lake levels.</phrase> <link href="figure_11_14.html">Figure 11.14</link> contains average monthly lake levels for Lake Murray in South Carolina. Describe the shape, center, and variability of the distribution of lake levels.</p>
+</question>
+<figure id="scc9e-ch11-fig-014" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.14" mmtype="image" mmsrc="" attr="" data-filename="figure_11_14.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch11-img-019" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_14.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 11.14</phrase> <phrase block_type="FG-CAP">U.S. Geological Survey (USGS) data on average monthly Lake Murray elevations from November 1990 to July 2006, <link href="exercise_11_12.html">Exercise 11.12</link>.</phrase></caption>
+</figure>
+<p id="scc9e_page_261" block_type="page_start" data-margin-content="right">261</p>
+
+<question id="scc9e-ch11-quest-0013" block_type="exercise_11_13.html">
+<p id="scc9e-ch11-p-0143" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.13 Automobile fuel economy.</phrase> Government regulations require automakers to give the city and highway gas mileages for each model of car. <link href="table_11_2.html">Table 11.2</link> gives the combined highway and city mileages (miles per gallon) for 31 model year 2015 sedans. Make a stemplot of the combined gas mileages of these cars. What can you say about the overall shape of the distribution? Where is the center (the value such that half the cars have better gas mileage and half have worse gas mileage)? Some of these cars are electric and the reported milage is the electric equivalent. These cars have far higher mileage. How many electric cars are in this data set?</p>
+</question>
+<table id="scc9e-ch11-tab-2" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_11_2.html">
+<table_caption><phrase block_type="TBN-N-ri">TABLE 11.2</phrase> <phrase block_type="TBN-T">Combined city/highway gas mileage for model year 2015 midsize cars</phrase></table_caption>
+<tbody>
+<tr class="bborder">
+<th align="center" block_type="TBN-COLHD">Model</th>
+<th align="center" block_type="TBN-COLHD">mpg</th>
+<th align="center" block_type="TBN-COLHD" class="lborder">Model</th>
+<th align="center" block_type="TBN-COLHD">mpg</th>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Acura RLX</td>
+<td align="center" block_type="TBN-TXT">24</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Honda Accord Hybrid</td>
+<td align="center" block_type="TBN-TXT">47</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Audi A8</td>
+<td align="center" block_type="TBN-TXT">22</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Hyundai Sonata</td>
+<td align="center" block_type="TBN-TXT">37</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">BMW 528i</td>
+<td align="center" block_type="TBN-TXT">27</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Infiniti Q40</td>
+<td align="center" block_type="TBN-TXT">22</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Bentley Mulsanne</td>
+<td align="center" block_type="TBN-TXT">13</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Jaguar XF</td>
+<td align="center" block_type="TBN-TXT">18</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Buick LaCrosse</td>
+<td align="center" block_type="TBN-TXT">21</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Kia Forte</td>
+<td align="center" block_type="TBN-TXT">30</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Buick Regal</td>
+<td align="center" block_type="TBN-TXT">22</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Lexus ES 350</td>
+<td align="center" block_type="TBN-TXT">24</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Cadillac CTS</td>
+<td align="center" block_type="TBN-TXT">14</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Lincoln MKZ</td>
+<td align="center" block_type="TBN-TXT">25</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Cadillac CTS AWD</td>
+<td align="center" block_type="TBN-TXT">22</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Mazda 6</td>
+<td align="center" block_type="TBN-TXT">30</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Chevrolet Malibu</td>
+<td align="center" block_type="TBN-TXT">29</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Mercedes-Benz B-Class</td>
+<td align="center" block_type="TBN-TXT">84</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Chevrolet Sonic</td>
+<td align="center" block_type="TBN-TXT">31</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Mercedez-Benz E350</td>
+<td align="center" block_type="TBN-TXT">23</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Dodge Challenger</td>
+<td align="center" block_type="TBN-TXT">18</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Nissan Altima</td>
+<td align="center" block_type="TBN-TXT">31</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Ford C-max Energi<br/>Plugin hybrid</td>
+<td align="center" block_type="TBN-TXT">88</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Nissan Leaf<br/>Rolls Royce Wraith</td>
+<td align="center" block_type="TBN-TXT">114<br/>15</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Ford Fusion Energi<br/>Plug-in Hybrid</td>
+<td align="center" block_type="TBN-TXT">88</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Toyota Prius<br/>Toyota Prius Plug-in Hybrid</td>
+<td align="center" block_type="TBN-TXT">50<br/>95</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Ford Fusion Hybrid</td>
+<td align="center" block_type="TBN-TXT">42</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Volvo S80</td>
+<td align="center" block_type="TBN-TXT">22</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Honda Accord</td>
+<td align="center" block_type="TBN-TXT">31</td>
+<td align="center" block_type="TBN-TXT" class="lborder"></td>
+<td align="center" block_type="TBN-TXT"></td>
+</tr>
+<tr class="tborder">
+<td colspan="4" block_type="TBN-SC"><em>Source</em>: <link href="http://www.fueleconomy.gov/feg/byclass/Midsize&#95;Cars2015.shtml">www.fueleconomy.gov/feg/byclass/Midsize&#95;Cars2015.shtml.</link></td>
+</tr>
+</tbody>
+</table>
+  <question id="scc9e-ch11-quest-0014" block_type="exercise_11_14.html">
+<p id="scc9e-ch11-p-0144" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.14 The obesity epidemic.</phrase> Medical authorities describe the spread of obesity in the United States as an epidemic. <link href="table_11_3.html">Table 11.3</link> gives the percentage of adults who were obese in each of the 50 states in 2009. Display the distribution in a graph and briefly describe its shape, center, and variability.</p>
+</question>
+<table id="scc9e-ch11-tab-3" numbered="false" block_type="TABLE" caption-placement="Top" attr="115" data-filename="table_11_3.html">
+<table_caption><phrase block_type="TBN-N-ri">TABLE 11.3</phrase> <phrase block_type="TBN-T">Percentage of adult population who are obese, 2009</phrase></table_caption>
+<tbody>
+<tr class="bborder">
+<th align="center" block_type="TBN-COLHD-v1">State</th>
+<th align="char" char="." block_type="TBN-COLHD-v1" class="rborder">Percent</th>
+<th align="center" block_type="TBN-COLHD-v1">State</th>
+<th align="char" char="." block_type="TBN-COLHD-v1" class="rborder">Percent</th>
+<th align="center" block_type="TBN-COLHD-v1">State</th>
+<th align="char" char="." block_type="TBN-COLHD-v1">Percent</th>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Alabama</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">31.0</td>
+<td align="center" block_type="TBN-TXT">Louisiana</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">33.0</td>
+<td align="center" block_type="TBN-TXT">Ohio</td>
+<td align="char" char="." block_type="TBN-TXT">28.8</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Alaska</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">24.8</td>
+<td align="center" block_type="TBN-TXT">Maine</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">25.8</td>
+<td align="center" block_type="TBN-TXT">Oklahoma</td>
+<td align="char" char="." block_type="TBN-TXT">31.4</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Arizona</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">25.5</td>
+<td align="center" block_type="TBN-TXT">Maryland</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">26.2</td>
+<td align="center" block_type="TBN-TXT">Oregon</td>
+<td align="char" char="." block_type="TBN-TXT">23.0</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Arkansas</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">30.5</td>
+<td align="center" block_type="TBN-TXT">Massachusetts</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">21.4</td>
+<td align="center" block_type="TBN-TXT">Pennsylvania</td>
+<td align="char" char="." block_type="TBN-TXT">27.4</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">California</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">24.8</td>
+<td align="center" block_type="TBN-TXT">Michigan</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">29.6</td>
+<td align="center" block_type="TBN-TXT">Rhode Island</td>
+<td align="char" char="." block_type="TBN-TXT">24.6</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Colorado</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">18.6</td>
+<td align="center" block_type="TBN-TXT">Minnesota</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">24.6</td>
+<td align="center" block_type="TBN-TXT">South Carolina</td>
+<td align="char" char="." block_type="TBN-TXT">29.4</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Connecticut</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">20.6</td>
+<td align="center" block_type="TBN-TXT">Mississippi</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">34.4</td>
+<td align="center" block_type="TBN-TXT">South Dakota</td>
+<td align="char" char="." block_type="TBN-TXT">29.6</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Delaware</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">27.0</td>
+<td align="center" block_type="TBN-TXT">Missouri</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">30.0</td>
+<td align="center" block_type="TBN-TXT">Tennessee</td>
+<td align="char" char="." block_type="TBN-TXT">32.3</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Florida</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">25.2</td>
+<td align="center" block_type="TBN-TXT">Montana</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">23.2</td>
+<td align="center" block_type="TBN-TXT">Texas</td>
+<td align="char" char="." block_type="TBN-TXT">28.7</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Georgia</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">27.2</td>
+<td align="center" block_type="TBN-TXT">Nebraska</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">27.2</td>
+<td align="center" block_type="TBN-TXT">Utah</td>
+<td align="char" char="." block_type="TBN-TXT">23.5</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Hawaii</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">22.3</td>
+<td align="center" block_type="TBN-TXT">Nevada</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">25.8</td>
+<td align="center" block_type="TBN-TXT">Vermont</td>
+<td align="char" char="." block_type="TBN-TXT">22.8</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Idaho</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">24.5</td>
+<td align="center" block_type="TBN-TXT">New Hampshire</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">25.7</td>
+<td align="center" block_type="TBN-TXT">Virginia</td>
+<td align="char" char="." block_type="TBN-TXT">25.0</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Illinois</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">26.5</td>
+<td align="center" block_type="TBN-TXT">New Jersey</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">23.3</td>
+<td align="center" block_type="TBN-TXT">Washington</td>
+<td align="char" char="." block_type="TBN-TXT">26.4</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Indiana</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">29.5</td>
+<td align="center" block_type="TBN-TXT">New Mexico</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">25.1</td>
+<td align="center" block_type="TBN-TXT">West Virginia</td>
+<td align="char" char="." block_type="TBN-TXT">31.1</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Iowa</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">27.9</td>
+<td align="center" block_type="TBN-TXT">New York</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">24.2</td>
+<td align="center" block_type="TBN-TXT">Wisconsin</td>
+<td align="char" char="." block_type="TBN-TXT">28.7</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Kansas</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">28.1</td>
+<td align="center" block_type="TBN-TXT">North Carolina</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">29.3</td>
+<td align="center" block_type="TBN-TXT">Wyoming</td>
+<td align="char" char="." block_type="TBN-TXT">24.6</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Kentucky</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">31.5</td>
+<td align="center" block_type="TBN-TXT">North Dakota</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">27.9</td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="center" block_type="TBN-TXT"></td>
+</tr>
+<tr class="tborder">
+<td colspan="6" block_type="TBN-SC"><em>Source</em>: National Centers for Disease Control and Prevention, <link href="http://www.cdc.gov/obesity/data/databases.html">www.cdc.gov/obesity/data/databases.html.</link></td>
+</tr>
+</tbody>
+</table>
+<question id="scc9e-ch11-quest-0015" block_type="exercise_11_15.html">
+<p id="scc9e-ch11-p-0145" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.15 Yankee money.</phrase> <link href="table_11_4.html">Table 11.4</link> gives the salaries of the players on the New York Yankees baseball team for the 2015 season. Make a histogram of these data. Is the distribution roughly symmetric, skewed to the right, or skewed to the left? Explain.</p>
+</question>
+<p id="scc9e_page_262" block_type="page_start" data-margin-content="left">262</p>
+
+<table id="scc9e-ch11-tab-4" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_11_4.html">
+<table_caption><phrase block_type="TBN-N-ri">TABLE 11.4</phrase> <phrase block_type="TBN-T">Salaries of the New York Yankees, 2015</phrase></table_caption>
+<tbody>
+<tr class="bborder">
+<th align="center" block_type="TBN-COLHD">Player</th>
+<th align="char" char="," block_type="TBN-COLHD">Salary (&#36;)</th>
+<th align="center" block_type="TBN-COLHD" class="lborder">Player</th>
+<th align="char" char="," block_type="TBN-COLHD">Salary (&#36;)</th>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">CC Sabathia</td>
+<td align="char" char="," block_type="TBN-TXT">24,285,714</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Nathan Eovaldi</td>
+<td align="char" char="," block_type="TBN-TXT">3,300,000</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Mark Teixeira</td>
+<td align="char" char="," block_type="TBN-TXT">23,125,000</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Ivan Nova</td>
+<td align="char" char="," block_type="TBN-TXT">3,300,000</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Masahiro Tanaka</td>
+<td align="char" char="," block_type="TBN-TXT">22,000,000</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Dustin Ackley</td>
+<td align="char" char="," block_type="TBN-TXT">2,600,000</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Alex Rodriguez</td>
+<td align="char" char="," block_type="TBN-TXT">22,000,000</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Chris Young</td>
+<td align="char" char="," block_type="TBN-TXT">2,500,000</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Jacoby Ellsbury</td>
+<td align="char" char="," block_type="TBN-TXT">21,142,857</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Brendan Ryan</td>
+<td align="char" char="," block_type="TBN-TXT">2,000,000</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Brian McCann</td>
+<td align="char" char="," block_type="TBN-TXT">17,000,000</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Adam Warren</td>
+<td align="char" char="," block_type="TBN-TXT">572,600</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Carlos Beltran</td>
+<td align="char" char="," block_type="TBN-TXT">15,000,000</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Justin Wilson</td>
+<td align="char" char="," block_type="TBN-TXT">556,000</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Chase Headley</td>
+<td align="char" char="," block_type="TBN-TXT">13,000,000</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Didi Gregorius</td>
+<td align="char" char="," block_type="TBN-TXT">553,900</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Brett Gardner</td>
+<td align="char" char="," block_type="TBN-TXT">12,500,000</td>
+<td align="center" block_type="TBN-TXT" class="lborder">John Ryan Murphy</td>
+<td align="char" char="," block_type="TBN-TXT">518,700</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Andrew Miller</td>
+<td align="char" char="," block_type="TBN-TXT">9,000,000</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Chasen Shreve</td>
+<td align="char" char="," block_type="TBN-TXT">510,275</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Garrett Jones</td>
+<td align="char" char="," block_type="TBN-TXT">5,000,000</td>
+<td align="center" block_type="TBN-TXT" class="lborder">Dellin Betances</td>
+<td align="char" char="," block_type="TBN-TXT">507,500</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Stephen Drew</td>
+<td align="char" char="," block_type="TBN-TXT">5,000,000</td>
+<td align="center" block_type="TBN-TXT" class="lborder"></td>
+<td align="char" char="," block_type="TBN-TXT"></td>
+</tr>
+<tr class="tborder">
+<td colspan="4" block_type="TBN-SC"><em>Source</em>: <link href="http://espn.go.com/mlb/team/salaries/&#95;/name/nyy/new-york-yankees">http://espn.go.com/mlb/team/salaries/&#95;/name/nyy/new-york-yankees</link>.</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e_page_263" block_type="page_start" data-margin-content="right">263</p>
+<question id="scc9e-ch11-quest-0016" block_type="exercise_11_16.html">
+<p id="scc9e-ch11-p-0148" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.16 The statistics of writing style.</phrase> Numerical data can distinguish different types of writing, and sometimes even individual authors. Here are data collected by students on the percentages of words of 1 to 15 letters used in articles in <em>Popular Science</em> magazine:</p>
+<table id="scc9e-ch11-untab-3" numbered="false" block_type="UN-TABLE" attr="85">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="TB1-TXT">Length:</td>
+<td align="center" block_type="TB1-TXT">1</td>
+<td align="center" block_type="TB1-TXT">2</td>
+<td align="center" block_type="TB1-TXT">3</td>
+<td align="center" block_type="TB1-TXT">4</td>
+<td align="center" block_type="TB1-TXT">5</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TB1-TXT">Percent:</td>
+<td align="center" block_type="TB1-TXT">3.6</td>
+<td align="center" block_type="TB1-TXT">14.8</td>
+<td align="center" block_type="TB1-TXT">18.7</td>
+<td align="center" block_type="TB1-TXT">16.0</td>
+<td align="center" block_type="TB1-TXT">12.5</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch11-untab-4" numbered="false" block_type="UN-TABLE" attr="85">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="TB1-TXT">Length:</td>
+<td align="center" block_type="TB1-TXT">6</td>
+<td align="center" block_type="TB1-TXT">7</td>
+<td align="center" block_type="TB1-TXT">8</td>
+<td align="center" block_type="TB1-TXT">9</td>
+<td align="center" block_type="TB1-TXT">10</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TB1-TXT">Percent:</td>
+<td align="center" block_type="TB1-TXT">8.2</td>
+<td align="center" block_type="TB1-TXT">8.1</td>
+<td align="center" block_type="TB1-TXT">5.9</td>
+<td align="center" block_type="TB1-TXT">4.4</td>
+<td align="center" block_type="TB1-TXT">3.6</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch11-untab-5" numbered="false" block_type="UN-TABLE" attr="85">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="TB1-TXT">Length:</td>
+<td align="center" block_type="TB1-TXT">11</td>
+<td align="center" block_type="TB1-TXT">12</td>
+<td align="center" block_type="TB1-TXT">13</td>
+<td align="center" block_type="TB1-TXT">14</td>
+<td align="center" block_type="TB1-TXT">15</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TB1-TXT">Percent:</td>
+<td align="center" block_type="TB1-TXT">2.1</td>
+<td align="center" block_type="TB1-TXT">0.9</td>
+<td align="center" block_type="TB1-TXT">0.6</td>
+<td align="center" block_type="TB1-TXT">0.4</td>
+<td align="center" block_type="TB1-TXT">0.2</td>
+</tr>
+</tbody>
+</table>
+<list id="scc9e-ch11-list-013" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch11-li-043"><p id="scc9e-ch11-p-0149" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Make a histogram of this distribution. Describe its shape, center, and variability.</p></li>
+<li id="scc9e-ch11-li-044"><p id="scc9e-ch11-p-0150" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> How does the distribution of lengths of words used in <em>Popular Science</em> compare with the similar distribution in <link href="figure_11_4.html">Figure 11.4</link> (page 254) for Shakespeare&#8217;s plays? Look in particular at short words (two, three, and four letters) and very long words (more than 10 letters).</p></li>
+</list>
+</question>
+<question id="scc9e-ch11-quest-0017" block_type="exercise_11_17.html">
+<p id="scc9e-ch11-p-0151" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.17 What&#8217;s my shape?</phrase> Do you expect the distribution of the total player payroll for each of the 30 teams in Major League Baseball to be roughly symmetric, clearly skewed to the right, or clearly skewed to the left? Why?</p>
+</question>
+<question id="scc9e-ch11-quest-0018" block_type="exercise_11_18.html">
+<p id="scc9e-ch11-p-0152" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.18 Asians in the eastern states.</phrase> Here are the percentages of the population who are of Asian origin in each state east of the Mississippi River in 2008:</p>
+<table id="scc9e-ch11-untab-6" numbered="false" block_type="UN-TABLE" attr="115">
+<tbody>
+<tr class="tborder">
+<th align="center" block_type="TB1-COLHD">State</th>
+<th align="char" char="." block_type="TB1-COLHD" class="rborder">Percent</th>
+<th align="center" block_type="TB1-COLHD">State</th>
+<th align="char" char="." block_type="TB1-COLHD" class="rborder">Percent</th>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="TB1-TXT">Alabama</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">1.0</td>
+<td align="center" block_type="TB1-TXT">New Hampshire</td>
+<td align="char" char="." block_type="TB1-TXT">1.9</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Connecticut</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">3.6</td>
+<td align="center" block_type="TB1-TXT">New Jersey</td>
+<td align="char" char="." block_type="TB1-TXT">7.6</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Delaware</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">2.9</td>
+<td align="center" block_type="TB1-TXT">New York</td>
+<td align="char" char="." block_type="TB1-TXT">7.0</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Florida</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">2.3</td>
+<td align="center" block_type="TB1-TXT">North Carolina</td>
+<td align="char" char="." block_type="TB1-TXT">1.9</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Georgia</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">2.9</td>
+<td align="center" block_type="TB1-TXT">Ohio</td>
+<td align="char" char="." block_type="TB1-TXT">1.6</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Illinois</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">4.3</td>
+<td align="center" block_type="TB1-TXT">Pennsylvania</td>
+<td align="char" char="." block_type="TB1-TXT">2.4</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Indiana</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">1.4</td>
+<td align="center" block_type="TB1-TXT">Rhode Island</td>
+<td align="char" char="." block_type="TB1-TXT">2.8</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Kentucky</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">1.0</td>
+<td align="center" block_type="TB1-TXT">South Carolina</td>
+<td align="char" char="." block_type="TB1-TXT">1.2</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Maine</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">0.9</td>
+<td align="center" block_type="TB1-TXT">Tennessee</td>
+<td align="char" char="." block_type="TB1-TXT">1.3</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Maryland</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">5.1</td>
+<td align="center" block_type="TB1-TXT">Vermont</td>
+<td align="char" char="." block_type="TB1-TXT">1.1</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Massachusetts</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">4.9</td>
+<td align="center" block_type="TB1-TXT">Virginia</td>
+<td align="char" char="." block_type="TB1-TXT">4.9</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">Michigan</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">2.4</td>
+<td align="center" block_type="TB1-TXT">West Virginia</td>
+<td align="char" char="." block_type="TB1-TXT">0.7</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TB1-TXT">Mississippi</td>
+<td align="char" char="." block_type="TB1-TXT" class="rborder">0.8</td>
+<td align="center" block_type="TB1-TXT">Wisconsin</td>
+<td align="char" char="." block_type="TB1-TXT">2.0</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch11-p-0153" block_type="CR-X-NL">Make a stemplot of these data. Describe the overall pattern of the distribution. Are there any outliers?</p>
+</question>
+<question id="scc9e-ch11-quest-0019" block_type="exercise_11_19.html">
+<p id="scc9e-ch11-p-0154" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.19 How many calories does a hot dog have?</phrase> <em>Consumer Reports</em> magazine presented the following data on the number of calories in a hot dog for each of 17 brands of meat hot dogs:</p>
+<table id="scc9e-ch11-untab-7" numbered="false" block_type="UN-TABLE" attr="80">
+<tbody>
+<tr>
+<td align="center" block_type="TB1-TXT">173</td>
+<td align="center" block_type="TB1-TXT">191</td>
+<td align="center" block_type="TB1-TXT">182</td>
+<td align="center" block_type="TB1-TXT">190</td>
+<td align="center" block_type="TB1-TXT">172</td>
+<td align="center" block_type="TB1-TXT">147</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">146</td>
+<td align="center" block_type="TB1-TXT">139</td>
+<td align="center" block_type="TB1-TXT">175</td>
+<td align="center" block_type="TB1-TXT">136</td>
+<td align="center" block_type="TB1-TXT">179</td>
+<td align="center" block_type="TB1-TXT">153</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">107</td>
+<td align="center" block_type="TB1-TXT">195</td>
+<td align="center" block_type="TB1-TXT">135</td>
+<td align="center" block_type="TB1-TXT">140</td>
+<td align="center" block_type="TB1-TXT">138</td>
+<td align="center" block_type="TB1-TXT"></td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch11-p-0155" block_type="CR-X-NL">Make a stemplot of the distribution of calories in meat hot dogs and briefly describe the shape of the distribution. Most brands of meat hot dogs contain a mixture of beef and pork, with up to 15&#37; poultry allowed by government regulations. The only brand with a different makeup was Eat Slim Veal Hot Dogs. Which point on your stemplot do you think represents this brand?</p>
+</question>
+<p id="scc9e_page_264" block_type="page_start" data-margin-content="left">264</p>
+<table id="scc9e-ch11-tab-5" numbered="false" block_type="TABLE" caption-placement="Top" attr="80" data-filename="table_11_5.html">
+<table_caption><phrase block_type="TBN-N-ri">TABLE 11.5</phrase> <phrase block_type="TBN-T">Age distribution in the United States, 1950 and 2050 (in millions of persons)</phrase></table_caption>
+<tbody>
+<tr class="bborder">
+<th align="center" block_type="TBN-COLHD-v1">Age group</th>
+<th align="char" char="." block_type="TBN-COLHD-v1">1950</th>
+<th align="char" char="." block_type="TBN-COLHD-v1">2050</th>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Under 10 years</td>
+<td align="char" char="." block_type="TBN-TXT">29.3</td>
+<td align="char" char="." block_type="TBN-TXT">56.2</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">10 to 19 years</td>
+<td align="char" char="." block_type="TBN-TXT">21.8</td>
+<td align="char" char="." block_type="TBN-TXT">56.7</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">20 to 29 years</td>
+<td align="char" char="." block_type="TBN-TXT">24.0</td>
+<td align="char" char="." block_type="TBN-TXT">56.2</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">30 to 39 years</td>
+<td align="char" char="." block_type="TBN-TXT">22.8</td>
+<td align="char" char="." block_type="TBN-TXT">55.9</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">40 to 49 years</td>
+<td align="char" char="." block_type="TBN-TXT">19.3</td>
+<td align="char" char="." block_type="TBN-TXT">52.8</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">50 to 59 years</td>
+<td align="char" char="." block_type="TBN-TXT">15.5</td>
+<td align="char" char="." block_type="TBN-TXT">49.1</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">60 to 69 years</td>
+<td align="char" char="." block_type="TBN-TXT">11.0</td>
+<td align="char" char="." block_type="TBN-TXT">45.0</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">70 to 79 years</td>
+<td align="char" char="." block_type="TBN-TXT">5.5</td>
+<td align="char" char="." block_type="TBN-TXT">34.5</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">80 to 89 years</td>
+<td align="char" char="." block_type="TBN-TXT">1.6</td>
+<td align="char" char="." block_type="TBN-TXT">23.7</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">90 to 99 years</td>
+<td align="char" char="." block_type="TBN-TXT">0.1</td>
+<td align="char" char="." block_type="TBN-TXT">8.1</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TBN-TXT">100 years and over</td>
+<td align="char" char="." block_type="TBN-TXT">&#8212;</td>
+<td align="char" char="." block_type="TBN-TXT">0.6</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TBN-TXT">Total</td>
+<td align="char" char="." block_type="TBN-TXT">151.1</td>
+<td align="char" char="." block_type="TBN-TXT">310.6</td>
+</tr>
+<tr>
+<td colspan="3" block_type="TBN-SC"><em>Source</em>: <em>Statistical Abstract of the United States,</em> <link href="http://www.census.gov/library/publications/2009/compendia/statab/129ed.html">www.census.gov/library/publications/2009/compendia/statab/129ed.html</link>; and Census Bureau, <link href="http://www.census.gov/population/projections/">www.census.gov/population/projections/</link>.</td>
+</tr>
+</tbody>
+</table>
+<question id="scc9e-ch11-quest-0020" block_type="exercise_11_20.html">
+<p id="scc9e-ch11-p-0157" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.20 The changing age distribution of the United States.</phrase> The distribution of the ages of a nation&#8217;s population has a strong influence on economic and social conditions. <link href="table_11_5.html">Table 11.5</link> shows the age distribution of U.S. residents in 1950 and 2050, in millions of persons. The 1950 data come from that year&#8217;s census. The 2050 data are projections made by the Census Bureau.</p>
+<list id="scc9e-ch11-list-014" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch11-li-045"><p id="scc9e-ch11-p-0158" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Because the total population in 2050 is much larger than the 1950 population, comparing percentages in each age group is clearer than comparing counts. Make a table of the percentage of the total population in each age group for both 1950 and 2050.</p></li>
+<li id="scc9e-ch11-li-046"><p id="scc9e-ch11-p-0159" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Make a histogram of the 1950 age distribution (in percents). Then describe the main features of the distribution. In particular, look at the percentage of children relative to the rest of the population.</p></li>
+<li id="scc9e-ch11-li-047"><p id="scc9e-ch11-p-0160" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Make a histogram of the projected age distribution for the year 2050. Use the same scales as in part (b) for easy comparison. What are the most important changes in the U.S. age distribution projected for the 100-year period between 1950 and 2050?</p></li>
+</list>
+</question>
+<question id="scc9e-ch11-quest-0021" block_type="exercise_11_21.html">
+<p id="scc9e-ch11-p-0161" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.21 Babe Ruth&#8217;s home runs.</phrase> Here are the numbers of home runs that Babe Ruth hit in his 15 years with the New York Yankees, 1920 to 1934:</p>
+<table id="scc9e-ch11-untab-8" numbered="false" block_type="UN-TABLE" attr="95">
+<tbody>
+<tr>
+<td align="center" block_type="TB1-TXT">54</td>
+<td align="center" block_type="TB1-TXT">59</td>
+<td align="center" block_type="TB1-TXT">35</td>
+<td align="center" block_type="TB1-TXT">41</td>
+<td align="center" block_type="TB1-TXT">46</td>
+<td align="center" block_type="TB1-TXT">25</td>
+<td align="center" block_type="TB1-TXT">47</td>
+<td align="center" block_type="TB1-TXT">60</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">54</td>
+<td align="center" block_type="TB1-TXT">46</td>
+<td align="center" block_type="TB1-TXT">49</td>
+<td align="center" block_type="TB1-TXT">46</td>
+<td align="center" block_type="TB1-TXT">41</td>
+<td align="center" block_type="TB1-TXT">34</td>
+<td align="center" block_type="TB1-TXT">22</td>
+<td align="center" block_type="TB1-TXT"></td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch11-p-0162" block_type="CR-X-NL">Make a stemplot of these data. Is the distribution roughly symmetric, clearly skewed, or neither? About how many home runs did Ruth hit in a typical year? Is his famous 60 home runs in 1927 an outlier?</p>
+</question>
+<p id="scc9e_page_265" block_type="page_start" data-margin-content="right">265</p>
+<question id="scc9e-ch11-quest-0022" block_type="exercise_11_22.html">
+<p id="scc9e-ch11-p-0164" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.22 Back-to-back stemplot.</phrase> The current major league single-season home run record is held by Barry Bonds of the San Francisco Giants. Here are Bonds&#8217;s home run counts for 1986 to 2007:</p>
+<table id="scc9e-ch11-untab-9" numbered="false" block_type="UN-TABLE" attr="80">
+<tbody>
+<tr>
+<td align="center" block_type="TB1-TXT">16</td>
+<td align="center" block_type="TB1-TXT">25</td>
+<td align="center" block_type="TB1-TXT">24</td>
+<td align="center" block_type="TB1-TXT">19</td>
+<td align="center" block_type="TB1-TXT">33</td>
+<td align="center" block_type="TB1-TXT">25</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">34</td>
+<td align="center" block_type="TB1-TXT">46</td>
+<td align="center" block_type="TB1-TXT">37</td>
+<td align="center" block_type="TB1-TXT">33</td>
+<td align="center" block_type="TB1-TXT">42</td>
+<td align="center" block_type="TB1-TXT">40</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">37</td>
+<td align="center" block_type="TB1-TXT">34</td>
+<td align="center" block_type="TB1-TXT">49</td>
+<td align="center" block_type="TB1-TXT">73</td>
+<td align="center" block_type="TB1-TXT">46</td>
+<td align="center" block_type="TB1-TXT">45</td>
+</tr>
+<tr>
+<td align="center" block_type="TB1-TXT">45</td>
+<td align="center" block_type="TB1-TXT">5</td>
+<td align="center" block_type="TB1-TXT">26</td>
+<td align="center" block_type="TB1-TXT">28</td>
+<td align="center" block_type="TB1-TXT"></td>
+<td align="center" block_type="TB1-TXT"></td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch11-p-0165" block_type="CR-X-NL">A <strong>back-to-back stemplot</strong> helps us compare two distributions. Write the stems as usual, but with a vertical line both to their left and to their right. On the right, put leaves for Ruth (<link href="exercise_11_21.html">Exercise 11.21</link>). On the left, put leaves for Bonds. Arrange the leaves on each stem in increasing order out from the stem. Now write a brief comparison of Ruth and Bonds as home run hitters.</p>
+</question>
+<question id="scc9e-ch11-quest-0023" block_type="exercise_11_23.html">
+<p id="scc9e-ch11-p-0166" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">11.23 When it rains, it pours.</phrase> On July 25 to 26, 1979, 42.00 inches of rain fell on Alvin, Texas. That&#8217;s the most rain ever recorded in Texas for a 24-hour period. <link href="table_11_6.html">Table 11.6</link> gives the maximum precipitation ever recorded in 24 hours (through 2010) at any weather station in each state. The record amount varies a great deal from state to state&#8212;hurricanes bring extreme rains on the Atlantic coast, and the mountain West is generally dry. Make a graph to display the distribution of records for the states. Mark where your state lies in this distribution. Briefly describe the distribution.</p>
+</question>
+<table id="scc9e-ch11-tab-6" numbered="false" block_type="TABLE" caption-placement="Top" attr="110" data-filename="table_11_6.html">
+<table_caption><phrase block_type="TBN-N-ri">TABLE 11.6</phrase> <phrase block_type="TBN-T">Record 24-hour precipitation amounts (inches) by state</phrase></table_caption>
+<tbody>
+<tr class="bborder">
+<th align="center" block_type="TBN-COLHD-v1">State</th>
+<th align="char" char="." block_type="TBN-COLHD-v1" class="rborder">Precip.</th>
+<th align="center" block_type="TBN-COLHD-v1">State</th>
+<th align="char" char="." block_type="TBN-COLHD-v1" class="rborder">Precip.</th>
+<th align="center" block_type="TBN-COLHD-v1">State</th>
+<th align="char" char="." block_type="TBN-COLHD-v1">Precip.</th>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Alabama</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">32.52</td>
+<td align="center" block_type="TBN-TXT">Louisiana</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">22.00</td>
+<td align="center" block_type="TBN-TXT">Ohio</td>
+<td align="char" char="." block_type="TBN-TXT">10.75</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Alaska</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">15.20</td>
+<td align="center" block_type="TBN-TXT">Maine</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">13.32</td>
+<td align="center" block_type="TBN-TXT">Oklahoma</td>
+<td align="char" char="." block_type="TBN-TXT">15.68</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Arizona</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">11.40</td>
+<td align="center" block_type="TBN-TXT">Maryland</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">14.75</td>
+<td align="center" block_type="TBN-TXT">Oregon</td>
+<td align="char" char="." block_type="TBN-TXT">11.77</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Arkansas</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">14.06</td>
+<td align="center" block_type="TBN-TXT">Massachusetts</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">18.15</td>
+<td align="center" block_type="TBN-TXT">Pennsylvania</td>
+<td align="char" char="." block_type="TBN-TXT">13.50</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">California</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">25.83</td>
+<td align="center" block_type="TBN-TXT">Michigan</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">9.78</td>
+<td align="center" block_type="TBN-TXT">Rhode Island</td>
+<td align="char" char="." block_type="TBN-TXT">12.13</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Colorado</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">11.08</td>
+<td align="center" block_type="TBN-TXT">Minnesota</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">15.10</td>
+<td align="center" block_type="TBN-TXT">South Carolina</td>
+<td align="char" char="." block_type="TBN-TXT">14.80</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Connecticut</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">12.77</td>
+<td align="center" block_type="TBN-TXT">Mississippi</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">15.68</td>
+<td align="center" block_type="TBN-TXT">South Dakota</td>
+<td align="char" char="." block_type="TBN-TXT">8.74</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Delaware</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">8.50</td>
+<td align="center" block_type="TBN-TXT">Missouri</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">18.18</td>
+<td align="center" block_type="TBN-TXT">Tennessee</td>
+<td align="char" char="." block_type="TBN-TXT">13.60</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Florida</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">23.28</td>
+<td align="center" block_type="TBN-TXT">Montana</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">11.50</td>
+<td align="center" block_type="TBN-TXT">Texas</td>
+<td align="char" char="." block_type="TBN-TXT">42.00</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Georgia</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">21.10</td>
+<td align="center" block_type="TBN-TXT">Nebraska</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">13.15</td>
+<td align="center" block_type="TBN-TXT">Utah</td>
+<td align="char" char="." block_type="TBN-TXT">5.08</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Hawaii</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">38.00</td>
+<td align="center" block_type="TBN-TXT">Nevada</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">7.78</td>
+<td align="center" block_type="TBN-TXT">Vermont</td>
+<td align="char" char="." block_type="TBN-TXT">9.92</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Idaho</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">7.17</td>
+<td align="center" block_type="TBN-TXT">New Hampshire</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">11.07</td>
+<td align="center" block_type="TBN-TXT">Virginia</td>
+<td align="char" char="." block_type="TBN-TXT">14.28</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Illinois</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">16.91</td>
+<td align="center" block_type="TBN-TXT">New Jersey</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">14.81</td>
+<td align="center" block_type="TBN-TXT">Washington</td>
+<td align="char" char="." block_type="TBN-TXT">14.26</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Indiana</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">10.50</td>
+<td align="center" block_type="TBN-TXT">New Mexico</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">11.28</td>
+<td align="center" block_type="TBN-TXT">West Virginia</td>
+<td align="char" char="." block_type="TBN-TXT">12.02</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Iowa</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">13.18</td>
+<td align="center" block_type="TBN-TXT">New York</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">11.15</td>
+<td align="center" block_type="TBN-TXT">Wisconsin</td>
+<td align="char" char="." block_type="TBN-TXT">11.72</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Kansas</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">13.53</td>
+<td align="center" block_type="TBN-TXT">North Carolina</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">22.22</td>
+<td align="center" block_type="TBN-TXT">Wyoming</td>
+<td align="char" char="." block_type="TBN-TXT">6.06</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Kentucky</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">10.40</td>
+<td align="center" block_type="TBN-TXT">North Dakota</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">8.10</td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="char" char="." block_type="TBN-TXT"></td>
+</tr>
+<tr class="tborder">
+<td colspan="6" block_type="TBN-SC"><em>Source</em>: National Oceanic and Atmospheric Administration, <link href="http://www.noaa.gov">www.noaa.gov.</link></td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e_page_266" block_type="page_start" data-margin-content="left">266</p>
+<box id="scc9e-ch11-exp1-003" numbered="false" block_type="exploring-web">
+<p id="scc9e-ch11-p-0167" block_type="QRL icon"><image asset-id="scc9e-ch11-img-020" alt="image" src="asset/global_images/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch11-p-0168" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
+<p id="scc9e-ch11-p-0169" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
+</box>
+</section>
+</chapter>

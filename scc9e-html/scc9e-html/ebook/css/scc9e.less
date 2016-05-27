@@ -297,6 +297,9 @@ div[data-type="section"][data-block_type="chapter"] {
         [data-type="asset_source"] {
 	        display: none;
         }
+        img {
+            cursor:default !important;
+        }
     }
     /* case study box */
         
@@ -330,7 +333,30 @@ div[data-type="section"][data-block_type="chapter"] {
     // another case box NOT in BX4 parent
     
         
-        
+     ol[data-block_type="numbered"] {
+        list-style-type: none;
+        margin-left:0;
+        span[data-block_type="maker"] {
+            font-weight:bold;
+        }
+        > li > div > p {
+            margin-top:1em;
+            margin-bottom:1em;
+        }
+    }
+    ul[data-block_type="bluebullet"] {
+	    list-style-type: none;
+	    margin-left: 1em;
+	    margin-top: 0em;
+        span[data-block_type="maker"] {
+	        color: @dk-blue;
+	        margin-left: -20px;
+	        position: absolute;
+        }
+        li  {
+            margin: .5em 0;
+        }
+    }
     
 }
 
@@ -518,7 +544,7 @@ div[data-type="section"][data-block_type="h1"] {
     ol[data-block_type="numbered"] {
         list-style-type: none;
     }
-    //centered, numbered figures in examples
+    //centered, numbered figures in examples - putting white space over the example border
     div[data-caption-compass="S"] {
         margin-left:-17px;
         padding-left:17px;
@@ -526,6 +552,10 @@ div[data-type="section"][data-block_type="h1"] {
         padding-bottom:2em;
         margin-top:0;
         padding-top:2em;
+    }
+    //steps have bold titles
+    span[data-block_type="cs_bl"] {
+        font-weight:bold;
     }
 }
 
@@ -1076,6 +1106,35 @@ div[data-block_type="EQ"], div[data-block_type="EXP-EQ"] {
 	display: none;
 }
 
+// center all the images that have compass="S" and have a natural width smaller than the main width
+div[data-caption-compass="S"] {
+    min-width:675px;
+    > img {
+        margin-left:auto;margin-right:auto;
+    }
+    div[data-type="figure_text"] {
+        min-width:675px;
+    }
+}
 
+[data-type="figure"][data-layout-border="false"][data-caption-compass="SW"] {
+    width: 985px;
+    position: relative;
+    left: -310px;
+    div[data-type="figure_text"] {
+        display:table-cell;
+        vertical-align:bottom;
+        width:250px;
+        padding-right:60px;
+    }
+    .compassImg {
+        display:table-cell;
+        width:675px;
+        img {
+            margin-left:auto;margin-right:auto;
+        }
+    }
+
+}
 
 
