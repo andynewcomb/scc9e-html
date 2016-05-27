@@ -2,6 +2,13 @@
   width: 500px;
   padding-right: 320px;
 }
+[data-math="math_22"] {
+  position: relative;
+  left: 1.1em;
+}
+#scc9e-ch12-untab-24 tr td:last-child {
+  color: transparent;
+}
 #scc9e-ch12-fig-002 {
   margin-left: -130px;
 }

@@ -79,6 +79,13 @@ var suppwins_Player_subtype = Player_subtype.extend({
              var supp_win = "../../../ch" + ch + "/supp_wins/examples/" + filename;
              pop_content(supp_win, "1020px", "500px");
          });
+         // add links on table references in the text
+         $('span[data_href^="table_"]').click(function () {
+             var filename = $(this).attr('data_href');
+             var ch = filename.replace(/table_(\d+).*/i, "$1");
+             var supp_win = "../../../ch" + ch + "/supp_wins/tables/" + filename;
+             pop_content(supp_win, "1020px", "500px");
+         });
 
          // adjust all image paths
          $('img[src^="asset/ch"]').each(function () {
@@ -114,7 +121,7 @@ var suppwins_Player_subtype = Player_subtype.extend({
         // add link on the figure image 
         $('[data-caption-compass]  > img').click(function () {
             var fignum = $(this).attr('src').replace(/fig_([\d_]+)/i, "$1");
-            var supp_win = fignum.replace(/.*0?(\d+)_0?(\d+)\.jpg/, "../../../ch$1/supp_wins/figures/figure_$1_$2.html");
+            var supp_win = fignum.replace(/.*_0?(\d+)_0?(\d+)\.jpg/, "../../../ch$1/supp_wins/figures/figure_$1_$2.html");
             pop_content(supp_win, "1015px", "700px");
         });
         // add link on the figure number in caption
@@ -142,8 +149,10 @@ var suppwins_Player_subtype = Player_subtype.extend({
              var scale = 1.15;
              figImg.css('width', 'auto');
              var w = parseInt(figImg.css('width'));
-             var neww = w * scale;
-             figImg.css('width', neww );
+             if (w > 0) { // if statement tests that the image has loaded... because sometimes this code runs before the image is loaded, and therefore gives a value of 0... which we don't want.
+                 var neww = w * scale;
+                 figImg.css('width', neww);
+             }
          }
 
     

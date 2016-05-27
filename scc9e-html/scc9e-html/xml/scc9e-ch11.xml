@@ -229,15 +229,21 @@
 </table>
 <p id="scc9e-ch11-p-021" block_type="EXP-first"><phrase block_type="cs_bl">Step 3. Draw the histogram.</phrase> Mark on the horizontal axis the scale for the variable whose distribution you are displaying. That&#8217;s &#8220;percentage of residents aged 65 and over&#8221; in this example. The scale runs from 5 to 20 because that range spans the classes we chose. The vertical axis contains the scale of counts. Each bar represents a class. The base of the bar covers the class, and the bar height is the class count. There is no horizontal space between the bars unless a class is empty, so that its bar has height zero. <link href="figure_11_1.html">Figure 11.1</link> is our histogram.</p>
 </box>
-<box id="scc9e-ch11-exp1-001" numbered="false" block_type="margin-statistics">
+  <figure id="scc9e-ch11-fig-001" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.1" mmtype="image" mmsrc="" attr="" data-filename="figure_11_1.html">
+    <layout align="center" width="medium" border="false"/>
+    <image asset-id="scc9e-ch11-img-002" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_01.jpg"/>
+    <caption>
+      <phrase block_type="FG-N-ri">Figure 11.1</phrase>
+      <phrase block_type="FG-CAP">
+        Histogram of the percentages of residents aged 65 and older in the 50 states, <link href="example_11_1.html">Example 1</link>. Note the two outliers.
+      </phrase>
+    </caption>
+  </figure>
+
+  <box id="scc9e-ch11-exp1-001" numbered="false" block_type="margin-statistics">
 <p id="scc9e-ch11-p-024" block_type="MN-TXT"><image asset-id="scc9e-ch11-img-003" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">What the eye really sees</phrase> We make the bars in bar graphs and histograms equal in width because the eye responds to their area. That&#8217;s roughly true. Careful study by statistician William Cleveland shows that our eyes &#8220;see&#8221; the size of a bar in proportion to the 0.7 power of its area. Suppose, for example, that one figure in a pictogram is both twice as high and twice as wide as another. The area of the bigger figure is 4 times that of the smaller. But we perceive the bigger figure as only 2.6 times the size of the smaller because 2.6 is 4 to the 0.7 power.</p>
 </box>
   <p id="scc9e-ch11-p-022" block_type="TXT">Just as with bar graphs, our eyes respond to the area of the bars in a histogram. Be sure that the classes for a histogram have equal widths. There is no one right choice for the number of classes. Some people recommend between 10 and 20 classes but suggest using fewer when the size of the data set is small. Too few classes will give a &#8220;skyscraper&#8221; histogram, with all values in a few classes with tall bars. Too many classes will produce a &#8220;pancake&#8221; graph, with most classes having one or no observations. Neither choice will give a good picture of the shape of the distribution. You must use your judgment in choosing classes to display the shape. Statistics software will choose the classes for you and may use slightly different rules than those we have discussed. The computer&#8217;s choice is usually a good one, but you can change it if you want. When using statistical software, it is good practice to check what rules are used to determine the classes.</p>
-<figure id="scc9e-ch11-fig-001" block_type="FIGURE" data-caption-compass="S" numbered="true" number="11.1" mmtype="image" mmsrc="" attr="" data-filename="figure_11_1.html">
-<layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch11-img-002" alt="image" src="asset/ch11/17MOORESCC-MSE_9e_fig_11_01.jpg"/>
-<caption><phrase block_type="FG-N-ri">Figure 11.1</phrase> <phrase block_type="FG-CAP">Histogram of the percentages of residents aged 65 and older in the 50 states, <link href="example_11_1.html">Example 1</link>. Note the two outliers.</phrase></caption>
-</figure>
 <p id="scc9e_page_246" block_type="page_start" data-margin-content="left">246</p>
 
 <box id="scc9e-ch11-box-003" numbered="false" block_type="BX2">
@@ -1075,9 +1081,9 @@
 <tbody>
 <tr class="tborder">
 <th align="center" block_type="TB1-COLHD">State</th>
-<th align="char" char="." block_type="TB1-COLHD" class="rborder">Percent</th>
+<th align="center" block_type="TB1-COLHD" class="rborder">Percent</th>
 <th align="center" block_type="TB1-COLHD">State</th>
-<th align="char" char="." block_type="TB1-COLHD" class="rborder">Percent</th>
+<th align="center" block_type="TB1-COLHD">Percent</th>
 </tr>
 <tr class="tborder">
 <td align="center" block_type="TB1-TXT">Alabama</td>

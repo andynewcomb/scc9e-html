@@ -99,3 +99,8 @@ div[data-type="section"] > [data-block_type="FIGURE"] {
 [data-type="asset_source"] {
     display: none;
 }
+
+// tables (get rid of pointer cursor on hover)
+[data-type="section"] > [data-block_type="TABLE"]:first-child [data-type="table_text"] span {
+    cursor:default;
+}   

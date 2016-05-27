@@ -365,7 +365,7 @@
 <image asset-id="scc9e-ch13-img-0020" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_12.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 13.12</phrase> <phrase block_type="FG-CAP">The density curve of a uniform distribution, <link href="exercise_13_11.html">Exercise 13.11</link>. Observations from this distribution are spread &#8220;at random&#8221; between 0 and 1.</phrase></caption>
 </figure>
-<question id="scc9e-ch13-quest-012">
+  <p id="scc9e_page_310" block_type="page_start" data-margin-content="left">310</p>
 <p id="scc9e-ch13-p-0165" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">IQ test scores.</phrase> <link href="figure_13_13.html">Figure 13.13</link> is a stemplot of the IQ test scores of 74 seventh-grade students. This distribution is very close to Normal with mean 111 and standard deviation 11. It includes all the seventh-graders in a rural Midwest school except for four low outliers who were dropped because they may have been ill or otherwise not paying attention to the test. Take the Normal distribution with mean 111 and standard deviation 11 as a description of the IQ test scores of all rural Midwest seventh-grade students. Use this distribution and the 68&#8211;95&#8211;99.7 rule to answer <link href="exercise_13_12.html">Exercises 13.12</link> to <link href="exercise_13_14.html">13.14</link>.</p>
 
 
@@ -374,8 +374,6 @@
 <image asset-id="scc9e-ch13-img-0021" alt="image" src="asset/ch13/17MOORESCC-MSE_9e_fig_13_13.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 13.13</phrase> <phrase block_type="FG-CAP">Stemplot of the IQ scores of 74 seventh-grade students, <link href="exercise_13_12.html">Exercises 13.12</link>, <link href="exercise_13_13.html">13.13</link>, and <link href="exercise_13_14.html">13.14</link>.</phrase></caption>
 </figure>
-</question>
-<p id="scc9e_page_310" block_type="page_start" data-margin-content="left">310</p>
 <question id="scc9e-ch13-quest-013" block_type="exercise_13_12.html">
 <p id="scc9e-ch13-p-0167" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">13.12</phrase> Between what values do the IQ scores of 68&#37; of all rural Midwest seventh-graders lie?</p>
 </question>
@@ -414,8 +412,8 @@
 <tbody>
 <tr class="tborder">
 <th align="center" block_type="CR-X-NL-MCL">Decade</th>
-<th align="char" char="." block_type="CR-X-NL-MCL">Mean</th>
-<th align="char" char="." block_type="CR-X-NL-MCL">Std. dev.</th>
+<th align="left" block_type="CR-X-NL-MCL">Mean</th>
+<th align="left" block_type="CR-X-NL-MCL">Std. dev.</th>
 </tr>
 <tr class="tborder">
 <td align="center" block_type="CR-X-NL-MCL">1910s</td>

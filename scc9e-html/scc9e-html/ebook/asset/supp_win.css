@@ -59,3 +59,6 @@ div[data-type="section"] > [data-block_type="FIGURE"] [data-type="figure_text"] 
 [data-type="asset_source"] {
   display: none;
 }
+[data-type="section"] > [data-block_type="TABLE"]:first-child [data-type="table_text"] span {
+  cursor: default;
+}
