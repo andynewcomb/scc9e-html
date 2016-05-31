@@ -78,5 +78,13 @@
   {
     "outputFile": "ebook/css/scc9e_ch14.css",
     "inputFile": "ebook/css/scc9e_ch14.less"
+  },
+  {
+    "outputFile": "ebook/css/scc9e_ch16.css",
+    "inputFile": "ebook/css/scc9e_ch16.less"
+  },
+  {
+    "outputFile": "ebook/css/scc9e_ch15.css",
+    "inputFile": "ebook/css/scc9e_ch15.less"
   }
 ]

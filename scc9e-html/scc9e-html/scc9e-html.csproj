@@ -717,6 +717,18 @@
     <Content Include="ebook\css\scc9e_ch14.min.css">
       <DependentUpon>scc9e_ch14.css</DependentUpon>
     </Content>
+    <Content Include="ebook\css\scc9e_ch15.css">
+      <DependentUpon>scc9e_ch15.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch15.min.css">
+      <DependentUpon>scc9e_ch15.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch16.css">
+      <DependentUpon>scc9e_ch16.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch16.min.css">
+      <DependentUpon>scc9e_ch16.css</DependentUpon>
+    </Content>
     <Content Include="ebook\css\scc9e_ch2.css">
       <DependentUpon>scc9e_ch2.less</DependentUpon>
     </Content>
@@ -1050,7 +1062,9 @@
     <Content Include="xml\scc9e-ch15.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="xml\scc9e-ch16.xml" />
+    <Content Include="xml\scc9e-ch16.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="xml\scc9e-Part1Review.xml" />
     <Content Include="xml\scc9e-Part2Review.xml" />
     <None Include="compilerconfig.json" />
@@ -1085,6 +1099,11 @@
     <Content Include="ebook\css\scc9e_ch12.less" />
     <Content Include="ebook\css\scc9e_ch113.less" />
     <Content Include="ebook\css\scc9e_ch14.less" />
+    <Content Include="docs\15_MooreSCC9e_92937_Ch15_339-366_2nd_Pass.pdf" />
+    <Content Include="docs\16A_MooreSCC9e_92937_Part2Rev_389-402_2nd_Pass.pdf" />
+    <Content Include="docs\16_MooreSCC9e_92937_Ch16_367-388_2nd_Pass.pdf" />
+    <Content Include="ebook\css\scc9e_ch15.less" />
+    <Content Include="ebook\css\scc9e_ch16.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
