@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manuscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML" manuscript-id="16" name="" title="Moore_Chapter_16" xsi:noNamespaceSchemaLocation="xsd/digfir_manuscript.xsd">
+<chapter id="scc9e-ch16" number="16" title="Chapter 16: The Consumer Price Index and Government Statistics" start-numbering-at="367" numbered="true">
+<section id="scc9e-ch16-sec-001" block_type="chapter" title="The Consumer Price Index and Government Statistics" numbered="false" level="1" print_page="367">
+<p id="scc9e-ch16-p01" block_type="CN">16</p>
+<p id="scc9e-ch16-p02" block_type="CT">The Consumer Price Index and Government Statistics</p>
+<p id="scc9e_page_367" block_type="page_start" data-margin-content="right">367</p>
+<figure id="scc9e-ch16-unfig-001" block_type="CO-PH-CL" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch16-img-001" alt="image" src="images/17MOORESCC-MSE_9e_CO16.jpg"/>
+<asset_source><phrase block_type="PH-CL">John Medina/WireImage/Getty Images</phrase></asset_source></figure>
+<box id="scc9e-ch16-box-001" numbered="false" block_type="BX4-H-ri">
+<p id="scc9e-ch16-p04" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri">CASE STUDY</phrase> The three career home run leaders are Barry Bonds (762 career home runs at the end of the 2007 season), Hank Aaron (755 career home runs), and Babe Ruth (714 career home runs). In <link href="ips9e-ch12.xml">Chapter 12</link>, we compared the careers of these sluggers using the five-number summary and boxplots. We pay for what we value, so another way to compare these players is by their salaries. Bonds&#8217;s highest salary was &#36;22,000,000 in 2005. Aaron&#8217;s highest salary was &#36;250,000 in 1976. And Ruth&#8217;s highest salary was &#36;80,000 in 1931.</p>
+<p id="scc9e-ch16-p05" block_type="BX4-TXT-I">Bonds&#8217;s highest salary is by far the largest. Does this mean he is clearly the best of the three? We know that a dollar in 1931 bought a lot more than a dollar in 1976, and both bought more than a dollar in 2005. Maybe in terms of buying power, Aaron&#8217;s or Ruth&#8217;s salary is highest.</p>
+<p id="scc9e-ch16-p06" block_type="BX4-TXT-I">In this chapter, we discuss methods for comparing the buying power of the dollar across different years. By the end of this chapter, you will be able to determine whether Bonds, Aaron, or Ruth had the highest salary in terms of buying power.</p>
+</box>
+<p id="scc9e-ch16-p07" block_type="TXT-ni">We all notice the high salaries paid to professional athletes. In Major League Baseball, for example, the mean salary rose from &#36;329,408 in 1984 to &#36;3,386,212 in 2015. That&#8217;s a big jump. Not as big as it first appears, however. <em>A dollar in 2015 did not buy as much as a dollar in 1984, so 1984 salaries cannot be directly compared with 2015 salaries</em>. The hard fact that the dollar has steadily lost buying power over time means that we must make an adjustment whenever we compare dollar values from different years. The adjustment is easy. What is not easy is measuring the changing buying power of the dollar. The government&#8217;s Consumer Price Index (CPI) is the tool we need.</p>
+</section>
+<section id="scc9e-ch16-sec1-001" block_type="h1" chapter="ch16" numbered="false" level="1" print_page="368">
+<section-metadata><section-title>Index numbers</section-title></section-metadata>
+<p id="scc9e_page_368" block_type="page_start" data-margin-content="left">368</p>
+<p id="scc9e-ch16-p09" block_type="TXT-ni">The CPI is a new kind of numerical description, an <em>index number.</em> We can attach an index number to any quantitative variable that we measure repeatedly over time. The idea of the index number is to give a picture of changes in a variable much like that drawn by saying, &#8220;The average cost of hospital charges rose 90.2&#37; between 2000 and 2010.&#8221; That is, an index number describes the percentage change from a <em>base period.</em></p>
+<figure id="scc9e-ch16-unfig-002" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="left" width="medium" border="false"/>
+<image asset-id="scc9e-ch16-img-002" alt="image" src="images/17MOORESCC-MSE_9e_Car_16_01.jpg"/>
+</figure>
+<box id="scc9e-ch16-box-002" numbered="false" block_type="BX1">
+<p id="scc9e-ch16-p010" block_type="BX1-T">Index number</p>
+<p id="scc9e-ch16-p011" block_type="BX1-TXT-ni">An <strong>index number</strong> measures the value of a variable relative to its value at a <strong>base period</strong>. To find the index number for any value of the variable:</p>
+<p id="scc9e-ch16-p021" block_type="BX1-EQ"><m:math display='block'><m:mrow><m:mtext>index&#x00A0;number</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>value</m:mtext></m:mrow><m:mrow><m:mtext>base&#x00A0;value</m:mtext></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn></m:mrow></m:math></p>
+</box>
+<box id="scc9e-ch16-box-003" numbered="false" block_type="EXP">
+<p id="scc9e-ch16-p025" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 1</phrase> Calculating an index number</p>
+<p id="scc9e-ch16-p026" block_type="EXP-first">A gallon of unleaded regular gasoline cost &#36;0.992 during the first week of January 1994 and &#36;2.689 during the first week of August 2015. (These are national average prices calculated by the U.S. Department of Energy.) The gasoline price index number for the first week in August 2015, with the first week in January 1994 as the base period, is</p>
+<p id="scc9e-ch16-p036" block_type="EXP-EQ"><m:math display='block'><m:mtable columnalign="left"><m:mtr columnalign="left"><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mrow><m:mtext>index&#x00A0;number</m:mtext></m:mrow></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mrow><m:mo>=</m:mo></m:mrow></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mfrac><m:mrow><m:mtext>value</m:mtext></m:mrow><m:mrow><m:mtext>base&#x00A0;value</m:mtext></m:mrow></m:mfrac><m:mrow><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn></m:mrow></m:mstyle></m:mtd></m:mtr><m:mtr columnalign="left"><m:mtd columnalign='left'/><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mrow><m:mo>=</m:mo></m:mrow></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mrow><m:mfrac><m:mrow><m:mn>2.689</m:mn></m:mrow><m:mrow><m:mn>0.992</m:mn></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn><m:mo>=</m:mo><m:mn>271.1</m:mn></m:mrow></m:mstyle></m:mtd></m:mtr></m:mtable></m:math></p>
+<p id="scc9e-ch16-p053" block_type="EXP-ni">The gasoline price index number for the base period, January 1994, is</p>
+<p id="scc9e-ch16-p063" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mtext>index&#x00A0;number</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>0.992</m:mn></m:mrow><m:mrow><m:mn>0.992</m:mn></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn><m:mo>=</m:mo><m:mn>100</m:mn></m:mrow></m:math></p>
+</box>
+<p id="scc9e_page_369" block_type="page_start" data-margin-content="right">369</p>
+<p id="scc9e-ch16-p068" block_type="TXT">Knowing the base period is essential to making sense of an index number. Because the index number for the base period is always 100, it is usual to identify the base period as 1994 by writing &#8220;1994 = 100.&#8221; In news reports concerning the CPI, you will notice the mysterious equation &#8220;1982&#8211;84 = 100.&#8221; That&#8217;s shorthand for the fact that the years 1982 to 1984 are the base period for the CPI. An index number just gives the current value as a percentage of the base value. Index number 271.1 means 271.1&#37; of the base value, or a 171.1&#37; increase from the base value. Index number 57 means that the current value is 57&#37; of the base, a 43&#37; decrease.</p>
+</section>
+<section id="scc9e-ch16-sec1-002" block_type="h1" chapter="ch16" numbered="false" level="1" print_page="369">
+<section-metadata><section-title>Fixed market basket price indexes</section-title></section-metadata>
+<p id="scc9e-ch16-p069" block_type="TXT-ni">It may seem that index numbers are little more than a plot to disguise simple statements in complex language. Why say, &#8220;The Consumer Price Index (1982&#8211;84 = 100) stood at 238.7 in July 2015,&#8221; instead of &#8220;Consumer prices rose 138.7&#37; between the 1982&#8211;84 average and July 2015&#8221;? In fact, the term &#8220;index number&#8221; usually means more than a measure of change relative to a base. It also tells us the kind of variable whose change we measure. That variable is a weighted average of several quantities, with fixed weights. Let&#8217;s illustrate the idea by a simple price index.</p>
+<box id="scc9e-ch16-box-004" numbered="false" block_type="EXP">
+<p id="scc9e-ch16-p070" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> The mountain man price index</p>
+<p id="scc9e-ch16-p071" block_type="EXP-first">Bill Smith lives in a cabin in the mountains and strives for self-sufficiency. He buys only salt, kerosene, and the services of a professional welder. Here are Bill&#8217;s purchases in 1990, the base period. His cost, in the last column, is the price per unit multiplied by the number of units he purchased.</p>
+<table id="scc9e-ch16-untab-1" numbered="false" block_type="UN-TABLE" attr="80">
+<tbody>
+<tr class="tborder">
+<th align="center" block_type="EXP-TB1">Good or service</th>
+<th align="center" block_type="EXP-TB1">1990 quantity</th>
+<th align="char" char="." block_type="EXP-TB1">1990 price</th>
+<th align="char" char="." block_type="EXP-TB1">1990 cost</th>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="EXP-TB-TXT">Salt</td>
+<td align="center" block_type="EXP-TB-TXT">100 pounds</td>
+<td align="char" char="." block_type="EXP-TB-TXT">&#36;0.50/pound</td>
+<td align="char" char="." block_type="EXP-TB-TXT">&#36;50.00</td>
+</tr>
+<tr>
+<td align="center" block_type="EXP-TB-TXT">Kerosene</td>
+<td align="center" block_type="EXP-TB-TXT">50 gallons</td>
+<td align="char" char="." block_type="EXP-TB-TXT">0.80/gallon</td>
+<td align="char" char="." block_type="EXP-TB-TXT">40.00</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="EXP-TB-TXT">Welding</td>
+<td align="center" block_type="EXP-TB-TXT">10 hours</td>
+<td align="char" char="." block_type="EXP-TB-TXT">13.00/hour</td>
+<td align="char" char="." block_type="EXP-TB-TXT">130.00</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="EXP-TB-TXT"></td>
+<td align="center" block_type="EXP-TB-TXT"></td>
+<td align="char" char="." block_type="EXP-TB-TXT">Total cost =</td>
+<td align="char" char="." block_type="EXP-TB-TXT">&#36;220.00</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch16-p072" block_type="EXP-mid">The total cost of Bill&#8217;s collection of goods and services in 1990 was &#36;220. To find the &#8220;Mountain Man Price Index&#8221; for 2015, we use 2015 prices to calculate the 2015 cost of this <em>same</em> collection of goods and services. Here is the calculation:</p>
+<p id="scc9e_page_370" block_type="page_start" data-margin-content="left">370</p>
+<table id="scc9e-ch16-untab-2" numbered="false" block_type="UN-TABLE" attr="80">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="EXP-MCL"><strong>Good or service</strong></td>
+<td align="center" block_type="EXP-MCL"><strong>1990 quantity</strong></td>
+<td align="char" char="." block_type="EXP-MCL"><strong>2015 price</strong></td>
+<td align="char" char="." block_type="EXP-MCL"><strong>2015 cost</strong></td>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="EXP-MCL">Salt</td>
+<td align="center" block_type="EXP-MCL">100 pounds</td>
+<td align="char" char="." block_type="EXP-MCL">&#36;0.65/pound</td>
+<td align="char" char="." block_type="EXP-MCL">&#36;65.00</td>
+</tr>
+<tr>
+<td align="center" block_type="EXP-MCL">Kerosene</td>
+<td align="center" block_type="EXP-MCL">50 gallons</td>
+<td align="char" char="." block_type="EXP-MCL">1.50/gallon</td>
+<td align="char" char="." block_type="EXP-MCL">75.00</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="EXP-MCL">Welding</td>
+<td align="center" block_type="EXP-MCL">10 hours</td>
+<td align="char" char="." block_type="EXP-MCL">23.00/hour</td>
+<td align="char" char="." block_type="EXP-MCL">230.00</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="EXP-MCL"></td>
+<td align="center" block_type="EXP-MCL"></td>
+<td align="char" char="." block_type="EXP-MCL">Total cost =</td>
+<td align="char" char="." block_type="EXP-MCL">&#36;370.00</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch16-p074" block_type="EXP-mid">The same goods and services that cost &#36;220 in 1990 cost &#36;370 in 2015. So the Mountain Man Price Index (1990 = 100) for 2015 is</p>
+<p id="scc9e-ch16-p084" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mtext>index&#x00A0;number</m:mtext><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>370</m:mn></m:mrow><m:mrow><m:mn>220</m:mn></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100</m:mn><m:mo>=</m:mo><m:mn>168.2</m:mn></m:mrow></m:math></p>
+</box>
+<p id="scc9e-ch16-p088" block_type="TXT">The point of <link href="example_16_2.html">Example 2</link> is that we follow the cost of the <em>same</em> collection of goods and services over time. It may be that Bill refused to hire the welder in 2015 because he could not afford him. No matter&#8212;the index number uses the 1990 quantities, ignoring any changes in Bill&#8217;s purchases between 1990 and 2015. We call the collection of goods and services whose total cost we follow a <em>market basket</em>. The index number is then a <em>fixed market basket price index</em>.</p>
+<box id="scc9e-ch16-box-005" numbered="false" block_type="BX1">
+<p id="scc9e-ch16-p089" block_type="BX1-T">Fixed market basket price index</p>
+<p id="scc9e-ch16-p090" block_type="BX1-TXT-ni">A <strong>fixed market basket price index</strong> is an index number for the total cost of a fixed collection of goods and services.</p>
+</box>
+<p id="scc9e-ch16-p091" block_type="TXT">The basic idea of a fixed market basket price index is that the weight given to each component (salt, kerosene, welding) remains fixed over time. The CPI is, in essence, a fixed market basket price index, with several hundred items that represent all consumer purchases. Holding the market basket fixed allows a legitimate comparison of prices because we compare the prices of exactly the same items at each time. As we will see, it also poses severe problems for the CPI.</p>
+<figure id="scc9e-ch16-unfig-003" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="left" width="small" border="false"/>
+<image asset-id="scc9e-ch16-img-003" alt="image" src="images/17MOORESCC-MSE_9e_P_16_01.jpg"/>
+<asset_source><phrase block_type="PH-CL">Ramin Talaie/Bloomberg via Getty Images</phrase></asset_source></figure>
+</section>
+<section id="scc9e-ch16-sec1-003" block_type="h1" chapter="ch16" numbered="false" level="1" print_page="370">
+<section-metadata><section-title>Using the CPI</section-title></section-metadata>
+<p id="scc9e-ch16-p092" block_type="TXT-ni">For now, think of the CPI as an index number for the cost of everything that American consumers buy. That the CPI for July 2015 was 238.7 means that we must spend &#36;238.7 in July 2015 to buy goods and services that cost &#36;100 in the 1982 to 1984 base period. An index number for &#8220;the cost of everything&#8221; lets us compare dollar amounts from different years by converting all the amounts into dollars of the same year. You will find tables in the <em>Statistical Abstract,</em> for example, with headings such as &#8220;Median Household Income, in Constant (2000) Dollars.&#8221; That table has restated all incomes in dollars that will buy as much as the dollar would buy in 2000. Watch for the term <em>constant dollars</em> and for phrases like <em>real income</em> or <em>real terms</em>. They mean that all dollar amounts represent the same buying power even though they may describe different years.</p>
+<p id="scc9e_page_371" block_type="page_start" data-margin-content="right">371</p>
+<p id="scc9e-ch16-p094" block_type="TXT"><link href="table_16_1.html">Table 16.1</link> gives annual average CPIs from 1915 to 2014. <link href="figure_16_1.html">Figure 16.1</link> is a line graph of the <em>annual percentage increase</em> in CPI values. It shows that the periods from 1915 to 1920, the 1940s, and from 1975 to 1985 experienced high inflation. Although there is considerable variation, the annual percentage increase is positive in most years. In general, the twentieth century and the first ten years of the twenty-first century was a time of inflation. Faced with this depressing fact, it would be foolish to think about dollars without adjusting for their decline in buying power. Here is the recipe for converting dollars of one year into dollars of another year.</p>
+<table id="scc9e-ch16-tab-1" numbered="false" block_type="TABLE" caption-placement="Top" attr="100">
+<table_caption><phrase block_type="TBN-N-ri">TABLE 16.1</phrase> <phrase block_type="TBN-T">Annual average Consumer Price Index, 1982&#8211;84 = 100</phrase></table_caption>
+<tbody>
+<tr class="bborder">
+<th align="center" block_type="TBN-COLHD-v1">Year</th>
+<th align="char" char="." block_type="TBN-COLHD-v1" class="rborder">CPI</th>
+<th align="center" block_type="TBN-COLHD-v1">Year</th>
+<th align="char" char="." block_type="TBN-COLHD-v1" class="rborder">CPI</th>
+<th align="center" block_type="TBN-COLHD-v1">Year</th>
+<th align="char" char="." block_type="TBN-COLHD-v1">CPI</th>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1915</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">10.1</td>
+<td align="center" block_type="TBN-TXT">1981</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">90.9</td>
+<td align="center" block_type="TBN-TXT">1999</td>
+<td align="char" char="." block_type="TBN-TXT">166.6</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1920</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">20.0</td>
+<td align="center" block_type="TBN-TXT">1982</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">96.5</td>
+<td align="center" block_type="TBN-TXT">2000</td>
+<td align="char" char="." block_type="TBN-TXT">172.2</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1925</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">17.5</td>
+<td align="center" block_type="TBN-TXT">1983</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">99.6</td>
+<td align="center" block_type="TBN-TXT">2001</td>
+<td align="char" char="." block_type="TBN-TXT">177.1</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1930</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">16.7</td>
+<td align="center" block_type="TBN-TXT">1984</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">103.9</td>
+<td align="center" block_type="TBN-TXT">2002</td>
+<td align="char" char="." block_type="TBN-TXT">179.9</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1935</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">13.7</td>
+<td align="center" block_type="TBN-TXT">1985</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">107.6</td>
+<td align="center" block_type="TBN-TXT">2003</td>
+<td align="char" char="." block_type="TBN-TXT">184.0</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1940</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">14.0</td>
+<td align="center" block_type="TBN-TXT">1986</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">109.6</td>
+<td align="center" block_type="TBN-TXT">2004</td>
+<td align="char" char="." block_type="TBN-TXT">188.9</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1945</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">18.0</td>
+<td align="center" block_type="TBN-TXT">1987</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">113.6</td>
+<td align="center" block_type="TBN-TXT">2005</td>
+<td align="char" char="." block_type="TBN-TXT">195.3</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1950</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">24.1</td>
+<td align="center" block_type="TBN-TXT">1988</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">118.3</td>
+<td align="center" block_type="TBN-TXT">2006</td>
+<td align="char" char="." block_type="TBN-TXT">201.6</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1955</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">26.8</td>
+<td align="center" block_type="TBN-TXT">1989</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">124.0</td>
+<td align="center" block_type="TBN-TXT">2007</td>
+<td align="char" char="." block_type="TBN-TXT">207.3</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1960</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">29.6</td>
+<td align="center" block_type="TBN-TXT">1990</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">130.7</td>
+<td align="center" block_type="TBN-TXT">2008</td>
+<td align="char" char="." block_type="TBN-TXT">215.3</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1965</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">31.5</td>
+<td align="center" block_type="TBN-TXT">1991</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">136.2</td>
+<td align="center" block_type="TBN-TXT">2009</td>
+<td align="char" char="." block_type="TBN-TXT">214.5</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1970</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">38.8</td>
+<td align="center" block_type="TBN-TXT">1992</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">140.3</td>
+<td align="center" block_type="TBN-TXT">2010</td>
+<td align="char" char="." block_type="TBN-TXT">218.1</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1975</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">53.8</td>
+<td align="center" block_type="TBN-TXT">1993</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">144.5</td>
+<td align="center" block_type="TBN-TXT">2011</td>
+<td align="char" char="." block_type="TBN-TXT">224.9</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1976</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">56.9</td>
+<td align="center" block_type="TBN-TXT">1994</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">148.2</td>
+<td align="center" block_type="TBN-TXT">2012</td>
+<td align="char" char="." block_type="TBN-TXT">229.6</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1977</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">60.6</td>
+<td align="center" block_type="TBN-TXT">1995</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">152.4</td>
+<td align="center" block_type="TBN-TXT">2013</td>
+<td align="char" char="." block_type="TBN-TXT">233.0</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1978</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">65.2</td>
+<td align="center" block_type="TBN-TXT">1996</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">156.9</td>
+<td align="center" block_type="TBN-TXT">2014</td>
+<td align="char" char="." block_type="TBN-TXT">236.7</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1979</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">72.6</td>
+<td align="center" block_type="TBN-TXT">1997</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">160.5</td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="char" char="." block_type="TBN-TXT"></td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">1980</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">82.4</td>
+<td align="center" block_type="TBN-TXT">1998</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">163.0</td>
+<td align="center" block_type="TBN-TXT"></td>
+<td align="char" char="." block_type="TBN-TXT"></td>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="TBN-SC" colspan="6"><em>Source</em>: Bureau of Labor Statistics.</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e_page_372" block_type="page_start" data-margin-content="left">372</p>
+<figure id="scc9e-ch16-fig-004" block_type="FIGURE" data-caption-compass="S" numbered="true" number="16.1" mmtype="image" mmsrc="" attr="">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch16-img-004" alt="image" src="images/17MOORESCC-MSE_9e_fig_16_01.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 16.1</phrase> <phrase block_type="FG-CAP">The annual percentage increase in the Consumer Price Index (1982&#8211;84 = 100) from 1915 to 2014. Percentage increases are generally positive in the twentieth century.</phrase></caption>
+</figure>
+<box id="scc9e-ch16-box-006" numbered="false" block_type="BX1">
+<p id="scc9e-ch16-p096" block_type="BX1-T">Adjusting for changes in buying power</p>
+<p id="scc9e-ch16-p097" block_type="BX1-TXT-ni">To convert an amount in dollars at time A to the amount with the same buying power at time B:</p>
+<p id="scc9e-ch16-p0109" block_type="BX1-EQ"><m:math display='block'><m:mrow><m:mtext>dollars&#x00A0;at&#x00A0;time&#x00A0;B</m:mtext><m:mo>=</m:mo><m:mtext>dollars&#x00A0;at&#x00A0;time&#x00A0;A</m:mtext><m:mo>&#x00D7;</m:mo><m:mfrac><m:mrow><m:mtext>CPI&#x00A0;at&#x00A0;time&#x00A0;B</m:mtext></m:mrow><m:mrow><m:mtext>CPI&#x00A0;at&#x00A0;time&#x00A0;A</m:mtext></m:mrow></m:mfrac><m:mfrac><m:mrow></m:mrow><m:mrow></m:mrow></m:mfrac></m:mrow></m:math></p>
+</box>
+<p id="scc9e-ch16-p0113" block_type="TXT-ni">Notice that the CPI for the time you are <em>going to</em> appears on the top in the ratio of CPIs in this recipe. Here are some examples.</p>
+<box id="scc9e-ch16-box-007" numbered="false" block_type="EXP">
+<p id="scc9e-ch16-p0114" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> Salaries of professional athletes</p>
+<p id="scc9e-ch16-p0115" block_type="EXP-first">The mean salary of Major League Baseball players rose from &#36;329,408 in 1984 to &#36;3,386,212 in 2015. How big was the increase in real terms? Let&#8217;s convert the 1984 average into July 2015 dollars. <link href="table_16_1.html">Table 16.1</link> gives the annual average CPI for 1984, and previously we mentioned that the CPI was &#36;238.7 in July 2015.</p>
+<p id="scc9e-ch16-p0124" block_type="EXP-EQ"><m:math display='block'><m:mtable columnalign="left"><m:mtr columnalign="left"><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mrow><m:mn>2015</m:mn><m:mtext>&#x00A0;dollars</m:mtext></m:mrow></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>=</m:mo></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mn>1984</m:mn><m:mtext>&#x00A0;dollars</m:mtext><m:mo>&#x00D7;</m:mo><m:mrow><m:mfrac><m:mrow><m:mtext>July&#x00A0;</m:mtext><m:mn>2015</m:mn><m:mtext>&#x00A0;CPI</m:mtext></m:mrow><m:mrow><m:mn>1984</m:mn><m:mtext>&#x00A0;CPI</m:mtext></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mtd></m:mtr><m:mtr columnalign="left"><m:mtd columnalign='left'/><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>=</m:mo></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mrow><m:mo>&#x0024;</m:mo><m:mn>329</m:mn><m:mo>,</m:mo><m:mn>408</m:mn><m:mo>&#x00D7;</m:mo><m:mfrac><m:mrow><m:mn>238.7</m:mn></m:mrow><m:mrow><m:mn>103.9</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle></m:mtd></m:mtr><m:mtr columnalign="left"><m:mtd columnalign='left'/><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>=</m:mo></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mrow><m:mo>&#x0024;</m:mo><m:mn>756</m:mn><m:mo>,</m:mo><m:mn>782</m:mn></m:mrow></m:mstyle></m:mtd></m:mtr></m:mtable></m:math></p>
+<p id="scc9e_page_373" block_type="page_start" data-margin-content="right">373</p>
+<p id="scc9e-ch16-p0148" block_type="EXP-mid">That is, it took &#36;756,782 in July 2015 to buy what &#36;329,408 would buy in 1984.</p>
+<p id="scc9e-ch16-p0149" block_type="EXP-mid">We can now compare the 1984 mean salary of &#36;329,408 <em>in July 2015 dollars</em> with the actual 2015 mean salary, &#36;3,386,212. Today&#8217;s athletes earn much more than 1984 athletes even after adjusting for the fact that the dollar buys less now. (Of course, the mean salary is pulled up by the very high salaries paid to a few star players. The 1984 median salary was &#36;229,750, and the 2015 median salary was &#36;1,650,000.)</p>
+</box>
+<box id="scc9e-ch16-box-008" numbered="false" block_type="BX2">
+<p id="scc9e-ch16-p0150" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch16-quest-001">
+<p id="scc9e-ch16-p0151" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">16.1 Baseball salaries.</phrase> Refer to <link href="example_16_3.html">Example 3</link>. Convert the 1984 median baseball salary into 2015 dollars.</p>
+</question>
+</box>
+<box id="scc9e-ch16-box-009" numbered="false" block_type="EXP">
+<p id="scc9e-ch16-p0152" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> Rising incomes?</p>
+<p id="scc9e-ch16-p0153" block_type="EXP-first">For a more serious example, let&#8217;s leave the pampered world of professional athletes and look at the incomes of ordinary people. The median annual income of all American households was &#36;22,415 in 1984. By 2013 (the most recent year for which data were available at the time of this writing), the median income had risen to &#36;51,939. Dollar income more than doubled, but we know that much of that rise is an illusion because of the dollar&#8217;s declining buying power. To compare these incomes, we must express them in dollars of the same year. Let&#8217;s express the 1984 median household income in 2013 dollars:</p>
+<p id="scc9e-ch16-p0163" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mn>2013</m:mn><m:mtext>&#x00A0;dollars</m:mtext><m:mo>=</m:mo><m:mo>&#x0024;</m:mo><m:mn>22</m:mn><m:mo>,</m:mo><m:mn>415</m:mn><m:mo>&#x00D7;</m:mo><m:mfrac><m:mrow><m:mn>233.0</m:mn></m:mrow><m:mrow><m:mn>103.9</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>&#x0024;</m:mo><m:mn>50</m:mn><m:mo>,</m:mo><m:mn>267</m:mn></m:mrow></m:math></p>
+<p id="scc9e-ch16-p0167" block_type="EXP-ni">Real household incomes rose only from &#36;50,267 to &#36;51,939 in the 29 years between 1984 and 2013. That&#8217;s a 3.3&#37; increase.</p>
+<p id="scc9e-ch16-p0168" block_type="EXP-mid">The picture is different at the top. The 5&#37; of households with the highest incomes earned &#36;68,500 or more in 1984. In 2013 dollars, this is</p>
+<p id="scc9e-ch16-p0178" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mn>2013</m:mn><m:mtext>&#x00A0;dollars</m:mtext><m:mo>=</m:mo><m:mo>&#x0024;</m:mo><m:mn>68</m:mn><m:mo>,</m:mo><m:mn>500</m:mn><m:mo>&#x00D7;</m:mo><m:mfrac><m:mrow><m:mn>233.0</m:mn></m:mrow><m:mrow><m:mn>103.9</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>&#x0024;</m:mo><m:mn>153</m:mn><m:mo>,</m:mo><m:mn>614</m:mn></m:mrow></m:math></p>
+<p id="scc9e-ch16-p0182" block_type="EXP-ni">In fact, the top 5&#37; of households earned &#36;196,600 or more in 2013. That is, the real income of the highest earners increased by 28.0&#37;.</p>
+<p id="scc9e-ch16-p0183" block_type="EXP-mid">Finally, let&#8217;s look at the bottom. The 20&#37; of households with the lowest incomes earned &#36;9,500 or less in 1984. In 2013 dollars, this is</p>
+<p id="scc9e-ch16-p0193" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mn>2013</m:mn><m:mtext>&#x00A0;dollars</m:mtext><m:mo>=</m:mo><m:mo>&#x0024;</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>500</m:mn><m:mo>&#x00D7;</m:mo><m:mfrac><m:mrow><m:mn>233.0</m:mn></m:mrow><m:mrow><m:mn>103.9</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>&#x0024;</m:mo><m:mn>21</m:mn><m:mo>,</m:mo><m:mn>304</m:mn></m:mrow></m:math></p>
+<p id="scc9e-ch16-p0197" block_type="EXP-ni">In fact, the bottom 20&#37; of households earned &#36;20,900 or less in 2013. That is, the real income of the lowest earners decreased by 1.9&#37;.</p>
+</box>
+<p id="scc9e_page_374" block_type="page_start" data-margin-content="left">374</p>
+<box id="scc9e-ch16-box-010" numbered="false" block_type="BX2">
+<p id="scc9e-ch16-p0199" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch16-quest-002">
+<p id="scc9e-ch16-p0200" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">16.2 Production workers.</phrase> Let&#8217;s look at production workers, the traditional &#8220;working men&#8221; (and women). Their median annual earnings were &#36;17,281 in 1984 and &#36;31,429 in 2013. Compute the 1984 earnings in 2013 dollars. By what percentage did the real earnings of production workers change between 1984 and 2013?</p>
+</question>
+</box>
+<box id="scc9e-ch16-box-011" numbered="false" block_type="margin-statistics">
+<p id="scc9e-ch16-p0201" block_type="MN-TXT"><image asset-id="scc9e-ch16-img-005" alt="image" src="images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">So you think that&#8217;s inflation?</phrase> Americans were unhappy when oil price increases in 1973 set off a round of inflation that saw the Consumer Price Index almost double in the following decade. That&#8217;s nothing. In Argentina, prices rose 127&#37; in a single month, July 1989. The Turkish lira went from 14 to the dollar in 1970 to 579,000 to the dollar in 2000. The Zimbabwe dollar went from 253 to the dollar in September 2007 to 60,623 to the dollar by December 2008. There were 65 German marks to a dollar in January 1920, and 4,200,000,000,000 marks to a dollar in November 1923. Now <em>that&#8217;s</em> inflation.</p>
+</box>
+<p id="scc9e-ch16-p0202" block_type="TXT"><link href="example_16_4.html">Example 4</link> illustrates how using the CPI to compare dollar amounts from different years brings out truths that are otherwise hidden. In this case, the truth is that the fruits of prosperity since the 1980s went mostly to those at the top of the income distribution and that very little real progress was made by those at the bottom. Put another way, people with the highest pay (usually those with skills and education) did much better than people with the lowest pay (usually those who lack special skills and college educations). Economists suggest several reasons: the &#8220;new economy&#8221; that rewards knowledge, high immigration leading to competition for less-skilled jobs, more competition from abroad, and so on. Exactly why incomes at the top have increased so much, and what we should do about the stagnant incomes of those at the bottom, are controversial questions.</p>
+</section>
+<section id="scc9e-ch16-sec1-004" block_type="h1" chapter="ch16" numbered="false" level="1" print_page="374">
+<section-metadata><section-title>Understanding the CPI</section-title></section-metadata>
+<p id="scc9e-ch16-p0203" block_type="TXT-ni">The idea of the CPI is that it is an index number for the cost of everything American consumers buy. That idea needs lots of adjusting to be practical. Much of the fiddling uses the results of large sample surveys.</p>
+<p id="scc9e-ch16-p0204" block_type="H3"><strong>Who is covered?</strong> The official name for the common version of the CPI (there are others, but we will ignore them) is the Consumer Price Index for All Urban Consumers. The CPI market basket represents the purchases of people living in urban areas. The official definition of &#8220;urban&#8221; is broad so that about 80&#37; of the U.S. population is covered. But if you live on a farm, the CPI doesn&#8217;t apply to you.</p>
+<p id="scc9e-ch16-p0205" block_type="H3"><strong>How is the market basket chosen?</strong> Different households buy different things, so how can we get a single market basket? From a sample survey. The Consumer Expenditure Survey gathers detailed data on the spending of more than 30,000 households. The Bureau of Labor Statistics (BLS) breaks spending into categories such as &#8220;fresh fruits and vegetables,&#8221; &#8220;new and used motor vehicles,&#8221; and &#8220;hospital and related services.&#8221; Then it chooses specific items, such as &#8220;fresh oranges,&#8221; to represent each group in the market basket. The items in the market basket get weights that represent their category&#8217;s proportion of all spending. The weights, and even the specific market basket items, are updated regularly to keep up with changing buying habits. So the market basket isn&#8217;t actually fixed.</p>
+<p id="scc9e_page_375" block_type="page_start" data-margin-content="right">375</p>
+<p id="scc9e-ch16-p0207" block_type="H3"><strong>How are the prices determined?</strong> From more sample surveys. The BLS must discover the price of &#8220;fresh oranges&#8221; every month. That price differs from city to city and from store to store in the same city. Each month, the BLS records 80,000 prices in 87 cities at a sample of stores. The Point of Purchase Survey of 16,800 households keeps the BLS up-to-date on where consumers shop for each category of goods and services (supermarkets, convenience stores, discount stores, and so on).</p>
+<p id="scc9e-ch16-p0208" block_type="H3"><strong>Does the CPI measure changes in the cost of living?</strong> A fixed market basket price index measures the cost of <em>living the same</em> over time, as <link href="example_16_2.html">Example 2</link> illustrated. In fact, we don&#8217;t keep buying the same market basket of goods and services over time. We switch from LP records to tapes and CDs and then to music downloads. We don&#8217;t buy new 1995 cars in 2005 or 2015. As prices change, we change what we buy&#8212;if beef becomes expensive, we buy less beef and more chicken or more tofu. A fixed market basket price index can&#8217;t accurately measure changes in the cost of living when the economy itself is changing.</p>
+<p id="scc9e-ch16-p0209" block_type="TXT">The BLS tries hard to keep its market basket up-to-date and to compensate for changes in quality. Every year, for example, the BLS must decide how much of the increase in new-car prices is paying for better quality. Only what&#8217;s left counts as a genuine price increase in calculating the CPI. Between December 1967 and December 1994, actual car prices went up 313.4&#37;, but the new-car price in the CPI went up only 172.1&#37;. In 1995, adjustments for better quality reduced the overall rise in the prices of goods and services from 4.7&#37; to only 2.2&#37;. Prices of goods and services make up about 70&#37; of the CPI. Most of the rest is the cost of shelter&#8212;renting an apartment or buying a house. House prices are another problem for the BLS. People buy houses partly to live in and partly because they think owning a house is a good investment. If we pay more for a house because we think it&#8217;s a good investment, the full price should not go into the CPI.</p>
+<p id="scc9e-ch16-p0210" block_type="TXT">By now it is clear that the CPI is <em>not</em> a fixed market basket price index, though that is the best way to start thinking about it. The BLS must constantly change the market basket as new products appear and our buying habits change. It must adjust the prices its sample surveys record to take account of better quality and the investment component of house prices. Yet the CPI still does not measure all changes in our cost of living. It leaves out taxes, for example, which are certainly part of our cost of living.</p>
+<p id="scc9e_page_376" block_type="page_start" data-margin-content="left">376</p>
+<box id="scc9e-ch16-box-012" numbered="false" block_type="BX3">
+<p id="scc9e-ch16-p0212" block_type="BX3-H"><phrase block_type="BX3-H-ri">STATISTICAL</phrase> CONTROVERSIES</p>
+<p id="scc9e-ch16-p0213" block_type="BX3-T">Does the CPI Overstate Inflation?</p>
+<figure id="scc9e-ch16-unfig-005" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="center" width="small" border="false"/>
+<image asset-id="scc9e-ch16-img-006" alt="image" src="images/17MOORESCC-MSE_9e_P_16_02.jpg"/>
+<asset_source><phrase block_type="PH-CL">Alex Wong/Getty Images</phrase></asset_source>
+</figure>
+<p id="scc9e-ch16-p0214" block_type="BX3-TXT-ni">In 1995, Federal Reserve Chairman Alan Greenspan estimated that the CPI overstates inflation by somewhere between 0.5&#37; and 1.5&#37; per year. Mr. Greenspan was unhappy about this because increases in the CPI automatically drive up federal spending. At the end of 1996, a group of outside experts appointed by the Senate Finance Committee estimated that the CPI had, in the past, overstated the rate of inflation by about 1.1&#37; per year. The Bureau of Labor Statistics (BLS) agreed that the CPI overstates inflation but thought that the experts&#8217; guess of 1.1&#37; per year was too high.</p>
+<p id="scc9e-ch16-p0215" block_type="BX3-TXT">The reasons the CPI shows the value of a dollar falling faster than is true are due partly to the nature of the CPI and partly to limits on how quickly the BLS can adjust the details of the enormous machine that lies behind the CPI. Think first about the details. The prices of new products, such as digital cameras and flat-screen televisions, often start high and drop rapidly. The CPI market basket changes too slowly to capture the drop in price. Discount stores with lower prices also enter the CPI sample slowly. Although the BLS tries hard to adjust for better product quality, the outside experts thought these adjustments were often too little and too late. The BLS has made many improvements in these details (most recently, in February 2015). The improved CPI would have grown about 0.5&#37; per year more slowly than the actual CPI between 1978 and 1998.</p>
+<p id="scc9e-ch16-p0216" block_type="BX3-TXT">The wider issue is the nature of the CPI as essentially a fixed market basket index. What sort of bias does such an index create? Does it produce an upward bias; that is, does it overstate the cost of living? Or does it create a downward bias; that is, does it understate the cost of living? Why?</p>
+</box>
+<p id="scc9e-ch16-p0217" block_type="TXT">Even if we agree that the CPI should look only at the goods and services we buy, it doesn&#8217;t perfectly measure changes in our cost of living. In principle, a true &#8220;cost-of-living index&#8221; would measure the cost of the <em>same standard of living</em> over time. That&#8217;s why we start with a fixed market basket price index, which also measures the cost of living the same over time but takes the simple view that &#8220;the same&#8221; means buying exactly the same things. If we are just as satisfied after switching from beef to tofu to avoid paying more for beef, our standard of living hasn&#8217;t changed, and a cost-of-living index should ignore the higher price of beef. If we are willing to pay more for products that keep our environment clean, we are paying for a higher standard of living, and the index should treat this just like an improvement in the quality of a new car. The BLS says that it would like the CPI to track changes in the cost of living but that a true cost-of-living index isn&#8217;t possible in the real world.</p>
+</section>
+<section id="scc9e-ch16-sec1-005" block_type="h1" chapter="ch16" numbered="false" level="1" print_page="377">
+<section-metadata><section-title>The place of government statistics</section-title></section-metadata>
+<p id="scc9e_page_377" block_type="page_start" data-margin-content="right">377</p>
+<p id="scc9e-ch16-p0219" block_type="TXT-ni">Modern nations run on statistics. Economic data, in particular, guide government policy and inform the decisions of private business and individuals. Price indexes and unemployment rates, along with many other, less publicized series of data, are produced by government statistical offices.</p>
+<p id="scc9e-ch16-p0220" block_type="TXT">Some countries have a single statistical office, such as Statistics Canada (<link href="http://www.statcan.gc.ca">www.statcan.gc.ca</link>). Others attach smaller offices to various branches of government. The United States is an extreme case: there are 72 federal statistical offices, with relatively weak coordination among them. The Census Bureau and the Bureau of Labor Statistics are the largest, but you may at times use the products of the Bureau of Economic Analysis, the National Center for Health Statistics, the Bureau of Justice Statistics, or others in the federal government&#8217;s collection of statistical agencies.</p>
+<p id="scc9e-ch16-p0221" block_type="TXT">A 1993 ranking of government statistical agencies by the heads of these agencies in several nations put Canada at the top, with the United States tied with Britain and Germany for sixth place. The top spots generally went to countries with a single, independent statistical office. In 1996, Britain combined its main statistical agencies to form a new Office for National Statistics (<link href="http://www.gov.uk/government/statistics">www.gov.uk/government/statistics</link>). U.S. government statistical agencies remain fragmented.</p>
+<p id="scc9e-ch16-p0222" block_type="TXT">What do citizens need from their government statistical agencies? First of all, they need data that are <em>accurate</em> and <em>timely</em> and that <em>keep up with changes in society and the economy</em>. Producing accurate data quickly demands considerable resources. Think of the large-scale sample surveys that produce the unemployment rate and the CPI. The major U.S. statistical offices have a good reputation for accuracy and lead the world in getting data to the public quickly. Their record for keeping up with changes is less impressive. The struggle to adjust the CPI for changing buying habits and changing quality is one issue. Another is the failure of U.S. economic statistics to keep up with trends such as the shift from manufacturing to services as the major type of economic activity. Business organizations have expressed strong dissatisfaction with the overall state of our economic data.</p>
+<p id="scc9e-ch16-p0223" block_type="TXT">Much of the difficulty stems from lack of money. In the years after 1980, reducing federal spending was a political priority. Government statistical agencies lost staff and cut programs. Lower salaries made it hard to attract the best economists and statisticians to government. The level of government spending on data also depends on our view of what data the government should produce. In particular, should the government produce data that are used mainly by private business rather than by the government&#8217;s own policymakers? Perhaps such data should be either compiled by private concerns or produced only for those who are willing to pay. This is a question of political philosophy rather than statistics, but it helps determine what level of government statistics we want to pay for.</p>
+<p id="scc9e_page_378" block_type="page_start" data-margin-content="left">378</p>
+<p id="scc9e-ch16-p0225" block_type="TXT"><em>Freedom from political influence</em> is as important to government statistics as accuracy and timeliness. When a statistical office is part of a government ministry, it can be influenced by the needs and desires of that ministry. The Census Bureau is in the Department of Commerce, which serves business interests. The BLS is in the Department of Labor. Thus, business and labor each has &#8220;its own&#8221; statistical office. The professionals in the statistical offices successfully resist direct political interference&#8212;a poor unemployment report is never delayed until after an election, for example. But indirect influence is clearly present. The BLS must compete with other Department of Labor activities for its budget, for example. Political interference with statistical work seems to be increasing, as when Congress refused to allow the Census Bureau to use sample surveys to correct for undercounting in the 2000 census. Such corrections are convincing to statisticians, but not necessarily to the general public. Congress, not without justification, considers the public legitimacy of the census to be as important as its technical perfection. Thus, from Congress&#8217;s point of view, political interference was justified even though the decision was disappointing to statisticians.</p>
+<figure id="scc9e-ch16-unfig-006" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="left" width="medium" border="false"/>
+<image asset-id="scc9e-ch16-img-007" alt="image" src="images/17MOORESCC-MSE_9e_Car_16_02.jpg"/>
+</figure>
+<p id="scc9e-ch16-p0226" block_type="TXT">The 1996 reorganization of Britain&#8217;s statistical offices was prompted in part by a widespread feeling that political influence was too strong. The details of how unemployment is measured in Britain were changed many times in the 1980s, for example, and almost all the changes had the effect of reducing the reported unemployment rate&#8212;just what the government wanted to see.</p>
+<p id="scc9e-ch16-p0227" block_type="TXT">We favor a single &#8220;Statistics USA&#8221; office not attached to any other government ministry, as in Canada. Such unification might also help the money problem by eliminating duplication. It would at least allow a central decision about which programs deserve a larger share of limited resources. Unification is unlikely, but stronger coordination of the many federal statistical offices could achieve many of the same ends.</p>
+</section>
+<section id="scc9e-ch16-sec1-006" block_type="h1" chapter="ch16" numbered="false" level="1" print_page="379">
+<section-metadata><section-title>The question of social statistics</section-title></section-metadata>
+<p id="scc9e_page_379" block_type="page_start" data-margin-content="right">379</p>
+<p id="scc9e-ch16-p0229" block_type="TXT-ni">National economic statistics are well established with the government, the media, and the public. The government also produces many data on social issues such as education, health, housing, and crime. Social statistics are less complete than economic statistics. We have good data about how much money is spent on food but less information about how many people are poorly nourished. Social data are also less carefully produced than economic data. Economic statistics are generally based on larger samples, are compiled more often, and are published with a shorter time lag. The reason is clear: economic data are used by the government to guide economic policy month by month. Social data help us understand our society and address its problems but are not needed for short-term management.</p>
+<p id="scc9e-ch16-p0230" block_type="TXT">There are other reasons the government is reluctant to produce social data. Many people don&#8217;t want the government to ask about their sexual behavior or religion. Many people feel that the government should avoid asking about our opinions&#8212;apparently it&#8217;s OK to ask, &#8220;When did you last visit a doctor?&#8221; but not &#8220;How satisfied are you with the quality of your health care?&#8221; These hesitations reflect the American suspicion of government intrusion. Yet issues such as sexual behaviors that contribute to the spread of HIV and satisfaction with health care are clearly important to citizens. Both facts and opinions on these issues can sway elections and influence policy. How can we get accurate information about social issues, collected consistently over time, and yet not entangle the government with sex, religion, and other touchy subjects?</p>
+<p id="scc9e-ch16-p0231" block_type="TXT">The solution in the United States has been government funding of university sample surveys. After first deciding to undertake a sample survey asking people about their sexual behavior, in part to guide AIDS policy, the government backed away. Instead, it funded a much smaller survey of 3452 adults by the University of Chicago&#8217;s National Opinion Research Center (NORC). NORC&#8217;s General Social Survey (GSS), funded by the government&#8217;s National Science Foundation, belongs with the Current Population Survey and the samples that undergird the CPI on any list of the most important sample surveys in the United States. The GSS includes both &#8220;fact&#8221; and &#8220;opinion&#8221; items. Respondents answer questions about their job security, their job satisfaction, and their satisfaction with their city, their friends, and their families. They talk about race, religion, and sex. Many Americans would object if the government asked whether they had seen an X-rated movie in the past year, but they reply when the GSS asks this question. The website for the GSS is <link href="http://gss.norc.org">gss.norc.org</link>.</p>
+<p id="scc9e_page_380" block_type="page_start" data-margin-content="left">380</p>
+<p id="scc9e-ch16-p0233" block_type="TXT">This indirect system of government funding of a university-based sample survey fits the American feeling that the government itself should not be unduly invasive. It also insulates the survey from most political pressure. Alas, the government&#8217;s budget cutting extends to the GSS, which now describes itself as an &#8220;almost annual&#8221; survey because lack of funds has prevented taking samples in some years. The GSS is, we think, a bargain.</p>
+</section>
+<section id="scc9e-ch16-sec1-007" block_type="SUM-H" chapter="ch16" numbered="false" level="1" print_page="380">
+<section-metadata><section-title><phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase></section-title></section-metadata>
+<p id="scc9e-ch16-p0234" block_type="SUM-hd1">Chapter Specifics</p>
+<list id="scc9e-ch16-list-001" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch16-li-001"><p id="scc9e-ch16-p0235" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> An <strong>index number</strong> describes the value of a variable relative to its value at some <strong>base period.</strong></p></li>
+<li id="scc9e-ch16-li-002"><p id="scc9e-ch16-p0236" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> A <strong>fixed market basket price index</strong> is an index number that describes the total cost of a collection of goods and services.</p></li>
+<li id="scc9e-ch16-li-003"><p id="scc9e-ch16-p0237" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> Think of the government&#8217;s <strong>Consumer Price Index</strong> (CPI) as a fixed market basket price index for the collection of all the goods and services that consumers buy.</p></li>
+<li id="scc9e-ch16-li-004"><p id="scc9e-ch16-p0238" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> Because the CPI shows how consumer prices change over time, we can use it to change a dollar amount at one time into the amount at another time that has the same buying power. This is needed to compare dollar values from different times in <strong>real terms</strong>.</p></li>
+<li id="scc9e-ch16-li-005"><p id="scc9e-ch16-p0239" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> The details of the CPI are complex. It uses data from several large sample surveys. It is not a true fixed market basket price index because of adjustments for changing buying habits, new products, and improved quality.</p></li>
+<li id="scc9e-ch16-li-006"><p id="scc9e-ch16-p0240" block_type="SUM-BL-last"><phrase block_type="maker">&#8226;</phrase> <strong>Government statistical offices</strong> produce data needed for government policy and decisions by businesses and individuals. The data should be accurate, timely, and free from political interference. Citizens, therefore, have a stake in the competence and independence of government statistical offices.</p></li>
+</list>
+<p id="scc9e-ch16-p0241" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch16-img-008" alt="image" src="images/LinkIt.jpg"/> In <link href="scc9e-ch10.xml">Chapters 10</link> through <link href="scc9e-ch15.xml">15</link>, we studied methods for summarizing large amounts of data to help us see what the data are telling us. In this chapter, we discussed numbers that summarize large amounts of data on consumers to help us see what these data are telling us about the costs of goods and services. Because these index numbers, in particular the CPI, are used by the government and media to describe the cost of living, understanding how they are computed and what they represent will help us be better-informed citizens.</p>
+<p id="scc9e_page_381" block_type="page_start" data-margin-content="right">381</p>
+<box id="scc9e-ch16-box-013" numbered="false" block_type="case_title">
+<p id="scc9e-ch16-p0243" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> The average CPI for 1931 was 15.2. The average CPI for 1976 and 2005 can be found in <link href="table_16_1.html">Table 16.1</link>. Use what you have learned in this chapter to convert Babe Ruth&#8217;s 1931 salary and Hank Aaron&#8217;s 1976 salary, given in the Case Study at the beginning of this chapter, to 2005 dollars. Who had the largest salary in terms of 2005 dollars: Bonds, Aaron, or Ruth?</p>
+</box>
+<box id="scc9e-ch16-box-014" numbered="false" block_type="launchpad">
+<p id="scc9e-ch16-p0244" block_type="CR-BIB-T"><image asset-id="scc9e-ch16-img-009" alt="image" src="images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<list id="scc9e-ch16-list-002" type="unordered" block_type="redbullet">
+<li id="scc9e-ch16-li-008"><p id="scc9e-ch16-p0246" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The StatBoards video, <em>Fixed Market Basket Price Indexes</em> computes price indexes for several examples.</p></li>
+<li id="scc9e-ch16-li-009"><p id="scc9e-ch16-p0247" block_type="CR-BIB-BL-last"><phrase block_type="maker">&#8226;</phrase> The StatBoards video, <em>Using the CPI</em> compares current prices with historical prices in several examples.</p></li>
+</list>
+</box>
+</section>
+<section id="scc9e-ch16-sec1-008" block_type="CR-X-H" chapter="ch16" numbered="false" level="1" print_page="381">
+<section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
+<p id="scc9e-ch16-p0248" block_type="CR-X"><em>For <link href="exercise_16_1.html">Exercise 16.1</link>, see page 373. For <link href="exercise_16_2.html">Exercise 16.2</link>, see page 374.</em></p>
+<question id="scc9e-ch16-quest-003">
+<p id="scc9e-ch16-p0249" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.3 Index numbers.</phrase> The value of a variable relative to its value at a base period is measured by</p>
+<list id="scc9e-ch16-list-003" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch16-li-010"><p id="scc9e-ch16-p0250" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> an index number.</p></li>
+<li id="scc9e-ch16-li-011"><p id="scc9e-ch16-p0251" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> a fixed market basket of goods.</p></li>
+<li id="scc9e-ch16-li-012"><p id="scc9e-ch16-p0252" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> the ratio of the average value and the standard deviation.</p></li>
+<li id="scc9e-ch16-li-013"><p id="scc9e-ch16-p0253" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> the ratio of the median and the interquartile range.</p></li>
+</list>
+</question>
+<question id="scc9e-ch16-quest-004">
+<p id="scc9e-ch16-p0254" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.4 Index numbers.</phrase> To find the index number for a value of a variable relative to its value at a base period, we use the formula</p>
+<list id="scc9e-ch16-list-004" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch16-li-014"><p id="scc9e-ch16-p0255" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> index number = <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mtext>value</m:mtext></m:mrow><m:mrow><m:mtext>base&#x00A0;value</m:mtext></m:mrow></m:mfrac><m:mtext>.</m:mtext></m:mrow></m:math></p></li>
+<li id="scc9e-ch16-li-026"><p id="scc9e-ch16-p0267" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> index number = <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mtext>base&#x00A0;value</m:mtext></m:mrow><m:mrow><m:mtext>value</m:mtext></m:mrow></m:mfrac><m:mtext>.</m:mtext></m:mrow></m:math></p></li>
+<li id="scc9e-ch16-li-038"><p id="scc9e-ch16-p0279" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> index number = <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mtext>value</m:mtext></m:mrow><m:mrow><m:mtext>base&#x00A0;value</m:mtext></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100.</m:mn></m:mrow></m:math></p></li>
+<li id="scc9e-ch16-li-050"><p id="scc9e-ch16-p0291" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> index number = <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mtext>base&#x00A0;value</m:mtext></m:mrow><m:mrow><m:mtext>value</m:mtext></m:mrow></m:mfrac><m:mo>&#x00D7;</m:mo><m:mn>100.</m:mn></m:mrow></m:math></p></li>
+</list>
+</question>
+<question id="scc9e-ch16-quest-005">
+<p id="scc9e-ch16-p0303" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.5 Fixed market baskets.</phrase> An index number that describes the total cost of a collection of goods and services</p>
+<list id="scc9e-ch16-list-005" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch16-li-062"><p id="scc9e-ch16-p0304" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> is called an inflation factor.</p></li>
+<li id="scc9e-ch16-li-063"><p id="scc9e-ch16-p0305" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> is called a fixed market basket price index.</p></li>
+<li id="scc9e-ch16-li-064"><p id="scc9e-ch16-p0306" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> must be larger than 100.</p></li>
+<li id="scc9e-ch16-li-065"><p id="scc9e-ch16-p0307" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> All of the above are correct.</p></li>
+</list>
+</question>
+<question id="scc9e-ch16-quest-006">
+<p id="scc9e-ch16-p0308" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.6 The Consumer Price Index (CPI).</phrase> The CPI</p>
+<list id="scc9e-ch16-list-006" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch16-li-066"><p id="scc9e-ch16-p0309" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> can be thought of as a fixed market basket price index for the collection of all the goods and services that consumers buy. However, it is not a true fixed market basket price index because of adjustments for changing buying habits, new products, and improved quality.</p></li>
+<li id="scc9e-ch16-li-067"><p id="scc9e-ch16-p0310" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> can be used to change dollar amounts at one time into the amount at another time that has the same buying power.</p></li>
+<li id="scc9e-ch16-li-068"><p id="scc9e-ch16-p0311" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> is determined from data from several large sample surveys.</p></li>
+<li id="scc9e-ch16-li-069"><p id="scc9e-ch16-p0312" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> All of the above are correct.</p></li>
+</list>
+</question>
+<p id="scc9e_page_382" block_type="page_start" data-margin-content="left">382</p>
+<question id="scc9e-ch16-quest-007">
+<p id="scc9e-ch16-p0314" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.7 Government statistics.</phrase> Government statistical offices</p>
+<list id="scc9e-ch16-list-007" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch16-li-070"><p id="scc9e-ch16-p0315" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> are always a single, centralized agency.</p></li>
+<li id="scc9e-ch16-li-071"><p id="scc9e-ch16-p0316" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> provide complete social and economic data for a country.</p></li>
+<li id="scc9e-ch16-li-072"><p id="scc9e-ch16-p0317" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> produce data needed for government policy and decisions by businesses and individuals.</p></li>
+<li id="scc9e-ch16-li-073"><p id="scc9e-ch16-p0318" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> All of the above are correct.</p></li>
+</list>
+</question>
+</section>
+<section id="scc9e-ch16-sec1-009" block_type="CR-X-H-v1" chapter="ch16" numbered="false" level="1" print_page="382">
+<section-metadata><section-title>CHAPTER 16 EXERCISES</section-title></section-metadata>
+<p id="scc9e-ch16-p0319" block_type="CR-X-NL"><em>When you need the CPI for a year that does not appear in <link href="table_16_1.html">Table 16.1</link>, use the table entry for the year that most closely follows the year you want.</em></p>
+<question id="scc9e-ch16-quest-008">
+<p id="scc9e-ch16-p0320" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.8 The price of gasoline.</phrase> The yearly average price of unleaded regular gasoline has fluctuated as follows:</p>
+<table id="scc9e-ch16-untab-3" numbered="false" block_type="UN-TABLE" attr="60">
+<tbody>
+<tr>
+<td align="center" block_type="CR-X-NL-MCL">1994:</td>
+<td align="center" block_type="CR-X-NL-MCL">&#36;1.08 per gallon</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-X-NL-MCL">2004:</td>
+<td align="center" block_type="CR-X-NL-MCL">&#36;1.85 per gallon</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-X-NL-MCL">2014:</td>
+<td align="center" block_type="CR-X-NL-MCL">&#36;3.36 per gallon</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch16-p0321" block_type="CR-X-NL">Give the gasoline price index numbers (2004 = 100) for 1994, 2004, and 2014.</p>
+</question>
+<question id="scc9e-ch16-quest-009">
+<p id="scc9e-ch16-p0322" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.9 The cost of college.</phrase> The part of the CPI that measures the cost of college tuition (1982&#8211;84 = 100) was 796.2 in July 2015. The overall CPI was 238.7 that month.</p>
+<list id="scc9e-ch16-list-008" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch16-li-074"><p id="scc9e-ch16-p0323" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain exactly what the index number 796.2 tells us about the rise in college tuition between the base period and July 2015.</p></li>
+<li id="scc9e-ch16-li-075"><p id="scc9e-ch16-p0324" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> College tuition has risen much faster than consumer prices in general. How do you know this?</p></li>
+</list>
+</question>
+<question id="scc9e-ch16-quest-0010">
+<p id="scc9e-ch16-p0325" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.10 The price of gasoline.</phrase> Use your results from <link href="exercise_16_8.html">Exercise 16.8</link> to answer these questions.</p>
+<list id="scc9e-ch16-list-009" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch16-li-076"><p id="scc9e-ch16-p0326" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> By how many points did the gasoline price index number change between 1994 and 2014? What percentage change was this?</p></li>
+<li id="scc9e-ch16-li-077"><p id="scc9e-ch16-p0327" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> By how many points did the gasoline price index number change between 2004 and 2014? What percentage change was this?</p></li>
+</list>
+<p id="scc9e-ch16-p0328" block_type="CR-X-NL-lvl2">You see that the point change and the percentage change in an index number are the same if we start in the base period, but not otherwise.</p>
+</question>
+<question id="scc9e-ch16-quest-0011">
+<p id="scc9e-ch16-p0329" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.11 Toxic releases.</phrase> The Environmental Protection Agency requires industry to report releases of any of a list of toxic chemicals. The total amounts released (in thousands of pounds, total on- and offsite disposal or other releases, all chemicals, all industries) were 6,939,299 in 1988, 6,655,831 in 2000, and 4,137,328 in 2013. Give an index number for toxic chemical releases in each of these years, with 1988 as the base period. By what percentage did releases increase or decrease between 1988 and 2000? Between 1988 and 2013?</p>
+</question>
+<p id="scc9e_page_383" block_type="page_start" data-margin-content="right">383</p>
+<question id="scc9e-ch16-quest-0012">
+<p id="scc9e-ch16-p0331" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.12 How much can a dollar buy?</phrase> The buying power of a dollar changes over time. The Bureau of Labor Statistics measures the cost of a &#8220;market basket&#8221; of goods and services to compile its Consumer Price Index (CPI). If the CPI is 120, goods and services that cost &#36;100 in the base period now cost &#36;120. Here are the average values of the CPI for the years between 1970 and 2014. The base period is the years 1982 to 1984.</p>
+<table id="scc9e-ch16-untab-4" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<th align="center" block_type="CR-X-NL-MCL">Year</th>
+<th align="char" char="." block_type="CR-X-NL-MCL" class="rborder">CPI</th>
+<th align="center" block_type="CR-X-NL-MCL">Year</th>
+<th align="char" char="." block_type="CR-X-NL-MCL">CPI</th>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">1970</td>
+<td align="char" char="." block_type="CR-TB1" class="rborder">38.8</td>
+<td align="center" block_type="CR-TB1">1996</td>
+<td align="char" char="." block_type="CR-TB1">156.9</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">1972</td>
+<td align="char" char="." block_type="CR-TB1" class="rborder">41.8</td>
+<td align="center" block_type="CR-TB1">1998</td>
+<td align="char" char="." block_type="CR-TB1">163.0</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">1974</td>
+<td align="char" char="." block_type="CR-TB1" class="rborder">49.3</td>
+<td align="center" block_type="CR-TB1">2000</td>
+<td align="char" char="." block_type="CR-TB1">172.2</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">1976</td>
+<td align="char" char="." block_type="CR-TB1" class="rborder">56.9</td>
+<td align="center" block_type="CR-TB1">2002</td>
+<td align="char" char="." block_type="CR-TB1">179.9</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">1978</td>
+<td align="char" char="." block_type="CR-TB1" class="rborder">65.2</td>
+<td align="center" block_type="CR-TB1">2004</td>
+<td align="char" char="." block_type="CR-TB1">188.9</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">1980</td>
+<td align="char" char="." block_type="CR-TB1" class="rborder">82.4</td>
+<td align="center" block_type="CR-TB1">2006</td>
+<td align="char" char="." block_type="CR-TB1">201.6</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">1982</td>
+<td align="char" char="." block_type="CR-TB1" class="rborder">96.5</td>
+<td align="center" block_type="CR-TB1">2008</td>
+<td align="char" char="." block_type="CR-TB1">215.3</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">1984</td>
+<td align="char" char="." block_type="CR-TB1" class="rborder">103.9</td>
+<td align="center" block_type="CR-TB1">2010</td>
+<td align="char" char="." block_type="CR-TB1">218.1</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">1986</td>
+<td align="char" char="." block_type="CR-TB1" class="rborder">109.6</td>
+<td align="center" block_type="CR-TB1">2011</td>
+<td align="char" char="." block_type="CR-TB1">224.9</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">1988</td>
+<td align="char" char="." block_type="CR-TB1" class="rborder">118.3</td>
+<td align="center" block_type="CR-TB1">2012</td>
+<td align="char" char="." block_type="CR-TB1">229.6</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">1990</td>
+<td align="char" char="." block_type="CR-TB1" class="rborder">130.7</td>
+<td align="center" block_type="CR-TB1">2013</td>
+<td align="char" char="." block_type="CR-TB1">233.0</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">1992</td>
+<td align="char" char="." block_type="CR-TB1" class="rborder">140.3</td>
+<td align="center" block_type="CR-TB1">2014</td>
+<td align="char" char="." block_type="CR-TB1">236.7</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">1994</td>
+<td align="char" char="." block_type="CR-TB1" class="rborder">148.2</td>
+<td align="center" block_type="CR-TB1"></td>
+<td align="char" char="." block_type="CR-TB1"></td>
+</tr>
+</tbody>
+</table>
+<list id="scc9e-ch16-list-010" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch16-li-079"><p id="scc9e-ch16-p0332" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Make a graph that shows how the CPI has changed over time.</p></li>
+<li id="scc9e-ch16-li-080"><p id="scc9e-ch16-p0333" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What was the overall trend in prices during this period? Were there any years in which this trend was reversed?</p></li>
+<li id="scc9e-ch16-li-081"><p id="scc9e-ch16-p0334" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> In which years were prices rising fastest, in terms of percentage increase? In what period were they rising slowest?</p></li>
+</list>
+</question>
+<question id="scc9e-ch16-quest-0013">
+<p id="scc9e-ch16-p0335" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.13 Los Angeles and New York.</phrase> The Bureau of Labor Statistics publishes separate consumer price indexes for major metropolitan areas in addition to the national CPI. The CPI (1982&#8211;84 = 100) in July 2015 was 247.1 in Los Angeles and 261.2 in New York.</p>
+<list id="scc9e-ch16-list-011" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch16-li-082"><p id="scc9e-ch16-p0336" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> These numbers tell us that prices rose faster in New York than in Los Angeles between the base period and July 2015. Explain how we know this.</p></li>
+<li id="scc9e-ch16-li-083"><p id="scc9e-ch16-p0337" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> These numbers do <em>not</em> tell us that prices in July 2015 were higher in New York than in Los Angeles. Explain why.</p></li>
+</list>
+</question>
+<question id="scc9e-ch16-quest-0014">
+<p id="scc9e-ch16-p0338" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.14 The Food Faddist Price Index.</phrase> A food faddist eats only steak, rice, and ice cream. In 1995, he bought:</p>
+<table id="scc9e-ch16-untab-5" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<th align="center" block_type="CR-X-NL-MCL">Item</th>
+<th align="center" block_type="CR-X-NL-MCL">1995 quantity</th>
+<th align="char" char="." block_type="CR-X-NL-MCL">1995 price</th>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Steak</td>
+<td align="center" block_type="CR-TB1">200 pounds</td>
+<td align="char" char="." block_type="CR-TB1">&#36;5.45/pound</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">Rice</td>
+<td align="center" block_type="CR-TB1">300 pounds</td>
+<td align="char" char="." block_type="CR-TB1">0.49/pound</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Ice cream</td>
+<td align="center" block_type="CR-TB1">50 gallons</td>
+<td align="char" char="." block_type="CR-TB1">5.08/gallon</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch16-p0339" block_type="CR-X-NL">After a visit from his mother, he adds oranges to his diet. Oranges cost &#36;0.56/pound in 1995. Here are the food faddist&#8217;s food purchases in 2015:</p>
+<table id="scc9e-ch16-untab-6" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<th align="center" block_type="CR-X-NL-MCL">Item</th>
+<th align="center" block_type="CR-X-NL-MCL">2015 quantity</th>
+<th align="char" char="." block_type="CR-X-NL-MCL">2015 price</th>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Steak</td>
+<td align="center" block_type="CR-TB1">100 pounds</td>
+<td align="char" char="." block_type="CR-TB1">&#36;7.99/pound</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">Rice</td>
+<td align="center" block_type="CR-TB1">350 pounds</td>
+<td align="char" char="." block_type="CR-TB1">0.60/pound</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">Ice cream</td>
+<td align="center" block_type="CR-TB1">75 gallons</td>
+<td align="char" char="." block_type="CR-TB1">6.99/gallon</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Oranges</td>
+<td align="center" block_type="CR-TB1">100 pounds</td>
+<td align="char" char="." block_type="CR-TB1">1.04/pound</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch16-p0340" block_type="CR-X-NL">Find the fixed market basket Food Faddist Price Index (1995 = 100) for the year 2015.</p>
+</question>
+<question id="scc9e-ch16-quest-0015">
+<p id="scc9e-ch16-p0341" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.15 The Guru Price Index.</phrase> A guru purchases only olive oil, loincloths, and copies of the <em>Atharva Veda,</em> from which he selects mantras for his disciples. Here are the quantities and prices of his purchases in 1985 and 2015:</p>
+<table id="scc9e-ch16-untab-7" numbered="false" block_type="UN-TABLE" attr="115">
+<tbody>
+<tr class="tborder">
+<th align="center" block_type="CR-X-NL-MCL">Item</th>
+<th align="center" block_type="CR-X-NL-MCL">1985<br/>quantity</th>
+<th align="char" char="." block_type="CR-X-NL-MCL">1985<br/>price</th>
+<th align="center" block_type="CR-X-NL-MCL">2015<br/>quantity</th>
+<th align="char" char="." block_type="CR-X-NL-MCL">2015<br/>price</th>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Olive oil</td>
+<td align="center" block_type="CR-TB1">20 pints</td>
+<td align="char" char="." block_type="CR-TB1">&#36;2.50/pint</td>
+<td align="center" block_type="CR-TB1">18 pints</td>
+<td align="char" char="." block_type="CR-TB1">&#36;7.50/pint</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">Loincloth</td>
+<td align="center" block_type="CR-TB1">2</td>
+<td align="char" char="." block_type="CR-TB1">2.75 each</td>
+<td align="center" block_type="CR-TB1">3</td>
+<td align="char" char="." block_type="CR-TB1">4.00 each</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1"><em>Atharva<br/>Veda</em></td>
+<td align="center" block_type="CR-TB1">1</td>
+<td align="char" char="." block_type="CR-TB1">10.95</td>
+<td align="center" block_type="CR-TB1">1</td>
+<td align="char" char="." block_type="CR-TB1">18.95 each</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch16-p0342" block_type="CR-X-NL">From these data, find the fixed market basket Guru Price Index (1985 = 100) for 2015.</p>
+</question>
+<p id="scc9e_page_384" block_type="page_start" data-margin-content="left">384</p>
+<question id="scc9e-ch16-quest-0016">
+<p id="scc9e-ch16-p0344" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.16 The curse of the Bambino.</phrase> In 1920, the Boston Red Sox sold Babe Ruth to the New York Yankees for &#36;125,000. Between 1920 and 2004, the Yankees won 26 World Series and the Red Sox won 1 (and that occurred in 2004). The Red Sox victory in 2004 supposedly broke the curse. How much is &#36;125,000 in 2004 dollars?</p>
+</question>
+<question id="scc9e-ch16-quest-0017">
+<p id="scc9e-ch16-p0345" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.17 Dream on.</phrase> When Julie started college in 2010, she set a goal of making &#36;50,000 when she graduated. Julie graduated in 2014. What must Julie earn in 2014 in order to have the same buying power that &#36;50,000 had in 2010?</p>
+</question>
+<question id="scc9e-ch16-quest-0018">
+<p id="scc9e-ch16-p0346" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.18 Living too long?</phrase> If both husband and wife are alive at age 65, in half the cases at least one will still be alive at age 93, 28 years later. Myrna and Bill retired in 1986 with an income of &#36;30,000 per year. They were quite comfortable&#8212;that was about the median family income in 1986. How much income did they need 28 years later, in 2014, to have the same buying power?</p>
+</question>
+<question id="scc9e-ch16-quest-0019">
+<p id="scc9e-ch16-p0347" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.19 Microwaves on sale.</phrase> The prices of new gadgets often start high and then fall rapidly. The first home microwave oven cost &#36;1300 in 1955. You can now buy a better microwave oven for &#36;100. Find the latest value of the CPI (it&#8217;s on the BLS website, <link href="http://www.bls.gov/cpi/home.htm">www.bls.gov/cpi/home.htm</link>) and use it to restate &#36;100 in present-day dollars in 1955 dollars. Compare this with &#36;1300 to see how much microwave oven real prices have come down.</p>
+</question>
+<question id="scc9e-ch16-quest-0020">
+<p id="scc9e-ch16-p0348" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.20 Good golfers.</phrase> In 2007, Tiger Woods won &#36;10,867,052 on the Professional Golfers Association tour. The leading money winner in 1946 was Ben Hogan, at &#36;42,566. Jack Nicklaus, the leader in 1972, won &#36;320,542 that year. How do these amounts compare in real terms?</p>
+</question>
+<question id="scc9e-ch16-quest-0021">
+<p id="scc9e-ch16-p0349" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.21 Joe DiMaggio.</phrase> Yankee center fielder Joe DiMaggio was paid &#36;32,000 in 1940 and &#36;100,000 in 1950. Express his 1940 salary in 1950 dollars. By what percentage did DiMaggio&#8217;s real income change in the decade?</p>
+</question>
+<question id="scc9e-ch16-quest-0022">
+<p id="scc9e-ch16-p0350" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.22 Calling London.</phrase> A 10-minute telephone call to London via AT&#38;T cost &#36;12 in 1976 and &#36;14.10 in July 2015 using an occasional calling plan. Compare the real costs of these calls. By what percentage did the real cost go down between 1976 and July 2015? The CPI in July 2015 was 238.7.</p>
+</question>
+<question id="scc9e-ch16-quest-0023">
+<p id="scc9e-ch16-p0351" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.23 Paying for Harvard.</phrase> Harvard charged &#36;5900 for tuition, room, and board in 1976. The 2014 charge was &#36;59,607. Express Harvard&#8217;s 1976 charges in 2014 dollars. Did the cost of going to Harvard go up faster or slower than consumer prices in general? How do you know?</p>
+</question>
+<question id="scc9e-ch16-quest-0024">
+<p id="scc9e-ch16-p0352" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.24 The minimum wage.</phrase> The federal government sets the minimum hourly wage that employers can pay a worker. Labor wants a high minimum wage, but many economists argue that too high a minimum makes employers reluctant to hire workers with low skills and so increases unemployment. Here is information on changes in the federal minimum wage, in dollars per hour:</p>
+<table id="scc9e-ch16-untab-8" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Year:</td>
+<td align="center" block_type="CR-TB1">1960</td>
+<td align="center" block_type="CR-TB1">1965</td>
+<td align="center" block_type="CR-TB1">1970</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Min. wage (&#36;):</td>
+<td align="center" block_type="CR-TB1">1.00</td>
+<td align="center" block_type="CR-TB1">1.25</td>
+<td align="center" block_type="CR-TB1">1.60</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch16-untab-9" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Year:</td>
+<td align="center" block_type="CR-TB1">1975</td>
+<td align="center" block_type="CR-TB1">1980</td>
+<td align="center" block_type="CR-TB1">1985</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Min. wage (&#36;):</td>
+<td align="center" block_type="CR-TB1">2.10</td>
+<td align="center" block_type="CR-TB1">3.10</td>
+<td align="center" block_type="CR-TB1">3.35</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch16-untab-10" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Year:</td>
+<td align="center" block_type="CR-TB1">1990</td>
+<td align="center" block_type="CR-TB1">1995</td>
+<td align="center" block_type="CR-TB1">2005</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Min. wage (&#36;):</td>
+<td align="center" block_type="CR-TB1">3.80</td>
+<td align="center" block_type="CR-TB1">4.25</td>
+<td align="center" block_type="CR-TB1">5.15</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch16-untab-11" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Year:</td>
+<td align="center" block_type="CR-TB1">2007</td>
+<td align="center" block_type="CR-TB1">2008</td>
+<td align="center" block_type="CR-TB1">2009</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Min. wage (&#36;):</td>
+<td align="center" block_type="CR-TB1">5.85</td>
+<td align="center" block_type="CR-TB1">6.55</td>
+<td align="center" block_type="CR-TB1">7.25</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch16-p0353" block_type="CR-X-NL">Use annual average CPIs from <link href="table_16_1.html">Table 16.1</link> to restate the minimum wage in constant 1960 dollars. Make two line graphs on the same axes, one showing the actual minimum wage during these years and the other showing the minimum wage in constant dollars. Explain carefully to someone who knows no statistics what your graphs show about the history of the minimum wage.</p>
+</question>
+<p id="scc9e_page_385" block_type="page_start" data-margin-content="right">385</p>
+<question id="scc9e-ch16-quest-0025">
+<p id="scc9e-ch16-p0355" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.25 College tuition.</phrase> Tuition for Colorado residents at the University of Colorado, Boulder, has increased as follows (use tuition at your own college if you have those data):</p>
+<table id="scc9e-ch16-untab-12" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Year:</td>
+<td align="center" block_type="CR-TB1">1985</td>
+<td align="center" block_type="CR-TB1">1987</td>
+<td align="center" block_type="CR-TB1">1989</td>
+<td align="center" block_type="CR-TB1">1991</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Tuition (&#36;):</td>
+<td align="center" block_type="CR-TB1">1332</td>
+<td align="center" block_type="CR-TB1">1548</td>
+<td align="center" block_type="CR-TB1">1714</td>
+<td align="center" block_type="CR-TB1">1972</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch16-untab-13" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Year:</td>
+<td align="center" block_type="CR-TB1">1993</td>
+<td align="center" block_type="CR-TB1">1995</td>
+<td align="center" block_type="CR-TB1">1997</td>
+<td align="center" block_type="CR-TB1">1999</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Tuition (&#36;):</td>
+<td align="center" block_type="CR-TB1">2122</td>
+<td align="center" block_type="CR-TB1">2270</td>
+<td align="center" block_type="CR-TB1">2356</td>
+<td align="center" block_type="CR-TB1">2444</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch16-untab-14" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Year:</td>
+<td align="center" block_type="CR-TB1">2001</td>
+<td align="center" block_type="CR-TB1">2003</td>
+<td align="center" block_type="CR-TB1">2005</td>
+<td align="center" block_type="CR-TB1">2007</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Tuition (&#36;):</td>
+<td align="center" block_type="CR-TB1">2614</td>
+<td align="center" block_type="CR-TB1">3192</td>
+<td align="center" block_type="CR-TB1">4446</td>
+<td align="center" block_type="CR-TB1">5418</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch16-untab-15" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Year:</td>
+<td align="center" block_type="CR-TB1">2009</td>
+<td align="center" block_type="CR-TB1">2011</td>
+<td align="center" block_type="CR-TB1">2013</td>
+<td align="center" block_type="CR-TB1">2015</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Tuition (&#36;):</td>
+<td align="center" block_type="CR-TB1">6446</td>
+<td align="center" block_type="CR-TB1">7672</td>
+<td align="center" block_type="CR-TB1">8760</td>
+<td align="center" block_type="CR-TB1">9312</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch16-p0356" block_type="CR-X-NL">Use annual average CPIs from <link href="table_16_1.html">Table 16.1</link> to restate each year&#8217;s tuition in constant 1985 dollars. Make two line graphs on the same axes, one showing actual dollar tuition for these years and the other showing constant dollar tuition. Then explain to someone who knows no statistics what your graphs show.</p>
+</question>
+<question id="scc9e-ch16-quest-0026">
+<p id="scc9e-ch16-p0357" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.26 Rising incomes?</phrase> In <link href="example_16_4.html">Example 4</link>, we saw that the median real income (in 2013 dollars) of all households rose from &#36;50,267 in 1984 to &#36;51,939 in 2013. The real income that marks off the top 5&#37; of households rose from &#36;153,614 to &#36;196,600 in the same period. Verify the claim in <link href="example_16_4.html">Example 4</link> that median income rose 3.3&#37; and that the real income of top earners rose 28.0&#37;.</p>
+</question>
+<question id="scc9e-ch16-quest-0027">
+<p id="scc9e-ch16-p0358" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.27 Cable TV.</phrase> Suppose that cable television systems across the country add channels to their lineup and raise the monthly fee they charge subscribers. The part of the CPI that tracks cable TV prices might not go up at all, even though consumers must pay more. Explain why.</p>
+</question>
+<question id="scc9e-ch16-quest-0028">
+<p id="scc9e-ch16-p0359" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.28 Item weights in the CPI.</phrase> The cost of buying a house (with the investment component removed) makes up about 22&#37; of the CPI. The cost of renting a place to live makes up about 6&#37;. Where do the weights 22&#37; and 6&#37; come from? Why does the cost of buying get more weight in the index?</p>
+</question>
+<p id="scc9e_page_386" block_type="page_start" data-margin-content="left">386</p>
+<question id="scc9e-ch16-quest-0029">
+<p id="scc9e-ch16-p0361" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.29 The CPI doesn&#8217;t fit me.</phrase> The CPI may not measure your personal experience with changing prices. Explain why the CPI will not fit each of these people:</p>
+<list id="scc9e-ch16-list-012" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch16-li-084"><p id="scc9e-ch16-p0362" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Marcia lives on a cattle ranch in Montana.</p></li>
+<li id="scc9e-ch16-li-085"><p id="scc9e-ch16-p0363" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Jim heats his home with a wood stove and does not have air-conditioning.</p></li>
+<li id="scc9e-ch16-li-086"><p id="scc9e-ch16-p0364" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Luis and Maria were in a serious auto accident and spent much of last year in a rehabilitation center.</p></li>
+</list>
+</question>
+<question id="scc9e-ch16-quest-0030">
+<p id="scc9e-ch16-p0365" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.30 Seasonal adjustment.</phrase> Like many government data series, the CPI is published in both unadjusted and seasonally adjusted forms. The BLS says that it &#8220;strongly recommends using indexes unadjusted for seasonal variation (i.e., not seasonally adjusted indexes) for escalation.&#8221; &#8220;Escalation&#8221; here means adjusting wage or other payments to keep up with changes in the CPI. Why is the unadjusted CPI preferred for this purpose?</p>
+</question>
+<question id="scc9e-ch16-quest-0031">
+<p id="scc9e-ch16-p0366" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.31 More CPIs.</phrase> In addition to the national CPI, the BLS publishes CPIs for four regions and for 37 local areas. Each regional and local CPI is based on just the part of the national sample of prices that applies to the region or local area. The BLS says that the local CPIs should be used with caution because they are much more variable than national or regional CPIs. Why is this?</p>
+</question>
+<question id="scc9e-ch16-quest-0032">
+<p id="scc9e-ch16-p0367" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.32 The poverty line.</phrase> The federal government announces &#8220;poverty lines&#8221; each year for households of different sizes. Households with income below the announced levels are considered to be living in poverty. An economist looked at the poverty lines over time and said that they &#8220;show a pattern of getting higher in real terms as the real income of the general population rises.&#8221; What does &#8220;getting higher in real terms&#8221; say about the official poverty level?</p>
+</question>
+<question id="scc9e-ch16-quest-0033">
+<p id="scc9e-ch16-p0368" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.33 Real wages (optional).</phrase> In one of the many reports on stagnant incomes in the United States, we read this: &#8220;Practically every income group faced a decline in real wages during the 1980s. However, workers at the 33rd percentile experienced a 14 percent drop in the real wage, workers at the 66th percentile experienced only a 6 percent drop, and workers in the upper tail of the distribution experienced a 1 percent wage increase.&#8221;</p>
+<list id="scc9e-ch16-list-013" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch16-li-087"><p id="scc9e-ch16-p0369" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is meant by &#8220;the 33rd percentile&#8221; of the income distribution?</p></li>
+<li id="scc9e-ch16-li-088"><p id="scc9e-ch16-p0370" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What does &#8220;real wages&#8221; mean?</p></li>
+</list>
+</question>
+<question id="scc9e-ch16-quest-0034">
+<p id="scc9e-ch16-p0371" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.34 Saving money?</phrase> One way to cut the cost of government statistics is to reduce the sizes of the samples. We might, for example, cut the Current Population Survey from 50,000 households to 20,000. Explain clearly, to someone who knows no statistics, why such cuts reduce the accuracy of the resulting data.</p>
+</question>
+<question id="scc9e-ch16-quest-0035">
+<p id="scc9e-ch16-p0372" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.35 The General Social Survey.</phrase> The General Social Survey places much emphasis on asking many of the same questions year after year. Why do you think it does this?</p>
+</question>
+<question id="scc9e-ch16-quest-0036">
+<p id="scc9e-ch16-p0373" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.36 Measuring the effects of crime.</phrase> We wish to include, as part of a set of social statistics, measures of the amount of crime and of the impact of crime on people&#8217;s attitudes and activities. Suggest some possible measures in each of the following categories:</p>
+<list id="scc9e-ch16-list-014" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch16-li-089"><p id="scc9e-ch16-p0374" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Statistics to be compiled from official sources such as police records.</p></li>
+<li id="scc9e-ch16-li-090"><p id="scc9e-ch16-p0375" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Factual information to be collected using a sample survey of citizens.</p></li>
+<li id="scc9e-ch16-li-091"><p id="scc9e-ch16-p0376" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Information on opinions and attitudes to be collected using a sample survey.</p></li>
+</list>
+</question>
+<p id="scc9e_page_387" block_type="page_start" data-margin-content="right">387</p>
+<question id="scc9e-ch16-quest-0037">
+<p id="scc9e-ch16-p0378" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.37 Statistical agencies.</phrase> Write a short description of the work of one of these government statistical agencies. You can find information by starting at the FedStats website (<link href="http://fedstats.sites.usa.gov">https://fedstats.sites.usa.gov</link>) and going to <em>Agencies.</em></p>
+<list id="scc9e-ch16-list-015" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch16-li-092"><p id="scc9e-ch16-p0379" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Bureau of Economic Analysis (Department of Commerce).</p></li>
+<li id="scc9e-ch16-li-093"><p id="scc9e-ch16-p0380" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> National Center for Education Statistics.</p></li>
+<li id="scc9e-ch16-li-094"><p id="scc9e-ch16-p0381" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> National Center for Health Statistics.</p></li>
+</list>
+</question>
+<box id="scc9e-ch16-box-015" numbered="false" block_type="exploring-web">
+<p id="scc9e-ch16-p0382" block_type="QRL icon"><image asset-id="scc9e-ch16-img-010" alt="image" src="images/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch16-p0383" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
+<p id="scc9e-ch16-p0384" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
+</box>
+</section>
+</chapter>
+</manuscript>
