@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<manifest id="scc9e" timestamp="1464201685" supp_win="0"><manuscript id="570e8e35757a2efc24000000" title="Chapter 1: Where Do Data Come From?" question-delivery-method="ARGA" number="1">
+<manifest id="scc9e" timestamp="1464723327" supp_win="0"><manuscript id="570e8e35757a2efc24000000" title="Chapter 1: Where Do Data Come From?" question-delivery-method="ARGA" number="1">
     <section id="scc9e-ch01-sec-01" folder="false" filename="scc9e_ch1_1.html" dlapFilename="scc9e_ch1_1_dlap.xml" numquestions="0">
       <title>PART I</title>
     </section>
@@ -361,7 +361,7 @@
     </section>
   </manuscript><manuscript id="57100d67757a2e053a000001" title="Chapter 12: Describing Distributions with Numbers" question-delivery-method="ARGA" number="12">
     <section title="Median and quartiles" id="scc9e-ch12-sec1-001" folder="false" filename="scc9e_ch12_1.html" dlapFilename="scc9e_ch12_1_dlap.xml" numquestions="0"/>
-    <section id="idm25315040" folder="false" filename="scc9e_ch12_2.html" dlapFilename="scc9e_ch12_2_dlap.xml" numquestions="0">
+    <section id="idp86384" folder="false" filename="scc9e_ch12_2.html" dlapFilename="scc9e_ch12_2_dlap.xml" numquestions="0">
       <title>Median and quartiles</title>
     </section>
     <section id="scc9e-ch12-sec1-002" folder="false" filename="scc9e_ch12_3.html" dlapFilename="scc9e_ch12_3_dlap.xml" numquestions="0">
@@ -417,7 +417,7 @@
     </section>
   </manuscript><manuscript id="5745efee757a2e2246000000" title="Chapter 14: Describing Relationships: Scatterplots and Correlation" question-delivery-method="ARGA" number="14">
     <section title="Scatterplots" id="scc9e-ch14-sec1-001" folder="false" filename="scc9e_ch14_1.html" dlapFilename="scc9e_ch14_1_dlap.xml" numquestions="0"/>
-    <section id="idp41008" folder="false" filename="scc9e_ch14_2.html" dlapFilename="scc9e_ch14_2_dlap.xml" numquestions="0">
+    <section id="idp1467088" folder="false" filename="scc9e_ch14_2.html" dlapFilename="scc9e_ch14_2_dlap.xml" numquestions="0">
       <title>Scatterplots</title>
     </section>
     <section id="scc9e-ch14-sec1-002" folder="false" filename="scc9e_ch14_3.html" dlapFilename="scc9e_ch14_3_dlap.xml" numquestions="0">
@@ -439,5 +439,81 @@
     </section>
     <section id="scc9e-ch14-sec1-007" folder="false" filename="scc9e_ch14_8.html" dlapFilename="scc9e_ch14_8_dlap.xml" numquestions="0">
       <title>CHAPTER 14 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="574de548757a2ef30e000000" title="Chapter 15: Describing Relationships: Regression, Prediction, and Causation" question-delivery-method="ARGA" number="15">
+    <section title="Describing Relationships: Regression, Prediction, and Causation" number="15.1" id="scc9e-ch15-sec-001" folder="false" filename="scc9e_ch15_1.html" dlapFilename="scc9e_ch15_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch15-sec1-001" folder="false" filename="scc9e_ch15_2.html" dlapFilename="scc9e_ch15_2_dlap.xml" numquestions="0">
+      <title>Regression lines</title>
+    </section>
+    <section id="scc9e-ch15-sec1-002" folder="false" filename="scc9e_ch15_3.html" dlapFilename="scc9e_ch15_3_dlap.xml" numquestions="0">
+      <title>Regression equations</title>
+    </section>
+    <section id="scc9e-ch15-sec1-003" folder="false" filename="scc9e_ch15_4.html" dlapFilename="scc9e_ch15_4_dlap.xml" numquestions="0">
+      <title>Understanding prediction</title>
+    </section>
+    <section id="scc9e-ch15-sec1-004" folder="false" filename="scc9e_ch15_5.html" dlapFilename="scc9e_ch15_5_dlap.xml" numquestions="0">
+      <title>Correlation and regression</title>
+    </section>
+    <section id="scc9e-ch15-sec1-005" folder="false" filename="scc9e_ch15_6.html" dlapFilename="scc9e_ch15_6_dlap.xml" numquestions="0">
+      <title>The question of causation</title>
+    </section>
+    <section id="scc9e-ch15-sec1-006" folder="false" filename="scc9e_ch15_7.html" dlapFilename="scc9e_ch15_7_dlap.xml" numquestions="0">
+      <title>Evidence for causation</title>
+    </section>
+    <section id="scc9e-ch15-sec1-007" folder="false" filename="scc9e_ch15_8.html" dlapFilename="scc9e_ch15_8_dlap.xml" numquestions="0">
+      <title>Correlation, prediction, and big data</title>
+    </section>
+    <section id="scc9e-ch15-sec1-008" folder="false" filename="scc9e_ch15_9.html" dlapFilename="scc9e_ch15_9_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch15-sec1-009" folder="false" filename="scc9e_ch15_10.html" dlapFilename="scc9e_ch15_10_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch15-sec1-010" folder="false" filename="scc9e_ch15_11.html" dlapFilename="scc9e_ch15_11_dlap.xml" numquestions="0">
+      <title>CHAPTER 15 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="574de5a4757a2ee10e000002" title="Chapter 16: The Consumer Price Index and Government Statistics" question-delivery-method="ARGA" number="16">
+    <section title="The Consumer Price Index and Government Statistics" id="scc9e-ch16-sec-001" folder="false" filename="scc9e_ch16_1.html" dlapFilename="scc9e_ch16_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch16-sec1-001" folder="false" filename="scc9e_ch16_2.html" dlapFilename="scc9e_ch16_2_dlap.xml" numquestions="0">
+      <title>Index numbers</title>
+    </section>
+    <section id="scc9e-ch16-sec1-002" folder="false" filename="scc9e_ch16_3.html" dlapFilename="scc9e_ch16_3_dlap.xml" numquestions="0">
+      <title>Fixed market basket price indexes</title>
+    </section>
+    <section id="scc9e-ch16-sec1-003" folder="false" filename="scc9e_ch16_4.html" dlapFilename="scc9e_ch16_4_dlap.xml" numquestions="0">
+      <title>Using the CPI</title>
+    </section>
+    <section id="scc9e-ch16-sec1-004" folder="false" filename="scc9e_ch16_5.html" dlapFilename="scc9e_ch16_5_dlap.xml" numquestions="0">
+      <title>Understanding the CPI</title>
+    </section>
+    <section id="scc9e-ch16-sec1-005" folder="false" filename="scc9e_ch16_6.html" dlapFilename="scc9e_ch16_6_dlap.xml" numquestions="0">
+      <title>The place of government statistics</title>
+    </section>
+    <section id="scc9e-ch16-sec1-006" folder="false" filename="scc9e_ch16_7.html" dlapFilename="scc9e_ch16_7_dlap.xml" numquestions="0">
+      <title>The question of social statistics</title>
+    </section>
+    <section id="scc9e-ch16-sec1-007" folder="false" filename="scc9e_ch16_8.html" dlapFilename="scc9e_ch16_8_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch16-sec1-008" folder="false" filename="scc9e_ch16_9.html" dlapFilename="scc9e_ch16_9_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch16-sec1-009" folder="false" filename="scc9e_ch16_10.html" dlapFilename="scc9e_ch16_10_dlap.xml" numquestions="0">
+      <title>CHAPTER 16 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="574de5fc757a2ef30e000001" title="PART II REVIEW" question-delivery-method="ARGA" number="1">
+    <section title="PART II REVIEW" id="scc9e-part02-sec-01" folder="false" filename="scc9e_part2_1.html" dlapFilename="scc9e_part2_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-part02-sec1-01" folder="false" filename="scc9e_part2_2.html" dlapFilename="scc9e_part2_2_dlap.xml" numquestions="0">
+      <title><phrase block_type="PR-SUM-N-ri">PART II</phrase> SUMMARY</title>
+    </section>
+    <section id="scc9e-part02-sec1-02" folder="false" filename="scc9e_part2_3.html" dlapFilename="scc9e_part2_3_dlap.xml" numquestions="0">
+      <title><phrase block_type="PR-X-N-ri">PART II</phrase> REVIEW EXERCISES</title>
+    </section>
+    <section id="scc9e-part02-sec1-03" folder="false" filename="scc9e_part2_4.html" dlapFilename="scc9e_part2_4_dlap.xml" numquestions="0">
+      <title><phrase block_type="PR-X-N-ri">PART II</phrase> PROJECTS</title>
     </section>
   </manuscript></manifest>

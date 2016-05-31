@@ -18,8 +18,11 @@ use strict;
 binmode(STDIN, ":utf8");
 binmode(STDOUT, ":utf8");
 
- my $baseXMLfile = "scc9e-ch14.xml"; #-------------------------> identify digfir file here
+# my $baseXMLfile = "scc9e-ch14.xml"; #-------------------------> identify digfir file here
+# my $baseXMLfile = "scc9e-ch15.xml"; #-------------------------> identify digfir file here
+# my $baseXMLfile = "scc9e-ch16.xml"; #-------------------------> identify digfir file here
 # my $baseXMLfile = "scc9e-Part1Review.xml"; #-------------------------> identify digfir file here
+ my $baseXMLfile = "scc9e-Part2Review.xml"; #-------------------------> identify digfir file here
 my $nomathXML_file = "math/${baseXMLfile}_no_math.xml";
 my $mathXMLfile = "math/math_only_$baseXMLfile";
 my $mathJSfile = "math/mathjax_$baseXMLfile.js";
