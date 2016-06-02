@@ -1,1 +1,7 @@
-﻿
+﻿/*Table alignment adjustments*/
+div#scc9e-part02-untab-8 tr.bborder td[data-block_type="TBN-TXT"] + td[data-block_type="TBN-TXT"] + td[data-block_type="TBN-TXT"] + td[data-block_type="TBN-TXT"] + td[data-block_type="TBN-TXT"] + td[data-block_type="TBN-TXT"] {
+  width: 88px;
+}
+div#scc9e-part02-untab-8 tr.bborder td[data-block_type="TBN-TXT"] + td[data-block_type="TBN-TXT"] + td[data-block_type="TBN-TXT"] + td[data-block_type="TBN-TXT"] + td[data-block_type="TBN-TXT"] + td[data-block_type="TBN-TXT"] + td[data-block_type="TBN-TXT"] {
+  width: 88px;
+}

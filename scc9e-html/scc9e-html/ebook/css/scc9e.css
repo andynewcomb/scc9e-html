@@ -518,7 +518,7 @@ div[data-type="section"][data-block_type="h1"] ol[data-block_type="numbered"] > 
   font-family: "arial", sans-serif;
   font-size: .75em;
   margin-bottom: 0em;
-  text-align: justify;
+  text-align: left;
 }
 [data-block_type="MN-TXT"] p [data-block_type="MN-T-ri"] {
   color: #EF3E23;

@@ -43,13 +43,13 @@
 <box id="scc9e-ch16-box-004" numbered="false" block_type="EXP" data-filename="example_16_2.html">
 <p id="scc9e-ch16-p070" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> The mountain man price index</p>
 <p id="scc9e-ch16-p071" block_type="EXP-first">Bill Smith lives in a cabin in the mountains and strives for self-sufficiency. He buys only salt, kerosene, and the services of a professional welder. Here are Bill&#8217;s purchases in 1990, the base period. His cost, in the last column, is the price per unit multiplied by the number of units he purchased.</p>
-<table id="scc9e-ch16-untab-1" numbered="false" block_type="UN-TABLE" attr="80">
+<table id="scc9e-ch16-untab-1" numbered="false" block_type="UN-TABLE" attr="88">
 <tbody>
 <tr class="tborder">
 <th align="center" block_type="EXP-TB1">Good or service</th>
 <th align="center" block_type="EXP-TB1">1990 quantity</th>
-<th align="char" char="." block_type="EXP-TB1">1990 price</th>
-<th align="char" char="." block_type="EXP-TB1">1990 cost</th>
+<th align="center" block_type="EXP-TB1">1990 price</th>
+<th align="center" block_type="EXP-TB1">1990 cost</th>
 </tr>
 <tr class="tborder">
 <td align="center" block_type="EXP-TB-TXT">Salt</td>
@@ -72,20 +72,20 @@
 <tr class="bborder">
 <td align="center" block_type="EXP-TB-TXT"></td>
 <td align="center" block_type="EXP-TB-TXT"></td>
-<td align="char" char="." block_type="EXP-TB-TXT">Total cost =</td>
+<td align="center" block_type="EXP-TB-TXT">Total cost =</td>
 <td align="char" char="." block_type="EXP-TB-TXT">&#36;220.00</td>
 </tr>
 </tbody>
 </table>
 <p id="scc9e-ch16-p072" block_type="EXP-mid">The total cost of Bill&#8217;s collection of goods and services in 1990 was &#36;220. To find the &#8220;Mountain Man Price Index&#8221; for 2015, we use 2015 prices to calculate the 2015 cost of this <em>same</em> collection of goods and services. Here is the calculation:</p>
 <p id="scc9e_page_370" block_type="page_start" data-margin-content="left">370</p>
-<table id="scc9e-ch16-untab-2" numbered="false" block_type="UN-TABLE" attr="80">
+<table id="scc9e-ch16-untab-2" numbered="false" block_type="UN-TABLE" attr="88">
 <tbody>
 <tr class="tborder">
 <td align="center" block_type="EXP-MCL"><strong>Good or service</strong></td>
 <td align="center" block_type="EXP-MCL"><strong>1990 quantity</strong></td>
-<td align="char" char="." block_type="EXP-MCL"><strong>2015 price</strong></td>
-<td align="char" char="." block_type="EXP-MCL"><strong>2015 cost</strong></td>
+<td align="center" block_type="EXP-MCL"><strong>2015 price</strong></td>
+<td align="center" block_type="EXP-MCL"><strong>2015 cost</strong></td>
 </tr>
 <tr class="tborder">
 <td align="center" block_type="EXP-MCL">Salt</td>
@@ -108,7 +108,7 @@
 <tr class="bborder">
 <td align="center" block_type="EXP-MCL"></td>
 <td align="center" block_type="EXP-MCL"></td>
-<td align="char" char="." block_type="EXP-MCL">Total cost =</td>
+<td align="center" block_type="EXP-MCL">Total cost =</td>
 <td align="char" char="." block_type="EXP-MCL">&#36;370.00</td>
 </tr>
 </tbody>
@@ -619,7 +619,7 @@
 <tr class="tborder">
 <th align="center" block_type="CR-X-NL-MCL">Item</th>
 <th align="center" block_type="CR-X-NL-MCL">1995 quantity</th>
-<th align="char" char="." block_type="CR-X-NL-MCL">1995 price</th>
+<th align="center" block_type="CR-X-NL-MCL">1995 price</th>
 </tr>
 <tr class="tborder">
 <td align="center" block_type="CR-TB1">Steak</td>
@@ -644,7 +644,7 @@
 <tr class="tborder">
 <th align="center" block_type="CR-X-NL-MCL">Item</th>
 <th align="center" block_type="CR-X-NL-MCL">2015 quantity</th>
-<th align="char" char="." block_type="CR-X-NL-MCL">2015 price</th>
+<th align="center" block_type="CR-X-NL-MCL">2015 price</th>
 </tr>
 <tr class="tborder">
 <td align="center" block_type="CR-TB1">Steak</td>
@@ -677,9 +677,9 @@
 <tr class="tborder">
 <th align="center" block_type="CR-X-NL-MCL">Item</th>
 <th align="center" block_type="CR-X-NL-MCL">1985<br/>quantity</th>
-<th align="char" char="." block_type="CR-X-NL-MCL">1985<br/>price</th>
+<th align="center" block_type="CR-X-NL-MCL">1985<br/>price</th>
 <th align="center" block_type="CR-X-NL-MCL">2015<br/>quantity</th>
-<th align="char" char="." block_type="CR-X-NL-MCL">2015<br/>price</th>
+<th align="center" block_type="CR-X-NL-MCL">2015<br/>price</th>
 </tr>
 <tr class="tborder">
 <td align="center" block_type="CR-TB1">Olive oil</td>
