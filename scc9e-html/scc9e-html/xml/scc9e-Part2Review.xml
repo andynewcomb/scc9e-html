@@ -93,7 +93,7 @@
 <p id="scc9e-part02-p057" block_type="PR-X-TXT-ni">Review exercises are short and straightforward exercises that help you solidify the basic ideas and skills in each part of this book. We have provided &#8220;hints&#8217;&#8217; that indicate where you can find the relevant material for the odd-numbered problems.</p>
 <question id="scc9e-part02-quest-01">
 <p id="scc9e-part02-p058" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.1. Poverty in the states.</phrase> <link href="table_II_1.html">Table II.1</link> gives the percentages of people living below the poverty line in the 26 states east of the Mississippi River. Make a stemplot of these data. Is the distribution roughly symmetric, skewed to the right, or skewed to the left? Which states (if any) are outliers? (<em>Hint</em>: See <link href="alias:page_253">page 253</link>.)</p>
-<table id="scc9e-part02-tab-1" numbered="false" block_type="TABLE" caption-placement="Top" attr="115">
+<table id="scc9e-part02-tab-1" numbered="false" block_type="TABLE" caption-placement="Top" attr="115" data-filename="table_II_1.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE II.1</phrase> <phrase block_type="TBN-T">Percentages of state residents living in poverty, 2012&#8211;2013 two-year average</phrase></table_caption>
 <tbody>
 <tr class="tborder">
@@ -184,7 +184,7 @@
 </question>
 <question id="scc9e-part02-quest-02">
 <p id="scc9e-part02-p059" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.2. Quarterbacks.</phrase> <link href="table_II_2.html">Table II.2</link> gives the total passing yards for National Football League starting quarterbacks during the 2014 season. (These are the quarterbacks with the most passing yards on each team.) Make a histogram of these data. Does the distribution have a clear shape: roughly symmetric, clearly skewed to the left, clearly skewed to the right, or none of these? Which quarterbacks (if any) are outliers?</p>
-<table id="scc9e-part02-tab-2" numbered="false" block_type="TABLE" caption-placement="Top" attr="100">
+<table id="scc9e-part02-tab-2" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_II_2.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE II.2</phrase> <phrase block_type="TBN-T">Passing yards for NFL quarterbacks in 2014</phrase></table_caption>
 <tbody>
 <tr class="tborder">
@@ -374,7 +374,7 @@
 <li id="scc9e-part02-li-67"><p id="scc9e-part02-p093" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> <em>b</em> = 3.2.</p></li>
 </list>
 <p id="scc9e-part02-p094" block_type="PR-X-TXT-ni">From Rex Boggs in Australia comes an unusual data set: before showering in the morning, he weighed the bar of soap in his shower stall. The weight goes down as the soap is used. The data appear in <link href="table_II_3.html">Table II.3</link> (weights in grams). Notice that Mr. Boggs forgot to weigh the soap on some days. <link href="exercise_II_17.html">Exercises II.17</link>, <link href="exercise_II_18.html">II.18</link>, and <link href="exercise_II_19.html">II.19</link> are based on the soap data set.</p>
-<table id="scc9e-part02-tab-3" numbered="false" block_type="TABLE" caption-placement="Top" attr="100">
+<table id="scc9e-part02-tab-3" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_II_3.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE II.3</phrase> <phrase block_type="TBN-T">Weight (grams) of a bar of soap used to shower</phrase></table_caption>
 <tbody>
 <tr class="tborder">
@@ -604,7 +604,7 @@
 </question>
 <question id="scc9e-part02-quest-27">
 <p id="scc9e-part02-p0117" block_type="PR-X-NL"><image asset-id="scc9e-part02-quest-27a" alt="image" src="asset/global_images/news.jpg"/> <phrase block_type="PR-X-NL-N-ri">II.27. House prices.</phrase> An April 15, 2014, article in the <em>Los Angeles Times</em> reported that the median housing price in Southern California was about &#36;400,000. Would the mean housing price be higher, about the same, or lower? Why? (<em>Hint</em>: See <link href="alias:page_281">page 281</link>.)</p>
-<table id="scc9e-part02-tab-4" numbered="false" block_type="TABLE" caption-placement="Top" attr="105">
+<table id="scc9e-part02-tab-4" numbered="false" block_type="TABLE" caption-placement="Top" attr="105" data-filename="table_II_4.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE II.4</phrase> <phrase block_type="TBN-T">Percentage of votes for President Obama in 2012</phrase></table_caption>
 <tbody>
 <tr class="tborder">

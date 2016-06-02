@@ -121,11 +121,11 @@
 <p id="scc9e-ch16-p089" block_type="BX1-T">Fixed market basket price index</p>
 <p id="scc9e-ch16-p090" block_type="BX1-TXT-ni">A <strong>fixed market basket price index</strong> is an index number for the total cost of a fixed collection of goods and services.</p>
 </box>
-<p id="scc9e-ch16-p091" block_type="TXT">The basic idea of a fixed market basket price index is that the weight given to each component (salt, kerosene, welding) remains fixed over time. The CPI is, in essence, a fixed market basket price index, with several hundred items that represent all consumer purchases. Holding the market basket fixed allows a legitimate comparison of prices because we compare the prices of exactly the same items at each time. As we will see, it also poses severe problems for the CPI.</p>
 <figure id="scc9e-ch16-unfig-003" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="16_17MOORESCC-MSE_9e_P_16_01.html">
 <layout align="left" width="small" border="false"/>
 <image asset-id="scc9e-ch16-img-003" alt="image" src="asset/ch16/17MOORESCC-MSE_9e_P_16_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">Ramin Talaie/Bloomberg via Getty Images</phrase></asset_source></figure>
+<p id="scc9e-ch16-p091" block_type="TXT">The basic idea of a fixed market basket price index is that the weight given to each component (salt, kerosene, welding) remains fixed over time. The CPI is, in essence, a fixed market basket price index, with several hundred items that represent all consumer purchases. Holding the market basket fixed allows a legitimate comparison of prices because we compare the prices of exactly the same items at each time. As we will see, it also poses severe problems for the CPI.</p>
 </section>
 <section id="scc9e-ch16-sec1-003" block_type="h1" chapter="ch16" numbered="false" level="1" print_page="370">
 <section-metadata><section-title>Using the CPI</section-title></section-metadata>
@@ -619,7 +619,7 @@
 <tr class="tborder">
 <th align="center" block_type="CR-X-NL-MCL">Item</th>
 <th align="center" block_type="CR-X-NL-MCL">1995 quantity</th>
-<th align="center" block_type="CR-X-NL-MCL">1995 price</th>
+<th align="left" block_type="CR-X-NL-MCL">1995 price</th>
 </tr>
 <tr class="tborder">
 <td align="center" block_type="CR-TB1">Steak</td>
@@ -644,7 +644,7 @@
 <tr class="tborder">
 <th align="center" block_type="CR-X-NL-MCL">Item</th>
 <th align="center" block_type="CR-X-NL-MCL">2015 quantity</th>
-<th align="center" block_type="CR-X-NL-MCL">2015 price</th>
+<th align="left" block_type="CR-X-NL-MCL">2015 price</th>
 </tr>
 <tr class="tborder">
 <td align="center" block_type="CR-TB1">Steak</td>
@@ -672,7 +672,7 @@
 </question>
 <question id="scc9e-ch16-quest-0015" block_type="exercise_16_15.html">
 <p id="scc9e-ch16-p0341" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">16.15 The Guru Price Index.</phrase> A guru purchases only olive oil, loincloths, and copies of the <em>Atharva Veda,</em> from which he selects mantras for his disciples. Here are the quantities and prices of his purchases in 1985 and 2015:</p>
-<table id="scc9e-ch16-untab-7" numbered="false" block_type="UN-TABLE" attr="115">
+<table id="scc9e-ch16-untab-7" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
 <th align="center" block_type="CR-X-NL-MCL">Item</th>

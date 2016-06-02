@@ -52,7 +52,7 @@ MathJaxMap['math_48'] = '<math display=\'inline\'><mrow><mi>r</mi><mo>=</mo><mn>
 MathJaxMap['math_49'] = '<math display=\'inline\'><mrow><mi>r</mi><mo>=</mo><mn>&#x2212;0.89</mn></mrow></math>';
 MathJaxMap['math_50'] = '<math display=\'inline\'><mrow><msup><mi>r</mi><mn>2</mn></msup></mrow></math>';
 MathJaxMap['math_51'] = '<math display=\'block\'><mtext>number of manatee deaths by boats</mtext></math>';
-MathJaxMap['math_52'] = '<math display=\'block\'><mrow><mo>&#x2212;</mo><mn>44.59</mn><mo>+</mo><mo stretchy=\'false\'>(</mo><mn>0.132</mn><mo>&#x00D7;</mo><mtext>number&#x0020;of</mtext></mrow></math>';
+MathJaxMap['math_52'] = '<math display=\'block\'><mrow><mn>&#x00A0;=&#x00A0;</mn><mo>&#x2212;</mo><mn>44.59</mn><mo>+</mo><mo stretchy=\'false\'>(</mo><mn>0.132</mn><mo>&#x00D7;</mo><mtext>number&#x0020;of</mtext></mrow></math>';
 MathJaxMap['math_53'] = '<math display=\'block\'><mrow><mtext>boats&#x00A0;registered&#x00A0;in&#x00A0;Florida)</mtext></mrow></math>';
 MathJaxMap['math_54'] = '<math display=\'inline\'><mi>b</mi><mn>&#x00A0;=&#x00A0;</mn><mn>0.132</mn></math>';
 MathJaxMap['math_55'] = '<math display=\'block\'><mrow><mtext>temperature</mtext><mo>=</mo><mo>&#x2212;</mo><mn>7.8</mn><mo>+</mo><mo stretchy=\'false\'>(</mo><mn>0.0111</mn><mo>&#x00D7;</mo><mtext>year</mtext><mo stretchy=\'false\'>)</mo></mrow></math>';
