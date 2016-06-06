@@ -1106,6 +1106,26 @@
     <Content Include="docs\16_MooreSCC9e_92937_Ch16_367-388_2nd_Pass.pdf" />
     <Content Include="ebook\css\scc9e_ch15.less" />
     <Content Include="ebook\css\scc9e_ch16.less" />
+    <Content Include="docs\marked_up\01_MooreSCC9e_92937_Ch01_01-20_2nd_Pass_toDES.BL.pdf" />
+    <Content Include="docs\marked_up\02_MooreSCC9e_92937_Ch02_21-38_2nd_Pass_toDES.pdf" />
+    <Content Include="docs\marked_up\03_MooreSCC9e_92937_Ch03_39-62_2nd_Pass_toDES_CX2.pdf" />
+    <Content Include="docs\marked_up\04_MooreSCC9e_92937_Ch04_63-92_2nd_Pass_toDES_CX2.pdf" />
+    <Content Include="docs\marked_up\05_MooreSCC9e_92937_Ch05_93-116_2nd_Pass_CX2.pdf" />
+    <Content Include="docs\marked_up\06_MooreSCC9e_92937_Ch06_117-140_2nd_Pass_CX2.pdf" />
+    <Content Include="docs\marked_up\07_MooreSCC9e_92937_Ch07_141-162_2nd_Pass_CX2.pdf" />
+    <Content Include="docs\marked_up\08_MooreSCC9e_92937_Ch08_163-186_2nd_Pass_CX2.pdf" />
+    <Content Include="docs\marked_up\09A_MooreSCC9e_Part_1_Review_202-212_2nd_Pass_CX2.pdf" />
+    <Content Include="docs\marked_up\09_MooreSCC9e_92937_Ch09_187-202_2nd_Pass_CX2.pdf" />
+    <Content Include="docs\marked_up\10_MooreSCC9e_92937_Ch10_213-242_2nd_Pass_CX2.pdf" />
+    <Content Include="docs\marked_up\11_MooreSCC9e_92937_Ch11_243-266_2nd_Pass_CX2.pdf" />
+    <Content Include="docs\marked_up\12_MooreSCC9e_92937_Ch12_267-292_2nd_Pass_CX2.pdf" />
+    <Content Include="docs\marked_up\13_MooreSCC9e_92937_Ch13_293-314_2nd_Pass_ME_CX2.pdf" />
+    <Content Include="docs\marked_up\14_MooreSCC9e_92937_Ch14_315-338_2nd_Pass_WN_CX2.pdf" />
+    <Content Include="docs\marked_up\15_MooreSCC9e_92937_Ch15_339-366_2nd_Pass_CX2.pdf" />
+    <Content Include="docs\marked_up\16A_MooreSCC9e_92937_Part2Rev_389-402_2nd_Pass_CX2.pdf" />
+    <Content Include="docs\marked_up\16_MooreSCC9e_92937_Ch16_367-388_2nd_Pass_CX2.pdf" />
+    <Content Include="docs\marked_up\01_MooreSCC9e_92937_Ch01_01-20_3rd_Pass_CX3.pdf" />
+    <Content Include="docs\marked_up\02_MooreSCC9e_92937_Ch02_21-38_3rd_Pass_CX3.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1122,7 +1142,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="docs\marked_up\" />
     <Folder Include="ebook\asset\ch1\supp_wins\tables\" />
     <Folder Include="ebook\asset\ch2\supp_wins\tables\" />
     <Folder Include="ebook\asset\ch3\supp_wins\tables\" />
