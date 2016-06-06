@@ -1066,7 +1066,9 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="xml\scc9e-Part1Review.xml" />
-    <Content Include="xml\scc9e-Part2Review.xml" />
+    <Content Include="xml\scc9e-Part2Review.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
