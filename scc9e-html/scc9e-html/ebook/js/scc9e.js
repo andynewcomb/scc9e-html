@@ -220,6 +220,10 @@ var Player_subtype = Player_manuscript_type.extend({
                     $('[data-type="question"] [data-block_type="CR-X-NL-N-ri"]').click(function () {
                         //need question number	               
                         var exernum = $(this).text().replace(/ *([\div]+)\.(\d+).*/i, "exercise_$1_$2.html");
+                        //if part, do differently
+                        //grab filename and chapter from block_type
+                        exernum = $(this).parents("[data-type='question']").attr("data-block_type");
+                        ////////
                         var supp_win = "asset/ch" + exernum.replace(/exercise_([\div]+)_.*/i, "$1") + "/supp_wins/exercises/" + exernum;
                         supp_win = supp_win.replace(/chI\//i, "part1/"); //account for part figures too
                         supp_win = supp_win.replace(/chII\//i, "part2/"); //account for part figures too
