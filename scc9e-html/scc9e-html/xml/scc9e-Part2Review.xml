@@ -88,11 +88,11 @@
 </list></li>
 </list>
 </section>
-<section id="scc9e-part02-sec1-02" block_type="PR-X-H" chapter="part2" numbered="false" level="1" print_page="393">
-<section-metadata><section-title><phrase block_type="PR-X-N-ri">PART II</phrase> REVIEW EXERCISES</section-title></section-metadata>
-<p id="scc9e-part02-p057" block_type="PR-X-TXT-ni">Review exercises are short and straightforward exercises that help you solidify the basic ideas and skills in each part of this book. We have provided &#8220;hints&#8217;&#8217; that indicate where you can find the relevant material for the odd-numbered problems.</p>
+<section id="scc9e-part02-sec1-02" block_type="PR-SUM-H" chapter="part2" numbered="false" level="1" print_page="393">
+<section-metadata><section-title><phrase block_type="PR-SUM-N-ri">PART II</phrase> REVIEW EXERCISES</section-title></section-metadata>
+<p id="scc9e-part02-p057" block_type="PR-TXT-ni">Review exercises are short and straightforward exercises that help you solidify the basic ideas and skills in each part of this book. We have provided &#8220;hints&#8217;&#8217; that indicate where you can find the relevant material for the odd-numbered problems.</p>
 <question id="scc9e-part02-quest-01">
-<p id="scc9e-part02-p058" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.1. Poverty in the states.</phrase> <link href="table_II_1.html">Table II.1</link> gives the percentages of people living below the poverty line in the 26 states east of the Mississippi River. Make a stemplot of these data. Is the distribution roughly symmetric, skewed to the right, or skewed to the left? Which states (if any) are outliers? (<em>Hint</em>: See <link href="alias:page_253">page 253</link>.)</p>
+<p id="scc9e-part02-p058" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.1. Poverty in the states.</phrase> <link href="table_II_1.html">Table II.1</link> gives the percentages of people living below the poverty line in the 26 states east of the Mississippi River. Make a stemplot of these data. Is the distribution roughly symmetric, skewed to the right, or skewed to the left? Which states (if any) are outliers? (<em>Hint</em>: See <link href="alias:page_253">page 253</link>.)</p>
 <table id="scc9e-part02-tab-1" numbered="false" block_type="TABLE" caption-placement="Top" attr="115" data-filename="table_II_1.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE II.1</phrase> <phrase block_type="TBN-T">Percentages of state residents living in poverty, 2012&#8211;2013 two-year average</phrase></table_caption>
 <tbody>
@@ -183,7 +183,7 @@
 </table>
 </question>
 <question id="scc9e-part02-quest-02">
-<p id="scc9e-part02-p059" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.2. Quarterbacks.</phrase> <link href="table_II_2.html">Table II.2</link> gives the total passing yards for National Football League starting quarterbacks during the 2014 season. (These are the quarterbacks with the most passing yards on each team.) Make a histogram of these data. Does the distribution have a clear shape: roughly symmetric, clearly skewed to the left, clearly skewed to the right, or none of these? Which quarterbacks (if any) are outliers?</p>
+<p id="scc9e-part02-p059" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.2. Quarterbacks.</phrase> <link href="table_II_2.html">Table II.2</link> gives the total passing yards for National Football League starting quarterbacks during the 2014 season. (These are the quarterbacks with the most passing yards on each team.) Make a histogram of these data. Does the distribution have a clear shape: roughly symmetric, clearly skewed to the left, clearly skewed to the right, or none of these? Which quarterbacks (if any) are outliers?</p>
 <table id="scc9e-part02-tab-2" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_II_2.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE II.2</phrase> <phrase block_type="TBN-T">Passing yards for NFL quarterbacks in 2014</phrase></table_caption>
 <tbody>
@@ -296,48 +296,48 @@
 </table>
 </question>
 <question id="scc9e-part02-quest-03">
-<p id="scc9e-part02-p060" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.3. Poverty in the states.</phrase> Give the five-number summary for the data on poverty from <link href="table_II_1.html">Table II.1</link>. (<em>Hint</em>: See <link href="alias:page_272">page 272</link>.)</p>
+<p id="scc9e-part02-p060" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.3. Poverty in the states.</phrase> Give the five-number summary for the data on poverty from <link href="table_II_1.html">Table II.1</link>. (<em>Hint</em>: See <link href="alias:page_272">page 272</link>.)</p>
 </question>
 <p id="scc9e_page_394" block_type="page_start" data-margin-content="left">394</p>
 <question id="scc9e-part02-quest-04">
-<p id="scc9e-part02-p062" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.4. Quarterbacks.</phrase> Give the five-number summary for the data on passing yards for NFL quarterbacks from <link href="table_II_2.html">Table II.2</link>.</p>
+<p id="scc9e-part02-p062" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.4. Quarterbacks.</phrase> Give the five-number summary for the data on passing yards for NFL quarterbacks from <link href="table_II_2.html">Table II.2</link>.</p>
 </question>
 <question id="scc9e-part02-quest-05">
-<p id="scc9e-part02-p063" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.5. Poverty in the states.</phrase> Find the mean percentage of state residents living in poverty from the data in <link href="table_II_1.html">Table II.1</link>. If we removed Mississippi from the data, would the mean increase or decrease? Why? Find the mean for the 25 remaining states to verify your answer. (<em>Hint</em>: See <link href="alias:page_277">page 277</link>.)</p>
+<p id="scc9e-part02-p063" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.5. Poverty in the states.</phrase> Find the mean percentage of state residents living in poverty from the data in <link href="table_II_1.html">Table II.1</link>. If we removed Mississippi from the data, would the mean increase or decrease? Why? Find the mean for the 25 remaining states to verify your answer. (<em>Hint</em>: See <link href="alias:page_277">page 277</link>.)</p>
 </question>
 <question id="scc9e-part02-quest-06">
-<p id="scc9e-part02-p064" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.6. Big heads?</phrase> The army reports that the distribution of head circumference among male soldiers is approximately Normal with mean 22.8 inches and standard deviation 1.1 inches. Use the 68&#8211;95&#8211;99.7 rule to answer these questions.</p>
+<p id="scc9e-part02-p064" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.6. Big heads?</phrase> The army reports that the distribution of head circumference among male soldiers is approximately Normal with mean 22.8 inches and standard deviation 1.1 inches. Use the 68&#8211;95&#8211;99.7 rule to answer these questions.</p>
 <list id="scc9e-part02-list-10" type="ordered" block_type="lower-alpha">
-<li id="scc9e-part02-li-52"><p id="scc9e-part02-p065" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Between what values do the middle 95&#37; of head circumferences fall?</p></li>
-<li id="scc9e-part02-li-53"><p id="scc9e-part02-p066" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What percentage of soldiers have head circumferences greater than 23.9 inches?</p></li>
+<li id="scc9e-part02-li-52"><p id="scc9e-part02-p065" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Between what values do the middle 95&#37; of head circumferences fall?</p></li>
+<li id="scc9e-part02-li-53"><p id="scc9e-part02-p066" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What percentage of soldiers have head circumferences greater than 23.9 inches?</p></li>
 </list>
 </question>
 <question id="scc9e-part02-quest-07">
-<p id="scc9e-part02-p067" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.7. SAT scores.</phrase> The scale for SAT exam scores is set so that the distribution of scores is approximately Normal with mean 500 and standard deviation 100. Answer these questions without using a table.</p>
+<p id="scc9e-part02-p067" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.7. SAT scores.</phrase> The scale for SAT exam scores is set so that the distribution of scores is approximately Normal with mean 500 and standard deviation 100. Answer these questions without using a table.</p>
 <list id="scc9e-part02-list-11" type="ordered" block_type="lower-alpha">
-<li id="scc9e-part02-li-54"><p id="scc9e-part02-p068" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is the median SAT score? (<em>Hint</em>: See <link href="alias:page_301">page 301</link>.)</p></li>
-<li id="scc9e-part02-li-55"><p id="scc9e-part02-p069" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> You run a tutoring service for students who score between 400 and 600 and hope to attract many students. What percentage of SAT scores are between 400 and 600? (<em>Hint</em>: See <link href="alias:page_302">page 302</link>.)</p></li>
+<li id="scc9e-part02-li-54"><p id="scc9e-part02-p068" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is the median SAT score? (<em>Hint</em>: See <link href="alias:page_301">page 301</link>.)</p></li>
+<li id="scc9e-part02-li-55"><p id="scc9e-part02-p069" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> You run a tutoring service for students who score between 400 and 600 and hope to attract many students. What percentage of SAT scores are between 400 and 600? (<em>Hint</em>: See <link href="alias:page_302">page 302</link>.)</p></li>
 </list>
 </question>
 <question id="scc9e-part02-quest-08">
-<p id="scc9e-part02-p070" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.8. Explaining correlation.</phrase> You have data on the yearly wine consumption (liters of alcohol from drinking wine per person) and yearly deaths from cirrhosis of the liver for several developed countries. Say as specifically as you can what the correlation <em>r</em> between yearly wine consumption and yearly deaths from cirrhosis of the liver measures.</p>
+<p id="scc9e-part02-p070" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.8. Explaining correlation.</phrase> You have data on the yearly wine consumption (liters of alcohol from drinking wine per person) and yearly deaths from cirrhosis of the liver for several developed countries. Say as specifically as you can what the correlation <em>r</em> between yearly wine consumption and yearly deaths from cirrhosis of the liver measures.</p>
 </question>
 <p id="scc9e_page_395" block_type="page_start" data-margin-content="right">395</p>
 <question id="scc9e-part02-quest-09">
-<p id="scc9e-part02-p072" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.9. Data on snakes.</phrase> For a biology project, you measure the length (inches) and weight (ounces) of 12 snakes of the same variety. What units of measurement do each of the following have?</p>
+<p id="scc9e-part02-p072" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.9. Data on snakes.</phrase> For a biology project, you measure the length (inches) and weight (ounces) of 12 snakes of the same variety. What units of measurement do each of the following have?</p>
 <list id="scc9e-part02-list-12" type="ordered" block_type="lower-alpha">
-<li id="scc9e-part02-li-56"><p id="scc9e-part02-p073" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The mean length of the snakes. (<em>Hint</em>: See <link href="alias:page_277">page 277</link>.)</p></li>
-<li id="scc9e-part02-li-57"><p id="scc9e-part02-p074" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The first quartile of the snake lengths. (<em>Hint</em>: See <link href="alias:page_270">page 270</link>.)</p></li>
-<li id="scc9e-part02-li-58"><p id="scc9e-part02-p075" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The standard deviation of the snake lengths. (<em>Hint</em>: See <link href="alias:page_277">page 277</link>.)</p></li>
-<li id="scc9e-part02-li-59"><p id="scc9e-part02-p076" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> The correlation between length and snake weight. (<em>Hint</em>: See <link href="alias:page_325">page 325</link>.)</p></li>
+<li id="scc9e-part02-li-56"><p id="scc9e-part02-p073" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The mean length of the snakes. (<em>Hint</em>: See <link href="alias:page_277">page 277</link>.)</p></li>
+<li id="scc9e-part02-li-57"><p id="scc9e-part02-p074" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The first quartile of the snake lengths. (<em>Hint</em>: See <link href="alias:page_270">page 270</link>.)</p></li>
+<li id="scc9e-part02-li-58"><p id="scc9e-part02-p075" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The standard deviation of the snake lengths. (<em>Hint</em>: See <link href="alias:page_277">page 277</link>.)</p></li>
+<li id="scc9e-part02-li-59"><p id="scc9e-part02-p076" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> The correlation between length and snake weight. (<em>Hint</em>: See <link href="alias:page_325">page 325</link>.)</p></li>
 </list>
 </question>
 <question id="scc9e-part02-quest-10">
-<p id="scc9e-part02-p077" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.10. More data on snakes.</phrase> For a biology project, you measure the length (inches) and weight (ounces) of 12 snakes of the same variety.</p>
+<p id="scc9e-part02-p077" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.10. More data on snakes.</phrase> For a biology project, you measure the length (inches) and weight (ounces) of 12 snakes of the same variety.</p>
 <list id="scc9e-part02-list-13" type="ordered" block_type="lower-alpha">
-<li id="scc9e-part02-li-60"><p id="scc9e-part02-p078" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain why you expect the correlation between length and weight to be positive.</p></li>
-<li id="scc9e-part02-li-61"><p id="scc9e-part02-p079" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The mean length turns out to be 20.8 inches. What is the mean length in centimeters? (There are 2.54 centimeters in an inch.)</p></li>
-<li id="scc9e-part02-li-62"><p id="scc9e-part02-p080" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The correlation between length and weight turns out to be <em>r</em> = 0.6. If you were to measure length in centimeters instead of inches, what would be the new value of <em>r</em>?</p></li>
+<li id="scc9e-part02-li-60"><p id="scc9e-part02-p078" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain why you expect the correlation between length and weight to be positive.</p></li>
+<li id="scc9e-part02-li-61"><p id="scc9e-part02-p079" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The mean length turns out to be 20.8 inches. What is the mean length in centimeters? (There are 2.54 centimeters in an inch.)</p></li>
+<li id="scc9e-part02-li-62"><p id="scc9e-part02-p080" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The correlation between length and weight turns out to be <em>r</em> = 0.6. If you were to measure length in centimeters instead of inches, what would be the new value of <em>r</em>?</p></li>
 </list>
 <p id="scc9e-part02-p081" block_type="PR-X-TXT-ni"><link href="figure_II_3.html">Figure II.3</link> plots the average brain weight in grams versus average body weight in kilograms for many species of mammals. There are many small mammals whose points at the lower left overlap. <link href="exercise_II_11.html">Exercises II.11</link> through <link href="exercise_II_16.html">II.16</link> are based on this scatterplot.</p>
 <figure id="scc9e-part02-fig-03" block_type="FIGURE" data-caption-compass="S" numbered="true" number="II.3" mmtype="image" mmsrc="" attr="" data-filename="figure_II_3.html">
@@ -348,30 +348,30 @@
 </question>
 <p id="scc9e_page_396" block_type="page_start" data-margin-content="left">396</p>
 <question id="scc9e-part02-quest-11">
-<p id="scc9e-part02-p083" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.11. Dolphins and hippos.</phrase> The points for the dolphin and hippopotamus are labeled in <link href="figure_II_3.html">Figure II.3</link>. Read from the graph the approximate body weight and brain weight for these two species. (<em>Hint</em>: See <link href="alias:page_318">page 318</link>.)</p>
+<p id="scc9e-part02-p083" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.11. Dolphins and hippos.</phrase> The points for the dolphin and hippopotamus are labeled in <link href="figure_II_3.html">Figure II.3</link>. Read from the graph the approximate body weight and brain weight for these two species. (<em>Hint</em>: See <link href="alias:page_318">page 318</link>.)</p>
 </question>
 <question id="scc9e-part02-quest-12">
-<p id="scc9e-part02-p084" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.12. Dolphins and hippos.</phrase> One reaction to this scatterplot is &#8220;Dolphins are smart; hippos are dumb.&#8217;&#8217; What feature of the plot lies behind this reaction?</p>
+<p id="scc9e-part02-p084" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.12. Dolphins and hippos.</phrase> One reaction to this scatterplot is &#8220;Dolphins are smart; hippos are dumb.&#8217;&#8217; What feature of the plot lies behind this reaction?</p>
 </question>
 <question id="scc9e-part02-quest-13">
-<p id="scc9e-part02-p085" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.13. Outliers.</phrase> African elephants are much larger than any other mammal in the data set but lie roughly in the overall straight-line pattern. Dolphins, humans, and hippos lie outside the overall pattern. The correlation between body weight and brain weight for the entire data set is <em>r</em> = 0.86.</p>
+<p id="scc9e-part02-p085" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.13. Outliers.</phrase> African elephants are much larger than any other mammal in the data set but lie roughly in the overall straight-line pattern. Dolphins, humans, and hippos lie outside the overall pattern. The correlation between body weight and brain weight for the entire data set is <em>r</em> = 0.86.</p>
 <list id="scc9e-part02-list-14" type="ordered" block_type="lower-alpha">
-<li id="scc9e-part02-li-63"><p id="scc9e-part02-p086" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> If we removed elephants, would this correlation increase, decrease, or not change much? Explain your answer. (<em>Hint</em>: See <link href="alias:page_326">page 326</link>.)</p></li>
-<li id="scc9e-part02-li-64"><p id="scc9e-part02-p087" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> If we removed dolphins, hippos, and humans, would this correlation increase, decrease, or not change much? Explain your answer. (<em>Hint</em>: See <link href="alias:page_326">page 326</link>.)</p></li>
+<li id="scc9e-part02-li-63"><p id="scc9e-part02-p086" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> If we removed elephants, would this correlation increase, decrease, or not change much? Explain your answer. (<em>Hint</em>: See <link href="alias:page_326">page 326</link>.)</p></li>
+<li id="scc9e-part02-li-64"><p id="scc9e-part02-p087" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> If we removed dolphins, hippos, and humans, would this correlation increase, decrease, or not change much? Explain your answer. (<em>Hint</em>: See <link href="alias:page_326">page 326</link>.)</p></li>
 </list>
 </question>
 <question id="scc9e-part02-quest-14">
-<p id="scc9e-part02-p088" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.14. Brain and body.</phrase> The correlation between body weight and brain weight is <em>r</em> = 0.86. How well does body weight explain brain weight for mammals? Compute <em>r</em><sup>2</sup> to answer this question, and briefly explain what <em>r</em><sup>2</sup> tells us.</p>
+<p id="scc9e-part02-p088" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.14. Brain and body.</phrase> The correlation between body weight and brain weight is <em>r</em> = 0.86. How well does body weight explain brain weight for mammals? Compute <em>r</em><sup>2</sup> to answer this question, and briefly explain what <em>r</em><sup>2</sup> tells us.</p>
 </question>
 <question id="scc9e-part02-quest-15">
-<p id="scc9e-part02-p089" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.15. Prediction.</phrase> The line on the scatterplot in <link href="figure_II_3.html">Figure II.3</link> is the least-squares regression line for predicting brain weight from body weight. Suppose that a new mammal species with body weight 600 kilograms is discovered hidden in the rain forest. Predict the brain weight for this species. (<em>Hint</em>: See <link href="alias:page_340">page 340</link>.)</p>
+<p id="scc9e-part02-p089" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.15. Prediction.</phrase> The line on the scatterplot in <link href="figure_II_3.html">Figure II.3</link> is the least-squares regression line for predicting brain weight from body weight. Suppose that a new mammal species with body weight 600 kilograms is discovered hidden in the rain forest. Predict the brain weight for this species. (<em>Hint</em>: See <link href="alias:page_340">page 340</link>.)</p>
 </question>
 <question id="scc9e-part02-quest-16">
-<p id="scc9e-part02-p090" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.16. Slope.</phrase> The line on the scatter-plot in <link href="figure_II_3.html">Figure II.3</link> is the least-squares regression line for predicting brain weight from body weight. The slope of this line is one of the numbers below. Which number is the slope? Why?</p>
+<p id="scc9e-part02-p090" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.16. Slope.</phrase> The line on the scatter-plot in <link href="figure_II_3.html">Figure II.3</link> is the least-squares regression line for predicting brain weight from body weight. The slope of this line is one of the numbers below. Which number is the slope? Why?</p>
 <list id="scc9e-part02-list-15" type="ordered" block_type="lower-alpha">
-<li id="scc9e-part02-li-65"><p id="scc9e-part02-p091" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> <em>b</em> = 0.5.</p></li>
-<li id="scc9e-part02-li-66"><p id="scc9e-part02-p092" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> <em>b</em> = 1.3.</p></li>
-<li id="scc9e-part02-li-67"><p id="scc9e-part02-p093" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> <em>b</em> = 3.2.</p></li>
+<li id="scc9e-part02-li-65"><p id="scc9e-part02-p091" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> <em>b</em> = 0.5.</p></li>
+<li id="scc9e-part02-li-66"><p id="scc9e-part02-p092" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> <em>b</em> = 1.3.</p></li>
+<li id="scc9e-part02-li-67"><p id="scc9e-part02-p093" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> <em>b</em> = 3.2.</p></li>
 </list>
 <p id="scc9e-part02-p094" block_type="PR-X-TXT-ni">From Rex Boggs in Australia comes an unusual data set: before showering in the morning, he weighed the bar of soap in his shower stall. The weight goes down as the soap is used. The data appear in <link href="table_II_3.html">Table II.3</link> (weights in grams). Notice that Mr. Boggs forgot to weigh the soap on some days. <link href="exercise_II_17.html">Exercises II.17</link>, <link href="exercise_II_18.html">II.18</link>, and <link href="exercise_II_19.html">II.19</link> are based on the soap data set.</p>
 <table id="scc9e-part02-tab-3" numbered="false" block_type="TABLE" caption-placement="Top" attr="100" data-filename="table_II_3.html">
@@ -433,31 +433,31 @@
 </question>
 <p id="scc9e_page_397" block_type="page_start" data-margin-content="right">397</p>
 <question id="scc9e-part02-quest-17">
-<p id="scc9e-part02-p096" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.17. Scatterplot.</phrase> Plot the weight of the bar of soap against day. Is the overall pattern roughly straight-line? Based on your scatterplot, is the correlation between day and weight close to 1, positive but not close to 1, close to 0, negative but not close to &#8722;1, or close to &#8722;1? Explain your answer. (<em>Hint</em>: See <link href="alias:page_325">page 325</link>.)</p>
+<p id="scc9e-part02-p096" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.17. Scatterplot.</phrase> Plot the weight of the bar of soap against day. Is the overall pattern roughly straight-line? Based on your scatterplot, is the correlation between day and weight close to 1, positive but not close to 1, close to 0, negative but not close to &#8722;1, or close to &#8722;1? Explain your answer. (<em>Hint</em>: See <link href="alias:page_325">page 325</link>.)</p>
 </question>
 <question id="scc9e-part02-quest-18">
-<p id="scc9e-part02-p097" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.18. Regression.</phrase> The equation for the least-squares regression line for the data in <link href="table_II_3.html">Table II.3</link> is</p>
+<p id="scc9e-part02-p097" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.18. Regression.</phrase> The equation for the least-squares regression line for the data in <link href="table_II_3.html">Table II.3</link> is</p>
 <p id="scc9e-part02-p098" block_type="EQ">weight = 133.2 &#8722; 6.31 &#215; day</p>
 <list id="scc9e-part02-list-16" type="ordered" block_type="lower-alpha">
-<li id="scc9e-part02-li-68"><p id="scc9e-part02-p099" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain carefully what the slope <em>b</em> = &#8722;6.31 tells us about how fast the soap lost weight.</p></li>
-<li id="scc9e-part02-li-69"><p id="scc9e-part02-p0100" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Mr. Boggs did not measure the weight of the soap on Day 4. Use the regression equation to predict that weight.</p></li>
-<li id="scc9e-part02-li-70"><p id="scc9e-part02-p0101" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Draw the regression line on your scatterplot from the previous exercise.</p></li>
+<li id="scc9e-part02-li-68"><p id="scc9e-part02-p099" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain carefully what the slope <em>b</em> = &#8722;6.31 tells us about how fast the soap lost weight.</p></li>
+<li id="scc9e-part02-li-69"><p id="scc9e-part02-p0100" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Mr. Boggs did not measure the weight of the soap on Day 4. Use the regression equation to predict that weight.</p></li>
+<li id="scc9e-part02-li-70"><p id="scc9e-part02-p0101" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Draw the regression line on your scatterplot from the previous exercise.</p></li>
 </list>
 </question>
 <question id="scc9e-part02-quest-19">
-<p id="scc9e-part02-p0102" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.19. Prediction?</phrase> Use the regression equation in the previous exercise to predict the weight of the soap after 30 days. Why is it clear that your answer makes no sense? What&#8217;s wrong with using the regression line to predict weight after 30 days? (<em>Hint</em>: See <link href="alias:page_345">page 345</link>.)</p>
+<p id="scc9e-part02-p0102" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.19. Prediction?</phrase> Use the regression equation in the previous exercise to predict the weight of the soap after 30 days. Why is it clear that your answer makes no sense? What&#8217;s wrong with using the regression line to predict weight after 30 days? (<em>Hint</em>: See <link href="alias:page_345">page 345</link>.)</p>
 </question>
 <question id="scc9e-part02-quest-20">
-<p id="scc9e-part02-p0103" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.20. Keeping up with the Joneses.</phrase> The Jones family had a household income of &#36;30,000 in 1980, when the average CPI (1982&#8211;84 = 100) was 82.4. The average CPI for 2014 was 236.7. How much must the Joneses earn in 2014 to have the same buying power they had in 1980?</p>
+<p id="scc9e-part02-p0103" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.20. Keeping up with the Joneses.</phrase> The Jones family had a household income of &#36;30,000 in 1980, when the average CPI (1982&#8211;84 = 100) was 82.4. The average CPI for 2014 was 236.7. How much must the Joneses earn in 2014 to have the same buying power they had in 1980?</p>
 </question>
 <question id="scc9e-part02-quest-21">
-<p id="scc9e-part02-p0104" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.21. Affording a Mercedes.</phrase> A Mercedes-Benz 190 cost &#36;24,000 in 1981, when the average CPI (1982&#8211;84 = 100) was 90.9. The average CPI for 2014 was 236.7. How many 2014 dollars must you earn to have the same buying power as &#36;24,000 had in 1981? (<em>Hint</em>: See <link href="alias:page_374">page 374</link>.)</p>
+<p id="scc9e-part02-p0104" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.21. Affording a Mercedes.</phrase> A Mercedes-Benz 190 cost &#36;24,000 in 1981, when the average CPI (1982&#8211;84 = 100) was 90.9. The average CPI for 2014 was 236.7. How many 2014 dollars must you earn to have the same buying power as &#36;24,000 had in 1981? (<em>Hint</em>: See <link href="alias:page_374">page 374</link>.)</p>
 </question>
 <question id="scc9e-part02-quest-22">
-<p id="scc9e-part02-p0105" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.22. Affording a Steinway.</phrase> A Steinway concert grand piano cost &#36;13,500 in 1976. A similar Steinway cost &#36;163,600 in August 2015. Has the cost of the piano gone up or down in real terms? Using <link href="table_16_1.html">Table 16.1</link> and the fact that the August 2015 CPI was 238.7, give a calculation to justify your answer.</p>
+<p id="scc9e-part02-p0105" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.22. Affording a Steinway.</phrase> A Steinway concert grand piano cost &#36;13,500 in 1976. A similar Steinway cost &#36;163,600 in August 2015. Has the cost of the piano gone up or down in real terms? Using <link href="table_16_1.html">Table 16.1</link> and the fact that the August 2015 CPI was 238.7, give a calculation to justify your answer.</p>
 </question>
 <question id="scc9e-part02-quest-23">
-<p id="scc9e-part02-p0106" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.23. The price of gold.</phrase> Some people recommend that investors buy gold &#8220;to protect against inflation.&#8217;&#8217; Here are the prices of an ounce of gold at the end of the year for the years between 1985 and 2013. Using <link href="table_16_1.html">Table 16.1</link>, make a graph that shows how the price of gold changed in real terms over this period. Would an investment in gold have protected against inflation by holding its value in real terms?</p>
+<p id="scc9e-part02-p0106" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.23. The price of gold.</phrase> Some people recommend that investors buy gold &#8220;to protect against inflation.&#8217;&#8217; Here are the prices of an ounce of gold at the end of the year for the years between 1985 and 2013. Using <link href="table_16_1.html">Table 16.1</link>, make a graph that shows how the price of gold changed in real terms over this period. Would an investment in gold have protected against inflation by holding its value in real terms?</p>
 <table id="scc9e-part02-untab-1" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
@@ -518,7 +518,7 @@
 </tr>
 </tbody>
 </table>
-<p id="scc9e-part02-p0107" block_type="PR-X-TXT-ni-1">(<em>Hint</em>: See <link href="alias:page_372">page 372</link>.)</p>
+<p id="scc9e-part02-p0107" block_type="CR-X-TXT-ni-1">(<em>Hint</em>: See <link href="alias:page_372">page 372</link>.)</p>
 <figure id="scc9e-part02-fig-04" block_type="FIGURE" data-caption-compass="S" numbered="true" number="II.4" mmtype="image" mmsrc="" attr="" data-filename="figure_II_4.html">
 <layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-part02-img-04" alt="image" src="asset/part2/17MOORESCC-MSE_9e_fig_Part-II_04.jpg"/>
@@ -527,14 +527,14 @@
 </question>
 <p id="scc9e_page_398" block_type="page_start" data-margin-content="left">398</p>
 <question id="scc9e-part02-quest-24">
-<p id="scc9e-part02-p0109" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.24. Never on Sunday?</phrase> The Canadian province of Ontario carries out statistical studies to monitor how Canada&#8217;s national health care system is working in the province. The bar graphs in <link href="figure_II_4.html">Figure II.4</link> come from a study of admissions and discharges from community hospitals in Ontario. They show the number of heart attack patients admitted and discharged on each day of the week during a two-year period.</p>
+<p id="scc9e-part02-p0109" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.24. Never on Sunday?</phrase> The Canadian province of Ontario carries out statistical studies to monitor how Canada&#8217;s national health care system is working in the province. The bar graphs in <link href="figure_II_4.html">Figure II.4</link> come from a study of admissions and discharges from community hospitals in Ontario. They show the number of heart attack patients admitted and discharged on each day of the week during a two-year period.</p>
 <list id="scc9e-part02-list-17" type="ordered" block_type="lower-alpha">
-<li id="scc9e-part02-li-71"><p id="scc9e-part02-p0110" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain why you expect the number of patients admitted with heart attacks to be roughly the same for all days of the week. Do the data show that this is true?</p></li>
-<li id="scc9e-part02-li-72"><p id="scc9e-part02-p0111" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Describe how the distribution of the day on which patients are discharged from the hospital differs from that of the day on which they are admitted. What do you think explains the difference?</p></li>
+<li id="scc9e-part02-li-71"><p id="scc9e-part02-p0110" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain why you expect the number of patients admitted with heart attacks to be roughly the same for all days of the week. Do the data show that this is true?</p></li>
+<li id="scc9e-part02-li-72"><p id="scc9e-part02-p0111" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Describe how the distribution of the day on which patients are discharged from the hospital differs from that of the day on which they are admitted. What do you think explains the difference?</p></li>
 </list>
 </question>
 <question id="scc9e-part02-quest-25">
-<p id="scc9e-part02-p0112" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.25. Drive time.</phrase> Professor Moore, who lives a few miles outside a college town, records the time he takes to drive to the college each morning. Here are the times (in minutes) for 42 consecutive weekdays, with the dates in order along the rows:</p>
+<p id="scc9e-part02-p0112" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.25. Drive time.</phrase> Professor Moore, who lives a few miles outside a college town, records the time he takes to drive to the college each morning. Here are the times (in minutes) for 42 consecutive weekdays, with the dates in order along the rows:</p>
 <table id="scc9e-part02-untab-4" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr>
@@ -594,16 +594,16 @@
 </tbody>
 </table>
 <list id="scc9e-part02-list-18" type="ordered" block_type="lower-alpha">
-<li id="scc9e-part02-li-73"><p id="scc9e-part02-p0113" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Make a histogram of these drive times. Is the distribution roughly symmetric, clearly skewed, or neither? Are there any clear outliers? (<em>Hint</em>: See <link href="alias:page_249">pages 249</link> and <link href="alias:page_251">251</link>.)</p></li>
-<li id="scc9e-part02-li-74"><p id="scc9e-part02-p0114" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Make a line graph of the drive times. (Label the horizontal axis in days, 1 to 42.) The plot shows no clear trend, but it does show one unusually low drive time and two unusually high drive times. Circle these observations on your plot. (<em>Hint</em>: See <link href="alias:page_223">page 223</link>.)</p></li>
+<li id="scc9e-part02-li-73"><p id="scc9e-part02-p0113" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Make a histogram of these drive times. Is the distribution roughly symmetric, clearly skewed, or neither? Are there any clear outliers? (<em>Hint</em>: See <link href="alias:page_249">pages 249</link> and <link href="alias:page_251">251</link>.)</p></li>
+<li id="scc9e-part02-li-74"><p id="scc9e-part02-p0114" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Make a line graph of the drive times. (Label the horizontal axis in days, 1 to 42.) The plot shows no clear trend, but it does show one unusually low drive time and two unusually high drive times. Circle these observations on your plot. (<em>Hint</em>: See <link href="alias:page_223">page 223</link>.)</p></li>
 </list>
 </question>
 <p id="scc9e_page_399" block_type="page_start" data-margin-content="right">399</p>
 <question id="scc9e-part02-quest-26">
-<p id="scc9e-part02-p0116" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.26. Drive time outliers.</phrase> In the previous exercise, there are three outliers in Professor Moore&#8217;s drive times to work. All three can be explained. The low time is the day after Thanksgiving (no traffic on campus). The two high times reflect delays due to an accident and icy roads. Remove these three observations. To summarize normal drive times, use a calculator to find the mean <phrase data-math="math_2"></phrase> and standard deviation <em>s</em> of the remaining 39 times.</p>
+<p id="scc9e-part02-p0116" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.26. Drive time outliers.</phrase> In the previous exercise, there are three outliers in Professor Moore&#8217;s drive times to work. All three can be explained. The low time is the day after Thanksgiving (no traffic on campus). The two high times reflect delays due to an accident and icy roads. Remove these three observations. To summarize normal drive times, use a calculator to find the mean <phrase data-math="math_2"></phrase> and standard deviation <em>s</em> of the remaining 39 times.</p>
 </question>
 <question id="scc9e-part02-quest-27">
-<p id="scc9e-part02-p0117" block_type="PR-X-NL"><image asset-id="scc9e-part02-quest-27a" alt="image" src="asset/global_images/news.jpg"/> <phrase block_type="PR-X-NL-N-ri">II.27. House prices.</phrase> An April 15, 2014, article in the <em>Los Angeles Times</em> reported that the median housing price in Southern California was about &#36;400,000. Would the mean housing price be higher, about the same, or lower? Why? (<em>Hint</em>: See <link href="alias:page_281">page 281</link>.)</p>
+<p id="scc9e-part02-p0117" block_type="CR-X-NL"><image asset-id="scc9e-part02-quest-27a" alt="image" src="asset/global_images/news.jpg"/> <phrase block_type="CR-X-NL-N-ri">II.27. House prices.</phrase> An April 15, 2014, article in the <em>Los Angeles Times</em> reported that the median housing price in Southern California was about &#36;400,000. Would the mean housing price be higher, about the same, or lower? Why? (<em>Hint</em>: See <link href="alias:page_281">page 281</link>.)</p>
 <table id="scc9e-part02-tab-4" numbered="false" block_type="TABLE" caption-placement="Top" attr="105" data-filename="table_II_4.html">
 <table_caption><phrase block_type="TBN-N-ri">TABLE II.4</phrase> <phrase block_type="TBN-T">Percentage of votes for President Obama in 2012</phrase></table_caption>
 <tbody>
@@ -758,41 +758,41 @@
 </table>
 </question>
 <question id="scc9e-part02-quest-28">
-<p id="scc9e-part02-p0118" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.28. The 2012 election.</phrase> Barack Obama was elected president in 2012 with 51.1&#37; of the popular vote. His Republican opponent, Mitt Romney, received 47.2&#37; of the vote, with minor candidates taking the remaining votes. <link href="table_II_4.html">Table II.4</link> gives the percentage of the popular vote won by President Obama in each state. Describe these data with a graph, a numerical summary, and a brief verbal description.</p>
+<p id="scc9e-part02-p0118" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.28. The 2012 election.</phrase> Barack Obama was elected president in 2012 with 51.1&#37; of the popular vote. His Republican opponent, Mitt Romney, received 47.2&#37; of the vote, with minor candidates taking the remaining votes. <link href="table_II_4.html">Table II.4</link> gives the percentage of the popular vote won by President Obama in each state. Describe these data with a graph, a numerical summary, and a brief verbal description.</p>
 </question>
 <question id="scc9e-part02-quest-29">
-<p id="scc9e-part02-p0119" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">II.29. Statistics for investing.</phrase> Joe&#8217;s retirement plan invests in stocks through an &#8220;index fund&#8217;&#8217; that follows the behavior of the stock market as a whole, as measured by the Standard &#38; Poor&#8217;s 500 index. Joe wants to buy a mutual fund that does not track the index closely. He reads that monthly returns from Fidelity Technology Fund have correlation <em>r</em> = 0.77 with the S&#38;P 500 index and that Fidelity Real Estate Fund has correlation <em>r</em> = 0.37 with the index.</p>
+<p id="scc9e-part02-p0119" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">II.29. Statistics for investing.</phrase> Joe&#8217;s retirement plan invests in stocks through an &#8220;index fund&#8217;&#8217; that follows the behavior of the stock market as a whole, as measured by the Standard &#38; Poor&#8217;s 500 index. Joe wants to buy a mutual fund that does not track the index closely. He reads that monthly returns from Fidelity Technology Fund have correlation <em>r</em> = 0.77 with the S&#38;P 500 index and that Fidelity Real Estate Fund has correlation <em>r</em> = 0.37 with the index.</p>
 <p id="scc9e_page_400" block_type="page_start" data-margin-content="left">400</p>
 <list id="scc9e-part02-list-19" type="ordered" block_type="lower-alpha">
-<li id="scc9e-part02-li-75"><p id="scc9e-part02-p0121" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Which of these funds has the closer relationship to returns from the stock market as a whole? How do you know? (<em>Hint</em>: See <link href="alias:page_325">page 325</link>.)</p></li>
-<li id="scc9e-part02-li-76"><p id="scc9e-part02-p0122" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Does the information given tell Joe anything about which fund has had higher returns? (<em>Hint</em>: See <link href="alias:page_328">page 328</link>.)</p></li>
+<li id="scc9e-part02-li-75"><p id="scc9e-part02-p0121" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Which of these funds has the closer relationship to returns from the stock market as a whole? How do you know? (<em>Hint</em>: See <link href="alias:page_325">page 325</link>.)</p></li>
+<li id="scc9e-part02-li-76"><p id="scc9e-part02-p0122" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Does the information given tell Joe anything about which fund has had higher returns? (<em>Hint</em>: See <link href="alias:page_328">page 328</link>.)</p></li>
 </list>
 </question>
 </section>
-<section id="scc9e-part02-sec1-03" block_type="PR-X-H" chapter="part2" numbered="false" level="1" print_page="400">
-<section-metadata><section-title><phrase block_type="PR-X-N-ri">PART II</phrase> PROJECTS</section-title></section-metadata>
-<p id="scc9e-part02-p0123" block_type="PR-X-TXT-ni">Projects are longer exercises that require gathering information or producing data and that emphasize writing a short essay to describe your work. Many are suitable for teams of students.</p>
+<section id="scc9e-part02-sec1-03" block_type="PR-SUM-H" chapter="part2" numbered="false" level="1" print_page="400">
+<section-metadata><section-title><phrase block_type="PR-SUM-N-ri">PART II</phrase> PROJECTS</section-title></section-metadata>
+<p id="scc9e-part02-p0123" block_type="PR-TXT-ni">Projects are longer exercises that require gathering information or producing data and that emphasize writing a short essay to describe your work. Many are suitable for teams of students.</p>
 <question id="scc9e-part02-quest-30">
-<p id="scc9e-part02-p0124" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">Project 1. Statistical graphics in the press.</phrase> Graphs good and bad fill the news media. Some publications, such as <em>USA Today</em>, make particularly heavy use of graphs to present data. Collect several graphs (at least five) from newspapers and magazines (not from advertisements). Include some graphs that, in your opinion, represent good style and some that represent poor style or are misleading. Use your collection as examples in a brief essay about the clarity, accuracy, and attractiveness of graphs in the press.</p>
+<p id="scc9e-part02-p0124" block_type="PR-X-NL"><phrase block_type="CR-X-NL-N-ri">Project 1. Statistical graphics in the press.</phrase> Graphs good and bad fill the news media. Some publications, such as <em>USA Today</em>, make particularly heavy use of graphs to present data. Collect several graphs (at least five) from newspapers and magazines (not from advertisements). Include some graphs that, in your opinion, represent good style and some that represent poor style or are misleading. Use your collection as examples in a brief essay about the clarity, accuracy, and attractiveness of graphs in the press.</p>
 </question>
 <question id="scc9e-part02-quest-31">
-<p id="scc9e-part02-p0125" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">Project 2. Roll your own regression.</phrase> Choose two quantitative variables that you think have a roughly straight-line relationship. Gather data on these variables and do a statistical analysis: make a scatterplot, find the correlation, find the regression line (use a statistical calculator or software), and draw the line on your plot. Then write a report on your work. Some examples of suitable pairs of variables are the following:</p>
+<p id="scc9e-part02-p0125" block_type="PR-X-NL"><phrase block_type="CR-X-NL-N-ri">Project 2. Roll your own regression.</phrase> Choose two quantitative variables that you think have a roughly straight-line relationship. Gather data on these variables and do a statistical analysis: make a scatterplot, find the correlation, find the regression line (use a statistical calculator or software), and draw the line on your plot. Then write a report on your work. Some examples of suitable pairs of variables are the following:</p>
 <list id="scc9e-part02-list-20" type="ordered" block_type="lower-alpha">
-<li id="scc9e-part02-li-77"><p id="scc9e-part02-p0126" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The height and arm span of a group of people.</p></li>
-<li id="scc9e-part02-li-78"><p id="scc9e-part02-p0127" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The height and walking stride length of a group of people.</p></li>
-<li id="scc9e-part02-li-79"><p id="scc9e-part02-p0128" block_type="PR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The price per ounce and bottle size in ounces for several brands of shampoo and several bottle sizes for each brand.</p></li>
+<li id="scc9e-part02-li-77"><p id="scc9e-part02-p0126" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The height and arm span of a group of people.</p></li>
+<li id="scc9e-part02-li-78"><p id="scc9e-part02-p0127" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The height and walking stride length of a group of people.</p></li>
+<li id="scc9e-part02-li-79"><p id="scc9e-part02-p0128" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The price per ounce and bottle size in ounces for several brands of shampoo and several bottle sizes for each brand.</p></li>
 </list>
 </question>
 <question id="scc9e-part02-quest-32">
-<p id="scc9e-part02-p0129" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">Project 3. High school dropouts.</phrase> Write a factual report on high school dropouts in the United States. The following are examples of questions you might address: Which states have the highest percentages of adults who did not finish high school? How do the earnings and employment rates of dropouts compare with those of other adults? Is the percentage who fail to finish high school higher among blacks and Hispanics than among whites?</p>
+<p id="scc9e-part02-p0129" block_type="PR-X-NL"><phrase block_type="CR-X-NL-N-ri">Project 3. High school dropouts.</phrase> Write a factual report on high school dropouts in the United States. The following are examples of questions you might address: Which states have the highest percentages of adults who did not finish high school? How do the earnings and employment rates of dropouts compare with those of other adults? Is the percentage who fail to finish high school higher among blacks and Hispanics than among whites?</p>
 <p id="scc9e-part02-p0130" block_type="PR-X-TXT-ni">The Census Bureau website will supply you with data. Go to <link href="http://www.census.gov/hhes/socdemo/education/">www.census.gov/hhes/socdemo/education/</link>.</p>
 </question>
 <p id="scc9e_page_401" block_type="page_start" data-margin-content="right">401</p>
 <question id="scc9e-part02-quest-33">
-<p id="scc9e-part02-p0132" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">Project 4. Association is not causation.</phrase> Write a snappy, attention-getting article on the theme that &#8220;association is not causation.&#8217;&#8217; Use pointed but not-too-serious examples like those in <link href="example_15_6.html">Example 6</link> (page 348) and <link href="exercise_15_30.html">Exercise 15.30</link> (page 364) of <link href="scc9e-ch15.xml">Chapter 15</link>, or this one: there is an association between long hair and height (because women tend to have longer hair than men but also tend to be shorter), but cutting a person&#8217;s hair will not make him or her taller. Be clear, but don&#8217;t be technical. Imagine that you are writing for high school students.</p>
+<p id="scc9e-part02-p0132" block_type="PR-X-NL"><phrase block_type="CR-X-NL-N-ri">Project 4. Association is not causation.</phrase> Write a snappy, attention-getting article on the theme that &#8220;association is not causation.&#8217;&#8217; Use pointed but not-too-serious examples like those in <link href="example_15_6.html">Example 6</link> (page 348) and <link href="exercise_15_30.html">Exercise 15.30</link> (page 364) of <link href="scc9e-ch15.xml">Chapter 15</link>, or this one: there is an association between long hair and height (because women tend to have longer hair than men but also tend to be shorter), but cutting a person&#8217;s hair will not make him or her taller. Be clear, but don&#8217;t be technical. Imagine that you are writing for high school students.</p>
 </question>
 <question id="scc9e-part02-quest-34">
-<p id="scc9e-part02-p0133" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">Project 5. Military spending.</phrase> Here are data on U.S. spending for national defense for the fiscal years between 1940 and 2010 from the <em>Statistical Abstract</em>. You may want to look in the latest volume for data from the most recent year. You can also find the amounts for every year between 1940 and the present at <link href="http://www.whitehouse.gov/omb/budget/">www.whitehouse.gov/omb/budget/</link>. See the pdf file available by clicking on <em>Historical Tables</em>. Look in <link href="scc9e-part02-sec1-03">Section 3</link> of this pdf file. The units are billions of dollars (this is serious money).</p>
+<p id="scc9e-part02-p0133" block_type="PR-X-NL"><phrase block_type="CR-X-NL-N-ri">Project 5. Military spending.</phrase> Here are data on U.S. spending for national defense for the fiscal years between 1940 and 2010 from the <em>Statistical Abstract</em>. You may want to look in the latest volume for data from the most recent year. You can also find the amounts for every year between 1940 and the present at <link href="http://www.whitehouse.gov/omb/budget/">www.whitehouse.gov/omb/budget/</link>. See the pdf file available by clicking on <em>Historical Tables</em>. Look in <link href="scc9e-part02-sec1-03">Section 3</link> of this pdf file. The units are billions of dollars (this is serious money).</p>
 <table id="scc9e-part02-untab-5" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
@@ -862,10 +862,10 @@
 <p id="scc9e-part02-p0134" block_type="PR-X-TXT-ni">Write an essay that describes the changes in military spending in real terms during this period from just before World War II until a decade after the end of the cold war. Do the necessary calculations and write a brief description that ties military spending to the major military events of this period: World War II (1941&#8211;1945), the Korean War (1950&#8211;1953), the Vietnam War (roughly 1964&#8211;1975), the end of the cold war after the fall of the Berlin Wall in 1989, and the U.S. war with Iraq (beginning in March 2003). You may want to look at years not included in the table to help you as you write your essay.</p>
 </question>
 <question id="scc9e-part02-quest-35">
-<p id="scc9e-part02-p0135" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">Project 6. Your pulse rate.</phrase> What is your &#8220;resting pulse rate&#8217;&#8217;? Of course, even if you measure your pulse rate while resting, it may vary from day to day and with the time of day. Measure your resting pulse rate at least six times each day (spaced throughout the day) for at least four days. Write a discussion that includes a description of how you made your measurements and an analysis of your data. Based on the data, what would you say when someone asks you what your resting pulse rate is? (If several students do this project, you can discuss variation in pulse rate among a group of individuals as well.)</p>
+<p id="scc9e-part02-p0135" block_type="PR-X-NL"><phrase block_type="CR-X-NL-N-ri">Project 6. Your pulse rate.</phrase> What is your &#8220;resting pulse rate&#8217;&#8217;? Of course, even if you measure your pulse rate while resting, it may vary from day to day and with the time of day. Measure your resting pulse rate at least six times each day (spaced throughout the day) for at least four days. Write a discussion that includes a description of how you made your measurements and an analysis of your data. Based on the data, what would you say when someone asks you what your resting pulse rate is? (If several students do this project, you can discuss variation in pulse rate among a group of individuals as well.)</p>
 </question>
 <question id="scc9e-part02-quest-36">
-<p id="scc9e-part02-p0136" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">Project 7. The dates of coins.</phrase> Coins are stamped with the year in which they were minted. Collect data from at least 50 coins of each denomination: pennies, nickels, dimes, and quarters. Write a description of the distribution of dates on coins now in circulation, including graphs and numerical descriptions. Are there differences among the denominations? Did you find any outliers?</p>
+<p id="scc9e-part02-p0136" block_type="PR-X-NL"><phrase block_type="CR-X-NL-N-ri">Project 7. The dates of coins.</phrase> Coins are stamped with the year in which they were minted. Collect data from at least 50 coins of each denomination: pennies, nickels, dimes, and quarters. Write a description of the distribution of dates on coins now in circulation, including graphs and numerical descriptions. Are there differences among the denominations? Did you find any outliers?</p>
 </question>
 </section>
 </chapter>
