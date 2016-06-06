@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+<title>Example 11.1</title>
+<link href = "../../../../css/boilerplate.css" media="screen" rel="stylesheet" type="text/css" >
+<link href = "../../../../css/jquery-ui-custom.css" media="screen" rel="stylesheet" type="text/css" >
+<link href = "../../../../css/manuscript.css" media="screen" rel="stylesheet" type="text/css" >
+<link href = "../../../../css/digfir_ebook_fw.css" media="screen" rel="stylesheet" type="text/css" >
+<link href = "../../../../css/scc9e.css" media="screen" rel="stylesheet" type="text/css" >
+<link href = "../../../../css/scc9e_ch11.css" media="screen" rel="stylesheet" type="text/css" >
+<link href = "../../../../asset/supp_win.css" media="screen" rel="stylesheet" type="text/css" >
+</head>
+<body id="supp_win">
+<div id="manuscript">
+<div data-type="section" data-block_type="h1">
+<div data-type="box" data-block_type="EXP" data-filename="example_11_1.html" id="scc9e-ch11-box-002"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch11-box-002"></h3>
+<div data-block_type="EXP-T" id="scc9e-ch11-p-09"><p><span data-block_type="EXP-N-ri">EXAMPLE 1</span> How to make a histogram</p></div>
+<div data-block_type="EXP-first" id="scc9e-ch11-p-010"><p><span data-type="link" data-href="table_11_1.html">Table 11.1</span> presents the percentage of residents aged 65 years and over in each of the 50 states. To make a histogram of this distribution, proceed as follows.</p></div>
+<div data-block_type="EXP-first" id="scc9e-ch11-p-011"><p><span data-block_type="cs_bl">Step 1. Divide the range of the data into classes of equal width.</span> The data in <span data-type="link" data-href="table_11_1.html">Table 11.1</span> range from 7.3 to 17.4, so we choose as our classes</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch11-p-012"><p>7.0 &#8804; percentage over 65 &lt; 8.0</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch11-p-013"><p>8.0 &#8804; percentage over 65 &lt; 9.0</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch11-p-014"><p>.</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch11-p-015"><p>.</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch11-p-016"><p>.</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch11-p-017"><p>17.0 &#8804; percentage over 65 &lt; 18.0</p></div>
+<div data-block_type="EXP-ni" id="scc9e-ch11-p-018"><p>Be sure to specify the classes precisely so that each individual falls into exactly one class. In other words, be sure that the classes are <em>exclusive</em> (no individual is in more than one class) and <em>exhaustive</em> (every individual appears in some class). A state with 7.9% of its residents aged 65 or older would fall into the first class, but 8.0% fall into the second.</p></div>
+<div data-type="table" data-filename="table_11_1.html" data-block_type="TABLE" id="scc9e-ch11-tab-1" data-layout-align data-layout-width data-layout-border data-mmsrc data-attr="115">
+<div data-type="table_text">
+<span data-type="number">Table : </span><span data-type="table_caption"><span data-block_type="TBN-N-ri">TABLE 11.1</span> <span data-block_type="TBN-T">Percentage of residents aged 65 and over in the states, July 2008</span></span>
+</div>
+<table><tbody>
+<tr class="bborder">
+<th data-block_type="TB1-COLHD" align="center">State</th>
+<th class="rborder" data-block_type="TB1-COLHD" align="char">Percent</th>
+<th data-block_type="TB1-COLHD" align="center">State</th>
+<th class="rborder" data-block_type="TB1-COLHD" align="char">Percent</th>
+<th data-block_type="TB1-COLHD" align="center">State</th>
+<th data-block_type="TB1-COLHD" align="char">Percent</th>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Alabama</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">13.8</td>
+<td data-block_type="TB1-TXT" align="center">Louisiana</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">12.3</td>
+<td data-block_type="TB1-TXT" align="center">Ohio</td>
+<td data-block_type="TB1-TXT" align="char">13.7</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Alaska</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">7.3</td>
+<td data-block_type="TB1-TXT" align="center">Maine</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">15.1</td>
+<td data-block_type="TB1-TXT" align="center">Oklahoma</td>
+<td data-block_type="TB1-TXT" align="char">13.5</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Arizona</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">13.3</td>
+<td data-block_type="TB1-TXT" align="center">Maryland</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">12.1</td>
+<td data-block_type="TB1-TXT" align="center">Oregon</td>
+<td data-block_type="TB1-TXT" align="char">13.3</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Arkansas</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">14.3</td>
+<td data-block_type="TB1-TXT" align="center">Massachusetts</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">13.4</td>
+<td data-block_type="TB1-TXT" align="center">Pennsylvania</td>
+<td data-block_type="TB1-TXT" align="char">15.4</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">California</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">11.2</td>
+<td data-block_type="TB1-TXT" align="center">Michigan</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">13.0</td>
+<td data-block_type="TB1-TXT" align="center">Rhode Island</td>
+<td data-block_type="TB1-TXT" align="char">14.1</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Colorado</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">10.4</td>
+<td data-block_type="TB1-TXT" align="center">Minnesota</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">12.5</td>
+<td data-block_type="TB1-TXT" align="center">South Carolina</td>
+<td data-block_type="TB1-TXT" align="char">13.3</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Connecticut</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">13.7</td>
+<td data-block_type="TB1-TXT" align="center">Mississippi</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">12.7</td>
+<td data-block_type="TB1-TXT" align="center">South Dakota</td>
+<td data-block_type="TB1-TXT" align="char">14.4</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Delaware</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">13.9</td>
+<td data-block_type="TB1-TXT" align="center">Missouri</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">13.6</td>
+<td data-block_type="TB1-TXT" align="center">Tennessee</td>
+<td data-block_type="TB1-TXT" align="char">13.2</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Florida</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">17.4</td>
+<td data-block_type="TB1-TXT" align="center">Montana</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">14.2</td>
+<td data-block_type="TB1-TXT" align="center">Texas</td>
+<td data-block_type="TB1-TXT" align="char">10.2</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Georgia</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">10.1</td>
+<td data-block_type="TB1-TXT" align="center">Nebraska</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">13.5</td>
+<td data-block_type="TB1-TXT" align="center">Utah</td>
+<td data-block_type="TB1-TXT" align="char">9.0</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Hawaii</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">14.8</td>
+<td data-block_type="TB1-TXT" align="center">Nevada</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">11.4</td>
+<td data-block_type="TB1-TXT" align="center">Vermont</td>
+<td data-block_type="TB1-TXT" align="char">14.0</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Idaho</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">12.0</td>
+<td data-block_type="TB1-TXT" align="center">New Hampshire</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">12.9</td>
+<td data-block_type="TB1-TXT" align="center">Virginia</td>
+<td data-block_type="TB1-TXT" align="char">12.1</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Illinois</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">12.2</td>
+<td data-block_type="TB1-TXT" align="center">New Jersey</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">13.3</td>
+<td data-block_type="TB1-TXT" align="center">Washington</td>
+<td data-block_type="TB1-TXT" align="char">12.0</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Indiana</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">12.8</td>
+<td data-block_type="TB1-TXT" align="center">New Mexico</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">13.1</td>
+<td data-block_type="TB1-TXT" align="center">West Virginia</td>
+<td data-block_type="TB1-TXT" align="char">15.7</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Iowa</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">14.8</td>
+<td data-block_type="TB1-TXT" align="center">New York</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">13.4</td>
+<td data-block_type="TB1-TXT" align="center">Wisconsin</td>
+<td data-block_type="TB1-TXT" align="char">13.3</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Kansas</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">13.1</td>
+<td data-block_type="TB1-TXT" align="center">North Carolina</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">12.4</td>
+<td data-block_type="TB1-TXT" align="center">Wyoming</td>
+<td data-block_type="TB1-TXT" align="char">12.3</td>
+</tr>
+<tr class="bborder">
+<td data-block_type="TB1-TXT" align="center">Kentucky</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">13.3</td>
+<td data-block_type="TB1-TXT" align="center">North Dakota</td>
+<td class="rborder" data-block_type="TB1-TXT" align="char">14.7</td>
+<td data-block_type="TB1-TXT" align="center"></td>
+<td data-block_type="TB1-TXT" align="center"></td>
+</tr>
+<tr>
+<td data-block_type="TBN-SC" colspan="6">
+<em>Source</em>: <em>2010 Statistical Abstract of the United States</em>; available online at <span data-type="link" data-href="http://www.census.gov/library/publications/2009/compendia/statab/129ed.html">www.census.gov/library/publications/2009/compendia/statab/129ed.html.</span>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div data-margin-content="right" data-block_type="page_start" id="scc9e_page_245"><p>245</p></div>
+<div data-block_type="EXP-first" id="scc9e-ch11-p-020"><p><span data-block_type="cs_bl">Step 2. Count the number of individuals in each class.</span> Here are the counts:</p></div>
+<div data-type="table" data-block_type="UN-TABLE" id="scc9e-ch11-untab-1" data-layout-align data-layout-width data-layout-border data-mmsrc data-attr="93"><table><tbody>
+<tr class="tborder">
+<th data-block_type="TB1-COLHD" align="center">Class</th>
+<th class="rborder" data-block_type="TB1-COLHD" align="center">Count</th>
+<th data-block_type="TB1-COLHD" align="center">Class</th>
+<th class="rborder" data-block_type="TB1-COLHD" align="center">Count</th>
+<th data-block_type="TB1-COLHD" align="center">Class</th>
+<th data-block_type="TB1-COLHD" align="center">Count</th>
+</tr>
+<tr class="tborder">
+<td data-block_type="TB1-TXT" align="center">7.0 to 7.9</td>
+<td class="rborder" data-block_type="TB1-TXT" align="center">1</td>
+<td data-block_type="TB1-TXT" align="center">11.0 to 11.9</td>
+<td class="rborder" data-block_type="TB1-TXT" align="center">2</td>
+<td data-block_type="TB1-TXT" align="center">15.0 to 15.9</td>
+<td data-block_type="TB1-TXT" align="center">3</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">8.0 to 8.9</td>
+<td class="rborder" data-block_type="TB1-TXT" align="center">0</td>
+<td data-block_type="TB1-TXT" align="center">12.0 to 12.9</td>
+<td class="rborder" data-block_type="TB1-TXT" align="center">12</td>
+<td data-block_type="TB1-TXT" align="center">16.0 to 16.9</td>
+<td data-block_type="TB1-TXT" align="center">0</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">9.0 to 9.9</td>
+<td class="rborder" data-block_type="TB1-TXT" align="center">1</td>
+<td data-block_type="TB1-TXT" align="center">13.0 to 13.9</td>
+<td class="rborder" data-block_type="TB1-TXT" align="center">19</td>
+<td data-block_type="TB1-TXT" align="center">17.0 to 17.9</td>
+<td data-block_type="TB1-TXT" align="center">1</td>
+</tr>
+<tr class="bborder">
+<td data-block_type="TB1-TXT" align="center">10.0 to 10.9</td>
+<td class="rborder" data-block_type="TB1-TXT" align="center">3</td>
+<td data-block_type="TB1-TXT" align="center">14.0 to 14.9</td>
+<td class="rborder" data-block_type="TB1-TXT" align="center">8</td>
+<td data-block_type="TB1-TXT" align="center"></td>
+<td data-block_type="TB1-TXT" align="center"></td>
+</tr>
+</tbody></table></div>
+<div data-block_type="EXP-first" id="scc9e-ch11-p-021"><p><span data-block_type="cs_bl">Step 3. Draw the histogram.</span> Mark on the horizontal axis the scale for the variable whose distribution you are displaying. That&#8217;s &#8220;percentage of residents aged 65 and over&#8221; in this example. The scale runs from 5 to 20 because that range spans the classes we chose. The vertical axis contains the scale of counts. Each bar represents a class. The base of the bar covers the class, and the bar height is the class count. There is no horizontal space between the bars unless a class is empty, so that its bar has height zero. <span data-type="link" data-href="figure_11_1.html">Figure 11.1</span> is our histogram.</p></div>
+</div></div>
+</div>
+</div>
+<script type="text/javascript" src="../../../../js/utilities.js"></script>
+<script type = "text/javascript" src="../../../../js/query_types.js"></script>
+<script type = "text/javascript" src="../../../../js/player.js"></script>
+<script type = "text/javascript" src="../../../../js/jquery.js"></script>
+<script type = "text/javascript" src="../../../../js/jquery-ui-1.8.16.custom.min.js"></script>
+<script type = "text/javascript" src="../../../../js/jquery_extensions.js"></script>
+<script type = "text/javascript" src="../../../../js/swfobject.js"></script>
+<script type = "text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script type = "text/javascript" src="../../../../js/digfir_ebook_fw.js"></script>
+<script type = "text/javascript" src="../../../../js/scc9e.js"></script>
+<script type = "text/javascript" src="../../../../js/scc9e_ch11.js"></script>
+<script type = "text/javascript" src="../../../supp_win.js"></script>
+<script type = "text/javascript">
+
+//<!--
+$(window).ready(function ()
+    {
+        player.initialize('52c6e83c757a2ef70c000000');
+    });
+//-->
+</script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+    <title>scc9e_ch15</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link href="css/boilerplate.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/jquery-ui-custom.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/manuscript.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/digfir_ebook_fw.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/scc9e.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/scc9e_ch15.css" media="screen" rel="stylesheet" type="text/css" >    
+    
+    </head>
+<body class="noUi">
+<div id="manuscript" data-chapter-number="15">
+    <div data-type="section" data-block_type="h1" id="scc9e-ch15-sec1-003" level="1" data-print_page="344">
+<h2 class="section-title"><span data-type="title" data-title-for="scc9e-ch15-sec1-003">Understanding prediction
+</span></h2>
+
+<div data-block_type="TXT-ni" id="scc9e-ch15-p043"><p>Computers make prediction easy and automatic, even from very large sets of data. Anything that can be done automatically is often done thoughtlessly. Regression software will happily fit a straight line to a curved relationship, for example. Also, the computer cannot decide which is the explanatory variable and which is the response variable. This is important because the same data give two different lines depending on which is the explanatory variable.</p></div>
+<div data-block_type="TXT" id="scc9e-ch15-p044"><p>In practice, we often use several explanatory variables to predict a response. As part of its admissions process, a college might use SAT Math and Verbal scores and high school grades in English, math, and science (five explanatory variables) to predict first-year college grades. Although the details are messy, all statistical methods of predicting a response share some basic properties of least-squares regression lines.</p></div>
+<ul data-block_type="bluebullet" id="scc9e-ch15-list-001">
+<li><div data-block_type="BL-first" id="scc9e-ch15-p045"><p><span data-block_type="maker">•</span> <strong>Prediction is based on fitting some “model” to a set of data.</strong> In <span data-type="link" data-href="figure_15_1.html">Figure 15.1</span> and <span data-type="link" data-href="figure_15_2.html">15.2</span>, our model is a straight line that we draw through the points in a scatterplot. Other prediction methods use more elaborate models.</p></div>
+<div data-margin-content="right" data-block_type="page_start" id="scc9e_page_345"><p>345</p></div>
+</li>
+<li><div data-block_type="BL-mid" id="scc9e-ch15-p047"><p><span data-block_type="maker">•</span> <strong>Prediction works best when the model fits the data closely.</strong> Compare again <span data-type="link" data-href="figure_15_1.html">Figure 15.1</span>, where the data closely follow a line, with <span data-type="link" data-href="figure_15_2.html">Figure 15.2</span>, where they do not. Prediction is more trustworthy in <span data-type="link" data-href="figure_15_1.html">Figure 15.1</span>. Also, it is not so easy to see patterns when there are many variables, but if the data do not have strong patterns, prediction may be very inaccurate.</p></div></li>
+<li><div data-block_type="BL-last" id="scc9e-ch15-p048"><p><span data-block_type="maker">•</span> <strong>Prediction outside the range of the available data is risky.</strong> Suppose that you have data on a child’s growth between three and eight years of age. You find a strong straight-line relationship between age <em>x</em> and height <em>y</em>. If you fit a regression line to these data and use it to predict height at age 25 years, you will predict that the child will be 8 feet tall. Growth slows down and stops at maturity, so extending the straight line to adult ages is foolish. No one would make this mistake in predicting height. But almost all economic predictions try to tell us what will happen next quarter or next year. No wonder economic predictions are often wrong. Prediction outside the range of available data is referred to as extrapolation. Beware of <strong>extrapolation</strong>!</p></div></li>
+</ul>
+<div data-type="box" data-block_type="EXP" data-filename="example_15_4.html" id="scc9e-ch15-box-009"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch15-box-009"></h3>
+<div data-block_type="EXP-T" id="scc9e-ch15-p049"><p><span data-block_type="EXP-N-ri">EXAMPLE 4</span> Predicting the national deficit</p></div>
+<div data-block_type="EXP-first" id="scc9e-ch15-p050"><p>The Congressional Budget Office is required to submit annual reports that predict the federal budget and its deficit or surplus for the next five years. These forecasts depend on future economic trends (unknown) and on what Congress will decide about taxes and spending (also unknown). Even the prediction of the state of the budget if current policies are not changed has been wildly inaccurate. The forecast made in January 2008 for 2012, for example, underestimated the deficit by nearly $1000 billion! The January 2009 forecast for 2013 underestimated the deficit by $423 billion, but the January 2010 forecast for 2014 underestimated the deficit by only $8 billion. As Senator Everett Dirksen once said, “A billion here and a billion there and pretty soon you are talking real money.” In 1999, the Budget Office was predicting a surplus (ignoring Social Security) of $996 billion over the following 10 years. Politicians debated what to do with the money, but no one else believed the prediction (correctly, as it turned out). In 2012, there was a $1087 billion deficit; in 2013, a $680 billion deficit; and in 2014, a $483 billion deficit. The forecast in January 2015 is for a $652 billion deficit in 2019. Time will tell how accurate this forecast is.</p></div>
+</div></div>
+</div>
+<!-- #x-digfir-subsection-insertion-point --></div><!-- /#manuscript -->
+<br class="clear" />
+<!-- end of material in original view -->
+
+	<!--[if IE]><script type="text/javascript" src="js/excanvas.compiled.js"></script><![endif]-->
+    
+<script type="text/javascript" src="js/utilities.js"></script>
+<script type="text/javascript" src="js/query_types.js"></script>
+<script type="text/javascript" src="js/player.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery_extensions.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script type="text/javascript" src="js/digfir_ebook_fw.js"></script>
+<script type="text/javascript" src="js/scc9e.js"></script>
+<script type="text/javascript" src="js/scc9e_ch15.js"></script>
+<script type="text/javascript">
+    //<!--
+    
+$(window).ready(function () {
+	player.initialize('574de548757a2ef30e000000');
+});
+    //-->
+</script>
+</body>
+</html>
+

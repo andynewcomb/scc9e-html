@@ -1,8 +1,9 @@
 ﻿// Color variables
 @med-blue: #008db7;        // Appears 23 times
-@dk-blue2: #025bab;        // Appears 8 times
-@dk-blue: #005bab;         // Appears 7 times
-@brick-red: #ef3b23;       // Appears 7 times
+@dk-blue2: #005BAA;        // Appears 8 times
+@dk-blue: #005BAA;         // Appears 7 times
+@tracy-blue: #2262AE;
+@brick-red: #EF3E23;       // Appears 7 times
 @dk-green-gray: #485f6b;   // Appears 2 times
 
 // Width variables
@@ -21,6 +22,7 @@ body {
 	margin-right: auto;
 	position: relative;
 	width: 985px;
+    padding-top:50px;
 }
 div[data-type="section"] {
 	margin-left: auto;
@@ -53,6 +55,9 @@ h2 {
 p {
     margin: 0;
 }
+// unnumbered figures won't be clickable
+div[data-block_type="UN-FIGURE"] img {cursor:default !important;}
+
 
 /* only for sample ... move to chapter css, or remove when ready */
 [data-title-for="moorescc9e-ch1-sec1-4"] {
@@ -67,16 +72,16 @@ p {
 	display: none;
 }
 td[align="left"] {
-	text-align: center;
+	text-align: left;
 }
 th[align="left"] {
-	text-align: center;
+	text-align: left;
 }
 td[align="right"] {
-	text-align: center;
+	text-align: right;
 }
 th[align="right"] {
-	text-align: center;
+	text-align: right;
 }
 #print_page_box {
 	display: block;
@@ -116,6 +121,97 @@ span[data_href] {
 	}
 }
 
+/* part review */
+div[data-type="section"][data-block_type="part"] {
+    h2 {
+        display:none;
+    }
+    div[data-block_type="PR-N"] p {
+        color:@brick-red;
+        border-bottom:4px double black;
+        font-family: "arial",sans-serif;
+        font-size: 2em;
+        margin-bottom: 1.2em;
+        padding-bottom: 0.15em;
+    }
+    [data-block_type="drop"] {
+        color: #fdb315;
+        float: left;
+        font-size: 90px;
+        line-height: 78px;
+        text-shadow: 0 -1px black, 0 1px black, 1px 0 black, -1px 0 black;
+        font-family:arial, sans-serif;
+    }
+}
+/* part summary/exercises/projects */ 
+div[data-type="section"][data-block_type="PR-SUM-H"] {
+    h2 {
+	    border-bottom: 5px solid @brick-red;
+	    color: @dk-blue;
+	    font-family: "arial",sans-serif;
+	    font-size: 1.05em;
+	    font-weight: normal;
+	    text-transform: uppercase;
+        padding: 10px 0;
+        [data-block_type="PR-SUM-N-ri"] {
+	        color: @dk-blue;
+            font-weight:bold;
+        }        
+    }
+    ol {
+        margin-left:0;
+        list-style-type:none;
+        [data-block_type="maker"] {
+            font-weight:bold;
+         }
+    }
+    [data-type="question"] {
+	    margin-bottom: 3em;
+	    margin-top: 2em;
+        text-align: justify;
+        h3 {
+	        display: none;
+        }
+        [src="asset/global_images/news.jpg"] {
+	        float: left;
+	        margin-right: 10px;
+	        width: @news-width;
+        }
+        [data-block_type="CR-X-NL-N-ri"] {
+	        color: @brick-red;
+	        font-family: "arial",sans-serif;
+	        font-weight: normal;
+	        &:hover {
+		        cursor: pointer;
+		        text-decoration: underline;
+	        }
+        }
+        ol[data-block_type="numbered"] {
+	        list-style-type: none;
+	        margin-left: 0;
+            li {
+                margin: 6px 0;
+                [data-block_type="maker"] {
+                    font-weight:normal;
+                }
+            }
+        }
+        ol[data-block_type="lower-alpha"] {
+	        list-style-type: none;
+	        margin-left: 0;
+            li {
+                margin: 6px 0;
+                [data-block_type="maker"] {
+                    font-weight:normal;
+                }
+            }
+        }
+        ul[data-block_type="none"] {
+	        list-style-type: none;
+        }
+    }
+}
+
 /* part openers */
 div[data-type="section"][data-block_type="part_intro"] {
 	background-image: url(../asset/css/partbg.png);
@@ -150,7 +246,7 @@ div[data-type="section"][data-block_type="part_intro"] {
 	    margin-bottom: .5em;
     }
     [data-block_type="drop"] {
-	    color: #fdb315;
+	    color: #FCB316;
 	    float: left;
 	    font-size: 90px;
 	    line-height: 65px;
@@ -161,6 +257,7 @@ div[data-type="section"][data-block_type="part_intro"] {
 	    font-size: .9em;
 	    text-align: justify;
     }
+    [data-block_type="PO-TXT"] p {text-indent:1.5em;}
 }
 
 /* chapter intros */
@@ -201,52 +298,70 @@ div[data-type="section"][data-block_type="chapter"] {
         [data-type="asset_source"] {
 	        display: none;
         }
+        img {
+            cursor:default !important;
+        }
     }
     /* case study box */
-    div[data-block_type="BX4"] {
-        font-family: "arial",sans-serif;
+        
         div[data-block_type="BX4-H-ri"] {
-	        background-color: white;
+            font-family: "arial",sans-serif;
+	        background-color: transparent;
 	        padding-top: 2em;
+            h3 {
+            display: none;
+            }
+            span[data-block_type="BX4-H-ri"] {
+	            color: @dk-blue;
+	            font-weight: bold;
+            }
             p {
 	            color: @dk-green-gray;
 	            font-family: "arial",sans-serif;
 	            font-size: 0.92em;
 	            text-align: justify;
             }
+            div[data-block_type="BX4-TXT-I"] p {
+	            text-indent: 1.5em;
+          
+            }
+            table {
+                font-family: "arial",sans-serif;
+            }
         }
-        div[data-block_type="BX4-TXT"] p {
-	        text-indent: 1.5em;
-        }
-    }
+        
+    
     // another case box NOT in BX4 parent
-    div[data-block_type="BX4-H-ri"] {
-	    font-family: "arial",sans-serif;
-        background-color: transparent;
-        h3 {
-            display: none;
+    
+        
+     ol[data-block_type="numbered"] {
+        list-style-type: none;
+        margin-left:0;
+        span[data-block_type="maker"] {
+            font-weight:bold;
         }
-        div[data-block_type="BX4-TXT-I"] p {
-	        text-indent: 1.5em;
-            font-family: "arial",sans-serif;
-        }
-        table {
-            font-family: "arial",sans-serif;
+        > li > div > p {
+            margin-top:1em;
+            margin-bottom:1em;
         }
     }
+    ul[data-block_type="bluebullet"] {
+	    list-style-type: none;
+	    margin-left: 1em;
+	    margin-top: 0em;
+        span[data-block_type="maker"] {
+	        color: @dk-blue;
+	        margin-left: -20px;
+	        position: absolute;
+        }
+        li  {
+            margin: .5em 0;
+        }
+    }
+    
 }
 
-span[data-block_type="BX4-H-ri"] {
-	color: @dk-blue;
-	font-weight: bold;
-    div[data-block_type="BX4-TXT-I"] p {
-	    text-indent: 1.5em;
-        font-family: "arial",sans-serif;
-    }
-    table {
-        font-family: "arial",sans-serif;
-    }
-}
+
 
 div[data-type="section"][data-block_type="h1"] {
 	width: @section-width;
@@ -283,7 +398,7 @@ div[data-type="section"][data-block_type="h1"] {
 	        border-bottom: 1px solid black;
 	        border-left: 1px solid black;
 	        border-right: 1px solid black;
-	        border-top: 4px solid red;
+	        border-top: 4px solid @brick-red;
 	        padding-left: 18px;
 	        padding-right: 18px;
             padding-bottom: 10px;
@@ -292,7 +407,7 @@ div[data-type="section"][data-block_type="h1"] {
 	    display: none;
         }
         [data-block_type="BX1-T"] p {
-	        color: red;
+	        color: @brick-red;
 	        font-family: "arial",sans-serif;
 	        font-size: 1.05em;
 	        margin-bottom: .5em;
@@ -369,6 +484,25 @@ div[data-type="section"][data-block_type="h1"] {
 	        position: relative;
 	        width: 90px;
         }
+        [src="asset/global_images/BPS6e_nugget_icon.jpg"] {
+	        bottom: 31px;
+	        float: left;
+	        margin-bottom: -31px;
+	        padding-right: 7px;
+	        position: relative;
+	        width: 90px;
+        }
+    }
+    ol[data-block_type="numbered"] {
+        list-style-type: none;
+        margin-left:0;
+        span[data-block_type="maker"] {
+            font-weight:bold;
+        }
+        > li > div > p {
+            margin-top:1em;
+            margin-bottom:1em;
+        }
     }
 }
 
@@ -408,15 +542,32 @@ div[data-type="section"][data-block_type="h1"] {
     ul[data-block_type="none"] {
         list-style-type: none;
     }
+    ol[data-block_type="numbered"] {
+        list-style-type: none;
+    }
+    //centered, numbered figures in examples - putting white space over the example border
+    div[data-caption-compass="S"] {
+        background-color:white;
+        margin-left:-17px;
+        padding-left:17px;
+        margin-bottom:0;
+        padding-bottom:2em;
+        margin-top:0;
+        padding-top:2em;
+    }
+    //steps have bold titles
+    span[data-block_type="cs_bl"] {
+        font-weight:bold;
+    }
 }
 
 [data-block_type="MN-TXT"] p {
 	font-family: "arial",sans-serif;
 	font-size: .75em;
 	margin-bottom: 0em;
-	text-align: justify;
+	text-align: left;
     [data-block_type="MN-T-ri"] {
-	    color: red;
+	    color: @brick-red;
 	    font-size: 1.1em;
 	    font-weight: bold;
     }
@@ -487,6 +638,7 @@ div[data-block_type="BX3"] {
         font-size: 1.1em;
         font-weight: bold;
         margin-bottom: .5em;
+        margin-top: .5em;
     }
     [data-block_type="BX3-TXT-ni"] {
 	    text-align: justify;
@@ -606,9 +758,13 @@ div[data-block_type="TABLE"] {
 	        color: @med-blue;
 	        font-weight: bold;
         }
+        [data-block_type="TBN-N"] {
+	        color: @med-blue;
+	        font-weight: bold;
+        }
     }
 
-    [data-type="table"] {
+    &[data-type="table"] {
         background-color: transparent;
         table {
 	        background-color: transparent;
@@ -669,15 +825,15 @@ div[data-block_type="TABLE"] {
 /* Summary sections */
 div[data-type="section"][data-block_type="SUM-H"] {
     h2 {
-	    border-bottom: 5px solid @dk-blue;
-	    color: @dk-blue;
+	    border-bottom: 5px solid @tracy-blue;
+	    color: @tracy-blue;
 	    font-family: "arial",sans-serif;
 	    font-size: 1.05em;
 	    font-weight: normal;
 	    text-transform: uppercase;
         padding: 10px 0;
         [data-block_type="SUM-H-ri"] {
-	        color: @dk-blue;
+	        color: @tracy-blue;
         }
     }
     /* added block type for indention */
@@ -792,10 +948,10 @@ div[data-type="section"][data-block_type="SUM-H"] {
 	    float: left;
 	    padding-right: 10px;
 	    position: relative;
-	    top: 5px;
+	    top: -2px;
     }
     [data-block_type="CR-BIB-T"] strong {
-	    color: red;
+	    color: @brick-red;
 	    font-family: "arial",sans-serif;
 	    font-weight: normal;
     }
@@ -804,7 +960,7 @@ div[data-type="section"][data-block_type="SUM-H"] {
 	    margin-left: 1em;
 	    margin-top: .5em;
         span[data-block_type="maker"] {
-	        color: red;
+	        color: @brick-red;
 	        margin-left: -20px;
 	        position: absolute;
         }
@@ -919,6 +1075,8 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] {
     margin-left: auto;
     margin-right: auto;
     border: 0;
+    padding:0;
+    border-radius:0;
 }
 
 /* numbered figures */
@@ -935,11 +1093,50 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] {
             color: @med-blue;
         }
     }
+    /* funky numbered figures that are floated into the margin, but have caption centered in main text    */
+    &[align="left"] {margin-top:0;}
 }
+/*centered equations*/
+div[data-block_type="EQ"], div[data-block_type="EXP-EQ"] {
+    margin-top:1em;
+    margin-bottom:1em;
+    text-align:center;
+}
+
 /* remove all credit lines -- are there any exceptions to this general rule? */
 [data-type="asset_source"] {
 	display: none;
 }
 
+// center all the images that have compass="S" and have a natural width smaller than the main width
+div[data-caption-compass="S"] {
+    min-width:675px;
+    > img {
+        margin-left:auto;margin-right:auto;
+    }
+    div[data-type="figure_text"] {
+        min-width:675px;
+    }
+}
+
+[data-type="figure"][data-layout-border="false"][data-caption-compass="SW"] {
+    width: 985px;
+    position: relative;
+    left: -310px;
+    div[data-type="figure_text"] {
+        display:table-cell;
+        vertical-align:bottom;
+        width:250px;
+        padding-right:60px;
+    }
+    .compassImg {
+        display:table-cell;
+        width:675px;
+        img {
+            margin-left:auto;margin-right:auto;
+        }
+    }
+
+}
 
 

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<manifest id="scc9e" timestamp="1461789104" supp_win="0"><manuscript id="570e8e35757a2efc24000000" title="Chapter 1: Where Do Data Come From?" question-delivery-method="ARGA" number="1">
+<manifest id="scc9e" timestamp="1464723327" supp_win="0"><manuscript id="570e8e35757a2efc24000000" title="Chapter 1: Where Do Data Come From?" question-delivery-method="ARGA" number="1">
     <section id="scc9e-ch01-sec-01" folder="false" filename="scc9e_ch1_1.html" dlapFilename="scc9e_ch1_1_dlap.xml" numquestions="0">
       <title>PART I</title>
     </section>
@@ -30,28 +30,27 @@
     <section id="scc9e-ch01-sec-10" folder="false" filename="scc9e_ch1_10.html" dlapFilename="scc9e_ch1_10_dlap.xml" numquestions="0">
       <title>CHAPTER 1 EXERCISES</title>
     </section>
-  </manuscript><manuscript id="57100d67757a2e053a000001" title="Chapter 12: Describing Distributions with Numbers" question-delivery-method="ARGA" number="269">
-    <section title="Producing Data" id="moorescc9e-ch12-sec1-01" folder="false" filename="scc9e_ch12_1.html" dlapFilename="scc9e_ch12_1_dlap.xml" numquestions="0"/>
-    <section id="moorescc9e-ch12-sec1-02" folder="false" filename="scc9e_ch12_2.html" dlapFilename="scc9e_ch12_2_dlap.xml" numquestions="0">
-      <title>Median and quartiles</title>
+  </manuscript><manuscript id="570e97de757a2ed91c00000f" title="Chapter 2: Samples, Good and Bad" question-delivery-method="ARGA" number="2">
+    <section title="Samples, Good and Bad" id="scc9e-ch02-sec-01" folder="false" filename="scc9e_ch2_1.html" dlapFilename="scc9e_ch2_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch02-sec-02" folder="false" filename="scc9e_ch2_2.html" dlapFilename="scc9e_ch2_2_dlap.xml" numquestions="0">
+      <title>How to sample badly</title>
     </section>
-    <section id="moorescc9e-ch12-sec1-03" folder="false" filename="scc9e_ch12_3.html" dlapFilename="scc9e_ch12_3_dlap.xml" numquestions="0">
-      <title>The five-number summary and boxplots</title>
+    <section id="scc9e-ch02-sec-03" folder="false" filename="scc9e_ch2_3.html" dlapFilename="scc9e_ch2_3_dlap.xml" numquestions="0">
+      <title>Simple random samples</title>
     </section>
-    <section id="moorescc9e-ch12-sec1-04" folder="false" filename="scc9e_ch12_4.html" dlapFilename="scc9e_ch12_4_dlap.xml" numquestions="0">
-      <title>Mean and standard deviation</title>
+    <section id="scc9e-ch02-sec-04" folder="false" filename="scc9e_ch2_4.html" dlapFilename="scc9e_ch2_4_dlap.xml" numquestions="0">
+      <title>Can you trust a sample?</title>
     </section>
-    <section id="moorescc9e-ch12-sec1-05" folder="false" filename="scc9e_ch12_5.html" dlapFilename="scc9e_ch12_5_dlap.xml" numquestions="0">
-      <title>Choosing numerical descriptions</title>
+    <section id="scc9e-ch02-sec-05" folder="false" filename="scc9e_ch2_5.html" dlapFilename="scc9e_ch2_5_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
     </section>
-    <section id="moorescc9e-ch12-sec1-06" folder="false" filename="scc9e_ch12_6.html" dlapFilename="scc9e_ch12_6_dlap.xml" numquestions="0">
-      <title><phrase block_type="SUM-H-ri"><strong>STATISTICS</strong></phrase> IN SUMMARY</title>
-    </section>
-    <section id="moorescc9e-ch12-sec1-07" folder="false" filename="scc9e_ch12_7.html" dlapFilename="scc9e_ch12_7_dlap.xml" numquestions="0">
+    <section id="scc9e-ch02-sec-06" folder="false" filename="scc9e_ch2_6.html" dlapFilename="scc9e_ch2_6_dlap.xml" numquestions="0">
       <title>CHECK THE BASICS</title>
     </section>
-    <section id="moorescc9e-ch12-sec1-08" folder="false" filename="scc9e_ch12_8.html" dlapFilename="scc9e_ch12_8_dlap.xml" numquestions="0">
-      <title>CHAPTER 12 EXERCISES</title>
+    <section id="scc9e-ch02-sec-07" folder="false" filename="scc9e_ch2_7.html" dlapFilename="scc9e_ch2_7_dlap.xml" numquestions="0">
+      <title>CHAPTER 2 EXERCISES</title>
     </section>
   </manuscript><manuscript id="571b96fe757a2eb002000000" title="Chapter 3: What Do Samples Tell Us?" question-delivery-method="ARGA" number="3">
     <section title="What Do Samples Tell Us?" id="scc9e-ch03-sec-01" folder="false" filename="scc9e_ch3_1.html" dlapFilename="scc9e_ch3_1_dlap.xml" numquestions="0"/>
@@ -183,26 +182,338 @@
     <section id="scc9e-ch06-sec-10" folder="false" filename="scc9e_ch6_10.html" dlapFilename="scc9e_ch6_10_dlap.xml" numquestions="0">
       <title>CHAPTER 6 EXERCISES</title>
     </section>
-  </manuscript><manuscript id="570e97de757a2ed91c00000f" title="Chapter 2: Samples, Good and Bad" question-delivery-method="ARGA" number="2">
-    <section title="Samples, Good and Bad" id="scc9e-ch02-sec-01" folder="false" filename="scc9e_ch2_1.html" dlapFilename="scc9e_ch2_1_dlap.xml" numquestions="0"/>
-    <section id="scc9e-ch02-sec-02" folder="false" filename="scc9e_ch2_2.html" dlapFilename="scc9e_ch2_2_dlap.xml" numquestions="0">
-      <title>How to sample badly</title>
+  </manuscript><manuscript id="57337e4f757a2e0b03000000" title="Chapter 7: Data Ethics" question-delivery-method="ARGA" number="7">
+    <section title="Data Ethics" id="scc9e-ch07-sec-01" folder="false" filename="scc9e_ch7_1.html" dlapFilename="scc9e_ch7_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch07-sec-02" folder="false" filename="scc9e_ch7_2.html" dlapFilename="scc9e_ch7_2_dlap.xml" numquestions="0">
+      <title>First principles</title>
     </section>
-    <section id="scc9e-ch02-sec-03" folder="false" filename="scc9e_ch2_3.html" dlapFilename="scc9e_ch2_3_dlap.xml" numquestions="0">
-      <title>Simple random samples</title>
+    <section id="scc9e-ch07-sec-03" folder="false" filename="scc9e_ch7_3.html" dlapFilename="scc9e_ch7_3_dlap.xml" numquestions="0">
+      <title>Institutional review boards</title>
     </section>
-    <section id="scc9e-ch02-sec-04" folder="false" filename="scc9e_ch2_4.html" dlapFilename="scc9e_ch2_4_dlap.xml" numquestions="0">
-      <title>Can you trust a sample?</title>
+    <section id="scc9e-ch07-sec-04" folder="false" filename="scc9e_ch7_4.html" dlapFilename="scc9e_ch7_4_dlap.xml" numquestions="0">
+      <title>Informed consent</title>
     </section>
-    <section id="scc9e-ch02-sec-05" folder="false" filename="scc9e_ch2_5.html" dlapFilename="scc9e_ch2_5_dlap.xml" numquestions="0">
+    <section id="scc9e-ch07-sec-05" folder="false" filename="scc9e_ch7_5.html" dlapFilename="scc9e_ch7_5_dlap.xml" numquestions="0">
+      <title>Confidentiality</title>
+    </section>
+    <section id="scc9e-ch07-sec-06" folder="false" filename="scc9e_ch7_6.html" dlapFilename="scc9e_ch7_6_dlap.xml" numquestions="0">
+      <title>Clinical trials</title>
+    </section>
+    <section id="scc9e-ch07-sec-07" folder="false" filename="scc9e_ch7_7.html" dlapFilename="scc9e_ch7_7_dlap.xml" numquestions="0">
+      <title>Behavioral and social science experiments</title>
+    </section>
+    <section id="scc9e-ch07-sec-08" folder="false" filename="scc9e_ch7_8.html" dlapFilename="scc9e_ch7_8_dlap.xml" numquestions="0">
       <title>
         <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
       </title>
     </section>
-    <section id="scc9e-ch02-sec-06" folder="false" filename="scc9e_ch2_6.html" dlapFilename="scc9e_ch2_6_dlap.xml" numquestions="0">
+    <section id="scc9e-ch07-sec-09" folder="false" filename="scc9e_ch7_9.html" dlapFilename="scc9e_ch7_9_dlap.xml" numquestions="0">
       <title>CHECK THE BASICS</title>
     </section>
-    <section id="scc9e-ch02-sec-07" folder="false" filename="scc9e_ch2_7.html" dlapFilename="scc9e_ch2_7_dlap.xml" numquestions="0">
-      <title>CHAPTER 2 EXERCISES</title>
+    <section id="scc9e-ch07-sec-10" folder="false" filename="scc9e_ch7_10.html" dlapFilename="scc9e_ch7_10_dlap.xml" numquestions="0">
+      <title>CHAPTER 7 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="57337f30757a2e3d03000002" title="Chapter 8: Measuring" question-delivery-method="ARGA" number="8">
+    <section title="Measuring" id="scc9e-ch08-sec-01" folder="false" filename="scc9e_ch8_1.html" dlapFilename="scc9e_ch8_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch08-sec-02" folder="false" filename="scc9e_ch8_2.html" dlapFilename="scc9e_ch8_2_dlap.xml" numquestions="0">
+      <title>Measurement basics</title>
+    </section>
+    <section id="scc9e-ch08-sec-03" folder="false" filename="scc9e_ch8_3.html" dlapFilename="scc9e_ch8_3_dlap.xml" numquestions="0">
+      <title>Know your variables</title>
+    </section>
+    <section id="scc9e-ch08-sec-04" folder="false" filename="scc9e_ch8_4.html" dlapFilename="scc9e_ch8_4_dlap.xml" numquestions="0">
+      <title>Measurements, valid and invalid</title>
+    </section>
+    <section id="scc9e-ch08-sec-05" folder="false" filename="scc9e_ch8_5.html" dlapFilename="scc9e_ch8_5_dlap.xml" numquestions="0">
+      <title>Measurements, accurate and inaccurate</title>
+    </section>
+    <section id="scc9e-ch08-sec-06" folder="false" filename="scc9e_ch8_6.html" dlapFilename="scc9e_ch8_6_dlap.xml" numquestions="0">
+      <title>Improving reliability, reducing bias</title>
+    </section>
+    <section id="scc9e-ch08-sec-07" folder="false" filename="scc9e_ch8_7.html" dlapFilename="scc9e_ch8_7_dlap.xml" numquestions="0">
+      <title>Pity the poor psychologist</title>
+    </section>
+    <section id="scc9e-ch08-sec-08" folder="false" filename="scc9e_ch8_8.html" dlapFilename="scc9e_ch8_8_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch08-sec-09" folder="false" filename="scc9e_ch8_9.html" dlapFilename="scc9e_ch8_9_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch08-sec-10" folder="false" filename="scc9e_ch8_10.html" dlapFilename="scc9e_ch8_10_dlap.xml" numquestions="0">
+      <title>CHAPTER 8 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="573380ae757a2ec303000002" title="Chapter 9: Do the Numbers Make Sense?" question-delivery-method="ARGA" number="9">
+    <section title="Do the Numbers Make Sense?" id="scc9e-ch09-sec-01" folder="false" filename="scc9e_ch9_1.html" dlapFilename="scc9e_ch9_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch09-sec-02" folder="false" filename="scc9e_ch9_2.html" dlapFilename="scc9e_ch9_2_dlap.xml" numquestions="0">
+      <title>What didn&#x2019;t they tell us?</title>
+    </section>
+    <section id="scc9e-ch09-sec-03" folder="false" filename="scc9e_ch9_3.html" dlapFilename="scc9e_ch9_3_dlap.xml" numquestions="0">
+      <title>Are the numbers consistent with each other?</title>
+    </section>
+    <section id="scc9e-ch09-sec-04" folder="false" filename="scc9e_ch9_4.html" dlapFilename="scc9e_ch9_4_dlap.xml" numquestions="0">
+      <title>Are the numbers plausible?</title>
+    </section>
+    <section id="scc9e-ch09-sec-05" folder="false" filename="scc9e_ch9_5.html" dlapFilename="scc9e_ch9_5_dlap.xml" numquestions="0">
+      <title>Are the numbers too good to be true?</title>
+    </section>
+    <section id="scc9e-ch09-sec-06" folder="false" filename="scc9e_ch9_6.html" dlapFilename="scc9e_ch9_6_dlap.xml" numquestions="0">
+      <title>Is the arithmetic right?</title>
+    </section>
+    <section id="scc9e-ch09-sec-07" folder="false" filename="scc9e_ch9_7.html" dlapFilename="scc9e_ch9_7_dlap.xml" numquestions="0">
+      <title>Is there a hidden agenda?</title>
+    </section>
+    <section id="scc9e-ch09-sec-08" folder="false" filename="scc9e_ch9_8.html" dlapFilename="scc9e_ch9_8_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch09-sec-09" folder="false" filename="scc9e_ch9_9.html" dlapFilename="scc9e_ch9_9_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch09-sec-10" folder="false" filename="scc9e_ch9_10.html" dlapFilename="scc9e_ch9_10_dlap.xml" numquestions="0">
+      <title>CHAPTER 9 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="57338133757a2e2903000001" title="Chapter 10: Graphs, Good and Bad" question-delivery-method="ARGA" number="10">
+    <section id="scc9e-ch10-sec-01" folder="false" filename="scc9e_ch10_1.html" dlapFilename="scc9e_ch10_1_dlap.xml" numquestions="0">
+      <title>PART II</title>
+    </section>
+    <section title="Graphs, Good and Bad" id="scc9e-ch10-sec-02" folder="false" filename="scc9e_ch10_2.html" dlapFilename="scc9e_ch10_2_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch10-sec-03" folder="false" filename="scc9e_ch10_3.html" dlapFilename="scc9e_ch10_3_dlap.xml" numquestions="0">
+      <title>
+        <strong>Data tables</strong>
+      </title>
+    </section>
+    <section id="scc9e-ch10-sec-04" folder="false" filename="scc9e_ch10_4.html" dlapFilename="scc9e_ch10_4_dlap.xml" numquestions="0">
+      <title>
+        <strong>Types of variables</strong>
+      </title>
+    </section>
+    <section id="scc9e-ch10-sec-05" folder="false" filename="scc9e_ch10_5.html" dlapFilename="scc9e_ch10_5_dlap.xml" numquestions="0">
+      <title>
+        <strong>Pie charts and bar graphs</strong>
+      </title>
+    </section>
+    <section id="scc9e-ch10-sec-06" folder="false" filename="scc9e_ch10_6.html" dlapFilename="scc9e_ch10_6_dlap.xml" numquestions="0">
+      <title>
+        <strong>Beware the pictogram</strong>
+      </title>
+    </section>
+    <section id="scc9e-ch10-sec-07" folder="false" filename="scc9e_ch10_7.html" dlapFilename="scc9e_ch10_7_dlap.xml" numquestions="0">
+      <title>
+        <strong>Change over time: Line graphs</strong>
+      </title>
+    </section>
+    <section id="scc9e-ch10-sec-08" folder="false" filename="scc9e_ch10_8.html" dlapFilename="scc9e_ch10_8_dlap.xml" numquestions="0">
+      <title>
+        <strong>Watch those scales!</strong>
+      </title>
+    </section>
+    <section id="scc9e-ch10-sec-09" folder="false" filename="scc9e_ch10_9.html" dlapFilename="scc9e_ch10_9_dlap.xml" numquestions="0">
+      <title>
+        <strong>Making good graphs</strong>
+      </title>
+    </section>
+    <section id="scc9e-ch10-sec-10" folder="false" filename="scc9e_ch10_10.html" dlapFilename="scc9e_ch10_10_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch10-sec-11" folder="false" filename="scc9e_ch10_11.html" dlapFilename="scc9e_ch10_11_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch10-sec-12" folder="false" filename="scc9e_ch10_12.html" dlapFilename="scc9e_ch10_12_dlap.xml" numquestions="0">
+      <title>CHAPTER 10 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="573381fb757a2e9603000001" title="PART I REVIEW" question-delivery-method="ARGA">
+    <section title="PART I REVIEW" id="scc9e-part01-sec-01" folder="false" filename="scc9e_part1_1.html" dlapFilename="scc9e_part1_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-part01-sec-02" folder="false" filename="scc9e_part1_2.html" dlapFilename="scc9e_part1_2_dlap.xml" numquestions="0">
+      <title><phrase block_type="PR-SUM-N-ri">PART I</phrase> SUMMARY</title>
+    </section>
+    <section id="scc9e-part01-sec-03" folder="false" filename="scc9e_part1_3.html" dlapFilename="scc9e_part1_3_dlap.xml" numquestions="0">
+      <title><phrase block_type="PR-SUM-N-ri">PART I</phrase> REVIEW EXERCISES</title>
+    </section>
+    <section id="scc9e-part01-sec-04" folder="false" filename="scc9e_part1_4.html" dlapFilename="scc9e_part1_4_dlap.xml" numquestions="0">
+      <title><phrase block_type="PR-SUM-N-ri">PART I</phrase> PROJECTS</title>
+    </section>
+  </manuscript><manuscript id="5745ef03757a2eef45000002" title="Chapter 11: Displaying Distributions with Graphs" question-delivery-method="ARGA" number="11">
+    <section title="Displaying Distributions with Graphs" id="scc9e-ch11-sec-001" folder="false" filename="scc9e_ch11_1.html" dlapFilename="scc9e_ch11_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch11-sec1-001" folder="false" filename="scc9e_ch11_2.html" dlapFilename="scc9e_ch11_2_dlap.xml" numquestions="0">
+      <title>Histograms</title>
+    </section>
+    <section id="scc9e-ch11-sec1-002" folder="false" filename="scc9e_ch11_3.html" dlapFilename="scc9e_ch11_3_dlap.xml" numquestions="0">
+      <title>Interpreting histograms</title>
+    </section>
+    <section id="scc9e-ch11-sec1-003" folder="false" filename="scc9e_ch11_4.html" dlapFilename="scc9e_ch11_4_dlap.xml" numquestions="0">
+      <title>Stemplots</title>
+    </section>
+    <section id="scc9e-ch11-sec1-004" folder="false" filename="scc9e_ch11_5.html" dlapFilename="scc9e_ch11_5_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch11-sec1-005" folder="false" filename="scc9e_ch11_6.html" dlapFilename="scc9e_ch11_6_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch11-sec1-006" folder="false" filename="scc9e_ch11_7.html" dlapFilename="scc9e_ch11_7_dlap.xml" numquestions="0">
+      <title>CHAPTER 11 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="57100d67757a2e053a000001" title="Chapter 12: Describing Distributions with Numbers" question-delivery-method="ARGA" number="12">
+    <section title="Median and quartiles" id="scc9e-ch12-sec1-001" folder="false" filename="scc9e_ch12_1.html" dlapFilename="scc9e_ch12_1_dlap.xml" numquestions="0"/>
+    <section id="idp86384" folder="false" filename="scc9e_ch12_2.html" dlapFilename="scc9e_ch12_2_dlap.xml" numquestions="0">
+      <title>Median and quartiles</title>
+    </section>
+    <section id="scc9e-ch12-sec1-002" folder="false" filename="scc9e_ch12_3.html" dlapFilename="scc9e_ch12_3_dlap.xml" numquestions="0">
+      <title>The five-number summary and boxplots</title>
+    </section>
+    <section id="scc9e-ch12-sec1-003" folder="false" filename="scc9e_ch12_4.html" dlapFilename="scc9e_ch12_4_dlap.xml" numquestions="0">
+      <title>Mean and standard deviation</title>
+    </section>
+    <section id="scc9e-ch12-sec1-004" folder="false" filename="scc9e_ch12_5.html" dlapFilename="scc9e_ch12_5_dlap.xml" numquestions="0">
+      <title>Choosing numerical descriptions</title>
+    </section>
+    <section id="scc9e-ch12-sec1-005" folder="false" filename="scc9e_ch12_6.html" dlapFilename="scc9e_ch12_6_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch12-sec1-006" folder="false" filename="scc9e_ch12_7.html" dlapFilename="scc9e_ch12_7_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch12-sec1-007" folder="false" filename="scc9e_ch12_8.html" dlapFilename="scc9e_ch12_8_dlap.xml" numquestions="0">
+      <title>CHAPTER 12 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="5745f175757a2e1b46000001" title="Chapter 13: Normal Distributions" question-delivery-method="ARGA" number="13">
+    <section title="Normal Distributions" id="scc9e-ch13-sec-001" folder="false" filename="scc9e_ch113_1.html" dlapFilename="scc9e_ch113_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch13-sec1-001" folder="false" filename="scc9e_ch113_2.html" dlapFilename="scc9e_ch113_2_dlap.xml" numquestions="0">
+      <title>Density curves</title>
+    </section>
+    <section id="scc9e-ch13-sec1-002" folder="false" filename="scc9e_ch113_3.html" dlapFilename="scc9e_ch113_3_dlap.xml" numquestions="0">
+      <title>The center and variability of a density curve</title>
+    </section>
+    <section id="scc9e-ch13-sec1-003" folder="false" filename="scc9e_ch113_4.html" dlapFilename="scc9e_ch113_4_dlap.xml" numquestions="0">
+      <title>Normal distributions</title>
+    </section>
+    <section id="scc9e-ch13-sec1-004" folder="false" filename="scc9e_ch113_5.html" dlapFilename="scc9e_ch113_5_dlap.xml" numquestions="0">
+      <title>The 68&#x2013;95&#x2013;99.7 rule</title>
+    </section>
+    <section id="scc9e-ch13-sec1-005" folder="false" filename="scc9e_ch113_6.html" dlapFilename="scc9e_ch113_6_dlap.xml" numquestions="0">
+      <title>Standard scores</title>
+    </section>
+    <section id="scc9e-ch13-sec1-006" folder="false" filename="scc9e_ch113_7.html" dlapFilename="scc9e_ch113_7_dlap.xml" numquestions="0">
+      <title>Percentiles of Normal distributions<termref term="fn_ch13_fn01"><sup>*</sup></termref></title>
+    </section>
+    <section id="scc9e-ch13-sec1-007" folder="false" filename="scc9e_ch113_8.html" dlapFilename="scc9e_ch113_8_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch13-sec1-008" folder="false" filename="scc9e_ch113_9.html" dlapFilename="scc9e_ch113_9_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch13-sec1-009" folder="false" filename="scc9e_ch113_10.html" dlapFilename="scc9e_ch113_10_dlap.xml" numquestions="0">
+      <title>CHAPTER 13 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="5745efee757a2e2246000000" title="Chapter 14: Describing Relationships: Scatterplots and Correlation" question-delivery-method="ARGA" number="14">
+    <section title="Scatterplots" id="scc9e-ch14-sec1-001" folder="false" filename="scc9e_ch14_1.html" dlapFilename="scc9e_ch14_1_dlap.xml" numquestions="0"/>
+    <section id="idp1467088" folder="false" filename="scc9e_ch14_2.html" dlapFilename="scc9e_ch14_2_dlap.xml" numquestions="0">
+      <title>Scatterplots</title>
+    </section>
+    <section id="scc9e-ch14-sec1-002" folder="false" filename="scc9e_ch14_3.html" dlapFilename="scc9e_ch14_3_dlap.xml" numquestions="0">
+      <title>Interpreting scatterplots</title>
+    </section>
+    <section id="scc9e-ch14-sec1-003" folder="false" filename="scc9e_ch14_4.html" dlapFilename="scc9e_ch14_4_dlap.xml" numquestions="0">
+      <title>Correlation</title>
+    </section>
+    <section id="scc9e-ch14-sec1-004" folder="false" filename="scc9e_ch14_5.html" dlapFilename="scc9e_ch14_5_dlap.xml" numquestions="0">
+      <title>Understanding correlation</title>
+    </section>
+    <section id="scc9e-ch14-sec1-005" folder="false" filename="scc9e_ch14_6.html" dlapFilename="scc9e_ch14_6_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch14-sec1-006" folder="false" filename="scc9e_ch14_7.html" dlapFilename="scc9e_ch14_7_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch14-sec1-007" folder="false" filename="scc9e_ch14_8.html" dlapFilename="scc9e_ch14_8_dlap.xml" numquestions="0">
+      <title>CHAPTER 14 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="574de548757a2ef30e000000" title="Chapter 15: Describing Relationships: Regression, Prediction, and Causation" question-delivery-method="ARGA" number="15">
+    <section title="Describing Relationships: Regression, Prediction, and Causation" number="15.1" id="scc9e-ch15-sec-001" folder="false" filename="scc9e_ch15_1.html" dlapFilename="scc9e_ch15_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch15-sec1-001" folder="false" filename="scc9e_ch15_2.html" dlapFilename="scc9e_ch15_2_dlap.xml" numquestions="0">
+      <title>Regression lines</title>
+    </section>
+    <section id="scc9e-ch15-sec1-002" folder="false" filename="scc9e_ch15_3.html" dlapFilename="scc9e_ch15_3_dlap.xml" numquestions="0">
+      <title>Regression equations</title>
+    </section>
+    <section id="scc9e-ch15-sec1-003" folder="false" filename="scc9e_ch15_4.html" dlapFilename="scc9e_ch15_4_dlap.xml" numquestions="0">
+      <title>Understanding prediction</title>
+    </section>
+    <section id="scc9e-ch15-sec1-004" folder="false" filename="scc9e_ch15_5.html" dlapFilename="scc9e_ch15_5_dlap.xml" numquestions="0">
+      <title>Correlation and regression</title>
+    </section>
+    <section id="scc9e-ch15-sec1-005" folder="false" filename="scc9e_ch15_6.html" dlapFilename="scc9e_ch15_6_dlap.xml" numquestions="0">
+      <title>The question of causation</title>
+    </section>
+    <section id="scc9e-ch15-sec1-006" folder="false" filename="scc9e_ch15_7.html" dlapFilename="scc9e_ch15_7_dlap.xml" numquestions="0">
+      <title>Evidence for causation</title>
+    </section>
+    <section id="scc9e-ch15-sec1-007" folder="false" filename="scc9e_ch15_8.html" dlapFilename="scc9e_ch15_8_dlap.xml" numquestions="0">
+      <title>Correlation, prediction, and big data</title>
+    </section>
+    <section id="scc9e-ch15-sec1-008" folder="false" filename="scc9e_ch15_9.html" dlapFilename="scc9e_ch15_9_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch15-sec1-009" folder="false" filename="scc9e_ch15_10.html" dlapFilename="scc9e_ch15_10_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch15-sec1-010" folder="false" filename="scc9e_ch15_11.html" dlapFilename="scc9e_ch15_11_dlap.xml" numquestions="0">
+      <title>CHAPTER 15 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="574de5a4757a2ee10e000002" title="Chapter 16: The Consumer Price Index and Government Statistics" question-delivery-method="ARGA" number="16">
+    <section title="The Consumer Price Index and Government Statistics" id="scc9e-ch16-sec-001" folder="false" filename="scc9e_ch16_1.html" dlapFilename="scc9e_ch16_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch16-sec1-001" folder="false" filename="scc9e_ch16_2.html" dlapFilename="scc9e_ch16_2_dlap.xml" numquestions="0">
+      <title>Index numbers</title>
+    </section>
+    <section id="scc9e-ch16-sec1-002" folder="false" filename="scc9e_ch16_3.html" dlapFilename="scc9e_ch16_3_dlap.xml" numquestions="0">
+      <title>Fixed market basket price indexes</title>
+    </section>
+    <section id="scc9e-ch16-sec1-003" folder="false" filename="scc9e_ch16_4.html" dlapFilename="scc9e_ch16_4_dlap.xml" numquestions="0">
+      <title>Using the CPI</title>
+    </section>
+    <section id="scc9e-ch16-sec1-004" folder="false" filename="scc9e_ch16_5.html" dlapFilename="scc9e_ch16_5_dlap.xml" numquestions="0">
+      <title>Understanding the CPI</title>
+    </section>
+    <section id="scc9e-ch16-sec1-005" folder="false" filename="scc9e_ch16_6.html" dlapFilename="scc9e_ch16_6_dlap.xml" numquestions="0">
+      <title>The place of government statistics</title>
+    </section>
+    <section id="scc9e-ch16-sec1-006" folder="false" filename="scc9e_ch16_7.html" dlapFilename="scc9e_ch16_7_dlap.xml" numquestions="0">
+      <title>The question of social statistics</title>
+    </section>
+    <section id="scc9e-ch16-sec1-007" folder="false" filename="scc9e_ch16_8.html" dlapFilename="scc9e_ch16_8_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch16-sec1-008" folder="false" filename="scc9e_ch16_9.html" dlapFilename="scc9e_ch16_9_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch16-sec1-009" folder="false" filename="scc9e_ch16_10.html" dlapFilename="scc9e_ch16_10_dlap.xml" numquestions="0">
+      <title>CHAPTER 16 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="574de5fc757a2ef30e000001" title="PART II REVIEW" question-delivery-method="ARGA" number="1">
+    <section title="PART II REVIEW" id="scc9e-part02-sec-01" folder="false" filename="scc9e_part2_1.html" dlapFilename="scc9e_part2_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-part02-sec1-01" folder="false" filename="scc9e_part2_2.html" dlapFilename="scc9e_part2_2_dlap.xml" numquestions="0">
+      <title><phrase block_type="PR-SUM-N-ri">PART II</phrase> SUMMARY</title>
+    </section>
+    <section id="scc9e-part02-sec1-02" folder="false" filename="scc9e_part2_3.html" dlapFilename="scc9e_part2_3_dlap.xml" numquestions="0">
+      <title><phrase block_type="PR-X-N-ri">PART II</phrase> REVIEW EXERCISES</title>
+    </section>
+    <section id="scc9e-part02-sec1-03" folder="false" filename="scc9e_part2_4.html" dlapFilename="scc9e_part2_4_dlap.xml" numquestions="0">
+      <title><phrase block_type="PR-X-N-ri">PART II</phrase> PROJECTS</title>
     </section>
   </manuscript></manifest>

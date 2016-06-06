@@ -1,0 +1,1134 @@
+<chapter id="scc9e-ch14" number="14" title="Chapter 14: Describing Relationships: Scatterplots and Correlation" start-numbering-at="14" numbered="true">
+<section id="scc9e-ch14-sec1-001" block_type="chapter" title="Describing Relationships: Scatterplots and Correlation" numbered="false" level="1" print_page="315">
+<p id="scc9e-ch14-p-01" block_type="CN">14</p>
+<p id="scc9e-ch14-p-02" block_type="CT">Describing Relationships: Scatterplots and Correlation</p>
+<p id="scc9e_page_315" block_type="page_start" data-margin-content="right">315</p>
+<figure id="scc9e-ch14-unfig-001" block_type="CO-PH-CL" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch14-img-001" alt="image" src="asset/ch14/17MOORESCC-MSE_9e_CO14.jpg"/>
+</figure>
+<box id="scc9e-ch14-box-001" numbered="false" block_type="BX4-H-ri">
+<p id="scc9e-ch14-p-04" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri">CASE STUDY</phrase> The news media have a weakness for lists. Best places to live, best colleges, healthiest foods, worst-dressed women . . . a list of best or worst is sure to find a place in the news. When the state-by-state SAT scores come out each year, it&#8217;s therefore no surprise that we find news articles ranking the states from best (North Dakota in 2014) to worst (District of Columbia in 2014) according to the average Mathematics SAT score achieved by their high school seniors. Unfortunately, such reports leave readers believing that schools in the District of Columbia must be much worse than those in North Dakota. Where does your home state rank? And do you believe the ranking reflects the quality of education you received?</p>
+<p id="scc9e-ch14-p-05" block_type="BX4-TXT-I">The College Board, which sponsors the SAT exams, doesn&#8217;t like this practice at all. &#8220;Comparing or ranking states on the basis of SAT scores alone is invalid and strongly discouraged by the College Board,&#8221; says the heading on their table of state average SAT scores. To see why, let&#8217;s look at the data.</p>
+<p id="scc9e-ch14-p-06" block_type="BX4-TXT-I"><link href="figure_14_1.html">Figure 14.1</link> shows the distribution of average scores on the SAT Mathematics exam for the 50 states and the District of Columbia. North Dakota leads at 620, and the District of Columbia trails at 438 on the SAT scale of 200 to 800. The distribution has an unusual shape: it has one clear peak and perhaps a second, small one. This may be a clue that the data mix two distinct groups. But, we need to explore the data further to be sure that this is the case.</p>
+<p id="scc9e-ch14-p-07" block_type="BX4-TXT-I">In this chapter, we will learn that to understand one variable, such as SAT scores, we must look at how it is related to other variables. By the end of this chapter, you will be able to use what you have learned to understand why <link href="figure_14_1.html">Figure 14.1</link> has such an unusual shape and to appreciate why the College Board discourages ranking states on SAT scores alone.</p>
+</box>
+<p id="scc9e_page_316" block_type="page_start" data-margin-content="left">316</p>
+<figure id="scc9e-ch14-fig-001" block_type="FIGURE" data-caption-compass="S" numbered="true" number="14.1" mmtype="image" mmsrc="" attr="" data-filename="figure_14_1.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch14-img-002" alt="image" src="asset/ch14/17MOORESCC-MSE_9e_fig_14_01.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 14.1</phrase> <phrase block_type="FG-CAP">Histogram of the average scores of students in the 50 states and the District of Columbia on the SAT Mathematics exam.</phrase></caption>
+</figure>
+<p id="scc9e-ch14-p-010" block_type="TXT-ni">A medical study finds that short women are more likely to have heart attacks than women of average height, while tall women have the fewest heart attacks. An insurance group reports that heavier cars are involved in fewer fatal accidents per 10,000 vehicles registered than are lighter cars. These and many other statistical studies look at the relationship between two variables. To understand such a relationship, we must often examine other variables as well. To conclude that shorter women have higher risk from heart attacks, for example, the researchers had to eliminate the effect of other variables such as weight and exercise habits. Our topic in this and the following chapters is relationships between variables. One of our main themes is that the relationship between two variables can be strongly influenced by other variables that are lurking in the background.</p>
+<p id="scc9e-ch14-p-011" block_type="TXT">Most statistical studies examine data on more than one variable. Fortunately, statistical analysis of several-variable data builds on the tools we used to examine individual variables. The principles that guide our work also remain the same:</p>
+<list id="scc9e-ch14-list-001" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch14-li-001"><p id="scc9e-ch14-p-012" block_type="BL-first"><phrase block_type="maker">&#8226;</phrase> First plot the data, then add numerical summaries.</p></li>
+<li id="scc9e-ch14-li-002"><p id="scc9e-ch14-p-013" block_type="BL-first"><phrase block_type="maker">&#8226;</phrase> Look for overall patterns and deviations from those patterns.</p></li>
+<li id="scc9e-ch14-li-003"><p id="scc9e-ch14-p-014" block_type="BL-last"><phrase block_type="maker">&#8226;</phrase> When the overall pattern is quite regular, there is sometimes a way to describe it very briefly.</p></li>
+</list>
+</section>
+<section id="scc9e-ch14-sec1-001" block_type="h1" chapter="ch14" numbered="false" level="1" print_page="317">
+<section-metadata><section-title>Scatterplots</section-title></section-metadata>
+<p id="scc9e_page_317" block_type="page_start" data-margin-content="right">317</p>
+<p id="scc9e-ch14-p-016" block_type="TXT-ni">The most common way to display the relation between two quantitative variables is a <em>scatterplot</em>.</p>
+<figure id="scc9e-ch14-unfig-002" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="14_17MOORESCC-MSE_9e_P_14_01.html">
+<layout align="right" width="small" border="false"/>
+<image asset-id="scc9e-ch14-img-003" alt="image" src="asset/ch14/17MOORESCC-MSE_9e_P_14_01.jpg"/>
+<asset_source><phrase block_type="PH-CL">NASA/JPL-Caltech/University of Arizona/STScI</phrase></asset_source>
+</figure>
+  <box id="scc9e-ch14-box-002" numbered="false" block_type="EXP" data-filename="example_14_1.html">
+<p id="scc9e-ch14-p-017" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 1</phrase> The Big Bang</p>
+<p id="scc9e-ch14-p-018" block_type="EXP-first">How did the universe begin? One popular theory is known as the &#8220;Big Bang.&#8221; The universe began with a big bang and matter expanded outward, like a balloon inflating. If the Big Bang theory is correct, galaxies farthest away from the origin of the bang must be moving faster than those closest to the origin. This also means that galaxies close to the earth must be moving at a similar speed to that of earth, and galaxies far from earth must be moving at very different speeds from earth. Hence, relative to earth, the farther away a galaxy is, the faster it appears to be moving away from earth. Are data consistent with this theory? The answer is Yes.</p>
+
+<p id="scc9e-ch14-p-019" block_type="EXP-mid">In 1929, Edwin Hubble investigated the relationship between the distance from the earth and the recession velocity (the speed at which an object is moving away from an observer) of galaxies. Using data he had collected, Hubble estimated the distance, in megaparsecs, from the earth to 24 galaxies. One parsec equals 3.26 light-years (the distance light travels in one year), and a megaparsec is one million parsecs. The recession velocities, in kilometers per second, of the galaxies were also measured. <link href="figure_14_2.html">Figure 14.2</link> is a scatterplot that shows how recession velocity is related to distance from the earth. We think that &#8220;distance from the earth&#8221; will help explain &#8220;recession velocity.&#8221; That is, &#8220;distance from the earth&#8221; is the <em>explanatory variable</em>, and &#8220;recession velocity&#8221; is the <em>response variable</em>. We want to see how recession velocity changes when distance from the earth changes, so we put distance from the earth (the explanatory variable) on the horizontal axis. We can then see that, as distance from the earth goes up, recession velocity goes up. Each point on the plot represents one galaxy. For example, the point with a different plotting symbol corresponds to a galaxy that is 1.7 megaparsecs from the earth and that has a recession velocity of 960 kilometers per second.</p>
+<p id="scc9e-ch14-p-020" block_type="EXP-mid">Hubble&#8217;s discovery turned out to be one of the most important discoveries in all of astronomy. The data helped establish Hubble&#8217;s law, which is recession velocity = <em>H</em><sub>0</sub> &#215; Distance, where <em>H</em><sub>0</sub> is the value known as the Hubble constant. Hubble&#8217;s law says that the apparent recession velocities of galaxies are directly proportional to their distances. This relationship is the key evidence for the idea of the expanding universe, as suggested by the Big Bang.</p>
+</box>
+<p id="scc9e_page_318" block_type="page_start" data-margin-content="left">318</p>
+<figure id="scc9e-ch14-fig-003" block_type="FIGURE" data-caption-compass="S" numbered="true" number="14.2" mmtype="image" mmsrc="" attr="" data-filename="figure_14_2.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch14-img-004" alt="image" src="asset/ch14/17MOORESCC-MSE_9e_fig_14_02.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 14.2</phrase> <phrase block_type="FG-CAP">Scatterplot of recession velocity against distance from the earth, <link href="example_14_1.html">Example 1</link>.</phrase></caption>
+</figure>
+<box id="scc9e-ch14-box-003" numbered="false" block_type="BX1">
+<p id="scc9e-ch14-p-022" block_type="BX1-T">Scatterplot</p>
+<p id="scc9e-ch14-p-023" block_type="BX1-TXT-ni">A <strong>scatterplot</strong> shows the relationship between two quantitative variables measured on the same individuals. The values of one variable appear on the horizontal axis, and the values of the other variable appear on the vertical axis. Each individual in the data appears as the point in the plot fixed by the values of both variables for that individual.</p>
+</box>
+<p id="scc9e-ch14-p-024" block_type="TXT">Always plot the explanatory variable, if there is one, on the horizontal axis (the <em>x</em> axis) of a scatterplot. As a reminder, we usually call the explanatory variable <em>x</em> and the response variable <em>y</em>. If there is no explanatory-response distinction, either variable can go on the horizontal axis.</p>
+<box id="scc9e-ch14-box-004" numbered="false" block_type="EXP" data-filename="example_14_2.html">
+<p id="scc9e-ch14-p-025" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> Health and wealth</p>
+<p id="scc9e-ch14-p-026" block_type="EXP-first"><link href="figure_14_3.html">Figure 14.3</link> is a scatterplot of data from the World Bank for 2010. The individuals are all the world&#8217;s nations for which data are available. The explanatory variable is a measure of how rich a country is: the gross domestic product (GDP) per capita. GDP is the total value of the goods and services produced in a country, converted into dollars. The response variable is life expectancy at birth.</p>
+<p id="scc9e-ch14-p-027" block_type="EXP-mid">We expect people in richer countries to live longer. The overall pattern of the scatterplot does show this, but the relationship has an interesting shape. Life expectancy tends to rise very quickly as GDP increases, then levels off. People in very rich countries such as the United States typically live no longer than people in poorer but not extremely poor nations. Some of these countries, such as Costa Rica, do almost as well as the United States.</p>
+<p id="scc9e_page_319" block_type="page_start" data-margin-content="right">319</p>
+<figure id="scc9e-ch14-fig-004" block_type="FIGURE" data-caption-compass="S" numbered="true" number="14.3" mmtype="image" mmsrc="" attr="" data-filename="figure_14_3.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch14-img-005" alt="image" src="asset/ch14/17MOORESCC-MSE_9e_fig_14_03.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 14.3</phrase> <phrase block_type="FG-CAP">Scatterplot of the life expectancy of people in many nations against each nation&#8217;s GDP per person, <link href="example_14_2.html">Example 2</link>.</phrase></caption>
+</figure>
+<p id="scc9e-ch14-p-029" block_type="EXP-mid">Two nations are outliers. In one, Equatorial Guinea, life expectancies are similar to those of its neighbors but its GDP is higher. Equatorial Guinea produces oil. It may be that income from mineral exports goes mainly to a few people and so pulls up GDP per capita without much effect on either the income or the life expectancy of ordinary citizens. That is, GDP per person is a mean, and we know that mean income can be much higher than median income.</p>
+<p id="scc9e-ch14-p-030" block_type="EXP-mid">The other outlier is Liechtenstein, a tiny nation bordering Switzerland and Austria. Liechtenstein has a strong financial sector and is considered a tax haven.</p>
+</box>
+<box id="scc9e-ch14-box-005" numbered="false" block_type="BX2">
+<p id="scc9e-ch14-p-031" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch14-quest-001" block_type="exercise_14_1.html">
+<p id="scc9e-ch14-p-032" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">14.1 Brain size and intelligence.</phrase> For centuries, people have associated intelligence with brain size. A recent study used magnetic resonance imaging to measure the brain size of several individuals. The IQ and brain size (in units of 10,000 pixels) of six individuals are as follows:</p>
+<table id="scc9e-ch14-untab-1" numbered="false" block_type="UN-TABLE" attr="80">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="EXP-MCL">Brain size:</td>
+<td align="center" block_type="EXP-MCL">100</td>
+<td align="center" block_type="EXP-MCL">90</td>
+<td align="center" block_type="EXP-MCL">95</td>
+<td align="center" block_type="EXP-MCL">92</td>
+<td align="center" block_type="EXP-MCL">88</td>
+<td align="center" block_type="EXP-MCL">106</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="EXP-MCL">IQ:</td>
+<td align="center" block_type="EXP-MCL">140</td>
+<td align="center" block_type="EXP-MCL">90</td>
+<td align="center" block_type="EXP-MCL">100</td>
+<td align="center" block_type="EXP-MCL">135</td>
+<td align="center" block_type="EXP-MCL">80</td>
+<td align="center" block_type="EXP-MCL">103</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch14-p-033" block_type="EXP-first">Is there an explanatory variable? If so, what is it and what is the response variable? Make a scatterplot of these data.</p>
+</question>
+</box>
+</section>
+<section id="scc9e-ch14-sec1-002" block_type="h1" chapter="ch14" numbered="false" level="1" print_page="320">
+<section-metadata><section-title>Interpreting scatterplots</section-title></section-metadata>
+<p id="scc9e_page_320" block_type="page_start" data-margin-content="left">320</p>
+<p id="scc9e-ch14-p-035" block_type="TXT-ni">To interpret a scatterplot, apply the usual strategies of data analysis.</p>
+<box id="scc9e-ch14-box-006" numbered="false" block_type="BX1">
+<p id="scc9e-ch14-p-036" block_type="BX1-T">Examining a scatterplot</p>
+<p id="scc9e-ch14-p-037" block_type="BX1-TXT-ni">In any graph of data, look for the <strong>overall pattern</strong> and for striking <strong>deviations</strong> from that pattern.</p>
+<p id="scc9e-ch14-p-038" block_type="BX1-TXT-i">You can describe the overall pattern of a scatterplot by the <strong>direction</strong>, <strong>form</strong>, and <strong>strength</strong> of the relationship.</p>
+<p id="scc9e-ch14-p-039" block_type="BX1-TXT-i">An important kind of deviation is an <strong>outlier</strong>, an individual value that falls outside the overall pattern of the relationship.</p>
+</box>
+<box id="scc9e-ch14-box-007" numbered="false" block_type="margin-statistics">
+<p id="scc9e-ch14-p-040" block_type="MN-TXT"><image asset-id="scc9e-ch14-img-006" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">After you plot your data, think!</phrase> Abraham Wald (1902&#8211;1950), like many statisticians, worked on war problems during World War II. Wald invented some statistical methods that were military secrets until the war ended. Here is one of his simpler ideas. Asked where extra armor should be added to airplanes, Wald studied the location of enemy bullet holes in planes returning from combat. He plotted the locations on an outline of the plane. As data accumulated, most of the outline filled up. Put the armor in the few spots with no bullet holes, said Wald. That&#8217;s where bullets hit the planes that didn&#8217;t make it back.</p>
+</box>
+<p id="scc9e-ch14-p-041" block_type="TXT">Both <link href="figure_14_2.html">Figure 14.2</link> and <link href="figure_14_3.html">14.3</link> have a clear <em>direction</em>: recession velocity goes up as distance from the earth increases, and life expectancy generally goes up as GDP increases. We say that <link href="figure_14_2.html">Figure 14.2</link> and <link href="figure_14_3.html">14.3</link> show a <em>positive association</em>. <link href="figure_14_4.html">Figure 14.4</link> is a scatterplot of the gas mileages (in miles per gallon) and the engine size (or engine displacement, in liters) of 1252 model-year 2015 cars. The response variable is gas mileage and the explanatory variable is engine size. We see that gas mileage decreases as engine size goes up. We say that <link href="figure_14_4.html">Figure 14.4</link> shows a <em>negative association</em>.</p>
+<figure id="scc9e-ch14-fig-005" block_type="FIGURE" data-caption-compass="SW" numbered="true" number="14.4" mmtype="image" mmsrc="" attr="" data-filename="figure_14_4.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch14-img-007" alt="image" src="asset/ch14/17MOORESCC-MSE_9e_fig_14_04.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 14.4</phrase> <phrase block_type="FG-CAP">Scatterplot of miles per gallon against weight for 38 cars.</phrase></caption>
+</figure>
+<p id="scc9e_page_321" block_type="page_start" data-margin-content="right">321</p>
+<box id="scc9e-ch14-box-008" numbered="false" block_type="BX1">
+<p id="scc9e-ch14-p-043" block_type="BX1-T">Positive association, negative association</p>
+<p id="scc9e-ch14-p-044" block_type="BX1-TXT-ni">Two variables are <strong>positively associated</strong> when above-average values of one tend to accompany above-average values of the other and below-average values also tend to occur together. The scatterplot slopes upward as we move from left to right.</p>
+<p id="scc9e-ch14-p-045" block_type="BX1-TXT-i">Two variables are <strong>negatively associated</strong> when above-average values of one tend to accompany below-average values of the other, and vice versa. The scatterplot slopes downward from left to right.</p>
+</box>
+<p id="scc9e-ch14-p-046" block_type="TXT">Each of our scatterplots has a distinctive <em>form</em>. <link href="figure_14_2.html">Figure 14.2</link> shows a roughly straight-line trend, and <link href="figure_14_3.html">Figure 14.3</link> shows a <em>curved relationship</em>. <link href="figure_14_4.html">Figure 14.4</link> shows a slightly curved relationship. The <em>strength</em> of a relationship in a scatterplot is determined by how closely the points follow a clear form. The relationships in <link href="figure_14_2.html">Figure 14.2</link> and <link href="figure_14_3.html">14.3</link> are not strong. Galaxies with similar distances from the earth show quite a bit of scatter in their recession velocities, and nations with similar GDPs can have quite different life expectancies. The relationship in <link href="figure_14_4.html">Figure 14.4</link> is moderately strong. Here is an example of a stronger relationship with a simple form.</p>
+<figure id="scc9e-ch14-unfig-003" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="14_17MOORESCC-MSE_9e_P_14_02.html">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch14-img-008" alt="image" src="asset/ch14/17MOORESCC-MSE_9e_P_14_02.jpg"/>
+<asset_source><phrase block_type="PH-CL">James L. Amos/Science Source</phrase></asset_source>
+</figure>
+  <box id="scc9e-ch14-box-009" numbered="false" block_type="EXP" data-filename="example_14_3.html">
+<p id="scc9e-ch14-p-047" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> Classifying fossils</p>
+<p id="scc9e-ch14-p-048" block_type="EXP-first">Archaeopteryx is an extinct beast having feathers like a bird but teeth and a long bony tail like a reptile. Only six fossil specimens are known. Because these fossils differ greatly in size, some scientists think they are different species rather than individuals from the same species. We will examine data on the lengths in centimeters of the femur (a leg bone) and the humerus (a bone in the upper arm) for the five fossils that preserve both bones. Here are the data:</p>
+<table id="scc9e-ch14-untab-2" numbered="false" block_type="UN-TABLE" attr="55">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="EXP-MCL">Femur:</td>
+<td align="center" block_type="EXP-MCL">38</td>
+<td align="center" block_type="EXP-MCL">56</td>
+<td align="center" block_type="EXP-MCL">59</td>
+<td align="center" block_type="EXP-MCL">64</td>
+<td align="center" block_type="EXP-MCL">74</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="EXP-MCL">Humerus:</td>
+<td align="center" block_type="EXP-MCL">41</td>
+<td align="center" block_type="EXP-MCL">63</td>
+<td align="center" block_type="EXP-MCL">70</td>
+<td align="center" block_type="EXP-MCL">72</td>
+<td align="center" block_type="EXP-MCL">84</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch14-p-049" block_type="EXP-ni">Because there is no explanatory-response distinction, we can put either measurement on the <em>x</em> axis of a scatterplot. The plot appears in <link href="figure_14_5.html">Figure 14.5</link>.</p>
+
+<p id="scc9e-ch14-p-050" block_type="EXP-mid">The plot shows a <em>strong, positive, straight-line association</em>. The straight-line form is important because it is common and simple. The association is strong because the points lie close to a line. It is positive because as the length of one bone increases, so does the length of the other bone. These data suggest that all five fossils belong to the same species and differ in size because some are younger than others. We expect that a different species would have a different relationship between the lengths of the two bones, so that it would appear as an outlier.</p>
+<p id="scc9e_page_322" block_type="page_start" data-margin-content="left">322</p>
+<figure id="scc9e-ch14-fig-007" block_type="FIGURE" data-caption-compass="S" numbered="true" number="14.5" mmtype="image" mmsrc="" attr="" data-filename="figure_14_5.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch14-img-009" alt="image" src="asset/ch14/17MOORESCC-MSE_9e_fig_14_05.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 14.5</phrase> <phrase block_type="FG-CAP">Scatterplot of the lengths of two bones in five fossil specimens of the extinct beast archaeopteryx, <link href="example_14_3.html">Example 3</link>.</phrase></caption>
+</figure>
+</box>
+<box id="scc9e-ch14-box-010" numbered="false" block_type="BX2">
+<p id="scc9e-ch14-p-052" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch14-quest-002" block_type="exercise_14_2.html">
+<p id="scc9e-ch14-p-053" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">14.2 Brain size and intelligence.</phrase> For centuries, people have associated intelligence with brain size. A recent study used magnetic resonance imaging to measure the brain size of several individuals. The IQ and brain size (in units of 10,000 pixels) of six individuals are as follows:</p>
+<table id="scc9e-ch14-untab-3" numbered="false" block_type="UN-TABLE" attr="80">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="EXP-MCL">Brain size:</td>
+<td align="center" block_type="EXP-MCL">100</td>
+<td align="center" block_type="EXP-MCL">90</td>
+<td align="center" block_type="EXP-MCL">95</td>
+<td align="center" block_type="EXP-MCL">92</td>
+<td align="center" block_type="EXP-MCL">88</td>
+<td align="center" block_type="EXP-MCL">106</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="EXP-MCL">IQ:</td>
+<td align="center" block_type="EXP-MCL">140</td>
+<td align="center" block_type="EXP-MCL">90</td>
+<td align="center" block_type="EXP-MCL">100</td>
+<td align="center" block_type="EXP-MCL">135</td>
+<td align="center" block_type="EXP-MCL">80</td>
+<td align="center" block_type="EXP-MCL">103</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch14-p-054" block_type="BX2-QUE">Make a scatterplot of these data if you have not already done so. What is the form, direction, and strength of the association? Are there any outliers?</p>
+</question>
+</box>
+</section>
+<section id="scc9e-ch14-sec1-003" block_type="h1" chapter="ch14" numbered="false" level="1" print_page="323">
+<section-metadata><section-title>Correlation</section-title></section-metadata>
+<p id="scc9e_page_323" block_type="page_start" data-margin-content="right">323</p>
+<p id="scc9e-ch14-p-056" block_type="TXT-ni">A scatterplot displays the direction, form, and strength of the relationship between two variables. Straight-line relations are particularly important because a straight line is a simple pattern that is quite common. A straight-line relation is strong if the points lie close to a straight line and weak if they are widely scattered about a line. Our eyes are not good judges of how strong a relationship is. The two scatterplots in <link href="figure_14_6.html">Figure 14.6</link> depict the same data, but the right-hand plot is drawn smaller in a large field. The right-hand plot seems to show a stronger straight-line relationship. Our eyes can be fooled by changing the plotting scales or the amount of blank space around the cloud of points in a scatterplot. We need to follow our strategy for data analysis by using a numerical measure to supplement the graph. <em>Correlation</em> is the measure we use.</p>
+<box id="scc9e-ch14-box-011" numbered="false" block_type="BX1">
+<p id="scc9e-ch14-p-057" block_type="BX1-T">Correlation</p>
+<p id="scc9e-ch14-p-058" block_type="BX1-TXT-ni">The <strong>correlation</strong> describes the direction and strength of a straight-line relationship between two quantitative variables. Correlation is usually written as <em>r</em>.</p>
+</box>
+<p id="scc9e-ch14-p-059" block_type="TXT">Calculating a correlation takes a bit of work. You can usually think of <em>r</em> as the result of pushing a calculator button or giving a command in software and concentrate on understanding its properties and use. Knowing how we obtain <em>r</em> from data, however, does help us understand how correlation works, so here we go.</p>
+<figure id="scc9e-ch14-fig-008" block_type="FIGURE" data-caption-compass="S" numbered="true" number="14.6" mmtype="image" mmsrc="" attr="" data-filename="figure_14_6.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch14-img-010" alt="image" src="asset/ch14/17MOORESCC-MSE_9e_fig_14_06.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 14.6</phrase> <phrase block_type="FG-CAP">Two scatterplots of the same data. The right-hand plot suggests a stronger relationship between the variables because of the surrounding space.</phrase></caption>
+</figure>
+<p id="scc9e_page_324" block_type="page_start" data-margin-content="left">324</p>
+<box id="scc9e-ch14-box-012" numbered="false" block_type="EXP" data-filename="example_14_4.html">
+<p id="scc9e-ch14-p-061" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> Calculating correlation</p>
+<p id="scc9e-ch14-p-062" block_type="EXP-first">We have data on two variables, <em>x</em> and <em>y</em>, for <em>n</em> individuals. For the fossil data in <link href="example_14_3.html">Example 3</link>, <em>x</em> is femur length, <em>y</em> is humerus length, and we have data for <em>n</em> = 5 fossils.</p>
+<p id="scc9e-ch14-p-063" block_type="EXP-TXT-1"><strong>Step 1.</strong> Find the mean and standard deviation for both <em>x</em> and <em>y</em>. For the fossil data, a calculator tells us that</p>
+<table id="scc9e-ch14-untab-4" numbered="false" block_type="UN-TABLE" attr="70">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="EXP-MCL">Femur:</td>
+<td align="center" block_type="EXP-MCL"><phrase data-math="math_1"></phrase></td>
+<td align="center" block_type="EXP-MCL"><phrase data-math="math_2"></phrase></td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="EXP-MCL">Humerus:</td>
+<td align="center" block_type="EXP-MCL"><phrase data-math="math_3"></phrase></td>
+<td align="center" block_type="EXP-MCL"><phrase data-math="math_4"></phrase></td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch14-p-064" block_type="EXP-ni">We use <em>s<sub>x</sub></em> and <em>s<sub>y</sub></em> to remind ourselves that there are two standard deviations, one for the values of <em>x</em> and the other for the values of <em>y</em>.</p>
+<p id="scc9e-ch14-p-065" block_type="EXP-TXT-1"><strong>Step 2.</strong> Using the means and standard deviations from Step 1, find the standard scores for each <em>x</em>-value and for each <em>y</em>-value:</p>
+<table id="scc9e-ch14-untab-5" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="EXP-MCL"><strong>Value<br/>of</strong> <em>x</em></td>
+<td align="center" block_type="EXP-MCL"><strong>Standard score</strong><br/><phrase data-math="math_5"></phrase></td>
+<td align="center" block_type="EXP-MCL"><strong>Value<br/>of</strong> <em>y</em></td>
+<td align="center" block_type="EXP-MCL"><strong>Standard score</strong><br/><phrase data-math="math_6"></phrase></td>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="EXP-MCL">38</td>
+<td align="center" block_type="EXP-MCL"><phrase data-math="math_7"></phrase></td>
+<td align="center" block_type="EXP-MCL">41</td>
+<td align="center" block_type="EXP-MCL"><phrase data-math="math_8"></phrase></td>
+</tr>
+<tr>
+<td align="center" block_type="EXP-MCL">56</td>
+<td align="center" block_type="EXP-MCL"><phrase data-math="math_9"></phrase></td>
+<td align="center" block_type="EXP-MCL">63</td>
+<td align="center" block_type="EXP-MCL"><phrase data-math="math_10"></phrase></td>
+</tr>
+<tr>
+<td align="center" block_type="EXP-MCL">59</td>
+<td align="center" block_type="EXP-MCL"><phrase data-math="math_11"></phrase></td>
+<td align="center" block_type="EXP-MCL">70</td>
+<td align="center" block_type="EXP-MCL"><phrase data-math="math_12"></phrase></td>
+</tr>
+<tr>
+<td align="center" block_type="EXP-MCL">64</td>
+<td align="center" block_type="EXP-MCL"><phrase data-math="math_13"></phrase></td>
+<td align="center" block_type="EXP-MCL">72</td>
+<td align="center" block_type="EXP-MCL"><phrase data-math="math_14"></phrase></td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="EXP-MCL">74</td>
+<td align="center" block_type="EXP-MCL"><phrase data-math="math_15"></phrase></td>
+<td align="center" block_type="EXP-MCL">84</td>
+<td align="center" block_type="EXP-MCL"><phrase data-math="math_16"></phrase></td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch14-p-066" block_type="EXP-TXT-1"><strong>Step 3.</strong> The correlation is the average of the products of these standard scores. As with the standard deviation, we &#8220;average&#8221; by dividing by <em>n</em> &#8722; 1, one fewer than the number of individuals:</p>
+<p id="scc9e-ch14-p-067" block_type="EXP-EQ"><phrase data-math="math_17"></phrase></p>
+</box>
+<p id="scc9e-ch14-p-071" block_type="TXT-ni">The algebraic shorthand for the set of calculations in <link href="example_14_4.html">Example 4</link> is</p>
+<p id="scc9e-ch14-p-072" block_type="EQ"><phrase data-math="math_18"></phrase></p>
+<p id="scc9e-ch14-p-073" block_type="TXT-ni">The symbol <phrase data-math="math_19"></phrase>, called &#8220;sigma,&#8221; means &#8220;add them all up.&#8221;</p>
+</section>
+<section id="scc9e-ch14-sec1-004" block_type="h1" chapter="ch14" numbered="false" level="1" print_page="325">
+<section-metadata><section-title>Understanding correlation</section-title></section-metadata>
+<p id="scc9e_page_325" block_type="page_start" data-margin-content="right">325</p>
+<p id="scc9e-ch14-p-075" block_type="TXT-ni">More important than calculating <em>r</em> (a task for technology) is understanding how correlation measures association. Here are the facts:</p>
+<list id="scc9e-ch14-list-002" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch14-li-004"><p id="scc9e-ch14-p-076" block_type="BL-first"><phrase block_type="maker">&#8226;</phrase> <strong>Positive <em>r</em> indicates positive association between the variables, and negative <em>r</em> indicates negative association</strong>. The scatterplot in <link href="figure_14_5.html">Figure 14.5</link> shows strong positive association between femur length and humerus length. In three fossils, both bones are longer than their average values, so their standard scores are positive for both <em>x</em> and <em>y</em>. In the other two fossils, the bones are shorter than their averages, so both standard scores are negative. The products are all positive, giving a positive <em>r</em>.</p></li>
+<li id="scc9e-ch14-li-005"><p id="scc9e-ch14-p-077" block_type="BL-first"><phrase block_type="maker">&#8226;</phrase> <strong>The correlation <em>r</em> always falls between</strong> &#8722;<strong>1 and 1</strong>. Values of <em>r</em> near 0 indicate a very weak straight-line relationship. The strength of the relationship increases as <em>r</em> moves away from 0 toward either &#8722;1 or 1. Values of <em>r</em> close to &#8722;1 or 1 indicate that the points lie close to a straight line. The extreme values <em>r</em> = &#8722;1 and <em>r</em> = 1 occur only when the points in a scatterplot lie exactly along a straight line.</p>
+<p id="scc9e-ch14-p-078" block_type="BL-first">The result 14-esult <em>r</em> = 0.994 in <link href="example_14_4.html">Example 4</link> reflects the strong positive straight-line pattern in <link href="figure_14_5.html">Figure 14.5</link>. The scatterplots in <link href="figure_14_7.html">Figure 14.7</link> illustrate how <em>r</em> measures both the direction and the strength of a straight-line relationship. Study them carefully. Note that the sign of <em>r</em> matches the direction of the slope in each plot, and that <em>r</em> approaches &#8722;1 or 1 as the pattern of the plot comes closer to a straight line.</p></li>
+<li id="scc9e-ch14-li-007"><p id="scc9e-ch14-p-079" block_type="BL-first"><phrase block_type="maker">&#8226;</phrase> Because <em>r</em> uses the standard scores for the observations, <strong>the correlation does not change when we change the units of measurement</strong> of <em>x</em>, <em>y</em>, or both. Measuring length in inches rather than centimeters in <link href="example_14_4.html">Example 4</link> would not change the correlation <em>r</em> = 0.994.</p>
+<p id="scc9e-ch14-p-080" block_type="TXT">Our descriptive measures for one variable all share the same units as the original observations. If we measure length in centimeters, the median, quartiles, mean, and standard deviation are all in centimeters. The correlation between two variables, however, has no unit of measurement; it is just a number between &#8722;1 and 1.</p></li>
+<li id="scc9e-ch14-li-009"><p id="scc9e-ch14-p-081" block_type="BL-first"><phrase block_type="maker">&#8226;</phrase> <strong>Correlation ignores the distinction between explanatory and response variables</strong>. If we reverse our choice of which variable to call <em>x</em> and which to call <em>y</em>, the correlation does not change.</p></li>
+<li id="scc9e-ch14-li-010"><p id="scc9e-ch14-p-082" block_type="BL-first"><phrase block_type="maker">&#8226;</phrase> <strong>Correlation measures the strength of only straight-line association between two variables</strong>. Correlation does not describe curved relationships between variables, no matter how strong they are.</p>
+<p id="scc9e_page_326" block_type="page_start" data-margin-content="left">326</p>
+<figure id="scc9e-ch14-fig-009" block_type="FIGURE" data-caption-compass="S" numbered="true" number="14.7" mmtype="image" mmsrc="" attr="" data-filename="figure_14_7.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch14-img-011" alt="image" src="asset/ch14/17MOORESCC-MSE_9e_fig_14_07.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 14.7</phrase> <phrase block_type="FG-CAP">How correlation measures the strength of a straight-line relationship. Patterns closer to a straight line have correlations closer to 1 or &#8211;1.</phrase></caption>
+</figure></li>
+<li id="scc9e-ch14-li-012"><p id="scc9e-ch14-p-084" block_type="BL-last"><phrase block_type="maker">&#8226;</phrase> Like the mean and standard deviation, <strong>the correlation is strongly affected by a few outlying observations</strong>. Use <em>r</em> with caution when outliers appear in the scatterplot. Look, for example, at <link href="figure_14_8.html">Figure 14.8</link>. We changed the femur length of the first fossil from 38 to 60 centimeters. Rather than falling in line with the other fossils, the first is now an outlier. The correlation drops from <em>r</em> = 0.994 for the original data to <em>r</em> = 0.640.</p></li>
+</list>
+<p id="scc9e_page_327" block_type="page_start" data-margin-content="right">327</p>
+<figure id="scc9e-ch14-fig-010" block_type="FIGURE" data-caption-compass="S" numbered="true" number="14.8" mmtype="image" mmsrc="" attr="" data-filename="figure_14_8.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch14-img-012" alt="image" src="asset/ch14/17MOORESCC-MSE_9e_fig_14_08.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 14.8</phrase> <phrase block_type="FG-CAP">Moving one point reduces the correlation from <em>r</em> = 0.994 to <em>r</em> = 0.640.</phrase></caption>
+</figure>
+<box id="scc9e-ch14-box-013" numbered="false" block_type="BX2">
+<p id="scc9e-ch14-p-086" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch14-quest-003" block_type="exercise_14_3.html">
+<p id="scc9e-ch14-p-087" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">14.3 Brain size and intelligence.</phrase> For centuries, people have associated intelligence with brain size. A recent study used magnetic resonance imaging to measure the brain size of several individuals. The IQ and brain size (in units of 10,000 pixels) of six individuals are as follows:</p>
+<table id="scc9e-ch14-untab-6" numbered="false" block_type="UN-TABLE" attr="80">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="EXP-MCL">Brain size:</td>
+<td align="center" block_type="EXP-MCL">100</td>
+<td align="center" block_type="EXP-MCL">90</td>
+<td align="center" block_type="EXP-MCL">95</td>
+<td align="center" block_type="EXP-MCL">92</td>
+<td align="center" block_type="EXP-MCL">88</td>
+<td align="center" block_type="EXP-MCL">106</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="EXP-MCL">IQ:</td>
+<td align="center" block_type="EXP-MCL">140</td>
+<td align="center" block_type="EXP-MCL">90</td>
+<td align="center" block_type="EXP-MCL">100</td>
+<td align="center" block_type="EXP-MCL">135</td>
+<td align="center" block_type="EXP-MCL">80</td>
+<td align="center" block_type="EXP-MCL">103</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch14-p-088" block_type="BX2-QUE">Make a scatterplot of these data if you have not already done so. Compare your plot with those in <link href="figure_14_7.html">Figure 14.7</link>. What would you estimate the correlation <em>r</em> to be?</p>
+</question>
+</box>
+<p id="scc9e-ch14-p-089" block_type="TXT">There are many kinds of relationships between variables and many ways to measure them. Although correlation is very common, remember its limitations. Correlation makes sense only for quantitative variables&#8212;we can speak of the relationship between the sex of voters and the political party they prefer, but not of the correlation between these variables. Even for quantitative variables such as the length of bones, correlation measures only straight-line association.</p>
+<p id="scc9e_page_328" block_type="page_start" data-margin-content="left">328</p>
+<p id="scc9e-ch14-p-091" block_type="TXT">Remember also that correlation is not a complete description of two-variable data, even when there is a straight-line relationship between the variables. You should give the means and standard deviations of both <em>x</em> and <em>y</em> along with the correlation. Because the formula for correlation uses the means and standard deviations, these measures are the proper choice to accompany a correlation.</p>
+</section>
+<section id="scc9e-ch14-sec1-005" block_type="SUM-H" chapter="ch14" numbered="false" level="1" print_page="328">
+<section-metadata><section-title><phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase></section-title></section-metadata>
+<p id="scc9e-ch14-p-092" block_type="SUM-hd1">Chapter Specifics</p>
+<list id="scc9e-ch14-list-003" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch14-li-013"><p id="scc9e-ch14-p-093" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> A <strong>scatterplot</strong> is a graph of the relationship between two quantitative variables. If you have an explanatory and a response variable, put the explanatory variable on the <em>x</em> (horizontal) axis of the scatterplot.</p></li>
+<li id="scc9e-ch14-li-014"><p id="scc9e-ch14-p-094" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> When you examine a scatterplot, look for the <strong>direction</strong>, <strong>form</strong>, and <strong>strength</strong> of the relationship and also for possible <strong>outliers</strong>.</p></li>
+<li id="scc9e-ch14-li-015"><p id="scc9e-ch14-p-095" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> If there is a clear direction, is it positive (the scatterplot slopes upward from left to right) or negative (the plot slopes downward)?</p></li>
+<li id="scc9e-ch14-li-016"><p id="scc9e-ch14-p-096" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> Is the form straight or curved? Are there clusters of observations? Is the relationship strong (a tight pattern in the plot) or weak (the points scatter widely)?</p></li>
+<li id="scc9e-ch14-li-017"><p id="scc9e-ch14-p-097" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> The <strong>correlation</strong> <em>r</em> measures the direction and strength of a straight-line relationship between two quantitative variables.</p></li>
+<li id="scc9e-ch14-li-018"><p id="scc9e-ch14-p-098" block_type="SUM-BL-last"><phrase block_type="maker">&#8226;</phrase> Correlation is a number between &#8722;1 and 1. The sign of <em>r</em> shows whether the association is positive or negative. The value of <em>r</em> gets closer to &#8722;1 or 1 as the points cluster more tightly about a straight line. The extreme values &#8722;1 and 1 occur only when the scatterplot shows a perfectly straight line.</p></li>
+</list>
+<p id="scc9e-ch14-p-099" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch14-img-013" alt="image" src="asset/global_images/LinkIt.jpg"/> <link href="scc9e-ch11.xml">Chapters 11</link>, <link href="scc9e-ch12.xml">12</link>, and <link href="scc9e-ch13.xml">13</link> discussed graphical and numerical summaries suitable for a single quantitative variable. In practice, most statistical studies examine relationships between two or more variables. In this chapter, we learn about scatterplots, a type of graph that displays the relationship between two quantitative variables, and correlation, a number that measures the direction and strength of a straight-line relationship between two quantitative variables.</p>
+<p id="scc9e-ch14-p-0100" block_type="SUM-TXT">As with other graphics and numbers that summarize data, scatterplots and correlations help us see what the data are telling us, in this case about the possible relationship between two quantitative variables. The goal is to draw conclusions about whether the relationships observed in our data are true in general. In the next chapter, we discuss this in detail.</p>
+<p id="scc9e_page_329" block_type="page_start" data-margin-content="right">329</p>
+<box id="scc9e-ch14-box-014" numbered="false" block_type="case_title">
+<p id="scc9e-ch14-p-0103" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> <link href="figure_14_9.html">Figure 14.9</link> is a scatterplot of each state&#8217;s average SAT Mathematics score and the proportion of that state&#8217;s high school seniors who took the SAT exam. SAT score is the response variable, and the proportion of a state&#8217;s high school seniors who took the SAT exam is the explanatory variable.</p>
+<list id="scc9e-ch14-list-004" type="ordered" block_type="numbered">
+<li id="scc9e-ch14-li-019"><p id="scc9e-ch14-p-0104" block_type="CSNL1"><phrase block_type="maker">1.</phrase> Describe the overall pattern in words. Is the association positive or negative? Is the relationship strong?</p></li>
+<li id="scc9e-ch14-li-020"><p id="scc9e-ch14-p-0105" block_type="CSNL2"><phrase block_type="maker">2.</phrase> The plot shows two groups of states. In one group, no more than 20&#37; took the SAT. In the other, at least 36&#37; took the exam and the average scores tend to be lower. There are two common college entrance exams, the SAT and the ACT. In ACT states, only students applying to selective colleges take the SAT. Which group of states in the plot corresponds to states in which most students take the ACT exam?</p></li>
+<li id="scc9e-ch14-li-021"><p id="scc9e-ch14-p-0106" block_type="CSNL2"><phrase block_type="maker">3.</phrase> Write a paragraph, in language that someone who knows no statistics would understand, explaining why comparing states on the basis of average SAT scores alone would be misleading as a way of comparing the quality of education in the states.</p></li>
+</list>
+</box>
+<box id="scc9e-ch14-box-015" numbered="false" block_type="launchpad">
+<p id="scc9e-ch14-p-0108" block_type="CR-BIB-T"><image asset-id="scc9e-ch14-img-014" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<list id="scc9e-ch14-list-005" type="unordered" block_type="redbullet">
+<li id="scc9e-ch14-li-023"><p id="scc9e-ch14-p-0109" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> <link href="http://www.whfreeman.com/BrainHoney/Resource/6710/SitebuilderUploads/bps7e/studentresources/statboards/statboards_creating_and_interpreting_scatterplots.html" target="_blank">The StatBoard Video <em>Creating and Interpreting Scatterplots</em></link> describes how to create and interpret a scatterplot in the context of an example exploring the relationship between the cost of attending a baseball game and the team&#8217;s performance.</p></li>
+<li id="scc9e-ch14-li-024"><p id="scc9e-ch14-p-0110" block_type="CR-BIB-BL-last"><phrase block_type="maker">&#8226;</phrase> <link href="http://www.whfreeman.com/BrainHoney/Resource/6710/SitebuilderUploads/bps7e/studentresources/statboards/statboards_computing_a_correlation.html" target="_blank">The StatBoard Video <em>Computing a Correlation</em></link> describes how to compute the correlation in the context of an example exploring the relationship between the cost of attending a baseball game and the team&#8217;s performance.</p></li>
+</list>
+</box>
+<figure id="scc9e-ch14-fig-011" block_type="FIGURE" data-caption-compass="S" numbered="true" number="14.9" mmtype="image" mmsrc="" attr="" data-filename="figure_14_9.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch14-img-015" alt="image" src="asset/ch14/17MOORESCC-MSE_9e_fig_14_09.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 14.9</phrase> <phrase block_type="FG-CAP">Scatterplot of average SAT Mathematics score for each state against the proportion of the state&#8217;s high school seniors who took the SAT.</phrase></caption>
+</figure>
+</section>
+<section id="scc9e-ch14-sec1-006" block_type="CR-X-H" chapter="ch14" numbered="false" level="1" print_page="330">
+<section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
+<p id="scc9e_page_330" block_type="page_start" data-margin-content="left">330</p>
+<p id="scc9e-ch14-p-0112" block_type="CR-X"><em>For <link href="exercise_14_1.html">Exercise 14.1</link>, see page 319; for <link href="exercise_14_2.html">Exercise 14.2</link>, see page 322; for <link href="exercise_14_3.html">Exercise 14.3</link>, see page 327.</em></p>
+<question id="scc9e-ch14-quest-004" block_type="exercise_14_4.html">
+<p id="scc9e-ch14-p-0113" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.4 Creating scatterplots.</phrase> When creating a scatterplot,</p>
+<list id="scc9e-ch14-list-006" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-025"><p id="scc9e-ch14-p-0114" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> always put the categorical variable on the horizontal axis.</p></li>
+<li id="scc9e-ch14-li-026"><p id="scc9e-ch14-p-0115" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> always put the categorical variable on the vertical axis.</p></li>
+<li id="scc9e-ch14-li-027"><p id="scc9e-ch14-p-0116" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> if you have an explanatory variable, put it on the horizontal axis.</p></li>
+<li id="scc9e-ch14-li-028"><p id="scc9e-ch14-p-0117" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> if you have a response variable, put it on the horizontal axis.</p></li>
+</list>
+</question>
+<question id="scc9e-ch14-quest-005" block_type="exercise_14_5.html">
+<p id="scc9e-ch14-p-0118" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.5 Interpreting scatterplots.</phrase> If the points in a scatterplot of two variables slope upward from left to right, we say the direction of the relationship between the variables is</p>
+<list id="scc9e-ch14-list-007" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-029"><p id="scc9e-ch14-p-0119" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> positive.</p></li>
+<li id="scc9e-ch14-li-030"><p id="scc9e-ch14-p-0120" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> negative.</p></li>
+<li id="scc9e-ch14-li-031"><p id="scc9e-ch14-p-0121" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> strong.</p></li>
+<li id="scc9e-ch14-li-032"><p id="scc9e-ch14-p-0122" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> weak.</p></li>
+</list>
+</question>
+<question id="scc9e-ch14-quest-006" block_type="exercise_14_6.html">
+<p id="scc9e-ch14-p-0123" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.6 Interpreting scatterplots.</phrase> Which of the following patterns might one observe in a scatterplot?</p>
+<list id="scc9e-ch14-list-008" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-033"><p id="scc9e-ch14-p-0124" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The points in the plot follow a curved pattern.</p></li>
+<li id="scc9e-ch14-li-034"><p id="scc9e-ch14-p-0125" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The points in the plot group into different clusters.</p></li>
+<li id="scc9e-ch14-li-035"><p id="scc9e-ch14-p-0126" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> One or two points are clear outliers.</p></li>
+<li id="scc9e-ch14-li-036"><p id="scc9e-ch14-p-0127" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> All of the above.</p></li>
+</list>
+</question>
+<question id="scc9e-ch14-quest-007" block_type="exercise_14_7.html">
+<p id="scc9e-ch14-p-0128" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.7 Correlation.</phrase> Which of the following is true of the correlation <em>r</em> ?</p>
+<list id="scc9e-ch14-list-009" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-037"><p id="scc9e-ch14-p-0129" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> It cannot be greater than 1 or less than &#8722;1.</p></li>
+<li id="scc9e-ch14-li-038"><p id="scc9e-ch14-p-0130" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> It measures the strength of the <em>straight-line</em> relationship between two quantitative variables.</p></li>
+<li id="scc9e-ch14-li-039"><p id="scc9e-ch14-p-0131" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> A correlation of +1 or &#8722;1 can only happen if there is a perfect straight-line relationship between two quantitative variables.</p></li>
+<li id="scc9e-ch14-li-040"><p id="scc9e-ch14-p-0132" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> All of the above.</p></li>
+</list>
+</question>
+<question id="scc9e-ch14-quest-008" block_type="exercise_14_8.html">
+<p id="scc9e-ch14-p-0133" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.8 Correlation and scatterplots.</phrase> If the points in a scatterplot are very tightly clustered around a straight line, the correlation must be</p>
+<list id="scc9e-ch14-list-010" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-041"><p id="scc9e-ch14-p-0134" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> close to 0.</p></li>
+<li id="scc9e-ch14-li-042"><p id="scc9e-ch14-p-0135" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> close to +1.</p></li>
+<li id="scc9e-ch14-li-043"><p id="scc9e-ch14-p-0136" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> close to &#8722;1.</p></li>
+<li id="scc9e-ch14-li-044"><p id="scc9e-ch14-p-0137" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> close to either +1 or &#8722;1.</p></li>
+</list>
+</question>
+</section>
+<section id="scc9e-ch14-sec1-007" block_type="CR-X-H-v1" chapter="ch14" numbered="false" level="1" print_page="330">
+<section-metadata><section-title>CHAPTER 14 EXERCISES</section-title></section-metadata>
+<question id="scc9e-ch14-quest-009" block_type="exercise_14_9.html">
+<p id="scc9e-ch14-p-0138" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.9 What number can I be?</phrase></p>
+<list id="scc9e-ch14-list-011" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-045"><p id="scc9e-ch14-p-0139" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What are all the values that a correlation <em>r</em> can possibly take?</p></li>
+<li id="scc9e-ch14-li-046"><p id="scc9e-ch14-p-0140" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What are all the values that a standard deviation <em>s</em> can possibly take?</p></li>
+<li id="scc9e-ch14-li-047"><p id="scc9e-ch14-p-0141" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> What are all the values that a mean <phrase data-math="math_20"></phrase> can possibly take?</p></li>
+</list>
+</question>
+<question id="scc9e-ch14-quest-010" block_type="exercise_14_10.html">
+<p id="scc9e-ch14-p-0142" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.10 Measuring mice.</phrase> For a biology project, you measure the tail length (millimeters) and weight (grams) of 10 mice.</p>
+<list id="scc9e-ch14-list-012" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-048"><p id="scc9e-ch14-p-0143" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain why you expect the correlation between tail length and weight to be positive.</p></li>
+<li id="scc9e-ch14-li-049"><p id="scc9e-ch14-p-0144" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> If you measured tail length in centimeters, how would the correlation change?</p></li>
+</list>
+</question>
+<question id="scc9e-ch14-quest-011" block_type="exercise_14_11.html">
+<p id="scc9e-ch14-p-0145" block_type="CR-X-NL"><image asset-id="scc9e-ch14-img-016" alt="image" src="asset/global_images/news.jpg"/> <phrase block_type="CR-X-NL-N-ri">14.11 Living on campus.</phrase> A February 2, 2008, article in the <em>Columbus Dispatch</em> reported a study on the distances students lived from campus and average GPA. Here is a summary of the results:</p>
+<table id="scc9e-ch14-untab-7" numbered="false" block_type="UN-TABLE" attr="60">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-X-NL-MCL"><strong>Residence</strong></td>
+<td align="char" char="." block_type="CR-X-NL-MCL"><strong>Avg. GPA</strong></td>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="CR-X-NL-MCL">Residence hall</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">3.33</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-X-NL-MCL">Walking distance</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">3.16</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-X-NL-MCL">Near campus, long<br/>walk or short drive</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">3.12</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-X-NL-MCL">Within the county,<br/>not near campus</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">2.97</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-X-NL-MCL">Outside the county</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">2.94</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch14-p-0146" block_type="CR-X-NL">Based on these data, is the association between the distance a student lives from campus and average GPA positive, negative, or near 0?</p>
+</question>
+<p id="scc9e_page_331" block_type="page_start" data-margin-content="right">331</p>
+<question id="scc9e-ch14-quest-012" block_type="exercise_14_12.html">
+<p id="scc9e-ch14-p-0148" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.12 The endangered manatee.</phrase> Manatees are large, gentle, slow-moving creatures found along the coast of Florida. Many manatees are injured or killed by boats. <link href="figure_14_10.html">Figure 14.10</link> is a scatterplot of the number of manatee deaths by boats versus the number of boats registered in Florida (in thousands) for the years between 1977 and 2014.</p>
+<list id="scc9e-ch14-list-013" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-050"><p id="scc9e-ch14-p-0149" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Describe the overall pattern of the relationship in words.</p></li>
+<li id="scc9e-ch14-li-051"><p id="scc9e-ch14-p-0150" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> About what are the number of boats registered and manatee deaths for point A?</p></li>
+<li id="scc9e-ch14-li-052"><p id="scc9e-ch14-p-0151" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Suppose there was a point near B. Would this be an outlier? If so, say how it is unusual (for example, &#8220;a moderately high number of deaths but a low number of boats registered&#8221;).</p></li>
+</list>
+<figure id="scc9e-ch14-fig-012" block_type="FIGURE" data-caption-compass="S" numbered="true" number="14.10" mmtype="image" mmsrc="" attr="" data-filename="figure_14_10.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch14-img-017" alt="image" src="asset/ch14/17MOORESCC-MSE_9e_fig_14_10.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 14.10</phrase> <phrase block_type="FG-CAP">Manatee deaths by boats and boats registered in Florida, <link href="exercise_14_12.html">Exercises 14.12</link> and <link href="exercise_14_14.html">14.14</link>.</phrase></caption>
+</figure>
+</question>
+<question id="scc9e-ch14-quest-013" block_type="exercise_14_13.html">
+<p id="scc9e-ch14-p-0152" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.13 Calories and salt in hot dogs.</phrase> <link href="figure_14_11.html">Figure 14.11</link> shows the calories and sodium content in 17 brands of meat hot dogs. Describe the overall pattern of these data. In what way is the point marked A unusual?</p>
+</question>
+<figure id="scc9e-ch14-fig-013" block_type="FIGURE" data-caption-compass="S" numbered="true" number="14.11" mmtype="image" mmsrc="" attr="" data-filename="figure_14_11.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch14-img-018" alt="image" src="asset/ch14/17MOORESCC-MSE_9e_fig_14_11.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 14.11</phrase> <phrase block_type="FG-CAP">Calories and sodium content for 17 brands of meat hot dogs, <link href="exercise_14_13.html">Exercises 14.13</link> and <link href="exercise_14_15.html">14.15</link>.</phrase></caption>
+</figure>
+  <question id="scc9e-ch14-quest-014" block_type="exercise_14_14.html">
+<p id="scc9e-ch14-p-0153" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.14 The endangered manatee.</phrase> Is the correlation <em>r</em> for the data in <link href="figure_14_10.html">Figure 14.10</link> near &#8722;1, clearly negative but not near &#8722;1, near 0, clearly positive but not near 1, or near 1? Explain your answer.</p>
+</question>
+<p id="scc9e_page_332" block_type="page_start" data-margin-content="left">332</p>
+<question id="scc9e-ch14-quest-015" block_type="exercise_14_15.html">
+<p id="scc9e-ch14-p-0155" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.15 Calories and salt in hot dogs.</phrase> Is the correlation <em>r</em> for the data in <link href="figure_14_11.html">Figure 14.11</link> near &#8722;1, clearly negative but not near &#8722;1, near 0, clearly positive but not near 1, or near 1? Explain your answer.</p>
+</question>
+<question id="scc9e-ch14-quest-016" block_type="exercise_14_16.html">
+<p id="scc9e-ch14-p-0156" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.16 Comparing correlations.</phrase> Which of <link href="figure_14_2.html">Figure 14.2</link>, <link href="figure_14_10.html">14.10</link>, and <link href="figure_14_11.html">14.11</link> has a correlation closer to 0? Explain your answer.</p>
+</question>
+<question id="scc9e-ch14-quest-017" block_type="exercise_14_17.html">
+<p id="scc9e-ch14-p-0157" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.17 Outliers and correlation.</phrase> In <link href="figure_14_11.html">Figure 14.11</link>, the point marked A is an outlier. Will removing the outlier <em>increase</em> or <em>decrease r</em> ? Why?</p>
+</question>
+<question id="scc9e-ch14-quest-018" block_type="exercise_14_18.html">
+<p id="scc9e-ch14-p-0158" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.18 Global warming.</phrase> Have average global temperatures been increasing in recent years? Here are annual average global temperatures for the last 21 years in degrees Celsius.</p>
+<list id="scc9e-ch14-list-014" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-053"><p id="scc9e-ch14-p-0159" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Make a scatterplot. (Which is the explanatory variable?)</p></li>
+<li id="scc9e-ch14-li-054"><p id="scc9e-ch14-p-0160" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Is the association between these variables positive or negative? Explain why you expect the relationship to have this direction.</p></li>
+<li id="scc9e-ch14-li-055"><p id="scc9e-ch14-p-0161" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Describe the form and strength of the relationship.</p></li>
+</list>
+<table id="scc9e-ch14-untab-8" numbered="false" block_type="UN-TABLE" attr="65">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-X-NL-MCL">Year</td>
+<td align="center" block_type="CR-X-NL-MCL">1994</td>
+<td align="center" block_type="CR-X-NL-MCL">1995</td>
+<td align="center" block_type="CR-X-NL-MCL">1996</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-X-NL-MCL">Temperature</td>
+<td align="center" block_type="CR-X-NL-MCL">14.23</td>
+<td align="center" block_type="CR-X-NL-MCL">14.35</td>
+<td align="center" block_type="CR-X-NL-MCL">14.22</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch14-untab-9" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-X-NL-MCL">Year</td>
+<td align="center" block_type="CR-X-NL-MCL">1997</td>
+<td align="center" block_type="CR-X-NL-MCL">1998</td>
+<td align="center" block_type="CR-X-NL-MCL">1999</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-X-NL-MCL">Temperature</td>
+<td align="center" block_type="CR-X-NL-MCL">14.42</td>
+<td align="center" block_type="CR-X-NL-MCL">14.54</td>
+<td align="center" block_type="CR-X-NL-MCL">14.36</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch14-untab-10" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-X-NL-MCL">Year</td>
+<td align="center" block_type="CR-X-NL-MCL">2000</td>
+<td align="center" block_type="CR-X-NL-MCL">2001</td>
+<td align="center" block_type="CR-X-NL-MCL">2002</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-X-NL-MCL">Temperature</td>
+<td align="center" block_type="CR-X-NL-MCL">14.33</td>
+<td align="center" block_type="CR-X-NL-MCL">14.45</td>
+<td align="center" block_type="CR-X-NL-MCL">14.51</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch14-untab-11" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-X-NL-MCL">Year</td>
+<td align="center" block_type="CR-X-NL-MCL">2003</td>
+<td align="center" block_type="CR-X-NL-MCL">2004</td>
+<td align="center" block_type="CR-X-NL-MCL">2005</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-X-NL-MCL">Temperature</td>
+<td align="center" block_type="CR-X-NL-MCL">14.52</td>
+<td align="center" block_type="CR-X-NL-MCL">14.48</td>
+<td align="center" block_type="CR-X-NL-MCL">14.55</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch14-untab-12" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-X-NL-MCL">Year</td>
+<td align="center" block_type="CR-X-NL-MCL">2006</td>
+<td align="center" block_type="CR-X-NL-MCL">2007</td>
+<td align="center" block_type="CR-X-NL-MCL">2008</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-X-NL-MCL">Temperature</td>
+<td align="center" block_type="CR-X-NL-MCL">14.50</td>
+<td align="center" block_type="CR-X-NL-MCL">14.49</td>
+<td align="center" block_type="CR-X-NL-MCL">14.41</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch14-untab-13" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-X-NL-MCL">Year</td>
+<td align="center" block_type="CR-X-NL-MCL">2009</td>
+<td align="center" block_type="CR-X-NL-MCL">2010</td>
+<td align="center" block_type="CR-X-NL-MCL">2011</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-X-NL-MCL">Temperature</td>
+<td align="center" block_type="CR-X-NL-MCL">14.50</td>
+<td align="center" block_type="CR-X-NL-MCL">14.56</td>
+<td align="center" block_type="CR-X-NL-MCL">14.43</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch14-untab-14" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-X-NL-MCL">Year</td>
+<td align="center" block_type="CR-X-NL-MCL">2012</td>
+<td align="center" block_type="CR-X-NL-MCL">2013</td>
+<td align="center" block_type="CR-X-NL-MCL">2014</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-X-NL-MCL">Temperature</td>
+<td align="center" block_type="CR-X-NL-MCL">14.48</td>
+<td align="center" block_type="CR-X-NL-MCL">14.52</td>
+<td align="center" block_type="CR-X-NL-MCL">14.59</td>
+</tr>
+</tbody>
+</table>
+</question>
+<p id="scc9e_page_333" block_type="page_start" data-margin-content="right">333</p>
+<question id="scc9e-ch14-quest-019" block_type="exercise_14_19.html">
+<p id="scc9e-ch14-p-0163" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.19 Death by intent.</phrase> Homicide and suicide are both intentional means of ending a life. However, the reason for committing a homicide is different than that for suicide, and we might expect homicide and suicide rates to be uncorrelated. On the other hand, both can involve some degree of violence, so perhaps we might expect some level of correlation in the rates. <link href="table_14_1.html">Table 14.1</link> gives data from 2008&#8211;2010 for 26 counties in Ohio. Rates are per 100,000 people. The data also indicate that the homicide rates for some counties should be treated with caution because of low counts (Y = Yes, treat with caution, and N = No, do not treat with caution).</p>
+<list id="scc9e-ch14-list-015" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-056"><p id="scc9e-ch14-p-0164" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Make a scatterplot of the data for the counties for which the data do not need to be treated with caution. Use homicide rate as the explanatory variable.</p></li>
+<li id="scc9e-ch14-li-057"><p id="scc9e-ch14-p-0165" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Is the association between these variables positive or negative? What is the form of the relationship? How strong is the relationship?</p></li>
+<li id="scc9e-ch14-li-058"><p id="scc9e-ch14-p-0166" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Now add the data for the counties for which the data do need to be treated with caution to your graph, using a different color or a different plotting symbol. Does the pattern of the relationship that you observed in part (b) hold for the counties for which the data do need to be treated with caution also?</p></li>
+</list>
+<table id="scc9e-ch14-tab-1" numbered="false" block_type="TABLE" caption-placement="Top" attr="115" data-filename="table_14_1.html">
+<table_caption><phrase block_type="TBN-N-ri">TABLE 14.1</phrase> <phrase block_type="TBN-T">Homicide and suicide rates per 100,000 people</phrase></table_caption>
+<tbody>
+<tr class="bborder">
+<th align="center" block_type="TBN-COLHD">County</th>
+<th align="char" char="." block_type="TBN-COLHD">Homicide<br/>rate</th>
+<th align="char" char="." block_type="TBN-COLHD">Suicide<br/>rate</th>
+<th align="center" block_type="TBN-COLHD" class="rborder">Caution</th>
+<th align="char" char="." block_type="TBN-COLHD">County</th>
+<th align="char" char="." block_type="TBN-COLHD">Homicide<br/>rate</th>
+<th align="char" char="." block_type="TBN-COLHD">Suicide<br/>rate</th>
+<th align="center" block_type="TBN-COLHD">Caution</th>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Allen</td>
+<td align="char" char="." block_type="TBN-TXT">4.2</td>
+<td align="char" char="." block_type="TBN-TXT">9.2</td>
+<td align="center" block_type="TBN-TXT" class="rborder">Y</td>
+<td align="char" char="." block_type="TBN-TXT">Lorrain</td>
+<td align="char" char="." block_type="TBN-TXT">3.1</td>
+<td align="char" char="." block_type="TBN-TXT">11.0</td>
+<td align="center" block_type="TBN-TXT">Y</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Ashtabula</td>
+<td align="char" char="." block_type="TBN-TXT">1.8</td>
+<td align="char" char="." block_type="TBN-TXT">15.5</td>
+<td align="center" block_type="TBN-TXT" class="rborder">Y</td>
+<td align="char" char="." block_type="TBN-TXT">Lucas</td>
+<td align="char" char="." block_type="TBN-TXT">7.4</td>
+<td align="char" char="." block_type="TBN-TXT">13.3</td>
+<td align="center" block_type="TBN-TXT">N</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Butler</td>
+<td align="char" char="." block_type="TBN-TXT">2.6</td>
+<td align="char" char="." block_type="TBN-TXT">12.7</td>
+<td align="center" block_type="TBN-TXT" class="rborder">Y</td>
+<td align="char" char="." block_type="TBN-TXT">Mahoning</td>
+<td align="char" char="." block_type="TBN-TXT">10.9</td>
+<td align="char" char="." block_type="TBN-TXT">12.4</td>
+<td align="center" block_type="TBN-TXT">N</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Clermont</td>
+<td align="char" char="." block_type="TBN-TXT">1.0</td>
+<td align="char" char="." block_type="TBN-TXT">16.0</td>
+<td align="center" block_type="TBN-TXT" class="rborder">Y</td>
+<td align="char" char="." block_type="TBN-TXT">Medina</td>
+<td align="char" char="." block_type="TBN-TXT">0.5</td>
+<td align="char" char="." block_type="TBN-TXT">10.0</td>
+<td align="center" block_type="TBN-TXT">Y</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Clark</td>
+<td align="char" char="." block_type="TBN-TXT">5.6</td>
+<td align="char" char="." block_type="TBN-TXT">14.5</td>
+<td align="center" block_type="TBN-TXT" class="rborder">N</td>
+<td align="char" char="." block_type="TBN-TXT">Miami</td>
+<td align="char" char="." block_type="TBN-TXT">2.6</td>
+<td align="char" char="." block_type="TBN-TXT">9.2</td>
+<td align="center" block_type="TBN-TXT">Y</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Columbiana</td>
+<td align="char" char="." block_type="TBN-TXT">3.5</td>
+<td align="char" char="." block_type="TBN-TXT">16.6</td>
+<td align="center" block_type="TBN-TXT" class="rborder">N</td>
+<td align="char" char="." block_type="TBN-TXT">Montgomery</td>
+<td align="char" char="." block_type="TBN-TXT">9.5</td>
+<td align="char" char="." block_type="TBN-TXT">15.2</td>
+<td align="center" block_type="TBN-TXT">N</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Cuyahoga</td>
+<td align="char" char="." block_type="TBN-TXT">9.2</td>
+<td align="char" char="." block_type="TBN-TXT">9.5</td>
+<td align="center" block_type="TBN-TXT" class="rborder">N</td>
+<td align="char" char="." block_type="TBN-TXT">Portage</td>
+<td align="char" char="." block_type="TBN-TXT">1.6</td>
+<td align="char" char="." block_type="TBN-TXT">9.6</td>
+<td align="center" block_type="TBN-TXT">Y</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Delaware</td>
+<td align="char" char="." block_type="TBN-TXT">0.8</td>
+<td align="char" char="." block_type="TBN-TXT">7.6</td>
+<td align="center" block_type="TBN-TXT" class="rborder">Y</td>
+<td align="char" char="." block_type="TBN-TXT">Stark</td>
+<td align="char" char="." block_type="TBN-TXT">4.7</td>
+<td align="char" char="." block_type="TBN-TXT">13.5</td>
+<td align="center" block_type="TBN-TXT">N</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Franklin</td>
+<td align="char" char="." block_type="TBN-TXT">8.7</td>
+<td align="char" char="." block_type="TBN-TXT">11.4</td>
+<td align="center" block_type="TBN-TXT" class="rborder">N</td>
+<td align="char" char="." block_type="TBN-TXT">Summit</td>
+<td align="char" char="." block_type="TBN-TXT">4.9</td>
+<td align="char" char="." block_type="TBN-TXT">11.5</td>
+<td align="center" block_type="TBN-TXT">N</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Greene</td>
+<td align="char" char="." block_type="TBN-TXT">2.7</td>
+<td align="char" char="." block_type="TBN-TXT">12.8</td>
+<td align="center" block_type="TBN-TXT" class="rborder">Y</td>
+<td align="char" char="." block_type="TBN-TXT">Trumbull</td>
+<td align="char" char="." block_type="TBN-TXT">5.8</td>
+<td align="char" char="." block_type="TBN-TXT">16.6</td>
+<td align="center" block_type="TBN-TXT">N</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Hamilton</td>
+<td align="char" char="." block_type="TBN-TXT">8.9</td>
+<td align="char" char="." block_type="TBN-TXT">10.8</td>
+<td align="center" block_type="TBN-TXT" class="rborder">N</td>
+<td align="char" char="." block_type="TBN-TXT">Warren</td>
+<td align="char" char="." block_type="TBN-TXT">0.7</td>
+<td align="char" char="." block_type="TBN-TXT">11.3</td>
+<td align="center" block_type="TBN-TXT">Y</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Lake</td>
+<td align="char" char="." block_type="TBN-TXT">1.8</td>
+<td align="char" char="." block_type="TBN-TXT">11.3</td>
+<td align="center" block_type="TBN-TXT" class="rborder">Y</td>
+<td align="char" char="." block_type="TBN-TXT">Wayne</td>
+<td align="char" char="." block_type="TBN-TXT">1.8</td>
+<td align="char" char="." block_type="TBN-TXT">8.9</td>
+<td align="center" block_type="TBN-TXT">Y</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TBN-TXT">Licking</td>
+<td align="char" char="." block_type="TBN-TXT">4.5</td>
+<td align="char" char="." block_type="TBN-TXT">12.9</td>
+<td align="center" block_type="TBN-TXT" class="rborder">N</td>
+<td align="char" char="." block_type="TBN-TXT">Wood</td>
+<td align="char" char="." block_type="TBN-TXT">1.0</td>
+<td align="char" char="." block_type="TBN-TXT">7.4</td>
+<td align="center" block_type="TBN-TXT">Y</td>
+</tr>
+</tbody>
+</table>
+</question>
+<p id="scc9e_page_334" block_type="page_start" data-margin-content="left">334</p>
+<question id="scc9e-ch14-quest-020" block_type="exercise_14_20.html">
+<p id="scc9e-ch14-p-0168" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.20 Marriage.</phrase> Suppose that men always married women three years younger than themselves. Draw a scatterplot of the ages of six married couples, with the husband&#8217;s age as the explanatory variable. What is the correlation <em>r</em> for your data? Why?</p>
+</question>
+<question id="scc9e-ch14-quest-021" block_type="exercise_14_21.html">
+<p id="scc9e-ch14-p-0169" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.21 Stretching a scatterplot.</phrase> Changing the units of measurement can greatly alter the appearance of a scatterplot. Return to the fossil data from <link href="example_14_3.html">Example 3</link>:</p>
+<table id="scc9e-ch14-untab-15" numbered="false" block_type="UN-TABLE" attr="65">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-X-NL-MCL">Femur:</td>
+<td align="center" block_type="CR-X-NL-MCL">38</td>
+<td align="center" block_type="CR-X-NL-MCL">56</td>
+<td align="center" block_type="CR-X-NL-MCL">59</td>
+<td align="center" block_type="CR-X-NL-MCL">64</td>
+<td align="center" block_type="CR-X-NL-MCL">74</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-X-NL-MCL">Humerus:</td>
+<td align="center" block_type="CR-X-NL-MCL">41</td>
+<td align="center" block_type="CR-X-NL-MCL">63</td>
+<td align="center" block_type="CR-X-NL-MCL">70</td>
+<td align="center" block_type="CR-X-NL-MCL">72</td>
+<td align="center" block_type="CR-X-NL-MCL">84</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch14-p-0170" block_type="CR-X-NL">These measurements are in centimeters. Suppose a deranged scientist measured the femur in meters and the humerus in millimeters. The data would then be</p>
+<table id="scc9e-ch14-untab-16" numbered="false" block_type="UN-TABLE" attr="65">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-X-NL-MCL">Femur:</td>
+<td align="center" block_type="CR-X-NL-MCL">0.38</td>
+<td align="center" block_type="CR-X-NL-MCL">0.56</td>
+<td align="center" block_type="CR-X-NL-MCL">0.59</td>
+<td align="center" block_type="CR-X-NL-MCL">0.64</td>
+<td align="center" block_type="CR-X-NL-MCL">0.74</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-X-NL-MCL">Humerus:</td>
+<td align="center" block_type="CR-X-NL-MCL">410</td>
+<td align="center" block_type="CR-X-NL-MCL">630</td>
+<td align="center" block_type="CR-X-NL-MCL">700</td>
+<td align="center" block_type="CR-X-NL-MCL">720</td>
+<td align="center" block_type="CR-X-NL-MCL">840</td>
+</tr>
+</tbody>
+</table>
+<list id="scc9e-ch14-list-016" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-059"><p id="scc9e-ch14-p-0171" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Draw an <em>x</em> axis extending from 0 to 75 and a <em>y</em> axis extending from 0 to 850. Plot the original data on these axes. Then plot the new data on the same axes in a different color. The two plots look very different.</p></li>
+<li id="scc9e-ch14-li-060"><p id="scc9e-ch14-p-0172" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Nonetheless, the correlation is exactly the same for the two sets of measurements. Why do you know that this is true without doing any calculations?</p></li>
+</list>
+</question>
+<question id="scc9e-ch14-quest-022" block_type="exercise_14_22.html">
+<p id="scc9e-ch14-p-0173" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.22 Global warming.</phrase> <link href="exercise_14_18.html">Exercise 14.18</link> gives data on the average global temperatures, in degrees Celsius, for the years 1994 to 2014.</p>
+<list id="scc9e-ch14-list-017" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-061"><p id="scc9e-ch14-p-0174" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Use a calculator to find the correlation <em>r</em>. Explain from looking at the scatterplot why this value of <em>r</em> is reasonable.</p></li>
+<li id="scc9e-ch14-li-062"><p id="scc9e-ch14-p-0175" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Suppose that the temperatures had been recorded in degrees Fahrenheit. For example, the 1994 temperature of 14.23&#176;C would be 57.61&#176;F. How would the value of <phrase data-math="math_21"></phrase> change?</p></li>
+</list>
+</question>
+<question id="scc9e-ch14-quest-023" block_type="exercise_14_23.html">
+<p id="scc9e-ch14-p-0176" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.23 Death by intent.</phrase> <link href="table_14_1.html">Table 14.1</link> gives data on on homicide and suicide rates from 2008&#8211;2010 for 26 counties in Ohio. The homicide rates for 14 of the counties should be treated with caution because of low counts. You made a scatterplot of these data in <link href="exercise_14_19.html">Exercise 14.19</link>.</p>
+<list id="scc9e-ch14-list-018" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-063"><p id="scc9e-ch14-p-0177" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Do you think the correlation will be about the same for the counties for which the data do need to be treated with caution and for the counties for which the data do not need to be treated with caution, or quite different for the two groups? Why?</p></li>
+<li id="scc9e-ch14-li-064"><p id="scc9e-ch14-p-0178" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Calculate <em>r</em> for the counties for which the data do need to be treated with caution alone and also for for the counties for which the data do not need to be treated with caution alone. (Use your calculator.)</p></li>
+</list>
+</question>
+<question id="scc9e-ch14-quest-024" block_type="exercise_14_24.html">
+<p id="scc9e-ch14-p-0179" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.24 Strong association but no correlation.</phrase> The gas mileage of an automobile first increases and then decreases as the speed increases. Suppose that this relationship is very regular, as shown by the following data on speed (miles per hour) and mileage (miles per gallon):</p>
+<table id="scc9e-ch14-untab-17" numbered="false" block_type="UN-TABLE" attr="90">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-X-NL-MCL">Speed:</td>
+<td align="center" block_type="CR-X-NL-MCL">25</td>
+<td align="center" block_type="CR-X-NL-MCL">35</td>
+<td align="center" block_type="CR-X-NL-MCL">45</td>
+<td align="center" block_type="CR-X-NL-MCL">55</td>
+<td align="center" block_type="CR-X-NL-MCL">65</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-X-NL-MCL">Mileage:</td>
+<td align="center" block_type="CR-X-NL-MCL">20</td>
+<td align="center" block_type="CR-X-NL-MCL">24</td>
+<td align="center" block_type="CR-X-NL-MCL">26</td>
+<td align="center" block_type="CR-X-NL-MCL">24</td>
+<td align="center" block_type="CR-X-NL-MCL">20</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch14-p-0180" block_type="CR-X-NL">Make a scatterplot of mileage versus speed. Use a calculator to show that the correlation between speed and mileage is <em>r</em> = 0. Explain why the correlation is 0 even though there is a strong relationship between speed and mileage.</p>
+</question>
+<p id="scc9e_page_335" block_type="page_start" data-margin-content="right">335</p>
+<question id="scc9e-ch14-quest-025" block_type="exercise_14_25.html">
+<p id="scc9e-ch14-p-0182" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.25 Death by intent.</phrase> The data in <link href="table_14_1.html">Table 14.1</link> are given in deaths per 100,000 people. If we changed the data from deaths per 100,000 people to deaths per 1,000 people how would the rates change? How would the correlation between homicide and suicide rates change?</p>
+</question>
+<question id="scc9e-ch14-quest-026" block_type="exercise_14_26.html">
+<p id="scc9e-ch14-p-0183" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.26 What are the units?</phrase> How sensitive to changes in water temperature are coral reefs? To find out, measure the growth of corals in aquariums (where growth is the change in weight, in pounds, of the coral before and after the experiment) when the water temperature (in degrees Fahrenheit) is controlled at different levels. In what units are each of the following descriptive statistics measured?</p>
+<list id="scc9e-ch14-list-019" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-065"><p id="scc9e-ch14-p-0184" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the mean growth of the coral</p></li>
+<li id="scc9e-ch14-li-066"><p id="scc9e-ch14-p-0185" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> the standard deviation of the growth of the coral</p></li>
+<li id="scc9e-ch14-li-067"><p id="scc9e-ch14-p-0186" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> the correlation between weight gain and temperature</p></li>
+<li id="scc9e-ch14-li-068"><p id="scc9e-ch14-p-0187" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> the median growth of the coral</p></li>
+</list>
+</question>
+<question id="scc9e-ch14-quest-027" block_type="exercise_14_27.html">
+<p id="scc9e-ch14-p-0188" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.27 Teaching and research.</phrase> A college newspaper interviews a psychologist about student ratings of the teaching of faculty members. The psychologist says, &#8220;The evidence indicates that the correlation between the research productivity and teaching rating of faculty members is close to zero.&#8221; The paper reports this as &#8220;Professor McDaniel said that good researchers tend to be poor teachers, and vice versa.&#8221; Explain why the paper&#8217;s report is wrong. Write a statement in plain language (don&#8217;t use the word &#8220;correlation&#8221;) to explain the psychologist&#8217;s meaning.</p>
+</question>
+<question id="scc9e-ch14-quest-028" block_type="exercise_14_28.html">
+<p id="scc9e-ch14-p-0189" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.28 Sloppy writing about correlation.</phrase> Each of the following statements contains a blunder. Explain in each case what is wrong.</p>
+<list id="scc9e-ch14-list-020" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-069"><p id="scc9e-ch14-p-0190" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> &#8220;There is a high correlation between the manufacturer of a car and the gas mileage of the car.&#8221;</p></li>
+<li id="scc9e-ch14-li-070"><p id="scc9e-ch14-p-0191" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> &#8220;We found a high correlation (<em>r</em> = 1.09) between the horsepower of a car and the gas mileage of the car.&#8221;</p></li>
+<li id="scc9e-ch14-li-071"><p id="scc9e-ch14-p-0192" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> &#8220;The correlation between the weight of a car and the gas mileage of the car was found to be <em>r</em> = 0.53 miles per gallon.&#8221;</p></li>
+</list>
+</question>
+<question id="scc9e-ch14-quest-029" block_type="exercise_14_29.html">
+<p id="scc9e-ch14-p-0193" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.29 Guess the correlation.</phrase> Measurements in large samples show that the correlation</p>
+<list id="scc9e-ch14-list-021" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-072"><p id="scc9e-ch14-p-0194" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> between this semester&#8217;s GPA and the previous semester&#8217;s GPA of an upper-class student is about &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;.</p></li>
+<li id="scc9e-ch14-li-073"><p id="scc9e-ch14-p-0195" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> between IQ and the scores on a test of the reading ability of seventh-grade students is about &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;.</p></li>
+<li id="scc9e-ch14-li-074"><p id="scc9e-ch14-p-0196" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> between the number of hours a student spends studying per week and the average number of hours spent studying by his or her roommates is about &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;.</p></li>
+</list>
+<p id="scc9e-ch14-p-0197" block_type="CR-X-NL">The answers (in scrambled order) are</p>
+<p id="scc9e-ch14-p-0198" block_type="CR-X-NL-eq"><em>r</em> = 0.2&#8195; <em>r</em> = 0.5&#8195; <em>r</em> = 0.8</p>
+<p id="scc9e-ch14-p-0199" block_type="CR-X-NL">Match the answers to the statements and explain your choice.</p>
+</question>
+<question id="scc9e-ch14-quest-030" block_type="exercise_14_30.html">
+<p id="scc9e-ch14-p-0200" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.30 Guess the correlation.</phrase> For each of the following pairs of variables, would you expect a substantial negative correlation, a substantial positive correlation, or a small correlation?</p>
+<list id="scc9e-ch14-list-022" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-075"><p id="scc9e-ch14-p-0201" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the cost of a cable TV service and the number of channels provided by the service</p></li>
+<li id="scc9e-ch14-li-076"><p id="scc9e-ch14-p-0202" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> the weight of a road-racing bicycle and the cost of the bicycle</p></li>
+<li id="scc9e-ch14-li-077"><p id="scc9e-ch14-p-0203" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> the number of hours a student spends on Facebook and the student&#8217;s GPA</p></li>
+<li id="scc9e-ch14-li-078"><p id="scc9e-ch14-p-0204" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> the heights and salaries of faculty members at your university</p></li>
+</list>
+<table id="scc9e-ch14-tab-2" numbered="false" block_type="TABLE" caption-placement="Top" attr="115" data-filename="table_14_2.html">
+<table_caption><phrase block_type="TBN-N-ri">TABLE 14.2</phrase> <phrase block_type="TBN-T">2015 Hot dog and beer (per ounce) prices (in dollars) at some Major League Baseball stadiums</phrase></table_caption>
+<tbody>
+<tr class="bborder">
+<th align="center" block_type="TBN-COLHD">Team</th>
+<th align="char" char="." block_type="TBN-COLHD">Hot dog</th>
+<th align="char" char="." block_type="TBN-COLHD" class="rborder">Beer</th>
+<th align="center" block_type="TBN-COLHD">Team</th>
+<th align="char" char="." block_type="TBN-COLHD">Hot dog</th>
+<th align="char" char="." block_type="TBN-COLHD" class="rborder">Beer</th>
+<th align="center" block_type="TBN-COLHD">Team</th>
+<th align="char" char="." block_type="TBN-COLHD">Hot dog</th>
+<th align="char" char="." block_type="TBN-COLHD">Beer</th>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Angels</td>
+<td align="char" char="." block_type="TBN-TXT">4.50</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.28</td>
+<td align="center" block_type="TBN-TXT">Giants</td>
+<td align="char" char="." block_type="TBN-TXT">5.50</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.50</td>
+<td align="center" block_type="TBN-TXT">Rays</td>
+<td align="char" char="." block_type="TBN-TXT">5.00</td>
+<td align="char" char="." block_type="TBN-TXT">0.42</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Astros</td>
+<td align="char" char="." block_type="TBN-TXT">4.75</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.36</td>
+<td align="center" block_type="TBN-TXT">Indians</td>
+<td align="char" char="." block_type="TBN-TXT">3.00</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.33</td>
+<td align="center" block_type="TBN-TXT">Reds</td>
+<td align="char" char="." block_type="TBN-TXT">1.00</td>
+<td align="char" char="." block_type="TBN-TXT">0.44</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Blue Jays</td>
+<td align="char" char="." block_type="TBN-TXT">4.98</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.49</td>
+<td align="center" block_type="TBN-TXT">Marlins</td>
+<td align="char" char="." block_type="TBN-TXT">6.00</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.50</td>
+<td align="center" block_type="TBN-TXT">Red Sox</td>
+<td align="char" char="." block_type="TBN-TXT">5.25</td>
+<td align="char" char="." block_type="TBN-TXT">0.65</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Braves</td>
+<td align="char" char="." block_type="TBN-TXT">4.75</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.45</td>
+<td align="center" block_type="TBN-TXT">Mets</td>
+<td align="char" char="." block_type="TBN-TXT">6.25</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.48</td>
+<td align="center" block_type="TBN-TXT">Rockies</td>
+<td align="char" char="." block_type="TBN-TXT">4.75</td>
+<td align="char" char="." block_type="TBN-TXT">0.38</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Brewers</td>
+<td align="char" char="." block_type="TBN-TXT">3.50</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.38</td>
+<td align="center" block_type="TBN-TXT">Padres</td>
+<td align="char" char="." block_type="TBN-TXT">4.00</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.36</td>
+<td align="center" block_type="TBN-TXT">Royals</td>
+<td align="char" char="." block_type="TBN-TXT">5.00</td>
+<td align="char" char="." block_type="TBN-TXT">0.41</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Cardinals</td>
+<td align="char" char="." block_type="TBN-TXT">4.25</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.42</td>
+<td align="center" block_type="TBN-TXT">Phillies</td>
+<td align="char" char="." block_type="TBN-TXT">3.75</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.37</td>
+<td align="center" block_type="TBN-TXT">Tigers</td>
+<td align="char" char="." block_type="TBN-TXT">4.50</td>
+<td align="char" char="." block_type="TBN-TXT">0.42</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Diamondbacks</td>
+<td align="char" char="." block_type="TBN-TXT">2.75</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.29</td>
+<td align="center" block_type="TBN-TXT">Pirates</td>
+<td align="char" char="." block_type="TBN-TXT">3.25</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.34</td>
+<td align="center" block_type="TBN-TXT">Twins</td>
+<td align="char" char="." block_type="TBN-TXT">4.50</td>
+<td align="char" char="." block_type="TBN-TXT">0.38</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TBN-TXT">Dodgers</td>
+<td align="char" char="." block_type="TBN-TXT">5.50</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.31</td>
+<td align="center" block_type="TBN-TXT">Rangers</td>
+<td align="char" char="." block_type="TBN-TXT">5.00</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.31</td>
+<td align="center" block_type="TBN-TXT">White Sox</td>
+<td align="char" char="." block_type="TBN-TXT">4.00</td>
+<td align="char" char="." block_type="TBN-TXT">0.41</td>
+</tr>
+</tbody>
+</table>
+</question>
+<p id="scc9e_page_336" block_type="page_start" data-margin-content="left">336</p>
+<question id="scc9e-ch14-quest-031" block_type="exercise_14_31.html">
+<p id="scc9e-ch14-p-0206" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.31 Investment diversification.</phrase> A mutual funds company&#8217;s newsletter says, &#8220;A well-diversified portfolio includes assets with low correlations.&#8221; The newsletter includes a table of correlations between the returns on various classes of investments. For example, the correlation between municipal bonds and large-cap stocks is 0.50, and the correlation between municipal bonds and small-cap stocks is 0.21.</p>
+<list id="scc9e-ch14-list-023" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-079"><p id="scc9e-ch14-p-0207" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Rachel invests heavily in municipal bonds. She wants to diversify by adding an investment whose returns do not closely follow the returns on her bonds. Should she choose large-cap stocks or small-cap stocks for this purpose? Explain your answer.</p></li>
+<li id="scc9e-ch14-li-080"><p id="scc9e-ch14-p-0208" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> If Rachel wants an investment that tends to increase when the return on her bonds drops, what kind of correlation should she look for?</p></li>
+</list>
+</question>
+<question id="scc9e-ch14-quest-032" block_type="exercise_14_32.html">
+<p id="scc9e-ch14-p-0209" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.32 Take me out to the ball game.</phrase> What is the relationship between the price charged for a hot dog and the price charged, per ounce, for beer in Major League Baseball stadiums? <link href="table_14_2.html">Table 14.2</link> gives some data. Make a scatterplot appropriate for showing how beer price helps explain hot dog price. Describe the relationship that you see. Are there any outliers?</p>
+</question>
+<question id="scc9e-ch14-quest-033" block_type="exercise_14_33.html">
+<p id="scc9e-ch14-p-0210" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.33 When it rains, it pours.</phrase> <link href="figure_14_12.html">Figure 14.12</link> plots the highest <em>yearly</em> precipitation ever recorded in each state against the highest <em>daily</em> precipitation ever recorded in that state. The points for Alaska (AK), Hawaii (HI), and Texas (TX) are marked on the scatterplot.</p>
+<list id="scc9e-ch14-list-024" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-081"><p id="scc9e-ch14-p-0211" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> About what are the highest daily and yearly precipitation values for Alaska?</p></li>
+<li id="scc9e-ch14-li-082"><p id="scc9e-ch14-p-0212" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Alaska and Hawaii have very high yearly maximums relative to their daily maximums. Omit these two states as outliers. Describe the nature of the relationship for the other states. Would knowing a state&#8217;s highest daily precipitation be a great help in predicting that state&#8217;s highest yearly precipitation?</p></li>
+</list>
+<figure id="scc9e-ch14-fig-014" block_type="FIGURE" data-caption-compass="S" numbered="true" number="14.12" mmtype="image" mmsrc="" attr="" data-filename="figure_14_12.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch14-img-019" alt="image" src="asset/ch14/17MOORESCC-MSE_9e_fig_14_12.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 14.12</phrase> <phrase block_type="FG-CAP">Record-high yearly precipitation recorded at any weather station in each state plotted against record-high daily precipitation for the state, <link href="exercise_14_33.html">Exercise 14.33</link>.</phrase></caption>
+</figure>
+</question>
+<p id="scc9e_page_337" block_type="page_start" data-margin-content="right">337</p>
+<question id="scc9e-ch14-quest-034" block_type="exercise_14_34.html">
+<p id="scc9e-ch14-p-0214" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.34 How many corn plants is too many?</phrase> How much corn per acre should a farmer plant to obtain the highest yield? To find the best planting rate, do an experiment: plant at different rates on several plots of ground and measure the harvest. Here are data from such an experiment:</p>
+<list id="scc9e-ch14-list-025" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch14-li-083"><p id="scc9e-ch14-p-0215" block_type="CR-X-NL"><phrase block_type="maker">(a)</phrase> Is yield or planting rate the explanatory variable? Why?</p></li>
+<li id="scc9e-ch14-li-084"><p id="scc9e-ch14-p-0216" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Make a scatterplot of yield and planting rate.</p></li>
+<li id="scc9e-ch14-li-085"><p id="scc9e-ch14-p-0217" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Describe the overall pattern of the relationship. Is it a straight line? Is there a positive or negative association, or neither? Explain why increasing the number of plants per acre of ground has the effect that your graph shows.</p></li>
+</list>
+<table id="scc9e-ch14-untab-18" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-X-NL-MCL"><strong>Plants<br/>per acre</strong></td>
+<td align="center" block_type="CR-X-NL-MCL"><strong>Yield<br/>(bushels per acre)</strong></td>
+</tr>
+<tr class="tborder">
+<td align="char" char="," block_type="CR-X-NL-MCL">12,000</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">150.1</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">113.0</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">118.4</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">142.6</td>
+</tr>
+<tr>
+<td align="char" char="," block_type="CR-X-NL-MCL">16,000</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">166.9</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">120.7</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">135.2</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">149.8</td>
+</tr>
+<tr>
+<td align="char" char="," block_type="CR-X-NL-MCL">20,000</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">165.3</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">130.1</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">139.6</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">149.9</td>
+</tr>
+<tr>
+<td align="char" char="," block_type="CR-X-NL-MCL">24,000</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">134.7</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">138.4</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">156.1</td>
+<td align="char" char="." block_type="CR-X-NL-MCL"></td>
+</tr>
+<tr class="bborder">
+<td align="char" char="," block_type="CR-X-NL-MCL">28,000</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">119.0</td>
+<td align="char" char="." block_type="CR-X-NL-MCL">150.5</td>
+<td align="char" char="." block_type="CR-X-NL-MCL"></td>
+<td align="char" char="." block_type="CR-X-NL-MCL"></td>
+</tr>
+</tbody>
+</table>
+</question>
+<question id="scc9e-ch14-quest-035" block_type="exercise_14_35.html">
+<p id="scc9e-ch14-p-0218" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.35 Why so small?</phrase> Make a scatterplot of the following data:</p>
+<table id="scc9e-ch14-untab-19" numbered="false" block_type="UN-TABLE" attr="80">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-X-NL-MCL"><em>x</em></td>
+<td align="center" block_type="CR-X-NL-MCL">1</td>
+<td align="center" block_type="CR-X-NL-MCL">2</td>
+<td align="center" block_type="CR-X-NL-MCL">3</td>
+<td align="center" block_type="CR-X-NL-MCL">4</td>
+<td align="center" block_type="CR-X-NL-MCL">9</td>
+<td align="center" block_type="CR-X-NL-MCL">10</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-X-NL-MCL"><em>y</em></td>
+<td align="center" block_type="CR-X-NL-MCL">12</td>
+<td align="center" block_type="CR-X-NL-MCL">2</td>
+<td align="center" block_type="CR-X-NL-MCL">3</td>
+<td align="center" block_type="CR-X-NL-MCL">5</td>
+<td align="center" block_type="CR-X-NL-MCL">9</td>
+<td align="center" block_type="CR-X-NL-MCL">11</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch14-p-0219" block_type="CR-X-NL">Use your calculator to show that the correlation is about 0.4. What feature of the data is responsible for reducing the correlation to this value despite a strong straight-line association between <em>x</em> and <em>y</em> in most of the observations?</p>
+</question>
+<p id="scc9e_page_338" block_type="page_start" data-margin-content="left">338</p>
+<question id="scc9e-ch14-quest-036" block_type="exercise_14_36.html">
+<p id="scc9e-ch14-p-0221" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.36 Ecological correlation.</phrase> Many studies reveal a positive correlation between income and number of years of education. To investigate this, a researcher makes two plots.</p>
+<p id="scc9e-ch14-p-0222" block_type="CR-X-NL">Plot 1: Plot the number of years of education (the explanatory variable) versus the average annual income of all adults having that many years of education (the response variable).</p>
+<p id="scc9e-ch14-p-0223" block_type="CR-X-NL">Plot 2: Plot the number of years of education (the explanatory variable) versus the individual annual incomes of all adults (the response variable).</p>
+<p id="scc9e-ch14-p-0224" block_type="CR-X-NL">Which plot will display a stronger correlation? (<em>Hint</em>: Which plot will display a greater amount of scatter? In particular, will the variation from individual to individual having the same number of years of education create more or less scatter in Plot 2 compared with plotting the average incomes in Plot 1? What effect will increased scatter have on the strength of the association we observe?)</p>
+<p id="scc9e-ch14-p-0225" block_type="CR-X-NL"><em>Note</em>: A correlation based on averages rather than on individuals is called an <strong>ecological correlation</strong>. Correlations based on averages can be misleading if they are interpreted to be about individuals.</p>
+</question>
+<question id="scc9e-ch14-quest-037" block_type="exercise_14_37.html">
+<p id="scc9e-ch14-p-0226" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">14.37 Ecological correlation again.</phrase> In <link href="exercise_14_11.html">Exercise 14.11</link> (page 330), would the association be stronger, weaker, or the same if the data given listed the GPAs of individual students (rather than averages) and the distance they lived from campus?</p>
+</question>
+<box id="scc9e-ch14-box-016" numbered="false" block_type="exploring-web">
+<p id="scc9e-ch14-p-0227" block_type="QRL icon"><image asset-id="scc9e-ch14-img-020" alt="image" src="asset/global_images/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch14-p-0228" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
+<p id="scc9e-ch14-p-0229" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
+</box>
+</section>
+</chapter>
