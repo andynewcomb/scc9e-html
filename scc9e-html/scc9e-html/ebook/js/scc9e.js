@@ -173,7 +173,7 @@ var Player_subtype = Player_manuscript_type.extend({
                 };
 
             //Table references
-                // Number in caption of table needs linked, along with title
+                // Number in caption of table needs to be linked, along with title
                     $('[data-block_type="TABLE"] [data-type="table_caption"]').click(function () {
                         //need table number	               
                         var tabnum = $(this).find('span[data-block_type^="TBN-N"]').text().replace(/ *TABLE ([\div]+)\.(\d+).*/i, "table_$1_$2.html");
