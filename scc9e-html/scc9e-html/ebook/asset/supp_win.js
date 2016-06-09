@@ -82,13 +82,23 @@ var suppwins_Player_subtype = Player_subtype.extend({
          // add links on table references in the text
          $('span[data_href^="table_"]').click(function () {
              var filename = $(this).attr('data_href');
-             var ch = filename.replace(/table_(\d+).*/i, "$1");
+             var ch = filename.replace(/table_([\div]+).*/i, "$1");
              var supp_win = "../../../ch" + ch + "/supp_wins/tables/" + filename;
+             supp_win = supp_win.replace(/chI\//i, "part1/"); //account for part figures too
+             supp_win = supp_win.replace(/chII\//i, "part2/"); //account for part figures too
+             supp_win = supp_win.replace(/chIII\//i, "part3/"); //account for part figures too
+             supp_win = supp_win.replace(/chIV\//i, "part4/"); //account for part figures to
              pop_content(supp_win, "1020px", "500px");
          });
 
          // adjust all image paths
          $('img[src^="asset/ch"]').each(function () {
+             var path = $(this).attr('src');
+             path = path.replace(/asset/, "../../..");
+             $(this).attr('src', path);
+         });
+         // also do for images found in part sections
+         $('img[src^="asset/part"]').each(function () {
              var path = $(this).attr('src');
              path = path.replace(/asset/, "../../..");
              $(this).attr('src', path);
@@ -120,16 +130,29 @@ var suppwins_Player_subtype = Player_subtype.extend({
         });
         // add link on the figure image 
         $('[data-caption-compass]  > img').click(function () {
+            // original code - changing for parts, but check against all other chapters
             var fignum = $(this).attr('src').replace(/fig_([\d_]+)/i, "$1");
             var supp_win = fignum.replace(/.*_0?(\d+)_0?(\d+)\.jpg/, "../../../ch$1/supp_wins/figures/figure_$1_$2.html");
+            // next clause added for part image supp wins which are not named "fig_"
+            if (supp_win.includes(".jpg")) {
+                // now get figure supp win from parent data-filename
+                var filename = $(this).parent().attr("data-filename");
+                var supp_win = "../figures/" + filename;
+            }
+
             pop_content(supp_win, "1015px", "700px");
         });
         // add link on the figure number in caption
         $('[data-caption-compass] [data-block_type="FG-N-ri"]').click(function () {
-            var fignum = $(this).text().replace(/FIGURE ([\d\.]+)/i, "$1");
-            var supp_win = fignum.replace(/(\d+)\.(\d+)/, "../../../ch$1/supp_wins/figures/figure_$1_$2.html");
+            var fignum = $(this).text().replace(/FIGURE ([\d\.iv]+)/i, "$1");
+            var supp_win = fignum.replace(/([\div]+)\.(\d+)/i, "../../../ch$1/supp_wins/figures/figure_$1_$2.html");
+            supp_win = supp_win.replace(/chI\//i, "part1/"); //account for part figures too
+            supp_win = supp_win.replace(/chII\//i, "part2/"); //account for part figures too
+            supp_win = supp_win.replace(/chIII\//i, "part3/"); //account for part figures too
+            supp_win = supp_win.replace(/chIV\//i, "part4/"); //account for part figures to
             pop_content(supp_win, "1015px", "700px");
         });
+
         //UNNUMBERED FIGURE IMAGE LINKS
         // add link on the figure image
         //$('[data-type="figure"][data-block_type="UN-FIGURE"] img').click(function () {

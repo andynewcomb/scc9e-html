@@ -173,18 +173,27 @@ var Player_subtype = Player_manuscript_type.extend({
                 };
 
             //Table references
-                // Number in caption of table needs linked, along with title
+                // Number in caption of table needs to be linked, along with title
                     $('[data-block_type="TABLE"] [data-type="table_caption"]').click(function () {
                         //need table number	               
-                        var tabnum = $(this).find('span[data-block_type^="TBN-N"]').text().replace(/ *TABLE (\d+)\.(\d+).*/i, "table_$1_$2.html");
-                        var supp_win = "asset/ch" + tabnum.replace(/table_(\d+)_.*/, "$1") + "/supp_wins/tables/" + tabnum;
+                        var tabnum = $(this).find('span[data-block_type^="TBN-N"]').text().replace(/ *TABLE ([\div]+)\.(\d+).*/i, "table_$1_$2.html");
+                        var ch = tabnum.replace(/table_([\div]+).*/i, "$1");
+                        var supp_win = "asset/ch" + ch + "/supp_wins/tables/" + tabnum;
+                        supp_win = supp_win.replace(/chI\//i, "part1/"); //account for part figures too
+                        supp_win = supp_win.replace(/chII\//i, "part2/"); //account for part figures too
+                        supp_win = supp_win.replace(/chIII\//i, "part3/"); //account for part figures too
+                        supp_win = supp_win.replace(/chIV\//i, "part4/"); //account for part figures too
                         pop_content(supp_win, "1020px", "500px");
                     });
                 // add link on table references in the text
                     $('span[data_href^="table_"]').click(function () {
                         var filename = $(this).attr('data_href');
-                        var ch = filename.replace(/table_(\d+).*/i, "$1");
+                        var ch = filename.replace(/table_([\div]+).*/i, "$1");
                         var supp_win = "asset/ch" + ch + "/supp_wins/tables/" + filename;
+                        supp_win = supp_win.replace(/chI\//i, "part1/"); //account for part figures too
+                        supp_win = supp_win.replace(/chII\//i, "part2/"); //account for part figures too
+                        supp_win = supp_win.replace(/chIII\//i, "part3/"); //account for part figures too
+                        supp_win = supp_win.replace(/chIV\//i, "part4/"); //account for part figures too
                         pop_content(supp_win, "1015px", "700px");
                     });
 
@@ -220,6 +229,11 @@ var Player_subtype = Player_manuscript_type.extend({
                     $('[data-type="question"] [data-block_type="CR-X-NL-N-ri"]').click(function () {
                         //need question number	               
                         var exernum = $(this).text().replace(/ *([\div]+)\.(\d+).*/i, "exercise_$1_$2.html");
+                        //if part, do differently
+                        //grab filename and chapter from block_type
+                        exernum = $(this).parents("[data-type='question']").attr("data-block_type");
+
+                        ////////
                         var supp_win = "asset/ch" + exernum.replace(/exercise_([\div]+)_.*/i, "$1") + "/supp_wins/exercises/" + exernum;
                         supp_win = supp_win.replace(/chI\//i, "part1/"); //account for part figures too
                         supp_win = supp_win.replace(/chII\//i, "part2/"); //account for part figures too
