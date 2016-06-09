@@ -1,0 +1,19 @@
+9
+two&#150;way table
+A table that displays the relationship between two categorical variables.
+row variable
+The categorical variable described in each horizontal row of a two&#150;way table.
+column variable
+The categorical variable described in each vertical column of a two&#150;way table.
+expected counts
+When testing <i>H</i><sub>0</sub>, the counts we would expect in a two&#150;way table, except for random variation, if <i>H</i><sub>0</sub> were true. This can be computed using the following formula&#58; expectedcounts.jpg
+chi&#150;square statistic
+A measure of how far the observed counts in a two&#150;way table are from the expected counts. It is denoted as &#967;<sup>2</sup> and can be calculated using the following formula&#58; chisquarestatistic.jpg
+chi&#150;square distribution
+The sampling distribution of the chi&#150;square statistic when the null hypothesis of no association is true. This type of distribution is not Normal. It takes only nonnegative values and is skewed to the right.
+degrees of freedom
+A number used to specify a specific chi&#150;square distribution.
+chi&#150;square test
+Tells us whether an observed association in a two&#150;way table is statistically significant. For a two&#150;way table with <i>r</i> rows and <i>c</i> columns, this uses critical values from the chi&#150;square distribution with &#40;<i>r</i> &#151; 1&#41;&#40;<i>c</i> &#151; 1&#41; degrees of freedom.
+Simpson's paradox
+The situation in which an association or comparsion that holds for all of several groups can disappear or even reverse direction when the data are combined to form a single group.

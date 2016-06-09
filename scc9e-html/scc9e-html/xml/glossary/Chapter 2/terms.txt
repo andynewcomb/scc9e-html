@@ -1,0 +1,11 @@
+5
+bias
+When the design of a statistical study systematically favors certain outcomes.
+convenience sampling
+Selection of participants for a statistical study based on how easy they are to reach. Because this method of sampling may not take an entire population into account, it is often biased.
+voluntary response sample
+A sample that chooses itself by responding to a general appeal, and is therefore often biased. Examples include write&#150;in or call&#150;in opinion polls.
+simple random sample
+Denoted SRS, consists of <i>n</i> individuals from the population chosen in such a way that every set of <i>n</i> individuals has an equal chance to be the sample actually selected.
+table of random digits
+A table comprised of a long string of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 with the following two properties&#58; 1. Each entry in the table is equally likely to be any of the 10 digits 0 through 9. 2. The entries are independent of each other. That is, knowledge of one part of the table gives no information about any other part.

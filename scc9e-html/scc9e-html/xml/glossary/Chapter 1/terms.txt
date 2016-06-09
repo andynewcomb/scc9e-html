@@ -1,0 +1,25 @@
+12
+individuals
+The objects described by a set of data. They may be people, but they may also be animals or things.
+variable
+Any characteristic of an individual. It can take different values for different individuals.
+categorical variable
+Places an individual into one of several groups or categories.
+numerical variable
+Takes numerical values for which arithmetic operations such as adding and averaging make sense. Also referred to as a quantitative variable.
+quantitative variable
+Takes numerical values for which arithmetic operations such as adding and averaging make sense. Also referred to as a numerical variable.
+response variable
+A variable that measures an outcome or result of a study.
+observational study
+A study that observes individuals and measures variables of interest, yet does not involve any intervention that will influence the responses. The purpose of such a study is to describe some group or situation.
+sample survey
+A type of observational study in which only a few members of a particular group are studied. These group members are selected not because they are of special interest, but because they represent the larger group.
+population
+In a statistical study, this is the entire group of individuals about which we want information.
+sample
+The part of the population from which we actually collect information and is used to draw conclusions about the whole.
+census
+A sample survey that attempts to include the entire population in the sample.
+experiment
+A study that deliberately imposes some treatment on individuals in order to observe their responses. The purpose is to study whether the treatment causes a change in the response.

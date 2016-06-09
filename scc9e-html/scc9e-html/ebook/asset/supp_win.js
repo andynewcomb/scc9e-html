@@ -1,4 +1,4 @@
-/// <reference path="jquery.js" />
+/// <reference path="../js/jquery.js" />
 xBookUtils.bookID = "scc9e";
 
 var suppwins_Player_subtype = Player_subtype.extend({

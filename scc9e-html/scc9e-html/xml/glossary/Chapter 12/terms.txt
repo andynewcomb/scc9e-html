@@ -1,0 +1,19 @@
+9
+median
+The midpoint of a distribution&#59; the number such that half the observations are smaller and the other half are larger. It is often denoted as <i>M</i> and can be found in a set of data, when all observations are arranged in order from smallest to largest, by counting &#40;<i>n</i> &#43; 1&#41;&#47;2 observations up from the bottom of the list.
+quartile
+With the median, the value that divides the observations in a distribution into quarters. One&#150;quarter of the observations fall below the first quartile, which is denoted as <i>Q</i><sub>1</sub>. Three&#150;quarters of the observations fall below the third quartile, which is denoted as <i>Q</i><sub>3</sub>.
+minimum
+The smallest observation in a data set.
+maximum
+The largest observation in a data set.
+five&#150;number summary
+A description of a distribution that consists of the smallest observation &#40;minimum&#41;, the first quartile, the median, the third quartile, and the largest observation &#40;maximum&#41;. These numbers are written in order from smallest to largest. In symbols, it is&#58; Minimum   <i>Q</i><sub>1</sub>   <i>M</i>   <i>Q</i><sub>3</sub>   Maximum
+boxplot
+A graph of the five&#150;number summary. A central box spans the quartiles. A line in the box marks the median. Lines extend from the box out to the smallest and largest observations.
+mean
+The arithmetic average of a set of observations.
+standard deviation
+Denoted <i>s</i> and used to measure variability, this measures the average distance of the observations in a distribution from their mean. This can be calculated by finding an average of the squared distances from the mean and then taking the square root.
+variance
+The average squared distance of the observations in a distribution from their mean. Also referred to as the square of the standard deviation.

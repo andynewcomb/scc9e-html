@@ -1,0 +1,19 @@
+9
+parameter
+A number that describes a population. It is a fixed number, but in practice we don't know the actual value of this number.
+statistic
+A number that describes a sample. This is a known value when we have taken a sample, but it can change from sample to sample. It is often used to estimate an unknown parameter.
+bias
+Consistent, repeated deviation of the sample statistic from the population parameter in the same direction when we take many samples.
+variability
+Describes how spread out the values of the sample statistic are when we take many samples.
+margin of error
+Says how close the sample statistic lies to the population parameter.
+level of confidence
+Says what percentage of all possible samples satisfy the margin of error.
+confidence statement
+A statement that says how accurate our conclusions about the population are. The statement itself is comprised of the margin of error and the level of confidence.
+preelection poll
+A sample survey that asks people how they will vote in the future. Because people often change their minds before the election, these polls are not very reliable.
+exit poll
+A poll in which voters are interviewed as they are leaving the voting place.

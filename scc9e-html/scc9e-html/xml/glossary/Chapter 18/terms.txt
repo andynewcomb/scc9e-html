@@ -1,0 +1,7 @@
+3
+probability model
+In the context of a random phenomenon, this describes all of the possible outcomes and says how to assign probabilities to any collection of outcomes.
+event
+A collection of outcomes of a random phenomenon.
+sampling distribution
+A description of what values a statistic takes in repeated samples from the same population and how often it takes those values.

@@ -1,0 +1,9 @@
+4
+scatterplot
+A graph that shows the relationship between two quantitative variables measured on the same individuals. The values of one variable appear on the horizontal axis, and the values of the other variable appear on the vertical axis. Each individual in the data appears as the point in the plot fixed by the values of both variables for that individual.
+positive association
+Two variables are said to have this when above&#150;average values of one variable tend to accompany above&#150;average values of the other variable. Below&#150;average values of the two variables also tend to occur together. As a result, the scatterplot slopes upward as we move from left to right.
+negative association
+Two variables are said to have this when above&#150;average values of one variable tend to accompany below&#150;average values of the other, and vice versa. The scatterplot slopes downward from left to right.
+correlation
+Usually denoted <i>r</i>, describes the direction and strength of a straight&#150;line relationship between two quantitative variables.

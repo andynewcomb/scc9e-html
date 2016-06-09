@@ -1,0 +1,9 @@
+4
+institutional review board
+A board that reviews all of an organization's planned studies in advance in order to protect the subjects from possible harm. The goal is to ensure that such studies are ethical.
+informed consent
+Type of consent a subject must give, usually in writing, before participating in a study. The subject must be told in advance about the nature of the study and any risk of harm it may bring.
+anonymity
+When subjects are anonymous and their names are not known even to the director of the study.
+confidential
+When an individual's responses in a study are not released to the public. Only statistical summaries for groups of subjects may be made public.

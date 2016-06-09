@@ -1,0 +1,23 @@
+11
+histogram
+The most common graph of the distribution of a quantitative variable. This type of graph is usually favored for larger data sets.
+distribution
+Tells us what values a variable takes and how often it takes each value.
+outlier
+Any individual observation in any graph of data that falls outside the overall pattern of the graph.
+overall pattern
+Description of a distribution that takes into account the center, variability, and shape of a histogram or stemplot.
+center
+The midpoint of a distribution. This is often used as a means of helping to describe the overall pattern of a histogram or stemplot.
+variability
+The range of a distribution, from its lowest value to its highest value, ignoring any outliers. This is often used as a means of helping to describe the overall pattern of a histogram or stemplot.
+shape
+The visual pattern of the distribution, such as symmetric or skewed. This is often used as a means of helping to describe the overall pattern of a histogram or stemplot.
+symmetric
+When both the right and left sides of a graph of a distribution are mirror images of each other.
+right&#150;skewed
+Description given to a distribution when the right side of the histogram &#40;the side containing the half of the observations with larger values&#41; extends much farther out than the left side.
+left&#150;skewed
+Description given to a distribution when the left side of the histogram &#40;the side containing the half of the observations with smaller values&#41; extends much farther out than the right side.
+stemplot
+A graphical display of a quantitative variable, usually favored for smaller data sets, in which each observation is separated into a stem consisting of all but the final &#40;rightmost&#41; digit and a leaf &#40;the final digit&#41;. The stems are placed in a vertical column with the smallest at the top, a vertical line is drawn to the right of this column, and each leaf is placed to the right of its corresponding stem, in increasing order out from the stem.

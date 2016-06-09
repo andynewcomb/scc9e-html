@@ -1,0 +1,13 @@
+6
+index number
+A number that measures the value of a variable relative to its value at a base period.
+base period
+A specific time period that is used as a benchmark against which other data is measured. This is essential to making sense of an index number.
+fixed market basket price index
+An index number for the total cost of a fixed collection of goods and services.
+Consumer Price Index
+Abbreviated CPI, the government's fixed market basket price index for the collection of all the goods and services that consumers buy.
+government statistical offices
+Government offices that produce data needed for government policy and decisions by businesses and individuals. The data should be accurate, timely, and free from political interference.
+real terms
+When all dollar amounts represent the same buying power, even though they may describe different years. Similar terms include &#34;constant dollars&#34; and &#34;real income&#34;.

@@ -1,0 +1,7 @@
+3
+simulation
+The use of random digits from a table or from computer software to imitate chance behavior.
+independent
+Two random phenomena are said to be this if knowing the outcome of one does not change the probabilities for outcomes of the other.
+tree diagram
+A method of displaying a probability model in graphical form.

@@ -1,0 +1,25 @@
+11
+distribution
+Describes what values a variable takes and how often the variable takes these values.
+roundoff error
+When there is a discrepancy between a calculated figure and the actual figure due to rounding.
+pie chart
+Used to display the distribution of a categorical variable, a graph that displays the way in which a whole is divided into parts.
+bar graph
+Used to display the distribution of a categorical variable, a graph that allows one to compare any set of numbers measured in the same units.
+categorical variable
+A variable that places an individual into one of several groups or categories.
+quantitative variable
+A variable that takes numerical values for which arithmetic operations such as adding and averaging make sense.
+pictogram
+A bar graph in which pictures replace the bars.
+line graph
+Used to show how a quantitative variable changes over time, a graph that plots the values of the variable &#40;vertical scale&#41; against time &#40;horizontal scale&#41;. Data points are connected by lines.
+trend
+A long&#150;term upward or downward movement over time.
+deviation
+Data that is inconsistent with the overall pattern.
+seasonal variation
+A pattern that repeats itself at known regular intervals of time.
+seasonally adjusted
+When seasonal variation is removed before the data are published.

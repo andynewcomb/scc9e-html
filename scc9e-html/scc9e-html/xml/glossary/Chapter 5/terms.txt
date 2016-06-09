@@ -1,0 +1,27 @@
+13
+response variable
+A variable that measures an outcome or result of a study.
+explanatory variable
+A variable that we think explains or causes changes in the response variable.
+subjects
+The individuals studied in an experiment.
+treatment
+Any specific experimental condition that is applied to the subjects. If an experiment has several explanatory variables, this is a combination of specific values of these variables.
+lurking variable
+A variable that has an important effect on the relationship among the variables in a study but is not one of the explanatory variables studied.
+confounded
+Two variables are said to be this when their effects on a response variable cannot be distinguished from each other. They may be either explanatory variables or lurking variables.
+clinical trial
+An experiment that studies the effectives of medical treatments on actual patients.
+placebo
+A dummy treatment with no active ingredients.
+placebo effect
+When an individual responds to a dummy treatment, perhaps due to the individual's expectation that the treatment will produce an influential outcome.
+double&#150;blind experiment
+An experiment in which neither the subjects nor those performing the experiment know which treatment the subjects received.
+randomized comparative experiment
+An experiment in which two or more treatments are compared and chance is used to decide which subjects get each treatment. In this type of experiment, enough subjects are used so that the effects of chance are small.
+control group
+A group that does not receive the treatment. This group may or may not receive a placebo.
+statistically significant
+When differences among the effects of the treatments are so large that they would rarely happen just by chance.

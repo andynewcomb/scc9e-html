@@ -1,0 +1,16 @@
+7
+test of significance
+An assessment of the evidence for some claim about the value of an unknown parameter.
+null hypothesis
+Denoted <i>H</i><sub>0</sub>, the claim being tested in a statistical test. The test is designed to assess the strength of the evidence against <i>H</i><sub>0</sub>. Typically, this is a statement of &#34;no effect&#34; or &#34;no difference.&#34;
+alternative hypothesis
+In a significance test, this is the claim that we hope or suspect is true instead of the null hypothesis. In it denoted <i>H</i><sub>a</sub>.
+<i>P</i>&#150;value
+The probability, computed assuming that <i>H</i><sub>0</sub> is true, that the sample outcome would be as extreme or more extreme than the actually observed outcome. The smaller this value is, the stronger the evidence is against <i>H</i><sub>0</sub> provided by the data.
+one&#150;sided
+Description given to an alternative hypothesis that dictates that sample results that are extreme in one direction count as evidence against <i>H</i><sub>0</sub> in favor of <i>H</i><sub>a</sub>. When notated, such alternative hypotheses will include an inequality sign &#40;such as greater than or less than&#41;.
+two&#150;sided
+Description given to an alternative hypothesis that dictates that sample results that are extreme in either direction count as evidence against <i>H</i><sub>0</sub> in favor of <i>H</i><sub>a</sub>. When notated, such alternative hypotheses will include a not equal to sign&#58; &#8800;.
+significance level
+Denoted &#945;, this is the decisive value of <i>P</i>. For example, if we choose &#945; &#61; 0.05, we are requiring that the data give evidence against <i>H</i><sub>0</sub> so strong that it would happen no more than 5&#37; of the time if <i>H</i><sub>0</sub> is in fact true.
+

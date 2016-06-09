@@ -1,0 +1,8 @@
+3
+random
+Phenomenon when individual outcomes are uncertain but there is, nonetheless, a regular distribution of outcomes in a large number of repetitions.
+probability
+Describes the long&#150;term regularity of random phenomena. It is a number between 0 and 1 that describes the proportion of times an outcome would occur in a very long series of repetitions.
+personal probability
+A number between 0 and 1 that expresses an individual's judgment of how likely an outcome is.
+

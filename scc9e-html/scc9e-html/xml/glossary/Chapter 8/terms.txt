@@ -1,0 +1,19 @@
+9
+measurement
+The assignment of a number to some property of an individual.
+instrument
+A tool used to make a measurement.
+valid measurement
+When a variable is relevant or appropriate as a representation of a property.
+rate
+Expressed as a fraction, a percentage, or a proportion, this is often a more valid measure than a simple count of occurrences.
+predictive validity
+When the measurement of a property can be used to predict success on tasks that are related to the property measured.
+random error
+This occurs when repeated measurements on the same individual give different results.
+reliable measurement
+When the random error in a measurement process is small.
+variance
+A quantity that is used to determine if the random error associated with a measurement is small.
+average
+In terms of measurement, the mean of several repeated measurements of the same individual. This is considered less variable, and thus more reliable, than a single measurement.

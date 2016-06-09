@@ -1,0 +1,17 @@
+8
+double&#150;blind experiment
+An experiment where neither the subjects nor the people who work with them know which treatment each subject is receiving.
+clinical trial
+A medical experiment involving human subjects.
+nonadherer
+A subject who participates in an experiment but does not follow the experimental treatment.
+dropout
+A subject who begins an experiment but does not complete it.
+completely randomized design
+Experimental design where all the experimental subjects are allocated at random among all the treatments.
+matched pairs
+A type of experiment that compares just two treatments and combines matching with randomization. Each subject receives both treatments in a random order, or the subjects are matched in pairs as closely as possible, and one subject in each pair receives each treatment.
+block
+A group of experimental subjects that are known before the experiment to be similar in some way that is expected to affect the response to the treatments.
+block design
+Where the random assignment of subjects to treatments is carried out separately within each block.

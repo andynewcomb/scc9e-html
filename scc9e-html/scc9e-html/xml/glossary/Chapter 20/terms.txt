@@ -1,0 +1,6 @@
+2
+expected value
+Found by multiplying each outcome of a random phenomenon &#40;that has numerical outcomes&#41; by its probability and then adding all the products. In symbols, if the possible outcomes are <i>a</i><sub>1</sub>,<i>a</i><sub>2</sub>,...,<i>a</i><sub><i>k</i></sub> and their probabilities are <i>p</i><sub>1</sub>,<i>p</i><sub>2</sub>,...,<i>p</i><sub><i>k</i></sub>, then the formula for this &#61; <i>a</i><sub>1</sub><i>p</i><sub>1</sub> &#43; <i>a</i><sub>2</sub><i>p</i><sub>2</sub> &#43;...&#43; <i>a</i><sub><i>k</i></sub><i>p</i><sub><i>k</i></sub>
+law of large numbers
+If a random phenomenon with numerical outcomes is repeated many times independently, the mean of the actually observed outcomes approaches the expected value.
+  

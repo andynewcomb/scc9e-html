@@ -1,0 +1,11 @@
+5
+density curve
+A curve with area exactly 1 underneath it whose shape describes the overall pattern of a distribution.
+Normal curve
+A symmetric, bell&#150;shaped density curve that has the following properties&#58; 1.It is completely described by giving its mean and its standard deviation. 2.The mean determines the center of the distribution. It is located at the center of symmetry of the curve. 3.The standard deviation determines the shape of the curve. It is the distance from the mean to the change&#150;of&#150;curvature points on either side.
+The 68&#150;95&#150;99.7 rule
+Rule that states that in any Normal distribution, approximately 68&#37; of the observations fall within one standard deviation of the mean, 95&#37; of the observations fall within two standard deviations of the mean, and 99.7&#37; of the observations fall within three standard deviations of the mean.
+standard score
+Observations expressed in standard deviation units above or below the mean of a distribution. It is found by subtracting the mean from the observation and then dividing that number by the standard deviation. A given standard score corresponds to the same percentile in any Normal distribution.
+percentile
+The <i>c</i>th percentile of a distribution is a value such that <i>c</i> percent of the observations lie below it and the rest lie above it.

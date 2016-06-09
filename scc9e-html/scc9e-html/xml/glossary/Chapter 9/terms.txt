@@ -1,0 +1,5 @@
+2
+inconsistencies
+When numbers in statistical data do not agree as they should. This can be a sign that the data is being incorrectly used in order to support a particular argument.
+implausible
+Description of numbers in data that are suprisingly large or small. This can be a sign that the data is being incorrectly used in order to support a particular argument.

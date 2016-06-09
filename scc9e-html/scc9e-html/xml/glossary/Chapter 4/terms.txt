@@ -1,0 +1,26 @@
+12
+sampling errors
+Errors that are caused by the act of taking a sample. These errors may cause sample results to be different from the results of a census.
+random sampling error
+The deviation between the sample statistic and the population parameter caused by chance in selecting a random sample. The margin of error in a confidence statement includes <i>only</i> this type of error.
+nonsampling errors
+Errors that are not related to the act of selecting a sample from the population. They can be present even in a census.
+sampling frame
+A list of individuals from which one draws a sample.
+undercoverage
+When some groups in a population are left out of the process of choosing a sample.
+processing error
+A type of nonsampling error that involves mistakes in mechanical tasks such as doing arithmetic or entering responses into a computer.
+response error
+A type of nonsampling error that occurs when a subject gives an incorrect response. In this case, the subject's response may be a lie, the subject may remember incorrectly, or the subject may guess at an answer without fully understanding the question.
+nonresponse
+The failure to obtain data from an individual selected for a sample. This could be because the subject does not cooperate, or because the subject could not be contacted.
+strata
+A collection of individuals that are grouped together based on a determined similarity.
+cluster
+A collection of individuals who are grouped together based on location.
+probability sample
+A sample chosen by chance.
+stratified random sample
+A sample in which the sampling frame is first divided into various strata. A simple random sample is then taken in each of these strata, with those selected combined to form the complete sample.
+

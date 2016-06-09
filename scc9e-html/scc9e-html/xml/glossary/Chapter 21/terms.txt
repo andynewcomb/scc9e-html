@@ -1,0 +1,19 @@
+9
+inference
+Draws conclusions about a population on the basis of data about a sample.
+sample proportion
+The statistic that estimates the unknown population parameter <i>p</i>. It is often known as &#34;<i>p</i>&#150;hat&#34;.
+95&#37; confidence interval
+An interval calculated from sample data by a process that is guaranteed to capture the true population parameter of 95&#37; of all samples.
+sampling distribution
+The distribution of values taken by a statistic in all possible samples of the same size from the same population.
+standard error
+The standard deviation of the sampling distribution of a sample statistic.
+central limit theorem
+A statistical fact that says that as we take more and more observations at random from any population, the distribution of the mean of these observations eventually gets close to a Normal distribution.
+confidence interval
+An interval and confidence level calculated for an estimate of an unknown population parameter, used to indicate how accurate the estimate is and of how confident we are that the result is correct.
+confidence level
+When calculated as part of a confidence interval, this gives the probability that the interval will capture the true parameter value in repeated samples.
+critical value
+Denoted as <i>z</i>*. For any probability <i>C</i> between 0 and 1, there is a number <i>z</i>* such that any Normal distribution has probability <i>C</i> within <i>z</i>* standard deviations of the mean.

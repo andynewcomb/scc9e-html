@@ -1,0 +1,21 @@
+10
+regression
+The name for statistical methods that fit some model to data in order to predict a response variable from one or more explanatory variables.
+regression line
+A straight line that describes how a response variable <i>y</i> changes as an explanatory variable <i>x</i> changes. This line is often used to predict the value of <i>y</i> for a given value of <i>x</i>.
+least&#150;squares regression line
+The line that makes the sum of the squares of the vertical distances of the data points from the line as small as possible.
+slope
+Denoted as <i>b</i> in the regression line equation <i>y</i> &#61; <i>a</i> &#43; <i>bx</i>, this is the amount by which <i>y</i> changes when <i>x</i> increases by one unit.
+intercept
+Denoted as <i>a</i> in the regression line equation <i>y</i> &#61; <i>a</i> &#43; <i>bx</i>, this is the value of <i>y</i> when <i>x</i> &#61; 0.
+square of the correlation
+Denoted as <i>r</i><sup>2</sup>, this is the proportion of the variation in the values of <i>y</i> that is explained by the least&#150;squares regression of <i>y</i> on <i>x</i>.
+extrapolation
+The use of a regression line for prediction for values outside of the range of data from which the regression line was calculated. This is risky because the pattern may be different there.
+causation
+An explanation regarding the observed relationship between two variables <i>x</i> and <i>y</i>, in which by changing <i>x</i> &#40;the explanatory variable&#41; we can bring about a change in <i>y</i> &#40;the response variable&#41;.
+common response
+When both the explanatory and the response variable are responding to some lurking variable, and thus there appears to be an association even though there is no direct connection between <i>x</i> and <i>y</i>.
+confounded
+Two variables are said to be this when their effects on a response variable cannot be distinguished from each other.
