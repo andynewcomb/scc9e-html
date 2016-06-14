@@ -1069,6 +1069,8 @@
     <Content Include="xml\scc9e-Part2Review.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="add_all_termrefs.pl" />
+    <Content Include="add_termrefs.pl" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
