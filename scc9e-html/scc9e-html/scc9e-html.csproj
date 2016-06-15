@@ -675,7 +675,9 @@
     <Content Include="ebook\css\images\ui-icons_ffffff_256x240.png" />
     <Content Include="ebook\css\jquery-ui-custom.css" />
     <Content Include="ebook\css\manuscript.css" />
-    <Content Include="ebook\css\scc9e.css" />
+    <Content Include="ebook\css\scc9e.css">
+      <DependentUpon>scc9e.less</DependentUpon>
+    </Content>
     <Content Include="ebook\css\scc9e.less" />
     <Content Include="ebook\css\scc9e.min.css">
       <DependentUpon>scc9e.css</DependentUpon>

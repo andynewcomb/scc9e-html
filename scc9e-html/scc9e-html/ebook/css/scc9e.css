@@ -1062,3 +1062,25 @@ div[data-caption-compass="S"] div[data-type="figure_text"] {
   margin-left: auto;
   margin-right: auto;
 }
+[data-type="termref"]:hover {
+  text-decoration: underline;
+}
+#glossary-sticky-div strong {
+  color: #2EA1BB;
+}
+.termdef-popup {
+  border-radius: 8px;
+}
+.termdef-popup b.title {
+  color: #2EA1BB;
+}
+.termdef-popup .top-bar {
+  background-color: #B2E3E6;
+}
+.termdef-popup .content {
+  padding: 7px;
+  font-size: 80%;
+}
+.termdef-popup .content strong {
+  color: #2EA1BB;
+}

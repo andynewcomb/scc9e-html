@@ -25,8 +25,8 @@ var Player_subtype = Player_manuscript_type.extend({
     cfg_LH_useOpenContent: "on",
     cfg_LH_useLinksFile: "on",
     
-    //cfg_Glossary_hoverTerms: "on",
-    //cfg_Glossary_useStickyDiv: "on",
+    cfg_Glossary_hoverTerms: "on",
+    cfg_Glossary_useStickyDiv: "on",
     //cfg_Glossary_hoverTermsNoClick: "",
 
     initialize_sections: function() {
