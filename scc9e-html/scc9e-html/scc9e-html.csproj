@@ -1067,12 +1067,18 @@
     <Content Include="xml\scc9e-ch16.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="xml\scc9e-ch17.xml" />
+    <Content Include="xml\scc9e-ch18.xml" />
+    <Content Include="xml\scc9e-ch19.xml" />
+    <Content Include="xml\scc9e-ch20.xml" />
+    <Content Include="xml\scc9e-ch21.xml" />
     <Content Include="xml\scc9e-Part1Review.xml" />
     <Content Include="xml\scc9e-Part2Review.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="add_all_termrefs.pl" />
     <Content Include="add_termrefs.pl" />
+    <Content Include="xml\scc9e-Part3Review.xml" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>

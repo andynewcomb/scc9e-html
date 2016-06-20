@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manuscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML" manuscript-id="03" name="" title="Moore_Part_03" xsi:noNamespaceSchemaLocation="xsd/digfir_manuscript.xsd">
+<chapter id="scc9e-part03" number="3" title="PART III REVIEW" start-numbering-at="481" numbered="true">
+<section id="scc9e-part03-sec-001" block_type="part" title="PART III REVIEW" numbered="false" level="1" print_page="481">
+<p id="scc9e_page_481" block_type="page_start" data-margin-content="right">481</p>
+<p id="scc9e-part03-p01" block_type="PR-N">PART III REVIEW</p>
+<p id="scc9e-part03-p03" block_type="PR-TXT-first"><phrase block_type="drop">S</phrase>ome phenomena are random. That is, although their individual outcomes are unpredictable, there is a regular pattern in the long run. Gambling devices (rolling dice, spinning roulette wheels) and taking an SRS are examples of random phenomena. Probability and expected value give us a language to describe randomness. Random phenomena are not haphazard or chaotic any more than random sampling is haphazard. Randomness is instead a kind of order in the world, a long-run regularity as opposed to either chaos or a determinism that fixes events in advance. <link href="scc9e-ch17.xml">Chapter 17</link> discusses the idea of randomness, <link href="scc9e-ch18.xml">Chapter 18</link> presents basic facts about probability, and <link href="scc9e-ch20.xml">Chapter 20</link> discusses expected values.</p>
+<p id="scc9e-part03-p04" block_type="PR-TXT">When randomness is present, probability answers the question, &#8220;How often in the long run?&#8217;&#8217; and expected value answers the question, &#8220;How much on the average in the long run?&#8217;&#8217; The two answers are connected because the definition of &#8220;expected value&#8217;&#8217; is in terms of probabilities. Much work with probability starts with a probability model that assigns probabilities to the basic outcomes. Any such model must obey the rules of probability. Another kind of probability model uses a density curve such as a Normal curve to assign probabilities as areas under the curve. Personal probabilities express an individual&#8217;s judgment of how likely some event is. Personal probabilities for several possible outcomes must also follow the rules of probability if they are to be consistent with each other.</p>
+<p id="scc9e-part03-p05" block_type="PR-TXT">To calculate the probability of a complicated event without using complicated math, we can use random digits to simulate many repetitions. You can also find expected values by simulation. <link href="scc9e-ch19.xml">Chapter 19</link> shows how to do simulations. First give a probability model for the outcomes, then assign random digits to imitate the assignment of probabilities. The table of random digits now imitates repetitions. Keep track of the proportion of repetitions on which an event occurs to estimate its probability. Keep track of the mean outcome to estimate an expected value.</p>
+</section>
+<section id="scc9e-part03-sec1-001" block_type="PR-SUM-H" chapter="part3" numbered="false" level="1" print_page="481">
+<section-metadata><section-title><phrase block_type="PR-SUM-N-ri">PART III</phrase> SUMMARY</section-title></section-metadata>
+<p id="scc9e-part03-p06" block_type="PR-SUM-TXT-ni">Here are the most important skills you should have acquired after reading <link href="scc9e-ch17.xml">Chapters 17</link> through <link href="scc9e-ch20.xml">20</link>.</p>
+<p id="scc9e_page_482" block_type="page_start" data-margin-content="left">482</p>
+<list id="scc9e-part03-list-001" type="ordered" block_type="upper-alpha">
+<li id="scc9e-part03-li-001"><p id="scc9e-part03-p08" block_type="PR-SUM-NL"><phrase block_type="maker">A.</phrase> <strong>RANDOMNESS AND PROBABILITY</strong></p>
+<list id="scc9e-part03-list-002" type="ordered" block_type="numbered">
+<li id="scc9e-part03-li-002"><p id="scc9e-part03-p09" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">1.</phrase> Recognize that some phenomena are random. Probability describes the long-run regularity of random phenomena.</p></li>
+<li id="scc9e-part03-li-003"><p id="scc9e-part03-p010" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">2.</phrase> Understand the idea of the probability of an event as the proportion of times the event occurs in very many repetitions of a random phenomenon. Use the idea of probability as long-run proportion to think about probability.</p></li>
+<li id="scc9e-part03-li-004"><p id="scc9e-part03-p011" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">3.</phrase> Recognize that short runs of random phenomena do not display the regularity described by probability. Understand that randomness is unpredictable in the short run. Avoid seeking causal explanations for random occurrences.</p></li>
+</list></li>
+<li id="scc9e-part03-li-005"><p id="scc9e-part03-p012" block_type="PR-SUM-NL"><phrase block_type="maker">B.</phrase> <strong>PROBABILITY MODELS</strong></p>
+<list id="scc9e-part03-list-003" type="ordered" block_type="numbered">
+<li id="scc9e-part03-li-006"><p id="scc9e-part03-p013" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">1.</phrase> Use basic probability facts to detect illegitimate assignments of probability: any probability must be a number between 0 and 1, and the total probability assigned to all possible outcomes must be 1.</p></li>
+<li id="scc9e-part03-li-007"><p id="scc9e-part03-p014" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">2.</phrase> Use basic probability facts to find the probabilities of events that are formed from other events: the probability that an event does not occur is 1 minus its probability. If two events cannot occur at the same time, the probability that one or the other occurs is the sum of their individual probabilities.</p></li>
+<li id="scc9e-part03-li-008"><p id="scc9e-part03-p015" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">3.</phrase> When probabilities are assigned to individual outcomes, find the probability of an event by adding the probabilities of the outcomes that make it up.</p></li>
+<li id="scc9e-part03-li-009"><p id="scc9e-part03-p016" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">4.</phrase> When probabilities are assigned by a Normal curve, find the probability of an event by finding an area under the curve.</p></li>
+</list></li>
+<li id="scc9e-part03-li-010"><p id="scc9e-part03-p017" block_type="PR-SUM-NL"><phrase block_type="maker">C.</phrase> <strong>EXPECTED VALUE</strong></p>
+<list id="scc9e-part03-list-004" type="ordered" block_type="numbered">
+<li id="scc9e-part03-li-011"><p id="scc9e-part03-p018" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">1.</phrase> Understand the idea of expected value as the average of numerical outcomes in very many repetitions of a random phenomenon.</p></li>
+<li id="scc9e-part03-li-012"><p id="scc9e-part03-p019" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">2.</phrase> Find the expected value from a probability model that lists all outcomes and their probabilities (when the outcomes are numerical).</p></li>
+</list></li>
+<li id="scc9e-part03-li-013"><p id="scc9e-part03-p020" block_type="PR-SUM-NL"><phrase block_type="maker">D.</phrase> <strong>SIMULATION</strong></p>
+<list id="scc9e-part03-list-005" type="ordered" block_type="numbered">
+<li id="scc9e-part03-li-014"><p id="scc9e-part03-p021" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">1.</phrase> Specify simple probability models that assign probabilities to each of several stages when the stages are independent of each other.</p></li>
+<li id="scc9e-part03-li-015"><p id="scc9e-part03-p022" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">2.</phrase> Assign random digits to simulate such models.</p></li>
+<li id="scc9e-part03-li-016"><p id="scc9e-part03-p023" block_type="PR-SUM-NL-lvl2"><phrase block_type="maker">3.</phrase> Estimate either a probability or an expected value by repeating a simulation many times.</p></li>
+</list></li>
+</list>
+</section>
+<section id="scc9e-part03-sec1-002" block_type="PR-X-H" chapter="part3" numbered="false" level="1" print_page="483">
+<section-metadata><section-title><phrase block_type="PR-X-N-ri">PART III</phrase> REVIEW EXERCISES</section-title></section-metadata>
+<p id="scc9e_page_483" block_type="page_start" data-margin-content="right">483</p>
+<p id="scc9e-part03-p025" block_type="PR-X-TXT-ni">Review exercises are short and straightforward exercises that help you solidify the basic ideas and skills in each part of this book. We have provided &#8220;hints&#8217;&#8217; that indicate where you can find the relevant material for the odd-numbered problems.</p>
+<question id="scc9e-part03-quest-001">
+<p id="scc9e-part03-p026" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.1. What&#8217;s the probability?</phrase> If you have access to a printed copy, open your local Yellow Pages telephone directory to any page in the Business White Pages listing. Look at the last four digits of each telephone number, the digits that specify an individual number within an exchange given by the first three digits. Note the first of these four digits in each of the first 100 telephone numbers on the page.</p>
+<p id="scc9e-part03-p027" block_type="PR-X-TXT">If you don&#8217;t have access to a printed directory, you can use an online directory. Find an online directory with at least 100 different phone numbers. Look at the last four digits of each telephone number, the digits that specify an individual number within an exchange given by the first three digits. Note the first of these four digits in each of the first 100 telephone numbers in the directory.</p>
+<p id="scc9e-part03-p028" block_type="PR-TXT-ni">One directory we found online was at <link href="http://education.ohio.gov/Contact/Phone-Directory">http://education.ohio.gov/Contact/Phone-Directory</link>. State government agencies often have directories with office phone numbers of employees.</p>
+<list id="scc9e-part03-list-006" type="ordered" block_type="lower-alpha">
+<li id="scc9e-part03-li-017"><p id="scc9e-part03-p029" block_type="PR-X-NLv2"><phrase block_type="maker">(a)</phrase> How many of the digits are 1, 2, or 3? What is the approximate probability that the first of the four &#8220;individual digits&#8217;&#8217; in a telephone number is 1, 2, or 3? (<em>Hint</em>: See <link href="alias:page_407">page 407</link>.)</p></li>
+<li id="scc9e-part03-li-018"><p id="scc9e-part03-p030" block_type="PR-X-NLv2"><phrase block_type="maker">(b)</phrase> If all 10 possible digits had the same probability, what would be the probability of getting a 1, 2, or 3? Based on your work in part (a), do you think the first of the four &#8220;individual digits&#8217;&#8217; in telephone numbers is equally likely to be any of the 10 possible digits? (<em>Hint</em>: See <link href="alias:page_429">page 429</link>.)</p></li>
+</list>
+</question>
+<question id="scc9e-part03-quest-002">
+<p id="scc9e-part03-p031" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.2. Blood types.</phrase> Choose a person at random and record his or her blood type. Here are the probabilities for each blood type:</p>
+<table id="scc9e-part03-tab-1" numbered="false" block_type="UN-TABLE" attr="110">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="PR-TB1">Blood type:</td>
+<td align="center" block_type="PR-TB1">Type O</td>
+<td align="center" block_type="PR-TB1">Type A</td>
+<td align="center" block_type="PR-TB1">Type B</td>
+<td align="center" block_type="PR-TB1">Type AB</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="PR-TB1">Probability:</td>
+<td align="center" block_type="PR-TB1">0.4</td>
+<td align="center" block_type="PR-TB1">0.3</td>
+<td align="center" block_type="PR-TB1">0.2</td>
+<td align="center" block_type="PR-TB1">?</td>
+</tr>
+</tbody>
+</table>
+<list id="scc9e-part03-list-007" type="ordered" block_type="lower-alpha">
+<li id="scc9e-part03-li-019"><p id="scc9e-part03-p032" block_type="PR-X-NLv2"><phrase block_type="maker">(a)</phrase> What must be the probability that a randomly chosen person has Type AB blood?</p></li>
+<li id="scc9e-part03-li-020"><p id="scc9e-part03-p033" block_type="PR-X-NLv2"><phrase block_type="maker">(b)</phrase> To simulate the blood types of randomly chosen people, how would you assign digits to represent the four types?</p></li>
+</list>
+</question>
+<question id="scc9e-part03-quest-003">
+<p id="scc9e-part03-p034" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.3. Grades in an economics course.</phrase> Indiana University posts the grade distributions for its courses online. Students in Economics 201 in the fall 2013 semester received 18&#37; A&#8217;s, 8&#37; A&#8722;&#8217;s, 7&#37; B+&#8217;s, 16&#37; B&#8217;s, 11&#37; B&#8722;&#8217;s, 6&#37; C+&#8217;s, 12&#37; C&#8217;s, 4&#37; C&#8722;&#8217;s, 3&#37; D+&#8217;s, 6&#37; D&#8217;s, 4&#37; D&#8722;&#8217;s, and 6&#37; F&#8217;s. Choose an Economics 201 student at random. The probabilities for the student&#8217;s grade are:</p>
+<table id="scc9e-part03-tab-2" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="PR-TB1">Grade</td>
+<td align="center" block_type="PR-TB1">A</td>
+<td align="center" block_type="PR-TB1">A&#8722;</td>
+<td align="center" block_type="PR-TB1">B+</td>
+<td align="center" block_type="PR-TB1">B</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="PR-TB1">Probability</td>
+<td align="center" block_type="PR-TB1">0.18</td>
+<td align="center" block_type="PR-TB1">0.08</td>
+<td align="center" block_type="PR-TB1">0.07</td>
+<td align="center" block_type="PR-TB1">0.16</td>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="PR-TB1">Grade</td>
+<td align="center" block_type="PR-TB1">B&#8722;</td>
+<td align="center" block_type="PR-TB1">C+</td>
+<td align="center" block_type="PR-TB1">C</td>
+<td align="center" block_type="PR-TB1">C&#8722;</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="PR-TB1">Probability</td>
+<td align="center" block_type="PR-TB1">0.11</td>
+<td align="center" block_type="PR-TB1">0.06</td>
+<td align="center" block_type="PR-TB1">0.12</td>
+<td align="center" block_type="PR-TB1">0.04</td>
+</tr>
+<tr>
+<td align="center" block_type="PR-TB1">Grade</td>
+<td align="center" block_type="PR-TB1">D+</td>
+<td align="center" block_type="PR-TB1">D</td>
+<td align="center" block_type="PR-TB1">D&#8722;</td>
+<td align="center" block_type="PR-TB1">F</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="PR-TB1">Probability</td>
+<td align="center" block_type="PR-TB1">0.03</td>
+<td align="center" block_type="PR-TB1">0.06</td>
+<td align="center" block_type="PR-TB1">0.04</td>
+<td align="center" block_type="PR-TB1">?</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e_page_484" block_type="page_start" data-margin-content="left">484</p>
+<list id="scc9e-part03-list-008" type="ordered" block_type="lower-alpha">
+<li id="scc9e-part03-li-021"><p id="scc9e-part03-p036" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What must be the probability of getting an F? (<em>Hint</em>: See <link href="alias:page_429">page 429</link>.)</p></li>
+<li id="scc9e-part03-li-022"><p id="scc9e-part03-p037" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> To simulate the grades of randomly chosen students, how would you assign digits to represent the five possible outcomes listed? (<em>Hint</em>: See <link href="alias:page_447">page 447</link>.)</p></li>
+</list>
+</question>
+<question id="scc9e-part03-quest-004">
+<p id="scc9e-part03-p038" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.4. Blood types.</phrase> People with Type B blood can receive blood donations from other people with either Type B or Type O blood. Tyra has Type B blood. What is the probability that two or more of Tyra&#8217;s six close friends can donate blood to her? Using your work in <link href="exercise_III_2.html">Exercise III.2</link>, simulate 10 repetitions and estimate this probability. (Your estimate from just 10 repetitions isn&#8217;t reliable, but you have shown in principle how to find the probability.)</p>
+</question>
+<question id="scc9e-part03-quest-005">
+<p id="scc9e-part03-p039" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.5. Grades in an economics course.</phrase> If you choose four students at random from all those who have taken the course described in <link href="exercise_III_3.html">Exercise III.3</link>, what is the probability that all the students chosen got a B or better? Simulate 10 repetitions of this random choosing and use your results to estimate the probability. (Your estimate from only 10 repetitions isn&#8217;t reliable, but if you can do 10, you could do 10,000.) (<em>Hint</em>: See <link href="alias:page_447">page 447</link>.)</p>
+</question>
+<question id="scc9e-part03-quest-006">
+<p id="scc9e-part03-p040" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.6. Grades in an economics course.</phrase> Choose a student at random from the course described in <link href="exercise_III_3.html">Exercise III.3</link> and observe what grade that student earns (with A = 4, A&#8722; = 3.7, B+ = 3.3, B = 3.0, B&#8722; = 2.7, C+ = 2.3, C = 2.0, C&#8722; =1.7, D+ = 1.3, D = 1.0, D&#8722; = 0.7, and F = 0.0).</p>
+<list id="scc9e-part03-list-009" type="ordered" block_type="lower-alpha">
+<li id="scc9e-part03-li-023"><p id="scc9e-part03-p041" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is the expected grade of a randomly chosen student?</p></li>
+<li id="scc9e-part03-li-024"><p id="scc9e-part03-p042" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The expected grade is not one of the 12 grades possible for one student. Explain why your result nevertheless makes sense as an expected value.</p></li>
+</list>
+</question>
+<question id="scc9e-part03-quest-007">
+<p id="scc9e-part03-p043" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.7. Dice.</phrase> What is the expected number of spots observed in rolling a carefully balanced die once? (<em>Hint</em>: See <link href="alias:page_467">page 467</link>.)</p>
+</question>
+<question id="scc9e-part03-quest-008">
+<p id="scc9e-part03-p044" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.8. Profit from a risky investment.</phrase> Rotter Partners is planning a major investment. The amount of profit <em>X</em> is uncertain, but a probabilistic estimate gives the following distribution (in millions of dollars):</p>
+<table id="scc9e-part03-tab-3" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="PR-TB1">Profit:</td>
+<td align="center" block_type="PR-TB1">&#8722;1</td>
+<td align="center" block_type="PR-TB1">0</td>
+<td align="center" block_type="PR-TB1">1</td>
+<td align="center" block_type="PR-TB1">2</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="PR-TB1">Probability:</td>
+<td align="center" block_type="PR-TB1">0.1</td>
+<td align="center" block_type="PR-TB1">0.1</td>
+<td align="center" block_type="PR-TB1">0.2</td>
+<td align="center" block_type="PR-TB1">0.2</td>
+</tr>
+<tr>
+<td align="center" block_type="PR-TB1">Profit:</td>
+<td align="center" block_type="PR-TB1">3</td>
+<td align="center" block_type="PR-TB1">5</td>
+<td align="center" block_type="PR-TB1">20</td>
+<td align="center" block_type="PR-TB1"></td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="PR-TB1">Probability:</td>
+<td align="center" block_type="PR-TB1">0.2</td>
+<td align="center" block_type="PR-TB1">0.1</td>
+<td align="center" block_type="PR-TB1">0.1</td>
+<td align="center" block_type="PR-TB1"></td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-part03-p045" block_type="PR-X-TXT">What is the expected value of the profit?</p>
+</question>
+<question id="scc9e-part03-quest-009">
+<p id="scc9e-part03-p046" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.9. Poker.</phrase> Deal a five-card poker hand from a shuffled deck. The probabilities of several types of hand are approximately as follows:</p>
+<table id="scc9e-part03-tab-4" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="PR-TB1">Hand:</td>
+<td align="center" block_type="PR-TB1">Worthless</td>
+<td align="center" block_type="PR-TB1">One pair</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="PR-TB1">Probability:</td>
+<td align="center" block_type="PR-TB1">0.50</td>
+<td align="center" block_type="PR-TB1">0.42</td>
+</tr>
+<tr>
+<td align="center" block_type="PR-TB1">Hand:</td>
+<td align="center" block_type="PR-TB1">Two pairs</td>
+<td align="center" block_type="PR-TB1">Better hands</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="PR-TB1">Probability:</td>
+<td align="center" block_type="PR-TB1">0.05</td>
+<td align="center" block_type="PR-TB1">?</td>
+</tr>
+</tbody>
+</table>
+<list id="scc9e-part03-list-010" type="ordered" block_type="lower-alpha">
+<li id="scc9e-part03-li-025"><p id="scc9e-part03-p047" block_type="PR-X-NLv2"><phrase block_type="maker">(a)</phrase> What must be the probability of getting a hand better than two pairs? (<em>Hint</em>: See <link href="alias:page_429">page 429</link>.)</p></li>
+<li id="scc9e-part03-li-026"><p id="scc9e-part03-p048" block_type="PR-X-NLv2"><phrase block_type="maker">(b)</phrase> What is the expected number of hands a player is dealt before the first hand better than one pair appears? Explain how you would use simulation to answer this question, then simulate just two repetitions. (<em>Hint</em>: See <link href="alias:page_472">page 472</link>.)</p></li>
+</list>
+</question>
+<p id="scc9e_page_485" block_type="page_start" data-margin-content="right">485</p>
+<question id="scc9e-part03-quest-0010">
+<p id="scc9e-part03-p050" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.10. How much education?</phrase> The Census Bureau gives this distribution of education for a randomly chosen American over 25 years old in 2014:</p>
+<table id="scc9e-part03-tab-5" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="PR-TB1"></td>
+<td align="center" block_type="PR-TB1">Less than</td>
+<td align="center" block_type="PR-TB1">High</td>
+<td align="center" block_type="PR-TB1">College,</td>
+</tr>
+<tr>
+<td align="center" block_type="PR-TB1"></td>
+<td align="center" block_type="PR-TB1">high</td>
+<td align="center" block_type="PR-TB1">school</td>
+<td align="center" block_type="PR-TB1">no</td>
+</tr>
+<tr>
+<td align="center" block_type="PR-TB1">Education:</td>
+<td align="center" block_type="PR-TB1">school</td>
+<td align="center" block_type="PR-TB1">graduate</td>
+<td align="center" block_type="PR-TB1">bachelor&#8217;s</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="PR-TB1">Probability:</td>
+<td align="center" block_type="PR-TB1">0.117</td>
+<td align="center" block_type="PR-TB1">0.297</td>
+<td align="center" block_type="PR-TB1">0.167</td>
+</tr>
+<tr>
+<td align="center" block_type="PR-TB1"></td>
+<td align="center" block_type="PR-TB1">Associate&#8217;s</td>
+<td align="center" block_type="PR-TB1">Bachelor&#8217;s</td>
+<td align="center" block_type="PR-TB1">Advanced</td>
+</tr>
+<tr>
+<td align="center" block_type="PR-TB1">Education:</td>
+<td align="center" block_type="PR-TB1">degree</td>
+<td align="center" block_type="PR-TB1">degree</td>
+<td align="center" block_type="PR-TB1">degree</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="PR-TB1">Probability:</td>
+<td align="center" block_type="PR-TB1">0.099</td>
+<td align="center" block_type="PR-TB1">0.202</td>
+<td align="center" block_type="PR-TB1">0.118</td>
+</tr>
+</tbody>
+</table>
+<list id="scc9e-part03-list-011" type="ordered" block_type="lower-alpha">
+<li id="scc9e-part03-li-027"><p id="scc9e-part03-p051" block_type="PR-X-NLv2"><phrase block_type="maker">(a)</phrase> How do you know that this is a legitimate probability model?</p></li>
+<li id="scc9e-part03-li-028"><p id="scc9e-part03-p052" block_type="PR-X-NLv2"><phrase block_type="maker">(b)</phrase> What is the probability that a randomly chosen person over age 25 has at least a high school education?</p></li>
+<li id="scc9e-part03-li-029"><p id="scc9e-part03-p053" block_type="PR-X-NLv2"><phrase block_type="maker">(c)</phrase> What is the probability that a randomly chosen person over age 25 has at least a bachelor&#8217;s degree?</p></li>
+</list>
+</question>
+<question id="scc9e-part03-quest-0011">
+<p id="scc9e-part03-p054" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.11. Language study.</phrase> Choose a student in grades 9 to 12 at random and ask if he or she is studying a language other than English. Here is the distribution of results:</p>
+<table id="scc9e-part03-tab-6" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="PR-TB1">Language:</td>
+<td align="center" block_type="PR-TB1">Spanish</td>
+<td align="center" block_type="PR-TB1">French</td>
+<td align="center" block_type="PR-TB1">German</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="PR-TB1">Probability:</td>
+<td align="center" block_type="PR-TB1">0.300</td>
+<td align="center" block_type="PR-TB1">0.080</td>
+<td align="center" block_type="PR-TB1">0.021</td>
+</tr>
+<tr>
+<td align="center" block_type="PR-TB1">Language:</td>
+<td align="center" block_type="PR-TB1">Latin</td>
+<td align="center" block_type="PR-TB1">All others</td>
+<td align="center" block_type="PR-TB1">None</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="PR-TB1">Probability:</td>
+<td align="center" block_type="PR-TB1">0.013</td>
+<td align="center" block_type="PR-TB1">0.022</td>
+<td align="center" block_type="PR-TB1">0.564</td>
+</tr>
+</tbody>
+</table>
+<list id="scc9e-part03-list-012" type="ordered" block_type="lower-alpha">
+<li id="scc9e-part03-li-030"><p id="scc9e-part03-p055" block_type="PR-X-NLv2"><phrase block_type="maker">(a)</phrase> Explain why this is a legitimate probability model. (<em>Hint</em>: See <link href="alias:page_429">page 429</link>.)</p></li>
+<li id="scc9e-part03-li-031"><p id="scc9e-part03-p056" block_type="PR-X-NLv2"><phrase block_type="maker">(b)</phrase> What is the probability that a randomly chosen student is studying a language other than English? (<em>Hint</em>: See <link href="alias:page_429">page 429</link>.)</p></li>
+<li id="scc9e-part03-li-032"><p id="scc9e-part03-p057" block_type="PR-X-NLv2"><phrase block_type="maker">(c)</phrase> What is the probability that a randomly chosen student is studying French, German, or Spanish? (<em>Hint</em>: See <link href="alias:page_429">page 429</link>.)</p></li>
+</list>
+</question>
+<question id="scc9e-part03-quest-0012">
+<p id="scc9e-part03-p058" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.12. Choosing at random.</phrase> Abby, Deborah, Mei-Ling, Sam, and Roberto work in a firm&#8217;s public relations office. Their employer must choose two of them to attend a conference in Paris. To avoid unfairness, the choice will be made by drawing two names from a hat. (This is an SRS of size 2.)</p>
+<list id="scc9e-part03-list-013" type="ordered" block_type="lower-alpha">
+<li id="scc9e-part03-li-033"><p id="scc9e-part03-p059" block_type="PR-X-NLv2"><phrase block_type="maker">(a)</phrase> Write down all possible choices of two of the five names. These are the possible outcomes.</p></li>
+<li id="scc9e-part03-li-034"><p id="scc9e-part03-p060" block_type="PR-X-NLv2"><phrase block_type="maker">(b)</phrase> The random drawing makes all outcomes equally likely. What is the probability of each outcome?</p></li>
+<li id="scc9e-part03-li-035"><p id="scc9e-part03-p061" block_type="PR-X-NLv2"><phrase block_type="maker">(c)</phrase> What is the probability that Mei-Ling is chosen?</p></li>
+<li id="scc9e-part03-li-036"><p id="scc9e-part03-p062" block_type="PR-X-NLv2"><phrase block_type="maker">(d)</phrase> What is the probability that neither of the two men (Sam and Roberto) is chosen?</p></li>
+</list>
+</question>
+<question id="scc9e-part03-quest-0013">
+<p id="scc9e-part03-p063" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.13. Languages in Canada.</phrase> Canada has two official languages: English and French. Choose a resident of Quebec at random and ask, &#8220;What is your mother tongue?&#8217;&#8217; Here is the distribution of responses, combining many separate languages from the province of Quebec:</p>
+<table id="scc9e-part03-tab-7" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="PR-TB1">Language:</td>
+<td align="center" block_type="PR-TB1">English</td>
+<td align="center" block_type="PR-TB1">French</td>
+<td align="center" block_type="PR-TB1">Other</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="PR-TB1">Probability:</td>
+<td align="center" block_type="PR-TB1">0.083</td>
+<td align="center" block_type="PR-TB1">0.789</td>
+<td align="center" block_type="PR-TB1">?</td>
+</tr>
+</tbody>
+</table>
+<list id="scc9e-part03-list-014" type="ordered" block_type="lower-alpha">
+<li id="scc9e-part03-li-037"><p id="scc9e-part03-p064" block_type="PR-X-NLv2"><phrase block_type="maker">(a)</phrase> What is the probability that a randomly chosen resident of Quebec&#8217;s mother tongue is either English of French? (<em>Hint</em>: See <link href="alias:page_429">page 429</link>.)</p></li>
+<li id="scc9e-part03-li-038"><p id="scc9e-part03-p065" block_type="PR-X-NLv2"><phrase block_type="maker">(b)</phrase> What is the probability that a randomly chosen resident of Quebec&#8217;s mother tongue is &#8220;Other&#8221;? (<em>Hint</em>: See <link href="alias:page_429">page 429</link>.)</p></li>
+</list>
+</question>
+<p id="scc9e_page_486" block_type="page_start" data-margin-content="left">486</p>
+<question id="scc9e-part03-quest-0014">
+<p id="scc9e-part03-p067" block_type="PR-X-NL"><image asset-id="scc9e-part03-img-01" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="PR-X-NL-N-ri">III.14. Is college worth the cost?</phrase> A September 29, 2015, Gallup poll asked recent college graduates (those who obtained their bachelor&#8217;s degree beginning in 2006) whether their education was worth the cost. Assume that the results of the poll accurately reflect the opinions of all recent college graduates. Here is the distribution of responses:</p>
+<table id="scc9e-part03-tab-8" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="PR-TB1">Response:</td>
+<td align="center" block_type="PR-TB1">Agree<br/>strongly</td>
+<td align="center" block_type="PR-TB1">Agree<br/>somewhat</td>
+<td align="center" block_type="PR-TB1">Neither<br/>agree nor<br/>disagree</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="PR-TB1">Probability:</td>
+<td align="center" block_type="PR-TB1">0.38</td>
+<td align="center" block_type="PR-TB1">0.27</td>
+<td align="center" block_type="PR-TB1">0.17</td>
+</tr>
+<tr>
+<td align="center" block_type="PR-TB1">Response:</td>
+<td align="center" block_type="PR-TB1">Disagree<br/>somewhat</td>
+<td align="center" block_type="PR-TB1">Disagree<br/>strongly</td>
+<td align="center" block_type="PR-TB1"></td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="PR-TB1">Probability:</td>
+<td align="center" block_type="PR-TB1">0.09</td>
+<td align="center" block_type="PR-TB1">?</td>
+<td align="center" block_type="PR-TB1"></td>
+</tr>
+</tbody>
+</table>
+<list id="scc9e-part03-list-015" type="ordered" block_type="lower-alpha">
+<li id="scc9e-part03-li-039"><p id="scc9e-part03-p068" block_type="PR-X-NLv2"><phrase block_type="maker">(a)</phrase> What is the probability that a randomly chosen recent college graduate disagrees strongly?</p></li>
+<li id="scc9e-part03-li-040"><p id="scc9e-part03-p069" block_type="PR-X-NLv2"><phrase block_type="maker">(b)</phrase> What is the probability that a randomly chosen recent college graduate agrees strongly or agrees somewhat that his or her education was worth the cost?</p></li>
+</list>
+</question>
+<question id="scc9e-part03-quest-0015">
+<p id="scc9e-part03-p070" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.15. An IQ test.</phrase> The Wechsler Adult Intelligence Scale (WAIS) is a common IQ test for adults. The distribution of WAIS scores for persons over 16 years of age is approximately Normal with mean 100 and standard deviation 15. Use the 68&#8211;95&#8211;99.7 rule to answer these questions.</p>
+<list id="scc9e-part03-list-016" type="ordered" block_type="lower-alpha">
+<li id="scc9e-part03-li-041"><p id="scc9e-part03-p071" block_type="PR-X-NLv2"><phrase block_type="maker">(a)</phrase> What is the probability that a randomly chosen individual has a WAIS score of 115 or higher? (<em>Hint</em>: See <link href="alias:page_432">pages 432</link>&#8211;<link href="alias:page_435">435</link>.)</p></li>
+<li id="scc9e-part03-li-042"><p id="scc9e-part03-p072" block_type="PR-X-NLv2"><phrase block_type="maker">(b)</phrase> In what range do the scores of the middle 95&#37; of the adult population lie? (<em>Hint</em>: See <link href="alias:page_434">pages 434</link>&#8211;<link href="alias:page_437">437</link>.)</p></li>
+</list>
+</question>
+<question id="scc9e-part03-quest-0016">
+<p id="scc9e-part03-p073" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.16. Worrying about crime.</phrase> How much do Americans worry about crime and violence? Suppose that 40&#37; of all adults worry a great deal about crime and violence. (According to sample surveys that ask this question, 40&#37; is about right.) A polling firm chooses an SRS of 2400 people. If they do this many times, the percentage of the sample who say they worry a great deal will vary from sample to sample following a Normal distribution with mean 40&#37; and standard deviation 1.0&#37;. Use the 68&#8211;95&#8211;99.7 rule to answer these questions.</p>
+<list id="scc9e-part03-list-017" type="ordered" block_type="lower-alpha">
+<li id="scc9e-part03-li-043"><p id="scc9e-part03-p074" block_type="TXT-ni"><phrase block_type="maker">(a)</phrase> What is the probability that one such sample gives a result within &#177;1.0&#37; of the truth about the population?</p></li>
+<li id="scc9e-part03-li-044"><p id="scc9e-part03-p075" block_type="TXT-ni"><phrase block_type="maker">(b)</phrase> What is the probability that one such sample gives a result within &#177;2&#37; of the truth about the population?</p></li>
+</list>
+</question>
+<question id="scc9e-part03-quest-0017">
+<p id="scc9e-part03-p076" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.17. An IQ test (optional).</phrase> Use the information in <link href="exercise_III_15.html">Exercise III.15</link> and <link href="table_b.html">Table B</link> to find the probability that a randomly chosen person has a WAIS score of 112 or higher. (<em>Hint</em>: See <link href="alias:page_434">pages 434</link>&#8211;<link href="alias:page_435">435</link>.)</p>
+</question>
+<question id="scc9e-part03-quest-0018">
+<p id="scc9e-part03-p077" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.18. Worrying about crime (optional).</phrase> Use the information in <link href="exercise_III_16.html">Exercise III.16</link> and <link href="table_b.html">Table B</link> to find the probability that one sample misses the truth about the population by 2.5&#37; or more. (This is the probability that the sample result is either less than 37.5&#37; or greater than 42.5&#37;.)</p>
+</question>
+<p id="scc9e_page_487" block_type="page_start" data-margin-content="right">487</p>
+<question id="scc9e-part03-quest-0019">
+<p id="scc9e-part03-p079" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.19. An IQ test (optional).</phrase> How high must a person score on the WAIS test to be in the top 10&#37; of all scores? Use the information in <link href="exercise_III_15.html">Exercise III.15</link> and <link href="table_b.html">Table B</link> to answer this question. (<em>Hint</em>: See <link href="alias:page_434">pages 434</link>&#8211;<link href="alias:page_435">435</link>.)</p>
+</question>
+<question id="scc9e-part03-quest-0020">
+<p id="scc9e-part03-p080" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.20. Models, legitimate and not.</phrase> A bridge deck contains 52 cards, four of each of the 13 face values ace, king, queen, jack, ten, nine, . . . , two. You deal a single card from such a deck and record the face value of the card dealt. Give an assignment of probabilities to the possible outcomes that should be correct if the deck is thoroughly shuffled. Give a second assignment of probabilities that is legitimate (that is, obeys the rules of probability) but differs from your first choice. Then give a third assignment of probabilities that is <em>not</em> legitimate, and explain what is wrong with this choice.</p>
+</question>
+<question id="scc9e-part03-quest-0021">
+<p id="scc9e-part03-p081" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.21. Mendel&#8217;s peas.</phrase> Gregor Mendel used garden peas in some of the experiments that revealed that inheritance operates randomly. The seed color of Mendel&#8217;s peas can be either green or yellow. Suppose we produce seeds by &#8220;crossing&#8217;&#8217; two plants, both of which carry the G (green) and Y (yellow) genes. Each parent has probability 1-in-2 of passing each of its genes to a seed, independently of the other parent. A seed will be yellow unless both parents contribute the G gene. Seeds that get two G genes are green.</p>
+<p id="scc9e-part03-p082" block_type="PR-X-TXT">What is the probability that a seed from this cross will be green? Set up a simulation to answer this question, and estimate the probability from 25 repetitions. (<em>Hint</em>: See <link href="alias:page_447">page 447</link>.)</p>
+</question>
+<question id="scc9e-part03-quest-0022">
+<p id="scc9e-part03-p083" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.22. Predicting the winner.</phrase> There are 14 teams in the Big Ten athletic conference. Here&#8217;s one set of personal probabilities for next year&#8217;s basketball champion: Michigan State has probability 0.3 of winning. Illinois, Iowa, Minnesota, Nebraska, Northwestern, Penn State, and Rutgers have no chance. That leaves six teams. Indiana, Michigan, Purdue, Ohio State, and Wisconsin also all have the same probability of winning, but that probability is one-half that of Maryland. What probability does each of the 14 teams have?</p>
+</question>
+<question id="scc9e-part03-quest-0023">
+<p id="scc9e-part03-p084" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">III.23. Selling cars.</phrase> Bill sells new cars in a small town for a living. On a weekday afternoon, he will deal with one customer with probability 0.6, two customers with probability 0.3, and three customers with probability 0.1. Each customer has probability 0.2 of buying a car. Customers buy independently of each other.</p>
+<p id="scc9e-part03-p085" block_type="PR-X-TXT">Describe how you would simulate the number of cars Bill sells in an afternoon. You must first simulate the number of customers, then simulate the buying decisions of one, two, or three customers. Simulate one afternoon to demonstrate your procedure. (<em>Hint</em>: See <link href="alias:page_452">page 452</link>.)</p>
+</question>
+</section>
+<section id="scc9e-part03-sec1-003" block_type="PR-X-H" chapter="part3" numbered="false" level="1" print_page="488">
+<section-metadata><section-title><phrase block_type="PR-X-N-ri">PART III</phrase> PROJECTS</section-title></section-metadata>
+<p id="scc9e_page_488" block_type="page_start" data-margin-content="left">488</p>
+<p id="scc9e-part03-p087" block_type="PR-X-TXT-ni">Projects are longer exercises that require gathering information or producing data and that emphasize writing a short essay to describe your work. Many are suitable for teams of students.</p>
+<question id="scc9e-part03-quest-0024">
+<p id="scc9e-part03-p088" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">Project 1. A bit of history.</phrase> On <link href="alias:page_409">page 409</link>, we said, &#8220;The systematic study of randomness . . . began when seventeenth-century French gamblers asked French mathematicians for help in figuring out the &#8216;fair value&#8217; of bets on games of chance.&#8217;&#8217; Pierre de Fermat and Blaise Pascal were two of the mathematicians who responded. Both are interesting characters. Choose one of these men. Write a brief essay giving his dates, some anecdotes you find noteworthy from his life, and at least one example of a probability problem he studied. (A Web search on the name will produce abundant information. Remember to use your own words in writing your essay.)</p>
+</question>
+<question id="scc9e-part03-quest-0025">
+<p id="scc9e-part03-p089" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">Project 2. Reacting to risks.</phrase> On <link href="alias:page_418">page 418</link>, we quoted a writer as saying, &#8220;Few of us would leave a baby sleeping alone in a house while we drove off on a 10-minute errand, even though car-crash risks are much greater than home risks.&#8217;&#8217; Take it as a fact that the probability that the baby will be injured in the car is very much higher than the probability of any harm occurring at home in the same time period. Would you leave the baby alone? Explain your reasons in a short essay. If you would not leave the baby alone, be sure to explain why you choose to ignore the probabilities.</p>
+</question>
+<question id="scc9e-part03-quest-0026">
+<p id="scc9e-part03-p090" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">Project 3. First digits.</phrase> Here is a remarkable fact: the first digits of the numbers in long tables are usually <em>not</em> equally likely to have any of the 10 possible values 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. The digit 1 tends to occur with probability roughly 0.3, the digit 2 with probability about 0.17, and so on. You can find more information about this fact, called &#8220;Benford&#8217;s law,&#8217;&#8217; on the Web or in two articles by Theodore P. Hill, &#8220;The Difficulty of Faking Data,&#8217;&#8217; <em>Chance,</em> 12, No. 3 (1999), pp. 27&#8211;31; and &#8220;The First Digit Phenomenon,&#8217;&#8217; <em>American Scientist,</em> 86 (1998), pp. 358&#8211;363. You don&#8217;t have to read these articles for this project.</p>
+<p id="scc9e-part03-p091" block_type="PR-X-TXT">Locate at least two long tables whose entries could plausibly begin with any digit. You may choose data tables, such as populations of many cities, the number of shares traded on the New York Stock Exchange on many days, or mathematical tables such as logarithms or square roots. We hope it&#8217;s clear that you can&#8217;t use the table of random digits. Let&#8217;s require that your examples each contain at least 300 numbers. Tally the first digits of all entries in each table. Report the distributions (in percentages) and compare them with each other, with Benford&#8217;s law, and with the &#8220;equally likely&#8217;&#8217; distribution.</p>
+</question>
+<question id="scc9e-part03-quest-0027">
+<p id="scc9e-part03-p092" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">Project 4. Personal probability.</phrase> Personal probabilities are personal, so we expect them to vary from person to person. Choose an event that most students at your school should have an opinion about, such as rain next Friday or a victory in your team&#8217;s next game. Ask many students (at least 50) to tell you what probability they would assign to rain or a victory. Then analyze the data with a graph and numbers&#8212;shape, center, spread, and all that. What do your data show about personal probabilities for this future event?</p>
+</question>
+<p id="scc9e_page_489" block_type="page_start" data-margin-content="right">489</p>
+<question id="scc9e-part03-quest-0028">
+<p id="scc9e-part03-p094" block_type="PR-X-NL"><phrase block_type="PR-X-NL-N-ri">Project 5. Making decisions.</phrase> <link href="exercise_20_12.html">Exercise 20.12</link> (<link href="alias:page_476">page 476</link>) reported the results of a study by the psychologist Amos Tversky on the effect of wording on people&#8217;s decisions about chance outcomes. His subjects were college students. Repeat Tversky&#8217;s study at your school. Prepare two typed cards. One says:</p>
+<p id="scc9e-part03-p095" block_type="PR-EXT"><em>You are responsible for treating 600 people who have been exposed to a fatal virus. Treatment A has probability 1-in-2 of saving all 600 and probability 1-in-2 that all 600 will die. Treatment B is guaranteed to save exactly 400 of the 600 people. Which treatment will you give?</em></p>
+<p id="scc9e-part03-p096" block_type="PR-X-TXT-ni">The second card says:</p>
+<p id="scc9e-part03-p097" block_type="PR-EXT"><em>You are responsible for treating 600 people who have been exposed to a fatal virus. Treatment A has probability 1-in-2 of saving all 600 and probability 1-in-2 that all 600 will die. Treatment B will definitely lose exactly 200 of the lives. Which treatment will you give?</em></p>
+<p id="scc9e-part03-p098" block_type="PR-X-TXT-ni">Show each card to at least 25 people (25 different people for each, chosen as randomly as you can conveniently manage and chosen from people who have not studied probability). Record the choices. Tversky claims that people shown the first card tend to choose B, while those shown the second card tend to choose A. Do your results agree with this claim? Write a brief summary of your findings: Do people use expected values in their decisions? Does the frame in which a decision is presented (the wording, for example) influence choices?</p>
+</question>
+</section>
+</chapter>
+</manuscript>

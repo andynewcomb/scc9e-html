@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manuscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML" manuscript-id="18" name="" title="Moore_Chapter_18" xsi:noNamespaceSchemaLocation="xsd/digfir_manuscript.xsd">
+<chapter id="scc9e-ch18" number="18" title="Chapter 18: Probability Models" start-numbering-at="427" numbered="true">
+<section id="scc9e-ch18-sec-001" block_type="chapter" title="Probability Models" numbered="false" level="1" print_page="427">
+<p id="scc9e-ch18-p01" block_type="CN">18</p>
+<p id="scc9e-ch18-p02" block_type="CT">Probability Models</p>
+<p id="scc9e_page_427" block_type="page_start" data-margin-content="right">427</p>
+<figure id="scc9e-ch18-unfig-001" block_type="CO-PH-CL" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch18-img-01" alt="image" src="images/17MOORESCC-MSE_9e_CO18.jpg"/>
+<asset_source><phrase block_type="PH-CL">Christian Petersen/Getty Images</phrase></asset_source>
+</figure>
+<box id="scc9e-ch18-bx01" numbered="false" block_type="BX4-H-ri">
+<p id="scc9e-ch18-p03" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri">CASE STUDY</phrase> Shortly after the New England Patriots won Super Bowl XLIX, websites were already posting the probabilities of winning Super Bowl 50 for the various NFL teams. These probabilities were updated regularly. <link href="table_18_1.html">Table 18.1</link> lists the probabilities posted on one website on September 21, 2015. These are perhaps best interpreted as personal probabilities. They are likely to change as the 2015 season progresses because the players on teams will change due to trades and injuries.</p>
+<p id="scc9e-ch18-p04" block_type="BX4-TXT-I">Because these are personal probabilities, are there any restrictions on the choices for the probabilities? In this chapter, we will answer this question. We will learn that probabilities must obey certain rules in order to make sense. By the end of this chapter, you will be able to assess whether the probabilities in <link href="table_18_1.html">Table 18.1</link> make sense.</p>
+</box>
+</section>
+<section id="scc9e-ch18-sec1-001" block_type="h1" chapter="ch18" numbered="false" level="1" print_page="427">
+<section-metadata><section-title>Probability models</section-title></section-metadata>
+<p id="scc9e-ch18-p05" block_type="TXT-ni">Choose a woman aged 25 to 29 years old at random and record her marital status. &#8220;At random&#8221; means that we give every such woman the same chance to be the one we choose. That is, we choose a random sample of size 1. The probability of any marital status is just the proportion of all women aged 25 to 29 who have that status&#8212;if we chose many women, this is the proportion we would get. Here is the set of probabilities:</p>
+<table id="scc9e-ch18-untab-1" numbered="false" block_type="UN-TABLE" attr="90">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="TB1-TXT">Marital status:</td>
+<td align="center" block_type="TB1-TXT">Never married</td>
+<td align="center" block_type="TB1-TXT">Married</td>
+<td align="center" block_type="TB1-TXT">Widowed</td>
+<td align="center" block_type="TB1-TXT">Divorced</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TB1-TXT">Probability:</td>
+<td align="center" block_type="TB1-TXT">0.478</td>
+<td align="center" block_type="TB1-TXT">0.476</td>
+<td align="center" block_type="TB1-TXT">0.004</td>
+<td align="center" block_type="TB1-TXT">0.042</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch18-p06" block_type="TXT">This table gives a <em>probability model</em> for drawing a young woman at random and finding out her marital status. It tells us what are the possible outcomes (there are only four) and it assigns probabilities to these outcomes. The probabilities here are the proportions of all women in each marital class. That makes it clear that the probability that a woman is not married is just the sum of the probabilities of the three classes of unmarried women:</p>
+<p id="scc9e_page_428" block_type="page_start" data-margin-content="left">428</p>
+<table id="scc9e-ch18-tab-1" numbered="false" block_type="TABLE" caption-placement="Top" attr="100">
+<table_caption><phrase block_type="TBN-N-ri">TABLE 18.1</phrase> <phrase block_type="TBN-T">Probabilities of winning Super Bowl 50</phrase></table_caption>
+<tbody>
+<tr class="bborder">
+<td align="center" block_type="TBN-COLHD">Team</td>
+<td align="center" block_type="TBN-COLHD" class="rborder">Probability</td>
+<td align="center" block_type="TBN-COLHD">Team</td>
+<td align="center" block_type="TBN-COLHD">Probability</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Green Bay Packers</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/5</td>
+<td align="center" block_type="TBN-TXT">Buffalo Bills</td>
+<td align="center" block_type="TBN-TXT">1/41</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">New England Patriots</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/7</td>
+<td align="center" block_type="TBN-TXT">Kansas City Chiefs</td>
+<td align="center" block_type="TBN-TXT">1/41</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Seattle Seahawks</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/11</td>
+<td align="center" block_type="TBN-TXT">St. Louis Rams</td>
+<td align="center" block_type="TBN-TXT">1/51</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Indianapolis Colts</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/13</td>
+<td align="center" block_type="TBN-TXT">New York Jets</td>
+<td align="center" block_type="TBN-TXT">1/61</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Denver Broncos</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/16</td>
+<td align="center" block_type="TBN-TXT">New York Giants</td>
+<td align="center" block_type="TBN-TXT">1/86</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Arizona Cardinals</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/21</td>
+<td align="center" block_type="TBN-TXT">Detroit Lions</td>
+<td align="center" block_type="TBN-TXT">1/101</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Cincinnati Bengals</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/21</td>
+<td align="center" block_type="TBN-TXT">Houston Texans</td>
+<td align="center" block_type="TBN-TXT">1/101</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Pittsburgh Steelers</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/21</td>
+<td align="center" block_type="TBN-TXT">New Orleans Saints</td>
+<td align="center" block_type="TBN-TXT">1/101</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Atlanta Falcons</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/26</td>
+<td align="center" block_type="TBN-TXT">Oakland Raiders</td>
+<td align="center" block_type="TBN-TXT">1/101</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Dallas Cowboys</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/26</td>
+<td align="center" block_type="TBN-TXT">San Francisco 49ers</td>
+<td align="center" block_type="TBN-TXT">1/101</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Philadelphia Eagles</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/26</td>
+<td align="center" block_type="TBN-TXT">Tampa Bay Buccaneers</td>
+<td align="center" block_type="TBN-TXT">1/101</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Carolina Panthers</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/31</td>
+<td align="center" block_type="TBN-TXT">Washington Redskins</td>
+<td align="center" block_type="TBN-TXT">1/101</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Miami Dolphins</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/31</td>
+<td align="center" block_type="TBN-TXT">Cleveland Browns</td>
+<td align="center" block_type="TBN-TXT">1/201</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">San Diego Chargers</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/31</td>
+<td align="center" block_type="TBN-TXT">Tennessee Titans</td>
+<td align="center" block_type="TBN-TXT">1/201</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Minnesota Vikings</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/36</td>
+<td align="center" block_type="TBN-TXT">Chicago Bears</td>
+<td align="center" block_type="TBN-TXT">1/251</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">Baltimore Ravens</td>
+<td align="center" block_type="TBN-TXT" class="rborder">1/41</td>
+<td align="center" block_type="TBN-TXT">Jacksonville Jaguars</td>
+<td align="center" block_type="TBN-TXT">1/301</td>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="TBN-SC" colspan="4"><em>Source</em>: <link href="http://www.betvega.com/super-bowl-odds/">http://www.betvega.com/super-bowl-odds/</link> (as of September 21, 2015).</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch18-p08" block_type="EQ"><em>P</em>(not married) = <em>P</em>(never married) + <em>P</em>(widowed) + <em>P</em>(divorced)</p>
+<p id="scc9e-ch18-p09" block_type="EQ">= 0.478 + 0.004 + 0.042 = 0.524</p>
+<p id="scc9e-ch18-p010" block_type="TXT-ni">As a shorthand, we often write <em>P</em>(not married) for &#8220;the probability that the woman we choose is not married.&#8221; You see that our model does more than assign a probability to each individual outcome&#8212;we can find the probability of any collection of outcomes by adding up individual outcome probabilities.</p>
+<box id="scc9e-ch18-bx02" numbered="false" block_type="margin-statistics">
+<p id="scc9e-ch18-p011" block_type="MN-TXT"><image asset-id="scc9e-ch18-img-02" alt="image" src="images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">Politically correct</phrase> In 1950, the Russian mathematician B. V. Gnedenko (1912&#8211;1995) wrote a book, <em>The Theory of Probability</em>, that was popular around the world. The introduction contains a mystifying paragraph that begins, &#8220;We note that the entire development of probability theory shows evidence of how its concepts and ideas were crystallized in a severe struggle between materialistic and idealistic conceptions.&#8221; It turns out that &#8220;materialistic&#8221; is jargon for &#8220;Marxist-Leninist.&#8221; It was good for the health of Russian scientists in the Stalin era to add such statements to their books.</p>
+</box>
+<box id="scc9e-ch18-bx03" numbered="false" block_type="BX1">
+<p id="scc9e-ch18-p012" block_type="BX1-T">Probability model</p>
+<p id="scc9e-ch18-p013" block_type="BX1-TXT-ni">A <strong>probability model</strong> for a random phenomenon describes all the possible outcomes and says how to assign probabilities to any collection of outcomes. We sometimes call a collection of outcomes an <strong>event</strong>.</p>
+</box>
+</section>
+<section id="scc9e-ch18-sec1-002" block_type="h1" chapter="ch18" numbered="false" level="1" print_page="429">
+<section-metadata><section-title>Probability rules</section-title></section-metadata>
+<p id="scc9e_page_429" block_type="page_start" data-margin-content="right">429</p>
+<p id="scc9e-ch18-p015" block_type="TXT-ni">Because the probabilities in this example are just the proportions of all women who have each marital status, they follow rules that say how proportions behave. Here are some basic rules that any probability model must obey:</p>
+<list id="scc9e-ch18-list-001" type="ordered" block_type="upper-alpha">
+<li id="scc9e-ch18-li-001"><p id="scc9e-ch18-p016" block_type="AL"><phrase block_type="maker">A.</phrase> <strong>Any probability is a number between 0 and 1.</strong> Any proportion is a number between 0 and 1, so any probability is also a number between 0 and 1. An event with probability 0 never occurs, and an event with probability 1 occurs on every trial. An event with probability 0.5 occurs in half the trials in the long run.</p></li>
+<li id="scc9e-ch18-li-002"><p id="scc9e-ch18-p017" block_type="AL-mid"><phrase block_type="maker">B.</phrase> <strong>All possible outcomes together must have probability 1.</strong> Because some outcome must occur on every trial, the sum of the probabilities for all possible outcomes must be exactly 1.</p></li>
+<li id="scc9e-ch18-li-003"><p id="scc9e-ch18-p018" block_type="AL-mid"><phrase block_type="maker">C.</phrase> <strong>The probability that an event does not occur is 1 minus the probability that the event does occur.</strong> If an event occurs in (say) 70&#37; of all trials, it fails to occur in the other 30&#37;. The probability that an event occurs and the probability that it does not occur always add to 100&#37;, or 1.</p></li>
+<li id="scc9e-ch18-li-004"><p id="scc9e-ch18-p019" block_type="AL-last"><phrase block_type="maker">D.</phrase> <strong>If two events have no outcomes in common, the probability that one or the other occurs is the sum of their individual probabilities.</strong> If one event occurs in 40&#37; of all trials, a different event occurs in 25&#37; of all trials, and the two can never occur together, then one or the other occurs on 65&#37; of all trials because 40&#37; + 25&#37; = 65&#37;.</p></li>
+</list>
+<box id="scc9e-ch18-bx04" numbered="false" block_type="EXP">
+<p id="scc9e-ch18-p020" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 1</phrase> Marital status of young women</p>
+<p id="scc9e-ch18-p021" block_type="EXP-first">Look again at the probabilities for the marital status of young women. Each of the four probabilities is a number between 0 and 1. Their sum is</p>
+<p id="scc9e-ch18-p022" block_type="EXP-EQ">0.478 + 0.476 + 0.004 + 0.042 = 1</p>
+<p id="scc9e-ch18-p023" block_type="EXP-ni">This assignment of probabilities satisfies Rules A and B. <strong>Any assignment of probabilities to all individual outcomes that satisfies Rules A and B is legitimate</strong>. That is, it makes sense as a set of probabilities. Rules C and D are then automatically true. Here is an example of the use of Rule C.</p>
+<p id="scc9e-ch18-p024" block_type="EXP-mid">The probability that the woman we draw is not married is, by Rule C,</p>
+<p id="scc9e-ch18-p025" block_type="EXP-EQ"><em>P</em>(not married) = 1 &#8722; <em>P</em>(married)</p>
+<p id="scc9e-ch18-p026" block_type="EXP-EQ">= 1 &#8722; 0.476 = 0.524</p>
+<p id="scc9e-ch18-p027" block_type="EXP-ni">That is, if 47.6&#37; are married, then the remaining 52.4&#37; are not married. Rule D says that you can also find the probability that a woman is not married by adding the probabilities of the three distinct ways of being not married, as we did earlier. This gives the same result.</p>
+</box>
+<p id="scc9e_page_430" block_type="page_start" data-margin-content="left">430</p>
+<box id="scc9e-ch18-bx05" numbered="false" block_type="EXP">
+<p id="scc9e-ch18-p029" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> Rolling two dice</p>
+<p id="scc9e-ch18-p030" block_type="EXP-first">Rolling two dice is a common way to lose money in casinos. There are 36 possible outcomes when we roll two dice and record the up-faces in order (first die, second die). <link href="figure_18_1.html">Figure 18.1</link> displays these outcomes. What probabilities should we assign?</p>
+<figure id="scc9e-ch18-unfig-002" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="left" width="medium" border="false"/>
+<image asset-id="scc9e-ch18-img-03" alt="image" src="images/17MOORESCC-MSE_9e_P_18_01.jpg"/>
+<asset_source><phrase block_type="PH-CL">Lee Foster/Alamy</phrase></asset_source>
+</figure>
+<p id="scc9e-ch18-p031" block_type="EXP-mid">Casino dice are carefully made. Their spots are not hollowed out, which would give the faces different weights, but are filled with white plastic of the same density as the red plastic of the body. For casino dice, it is reasonable to assign the same probability to each of the 36 outcomes in <link href="figure_18_1.html">Figure 18.1</link>. Because these 36 probabilities must have sum 1 (Rule B), each outcome must have probability 1/36, or 1-in-36.</p>
+<p id="scc9e-ch18-p032" block_type="EXP-mid">We are interested in the sum of the spots on the up-faces of the dice. What is the probability that this sum is 5? The event &#8220;roll a 5&#8221; contains four outcomes, and its probability is the sum of the probabilities of these outcomes:</p>
+<p id="scc9e-ch18-p033" block_type="EXP-EQ"><m:math display='block'><m:mtable columnspacing='0.3em' columnalign='left'><m:mtr columnalign='left'><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mrow><m:mi>P</m:mi><m:mtext>&#x00A0;</m:mtext><m:mo stretchy='false'>(</m:mo></m:mrow><m:mrow><m:mtext>roll</m:mtext><m:mtext>&#x00A0;</m:mtext><m:mtext>a</m:mtext></m:mrow><m:mrow><m:mtext>&#x00A0;</m:mtext><m:mn>5</m:mn><m:mo stretchy='false'>)</m:mo></m:mrow></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>=</m:mo></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mi>P</m:mi><m:mo stretchy='false'>(</m:mo><m:mi><m:mglyph src="images/17MOORESCC-MSE_9e_UNfig_18_01a.jpg" alt="my glyph"/></m:mi><m:mo stretchy='false'>)</m:mo><m:mtext>&#x00A0;</m:mtext><m:mo>+</m:mo><m:mrow><m:mi>P</m:mi><m:mtext>&#x00A0;</m:mtext></m:mrow><m:mo stretchy='false'>(</m:mo><m:mi><m:mglyph src="images/17MOORESCC-MSE_9e_UNfig_18_01b.jpg" alt="my glyph"/></m:mi><m:mo stretchy='false'>)</m:mo></m:mstyle></m:mtd></m:mtr><m:mtr columnalign='left'><m:mtd columnalign='left'/><m:mtd columnalign='left'/><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>+</m:mo><m:mi>P</m:mi><m:mtext>&#x00A0;</m:mtext><m:mo stretchy='false'>(</m:mo><m:mi><m:mglyph src="images/17MOORESCC-MSE_9e_UNfig_18_01c.jpg" alt="my glyph"/></m:mi><m:mo stretchy='false'>)</m:mo><m:mtext>&#x00A0;</m:mtext><m:mo>+</m:mo><m:mrow><m:mi>P</m:mi><m:mtext>&#x00A0;</m:mtext></m:mrow><m:mo stretchy='false'>(</m:mo><m:mi><m:mglyph src="images/17MOORESCC-MSE_9e_UNfig_18_01d.jpg" alt="my glyph"/></m:mi><m:mo stretchy='false'>)</m:mo></m:mstyle></m:mtd></m:mtr><m:mtr columnalign='left'><m:mtd columnalign='left'/><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>=</m:mo></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac></m:mstyle></m:mtd></m:mtr><m:mtr columnalign='left'><m:mtd columnalign='left'/><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>=</m:mo></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.111</m:mn></m:mstyle></m:mtd></m:mtr></m:mtable></m:math></p>
+</box>
+<figure id="scc9e-ch18-fig-003" block_type="FIGURE" data-caption-compass="S" numbered="true" number="18.1" mmtype="image" mmsrc="" attr="">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch18-img-04" alt="image" src="images/17MOORESCC-MSE_9e_fig_18_01.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 18.1</phrase> <phrase block_type="FG-CAP">The 36 possible outcomes from rolling two dice, <link href="example_18_2.html">Examples 2</link>.</phrase></caption></figure>
+<p id="scc9e_page_431" block_type="page_start" data-margin-content="right">431</p>
+<box id="scc9e-ch18-bx06" numbered="false" block_type="BX2">
+<p id="scc9e-ch18-p038" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch18-quest1">
+<p id="scc9e-ch18-p039" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">18.1 Rolling dice.</phrase> Suppose you roll two casino dice, as in <link href="example_18_2.html">Examples 2</link>. What is the probability that the sum of the spots on the up-faces is 7? 11? 7 or 11?</p>
+</question>
+</box>
+<p id="scc9e-ch18-p040" block_type="TXT">The rules tell us only what probability models <em>make sense</em>. They don&#8217;t tell us whether the probabilities are <em>correct</em>, that is, whether they describe what actually happens in the long run. The probabilities in <link href="example_18_2.html">Examples 2</link> are correct for casino dice. Inexpensive dice with hollowed-out spots are not balanced, and this probability model does not describe their behavior.</p>
+<p id="scc9e-ch18-p041" block_type="TXT">What about personal probabilities? Because they are personal, can&#8217;t they be anything you want them to be? If your personal probabilities don&#8217;t obey Rules A and B, you are entitled to your opinion, but we can say that your personal probabilities are <strong>incoherent</strong>. That is, they don&#8217;t go together in a way that makes sense. So we usually insist that personal probabilities for all the outcomes of a random phenomenon obey Rules A and B. That is, the same rules govern both kinds of probability. For example, if you believe that the Green Bay Packers, the New Orleans Saints, and the New England Patriots each have probability 0.4 of winning Super Bowl XLVII, your personal probabilities would not obey Rule B.</p>
+</section>
+<section id="scc9e-ch18-sec1-003" block_type="h1" chapter="ch18" numbered="false" level="1" print_page="431">
+<section-metadata><section-title>Probability and odds</section-title></section-metadata>
+<p id="scc9e-ch18-p042" block_type="TXT-ni">Speaking of sports, newspapers, magazines, and websites often give probabilities as betting odds in the form &#8220;<em>Y</em> to <em>Z</em>.&#8221; This form means that a bet of &#36;<em>Z</em> will pay you &#36;<em>Y</em> if the team wins. If this is a fair bet, you expect that in the long run you should break even, winning as much money as you lose. In particular, if you bet <em>Y</em> + <em>Z</em> times, on average you should win &#36;<em>Y Z</em> times and lose &#36;<em>Z</em> the other <em>Y</em> times. Thus, on average, if you bet <em>Y</em> + <em>Z</em> times, you win <em>Z</em> of those bets. Odds of <em>Y</em> to <em>Z</em> therefore represent a probability of <em>Z</em>/(<em>Y</em> + <em>Z </em> ) of winning.</p>
+<p id="scc9e-ch18-p043" block_type="TXT">On the Web, one can find the current odds of winning the next Super Bowl for each NFL team. We found a list of such odds at <link href="http://www.vegasinsider.com/nfl/odds/futures/">www.vegasinsider.com/nfl/odds/futures/</link>. When we checked this website on December 1, 2015, the odds that the New England Patriots would win Super Bowl 50 were 3-to-1. This corresponds to a probability of winning of 1/(3 + 1) = 1/4. The odds that the San Francisco 49ers would with Super Bowl 50 were 6000 to 1. This corresponds to a probability of 1(6000 + 1) = 1/6001.</p>
+</section>
+<section id="scc9e-ch18-sec1-004" block_type="h1" chapter="ch18" numbered="false" level="1" print_page="432">
+<section-metadata><section-title>Probability models for sampling</section-title></section-metadata>
+<p id="scc9e_page_432" block_type="page_start" data-margin-content="left">432</p>
+<p id="scc9e-ch18-p045" block_type="TXT-ni">Choosing a random sample from a population and calculating a statistic such as the sample proportion is certainly a random phenomenon. The <em>distribution</em> of the statistic tells us what values it can take and how often it takes those values. That sounds a lot like a probability model.</p>
+<box id="scc9e-ch18-bx07" numbered="false" block_type="EXP">
+<p id="scc9e-ch18-p046" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> A sampling distribution</p>
+<p id="scc9e-ch18-p047" block_type="EXP-first">Take a simple random sample of 1015 adults. Ask each whether they feel childhood vaccinations are extremely important. The proportion who say Yes</p>
+<p id="scc9e-ch18-p048" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo stretchy='true'>&#x005E;</m:mo></m:mover></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mtext>number</m:mtext><m:mtext>&#x00A0;</m:mtext><m:mtext>who</m:mtext><m:mtext>&#x00A0;</m:mtext><m:mtext>say</m:mtext><m:mtext>&#x00A0;</m:mtext><m:mtext>Yes</m:mtext></m:mrow></m:mrow><m:mrow><m:mn>1015</m:mn></m:mrow></m:mfrac></m:math></p>
+<p id="scc9e-ch18-p049" block_type="EXP-ni">is the sample proportion <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo stretchy='true'>&#x005E;</m:mo></m:mover></m:mrow></m:math>. Do this 1000 times and collect the 1000 sample proportions <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo stretchy='true'>&#x005E;</m:mo></m:mover></m:mrow></m:math> from the 1000 samples. The histogram in <link href="figure_18_2.html">Figure 18.2</link> shows the distribution of 1000 sample proportions when the truth about the population is that 54&#37; would favor such an amendment. The results of random sampling are of course random: we can&#8217;t predict the outcome of one sample, but the figure shows that the outcomes of many samples have a regular pattern.</p>
+<p id="scc9e-ch18-p050" block_type="EXP-mid">This repetition reminds us that the regular pattern of repeated random samples is one of the big ideas of statistics. The Normal curve in the figure is a good approximation to the histogram. The histogram is the result of these particular 1000 SRSs. Think of the Normal curve as the idealized pattern we would get if we kept on taking SRSs from this population forever. That&#8217;s exactly the idea of probability&#8212;the pattern we would see in the very long run. <em>The Normal curve assigns probabilities to sample proportions computed from random samples</em>.</p>
+<figure id="scc9e-ch18-fig-004" block_type="FIGURE" data-caption-compass="S" numbered="true" number="18.2" mmtype="image" mmsrc="" attr="">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch18-img-05" alt="image" src="images/17MOORESCC-MSE_9e_fig_18_02.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 18.2</phrase> <phrase block_type="FG-CAP">The sampling distribution of a sample proportion <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo stretchy='true'>&#x005E;</m:mo></m:mover></m:mrow></m:math> from SRSs of size 1015 drawn from a population in which 54&#37; of the members would give positive answers, <link href="example_18_3.html">Examples 3</link>. The histogram shows the distribution from 1000 samples. The Normal curve is the ideal pattern that describes the results of a very large number of samples.</phrase></caption>
+</figure>
+<p id="scc9e_page_433" block_type="page_start" data-margin-content="right">433</p>
+<p id="scc9e-ch18-p052" block_type="EXP-mid">This Normal curve has mean 0.540 and standard deviation about 0.016. The &#8220;95&#8221; part of the 68&#8211;95&#8211;99.7 rule says that 95&#37; of all samples will give a <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo stretchy='true'>&#x005E;</m:mo></m:mover></m:mrow></m:math> falling within 2 standard deviations of the mean. That&#8217;s within 0.032 of 0.540, or between 0.508 and 0.572. We now have more concise language for this fact: the <em>probability</em> is 0.95 that between 50.8&#37; and 57.2&#37; of the people in a sample will say Yes. The word &#8220;probability&#8221; says we are talking about what would happen in the long run, in very many samples.</p>
+<p id="scc9e-ch18-p053" block_type="EXP-last">We note that of the 1000 SRSs, 95&#37; of the sample proportions were between 0.509 and 0.575, which agrees quite well with the calculations based on the Normal curve. This confirms our assertion that the Normal curve is a good approximation to the histogram in <link href="figure_18_2.html">Figure 18.2</link>.</p>
+</box>
+<p id="scc9e-ch18-p054" block_type="TXT">A statistic from a large sample has a great many possible values. Assigning a probability to each individual outcome worked well for four marital classes or 36 outcomes of rolling two dice but is awkward when there are thousands of possible outcomes. <link href="example_18_3.html">Examples 3</link> uses a different approach: assign probabilities to intervals of outcomes by using areas under a Normal density curve. Density curves have area 1 underneath them, which lines up nicely with total probability 1. The total area under the Normal curve in <link href="figure_18_2.html">Figure 18.2</link> is 1, and the area between 0.508 and 0.572 is 0.95, which is the probability that a sample gives a result in that interval. When a Normal curve assigns probabilities, you can calculate probabilities from the 68&#8211;95&#8211;99.7 rule or from <link href="table_b.html">Table B</link> of percentiles of Normal distributions. These probabilities satisfy Rules A through D.</p>
+<box id="scc9e-ch18-bx08" numbered="false" block_type="BX1">
+<p id="scc9e-ch18-p055" block_type="BX1-T">Sampling distribution</p>
+<p id="scc9e-ch18-p056" block_type="BX1-TXT-ni">The <strong>sampling distribution</strong> of a statistic tells us what values the statistic takes in repeated samples from the same population and how often it takes those values.</p>
+<p id="scc9e-ch18-p057" block_type="BX1-TXT-i">We think of a sampling distribution as assigning probabilities to the values the statistic can take. Because there are usually many possible values, sampling distributions are often described by a <strong>density curve</strong> such as a Normal curve.</p>
+</box>
+<p id="scc9e_page_434" block_type="page_start" data-margin-content="left">434</p>
+<figure id="scc9e-ch18-fig-005" block_type="FIGURE" data-caption-compass="S" numbered="true" number="18.3" mmtype="image" mmsrc="" attr="">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch18-img-06" alt="image" src="images/17MOORESCC-MSE_9e_fig_18_03.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 18.3</phrase> <phrase block_type="FG-CAP">The Normal sampling distribution, <link href="example_18_4.html">Examples 4</link>. Because 0.478 is 1 standard deviation below the mean, the area under the curve to the left of 0.478 is 0.16.</phrase></caption></figure>
+<box id="scc9e-ch18-bx09" numbered="false" block_type="EXP">
+<p id="scc9e-ch18-p059" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> Do you approve of gambling?</p>
+<p id="scc9e-ch18-p060" block_type="EXP-first">An opinion poll asks an SRS of 501 teens, &#8220;Generally speaking, do you approve or disapprove of legal gambling or betting?&#8221; Suppose that, in fact, exactly 50&#37; of all teens would say Yes if asked. (This is close to what polls show to be true.) The poll&#8217;s statisticians tell us that the sample proportion who say Yes will vary in repeated samples according to a Normal distribution with mean 0.5 and standard deviation about 0.022. This is the <em>sampling distribution</em> of the sample proportion <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo stretchy='true'>&#x005E;</m:mo></m:mover></m:mrow></m:math>.</p>
+<p id="scc9e-ch18-p061" block_type="EXP-last">The 68&#8211;95&#8211;99.7 rule says that the probability is 0.16 that the poll gets a sample in which fewer than 47.8&#37; say Yes. <link href="figure_18_3.html">Figure 18.3</link> shows how to get this result from the Normal curve of the sampling distribution.</p>
+</box>
+<box id="scc9e-ch18-bx010" numbered="false" block_type="BX2">
+<p id="scc9e-ch18-p062" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch18-quest2">
+<p id="scc9e-ch18-p063" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">18.2 Teen opinion poll.</phrase> Refer to <link href="example_18_4.html">Examples 4</link>. Using the 68&#8211;95&#8211;99.7 rule, what is the probability that fewer than 45.6&#37; say Yes?</p>
+</question>
+</box>
+<box id="scc9e-ch18-bx011" numbered="false" block_type="EXP">
+<p id="scc9e-ch18-p064" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 5</phrase> Using Normal percentiles<termref term="fn_ch18_fn1"><sup>*</sup></termref></p>
+<p id="scc9e-ch18-p065" block_type="EXP-first">What is the probability that the opinion poll in <link href="example_18_4.html">Examples 4</link> will get a sample in which 52&#37; or more say Yes? Because 0.52 is not 1, 2, or 3 standard deviations away from the mean, we can&#8217;t use the 68&#8211;95&#8211;99.7 rule. We will use <link href="table_b.html">Table B</link> of percentiles of Normal distributions.</p>
+<p id="scc9e_page_435" block_type="page_start" data-margin-content="right">435</p>
+<figure id="scc9e-ch18-fig-006" block_type="FIGURE" data-caption-compass="S" numbered="true" number="18.4" mmtype="image" mmsrc="" attr="">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch18-img-07" alt="image" src="images/17MOORESCC-MSE_9e_fig_18_04.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 18.4</phrase> <phrase block_type="FG-CAP">The Normal sampling distribution, <link href="example_18_5.html">Examples 5</link>. The outcome 0.52 has standard score 0.9, so <link href="table_b.html">Table B</link> tells us that the area under the curve to the left of 0.52 is 0.8159.</phrase></caption>
+</figure>
+<p id="scc9e-ch18-p067" block_type="EXP-mid">To use <link href="table_b.html">Table B</link>, first turn the outcome <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo stretchy='true'>&#x005E;</m:mo></m:mover></m:mrow><m:mo>=</m:mo><m:mn>0.52</m:mn></m:math> into a standard score by subtracting the mean of the distribution and dividing by its standard deviation:</p>
+<p id="scc9e-ch18-p068" block_type="EXP-EQ"><m:math display='block'><m:mfrac><m:mrow><m:mn>0.52</m:mn><m:mo>&#x2212;</m:mo><m:mn>0.5</m:mn></m:mrow><m:mrow><m:mn>0.022</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.9</m:mn></m:math></p>
+<p id="scc9e-ch18-p069" block_type="EXP-ni">Now look in <link href="table_b.html">Table B</link>. A standard score of 0.9 is the 81.59 percentile of a Normal distribution. This means that the probability is 0.8159 that the poll gets a smaller result. By Rule C (or just the fact that the total area under the curve is 1), this leaves probability 0.1841 for outcomes with 52&#37; or more answering Yes. <link href="figure_18_4.html">Figure 18.4</link> shows the probabilities as areas under the Normal curve.</p>
+<box id="scc9e-ch18-FN-001" block_type="footnote" data-chapter="18" data-footnote-number="*"><p id="scc9e-ch18-p070" block_type="FN"><link href="example_18_5.html">Examples 5</link> is optional.</p></box>
+</box>
+</section>
+<section id="scc9e-ch18-sec1-005" block_type="SUM-H" chapter="ch18" numbered="false" level="1" print_page="435">
+<section-metadata><section-title><phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase></section-title></section-metadata>
+<p id="scc9e-ch18-p071" block_type="SUM-hd1">Chapter Specifics</p>
+<list id="scc9e-ch18-list-002" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch18-li-005"><p id="scc9e-ch18-p072" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> A <strong>probability model</strong> describes a random phenomenon by telling what outcomes are possible and how to assign probabilities to them.</p></li>
+<li id="scc9e-ch18-li-006"><p id="scc9e-ch18-p073" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> There are two simple ways to give a probability model. The first assigns a probability to each individual outcome. These probabilities must be numbers between 0 and 1 (Rule A), and they must add to exactly 1 (Rule B). To find the probability of any <strong>event</strong>, add the probabilities of the outcomes that make up the event.</p>
+<p id="scc9e_page_436" block_type="page_start" data-margin-content="left">436</p></li>
+<li id="scc9e-ch18-li-008"><p id="scc9e-ch18-p075" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> The second kind of probability model assigns probabilities as areas under a <strong>density curve</strong>, such as a Normal curve. The total probability is 1 because the total area under the curve is 1. This kind of probability model is often used to describe the <strong>sampling distribution</strong> of a statistic. This is the pattern of values of the statistic in many samples from the same population.</p></li>
+<li id="scc9e-ch18-li-009"><p id="scc9e-ch18-p076" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> All legitimate assignments of probability, whether data based or personal, obey the same <strong>probability rules</strong>. So the mathematics of probability is always the same.</p></li>
+<li id="scc9e-ch18-li-010"><p id="scc9e-ch18-p077" block_type="SUM-BL-last"><phrase block_type="maker">&#8226;</phrase> <strong>Odds</strong> of <em>Y</em> to <em>Z</em> that an event occurs corresponds to a probability of Z/(<em>Y</em> + <em>Z</em> ).</p></li>
+</list>
+<p id="scc9e-ch18-p078" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch18-img-08" alt="image" src="images/LinkIt.jpg"/> This chapter continues the discussion of probability that we began in <link href="scc9e-ch17.xml">Chapter 17</link>. Here, we examine the formal mathematics of probability, embodied in probability models and probability rules. Probability models and rules provide the tools for describing and predicting the long-run behavior of random phenomena.</p>
+<p id="scc9e-ch18-p079" block_type="TXT">In this chapter, we also begin to formalize the process, first mentioned in <link href="scc9e-ch03.xml">Chapter 3</link>, of using a statistic to estimate an unknown parameter. In particular, the sampling distribution will be the &#8220;probabilistic&#8221; tool we use to generalize from data produced by random samples and randomized comparative experiments to some wider population. Exactly how we do this will be the subject of Part IV.</p>
+<box id="scc9e-ch18-bx012" numbered="false" block_type="case_title">
+<p id="scc9e-ch18-p080" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> Look again at <link href="table_18_1.html">Table 18.1</link>, discussed in the Case Study that opened the chapter.</p>
+<list id="scc9e-ch18-list-01a" type="ordered" block_type="numbered">
+<li id="scc9e-ch18-li-021a"><p id="scc9e-ch18-p081" block_type="CSNL1"><phrase block_type="maker">1.</phrase> Do the probabilities in this table follow the rules given on page 429?</p></li>
+<li id="scc9e-ch18-li-021b"><p id="scc9e-ch18-p082" block_type="CSNL1"><phrase block_type="maker">2.</phrase> On some websites, the probabilities are given as betting odds of winning. If you are a bookie setting betting odds, should you set the odds so the probabilities sum to greater than 1, exactly 1, or less than 1? Discuss.</p></li>
+</list>
+</box>
+<box id="scc9e-ch18-bx013" numbered="false" block_type="launchpad">
+<p id="scc9e-ch18-p083" block_type="CR-BIB-T"><image asset-id="scc9e-ch18-img-09" alt="image" src="images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<list id="scc9e-ch18-list-003" type="unordered" block_type="redbullet">
+<li id="scc9e-ch18-li-011"><p id="scc9e-ch18-p084" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The Snapshots video <em>Probability</em> introduces the concepts of randomness, probability, and probability models in the context of some examples.</p></li>
+<li id="scc9e-ch18-li-012"><p id="scc9e-ch18-p085" block_type="CR-BIB-BL-last"><phrase block_type="maker">&#8226;</phrase> The StatBoards video <em>The Four Basic Probability Rules</em> discusses the basic probability rules in the context of some simple examples.</p></li>
+</list>
+</box>
+</section>
+<section id="scc9e-ch18-sec1-006" block_type="CR-X-H" chapter="ch18" numbered="false" level="1" print_page="437">
+<section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
+<p id="scc9e_page_437" block_type="page_start" data-margin-content="right">437</p>
+<p id="scc9e-ch18-p087" block_type="CR-X"><em>For <link href="exercise_18_1.html">Exercise 18.1</link>, see page 431; for <link href="exercise_18_2.html">Exercise 18.2</link>, see page 434.</em></p>
+<question id="scc9e-ch18-quest-001"><p id="scc9e-ch18-p088" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.3 Probability models</phrase> A probability model describes a random phenomenon by telling us which of the following?</p>
+<list id="scc9e-ch18-list-004" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-013"><p id="scc9e-ch18-p089" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Whether we are using data based or personal probabilities.</p></li>
+<li id="scc9e-ch18-li-014"><p id="scc9e-ch18-p090" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What outcomes are possible and how to assign probabilities to these outcomes.</p></li>
+<li id="scc9e-ch18-li-015"><p id="scc9e-ch18-p091" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Whether the probabilities of all outcomes sum to 1 or sum to a number different than 1.</p></li>
+<li id="scc9e-ch18-li-016"><p id="scc9e-ch18-p092" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> All of the above.</p></li>
+</list>
+</question>
+<question id="scc9e-ch18-quest-002"><p id="scc9e-ch18-p093" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.4 Probability models.</phrase> Which of the following is true of any legitimate probability model?</p>
+<list id="scc9e-ch18-list-005" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-017"><p id="scc9e-ch18-p094" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The probabilities of the individual outcomes must be numbers between 0 and 1, and they must sum to no more than 1.</p></li>
+<li id="scc9e-ch18-li-018"><p id="scc9e-ch18-p095" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The probabilities of the individual outcomes must be numbers between 0 and 1, and they must sum to at least 1.</p></li>
+<li id="scc9e-ch18-li-019"><p id="scc9e-ch18-p096" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The probabilities of the individual outcomes must be numbers between 0 and 1, and they must sum to exactly 1.</p></li>
+<li id="scc9e-ch18-li-020"><p id="scc9e-ch18-p097" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> Probabilities can be computed using the Normal curve.</p></li>
+</list>
+</question>
+<question id="scc9e-ch18-quest-003"><p id="scc9e-ch18-p098" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.5 Density curves.</phrase> Which of the following is true of density curves?</p>
+<list id="scc9e-ch18-list-006" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-021"><p id="scc9e-ch18-p099" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Areas under a density curve determine probabilities of outcomes.</p></li>
+<li id="scc9e-ch18-li-022"><p id="scc9e-ch18-p0100" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The total area under a density curve is 1.</p></li>
+<li id="scc9e-ch18-li-023"><p id="scc9e-ch18-p0101" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The Normal curve is a density curve.</p></li>
+<li id="scc9e-ch18-li-024"><p id="scc9e-ch18-p0102" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> All of the above are true.</p></li>
+</list>
+</question>
+<question id="scc9e-ch18-quest-004"><p id="scc9e-ch18-p0103" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.6 Probability rules.</phrase> To find the probability of any event,</p>
+<list id="scc9e-ch18-list-007" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-025"><p id="scc9e-ch18-p0104" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> add up the probabilities of the outcomes that make up the event.</p></li>
+<li id="scc9e-ch18-li-026"><p id="scc9e-ch18-p0105" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> use the probability of the outcome that best approximates the event.</p></li>
+<li id="scc9e-ch18-li-027"><p id="scc9e-ch18-p0106" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> assign it a random, but plausible, value between 0 and 1.</p></li>
+<li id="scc9e-ch18-li-028"><p id="scc9e-ch18-p0107" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> average together the personal probabilities of several experts.</p></li>
+</list>
+</question>
+<question id="scc9e-ch18-quest-005"><p id="scc9e-ch18-p0108" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.7 Sampling distributions.</phrase> The sampling distribution of a statistic is</p>
+<list id="scc9e-ch18-list-008" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-029"><p id="scc9e-ch18-p0109" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the method of sampling used to obtain the data from which the statistic is computed.</p></li>
+<li id="scc9e-ch18-li-030"><p id="scc9e-ch18-p0110" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> the possible methods of computing a statistic from the data.</p></li>
+<li id="scc9e-ch18-li-031"><p id="scc9e-ch18-p0111" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> the pattern of the data from which the statistic is computed.</p></li>
+<li id="scc9e-ch18-li-032"><p id="scc9e-ch18-p0112" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> the pattern of values of the statistic in many samples from the same population.</p></li>
+</list>
+</question>
+</section>
+<section id="scc9e-ch18-sec1-007" block_type="CR-X-H-v1" chapter="ch18" numbered="false" level="1" print_page="437">
+<section-metadata><section-title>CHAPTER 18 EXERCISES</section-title></section-metadata>
+<question id="scc9e-ch18-quest-006"><p id="scc9e-ch18-p0113" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.8 Moving up.</phrase> A sociologist studying social mobility in Denmark finds that the probability that the son of a lower-class father remains in the lower class is 0.46. What is the probability that the son moves to one of the higher classes?</p>
+</question>
+<question id="scc9e-ch18-quest-007"><p id="scc9e-ch18-p0114" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.9 Causes of death.</phrase> Government data assign a single cause for each death that occurs in the United States. Data from 2013 show that the probability is 0.31 that a randomly chosen death was due to heart disease and 0.23 that it was due to cancer. What is the probability that a death was due either to heart disease or to cancer? What is the probability that the death was due to some other cause?</p>
+</question>
+<p id="scc9e_page_438" block_type="page_start" data-margin-content="left">438</p>
+<question id="scc9e-ch18-quest-008"><p id="scc9e-ch18-p0116" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.10 Land in Canada.</phrase> Choose an acre of land in Canada at random. The probability is 0.45 that it is forest and 0.03 that it is pasture.</p>
+<list id="scc9e-ch18-list-009" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-033"><p id="scc9e-ch18-p0117" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is the probability that the acre chosen is not forested?</p></li>
+<li id="scc9e-ch18-li-034"><p id="scc9e-ch18-p0118" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What is the probability that it is either forest or pasture?</p></li>
+<li id="scc9e-ch18-li-035"><p id="scc9e-ch18-p0119" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> What is the probability that a randomly chosen acre in Canada is something other than forest or pasture?</p></li>
+</list>
+</question>
+<question id="scc9e-ch18-quest-009"><p id="scc9e-ch18-p0120" block_type="CR-X-NL"><image asset-id="scc9e-ch18-img-010" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">18.11 Our favorite president.</phrase> A Gallup Poll on Presidents&#8217; Day 2011 interviewed a random sample of 1015 adult Americans. Those in the sample were asked who they regarded as the greatest U.S. president. Here are the results:</p>
+<table id="scc9e-ch18-untab-3" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1"><strong>Outcome</strong></td>
+<td align="center" block_type="CR-TB1"><strong>Probability</strong></td>
+</tr>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Ronald Reagan</td>
+<td align="char" char="." block_type="CR-TB1">0.19</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">Abraham Lincoln</td>
+<td align="char" char="." block_type="CR-TB1">0.14</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">Bill Clinton</td>
+<td align="char" char="." block_type="CR-TB1">0.13</td>
+</tr>
+<tr>
+<td align="center" block_type="CR-TB1">John F. Kennedy</td>
+<td align="char" char="." block_type="CR-TB1">0.11</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Someone else</td>
+<td align="char" char="." block_type="CR-TB1">?</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch18-p0121" block_type="CR-X-NL-lvl2">These proportions are probabilities for the random phenomenon of choosing an adult American at random and asking her or his opinion.</p>
+<list id="scc9e-ch18-list-010" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-036"><p id="scc9e-ch18-p0122" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What must be the probability that the person chosen selects someone other than Ronald Reagan, Abraham Lincoln, Bill Clinton, or John F. Kennedy? Why?</p></li>
+<li id="scc9e-ch18-li-037"><p id="scc9e-ch18-p0123" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The event &#8220;I would select either Ronald Reagan or Abraham Lincoln&#8221; contains the first two outcomes. What is its probability?</p></li>
+</list>
+</question>
+<question id="scc9e-ch18-quest-0010"><p id="scc9e-ch18-p0124" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.12 Rolling a die.</phrase> <link href="figure_18_5.html">Figure 18.5</link> displays several assignments of probabilities to the six faces of a die. We can learn which assignment is actually <em>correct</em> for a particular die only by rolling the die many times. However, some of the assignments are not <em>legitimate</em> assignments of probability. That is, they do not obey the rules. Which are legitimate and which are not? In the case of the illegitimate models, explain what is wrong.</p>
+<figure id="scc9e-ch18-fig-007" block_type="FIGURE" data-caption-compass="S" numbered="true" number="18.5" mmtype="image" mmsrc="" attr="">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch18-img-011" alt="image" src="images/17MOORESCC-MSE_9e_fig_18_05.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 18.5</phrase> <phrase block_type="FG-CAP">Four probability models for rolling a die, <link href="exercise_18_12.html">Exercise 18.12</link>.</phrase></caption>
+</figure>
+</question>
+<p id="scc9e_page_439" block_type="page_start" data-margin-content="right">439</p>
+<question id="scc9e-ch18-quest-0011"><p id="scc9e-ch18-p0126" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.13 The demands of college.</phrase> Select a first-year college student at random and ask how difficult it was for him or her to adjust to the academic demands of college. Here are the probabilities, based on proportions from a large sample survey in 2010 of first-year students:</p>
+<table id="scc9e-ch18-untab-4" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Difficulty:</td>
+<td align="center" block_type="CR-TB1">Very<br/>difficult</td>
+<td align="center" block_type="CR-TB1">Somewhat<br/>difficult</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Probability:</td>
+<td align="center" block_type="CR-TB1">0.05</td>
+<td align="center" block_type="CR-TB1">0.31</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch18-untab-4a" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Difficulty:</td>
+<td align="center" block_type="CR-TB1">Somewhat<br/>easy</td>
+<td align="center" block_type="CR-TB1">Very<br/>easy</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Probability:</td>
+<td align="center" block_type="CR-TB1">0.44</td>
+<td align="center" block_type="CR-TB1">0.20</td>
+</tr>
+</tbody>
+</table>
+<list id="scc9e-ch18-list-011" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-038"><p id="scc9e-ch18-p0127" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is the sum of these probabilities? Why do you expect the sum to have this value?</p></li>
+<li id="scc9e-ch18-li-039"><p id="scc9e-ch18-p0128" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What is the probability that a randomly chosen first-year college student did not find it very difficult to adjust to the academic demands of college?</p></li>
+<li id="scc9e-ch18-li-040"><p id="scc9e-ch18-p0129" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> What is the probability that a first-year student found it very or somewhat difficult to adjust to the academic demands of college?</p></li>
+</list>
+</question>
+<question id="scc9e-ch18-quest-0012"><p id="scc9e-ch18-p0130" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.14 Tetrahedral dice.</phrase> Psychologists sometimes use tetrahedral dice to study our intuition about chance behavior. A tetrahedron (<link href="figure_18_6.html">Figure 18.6</link>) is a pyramid with four faces, each a triangle with all sides equal in length. Label the four faces of a tetrahedral die with one, two, three, and four spots. Give a probability model for rolling such a die and recording the number of spots on the down-face. Explain why you think your model is at least close to correct.</p>
+<figure id="scc9e-ch18-fig-008" block_type="FIGURE" data-caption-compass="S" numbered="true" number="18.6" mmtype="image" mmsrc="" attr="">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch18-img-012" alt="image" src="images/17MOORESCC-MSE_9e_fig_18_06.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 18.6</phrase> <phrase block_type="FG-CAP">A tetrahedron. Exercises 18.14 and 18.16 concern dice with this shape.
+</phrase></caption>
+</figure>
+</question>
+<question id="scc9e-ch18-quest-0013"><p id="scc9e-ch18-p0131" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.15 Birth order.</phrase> A couple plan to have three children. There are eight possible arrangements of girls and boys. For example, GGB means the first two children are girls and the third child is a boy. All eight arrangements are (approximately) equally likely.</p>
+<list id="scc9e-ch18-list-012" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-041"><p id="scc9e-ch18-p0132" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Write down all eight arrangements of the sexes of three children. What is the probability of any one of these arrangements?</p></li>
+<li id="scc9e-ch18-li-042"><p id="scc9e-ch18-p0133" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What is the probability that the couple&#8217;s children are two girls and one boy?</p></li>
+</list>
+</question>
+<question id="scc9e-ch18-quest-0014"><p id="scc9e-ch18-p0134" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.16 More tetrahedral dice.</phrase> Tetrahedral dice are described in Exer-cise 18.14. Give a probability model for rolling two such dice. That is, write down all possible outcomes and give a probability to each. (<link href="example_18_2.html">Examples 2</link> and <link href="figure_18_1.html">Figure 18.1</link> may help you.) What is the probability that the sum of the down-faces is 5?</p>
+</question>
+<question id="scc9e-ch18-quest-0015"><p id="scc9e-ch18-p0135" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.17 Roulette.</phrase> A roulette wheel has 38 slots, numbered 0, 00, and 1 to 36. The slots 0 and 00 are colored green, 18 of the others are red, and 18 are black. The dealer spins the wheel and, at the same time, rolls a small ball along the wheel in the opposite direction. The wheel is carefully balanced so that the ball is equally likely to land in any slot when the wheel slows. Gamblers can bet on various combinations of numbers and colors.</p>
+<list id="scc9e-ch18-list-013" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-043"><p id="scc9e-ch18-p0136" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is the probability of any one of the 38 possible outcomes? Explain your answer.</p></li>
+<li id="scc9e-ch18-li-044"><p id="scc9e-ch18-p0137" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> If you bet on &#8220;red,&#8221; you win if the ball lands in a red slot. What is the probability of winning?</p></li>
+<li id="scc9e-ch18-li-045"><p id="scc9e-ch18-p0138" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> A friend tells you that the odds that a bet on &#8220;red&#8221; will win are 10 to 9. Is your friend correct? If not, what are the correct odds?</p></li>
+<li id="scc9e-ch18-li-046"><p id="scc9e-ch18-p0139" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> The slot numbers are laid out on a board on which gamblers place their bets. One column of numbers on the board contains all multiples of 3, that is, 3, 6, 9, . . ., 36. You place a &#8220;column bet&#8221; that wins if any of these numbers comes up. What is your probability of winning?</p></li>
+</list>
+</question>
+<p id="scc9e_page_440" block_type="page_start" data-margin-content="left">440</p>
+<question id="scc9e-ch18-quest-0016"><p id="scc9e-ch18-p0141" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.18 Colors of M&#38;M&#8217;s.</phrase> If you draw an M&#38;M candy at random from a bag of the candies, the candy you draw will have one of six colors. The probability of drawing each color depends on the proportion of each color among all candies made.</p>
+<list id="scc9e-ch18-list-014" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-047"><p id="scc9e-ch18-p0142" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Here are the probabilities of each color for a randomly chosen plain M&#38;M:</p>
+<table id="scc9e-ch18-untab-5" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Color:</td>
+<td align="center" block_type="CR-TB1">Blue</td>
+<td align="center" block_type="CR-TB1">Orange</td>
+<td align="center" block_type="CR-TB1">Green</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Probability:</td>
+<td align="center" block_type="CR-TB1">0.24</td>
+<td align="center" block_type="CR-TB1">0.20</td>
+<td align="center" block_type="CR-TB1">0.16</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch18-untab-5a" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Color:</td>
+<td align="center" block_type="CR-TB1">Yellow</td>
+<td align="center" block_type="CR-TB1">Red</td>
+<td align="center" block_type="CR-TB1">Brown</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Probability:</td>
+<td align="center" block_type="CR-TB1">0.14</td>
+<td align="center" block_type="CR-TB1">0.13</td>
+<td align="center" block_type="CR-TB1">?</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch18-p0143" block_type="CR-X-NL">What must be the probability of drawing a brown candy?</p></li>
+<li id="scc9e-ch18-li-053"><p id="scc9e-ch18-p0144" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The probabilities for peanut M&#38;M&#8217;s are a bit different. Here they are:</p>
+<table id="scc9e-ch18-untab-6" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Color:</td>
+<td align="center" block_type="CR-TB1">Blue</td>
+<td align="center" block_type="CR-TB1">Orange</td>
+<td align="center" block_type="CR-TB1">Green</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Probability:</td>
+<td align="center" block_type="CR-TB1">0.23</td>
+<td align="center" block_type="CR-TB1">0.23</td>
+<td align="center" block_type="CR-TB1">0.15</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch18-untab-6a" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Color:</td>
+<td align="center" block_type="CR-TB1">Yellow</td>
+<td align="center" block_type="CR-TB1">Brown</td>
+<td align="center" block_type="CR-TB1">Red</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Probability:</td>
+<td align="center" block_type="CR-TB1">0.15</td>
+<td align="center" block_type="CR-TB1">0.13</td>
+<td align="center" block_type="CR-TB1">?</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch18-p0145" block_type="CR-X-NL">What is the probability that a peanut M&#38;M chosen at random is red?</p></li>
+<li id="scc9e-ch18-li-059"><p id="scc9e-ch18-p0146" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> What is the probability that a plain M&#38;M is any of blue, yellow, or orange? What is the probability that a peanut M&#38;M has one of these colors?</p></li>
+</list>
+</question>
+<question id="scc9e-ch18-quest-0017"><p id="scc9e-ch18-p0147" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.19 Legitimate probabilities?</phrase> In each of the following situations, state whether or not the given assignment of probabilities to individual outcomes is legitimate, that is, whether it satisfies the rules of probability. If not, give specific reasons for your answer.</p>
+<list id="scc9e-ch18-list-015" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-060"><p id="scc9e-ch18-p0148" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> When a coin is spun, <em>P</em>(H) = 0.55 and <em>P</em>(T) = 0.45.</p></li>
+<li id="scc9e-ch18-li-061"><p id="scc9e-ch18-p0149" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> When two coins are tossed, <em>P</em>(HH) = 0.4, <em>P</em>(HT) = 0.4, <em>P</em>(TH) = 0.4, and <em>P</em>(TT) = 0.4.</p></li>
+<li id="scc9e-ch18-li-062"><p id="scc9e-ch18-p0150" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Plain M&#38;M&#8217;s have not always had the mixture of colors given in <link href="exercise_18_18.html">Exercise 18.18</link>. In the past, there were no red candies and no blue candies. Tan had probability 0.10, and the other four colors had the same probabilities that are given in <link href="exercise_18_13.html">Exercise 18.13</link>.</p></li>
+</list>
+</question>
+<question id="scc9e-ch18-quest-0018"><p id="scc9e-ch18-p0151" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.20 Immigration.</phrase> Suppose that 34&#37; of all adult Americans think that the level of immigration to the United States should be decreased. An opinion poll interviews 1020 randomly chosen Americans and records the sample proportion who feel that the level of immigration to this country should be decreased. This statistic will vary from sample to sample if the poll is repeated. The sampling distribution is approximately Normal with mean 0.34 and standard deviation about 0.015. Sketch this Normal curve and use it to answer the following questions.</p>
+<list id="scc9e-ch18-list-016" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-063"><p id="scc9e-ch18-p0152" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The mean of the population is 0.34. In what range will the middle 95&#37; of all sample results fall?</p></li>
+<li id="scc9e-ch18-li-064"><p id="scc9e-ch18-p0153" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What is the probability that the poll gets a sample in which fewer than 32.5&#37; say the level of immigration to this country should be decreased?</p></li>
+</list>
+</question>
+<p id="scc9e_page_441" block_type="page_start" data-margin-content="right">441</p>
+<question id="scc9e-ch18-quest-0019"><p id="scc9e-ch18-p0155" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.21 Airplane safety.</phrase> Suppose that 73&#37; of all adults think that the overall safety of airline travel is either good or excellent. An opinion poll plans to ask an SRS of 1097 adults about airplane safety. The proportion of the sample who think that the overall safety of airline travel is either good or excellent will vary if we take many samples from this same population. The sampling distribution of the sample proportion is approximately Normal with mean 0.73 and standard deviation about 0.013. Sketch this Normal curve and use it to answer the following questions.</p>
+<list id="scc9e-ch18-list-017" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-065"><p id="scc9e-ch18-p0156" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is the probability that the poll gets a sample in which more than 75.6&#37; of the people think that airplanes would be safer if passengers were banned from carrying on board any luggage, including purses, computers, and briefcases?</p></li>
+<li id="scc9e-ch18-li-066"><p id="scc9e-ch18-p0157" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What is the probability of getting a sample that misses the truth (73&#37;) by 2.6&#37; or more?</p></li>
+</list>
+</question>
+<question id="scc9e-ch18-quest-0020"><p id="scc9e-ch18-p0158" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.22 Immigration (optional).</phrase> In the setting of <link href="exercise_18_20.html">Exercise 18.20</link>, what is the probability of getting a sample in which less than 30&#37; of those sampled think that the level of immigration to this country should be decreased? (Use <link href="table_b.html">Table B</link>.)</p>
+</question>
+<question id="scc9e-ch18-quest-0021"><p id="scc9e-ch18-p0159" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.23 Airplane safety (optional).</phrase> In the setting of <link href="exercise_18_21.html">Exercise 18.21</link>, what is the probability of getting a sample in which more than 75&#37; think that the overall safety of airline travel is either good or excellent? (Use <link href="table_b.html">Table B</link>.)</p>
+</question>
+<question id="scc9e-ch18-quest-0022"><p id="scc9e-ch18-p0160" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.24 Do you jog?</phrase> An opinion poll asks an SRS of 1500 adults, &#8220;Do you happen to jog?&#8221; Suppose (as is approximately correct) that the population proportion who jog is <em>p</em> = 0.15. In a large number of samples, the proportion <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo stretchy='true'>&#x005E;</m:mo></m:mover></m:mrow></m:math> who answer Yes will be approximately Normally distributed with mean 0.15 and standard deviation 0.009. Sketch this Normal curve and use it to answer the following questions.</p>
+<list id="scc9e-ch18-list-018" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-067"><p id="scc9e-ch18-p0161" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What percentage of many samples will have a sample proportion who jog that is 0.15 or less? Explain clearly why this percentage is the probability that <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo stretchy='true'>&#x005E;</m:mo></m:mover></m:mrow></m:math> is 0.15 or less.</p></li>
+<li id="scc9e-ch18-li-068"><p id="scc9e-ch18-p0162" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What is the probability that <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo stretchy='true'>&#x005E;</m:mo></m:mover></m:mrow></m:math> will take a value between 0.141 and 0.159? (Use the 68&#8211;95&#8211;99.7 rule.)</p></li>
+<li id="scc9e-ch18-li-069"><p id="scc9e-ch18-p0163" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Now use Rule C for probability: what is the probability that <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo stretchy='true'>&#x005E;</m:mo></m:mover></m:mrow></m:math> does not lie between 0.141 and 0.159?</p></li>
+</list>
+</question>
+<question id="scc9e-ch18-quest-0023"><p id="scc9e-ch18-p0164" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.25 Applying to college.</phrase> You ask an SRS of 1500 college students whether they applied for admission to any other college. Suppose that, in fact, 35&#37; of all college students applied to colleges besides the one they are attending. (That&#8217;s close to the truth.) The sampling distribution of the proportion <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo stretchy='true'>&#x005E;</m:mo></m:mover></m:mrow></m:math> of your sample who say Yes is approximately Normal with mean 0.35 and standard deviation 0.01. Sketch this Normal curve and use it to answer the following questions.</p>
+<list id="scc9e-ch18-list-019" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-070"><p id="scc9e-ch18-p0165" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain in simple language what the sampling distribution tells us about the results of our sample.</p></li>
+<li id="scc9e-ch18-li-071"><p id="scc9e-ch18-p0166" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> What percentage of many samples would have a <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo stretchy='true'>&#x005E;</m:mo></m:mover></m:mrow></m:math> larger than 0.37? (Use the 68&#8211;95&#8211;99.7 rule.) Explain in simple language why this percentage is the probability of an outcome larger than 0.37.</p></li>
+<li id="scc9e-ch18-li-072"><p id="scc9e-ch18-p0167" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> What is the probability that your sample will have a <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo stretchy='true'>&#x005E;</m:mo></m:mover></m:mrow></m:math> less than 0.33?</p></li>
+<li id="scc9e-ch18-li-073"><p id="scc9e-ch18-p0168" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> Use Rule D: what is the probability that your sample result will be either less than 0.33 or greater than 0.35?</p></li>
+</list>
+</question>
+<p id="scc9e_page_442" block_type="page_start" data-margin-content="left">442</p>
+<question id="scc9e-ch18-quest-0024"><p id="scc9e-ch18-p0170" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.26 Generating a sampling distribution.</phrase> Let us illustrate the idea of a sampling distribution in the case of a very small sample from a very small population. The population is the scores of 10 students on an exam:</p>
+<table id="scc9e-ch18-untab-7" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Student:</td>
+<td align="center" block_type="CR-TB1">0</td>
+<td align="center" block_type="CR-TB1">1</td>
+<td align="center" block_type="CR-TB1">2</td>
+<td align="center" block_type="CR-TB1">3</td>
+<td align="center" block_type="CR-TB1">4</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Score:</td>
+<td align="center" block_type="CR-TB1">82</td>
+<td align="center" block_type="CR-TB1">62</td>
+<td align="center" block_type="CR-TB1">80</td>
+<td align="center" block_type="CR-TB1">58</td>
+<td align="center" block_type="CR-TB1">72</td>
+</tr>
+</tbody>
+</table>
+<table id="scc9e-ch18-untab-7a" numbered="false" block_type="UN-TABLE" attr="100">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="CR-TB1">Student:</td>
+<td align="center" block_type="CR-TB1">5</td>
+<td align="center" block_type="CR-TB1">6</td>
+<td align="center" block_type="CR-TB1">7</td>
+<td align="center" block_type="CR-TB1">8</td>
+<td align="center" block_type="CR-TB1">9</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="CR-TB1">Score:</td>
+<td align="center" block_type="CR-TB1">73</td>
+<td align="center" block_type="CR-TB1">65</td>
+<td align="center" block_type="CR-TB1">66</td>
+<td align="center" block_type="CR-TB1">74</td>
+<td align="center" block_type="CR-TB1">62</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch18-p0171" block_type="CR-X-NL">The parameter of interest is the mean score in this population. The sample is an SRS of size <m:math display='inline'><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:math> drawn from the population. Because the students are labeled 0 to 9, a single random digit from <link href="table_a.html">Table A</link> chooses one student for the sample.</p>
+<list id="scc9e-ch18-list-020" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-074"><p id="scc9e-ch18-p0172" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Find the mean of the 10 scores in the population. This is the population mean.</p></li>
+<li id="scc9e-ch18-li-075"><p id="scc9e-ch18-p0173" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Use <link href="table_a.html">Table A</link> to draw an SRS of size 4 from this population. Write the four scores in your sample and calculate the mean <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>x</m:mi><m:mo stretchy='true'>&#x00AF;</m:mo></m:mover></m:mrow></m:math> of the sample scores. This statistic is an estimate of the population mean.</p></li>
+<li id="scc9e-ch18-li-076"><p id="scc9e-ch18-p0174" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Repeat this process 10 times using different parts of <link href="table_a.html">Table A</link>. Make a histogram of the 10 values of <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>x</m:mi><m:mo stretchy='true'>&#x00AF;</m:mo></m:mover></m:mrow></m:math>. You are constructing the sampling distribution of <m:math display='inline'><m:mrow><m:mover accent='true'><m:mi>x</m:mi><m:mo stretchy='true'>&#x00AF;</m:mo></m:mover></m:mrow></m:math>. Is the center of your histogram close to the population mean you found in part (a)?</p></li>
+</list>
+</question>
+<question id="scc9e-ch18-quest-0025"><p id="scc9e-ch18-p0175" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.27 Odds and personal probability.</phrase> One way to determine your personal probability about an event is to ask what you would consider a fair bet that the event will occur. Suppose in August 2015 you believed it fair that a bet of &#36;2 should win &#36;7 if the Green Bay Packers win Super Bowl 50.</p>
+<list id="scc9e-ch18-list-021" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-077"><p id="scc9e-ch18-p0176" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What does this bet say you believe the odds to be that the Green Bay Packers will win Super Bowl 50?</p></li>
+<li id="scc9e-ch18-li-078"><p id="scc9e-ch18-p0177" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Convert the odds in part (a) to a probability. This would be your personal probability that the Green Bay Packers will win Super Bowl 50.</p></li>
+</list>
+</question>
+<question id="scc9e-ch18-quest-0026"><p id="scc9e-ch18-p0178" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">18.28 The addition rule.</phrase> Probability rule D states: <em>If two events have no outcomes in common</em>, <em>the probability that one or the other occurs is the sum of their individual probabilities</em>. This is sometimes called the addition rule for disjoint events. A more general form of the addition rule is: <em>the probability that one or the other of two events occurs is the sum of their individual probabilities minus the probability that both occur</em>. To verify this rule, suppose you roll two casino dice as in <link href="example_18_2.html">Examples 2</link>. Refer to the outcomes in <link href="figure_18_1.html">Figure 18.1</link> to answer the following.</p>
+<list id="scc9e-ch18-list-022" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch18-li-079"><p id="scc9e-ch18-p0179" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> How many of the outcomes in <link href="figure_18_1.html">Figure 18.1</link> have the sum of the spots on the up-faces equal to 6? What is the probability that the sum of the spots on the up-faces is 6?</p></li>
+<li id="scc9e-ch18-li-080"><p id="scc9e-ch18-p0180" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> How many of the outcomes in <link href="figure_18_1.html">Figure 18.1</link> have at least one of the up-faces showing a single spot? What is the probability that at least one of the up-faces has only a single spot?</p></li>
+<li id="scc9e-ch18-li-081"><p id="scc9e-ch18-p0181" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> How many of the outcomes in <link href="figure_18_1.html">Figure 18.1</link> have the sum of the spots on the up-faces equal to 6 and at least one of the up-faces showing a single spot? What is the probability that the sum of the spots on the up-faces is 6 and at least one of the up-faces has only a single spot?</p></li>
+<li id="scc9e-ch18-li-082"><p id="scc9e-ch18-p0182" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> How many of the outcomes in <link href="figure_18_1.html">Figure 18.1</link> have either the sum of the spots on the up-faces equal to 6 or have at least one of the up-faces showing a single spot? What is the probability that the sum of the spots on the up-faces is either a 6 or at least one of the up-faces has a single spot?</p></li>
+<li id="scc9e-ch18-li-083"><p id="scc9e-ch18-p0183" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(e)</phrase> The addition rule says that your answer to part (d) should be equal to the sum of your answers to parts (a) and (b) minus your answer to part (c). Verify that this is the case.</p></li>
+</list>
+<p id="scc9e-ch18-p0184" block_type="CR-X-NL"><em>Note</em>: The outcomes you were asked to count in part (c) are among those counted in parts (a) and (b). When we combine the outcomes in parts (a) and (b), we &#8220;double count&#8221; the outcomes in part (c). One of these &#8220;double counts&#8221; must be eliminated so that the combination corresponds to the outcomes in part (d). This is the reason that, in the addition rule, you subtract the probability that both occur from the sum of their individual probabilities.</p>
+</question>
+<p id="scc9e_page_443" block_type="page_start" data-margin-content="right">443</p>
+<box id="scc9e-ch18-bx014" numbered="false" block_type="exploring-web">
+<p id="scc9e-ch18-p0186a" block_type="QRL icon"><image asset-id="scc9e-ch18-img-013" alt="image" src="images/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch18-p0186" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
+<p id="scc9e-ch18-p0187" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
+</box>
+</section>
+</chapter>
+</manuscript>
