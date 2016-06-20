@@ -1,0 +1,118 @@
+<m:math_1 display='block'><m:mtable columnspacing='0.3em' columnalign='left'><m:mtr columnalign='left'><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>=</m:mo></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mfrac><m:mrow><m:mtext>count&#x00A0;in&#x00A0;the&#x00A0;sample</m:mtext></m:mrow><m:mrow><m:mtext>size&#x00A0;of&#x00A0;the&#x00A0;sample</m:mtext></m:mrow></m:mfrac></m:mstyle></m:mtd></m:mtr><m:mtr columnalign='left'><m:mtd columnalign='left'/><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>=</m:mo></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mfrac><m:mrow><m:mn>616</m:mn></m:mrow><m:mrow><m:mn>1009</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.611</m:mn></m:mstyle></m:mtd></m:mtr></m:mtable></m:math_1>
+<m:math_2 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_2>
+<m:math_3 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_3>
+<m:math_4 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_4>
+<m:math_5 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_5>
+<m:math_6 display='block'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mtext>count&#x00A0;of&#x00A0;successes&#x00A0;in&#x00A0;the&#x00A0;sample</m:mtext></m:mrow><m:mi>n</m:mi></m:mfrac></m:mrow></m:math_6>
+<m:math_7 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_7>
+<m:math_8 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_8>
+<m:math_9 display='block'><m:mrow><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>&#x2212;</m:mo><m:mi>p</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math_9>
+<m:math_10 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_10>
+<m:math_11 display='block'><m:mtable columnspacing='0.3em' columnalign='left'><m:mtr columnalign='left'><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mrow><m:mtext>standard</m:mtext><m:mtext>&#x00A0;</m:mtext><m:mtext>error</m:mtext></m:mrow></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>=</m:mo></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>&#x2212;</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mstyle></m:mtd></m:mtr>
+<m:mtr columnalign='left'><m:mtd columnalign='left'/><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>=</m:mo></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.62</m:mn></m:mrow><m:mo>)</m:mo><m:mo>(</m:mo><m:mrow><m:mn>0.38</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1009</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mstyle></m:mtd></m:mtr>
+<m:mtr columnalign='left'><m:mtd columnalign='left'/><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>=</m:mo></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:msqrt><m:mrow><m:mrow><m:mn>0.0002334</m:mn></m:mrow></m:mrow></m:msqrt><m:mo>=</m:mo><m:mrow><m:mn>0.01528</m:mn></m:mrow></m:mstyle></m:mtd></m:mtr></m:mtable></m:math_11>
+<m:math_12 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_12>
+<m:math_13 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_13>
+<m:math_14 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_14>
+<m:math_15 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_15>
+<m:math_16 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>&#x2212;</m:mo><m:mrow><m:mn>0.0306</m:mn></m:mrow></m:math_16>
+<m:math_17 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>+</m:mo><m:mrow><m:mn>0.0306</m:mn></m:mrow></m:math_17>
+<m:math_18 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_18>
+<m:math_19 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_19>
+<m:math_20 display='block'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>&#x00B1;</m:mo><m:mn>2</m:mn><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>&#x2212;</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:math_20>
+<m:math_21 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_21>
+<m:math_22 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_22>
+<m:math_23 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_23>
+<m:math_24 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_24>
+<m:math_25 display='block'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>&#x00B1;</m:mo><m:mn>2</m:mn><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>&#x2212;</m:mo><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:math_25>
+<m:math_26 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>=</m:mo><m:mrow><m:mn>0.611</m:mn></m:mrow></m:math_26>
+<m:math_27 display='block'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>&#x00B1;</m:mo><m:mn>2</m:mn><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>&#x2212;</m:mo><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mrow><m:mn>0.611</m:mn></m:mrow><m:mo>&#x00B1;</m:mo><m:mn>2</m:mn><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.611</m:mn></m:mrow><m:mo>)</m:mo><m:mo>(</m:mo><m:mrow><m:mn>0.389</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1009</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:math_27>
+<m:math_28 display='block'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>616</m:mn></m:mrow><m:mrow><m:mn>1009</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mrow><m:mn>0.611</m:mn></m:mrow></m:math_28>
+<m:math_29 display='block'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>&#x00B1;</m:mo><m:mn>2</m:mn><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>&#x2212;</m:mo><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mrow><m:mn>0.611</m:mn></m:mrow><m:mo>&#x00B1;</m:mo><m:mrow><m:mn>0.0307</m:mn></m:mrow></m:math_29>
+<m:math_30 display='block'><m:mtable columnspacing='0.3em' columnalign='left'><m:mtr columnalign='left'><m:mtd columnalign='right'><m:mstyle displaystyle='true'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>700</m:mn></m:mrow><m:mrow><m:mn>1009</m:mn></m:mrow></m:mfrac></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>=</m:mo></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mrow><m:mn>0.694</m:mn></m:mrow></m:mstyle></m:mtd></m:mtr><m:mtr columnalign='left'><m:mtd columnalign='right'><m:mstyle displaystyle='true'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>&#x00B1;</m:mo><m:mn>2</m:mn><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>&#x2212;</m:mo><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>=</m:mo></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mn>0.694</m:mn><m:mo>&#x00B1;</m:mo><m:mn>0.0290</m:mn></m:mstyle></m:mtd></m:mtr></m:mtable></m:math_30>
+<m:math_31 display='block'><m:mtable columnspacing='0.3em' columnalign='left'><m:mtr columnalign='left'><m:mtd columnalign='right'><m:mstyle displaystyle='true'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>598</m:mn></m:mrow><m:mrow><m:mn>1009</m:mn></m:mrow></m:mfrac></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>=</m:mo></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mrow><m:mn>0.593</m:mn></m:mrow></m:mstyle></m:mtd></m:mtr><m:mtr columnalign='left'><m:mtd columnalign='right'><m:mstyle displaystyle='true'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>&#x00B1;</m:mo><m:mn>2</m:mn><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>&#x2212;</m:mo><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:mfrac></m:mrow></m:msqrt></m:mrow></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mo>=</m:mo></m:mstyle></m:mtd><m:mtd columnalign='left'><m:mstyle displaystyle='true'><m:mn>0.593</m:mn><m:mo>&#x00B1;</m:mo><m:mn>0.0309</m:mn></m:mstyle></m:mtd></m:mtr></m:mtable></m:math_31>
+<m:math_32 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_32>
+<m:math_33 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_33>
+<m:math_34 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_34>
+<m:math_35 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_35>
+<m:math_36 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_36>
+<m:math_37 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_37>
+<m:math_38 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_38>
+<m:math_39 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_39>
+<m:math_40 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_40>
+<m:math_41 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_41>
+<m:math_42 display='block'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>&#x00B1;</m:mo><m:mi>z*</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>&#x2212;</m:mo><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:msqrt></m:math_42>
+<m:math_43 display='block'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>616</m:mn></m:mrow><m:mrow><m:mn>1009</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mrow><m:mn>0.611</m:mn></m:mrow></m:math_43>
+<m:math_44 display='block'><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>&#x00B1;</m:mo><m:mi>z*</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>&#x2212;</m:mo><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mi>n</m:mi></m:mfrac></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>0.611</m:mn><m:mo>&#x00B1;</m:mo><m:mn>2.58</m:mn><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.611</m:mn></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>0.389</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>1009</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math_44>
+<m:math_45 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_45>
+<m:math_46 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_46>
+<m:math_47 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_47>
+<m:math_48 display='inline'><m:mi>&#x03BC;</m:mi></m:math_48>
+<m:math_49 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_49>
+<m:math_50 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_50>
+<m:math_51 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_51>
+<m:math_52 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_52>
+<m:math_53 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_53>
+<m:math_54 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_54>
+<m:math_55 display='inline'><m:mi>&#x03C3;</m:mi><m:mo>/</m:mo><m:msqrt><m:mrow><m:mi>n</m:mi></m:mrow></m:msqrt></m:math_55>
+<m:math_56 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_56>
+<m:math_57 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_57>
+<m:math_58 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_58>
+<m:math_59 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_59>
+<m:math_60 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_60>
+<m:math_61 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_61>
+<m:math_62 display='inline'><m:mi>&#x03C3;</m:mi><m:mo>/</m:mo><m:msqrt><m:mrow><m:mi>n</m:mi></m:mrow></m:msqrt></m:math_62>
+<m:math_63 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_63>
+<m:math_64 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_64>
+<m:math_65 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_65>
+<m:math_66 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_66>
+<m:math_67 display='inline'><m:mi>s</m:mi><m:mo>/</m:mo><m:msqrt><m:mrow><m:mi>n</m:mi></m:mrow></m:msqrt></m:math_67>
+<m:math_68 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_68>
+<m:math_69 display='block'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover><m:mo>&#x00B1;</m:mo><m:mi>z*</m:mi><m:mfrac><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:mi>n</m:mi></m:mrow></m:msqrt></m:mrow></m:mfrac></m:math_69>
+<m:math_70 display='inline'><m:msqrt><m:mrow><m:mi>n</m:mi></m:mrow></m:msqrt></m:math_70>
+<m:math_71 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_71>
+<m:math_72 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_72>
+<m:math_73 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover><m:mo>=</m:mo><m:mrow><m:mn>153</m:mn><m:mo>,</m:mo></m:mrow></m:math_73>
+<m:math_74 display='block'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover><m:mo>&#x00B1;</m:mo><m:mi>z*</m:mi><m:mfrac><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow><m:msqrt><m:mrow><m:mi>n</m:mi></m:mrow></m:msqrt></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>153</m:mn><m:mo>&#x00B1;</m:mo><m:mrow><m:mn>1.96</m:mn></m:mrow><m:mfrac><m:mrow><m:mn>34</m:mn></m:mrow><m:mrow><m:msqrt><m:mrow><m:mrow><m:mn>51</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:mrow></m:msqrt></m:mrow></m:mfrac></m:math_74>
+<m:math_75 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover><m:mo>=</m:mo><m:mrow><m:mn>126.1</m:mn></m:mrow></m:math_75>
+<m:math_76 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_76>
+<m:math_77 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_77>
+<m:math_78 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_78>
+<m:math_79 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_79>
+<m:math_80 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_80>
+<m:math_81 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_81>
+<m:math_82 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_82>
+<m:math_83 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>=</m:mo><m:mrow><m:mn>0.52</m:mn></m:mrow></m:math_83>
+<m:math_84 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_84>
+<m:math_85 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_85>
+<m:math_86 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>&#x00B1;</m:mo><m:mn>1</m:mn><m:mo>/</m:mo><m:msqrt><m:mrow><m:mi>n</m:mi></m:mrow></m:msqrt></m:math_86>
+<m:math_87 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_87>
+<m:math_88 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_88>
+<m:math_89 display='inline'><m:mi>z*</m:mi><m:msqrt><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>/</m:mo><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>&#x2212;</m:mo><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>)</m:mo></m:mrow></m:msqrt><m:mi>n</m:mi></m:math_89>
+<m:math_90 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_90>
+<m:math_91 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_91>
+<m:math_92 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>&#x2212;</m:mo><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>)</m:mo></m:math_92>
+<m:math_93 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_93>
+<m:math_94 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_94>
+<m:math_95 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>&#x2212;</m:mo><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>)</m:mo></m:math_95>
+<m:math_96 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>/</m:mo><m:mn>2</m:mn></m:math_96>
+<m:math_97 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>/</m:mo><m:mn>2</m:mn></m:math_97>
+<m:math_98 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_98>
+<m:math_99 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_99>
+<m:math_100 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_100>
+<m:math_101 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover><m:mo>=</m:mo><m:mrow><m:mn>114.9</m:mn></m:mrow></m:math_101>
+<m:math_102 display='inline'><m:mi>s</m:mi><m:mo>=</m:mo><m:mrow><m:mn>9.3</m:mn></m:mrow></m:math_102>
+<m:math_103 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover><m:mo>=</m:mo><m:mrow><m:mn>0.536</m:mn></m:mrow></m:math_103>
+<m:math_104 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_104>
+<m:math_105 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_105>
+<m:math_106 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_106>
+<m:math_107 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_107>
+<m:math_108 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_108>
+<m:math_109 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_109>
+<m:math_110 display='inline'><m:mi>&#x03C3;</m:mi><m:mo>/</m:mo><m:mn>10</m:mn></m:math_110>
+<m:math_111 display='inline'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover></m:math_111>
+<m:math_112 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mtext>&#x00A0;</m:mtext><m:mo>&#x00B1;</m:mo><m:mtext>&#x00A0;</m:mtext><m:mi>z*</m:mi><m:msqrt><m:mrow><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>&#x2212;</m:mo><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover><m:mo>)</m:mo><m:mo>/</m:mo><m:mi>n</m:mi></m:mrow></m:msqrt></m:math_112>
+<m:math_113 display='inline'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x005E;</m:mo></m:mover></m:math_113>
+<m:math_114 display='inline'><m:mi>n</m:mi></m:math_114>
+<m:math_115 display='inline'><m:mi>n</m:mi></m:math_115>
+<m:math_116 display='block'><m:mover accent='true'><m:mi>p</m:mi><m:mo>&#x02DC;</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mrow><m:mtext>number</m:mtext><m:mtext>&#x00A0;</m:mtext><m:mtext>of</m:mtext><m:mtext>&#x00A0;</m:mtext><m:mtext>successes</m:mtext><m:mtext>&#x00A0;</m:mtext><m:mtext>in</m:mtext><m:mtext>&#x00A0;</m:mtext><m:mtext>the</m:mtext><m:mtext>&#x00A0;</m:mtext><m:mtext>sample</m:mtext></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:math_116>

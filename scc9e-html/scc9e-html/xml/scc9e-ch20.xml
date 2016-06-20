@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manuscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML" manuscript-id="20" name="" title="Moore_Chapter_20" xsi:noNamespaceSchemaLocation="xsd/digfir_manuscript.xsd">
-<chapter id="scc9e-ch20" number="20" title="Chapter 20: The House Edge: Expected Values" start-numbering-at="465" numbered="true">
+<chapter id="scc9e-ch20" number="20" title="Chapter 20: The House Edge: Expected Values" start-numbering-at="20" numbered="true">
 <section id="scc9e-ch20-sec-001" block_type="chapter" title="The House Edge: Expected Values" numbered="false" level="1" print_page="465">
 <p id="scc9e-ch20-p01" block_type="CN">20</p>
 <p id="scc9e-ch20-p02" block_type="CT">The House Edge: Expected Values</p>
 <p id="scc9e_page_465" block_type="page_start" data-margin-content="right">465</p>
 <figure id="scc9e-ch20-unfig-001" block_type="CO-PH-CL" numbered="false" mmtype="image" mmsrc="" attr="">
 <layout align="right" width="medium" border="false"/>
-<image asset-id="scc9e-ch20-img-001" alt="image" src="images/17MOORESCC-MSE_9e_CO20.jpg"/>
+<image asset-id="scc9e-ch20-img-001" alt="image" src="asset/ch20/17MOORESCC-MSE_9e_CO20.jpg"/>
 <asset_source><phrase block_type="PH-CL">&#169; Radius Images/Corbis</phrase></asset_source>
 </figure>
 <box id="scc9e-ch20-box-001" numbered="false" block_type="BX4-H-ri">
@@ -20,12 +18,12 @@
 <section-metadata><section-title>Expected values</section-title></section-metadata>
 <p id="scc9e-ch20-p07" block_type="TXT-ni">Gambling on chance outcomes goes back to ancient times and has continued throughout history. Both public and private lotteries were common in the early years of the United States. After disappearing for a century or so, government-run gambling reappeared in 1964, when New Hampshire caused a furor by introducing a lottery to raise public revenue without raising taxes. The furor subsided quickly as larger states adopted the idea. Forty-two states and all Canadian provinces now sponsor lotteries. State lotteries made gambling acceptable as entertainment. Some form of legal gambling is allowed in 48 of the 50 states. More than half of all adult Americans have gambled legally. They spend more betting than on spectator sports, video games, theme parks, and movie tickets combined. If you are going to bet, you should understand what makes a bet good or bad. As our introductory Case Study says, we care about how much we win as well as about our probability of winning.</p>
 <p id="scc9e_page_466" block_type="page_start" data-margin-content="left">466</p>
-<figure id="scc9e-ch20-fig-002" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch20-fig-002" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="20_17MOORESCC-MSE_9e_Car_20_01.html">
 <layout align="center" width="large" border="false"/>
-<image asset-id="scc9e-ch20-img-002" alt="image" src="images/17MOORESCC-MSE_9e_Car_20_01.jpg"/>
+<image asset-id="scc9e-ch20-img-002" alt="image" src="asset/ch20/17MOORESCC-MSE_9e_Car_20_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">Shoe- &#169; 1995 MacNelly Distributed by King Features Syndicate</phrase></asset_source>
 </figure>
-<box id="scc9e-ch20-box-002" numbered="false" block_type="EXP">
+<box id="scc9e-ch20-box-002" numbered="false" block_type="EXP" data-filename="example_20_1.html">
 <p id="scc9e-ch20-p09" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 1</phrase> The Tri-State Daily Numbers</p>
 <p id="scc9e-ch20-p010" block_type="EXP-first">Here is a simple lottery wager: the &#8220;Straight&#8221; from the Pick 3 game of the Tri-State Daily Numbers offered by New Hampshire, Maine, and Vermont. You pay &#36;0.50 and choose a three-digit number. The state chooses a three-digit winning number at random and pays you &#36;250 if your number is chosen. Because there are 1000 three-digit numbers, you have probability 1-in-1000 of winning. Here is the probability model for your winnings:</p>
 <table id="scc9e-ch20-tab-1" numbered="false" block_type="UN-TABLE" attr="40">
@@ -43,7 +41,7 @@
 </tbody>
 </table>
 <p id="scc9e-ch20-p011" block_type="EXP-mid">What are your average winnings? The ordinary average of the two possible outcomes &#36;0 and &#36;250 is &#36;125, but that makes no sense as the average winnings because &#36;250 is much less likely than &#36;0. In the long run, you win &#36;250 once in every 1000 bets and &#36;0 on the remaining 999 of 1000 bets. (Of course, if you play the game regularly, buying one ticket each time you play, after you have bought exactly 1000 Pick 3 tickets, there is no guarantee that you will win exactly once. Probabilities are only <em>long-run</em> proportions.) Your long-run average winnings from a ticket are</p>
-<p id="scc9e-ch20-p012" block_type="EXP-EQ"><m:math display='block'><m:mrow><m:mo>&#x24;</m:mo><m:mn>250</m:mn></m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>1000</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mrow><m:mo>&#x24;</m:mo><m:mn>0</m:mn></m:mrow><m:mfrac><m:mrow><m:mn>999</m:mn></m:mrow><m:mrow><m:mn>1000</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mrow><m:mo>&#x24;</m:mo><m:mn>0</m:mn><m:mi>.</m:mi><m:mn>25</m:mn></m:mrow></m:math></p>
+<p id="scc9e-ch20-p012" block_type="EXP-EQ"><phrase data-math="math_1"></phrase></p>
 <p id="scc9e-ch20-p013" block_type="EXP-ni">or 25 cents. You see that in the long run the state pays out one-half of the money bet and keeps the other half.</p>
 </box>
 <p id="scc9e_page_467" block_type="page_start" data-margin-content="right">467</p>
@@ -55,7 +53,7 @@
 <p id="scc9e-ch20-p019" block_type="EQ">expected value = <em>a</em><sub>1</sub><em>p</em><sub>1</sub> + <em>a</em><sub>2</sub><em>p</em><sub>2</sub> + . . . + <em>a<sub>k</sub>p<sub>k</sub></em></p>
 </box>
 <p id="scc9e-ch20-p020" block_type="TXT">An expected value is an average of the possible outcomes, but it is not an ordinary average in which all outcomes get the same weight. Instead, each outcome is weighted by its probability so that outcomes that occur more often get higher weights.</p>
-<box id="scc9e-ch20-box-004" numbered="false" block_type="EXP">
+<box id="scc9e-ch20-box-004" numbered="false" block_type="EXP" data-filename="example_20_2.html">
 <p id="scc9e-ch20-p021" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> The Tri-State Daily Numbers, continued</p>
 <p id="scc9e-ch20-p022" block_type="EXP-first">The Straight wager in <link href="example_20_1.html">Example 1</link> pays off if you match the three-digit winning number exactly. You can choose instead to make a &#36;1 StraightBox (six-way) wager. You again choose a three-digit number, but you now have two ways to win. You win &#36;292 if you exactly match the winning number, and you win &#36;42 if your number has the same digits as the winning number, in any order. For example, if your number is 123, you win &#36;292 if the winning number is 123 and &#36;42 if the winning number is any of 132, 213, 231, 312, and 321. In the long run, you win &#36;292 once every 1000 bets and &#36;42 five times for every 1000 bets.</p>
 <p id="scc9e-ch20-p023" block_type="EXP-mid">The probability model for the amount you win is</p>
@@ -82,10 +80,10 @@
 <p id="scc9e_page_468" block_type="page_start" data-margin-content="left">468</p>
 <p id="scc9e-ch20-p028" block_type="TXT">The Tri-State Daily Numbers is unusual among state lottery games in that it pays a fixed amount for each type of bet. Most states pay off on the &#8220;pari-mutuel&#8221; system. New Jersey&#8217;s Pick 3 game is typical: the state pools the money bet and pays out half of it, equally divided among the winning tickets. You still have probability 1-in-1000 of winning a Straight bet, but the amount your number 123 wins depends both on how much was bet on Pick 3 that day and on how many other players chose the number 123. Without fixed amounts, we can&#8217;t find the expected value of today&#8217;s bet on 123, but one thing is constant: the state keeps half the money bet.</p>
 <box id="scc9e-ch20-box-005" numbered="false" block_type="margin-statistics">
-<p id="scc9e-ch20-p029" block_type="MN-TXT"><image asset-id="scc9e-ch20-img-003" alt="image" src="images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">Rigging the lottery</phrase> We have all seen televised lottery drawings in which numbered balls bubble about and are randomly popped out by air pressure. How might we rig such a drawing? In 1980, the Pennsylvania lottery was rigged by the host and several stagehands. They injected paint into all balls bearing 8 of the 10 digits. This weighed them down and guaranteed that all three balls for the winning number would have the remaining two digits. The perps then bet on all combinations of these digits. When 6-6-6 popped out, they won &#36;1.2 million. Yes, they were caught.</p>
+<p id="scc9e-ch20-p029" block_type="MN-TXT"><image asset-id="scc9e-ch20-img-003" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">Rigging the lottery</phrase> We have all seen televised lottery drawings in which numbered balls bubble about and are randomly popped out by air pressure. How might we rig such a drawing? In 1980, the Pennsylvania lottery was rigged by the host and several stagehands. They injected paint into all balls bearing 8 of the 10 digits. This weighed them down and guaranteed that all three balls for the winning number would have the remaining two digits. The perps then bet on all combinations of these digits. When 6-6-6 popped out, they won &#36;1.2 million. Yes, they were caught.</p>
 </box>
 <p id="scc9e-ch20-p030" block_type="TXT">The idea of expected value as an average applies to random outcomes other than games of chance. It is used, for example, to describe the uncertain return from buying stocks or building a new factory. Here is a different example.</p>
-<box id="scc9e-ch20-box-006" numbered="false" block_type="EXP">
+<box id="scc9e-ch20-box-006" numbered="false" block_type="EXP" data-filename="example_20_3.html">
 <p id="scc9e-ch20-p031" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> How many vehicles per household?</p>
 <p id="scc9e-ch20-p032" block_type="EXP-first">What is the average number of motor vehicles in American households? The Census Bureau tells us that the distribution of vehicles per household (based on the 2010 census) is as follows:</p>
 <table id="scc9e-ch20-tab-3" numbered="false" block_type="UN-TABLE" attr="100">
@@ -110,9 +108,9 @@
 </tr>
 </tbody>
 </table>
-<figure id="scc9e-ch20-fig-003" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch20-fig-003" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="20_17MOORESCC-MSE_9e_P_20_01.html">
 <layout align="left" width="small" border="false"/>
-<image asset-id="scc9e-ch20-img-004" alt="image" src="images/17MOORESCC-MSE_9e_P_20_01.jpg"/>
+<image asset-id="scc9e-ch20-img-004" alt="image" src="asset/ch20/17MOORESCC-MSE_9e_P_20_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">&#169; Alan Schein Photography/Corbis</phrase></asset_source>
 </figure>
 <p id="scc9e-ch20-p033" block_type="EXP-ni">This is a probability model for choosing a household at random and counting its vehicles. (We ignored the very few households with more than five vehicles.) The expected value for this model is the average number of vehicles per household. This average is</p>
@@ -122,7 +120,7 @@
 <p id="scc9e_page_469" block_type="page_start" data-margin-content="right">469</p>
 <box id="scc9e-ch20-box-007" numbered="false" block_type="BX2">
 <p id="scc9e-ch20-p037" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch20-quest-001">
+<question id="scc9e-ch20-quest-001" block_type="exercise_20_1.html">
 <p id="scc9e-ch20-p038" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">20.1 Number of children.</phrase> The Census Bureau gives this distribution for the number of a household&#8217;s related children under the age of 18 in American households in 2011:</p>
 <table id="scc9e-ch20-tab-4" numbered="false" block_type="UN-TABLE" attr="70">
 <tbody>
@@ -159,7 +157,7 @@
 <p id="scc9e_page_470" block_type="page_start" data-margin-content="left">470</p>
 <p id="scc9e-ch20-p045" block_type="TXT">The law of large numbers explains why gambling, which is a recreation or an addiction for individuals, is a business for a casino. The &#8220;house&#8221; in a gambling operation is not gambling at all. The average winnings of a large number of customers will be quite close to the expected value. The house has calculated the expected value ahead of time and knows what its take will be in the long run. There is no need to load the dice or stack the cards to guarantee a profit. Casinos concentrate on inexpensive entertainment and cheap bus trips to keep the customers flowing in. If enough bets are placed, the law of large numbers guarantees the house a profit. Life insurance companies operate much like casinos&#8212;they bet that the people who buy insurance will not die. Some do die, of course, but the insurance company knows the probabilities and relies on the law of large numbers to predict the average amount it will have to pay out. Then the company sets its premiums high enough to guarantee a profit.</p>
 <box id="scc9e-ch20-box-009" numbered="false" block_type="margin-statistics">
-<p id="scc9e-ch20-p046" block_type="MN-TXT"><image asset-id="scc9e-ch20-img-005" alt="image" src="images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">High-tech gambling</phrase> There are more than 700,000 slot machines in the United States. Once upon a time, you put in a coin and pulled the lever to spin three wheels, each with 20 symbols. No longer. Now the machines are video games with flashy graphics and outcomes produced by random number generators. Machines can accept many coins at once, can pay off on a bewildering variety of outcomes, and can be networked to allow common jackpots. Gamblers still search for systems, but in the long run, the random number generator guarantees the house its 5&#37; profit.</p>
+<p id="scc9e-ch20-p046" block_type="MN-TXT"><image asset-id="scc9e-ch20-img-005" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">High-tech gambling</phrase> There are more than 700,000 slot machines in the United States. Once upon a time, you put in a coin and pulled the lever to spin three wheels, each with 20 symbols. No longer. Now the machines are video games with flashy graphics and outcomes produced by random number generators. Machines can accept many coins at once, can pay off on a bewildering variety of outcomes, and can be networked to allow common jackpots. Gamblers still search for systems, but in the long run, the random number generator guarantees the house its 5&#37; profit.</p>
 </box>
 </section>
 <section id="scc9e-ch20-sec1-003" block_type="h1" chapter="ch20" numbered="false" level="1" print_page="470">
@@ -174,9 +172,9 @@
 <p id="scc9e-ch20-p053" block_type="BX3-T">The State of Legalized Gambling</p>
 <p id="scc9e-ch20-p054" block_type="BX3-TXT-ni">Most voters think that some forms of gambling should be legal, and the majority has its way: lotteries and casinos are common both in the United States and in other nations. The arguments in favor of allowing gambling are straightforward. Many people find betting entertaining and are willing to lose a bit of money in exchange for some excitement. Gambling doesn&#8217;t harm other people, at least not directly. A democracy should allow entertainments that a majority supports and that don&#8217;t do harm. State lotteries raise money for good causes such as education and are a kind of voluntary tax that no one is forced to pay.</p>
 <p id="scc9e-ch20-p055" block_type="BX3-TXT">These are some of the arguments for legalized gambling. What are some of the arguments against legalized gambling? Ask yourself, from which socioeconomic class do people who tend to play the lottery come, and hence who bears the burden for this &#8220;voluntary tax&#8221;? For more information, see the sources listed in the Notes and Data Sources at the end of this chapter.</p>
-<figure id="scc9e-ch20-fig-004" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch20-fig-004" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="20_17MOORESCC-MSE_9e_Car_20_02.html">
 <layout align="right" width="medium" border="false"/>
-<image asset-id="scc9e-ch20-img-006" alt="image" src="images/17MOORESCC-MSE_9e_Car_20_02.jpg"/>
+<image asset-id="scc9e-ch20-img-006" alt="image" src="asset/ch20/17MOORESCC-MSE_9e_Car_20_02.jpg"/>
 </figure>
 </box>
 <p id="scc9e-ch20-p056" block_type="H3"><strong>Is there a winning system?</strong> Serious gamblers often follow a system of betting in which the amount bet on each play depends on the outcome of previous plays. You might, for example, double your bet on each spin of the roulette wheel until you win&#8212;or, of course, until your fortune is exhausted. Such a system tries to take advantage of the fact that you have a memory even though the roulette wheel does not. Can you beat the odds with a system? No. Mathematicians have established a stronger version of the law of large numbers that says that if you do not have an infinite fortune to gamble with, your average winnings (the expected value) remain the same as long as successive trials of the game (such as spins of the roulette wheel) are independent. Sorry.</p>
@@ -185,7 +183,7 @@
 <section-metadata><section-title>Finding expected values by simulation</section-title></section-metadata>
 <p id="scc9e_page_472" block_type="page_start" data-margin-content="left">472</p>
 <p id="scc9e-ch20-p058" block_type="TXT-ni">How can we calculate expected values in practice? You know the mathematical recipe, but that requires that you start with the probability of each outcome. Expected values that are too difficult to compute in this way can be found by simulation. The procedure is as before: give a probability model, use random digits to imitate it, and simulate many repetitions. By the law of large numbers, the average outcome of these repetitions will be close to the expected value.</p>
-<box id="scc9e-ch20-box-011" numbered="false" block_type="EXP">
+<box id="scc9e-ch20-box-011" numbered="false" block_type="EXP" data-filename="example_20_4.html">
 <p id="scc9e-ch20-p059" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> We want a girl, again</p>
 <p id="scc9e-ch20-p060" block_type="EXP-first">A couple plan to have children until they have a girl or until they have three children, whichever comes first. We simulated 10 repetitions of this scheme in <link href="example_19_4.html">Example 4</link> of <link href="scc9e-ch19.xml">Chapter 19</link> (page 452). There, we estimated the probability that they will have a girl among their children. Now we ask a different question: how many children, on the average, will couples who follow this plan have? That is, we want the expected number of children.</p>
 <p id="scc9e-ch20-p061" block_type="EXP-mid">The simulation is exactly as before. The probability model says that the sexes of successive children are independent and that each child has probability 0.49 of being a girl. Here are our earlier simulation results&#8212;but rather than noting whether the couple did have a girl, we now record the number of children they have. Recall that a pair of digits simulates one child, with 00 to 48 (probability 0.49) standing for a girl.</p>
@@ -230,13 +228,13 @@
 </tbody>
 </table>
 <p id="scc9e-ch20-p062" block_type="EXP-ni">The mean number of children in these 10 repetitions is</p>
-<p id="scc9e-ch20-p063" block_type="EXP-EQ"><m:math display='block'><m:mover accent='true'><m:mi>x</m:mi><m:mo>&#x00AF;</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>17</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mrow><m:mn>1</m:mn><m:mi>.</m:mi><m:mn>7</m:mn></m:mrow></m:math></p>
+<p id="scc9e-ch20-p063" block_type="EXP-EQ"><phrase data-math="math_2"></phrase></p>
 <p id="scc9e-ch20-p064" block_type="EXP-mid">We estimate that if many couples follow this plan, they will average 1.7 children each. This simulation is too short to be trustworthy. Math or a long simulation shows that the actual expected value is 1.77 children.</p>
 </box>
 <p id="scc9e_page_473" block_type="page_start" data-margin-content="right">473</p>
 <box id="scc9e-ch20-box-012" numbered="false" block_type="BX2">
 <p id="scc9e-ch20-p066" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch20-quest-002">
+<question id="scc9e-ch20-quest-002" block_type="exercise_20_2.html">
 <p id="scc9e-ch20-p067" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">20.2 Stephen Curry&#8217;s field-goal shooting.</phrase> Stephen Curry makes about 49&#37; of the field-goal shots that he attempts. On average, how many field-goal shots must he take in a game before he makes his first shot? In other words, we want the expected number of shots he takes before he makes his first. Estimate this by using 10 simulations of sequences of shots, stopping when he makes his first. Use <link href="example_20_4.html">Example 4</link> to help you set up your simulation. What is your estimate of the expected value?</p>
 </question>
 </box>
@@ -249,7 +247,7 @@
 <li id="scc9e-ch20-li-002"><p id="scc9e-ch20-p070" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> When the outcomes are numbers, as in games of chance, we are often interested in the long-run average outcome. The <strong>law of large numbers</strong> says that the mean outcome in many repetitions eventually gets close to the expected value.</p></li>
 <li id="scc9e-ch20-li-003"><p id="scc9e-ch20-p071" block_type="SUM-BL-last"><phrase block_type="maker">&#8226;</phrase> If you don&#8217;t know the outcome probabilities, you can estimate the expected value (along with the probabilities) by simulation.</p></li>
 </list>
-<p id="scc9e-ch20-p072" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch20-img-007" alt="image" src="images/LinkIt.jpg"/> In <link href="scc9e-ch17.xml">Chapter 17</link>, we discussed the law of averages, both incorrect and correct interpretations. The correct interpretation is sometimes referred to as the law of large numbers. In this chapter, we formally state the law of averages and its relation to the expected value. Understanding the law of large numbers and expected values is helpful in understanding the behavior of games of chance, including state lotteries. Expected values provide a way you can compare games of chance with huge jackpots but small chances of winning with games with more modest jackpots but more reasonable chances of winning.</p>
+<p id="scc9e-ch20-p072" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch20-img-007" alt="image" src="asset/global_images/LinkIt.jpg"/> In <link href="scc9e-ch17.xml">Chapter 17</link>, we discussed the law of averages, both incorrect and correct interpretations. The correct interpretation is sometimes referred to as the law of large numbers. In this chapter, we formally state the law of averages and its relation to the expected value. Understanding the law of large numbers and expected values is helpful in understanding the behavior of games of chance, including state lotteries. Expected values provide a way you can compare games of chance with huge jackpots but small chances of winning with games with more modest jackpots but more reasonable chances of winning.</p>
 <box id="scc9e-ch20-box-013" numbered="false" block_type="case_title">
 <p id="scc9e-ch20-p073" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> Using what you learned in this chapter, answer the following questions.</p>
 <list id="scc9e-ch20-list-002" type="ordered" block_type="numbered">
@@ -305,7 +303,7 @@
 </list>
 </box>
 <box id="scc9e-ch20-box-014" numbered="false" block_type="launchpad">
-<p id="scc9e-ch20-p082" block_type="CR-BIB-T"><image asset-id="scc9e-ch20-img-008" alt="image" src="images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<p id="scc9e-ch20-p082" block_type="CR-BIB-T"><image asset-id="scc9e-ch20-img-008" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
 <list id="scc9e-ch20-list-004" type="unordered" block_type="redbullet">
 <li id="scc9e-ch20-li-010"><p id="scc9e-ch20-p083" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The StatBoards video <em>Expected Value</em> discusses the basics of computing and interpreting expected values in the context of an example.</p></li>
 </list>
@@ -314,7 +312,7 @@
 <section id="scc9e-ch20-sec1-006" block_type="CR-X-H" chapter="ch20" numbered="false" level="1" print_page="474">
 <section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
 <p id="scc9e-ch20-p084" block_type="CR-X"><em>For <link href="exercise_20_1.html">Exercise 20.1</link>, see page 469; for <link href="exercise_20_2.html">Exercise 20.2</link>, see page 473.</em></p>
-<question id="scc9e-ch20-quest-003">
+<question id="scc9e-ch20-quest-003" block_type="exercise_20_3.html">
 <p id="scc9e-ch20-p085" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.3 Expected value.</phrase> Which of the following is true of the expected value of a random phenomenon?</p>
 <list id="scc9e-ch20-list-005" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch20-li-011"><p id="scc9e-ch20-p086" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> It must be one of the possible outcomes.</p></li>
@@ -323,7 +321,7 @@
 <li id="scc9e-ch20-li-014"><p id="scc9e-ch20-p089" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> None of the above is true.</p></li>
 </list>
 </question>
-<question id="scc9e-ch20-quest-004">
+<question id="scc9e-ch20-quest-004" block_type="exercise_20_4.html">
 <p id="scc9e-ch20-p090" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.4 Expected value.</phrase> The expected value of a random phenomenon that has numerical outcomes is</p>
 <list id="scc9e-ch20-list-006" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch20-li-015"><p id="scc9e-ch20-p091" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the outcome that occurs with the highest probability.</p></li>
@@ -332,7 +330,7 @@
 <li id="scc9e-ch20-li-018"><p id="scc9e-ch20-p094" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> the average of all possible outcomes, each weighted by its probability.</p></li>
 </list>
 </question>
-<question id="scc9e-ch20-quest-005">
+<question id="scc9e-ch20-quest-005" block_type="exercise_20_5.html">
 <p id="scc9e-ch20-p095" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.5 Expected value.</phrase> You flip a coin for which the probability of heads is 0.5 and the probability of tails is 0.5. If the coin comes up heads, you win &#36;1. Otherwise, you lose &#36;1. The expected value of your winnings is</p>
 <list id="scc9e-ch20-list-007" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch20-li-019"><p id="scc9e-ch20-p096" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> &#36;0.</p></li>
@@ -342,7 +340,7 @@
 </list>
 </question>
 <p id="scc9e_page_475" block_type="page_start" data-margin-content="right">475</p>
-<question id="scc9e-ch20-quest-006">
+<question id="scc9e-ch20-quest-006" block_type="exercise_20_6.html">
 <p id="scc9e-ch20-p0101" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.6 The law of large numbers.</phrase> The law of large numbers says that the mean outcome in many repetitions of a random phenomenon having numerical outcomes</p>
 <list id="scc9e-ch20-list-008" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch20-li-023"><p id="scc9e-ch20-p0102" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> gets close to the expected value as the number of repetitions increases.</p></li>
@@ -351,7 +349,7 @@
 <li id="scc9e-ch20-li-026"><p id="scc9e-ch20-p0105" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> must always be a number between 0 and 1.</p></li>
 </list>
 </question>
-<question id="scc9e-ch20-quest-007">
+<question id="scc9e-ch20-quest-007" block_type="exercise_20_7.html">
 <p id="scc9e-ch20-p0106" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.7 The law of large numbers.</phrase> I simulate a random phenomenon that has numerical outcomes many, many times. If I average together all the outcomes I observe, this average</p>
 <list id="scc9e-ch20-list-009" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch20-li-027"><p id="scc9e-ch20-p0107" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> should be close to the probability of the random phenomenon.</p></li>
@@ -363,20 +361,20 @@
 </section>
 <section id="scc9e-ch20-sec1-007" block_type="CR-X-H-v1" chapter="ch20" numbered="false" level="1" print_page="475">
 <section-metadata><section-title>CHAPTER 20 EXERCISES</section-title></section-metadata>
-<question id="scc9e-ch20-quest-008">
+<question id="scc9e-ch20-quest-008" block_type="exercise_20_8.html">
 <p id="scc9e-ch20-p0111" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.8 The numbers racket.</phrase> Pick 3 lotteries (<link href="example_20_1.html">Example 1</link>) copy the numbers racket, an illegal gambling operation common in the poorer areas of large cities. States usually justify their lotteries by donating a portion of the proceeds to education. One version of a numbers racket operation works as follows. You choose any one of the 1000 three-digit numbers 000 to 999 and pay your local numbers runner &#36;1 to enter your bet. Each day, one three-digit number is chosen at random and pays off &#36;600. What is the expected value of a bet on the numbers? Is the numbers racket more or less favorable to gamblers than the Pick 3 game in <link href="example_20_1.html">Example 1</link>?</p>
 </question>
-<question id="scc9e-ch20-quest-009">
-<p id="scc9e-ch20-p0112" block_type="CR-X-NL"><image asset-id="scc9e-ch20-img-009" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">20.9 Pick 4.</phrase> The Tri-State Daily Numbers Pick 4 is much like the Pick 3 game of <link href="example_20_1.html">Example 1</link>. Winning numbers for both are reported on television and in local newspapers. You pay &#36;0.50 and pick a four-digit number. The state chooses a four-digit number at random and pays you &#36;2500 if your number is chosen. What are the expected winnings from a &#36;0.50 Pick 4 wager?</p>
+<question id="scc9e-ch20-quest-009" block_type="exercise_20_9.html">
+<p id="scc9e-ch20-p0112" block_type="CR-X-NL"><image asset-id="scc9e-ch20-img-009" alt="image" src="asset/global_images/news.jpg"/> <phrase block_type="CR-X-NL-N-ri">20.9 Pick 4.</phrase> The Tri-State Daily Numbers Pick 4 is much like the Pick 3 game of <link href="example_20_1.html">Example 1</link>. Winning numbers for both are reported on television and in local newspapers. You pay &#36;0.50 and pick a four-digit number. The state chooses a four-digit number at random and pays you &#36;2500 if your number is chosen. What are the expected winnings from a &#36;0.50 Pick 4 wager?</p>
 </question>
-<question id="scc9e-ch20-quest-0010">
+<question id="scc9e-ch20-quest-0010" block_type="exercise_20_10.html">
 <p id="scc9e-ch20-p0113" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.10 More Pick 4.</phrase> Just as with Pick 3 (<link href="example_20_2.html">Example 2</link>), you can make more elaborate bets in Pick 4. In the &#36;1 StraightBox (24-way) bet, if you choose 1234 you win &#36;2604 if the randomly chosen winning number is 1234, and you win &#36;104 if the winning number has the digits 1, 2, 3, and 4 in any other order (there are 15 such other orders). What is the expected amount you win?</p>
 </question>
 <p id="scc9e_page_476" block_type="page_start" data-margin-content="left">476</p>
-<question id="scc9e-ch20-quest-0011">
+<question id="scc9e-ch20-quest-0011" block_type="exercise_20_11.html">
 <p id="scc9e-ch20-p0115" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.11 More roulette.</phrase> An American roulette wheel has 38 slots, of which 18 are black, 18 are red, and 2 are green. When the wheel is spun, the ball is equally likely to come to rest in any of the slots. Gamblers bet on roulette by placing chips on a table that lays out the numbers and colors of the 38 slots in the roulette wheel. The red and black slots are arranged on the table in three columns of 12 slots each. A &#36;1 column bet wins &#36;3 if the ball lands in one of the 12 slots in that column. What is the expected amount such a bet wins? If you did the Case Study Evaluated, is a column bet more or less favorable to a gambler than a bet on red or black (see <link href="scc9e-ch20-p074">Question 1</link> in the Case Study Evaluated on page 473)?</p>
 </question>
-<question id="scc9e-ch20-quest-0012">
+<question id="scc9e-ch20-quest-0012" block_type="exercise_20_12.html">
 <p id="scc9e-ch20-p0116" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.12 Making decisions.</phrase> The psychologist Amos Tversky did many studies of our perception of chance behavior. In its obituary of Tversky, the <em>New York Times</em> cited the following example.</p>
 <list id="scc9e-ch20-list-010" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch20-li-031"><p id="scc9e-ch20-p0117" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Tversky asked subjects to choose between two public health programs that affect 600 people. The first has probability 1-in-2 of saving all 600 and probability 1-in-2 that all 600 will die. The other is guaranteed to save exactly 400 of the 600 people. Find the expected number of people saved by the first program.</p></li>
@@ -384,7 +382,7 @@
 <li id="scc9e-ch20-li-033"><p id="scc9e-ch20-p0119" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Given option (a), most subjects choose the second program. Given option (b), most subjects choose the first program. Do the subjects appear to use expected values in their choice? Why do you think the choices differ in the two cases?</p></li>
 </list>
 </question>
-<question id="scc9e-ch20-quest-0013">
+<question id="scc9e-ch20-quest-0013" block_type="exercise_20_13.html">
 <p id="scc9e-ch20-p0120" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.13 Making decisions.</phrase> A six-sided die has two green and four red faces and is balanced so that each face is equally likely to come up. You must choose one of the following three sequences of colors:</p>
 <list id="scc9e-ch20-list-011" type="unordered" block_type="none">
 <li id="scc9e-ch20-li-034"><p id="scc9e-ch20-p0121" block_type="CR-UL">RGRRR</p></li>
@@ -397,7 +395,7 @@
 <li id="scc9e-ch20-li-038"><p id="scc9e-ch20-p0126" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> In a psychological experiment, 63&#37; of 260 students who had not studied probability chose the second sequence. Based on the discussion of &#8220;myths about chance behavior&#8221; in <link href="scc9e-ch17.xml">Chapter 17</link>, explain why most students did not choose the sequence with the best chance of winning.</p></li>
 </list>
 </question>
-<question id="scc9e-ch20-quest-0014">
+<question id="scc9e-ch20-quest-0014" block_type="exercise_20_14.html">
 <p id="scc9e-ch20-p0127" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.14 Estimating sales.</phrase> Gain Communications sells aircraft communications units. Next year&#8217;s sales depend on market conditions that cannot be predicted exactly. Gain follows the modern practice of using probability estimates of sales. The sales manager estimates next year&#8217;s sales as follows:</p>
 <table id="scc9e-ch20-tab-8" numbered="false" block_type="UN-TABLE" attr="90">
 <tbody>
@@ -434,17 +432,17 @@
 <p id="scc9e-ch20-p0128" block_type="CR-X-NL">These are personal probabilities that express the informed opinion of the sales manager. What is the sales manager&#8217;s expected value of next year&#8217;s sales?</p>
 </question>
 <p id="scc9e_page_477" block_type="page_start" data-margin-content="right">477</p>
-<question id="scc9e-ch20-quest-0015">
+<question id="scc9e-ch20-quest-0015" block_type="exercise_20_15.html">
 <p id="scc9e-ch20-p0130" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.15 Keno.</phrase> Keno is a popular game in casinos. Balls numbered 1 to 80 are tumbled in a machine as the bets are placed, then 20 of the balls are chosen at random. Players select numbers by marking a card. Here are two of the simpler Keno bets. Give the expected winnings for each.</p>
 <list id="scc9e-ch20-list-013" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch20-li-039"><p id="scc9e-ch20-p0131" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> A &#36;1 bet on &#8220;Mark 1 number&#8221; pays &#36;3 if the single number you mark is one of the 20 chosen; otherwise, you lose your dollar.</p></li>
 <li id="scc9e-ch20-li-040"><p id="scc9e-ch20-p0132" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> A &#36;1 bet on &#8220;Mark 2 numbers&#8221; pays &#36;12 if both your numbers are among the 20 chosen. The probability of this is about 0.06. Is Mark 2 a more or a less favorable bet than Mark 1?</p></li>
 </list>
 </question>
-<question id="scc9e-ch20-quest-0016">
+<question id="scc9e-ch20-quest-0016" block_type="exercise_20_16.html">
 <p id="scc9e-ch20-p0133" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.16 Rolling two dice.</phrase> <link href="example_20_2.html">Example 2</link> of <link href="scc9e-ch18.xml">Chapter 18</link> (page 430) gives a probability model for rolling two casino dice and recording the number of spots on each of the two up-faces. That example also shows how to find the probability that the total number of spots showing is five. Follow that method to give a probability model for the <em>total</em> number of spots. The possible outcomes are 2, 3, 4, . . . , 12. Then use the probabilities to find the expected value of the total.</p>
 </question>
-<question id="scc9e-ch20-quest-0017">
+<question id="scc9e-ch20-quest-0017" block_type="exercise_20_17.html">
 <p id="scc9e-ch20-p0134" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.17 The Asian stochastic beetle.</phrase> We met this insect in <link href="exercise_19_21.html">Exercise 19.21</link> (page 460). Females have this probability model for their number of female offspring:</p>
 <table id="scc9e-ch20-tab-10" numbered="false" block_type="UN-TABLE" attr="80">
 <tbody>
@@ -467,7 +465,7 @@
 <li id="scc9e-ch20-li-042"><p id="scc9e-ch20-p0136" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Use the law of large numbers to explain why the population should grow if the expected number of female offspring is greater than 1 and die out if this expected value is less than 1.</p></li>
 </list>
 </question>
-<question id="scc9e-ch20-quest-0018">
+<question id="scc9e-ch20-quest-0018" block_type="exercise_20_18.html">
 <p id="scc9e-ch20-p0137" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.18 An expected rip-off?</phrase> A &#8220;psychic&#8221; runs the following ad in a magazine:</p>
 <p id="scc9e-ch20-p0138" block_type="CR-X-NL-EXT"><em>Expecting a baby? Renowned psychic will tell you the sex of the unborn child from any photograph of the mother. Cost, &#36;20. Money-back guarantee.</em></p>
 <p id="scc9e-ch20-p0139" block_type="CR-X-NL-lvl2">This may be a profitable con game. Suppose that the psychic simply replies &#8220;boy&#8221; to all inquiries. In the worst case, everyone who has a girl will ask for her money back. Find the expected value of the psychic&#8217;s profit by filling in the table below.</p>
@@ -491,10 +489,10 @@
 </tbody>
 </table>
 </question>
-<question id="scc9e-ch20-quest-0019">
+<question id="scc9e-ch20-quest-0019" block_type="exercise_20_19.html">
 <p id="scc9e-ch20-p0140" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.19 The Asian stochastic beetle again.</phrase> In <link href="exercise_20_17.html">Exercise 20.17</link>, you found the expected number of female offspring of the Asian stochastic beetle. Simulate the offspring of 100 beetles and find the mean number of offspring for these 100 beetles. Compare this mean with the expected value from <link href="exercise_20_17.html">Exercise 20.17</link>. (The law of large numbers says that the mean will be very close to the expected value if we simulate enough beetles.)</p>
 </question>
-<question id="scc9e-ch20-quest-0020">
+<question id="scc9e-ch20-quest-0020" block_type="exercise_20_20.html">
 <p id="scc9e-ch20-p0141" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.20 Life insurance.</phrase> You might sell insurance to a 21-year-old friend. The probability that a man aged 21 will die in the next year is about 0.0008. You decide to charge &#36;2000 for a policy that will pay &#36;1,000,000 if your friend dies.</p>
 <list id="scc9e-ch20-list-015" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch20-li-043"><p id="scc9e-ch20-p0142" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is your expected profit on this policy?</p></li>
@@ -503,7 +501,7 @@
 </list>
 </question>
 <p id="scc9e_page_478" block_type="page_start" data-margin-content="left">478</p>
-<question id="scc9e-ch20-quest-0021">
+<question id="scc9e-ch20-quest-0021" block_type="exercise_20_21.html">
 <p id="scc9e-ch20-p0146" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.21 Household size.</phrase> The Census Bureau gives this distribution for the number of people in American households in 2011:</p>
 <table id="scc9e-ch20-tab-12" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
@@ -549,7 +547,7 @@
 <li id="scc9e-ch20-li-049"><p id="scc9e-ch20-p0151" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> Calculate the probability distribution for the household size lived in by individual people. Describe the shape of this distribution. What does this shape tell you about household structure?</p></li>
 </list>
 </question>
-<question id="scc9e-ch20-quest-0022">
+<question id="scc9e-ch20-quest-0022" block_type="exercise_20_22.html">
 <p id="scc9e-ch20-p0152" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.22 Course grades.</phrase> The distribution of grades in a large accelerated introductory statistics course is as follows:</p>
 <table id="scc9e-ch20-tab-14" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
@@ -577,28 +575,28 @@
 <li id="scc9e-ch20-li-051"><p id="scc9e-ch20-p0155" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Explain how to simulate choosing students at random and recording their grades. Simulate 50 students and find the mean of their 50 grades. Compare this estimate of the expected value with the exact expected value from part (a). (The law of large numbers says that the estimate will be very accurate if we simulate a very large number of students.)</p></li>
 </list>
 </question>
-<question id="scc9e-ch20-quest-0023">
+<question id="scc9e-ch20-quest-0023" block_type="exercise_20_23.html">
 <p id="scc9e-ch20-p0156" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.23 We really want a girl.</phrase> <link href="example_20_4.html">Example 4</link> estimates the expected number of children a couple will have if they keep going until they get a girl or until they have three children. Suppose that they set no limit on the number of children but just keep going until they get a girl. Their expected number of children must now be higher than in <link href="example_20_4.html">Example 4</link>. How would you simulate such a couple&#8217;s children? Simulate 25 repetitions. What is your estimate of the expected number of children?</p>
 </question>
 <p id="scc9e_page_479" block_type="page_start" data-margin-content="right">479</p>
-<question id="scc9e-ch20-quest-0024">
+<question id="scc9e-ch20-quest-0024" block_type="exercise_20_24.html">
 <p id="scc9e-ch20-p0158" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.24 Play this game, please.</phrase> OK, friends, we&#8217;ve got a little deal for you. We have a fair coin (heads and tails each have probability 1-in-2). Toss it twice. If two heads come up, you win right there. If you get any result other than two heads, we&#8217;ll give you another chance: toss the coin twice more, and if you get two heads, you win. (Of course, if you fail to get two heads on the second try, we win.) Pay us a dollar to play. If you win, we&#8217;ll give you your dollar back plus another dollar.</p>
 <list id="scc9e-ch20-list-018" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch20-li-052"><p id="scc9e-ch20-p0159" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Make a tree diagram for this game. Use the diagram to explain how to simulate one play of this game.</p></li>
 <li id="scc9e-ch20-li-053"><p id="scc9e-ch20-p0160" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Your dollar bet can win one of two amounts: 0 if we win and &#36;2 if you win. Simulate 50 plays, using <link href="table_a.html">Table A</link>, starting at line 125. Use your simulation to estimate the expected value of the game.</p></li>
 </list>
 </question>
-<question id="scc9e-ch20-quest-0025">
+<question id="scc9e-ch20-quest-0025" block_type="exercise_20_25.html">
 <p id="scc9e-ch20-p0161" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.25 A multiple-choice exam.</phrase> Charlene takes a quiz with 10 multiple-choice questions, each with five answer choices. If she just guesses independently at each question, she has probability 0.20 of guessing right on each. Use simulation to estimate Charlene&#8217;s expected number of correct answers. (Simulate 20 repetitions.)</p>
 </question>
-<question id="scc9e-ch20-quest-0026">
+<question id="scc9e-ch20-quest-0026" block_type="exercise_20_26.html">
 <p id="scc9e-ch20-p0162" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.26 Repeating an exam.</phrase> <link href="exercise_19_19.html">Exercise 19.19</link> (page 460) gives a model for up to three attempts at an exam in a self-paced course. In that exercise, you simulated 50 repetitions to estimate Elaine&#8217;s probability of passing the exam. Use those simulations (or do 50 new repetitions) to estimate the expected number of tries Elaine will make.</p>
 </question>
-<question id="scc9e-ch20-quest-0027">
+<question id="scc9e-ch20-quest-0027" block_type="exercise_20_27.html">
 <p id="scc9e-ch20-p0163" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.27 A common expected value.</phrase> Here is a common setting that we simulated in <link href="scc9e-ch19.xml">Chapter 19</link>: there are a fixed number of independent trials with the same two outcomes and the same probabilities on each trial. Tossing a coin, shooting basketball free throws, and observing the sex of newborn babies are all examples of this setting. Call the outcomes &#8220;hit&#8221; and &#8220;miss.&#8221; We can see what the expected number of hits should be. If Stephen Curry shoots 12 three-point shots and has probability 0.44 of making each one, the expected number of hits is 44&#37; of 12, or 5.28. By the same reasoning, if we have <em>n</em> trials with probability <em>p</em> of a hit on each trial, the expected number of hits is <em>np</em>. This fact can be proved mathematically. Can we verify it by simulation?</p>
 <p id="scc9e-ch20-p0164" block_type="CR-X-NL">Simulate 10 tosses of a fair coin 50 times. (To do this quickly, use the first 10 digits in each of the 50 rows of <link href="table_a.html">Table A</link>, with odd digits meaning a head and even digits a tail.) What is the expected number of heads by the <em>np</em> formula? What is the mean number of heads in your 50 repetitions?</p>
 </question>
-<question id="scc9e-ch20-quest-0028">
+<question id="scc9e-ch20-quest-0028" block_type="exercise_20_28.html">
 <p id="scc9e-ch20-p0165" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.28 Casino winnings.</phrase> What is a secret, at least to naive gamblers, is that in the real world, a casino does much better than expected values suggest. In fact, casinos keep a bit over 20&#37; of the money gamblers spend on roulette chips. That&#8217;s because players who win keep on playing. Think of a player who gets back exactly 95&#37; of each dollar bet. After one bet, he has 95 cents.</p>
 <list id="scc9e-ch20-list-019" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch20-li-054"><p id="scc9e-ch20-p0166" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> After two bets, how much does he have of his original dollar bet?</p></li>
@@ -608,10 +606,9 @@
 </question>
 <p id="scc9e_page_480" block_type="page_start" data-margin-content="left">480</p>
 <box id="scc9e-ch20-box-015" numbered="false" block_type="exploring-web">
-<p id="scc9e-ch20-p0169" block_type="QRL icon"><image asset-id="scc9e-ch20-img-010" alt="image" src="images/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch20-p0169" block_type="QRL icon"><image asset-id="scc9e-ch20-img-010" alt="image" src="asset/global_images/SCC 9e new qrcode 2 17 16.jpg"/></p>
 <p id="scc9e-ch20-p0170" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
 <p id="scc9e-ch20-p0171" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
 </box>
 </section>
 </chapter>
-</manuscript>

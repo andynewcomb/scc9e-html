@@ -367,6 +367,29 @@
     <Content Include="ebook\asset\ch16\17MOORESCC-MSE_9e_fig_16_01.jpg" />
     <Content Include="ebook\asset\ch16\17MOORESCC-MSE_9e_P_16_01.jpg" />
     <Content Include="ebook\asset\ch16\17MOORESCC-MSE_9e_P_16_02.jpg" />
+    <Content Include="ebook\asset\ch17\17MOORESCC-MSE_9e_CO17.jpg" />
+    <Content Include="ebook\asset\ch17\17MOORESCC-MSE_9e_fig_17_01.jpg" />
+    <Content Include="ebook\asset\ch17\17MOORESCC-MSE_9e_fig_17_02.jpg" />
+    <Content Include="ebook\asset\ch17\17MOORESCC-MSE_9e_fig_17_03.jpg" />
+    <Content Include="ebook\asset\ch17\17MOORESCC-MSE_9e_PO03.jpg" />
+    <Content Include="ebook\asset\ch17\17MOORESCC-MSE_9e_P_17_01.jpg" />
+    <Content Include="ebook\asset\ch17\17MOORESCC-MSE_9e_P_17_02.jpg" />
+    <Content Include="ebook\asset\ch18\17MOORESCC-MSE_9e_CO18.jpg" />
+    <Content Include="ebook\asset\ch18\17MOORESCC-MSE_9e_fig_18_01.jpg" />
+    <Content Include="ebook\asset\ch18\17MOORESCC-MSE_9e_fig_18_02.jpg" />
+    <Content Include="ebook\asset\ch18\17MOORESCC-MSE_9e_fig_18_03.jpg" />
+    <Content Include="ebook\asset\ch18\17MOORESCC-MSE_9e_fig_18_04.jpg" />
+    <Content Include="ebook\asset\ch18\17MOORESCC-MSE_9e_fig_18_05.jpg" />
+    <Content Include="ebook\asset\ch18\17MOORESCC-MSE_9e_fig_18_06.jpg" />
+    <Content Include="ebook\asset\ch18\17MOORESCC-MSE_9e_P_18_01.jpg" />
+    <Content Include="ebook\asset\ch18\17MOORESCC-MSE_9e_UNfig_18_01a.jpg" />
+    <Content Include="ebook\asset\ch18\17MOORESCC-MSE_9e_UNfig_18_01b.jpg" />
+    <Content Include="ebook\asset\ch18\17MOORESCC-MSE_9e_UNfig_18_01c.jpg" />
+    <Content Include="ebook\asset\ch18\17MOORESCC-MSE_9e_UNfig_18_01d.jpg" />
+    <Content Include="ebook\asset\ch19\17MOORESCC-MSE_9e_Car_19_01.jpg" />
+    <Content Include="ebook\asset\ch19\17MOORESCC-MSE_9e_CO19.jpg" />
+    <Content Include="ebook\asset\ch19\17MOORESCC-MSE_9e_fig_19_01.jpg" />
+    <Content Include="ebook\asset\ch19\17MOORESCC-MSE_9e_P_19_01.jpg" />
     <Content Include="ebook\asset\ch1\17MOORESCC-MSE_9e_Car_01_01.jpg" />
     <Content Include="ebook\asset\ch1\17MOORESCC-MSE_9e_CO01.jpg" />
     <Content Include="ebook\asset\ch1\17MOORESCC-MSE_9e_fig_01_01.jpg" />
@@ -408,6 +431,22 @@
     <Content Include="ebook\asset\ch1\supp_wins\figures\1_17MOORESCC-MSE_9e_Car_01_01.html" />
     <Content Include="ebook\asset\ch1\supp_wins\figures\1_17MOORESCC-MSE_9e_P_01_01.html" />
     <Content Include="ebook\asset\ch1\supp_wins\figures\figure_1_1.html" />
+    <Content Include="ebook\asset\ch20\17MOORESCC-MSE_9e_Car_20_01.jpg" />
+    <Content Include="ebook\asset\ch20\17MOORESCC-MSE_9e_Car_20_02.jpg" />
+    <Content Include="ebook\asset\ch20\17MOORESCC-MSE_9e_CO20.jpg" />
+    <Content Include="ebook\asset\ch20\17MOORESCC-MSE_9e_P_20_01.jpg" />
+    <Content Include="ebook\asset\ch21\17MOORESCC-MSE_9e_CO21.jpg" />
+    <Content Include="ebook\asset\ch21\17MOORESCC-MSE_9e_fig_21_01.jpg" />
+    <Content Include="ebook\asset\ch21\17MOORESCC-MSE_9e_fig_21_02.jpg" />
+    <Content Include="ebook\asset\ch21\17MOORESCC-MSE_9e_fig_21_03.jpg" />
+    <Content Include="ebook\asset\ch21\17MOORESCC-MSE_9e_fig_21_04.jpg" />
+    <Content Include="ebook\asset\ch21\17MOORESCC-MSE_9e_fig_21_05.jpg" />
+    <Content Include="ebook\asset\ch21\17MOORESCC-MSE_9e_fig_21_06.jpg" />
+    <Content Include="ebook\asset\ch21\17MOORESCC-MSE_9e_fig_21_07.jpg" />
+    <Content Include="ebook\asset\ch21\17MOORESCC-MSE_9e_fig_21_08.jpg" />
+    <Content Include="ebook\asset\ch21\17MOORESCC-MSE_9e_PO04.jpg" />
+    <Content Include="ebook\asset\ch21\17MOORESCC-MSE_9e_P_21_01.jpg" />
+    <Content Include="ebook\asset\ch21\17MOORESCC-MSE_9e_P_21_02.jpg" />
     <Content Include="ebook\asset\ch2\17MOORESCC-MSE_9e_Car_02_01.jpg" />
     <Content Include="ebook\asset\ch2\17MOORESCC-MSE_9e_CO02.jpg" />
     <Content Include="ebook\asset\ch2\17MOORESCC-MSE_9e_fig_02_01.jpg" />
@@ -1015,8 +1054,14 @@
     <Content Include="xml\math\mathjax_scc9e-ch14.xml.js" />
     <Content Include="xml\math\mathjax_scc9e-ch15.xml.js" />
     <Content Include="xml\math\mathjax_scc9e-ch16.xml.js" />
+    <Content Include="xml\math\mathjax_scc9e-ch17.xml.js" />
+    <Content Include="xml\math\mathjax_scc9e-ch18.xml.js" />
+    <Content Include="xml\math\mathjax_scc9e-ch19.xml.js" />
+    <Content Include="xml\math\mathjax_scc9e-ch20.xml.js" />
+    <Content Include="xml\math\mathjax_scc9e-ch21.xml.js" />
     <Content Include="xml\math\mathjax_scc9e-Part1Review.xml.js" />
     <Content Include="xml\math\mathjax_scc9e-Part2Review.xml.js" />
+    <Content Include="xml\math\mathjax_scc9e-Part3Review.xml.js" />
     <Content Include="xml\math\math_only_scc9e-ch03.xml" />
     <Content Include="xml\math\math_only_scc9e-ch04.xml" />
     <Content Include="xml\math\math_only_scc9e-ch05.xml" />
@@ -1030,8 +1075,14 @@
     <Content Include="xml\math\math_only_scc9e-ch14.xml" />
     <Content Include="xml\math\math_only_scc9e-ch15.xml" />
     <Content Include="xml\math\math_only_scc9e-ch16.xml" />
+    <Content Include="xml\math\math_only_scc9e-ch17.xml" />
+    <Content Include="xml\math\math_only_scc9e-ch18.xml" />
+    <Content Include="xml\math\math_only_scc9e-ch19.xml" />
+    <Content Include="xml\math\math_only_scc9e-ch20.xml" />
+    <Content Include="xml\math\math_only_scc9e-ch21.xml" />
     <Content Include="xml\math\math_only_scc9e-Part1Review.xml" />
     <Content Include="xml\math\math_only_scc9e-Part2Review.xml" />
+    <Content Include="xml\math\math_only_scc9e-Part3Review.xml" />
     <Content Include="xml\math\scc9e-ch07.xml_no_math.xml" />
     <Content Include="xml\math\scc9e-ch08.xml_no_math.xml" />
     <Content Include="xml\math\scc9e-ch09.xml_no_math.xml" />
@@ -1042,8 +1093,14 @@
     <Content Include="xml\math\scc9e-ch14.xml_no_math.xml" />
     <Content Include="xml\math\scc9e-ch15.xml_no_math.xml" />
     <Content Include="xml\math\scc9e-ch16.xml_no_math.xml" />
+    <Content Include="xml\math\scc9e-ch17.xml_no_math.xml" />
+    <Content Include="xml\math\scc9e-ch18.xml_no_math.xml" />
+    <Content Include="xml\math\scc9e-ch19.xml_no_math.xml" />
+    <Content Include="xml\math\scc9e-ch20.xml_no_math.xml" />
+    <Content Include="xml\math\scc9e-ch21.xml_no_math.xml" />
     <Content Include="xml\math\scc9e-Part1Review.xml_no_math.xml" />
     <Content Include="xml\math\scc9e-Part2Review.xml_no_math.xml" />
+    <Content Include="xml\math\scc9e-Part3Review.xml_no_math.xml" />
     <Content Include="xml\scc9e-ch01.xml" />
     <Content Include="xml\scc9e-ch02.xml">
       <SubType>Designer</SubType>
@@ -1136,6 +1193,12 @@
     <Content Include="docs\marked_up\16_MooreSCC9e_92937_Ch16_367-388_2nd_Pass_CX2.pdf" />
     <Content Include="docs\marked_up\01_MooreSCC9e_92937_Ch01_01-20_3rd_Pass_CX3.pdf" />
     <Content Include="docs\marked_up\02_MooreSCC9e_92937_Ch02_21-38_3rd_Pass_CX3.pdf" />
+    <Content Include="docs\17_MooreSCC9e_92937_Ch17_403-426_2nd_Pass.pdf" />
+    <Content Include="docs\18_MooreSCC9e_92937_Ch18_413-444_2nd_Pass.pdf" />
+    <Content Include="docs\19_MooreSCC9e_92937_Ch19_445-464_2nd_Pass.pdf" />
+    <Content Include="docs\20A_MooreSCC9e_92937_Part3_481-490_2nd_Pass.pdf" />
+    <Content Include="docs\20_MooreSCC9e_92937_Ch20_465-480_2nd_Pass.pdf" />
+    <Content Include="docs\21_MooreSCC9e_92937_Ch21_491-520_2nd_Pass.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1161,6 +1224,7 @@
     <Folder Include="ebook\asset\ch5\supp_wins\tables\" />
     <Folder Include="ebook\asset\ch6\supp_wins\exercises\" />
     <Folder Include="ebook\asset\ch6\supp_wins\tables\" />
+    <Folder Include="ebook\asset\part3\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,626 @@
+<chapter id="scc9e-ch21" number="21" title="Chapter 21: What Is a Confidence Interval?" start-numbering-at="21" numbered="true">
+<section id="scc9e-ch21-sec-001" block_type="part_intro" chapter="PART 4" numbered="false" level="1" print_page="491">
+<section-metadata><section-title>Part IV</section-title></section-metadata>
+<figure id="scc9e-ch21-unfig-001" block_type="part_opener" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch21-img-001" alt="image" src="asset/ch21/17MOORESCC-MSE_9e_PO04.jpg"/>
+<asset_source><phrase block_type="PO-PH-CL">&#169; Westend61 GmbH/Alamy</phrase></asset_source>
+</figure>
+<p id="scc9e_page_491" block_type="page_start" data-margin-content="right">491</p>
+<p id="scc9e-ch21-p03"><phrase block_type="PT">Inference</phrase></p>
+<p id="scc9e-ch21-p04" block_type="PO-TXTF"><phrase block_type="drop">T</phrase>o <em>infer</em> is to draw a conclusion from evidence. <em>Statistical inference</em> draws a conclusion about a population from evidence provided by a sample. Drawing conclusions in mathematics is a matter of starting from a hypothesis and using logical argument to prove without doubt that the conclusion follows. Statistics isn&#8217;t like that. Statistical conclusions are uncertain because the sample isn&#8217;t the entire population. So statistical inference has to not only state conclusions but also say how uncertain they are. We use the language of probability to express uncertainty.</p>
+<p id="scc9e-ch21-p05" block_type="PO-TXT">Because inference must both give conclusions and say how uncertain they are, it is the most technical part of statistics. Texts and courses intended to train people to do statistics spend most of their time on inference. Our aim in this book is to help you <em>understand</em> statistics, which takes less technique but, often, more thought. We will look only at a few basic techniques of inference. The techniques are simple, but the ideas are subtle, so prepare to think. To start, think about what you already know and don&#8217;t be too impressed by elaborate statistical techniques: even the fanciest inference cannot remedy basic flaws such as voluntary response samples or uncontrolled experiments.</p>
+</section>
+<section id="scc9e-ch21-sec-002" block_type="chapter" title="What Is a Confidence Interval?" numbered="false" level="1" print_page="493">
+<p id="scc9e-ch21-p06" block_type="CN">21</p>
+<p id="scc9e-ch21-p07" block_type="CT">What Is a Confidence Interval?</p>
+<p id="scc9e_page_493" block_type="page_start" data-margin-content="right">493</p>
+<figure id="scc9e-ch21-unfig-002" block_type="CO-PH-CL" numbered="false" mmtype="image" mmsrc="" attr="">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch21-img-002" alt="image" src="asset/ch21/17MOORESCC-MSE_9e_CO21.jpg"/>
+<asset_source><phrase block_type="PH-CL">Tim Robbins/Mint Images/Getty Images</phrase></asset_source>
+</figure>
+<box id="scc9e-ch21-box-001" numbered="false" block_type="BX4-H-ri">
+<p id="scc9e-ch21-p09" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri">CASE STUDY</phrase> According to the Centers for Disease Control and Prevention (CDC), adults who engage in less than 30 minutes of moderate physical exercise per day should consume 1.5 to 2.0 cups of fruits per day and 2 to 3 cups of vegetables per day. Are adults meeting these recommendations? Not exactly, according to recent fruit and vegetable intake information obtained from the 2013 Behavioral Risk Factor Surveillance System (BRFSS).</p>
+<p id="scc9e-ch21-p010" block_type="BX4-TXT-I">The BRFSS is an ongoing, state-based, random-digit-dialed telephone survey of adults who are at least 18 years of age. It is the world&#8217;s largest ongoing telephone health survey system, tracking health conditions and risk behaviors in the United States since 1984. Data are gathered monthly from all 50 states, the District of Columbia (DC), Puerto Rico, the U.S. Virgin Islands, and Guam. In terms of gathering information about fruit and vegetable intake, survey respondents were asked to think about the previous month and to indicate how many times per day, week, or month they consumed whole fruit, 100&#37; fruit juice, dried beans, dark green vegetables, orange vegetables, and other vegetables. Although close to 500,000 individuals were originally contacted to be a part of the survey in 2013, 118,193 respondents were excluded from analysis because they either resided in other countries, had missing responses to one or more questions, or had implausible reports of fruit and vegetable consumption (e.g., eating fruit more than 16 times per day or eating vegetables more than 23 times per day). The results reported in the 2013 BRFSS are based on the final sample of 373,580 adults.</p>
+<p id="scc9e-ch21-p011" block_type="BX4-TXT-I">Across the states, results varied. The state with the largest number of survey respondents reporting meeting the daily fruit and vegetable intake recommendations was California. Of the 9,011 California residents who were surveyed, 17.7&#37; met the daily fruit intake recommendations, and 13&#37; met the daily vegetable intake recommendations. We know these numbers won&#8217;t be exactly right for the entire population of adults in California, but are they close?</p>
+<p id="scc9e_page_494" block_type="page_start" data-margin-content="left">494</p>
+<p id="scc9e-ch21-p013" block_type="BX4-TXT-I">In this chapter, we study confidence intervals. These are intervals that help us see how accurate numbers like 17.7&#37; and 13&#37; are. By the end of this chapter, you will be able to construct such intervals for proportions and means, and you will be able to interpret what such intervals represent.</p>
+</box>
+</section>
+<section id="scc9e-ch21-sec1-001" block_type="h1" chapter="ch21" numbered="false" level="1" print_page="494">
+<section-metadata><section-title>Estimating</section-title></section-metadata>
+<p id="scc9e-ch21-p014" block_type="TXT-ni"><strong>Statistical inference</strong> draws conclusions about a population on the basis of data about a sample. One kind of conclusion answers questions like, &#8220;What percentage of employed women have a college degree?&#8217;&#8217; or &#8220;What is the mean survival time for patients with this type of cancer?&#8217;&#8217; These questions ask about a number (a percentage, a mean) that describes a population. Numbers that describe a population are <strong>parameters</strong>. To estimate a population parameter, choose a sample from the population and use a <strong>statistic</strong>, a number calculated from the sample, as your estimate. Here&#8217;s an example.</p>
+<box id="scc9e-ch21-box-002" numbered="false" block_type="EXP" data-filename="example_21_1.html">
+<p id="scc9e-ch21-p015" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 1</phrase> Soda consumption</p>
+<p id="scc9e-ch21-p016" block_type="EXP-first">In July 2015, Gallup conducted telephone interviews with a random sample of 1009 adults. The adults were at least 18 years of age and resided either in one of the 50 U.S. states or in the District of Columbia (DC). Survey respondents were asked to consider several different foods and beverages and to indicate if these were things they actively tried to include in their diet, actively tried to avoid in their diet, or didn&#8217;t think about at all. Of the 1009 adults surveyed, 616 indicated that they actively tried to avoid drinking regular soda or pop. Based on this information, what can we say about the percentage of all Americans 18 years or age or older who actively try to avoid drinking regular soda or pop?</p>
+<p id="scc9e-ch21-p017" block_type="EXP-mid">Our population is adults at least 18 years of age or older who reside in the United States or District of Columbia. The parameter is the proportion who actively tried to avoid drinking regular soda or pop in 2015. Call this unknown parameter <em>p</em>, for &#8220;proportion.&#8217;&#8217; The statistic that estimates the parameter <em>p</em> is the <strong>sample proportion</strong></p>
+<p id="scc9e-ch21-p018" block_type="EXP-EQ"><phrase data-math="math_1"></phrase></p>
+</box>
+<p id="scc9e_page_495" block_type="page_start" data-margin-content="right">495</p>
+<p id="scc9e-ch21-p021" block_type="TXT">A basic move in statistical inference is to use a sample statistic to estimate a population parameter. Once we have the sample in hand, we estimate that the proportion of all adult Americans who actively tried to avoid drinking regular soda or pop in 2015 is &#8220;about 61.1&#37;&#8217;&#8217; because the proportion in the sample was exactly 61.1&#37;. We can only estimate that the truth about the population is &#8220;about&#8217;&#8217; 61.1&#37; because we know that the sample result is unlikely to be exactly the same as the true population proportion. A confidence interval makes that &#8220;about&#8217;&#8217; precise.</p>
+<box id="scc9e-ch21-box-003" numbered="false" block_type="BX1">
+<p id="scc9e-ch21-p022" block_type="BX1-T">95&#37; confidence interval</p>
+<p id="scc9e-ch21-p023" block_type="BX1-TXT-ni">A <strong>95&#37; confidence interval</strong> is an interval calculated from sample data by a process that is guaranteed to capture the true population parameter in 95&#37; of all samples.</p>
+</box>
+<p id="scc9e-ch21-p024" block_type="TXT">We will first march straight through to the interval for a population proportion, and then we will reflect on what we have done and generalize a bit.</p>
+</section>
+<section id="scc9e-ch21-sec1-002" block_type="h1" chapter="ch21" numbered="false" level="1" print_page="495">
+<section-metadata><section-title>Estimating with confidence</section-title></section-metadata>
+<p id="scc9e-ch21-p025" block_type="TXT-ni">We want to estimate the proportion <em>p</em> of the individuals in a population who have some characteristic&#8212;they are employed, or they approve the president&#8217;s performance, for example. Let&#8217;s call the characteristic we are looking for a &#8220;success.&#8217;&#8217; We use the proportion <phrase data-math="math_2"></phrase> of successes in a simple random sample (SRS) to estimate the proportion <em>p</em> of successes in the population. How good is the statistic <phrase data-math="math_3"></phrase> as an estimate of the parameter <em>p</em>? To find out, we ask, &#8220;What would happen if we took many samples?&#8217;&#8217; Well, we know that <phrase data-math="math_4"></phrase> would vary from sample to sample. We also know that this sampling variability isn&#8217;t haphazard. It has a clear pattern in the long run, a pattern that is pretty well described by a Normal curve. Here are the facts.</p>
+<box id="scc9e-ch21-box-004" numbered="false" block_type="BX1">
+<p id="scc9e-ch21-p026" block_type="BX1-T">Sampling distribution of a sample proportion</p>
+<p id="scc9e-ch21-p027" block_type="BX1-TXT-ni">The <strong>sampling distribution</strong> of a statistic is the distribution of values taken by the statistic in all possible samples of the same size from the same population.</p>
+<p id="scc9e-ch21-p028" block_type="BX1-TXT-i">Take an SRS of size <em>n</em> from a large population that contains proportion <em>p</em> of successes. Let <phrase data-math="math_5"></phrase> be the <strong>sample proportion</strong> of successes,</p>
+<p id="scc9e-ch21-p029" block_type="EQ"><phrase data-math="math_6"></phrase></p>
+<p id="scc9e_page_496" block_type="page_start" data-margin-content="left">496</p>
+<figure id="scc9e-ch21-fig-001" block_type="FIGURE" data-caption-compass="S" numbered="true" number="21.1" mmtype="image" mmsrc="" attr="" data-filename="figure_21_1.html">
+<layout align="center" width="large" border="false"/>
+<image asset-id="scc9e-ch21-img-003" alt="image" src="asset/ch21/17MOORESCC-MSE_9e_fig_21_01.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 21.1</phrase> <phrase block_type="FG-CAP">Repeat many times the process of selecting an SRS of size <em>n</em> from a population in which the proportion <em>p</em> are successes. The values of the sample proportion of successes <phrase data-math="math_7"></phrase> have this Normal sampling distribution.</phrase></caption>
+</figure>
+<p id="scc9e-ch21-p031" block_type="BX1-TXT-i">Then, if the sample size is large enough:</p>
+<list id="scc9e-ch21-list-001" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch21-li-001"><p id="scc9e-ch21-p032" block_type="BX1-BL-first"><phrase block_type="maker">&#8226;</phrase> The sampling distribution of <phrase data-math="math_8"></phrase> is <strong>approximately Normal</strong>.</p></li>
+<li id="scc9e-ch21-li-002"><p id="scc9e-ch21-p033" block_type="BX1-BL-first"><phrase block_type="maker">&#8226;</phrase> The <strong>mean</strong> of the sampling distribution is <em>p</em>.</p></li>
+<li id="scc9e-ch21-li-003"><p id="scc9e-ch21-p034" block_type="BX1-BL-last"><phrase block_type="maker">&#8226;</phrase> The <strong>standard deviation</strong> of the sampling distribution is</p></li>
+</list>
+<p id="scc9e-ch21-p035" block_type="EQ"><phrase data-math="math_9"></phrase></p>
+</box>
+<p id="scc9e-ch21-p036" block_type="TXT">These facts can be proved by mathematics, so they are a solid starting point. <link href="figure_21_1.html">Figure 21.1</link> summarizes them in a form that also reminds us that a sampling distribution describes the results of lots of samples from the same population.</p>
+<box id="scc9e-ch21-box-005" numbered="false" block_type="BX1">
+<p id="scc9e-ch21-p037" block_type="BX1-T">Standard error</p>
+<p id="scc9e-ch21-p038" block_type="BX1-TXT-ni">The standard deviation of the sampling distribution of a sample statistic is commonly referred to as the <strong>standard error</strong>.</p>
+</box>
+<box id="scc9e-ch21-box-006" numbered="false" block_type="EXP" data-filename="example_21_2.html">
+<p id="scc9e-ch21-p039" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> More on soda consumption</p>
+<p id="scc9e-ch21-p040" block_type="EXP-first">Suppose, for example, that the truth is that 62&#37; of Americans actively tried to avoid drinking regular soda or pop in 2015. Then, in the setting of <link href="example_21_1.html">Example 1</link>, <em>p</em> = 0.62. The Gallup sample of size <em>n</em> = 1009 would, if repeated many times, produce sample proportions <phrase data-math="math_10"></phrase> that closely follow the Normal distribution with</p>
+<p id="scc9e-ch21-p041" block_type="EXP-EQ">mean = <em>p</em> = 0.62</p>
+<p id="scc9e_page_497" block_type="page_start" data-margin-content="right">497</p>
+<p id="scc9e-ch21-p043" block_type="EXP-first">and</p>
+<p id="scc9e-ch21-p044" block_type="EXP-EQ"><phrase data-math="math_11"></phrase></p>
+<figure id="scc9e-ch21-unfig-003" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="21_17MOORESCC-MSE_9e_P_21_01.html">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch21-img-004" alt="image" src="asset/ch21/17MOORESCC-MSE_9e_P_21_01.jpg"/>
+<asset_source><phrase block_type="PH-CL">Eric Raptosh Photography/Getty Images</phrase></asset_source>
+</figure>
+<p id="scc9e-ch21-p047" block_type="EXP-mid">The center of this Normal distribution is at the truth about the population. That&#8217;s the absence of bias in random sampling once again. The standard error is small because the sample is quite large. So, almost all samples will produce a statistic <phrase data-math="math_12"></phrase> that is close to the true <em>p</em>. In fact, the 95 part of the 68&#8211;95&#8211;99.7 rule says that 95&#37; of all sample outcomes will fall between</p>
+<p id="scc9e-ch21-p048" block_type="EQ">mean &#8722; 2 standard errors = 0.62 &#8722; 0.0306 = 0.5894</p>
+<p id="scc9e-ch21-p049" block_type="EXP-ni">and</p>
+<p id="scc9e-ch21-p050" block_type="EXP-EQ">mean + 2 standard errors = 0.62 + 0.0306 = 0.6506</p>
+<p id="scc9e-ch21-p051" block_type="Box"><link href="figure_21_2.html">Figure 21.2</link> displays these facts.</p>
+</box>
+<figure id="scc9e-ch21-fig-002" block_type="FIGURE" data-caption-compass="S" numbered="true" number="21.2" mmtype="image" mmsrc="" attr="" data-filename="figure_21_2.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch21-img-005" alt="image" src="asset/ch21/17MOORESCC-MSE_9e_fig_21_02.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 21.2</phrase> <phrase block_type="FG-CAP">Repeat many times the process of selecting an SRS of size 1009 from a population in which the proportion <em>p</em> = 0.62 are successes. The middle 95&#37; of the values of the sample proportion <phrase data-math="math_13"></phrase> will lie between 0.5894 and 0.6506.</phrase></caption>
+</figure>
+<p id="scc9e_page_498" block_type="page_start" data-margin-content="left">498</p>
+<p id="scc9e-ch21-p053" block_type="TXT">So far, we have just put numbers on what we already knew: we can trust the results of large random samples because almost all such samples give results that are close to the truth about the population. The numbers say that in 95&#37; of all samples of size 1009, the statistic <phrase data-math="math_14"></phrase> and the parameter <em>p</em> are within 0.0306 of each other. We can put this another way: 95&#37; of all samples give an outcome <phrase data-math="math_15"></phrase> such that the population truth <em>p</em> is captured by the interval from <phrase data-math="math_16"></phrase> to <phrase data-math="math_17"></phrase>.</p>
+<p id="scc9e-ch21-p054" block_type="TXT">The 0.03 came from substituting <em>p</em> = 0.62 into the formula for the standard error of <phrase data-math="math_18"></phrase>. For any value of <em>p</em>, the general fact is:</p>
+<p id="scc9e-ch21-p055" block_type="EXT-TXT"><em>When the population proportion has the value p, 95&#37; of all samples catch p in the interval extending 2 standard errors on either side of <phrase data-math="math_19"></phrase>.</em></p>
+<p id="scc9e-ch21-p056" block_type="TXT-ni">That&#8217;s the interval</p>
+<p id="scc9e-ch21-p057" block_type="EQ"><phrase data-math="math_20"></phrase></p>
+<p id="scc9e-ch21-p058" block_type="TXT-ni">Is this the 95&#37; confidence interval we want? Not quite. The interval can&#8217;t be found just from the data because the standard deviation involves the population proportion <em>p</em>, and in practice, we don&#8217;t know <em>p</em>. In <link href="example_21_2.html">Example 2</link>, we used <em>p</em> = 0.62 in the formula, but this may not be the true <em>p</em>.</p>
+<p id="scc9e-ch21-p059" block_type="TXT">What can we do? Well, the standard deviation of the statistic <phrase data-math="math_21"></phrase>, or the standard error, does depend on the parameter <em>p</em>, but it doesn&#8217;t change a lot when <em>p</em> changes. Go back to <link href="example_21_2.html">Example 2</link> and redo the calculation for other values of <em>p</em>. Here&#8217;s the result:</p>
+<table id="scc9e-ch21-untab-1" numbered="false" block_type="UN-TABLE" attr="80">
+<tbody>
+<tr class="tborder">
+<td align="center" block_type="TB1-TXT">Value of <em>p</em>:</td>
+<td align="center" block_type="TB1-TXT">0.60</td>
+<td align="center" block_type="TB1-TXT">0.61</td>
+<td align="center" block_type="TB1-TXT">0.62</td>
+<td align="center" block_type="TB1-TXT">0.63</td>
+<td align="center" block_type="TB1-TXT">0.64</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TB1-TXT">Standard error:</td>
+<td align="center" block_type="TB1-TXT">0.01542</td>
+<td align="center" block_type="TB1-TXT">0.01535</td>
+<td align="center" block_type="TB1-TXT">0.01528</td>
+<td align="center" block_type="TB1-TXT">0.01520</td>
+<td align="center" block_type="TB1-TXT">0.01511</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch21-p060" block_type="TXT-ni">We see that, if we guess a value of <em>p</em> reasonably close to the true value, the standard error found from the guessed value will be about right. We know that, when we take a large random sample, the statistic <phrase data-math="math_22"></phrase> is almost always close to the parameter <em>p</em>. So, we will use <phrase data-math="math_23"></phrase> as the guessed value of the unknown <em>p</em>. Now we have an interval that we can calculate from the sample data.</p>
+<box id="scc9e-ch21-box-007" numbered="false" block_type="BX1">
+<p id="scc9e-ch21-p061" block_type="BX1-T">95&#37; confidence interval for a proportion</p>
+<p id="scc9e-ch21-p062" block_type="BX1-TXT-ni">Choose an SRS of size <em>n</em> from a large population that contains an unknown proportion <em>p</em> of successes. Call the proportion of successes in this sample <phrase data-math="math_24"></phrase>. An <strong>approximate 95&#37; confidence interval</strong> for the parameter <em>p</em> is</p>
+<p id="scc9e-ch21-p063" block_type="EQ"><phrase data-math="math_25"></phrase></p>
+</box>
+<p id="scc9e_page_499" block_type="page_start" data-margin-content="right">499</p>
+<box id="scc9e-ch21-box-008" numbered="false" block_type="EXP" data-filename="example_21_3.html">
+<p id="scc9e-ch21-p065" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> A confidence interval for soda consumption</p>
+<p id="scc9e-ch21-p066" block_type="EXP-first">The Gallup random sample of 1009 adult Americans found that 616 reported actively trying to avoid drinking regular soda or pop in 2015, a sample proportion <phrase data-math="math_26"></phrase>. The 95&#37; confidence interval for the proportion of all Americans who actively tried to avoid drinking regular soda or pop in 2015 is</p>
+<p id="scc9e-ch21-p067" block_type="EXP-EQ"><phrase data-math="math_27"></phrase></p>
+<p id="scc9e-ch21-p068" block_type="EXP-EQ">= 0.611 &#177; (2)(0.01535)</p>
+<p id="scc9e-ch21-p069" block_type="EXP-EQ">= 0.611 &#177; 0.0307</p>
+<p id="scc9e-ch21-p070" block_type="EXP-EQ">= 0.5803 to 0.6417</p>
+<p id="scc9e-ch21-p071" block_type="EXP-ni">Interpret this result as follows: we got this interval by using a recipe that catches the true unknown population proportion in 95&#37; of all samples. The shorthand is: we are <strong>95&#37; confident</strong> that the true proportion of all Americans who actively tried to avoid drinking regular soda or pop in 2015 lies between 58.03&#37; and 64.17&#37;.</p>
+</box>
+<box id="scc9e-ch21-box-009" numbered="false" block_type="margin-statistics">
+<p id="scc9e-ch21-p072" block_type="MN-TXT"><image asset-id="scc9e-ch21-img-006" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">Who is a smoker?</phrase> When estimating a proportion <em>p</em>, be sure you know what counts as a &#8220;success.&#8217;&#8217; The news says that 20&#37; of adolescents smoke. Shocking. It turns out that this is the percentage who smoked at least once in the past month. If we say that a smoker is someone who smoked in at least 20 of the past 30 days and smoked at least half a pack on those days, fewer than 4&#37; of adolescents qualify.</p>
+</box>
+<box id="scc9e-ch21-box-010" numbered="false" block_type="BX2">
+<p id="scc9e-ch21-p073" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch21-quest-001" block_type="exercise_21_1.html">
+<p id="scc9e-ch21-p074" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">21.1 Gambling.</phrase> A May 2011 Gallup Poll consisting of a random sample of 1018 adult Americans found that 31&#37; believe gambling is morally wrong. Find a 95&#37; confidence interval for the proportion of all adult Americans who believe gambling is morally wrong. How would you interpret this interval?</p>
+</question>
+</box>
+</section>
+<section id="scc9e-ch21-sec1-003" block_type="h1" chapter="ch21" numbered="false" level="1" print_page="499">
+<section-metadata><section-title>Understanding confidence intervals</section-title></section-metadata>
+<p id="scc9e-ch21-p075" block_type="TXT-ni">Our 95&#37; confidence interval for a population proportion has the familiar form</p>
+<p id="scc9e-ch21-p076" block_type="EQ">estimate &#177; margin of error</p>
+<p id="scc9e-ch21-p077" block_type="TXT-ni">News reports of sample surveys, for example, usually give the estimate and the margin of error separately: &#8220;A new Gallup Poll shows that 65&#37; of women favor new laws restricting guns. The margin of error is plus or minus four percentage points.&#8217;&#8217; News reports usually leave out the level of confidence, although it is almost always 95&#37;.</p>
+<p id="scc9e-ch21-p078" block_type="TXT">The next time you hear a report about the result of a sample survey, consider the following. If most confidence intervals reported in the media have a 95&#37; level of confidence, then in about 1 in 20 poll results that you hear about, the confidence interval does <em>not</em> contain the true proportion.</p>
+<p id="scc9e_page_500" block_type="page_start" data-margin-content="left">500</p>
+<p id="scc9e-ch21-p080" block_type="TXT">Here&#8217;s a complete description of a confidence interval.</p>
+<box id="scc9e-ch21-box-011" numbered="false" block_type="BX1">
+<p id="scc9e-ch21-p081" block_type="BX1-T">Confidence interval</p>
+<p id="scc9e-ch21-p082" block_type="BX1-TXT-ni">A <strong>level <em>C</em> confidence interval</strong> for a parameter has two parts:</p>
+<list id="scc9e-ch21-list-002" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch21-li-004"><p id="scc9e-ch21-p083" block_type="BX1-BL-first"><phrase block_type="maker">&#8226;</phrase> An <strong>interval</strong> calculated from the data.</p></li>
+<li id="scc9e-ch21-li-005"><p id="scc9e-ch21-p084" block_type="BX1-BL-last"><phrase block_type="maker">&#8226;</phrase> A <strong>confidence level <em>C</em></strong>, which gives the probability that the interval will capture the true parameter value in repeated samples.</p></li>
+</list>
+</box>
+<p id="scc9e-ch21-p085" block_type="TXT">There are many recipes for statistical confidence intervals for use in many situations. Not all confidence intervals are expressed in the form &#8220;estimate &#177; margin of error.&#8217;&#8217; Be sure you understand how to interpret a confidence interval. The interpretation is the same for any recipe, and you can&#8217;t use a calculator or a computer to do the interpretation for you.</p>
+<p id="scc9e-ch21-p086" block_type="TXT">Confidence intervals use the central idea of probability: ask what would happen if we were to repeat the sampling many times. The 95&#37; in a 95&#37; confidence interval is a probability, the probability that the method produces an interval that does capture the true parameter.</p>
+<box id="scc9e-ch21-box-012" numbered="false" block_type="EXP" data-filename="example_21_4.html">
+<p id="scc9e-ch21-p087" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> How confidence intervals behave</p>
+<p id="scc9e-ch21-p088" block_type="EXP-first">The Gallup sample of 1009 adult Americans in 2015 found that 616 reported actively trying to avoid drinking regular soda or pop, so the sample proportion was</p>
+<p id="scc9e-ch21-p089" block_type="EXP-EQ"><phrase data-math="math_28"></phrase></p>
+<p id="scc9e-ch21-p090" block_type="EXP-ni">and the 95&#37; confidence interval was</p>
+<p id="scc9e-ch21-p091" block_type="EXP-EQ"><phrase data-math="math_29"></phrase></p>
+<p id="scc9e-ch21-p092" block_type="EXP-mid">Draw a second sample from the same population. It finds that 700 of its 1009 respondents reported actively trying to avoid drinking regular soda or pop. For this sample,</p>
+<p id="scc9e-ch21-p093" block_type="EXP-EQ"><phrase data-math="math_30"></phrase></p>
+<p id="scc9e_page_501" block_type="page_start" data-margin-content="right">501</p>
+<figure id="scc9e-ch21-fig-003" block_type="FIGURE" data-caption-compass="S" numbered="true" number="21.3" mmtype="image" mmsrc="" attr="" data-filename="figure_21_3.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch21-img-007" alt="image" src="asset/ch21/17MOORESCC-MSE_9e_fig_21_03.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 21.3</phrase> <phrase block_type="FG-CAP">Repeated samples from the same population give different 95&#37; confidence intervals, but 95&#37; of these intervals capture the true population proportion <em>p</em>.</phrase></caption>
+</figure>
+<p id="scc9e-ch21-p096" block_type="EXP-mid">Draw another sample. Now the count is 598 and the sample proportion and confidence interval are</p>
+<p id="scc9e-ch21-p097" block_type="EXP-EQ"><phrase data-math="math_31"></phrase></p>
+<p id="scc9e-ch21-p099" block_type="EXP-mid">Keep sampling. Each sample yields a new estimate <phrase data-math="math_32"></phrase> and a new confidence interval. <em>If we sample forever, 95&#37; of these intervals capture the true parameter</em>. This is true no matter what the true value is. <link href="figure_21_3.html">Figure 21.3</link> summarizes the behavior of the confidence interval in graphical form.</p>
+</box>
+<p id="scc9e-ch21-p0100" block_type="TXT"><link href="example_21_4.html">Example 4</link> and <link href="figure_21_3.html">Figure 21.3</link> remind us that repeated samples give different results and that we are guaranteed only that 95&#37; of the samples give a correct result. On the assumption that two pictures are better than one, <link href="figure_21_4.html">Figure 21.4</link> gives a different view of how confidence intervals behave. <link href="figure_21_4.html">Figure 21.4</link> goes behind the scenes. The vertical line is the true value of the population proportion <em>p</em>. The Normal curve at the top of the figure is the sampling distribution of the sample statistic <phrase data-math="math_33"></phrase>, which is centered at the true <em>p</em>. We are behind the scenes because, in real-world statistics, we usually don&#8217;t know <em>p</em>.</p>
+<p id="scc9e-ch21-p0101" block_type="TXT">The 95&#37; confidence intervals from 25 SRSs appear below the graph in <link href="figure_21_4.html">Figure 21.4</link>, one after the other. The central dots are the values of <phrase data-math="math_34"></phrase>, the centers of the intervals. The arrows on either side span the confidence interval. In the long run, 95&#37; of the intervals will cover the true <em>p</em> and 5&#37; will miss. Of the 25 intervals in <link href="figure_21_4.html">Figure 21.4</link>, there are 24 hits and 1 miss. (Remember that probability describes only what happens in the long run&#8212;we don&#8217;t expect exactly 95&#37; of 25 intervals to capture the true parameter.)</p>
+<p id="scc9e_page_502" block_type="page_start" data-margin-content="left">502</p>
+<figure id="scc9e-ch21-fig-004" block_type="FIGURE" data-caption-compass="S" numbered="true" number="21.4" mmtype="image" mmsrc="" attr="" data-filename="figure_21_4.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch21-img-008" alt="image" src="asset/ch21/17MOORESCC-MSE_9e_fig_21_04.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 21.4</phrase> <phrase block_type="FG-CAP">Twenty-five samples from the same population give these 95&#37; confidence intervals. In the long run, 95&#37; of all such intervals cover the true population proportion, marked by the vertical line.</phrase></caption>
+</figure>
+<p id="scc9e-ch21-p0103" block_type="TXT">Don&#8217;t forget that our interval is only <em>approximately</em> a 95&#37; confidence interval. It isn&#8217;t exact for two reasons. The sampling distribution of the sample proportion <phrase data-math="math_35"></phrase> isn&#8217;t exactly Normal. And we don&#8217;t get the standard deviation, or the standard error, of <phrase data-math="math_36"></phrase> exactly right because we used <phrase data-math="math_37"></phrase> in place of the unknown <em>p</em>. We use a new estimate of the standard deviation of the sampling distribution every time, even though the true standard deviation never changes. Both of these difficulties go away as the sample size <em>n</em> gets larger. So, our recipe is good only for large samples. What is more, the recipe assumes that the population is really big&#8212;at least 10 times the size of the sample. Professional statisticians use more elaborate methods that take the size of the population into account and work even for small samples. But our method works well enough for many practical uses. More important, it shows how we get a confidence interval from the sampling distribution of a statistic. That&#8217;s the reasoning behind any confidence interval.</p>
+</section>
+<section id="scc9e-ch21-sec1-004" block_type="h1" chapter="ch21" numbered="false" level="1" print_page="502">
+<section-metadata><section-title>More on confidence intervals for a population proportion<termref term="fn_ch21_fn01"><sup>*</sup></termref></section-title></section-metadata>
+<p id="scc9e-ch21-p0104" block_type="TXT-ni">We used the 95 part of the 68&#8211;95&#8211;99.7 rule to get a 95&#37; confidence interval for the population proportion. Perhaps you think that a method that works 95&#37; of the time isn&#8217;t good enough. You want to be 99&#37; confident. For that, we need to mark off the central 99&#37; of a Normal distribution. For any probability <em>C</em> between 0 and 1, there is a number <em>z</em>* such that any Normal distribution has probability <em>C</em> within <em>z</em>* standard deviations of the mean. <link href="figure_21_5.html">Figure 21.5</link> shows how the probability <em>C</em> and the number <em>z</em>* are related.</p>
+<box id="scc9e-ch21-FN-001" block_type="FN" data-chapter="21" data-footnote-number="*"><p id="scc9e-ch21-p0105" block_type="FN">This section is optional.</p></box>
+<p id="scc9e_page_503" block_type="page_start" data-margin-content="right">503</p>
+<figure id="scc9e-ch21-fig-005" block_type="FIGURE" data-caption-compass="S" numbered="true" number="21.5" mmtype="image" mmsrc="" attr="" data-filename="figure_21_5.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch21-img-009" alt="image" src="asset/ch21/17MOORESCC-MSE_9e_fig_21_05.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 21.5</phrase> <phrase block_type="FG-CAP">Critical values <em>z</em>* of the Normal distributions. In any Normal distribution, there is area (probability) <em>C</em> under the curve between &#8211;<em>z</em>* and <em>z</em>* standard deviations away from the mean.</phrase></caption>
+</figure>
+<p id="scc9e-ch21-p0107" block_type="TXT"><link href="table_21_1.html">Table 21.1</link> gives the numbers <em>z</em>* for various choices of <em>C</em>. For convenience, the table gives <em>C</em> as a confidence level in percent. The numbers <em>z</em>* are called <strong>critical values</strong> of the Normal distribution. <link href="table_21_1.html">Table 21.1</link> shows that any Normal distribution has probability 99&#37; within &#177;2.58 standard deviations of its mean. The table also shows that any Normal distribution has probability 95&#37; within &#177;1.96 standard deviations of its mean. The 68&#8211;95&#8211;99.7 rule uses 2 in place of the critical value <em>z</em>* = 1.96. That is good enough for practical purposes, but the table gives the more exact value.</p>
+<table id="scc9e-ch21-tab-1" numbered="false" block_type="TABLE" caption-placement="Top" attr="90" data-filename="table_21_1.html">
+<table_caption><phrase block_type="TBN-N-ri">TABLE 21.1</phrase> <phrase block_type="TBN-T">Critical values of the Normal distributions</phrase></table_caption>
+<tbody>
+<tr class="bborder">
+<th align="center" block_type="TBN-COLHD">Confidence<br/>level <em>C</em></th>
+<th align="char" char="." block_type="TBN-COLHD" class="rborder">Critical<br/>value z*</th>
+<th align="center" block_type="TBN-COLHD">Confidence<br/>level <em>C</em></th>
+<th align="char" char="." block_type="TBN-COLHD">Critical value <em>z</em>*</th>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">50&#37;</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.67</td>
+<td align="center" block_type="TBN-TXT">90&#37;</td>
+<td align="char" char="." block_type="TBN-TXT">1.64</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">60&#37;</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">0.84</td>
+<td align="center" block_type="TBN-TXT">95&#37;</td>
+<td align="char" char="." block_type="TBN-TXT">1.96</td>
+</tr>
+<tr>
+<td align="center" block_type="TBN-TXT">70&#37;</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">1.04</td>
+<td align="center" block_type="TBN-TXT">99&#37;</td>
+<td align="char" char="." block_type="TBN-TXT">2.58</td>
+</tr>
+<tr class="bborder">
+<td align="center" block_type="TBN-TXT">80&#37;</td>
+<td align="char" char="." block_type="TBN-TXT" class="rborder">1.28</td>
+<td align="center" block_type="TBN-TXT">99.9&#37;</td>
+<td align="char" char="." block_type="TBN-TXT">3.29</td>
+</tr>
+</tbody>
+</table>
+<p id="scc9e-ch21-p0108" block_type="TXT">From <link href="figure_21_5.html">Figure 21.5</link> we see that, with probability <em>C</em>, the sample proportion <phrase data-math="math_38"></phrase> takes a value within <em>z</em>* standard deviations of <em>p</em>. That is just to say that, with probability <em>C</em>, the interval extending <em>z</em>* standard deviations on either side of the observed <phrase data-math="math_39"></phrase> captures the unknown <em>p</em>. Using the estimated standard deviation of <phrase data-math="math_40"></phrase> produces the following recipe.</p>
+<p id="scc9e_page_504" block_type="page_start" data-margin-content="left">504</p>
+<box id="scc9e-ch21-box-013" numbered="false" block_type="BX1">
+<p id="scc9e-ch21-p0110" block_type="BX1-T">Confidence interval for a population proportion</p>
+<p id="scc9e-ch21-p0111" block_type="BX1-TXT-ni">Choose an SRS of size <em>n</em> from a population of individuals of which proportion <em>p</em> are successes. The proportion of successes in the sample is <phrase data-math="math_41"></phrase>. When <em>n</em> is large, an <strong>approximate level <em>C</em> confidence interval for <em>p</em></strong> is</p>
+<p id="scc9e-ch21-p0112" block_type="EQ"><phrase data-math="math_42"></phrase></p>
+<p id="scc9e-ch21-p0113" block_type="BX1-TXT-ni">where <em>z</em>* is the critical value for probability <em>C</em> from <link href="table_21_1.html">Table 21.1</link>.</p>
+</box>
+<box id="scc9e-ch21-box-014" numbered="false" block_type="EXP" data-filename="example_21_5.html">
+<p id="scc9e-ch21-p0114" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 5</phrase> A 99&#37; confidence interval</p>
+<p id="scc9e-ch21-p0115" block_type="EXP-first">The Gallup random sample of 1009 adult Americans in 2015 found that 616 reported actively trying to avoid drinking regular soda or pop. We want a 99&#37; confidence interval for the proportion <em>p</em> of all adult Americans who actively avoided drinking regular soda or pop. <link href="table_21_1.html">Table 21.1</link> says that for 99&#37; confidence, we must go out <em>z</em>* = 2.58 standard deviations. Here are our calculations:</p>
+<p id="scc9e-ch21-p0116" block_type="EXP-EQ"><phrase data-math="math_43"></phrase></p>
+<p id="scc9e-ch21-p0117" block_type="EXP-EQ"><phrase data-math="math_44"></phrase></p>
+<p id="scc9e-ch21-p0118" block_type="EXP-EQ">= 0.611 &#177; (2.58)(0.0153)</p>
+<p id="scc9e-ch21-p0119" block_type="EXP-EQ">= 0.611 &#177; 0.0395</p>
+<p id="scc9e-ch21-p0120" block_type="EXP-EQ">= 0.5715 to 0.6505</p>
+<p id="scc9e-ch21-p0121" block_type="EXP-ni">We are 99&#37; confident that the true population proportion is between 57.15&#37; and 65.05&#37;. That is, we got this range of percentages by using a method that gives a correct answer 99&#37; of the time.</p>
+</box>
+<p id="scc9e-ch21-p0122" block_type="TXT">Compare <link href="example_21_5.html">Example 5</link> with the calculation of the 95&#37; confidence interval in <link href="example_21_3.html">Example 3</link>. The only difference is the use of the critical value 2.58 for 99&#37; confidence in place of 2 for 95&#37; confidence. That makes the margin of error for 99&#37; confidence larger and the confidence interval wider. Higher confidence isn&#8217;t free&#8212;we pay for it with a wider interval. <link href="figure_21_5.html">Figure 21.5</link> reminds us why this is true. To cover a higher percentage of the area under a Normal curve, we must go farther out from the center. <link href="figure_21_6.html">Figure 21.6</link> compares the lengths of the 90&#37;, 95&#37;, and 99&#37; confidence intervals.</p>
+<p id="scc9e_page_505" block_type="page_start" data-margin-content="right">505</p>
+<figure id="scc9e-ch21-fig-006" block_type="FIGURE" data-caption-compass="S" numbered="true" number="21.6" mmtype="image" mmsrc="" attr="" data-filename="figure_21_6.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch21-img-010" alt="image" src="asset/ch21/17MOORESCC-MSE_9e_fig_21_06.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 21.6</phrase> <phrase block_type="FG-CAP">The lengths of three confidence intervals for the soda consumption example. All three are centered at the estimate <phrase data-math="math_45"></phrase> = 0.611. When the data and the sample size remain the same, higher confidence results in a larger margin of error.</phrase></caption>
+</figure>
+<box id="scc9e-ch21-box-015" numbered="false" block_type="BX2">
+<p id="scc9e-ch21-p0124" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch21-quest-002" block_type="exercise_21_2.html">
+<p id="scc9e-ch21-p0125" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">21.2 Gambling.</phrase> A May 2011 Gallup Poll consisting of a random sample of 1018 adult Americans found that 31&#37; believe that gambling is morally wrong. Find a 99&#37; confidence interval for the proportion of all adult Americans who believe that gambling is morally wrong. How would you interpret this interval?</p>
+</question>
+</box>
+</section>
+<section id="scc9e-ch21-sec1-005" block_type="h1" chapter="ch21" numbered="false" level="1" print_page="505">
+<section-metadata><section-title>The sampling distribution of a sample mean<termref term="fn_ch21_fn02"><sup>*</sup></termref></section-title></section-metadata>
+<p id="scc9e-ch21-p0126" block_type="TXT-ni">What is the mean number of hours your college&#8217;s first-year students study each week? What was their mean grade point average in high school? We often want to estimate the mean of a population. To distinguish the population mean (a parameter) from the sample mean <phrase data-math="math_46"></phrase>, we write the population mean as <em>&#956;</em>, the Greek letter mu. We use the mean <phrase data-math="math_47"></phrase> of an SRS to estimate the unknown mean <phrase data-math="math_48"></phrase> of the population.</p>
+<p id="scc9e-ch21-p0127" block_type="TXT">Like the sample proportion <phrase data-math="math_49"></phrase>, the sample mean <phrase data-math="math_50"></phrase> from a large SRS has a sampling distribution that is close to Normal. Because the sample mean of an SRS is an unbiased estimator of <em>&#956;</em>, the sampling distribution of <phrase data-math="math_51"></phrase> has <em>&#956;</em> as its mean. The standard deviation, or standard error, of <phrase data-math="math_52"></phrase> depends on the standard deviation of the population, which is usually written as <em>&#963;</em>, the Greek letter sigma. By mathematics we can discover the following facts.</p>
+<box id="scc9e-ch21-FN-002" block_type="FN" data-chapter="21" data-footnote-number="*"><p id="scc9e-ch21-p0128" block_type="FN">This section is optional.</p></box>
+<p id="scc9e_page_506" block_type="page_start" data-margin-content="left">506</p>
+<box id="scc9e-ch21-box-016" numbered="false" block_type="BX1">
+<p id="scc9e-ch21-p0130" block_type="BX1-T">Sampling distribution of a sample mean</p>
+<p id="scc9e-ch21-p0131" block_type="BX1-TXT-ni">Choose an SRS of size <em>n</em> from a population in which individuals have mean <em>&#956;</em> and standard deviation <em>&#963;</em>. Let <phrase data-math="math_53"></phrase> be the mean of the sample. Then:</p>
+<list id="scc9e-ch21-list-003" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch21-li-006"><p id="scc9e-ch21-p0132" block_type="BX1-BL-first"><phrase block_type="maker">&#8226;</phrase> The sampling distribution of <phrase data-math="math_54"></phrase> is <strong>approximately Normal</strong> when the sample size <em>n</em> is large.</p></li>
+<li id="scc9e-ch21-li-007"><p id="scc9e-ch21-p0133" block_type="BX1-BL-Mid"><phrase block_type="maker">&#8226;</phrase> The <strong>mean</strong> of the sampling distribution is equal to <em>&#956;</em>.</p></li>
+<li id="scc9e-ch21-li-008"><p id="scc9e-ch21-p0134" block_type="BX1-BL-last"><phrase block_type="maker">&#8226;</phrase> The <strong>standard deviation</strong> or the <strong>standard error</strong> of the sampling distribution is <phrase data-math="math_55"></phrase>.</p></li>
+</list>
+</box>
+<p id="scc9e-ch21-p0135" block_type="TXT">It isn&#8217;t surprising that the values that <phrase data-math="math_56"></phrase> takes in many samples are centered at the true mean <em>&#956;</em> of the population. That&#8217;s the lack of bias in random sampling once again. The other two facts about the sampling distribution make precise two very important properties of the sample mean <phrase data-math="math_57"></phrase>:</p>
+<list id="scc9e-ch21-list-004" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch21-li-009"><p id="scc9e-ch21-p0136" block_type="BL-first"><phrase block_type="maker">&#8226;</phrase> The mean of a number of observations is less variable than individual observations.</p></li>
+<li id="scc9e-ch21-li-010"><p id="scc9e-ch21-p0137" block_type="BL-last"><phrase block_type="maker">&#8226;</phrase> The distribution of a mean of a number of observations is more Normal than the distribution of individual observations.</p></li>
+</list>
+<p id="scc9e-ch21-p0138" block_type="TXT"><link href="figure_21_7.html">Figure 21.7</link> illustrates the first of these properties. It compares the distribution of a single observation with the distribution of the mean <phrase data-math="math_58"></phrase> of 10 observations. Both have the same center, but the distribution of <phrase data-math="math_59"></phrase> is less spread out. In <link href="figure_21_7.html">Figure 21.7</link>, the distribution of individual observations is Normal. If that is true, then the sampling distribution of <phrase data-math="math_60"></phrase> is exactly Normal for any size sample, not just approximately Normal for large samples. A remarkable statistical fact, called the <strong>central limit theorem</strong>, says that as we take more and more observations at random from <em>any</em> population, the distribution of the mean of these observations eventually gets close to a Normal distribution. (There are some technical qualifications to this big fact, but in practice, we can ignore them.) The central limit theorem lies behind the use of Normal sampling distributions for sample means.</p>
+<figure id="scc9e-ch21-fig-007" block_type="FIGURE" data-caption-compass="S" numbered="true" number="21.7" mmtype="image" mmsrc="" attr="" data-filename="figure_21_7.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch21-img-011" alt="image" src="asset/ch21/17MOORESCC-MSE_9e_fig_21_07.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 21.7</phrase> <phrase block_type="FG-CAP">The sampling distribution of the sample mean <phrase data-math="math_61"></phrase> of 10 observations compared with the distribution of individual observations.</phrase></caption>
+</figure>
+<p id="scc9e_page_507" block_type="page_start" data-margin-content="right">507</p>
+<box id="scc9e-ch21-box-017" numbered="false" block_type="EXP" data-filename="example_21_6.html">
+<p id="scc9e-ch21-p0140" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 6</phrase> The central limit theorem in action</p>
+<p id="scc9e-ch21-p0141" block_type="EXP-first"><link href="figure_21_8.html">Figure 21.8</link> shows the central limit theorem in action. The top-left density curve describes individual observations from a population. It is strongly right-skewed. Distributions like this describe the time it takes to repair a household appliance, for example. Most repairs are quickly done, but some are lengthy.</p>
+<p id="scc9e-ch21-p0142" block_type="EXP-ni">The other three density curves in <link href="figure_21_8.html">Figure 21.8</link> show the sampling distributions of the sample means of 2, 10, and 25 observations from this population. As the sample size <em>n</em> increases, the shape becomes more Normal The mean remains fixed and the standard error decreases, following the pattern <phrase data-math="math_62"></phrase>. The distribution for 10 observations is still somewhat skewed to the right but already resembles a Normal curve. The density curve for <em>n</em> = 25 is yet more Normal. The contrast between the shapes of the population distribution and of the distribution of the mean of 10 or 25 observations is striking.</p>
+<figure id="scc9e-ch21-fig-008" block_type="FIGURE" data-caption-compass="S" numbered="true" number="21.8" mmtype="image" mmsrc="" attr="" data-filename="figure_21_8.html">
+<layout align="center" width="medium" border="false"/>
+<image asset-id="scc9e-ch21-img-012" alt="image" src="asset/ch21/17MOORESCC-MSE_9e_fig_21_08.jpg"/>
+<caption><phrase block_type="FG-N-ri">Figure 21.8</phrase> <phrase block_type="FG-CAP">The distribution of a sample mean <phrase data-math="math_63"></phrase> becomes more Normal as the size of the sample increases. The distribution of individual observations (<em>n</em> = 1) is far from Normal. The distributions of means of 2, 10, and finally 25 observations move closer to the Normal shape.</phrase></caption>
+</figure>
+</box>
+</section>
+<section id="scc9e-ch21-sec1-006" block_type="h1" chapter="ch21" numbered="false" level="1" print_page="508">
+<section-metadata><section-title>Confidence intervals for a population mean<termref term="fn_ch21_fn03"><sup>*</sup></termref></section-title></section-metadata>
+<p id="scc9e_page_508" block_type="page_start" data-margin-content="left">508</p>
+<p id="scc9e-ch21-p0144" block_type="TXT-ni">The standard error of <phrase data-math="math_64"></phrase> depends on both the sample size <em>n</em> and the standard deviation <em>&#963;</em> of individuals in the population. We know <em>n</em> but not <em>&#963;</em>. When <em>n</em> is large, the sample standard deviation <em>s</em> is close to <em>&#963;</em> and can be used to estimate it, just as we use the sample mean <phrase data-math="math_65"></phrase> to estimate the population mean <em>&#956;</em>. The estimated standard error of <phrase data-math="math_66"></phrase> is, therefore, <phrase data-math="math_67"></phrase>. Now we can find confidence intervals for <em>&#956;</em> following the same reasoning that led us to confidence intervals for a proportion <em>p</em>. The big idea is that to cover the central area <em>C</em> under a Normal curve, we must go out a distance <em>z</em>* on either side of the mean. Look again at <link href="figure_21_5.html">Figure 21.5</link> to see how <em>C</em> and <em>z</em>* are related.</p>
+<box id="scc9e-ch21-box-018" numbered="false" block_type="BX1">
+<p id="scc9e-ch21-p0145" block_type="BX1-T">Confidence interval for a population mean</p>
+<p id="scc9e-ch21-p0146" block_type="BX1-TXT-ni">Choose an SRS of size <em>n</em> from a large population of individuals having mean <em>&#956;</em>. The mean of the sample observations is <phrase data-math="math_68"></phrase>. When <em>n</em> is reasonably large, an <strong>approximate level <em>C</em> confidence interval for</strong> <em>&#956;</em> is</p>
+<p id="scc9e-ch21-p0147" block_type="EQ"><phrase data-math="math_69"></phrase></p>
+<p id="scc9e-ch21-p0148" block_type="BX1-TXT-ni">where <em>z</em>* is the critical value for confidence level <em>C</em> from <link href="table_21_1.html">Table 21.1</link>.</p>
+</box>
+<p id="scc9e-ch21-p0149" block_type="TXT">The cautions we noted in estimating <em>p</em> apply here as well. The recipe is valid only when an SRS is drawn and the sample size <em>n</em> is reasonably large. How large is reasonably large? The answer depends upon the true shape of the population distribution. A sample size of <em>n</em> &#8805; 15 is usually adequate unless there are extreme outliers or strong skewness. For clearly skewed distributions, a sample size of <em>n</em> &#8805; 40 often suffices if there are no outliers.</p>
+<p id="scc9e-ch21-p0150" block_type="TXT">The margin of error again decreases only at a rate proportional to <phrase data-math="math_70"></phrase> as the sample size <em>n</em> increases. And it bears repeating that <phrase data-math="math_71"></phrase> and <em>s</em> are strongly influenced by outliers. Inference using <phrase data-math="math_72"></phrase> and <em>s</em> is suspect when outliers are present. Always look at your data.</p>
+<box id="scc9e-ch21-FN-003" block_type="FN" data-chapter="21" data-footnote-number="*"><p id="scc9e-ch21-p0151" block_type="FN">This section is optional.</p></box>
+<p id="scc9e_page_509" block_type="page_start" data-margin-content="right">509</p>
+<box id="scc9e-ch21-box-019" numbered="false" block_type="EXP" data-filename="example_21_7.html">
+<p id="scc9e-ch21-p0153" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 7</phrase> NAEP quantitative scores</p>
+<p id="scc9e-ch21-p0154" block_type="EXP-first">The National Assessment of Educational Progress (NAEP) includes a mathematics test for high school seniors. Scores on the test range from 0 to 300. Demonstrating the ability to use the Pythagorean theorem to determine the length of a hypotenuse is an example of the skills and knowledge associated with performance at the Basic level. An example of the knowledge and skills associated with the Proficient level is using trigonometric ratios to determine length.</p>
+<figure id="scc9e-ch21-unfig-004" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="21_17MOORESCC-MSE_9e_P_21_02.html">
+<layout align="right" width="medium" border="false"/>
+<image asset-id="scc9e-ch21-img-013" alt="image" src="asset/ch21/17MOORESCC-MSE_9e_P_21_02.jpg"/>
+<asset_source><phrase block_type="PH-CL">Roger Bamber/Alamy</phrase></asset_source>
+</figure>
+<p id="scc9e-ch21-p0155" block_type="EXP-mid">In 2009, 51,000 12th-graders were in the NAEP sample for the mathematics test. The mean mathematics score was <phrase data-math="math_73"></phrase> and the standard deviation of their scores was <em>s</em> = 34. Assume that these 51,000 students were a random sample from the population of all 12th-graders. On the basis of this sample, what can we say about the mean score <em>&#956;</em> in the population of all 12th-grade students?</p>
+<p id="scc9e-ch21-p0156" block_type="EXP-mid">The 95&#37; confidence interval for <em>&#956;</em> uses the critical value <em>z</em>* = 1.96 from <link href="table_21_1.html">Table 21.1</link>. The interval is</p>
+<p id="scc9e-ch21-p0157" block_type="EXP-EQ"><phrase data-math="math_74"></phrase></p>
+<p id="scc9e-ch21-p0158" block_type="EXP-EQ">= 153 &#177; (1.96)(0.151) = 153 &#177; 0.3</p>
+<p id="scc9e-ch21-p0159" block_type="EXP-ni">We are 95&#37; confident that the mean score for all 12th-grade students lies between 152.7 and 153.3.</p>
+</box>
+<box id="scc9e-ch21-box-020" numbered="false" block_type="BX2">
+<p id="scc9e-ch21-p0160" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
+<question id="scc9e-ch21-quest-003" block_type="exercise_21_3.html">
+<p id="scc9e-ch21-p0161" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">21.3 Blood pressure of executives.</phrase> The medical director of a large company looks at the medical records of 72 executives between the ages of 35 and 44 years. He finds that the mean systolic blood pressure in this sample is <phrase data-math="math_75"></phrase> and the standard deviation is <em>s</em> = 15.2. Assuming the sample is a random sample of all executives in the company, find a 95&#37; confidence interval for <em>&#956;</em>, the unknown mean blood pressure of all executives in the company.</p>
+</question>
+</box>
+</section>
+<section id="scc9e-ch21-sec1-007" block_type="SUM-H" chapter="ch21" numbered="false" level="1" print_page="509">
+<section-metadata><section-title><phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase></section-title></section-metadata>
+<p id="scc9e-ch21-p0162" block_type="SUM-hd1">Chapter Specifics</p>
+<list id="scc9e-ch21-list-005" type="unordered" block_type="bluebullet">
+<li id="scc9e-ch21-li-011"><p id="scc9e-ch21-p0163" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> <strong>Statistical inference</strong> draws conclusions about a population on the basis of data from a sample. Because we don&#8217;t have data for the entire population, our conclusions are uncertain.</p>
+<p id="scc9e_page_510" block_type="page_start" data-margin-content="left">510</p></li>
+<li id="scc9e-ch21-li-012"><p id="scc9e-ch21-p0165" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> A <strong>confidence interval</strong> estimates an unknown parameter in a way that tells us how uncertain the estimate is. The interval itself says how closely we can pin down the unknown parameter. The <strong>confidence level</strong> is a probability that says how often in many samples the method would produce an interval that does catch the parameter. We find confidence intervals starting from the <strong>sampling distribution</strong> of a statistic, which shows how the statistic varies in repeated sampling.</p></li>
+<li id="scc9e-ch21-li-013"><p id="scc9e-ch21-p0166" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> The standard deviation of the sampling distribution of the sample statistic is commonly referred to as the <strong>standard error</strong>.</p></li>
+<li id="scc9e-ch21-li-014"><p id="scc9e-ch21-p0167" block_type="SUM-BL-mid"><phrase block_type="maker">&#8226;</phrase> We estimate a population proportion <em>p</em> using the sample proportion <phrase data-math="math_76"></phrase> of an SRS from the population. Confidence intervals for <em>p</em> are based on the <strong>sampling distribution</strong> of <phrase data-math="math_77"></phrase>. When the sample size <em>n</em> is large, this distribution is approximately Normal.</p></li>
+<li id="scc9e-ch21-li-015"><p id="scc9e-ch21-p0168" block_type="SUM-BL-last"><phrase block_type="maker">&#8226;</phrase> We estimate a population mean <em>&#956;</em> using the sample mean <phrase data-math="math_78"></phrase> of an SRS from the population. Confidence intervals for <em>&#956;</em> are based on the <strong>sampling distribution</strong> of <phrase data-math="math_79"></phrase>. When the sample size <em>n</em> is large, the <strong>central limit theorem</strong> says that this distribution is approximately Normal. Although the details of the methods differ, inference about <em>&#956;</em> is quite similar to inference about a population proportion <em>p</em> because both are based on Normal sampling distributions.</p></li>
+</list>
+<p id="scc9e-ch21-p0169" block_type="SUM-TXT-ni"><image asset-id="scc9e-ch21-img-014" alt="image" src="asset/global_images/LinkIt.jpg"/> The reason we collect data is not to learn about the individuals that we observed but to infer from the data to some wider population that the individuals represent. <link href="scc9e-ch01.xml">Chapters 1</link> through <link href="scc9e-ch06.xml">6</link> tell us that the way we produce the data (sampling, experimental design) affects whether we have a good basis for generalizing to some wider population&#8212;in particular, whether a sample statistic provides insight into the value of the corresponding population parameter. <link href="scc9e-ch17.xml">Chapters 17</link> through <link href="scc9e-ch20.xml">20</link> discuss probability, the formal mathematical tool that determines the nature of the inferences we make. <link href="scc9e-ch18.xml">Chapter 18</link> discusses sampling distributions, which tell us how statistics computed from repeated SRSs behave and hence what a statistic (in particular, a sample proportion) computed from our sample is likely to tell us about the corresponding parameter of the population (in particular, a population proportion) from which the sample was selected.</p>
+<p id="scc9e-ch21-p0170" block_type="SUM-TXT">In this chapter, we discuss the basic reasoning of statistical estimation of a population parameter, with emphasis on estimating a population proportion and population mean. To an estimate of a population parameter, such as a population proportion, we attach a margin of error and a confidence level. The result is a confidence interval. The sampling distribution, first introduced in <link href="scc9e-ch03.xml">Chapter 3</link> and discussed more fully in <link href="scc9e-ch18.xml">Chapter 18</link>, provides the mathematical basis for constructing confidence intervals and understanding their properties. We will provide more advice on interpreting confidence intervals in <link href="scc9e-ch23.xml">Chapter 23</link>.</p>
+<p id="scc9e_page_511" block_type="page_start" data-margin-content="right">511</p>
+<box id="scc9e-ch21-box-021" numbered="false" block_type="case_title">
+<p id="scc9e-ch21-p0172" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> Going back to the survey results presented in the Case Study at the beginning of the chapter, the report presented by the BRFSS gave confidence intervals. With 95&#37; confidence, the true percentage of California residents who meet the daily recommendations for fruit consumption is between 17.3&#37; to 18.1&#37;, and the true percentage of California residents who meet the daily recommendations for vegetable consumption is between 12.6&#37; and 13.4&#37;. Interpret these intervals in plain language that someone who knows no statistics will understand.</p>
+</box>
+<box id="scc9e-ch21-box-022" numbered="false" block_type="launchpad">
+<p id="scc9e-ch21-p0174" block_type="CR-BIB-T"><image asset-id="scc9e-ch21-img-015" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<list id="scc9e-ch21-list-006" type="unordered" block_type="redbullet">
+<li id="scc9e-ch21-li-016"><p id="scc9e-ch21-p0175" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The Snapshots video <em>Inference for One Proportion</em> discusses confidence intervals for a population proportion in the context of a sample survey conducted during the 2012 presidential elections.</p></li>
+<li id="scc9e-ch21-li-017"><p id="scc9e-ch21-p0176" block_type="CR-BIB-BL-Mid"><phrase block_type="maker">&#8226;</phrase> The StatClips Examples video, <em>Confidence Intervals: Intervals for Proportions Example C</em> provides an example of how to calculate a 90&#37; confidence interval for a proportion.</p></li>
+<li id="scc9e-ch21-li-018"><p id="scc9e-ch21-p0177" block_type="CR-BIB-BL-last"><phrase block_type="maker">&#8226;</phrase> The Snapshots video <em>Confidence Intervals</em> discusses confidence intervals for a population mean in the context of an example involving birds killed by wind turbines.</p></li>
+</list>
+</box>
+</section>
+<section id="scc9e-ch21-sec1-008" block_type="CR-X-H" chapter="ch21" numbered="false" level="1" print_page="511">
+<section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
+<p id="scc9e-ch21-p0178" block_type="CR-X"><em>For <link href="exercise_21_1.html">Exercise 21.1</link>, see page 499; for <link href="exercise_21_2.html">Exercise 21.2</link>, see page 505; and for <link href="exercise_21_3.html">Exercise 21.3</link>, see page 509.</em></p>
+<question id="scc9e-ch21-quest-004" block_type="exercise_21_4.html">
+<p id="scc9e-ch21-p0179" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.4 Bike riding.</phrase> In 2012, the National Highway Traffic Safety Administration (NHTSA) of the U.S. Department of Transportation conducted the National Survey of Bicyclist and Pedestrian Attitudes and Behaviors. A total of 7509 individuals aged 16 years and older participated in this survey. Of these 7509 individuals, 2580 individuals reported that they rode a bicycle within the past year. Of these self-reported bicycle riders, 1187 said they had never worn a helmet when riding a bicycle. Based on this information, we know the sample proportion, <phrase data-math="math_80"></phrase>, of bicycle riders from this survey who have never worn a helmet is</p>
+<list id="scc9e-ch21-list-007" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-019"><p id="scc9e-ch21-p0180" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> 0.460.</p></li>
+<li id="scc9e-ch21-li-020"><p id="scc9e-ch21-p0181" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> 0.344.</p></li>
+<li id="scc9e-ch21-li-021"><p id="scc9e-ch21-p0182" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> 0.158.</p></li>
+<li id="scc9e-ch21-li-022"><p id="scc9e-ch21-p0183" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> 0.013.</p></li>
+</list>
+</question>
+<question id="scc9e-ch21-quest-005" block_type="exercise_21_5.html">
+<p id="scc9e-ch21-p0184" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.5 Saving for retirement.</phrase> In 2014, a leading financial services provider conducted a survey in order to determine how Americans are planning for retirement. Of the 1017 adults aged 18 years and older who were included in the survey, 214 said they were currently not saving anything for retirement. Based on this information, the 95&#37; confidence interval for the proportion of all adults who are currently not saving for retirement would be</p>
+<list id="scc9e-ch21-list-008" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-023"><p id="scc9e-ch21-p0185" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> 0.155 to 0.265.</p></li>
+<li id="scc9e-ch21-li-024"><p id="scc9e-ch21-p0186" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> 0.185 to 0.235.</p></li>
+<li id="scc9e-ch21-li-025"><p id="scc9e-ch21-p0187" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> 0.197 to 0.223.</p></li>
+<li id="scc9e-ch21-li-026"><p id="scc9e-ch21-p0188" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> 0.200 to 0.220.</p></li>
+</list>
+</question>
+<p id="scc9e_page_512" block_type="page_start" data-margin-content="left">512</p>
+<question id="scc9e-ch21-quest-006" block_type="exercise_21_6.html">
+<p id="scc9e-ch21-p0190" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.6 Computer use.</phrase> A random sample of 197 12th-grade students from across the United States was surveyed, and it was observed that these students spent an average of 23.5 hours on the computer per week, with a standard deviation of 8.7 hours. If we plan to use these data to construct a 99&#37; confident interval, the margin of error will be approximately</p>
+<list id="scc9e-ch21-list-009" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-027"><p id="scc9e-ch21-p0191" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> 0.07.</p></li>
+<li id="scc9e-ch21-li-028"><p id="scc9e-ch21-p0192" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> 0.62.</p></li>
+<li id="scc9e-ch21-li-029"><p id="scc9e-ch21-p0193" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> 1.6.</p></li>
+<li id="scc9e-ch21-li-030"><p id="scc9e-ch21-p0194" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> 8.7.</p></li>
+</list>
+</question>
+<question id="scc9e-ch21-quest-007" block_type="exercise_21_7.html">
+<p id="scc9e-ch21-p0195" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.7 Anxiety.</phrase> A particular psychological test is used to measure anxiety. The average test score for all university students nationwide is 85 points. Suppose a random sample of university students is selected and a confidence interval based on their mean anxiety score is constructed. Which of the following statements about the confidence interval is true?</p>
+<list id="scc9e-ch21-list-010" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-031"><p id="scc9e-ch21-p0196" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The resulting confidence interval will contain 85.</p></li>
+<li id="scc9e-ch21-li-032"><p id="scc9e-ch21-p0197" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The 95&#37; confidence interval for a sample of size 100 will generally have a smaller margin of error than the 95&#37; confidence interval for a sample of size 50.</p></li>
+<li id="scc9e-ch21-li-033"><p id="scc9e-ch21-p0198" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> For a sample of size 100, the 95&#37; confidence interval will have a smaller margin of error than the 90&#37; confidence interval.</p></li>
+</list>
+</question>
+<question id="scc9e-ch21-quest-008" block_type="exercise_21_8.html">
+<p id="scc9e-ch21-p0199" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.8 Pigs.</phrase> A 90&#37; confidence interval is calculated for a sample of weights of 135 randomly selected pigs, and the resulting confidence interval is from 75 to 90 pounds. Will the sample mean weight (from this particular sample of size 135) fall within the confidence interval?</p>
+<list id="scc9e-ch21-list-011" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-034"><p id="scc9e-ch21-p0200" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> No.</p></li>
+<li id="scc9e-ch21-li-035"><p id="scc9e-ch21-p0201" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Yes.</p></li>
+<li id="scc9e-ch21-li-036"><p id="scc9e-ch21-p0202" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Maybe.</p></li>
+</list>
+</question>
+</section>
+<section id="scc9e-ch21-sec1-009" block_type="CR-X-H-v1" chapter="ch21" numbered="false" level="1" print_page="512">
+<section-metadata><section-title>CHAPTER 21 EXERCISES</section-title></section-metadata>
+<question id="scc9e-ch21-quest-009" block_type="exercise_21_9.html">
+<p id="scc9e-ch21-p0203" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.9 A student survey.</phrase> Tonya wants to estimate what proportion of the students in her dormitory like the dorm food. She interviews an SRS of 50 of the 175 students living in the dormitory. She finds that 14 think the dorm food is good.</p>
+<list id="scc9e-ch21-list-012" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-037"><p id="scc9e-ch21-p0204" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What population does Tonya want to draw conclusions about?</p></li>
+<li id="scc9e-ch21-li-038"><p id="scc9e-ch21-p0205" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> In your own words, what is the population proportion <em>p</em> in this setting?</p></li>
+<li id="scc9e-ch21-li-039"><p id="scc9e-ch21-p0206" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> What is the numerical value of the sample proportion <phrase data-math="math_81"></phrase> from Tonya&#8217;s sample?</p></li>
+</list>
+</question>
+<p id="scc9e_page_513" block_type="page_start" data-margin-content="right">513</p>
+<question id="scc9e-ch21-quest-010" block_type="exercise_21_10.html">
+<p id="scc9e-ch21-p0208" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.10 Fire the coach?</phrase> A college president says, &#8220;99&#37; of the alumni support my firing of Coach Boggs.&#8217;&#8217; You contact an SRS of 200 of the college&#8217;s 15,000 living alumni and find that 66 of them support firing the coach.</p>
+<list id="scc9e-ch21-list-013" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-040"><p id="scc9e-ch21-p0209" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What population does the inference concern here?</p></li>
+<li id="scc9e-ch21-li-041"><p id="scc9e-ch21-p0210" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Explain clearly what the population proportion <em>p</em> is in this setting.</p></li>
+<li id="scc9e-ch21-li-042"><p id="scc9e-ch21-p0211" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> What is the numerical value of the sample proportion <phrase data-math="math_82"></phrase>?</p></li>
+</list>
+</question>
+<question id="scc9e-ch21-quest-011" block_type="exercise_21_11.html">
+<p id="scc9e-ch21-p0212" block_type="CR-X-NL"><image asset-id="scc9e-ch21-img-016" alt="image" src="asset/global_images/news.jpg"/> <phrase block_type="CR-X-NL-N-ri">21.11 Are teachers engaged in their work?</phrase> Results from a Gallup survey conducted in 2013 and 2014 reveal that 30&#37; of Kindergarten through Grade 12 school teachers report feeling engaged in their work. The report from this random sample of 6711 teachers stated that, with 95&#37; confidence, the margin of sampling error was &#177;1.0&#37;. Explain to someone who knows no statistics what the phrase &#8220;95&#37; confidence&#8217;&#8217; means in this report.</p>
+</question>
+<question id="scc9e-ch21-quest-012" block_type="exercise_21_12.html">
+<p id="scc9e-ch21-p0213" block_type="CR-X-NL"><image asset-id="scc9e-ch21-img-017" alt="image" src="asset/global_images/news.jpg"/> <phrase block_type="CR-X-NL-N-ri">21.12 Gun control.</phrase> A December 2014 Pew Research Center poll asked a sample of 1507 adults whether they thought it was important to control gun ownership. A total of 693 of the poll respondents were in support of controls on gun ownership. Although the samples in national polls are not SRSs, they are similar enough that our method gives approximately correct confidence intervals.</p>
+<list id="scc9e-ch21-list-014" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-043"><p id="scc9e-ch21-p0214" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Say in words what the population proportion <em>p</em> is for this poll.</p></li>
+<li id="scc9e-ch21-li-044"><p id="scc9e-ch21-p0215" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Find a 95&#37; confidence interval for <em>p</em>.</p></li>
+<li id="scc9e-ch21-li-045"><p id="scc9e-ch21-p0216" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> The Pew Research Center announced a margin of error of plus or minus 2.9 percentage points for this poll result. How well does your work in part (b) agree with this margin of error?</p></li>
+</list>
+</question>
+<question id="scc9e-ch21-quest-013" block_type="exercise_21_13.html">
+<p id="scc9e-ch21-p0217" block_type="CR-X-NL"><image asset-id="scc9e-ch21-img-018" alt="image" src="asset/global_images/news.jpg"/> <phrase block_type="CR-X-NL-N-ri">21.13 Using public libraries.</phrase> The Pew Research Center Libraries 2015 Survey examined the attitudes and behaviors of a nationally representative sample of 2004 people ages 16 and older who were living in the United States. One survey question asked whether the survey respondent had visited, in person, a library or a bookmobile in the last year. A total of 922 of those surveyed answered Yes to this question. Although the samples in national polls are not SRSs, they are similar enough that our method gives approximately correct confidence intervals.</p>
+<list id="scc9e-ch21-list-015" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-046"><p id="scc9e-ch21-p0218" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain in words what the parameter <em>p</em> is in this setting.</p></li>
+<li id="scc9e-ch21-li-047"><p id="scc9e-ch21-p0219" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Use the poll results to give a 95&#37; confidence interval for <em>p</em>.</p></li>
+<li id="scc9e-ch21-li-048"><p id="scc9e-ch21-p0220" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Write a short explanation of your findings in part (b) for someone who knows no statistics.</p></li>
+</list>
+</question>
+<question id="scc9e-ch21-quest-014" block_type="exercise_21_14.html">
+<p id="scc9e-ch21-p0221" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.14 Computer crime.</phrase> Adults are spending more and more time on the Internet, and the number experiencing computer- or Internet-based crime is rising. A 2010 Gallup Poll of 1025 adults, aged 18 and over, found that 113 of those in the sample said that they or a member of their household were victims of computer or Internet crime on their home computer in the past year. Although the samples in national polls are not SRSs, they are similar enough that our method gives approximately correct confidence intervals.</p>
+<list id="scc9e-ch21-list-016" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-049"><p id="scc9e-ch21-p0222" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Explain in words what the parameter <em>p</em> is in this setting.</p></li>
+<li id="scc9e-ch21-li-050"><p id="scc9e-ch21-p0223" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Use the poll results to give a 95&#37; confidence interval for <em>p</em>.</p></li>
+</list>
+</question>
+<p id="scc9e_page_514" block_type="page_start" data-margin-content="left">514</p>
+<question id="scc9e-ch21-quest-015" block_type="exercise_21_15.html">
+<p id="scc9e-ch21-p0225" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.15 Gun control.</phrase> In <link href="exercise_21_12.html">Exercise 21.12</link>, you constructed a 95&#37; confidence interval based on a random sample of <em>n</em> = 1507 adults. How large a sample would be needed to get a margin of error half as large as the one in <link href="exercise_21_12.html">Exercise 21.12</link>? You may find it helpful to refer to the discussion surrounding <link href="example_3_5.html">Example 5</link> in <link href="scc9e-ch03.xml">Chapter 3</link> (page 47).</p>
+</question>
+<question id="scc9e-ch21-quest-016" block_type="exercise_21_16.html">
+<p id="scc9e-ch21-p0226" block_type="CR-X-NL"><image asset-id="scc9e-ch21-img-019" alt="image" src="asset/global_images/news.jpg"/> <phrase block_type="CR-X-NL-N-ri">21.16 The effect of sample size.</phrase> A December 2014 CBS News/<em>New York Times</em> poll found that 52&#37; of its sample thought that basic medical care in the United States was affordable. Give a 95&#37; confidence interval for the proportion of all adults who feel this way, assuming that the result <phrase data-math="math_83"></phrase> comes from a sample of size</p>
+<list id="scc9e-ch21-list-017" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-051"><p id="scc9e-ch21-p0227" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> <em>n</em> = 750.</p></li>
+<li id="scc9e-ch21-li-052"><p id="scc9e-ch21-p0228" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> <em>n</em> = 1500.</p></li>
+<li id="scc9e-ch21-li-053"><p id="scc9e-ch21-p0229" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> <em>n</em> = 3000.</p></li>
+<li id="scc9e-ch21-li-054"><p id="scc9e-ch21-p0230" block_type="CR-X-NL"><phrase block_type="maker">(d)</phrase> Explain briefly what your results show about the effect of increasing the size of a sample on the width of the confidence interval.</p></li>
+</list>
+</question>
+<question id="scc9e-ch21-quest-017" block_type="exercise_21_17.html">
+<p id="scc9e-ch21-p0231" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.17 Random digits.</phrase> We know that the proportion of 0s among a large set of random digits is <em>p</em> = 0.1 because all 10 possible digits are equally probable. The entries in a table of random digits are a random sample from the population of all random digits. To get an SRS of 200 random digits, look at the first digit in each of the 200 five-digit groups in lines 101 to 125 of <link href="table_a.html">Table A</link> in the back of the book. How many of these 200 digits are 0s? Give a 95&#37; confidence interval for the proportion of 0s in the population from which these digits are a random sample. Does your interval cover the true parameter value, <em>p</em> = 0.1?</p>
+</question>
+<question id="scc9e-ch21-quest-018" block_type="exercise_21_18.html">
+<p id="scc9e-ch21-p0232" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.18 Tossing a thumbtack.</phrase> If you toss a thumbtack on a hard surface, what is the probability that it will land point up? Estimate this probability <em>p</em> by tossing a thumbtack 100 times. The 100 tosses are an SRS of size 100 from the population of all tosses. The proportion of these 100 tosses that land point up is the sample proportion <phrase data-math="math_84"></phrase>. Use the result of your tosses to give a 95&#37; confidence interval for <em>p</em>. Write a brief explanation of your findings for someone who knows no statistics but wonders how often a thumbtack will land point up.</p>
+</question>
+<question id="scc9e-ch21-quest-019" block_type="exercise_21_19.html">
+<p id="scc9e-ch21-p0233" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.19 Don&#8217;t forget the basics.</phrase> The Behavioral Risk Factor Surveillance System survey found that 792 individuals in its 2010 random sample of 6911 college graduates in California said that they had engaged in binge drinking in the past year. We can used this finding to calculate confidence intervals for the proportion of all college graduates in California who engaged in binge drinking in the past year. This sample survey may have bias that our confidence intervals do not take into account. Why is some bias likely to be present? Does the sample proportion 11.5&#37; probably overestimate or underestimate the true population proportion?</p>
+</question>
+<question id="scc9e-ch21-quest-020" block_type="exercise_21_20.html">
+<p id="scc9e-ch21-p0234" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.20 Count Buffon&#8217;s coin.</phrase> The eighteenth-century French naturalist Count Buffon tossed a coin 4040 times. He got 2048 heads. Give a 95&#37; confidence interval for the probability that Buffon&#8217;s coin lands heads up. Are you confident that this probability is not 1/2? Why?</p>
+</question>
+<p id="scc9e_page_515" block_type="page_start" data-margin-content="right">515</p>
+<question id="scc9e-ch21-quest-021" block_type="exercise_21_21.html">
+<p id="scc9e-ch21-p0236" block_type="CR-X-NL"><image asset-id="scc9e-ch21-img-020" alt="image" src="asset/global_images/news.jpg"/> <phrase block_type="CR-X-NL-N-ri">21.21 Share the wealth.</phrase> The <em>New York Times</em> conducted a nationwide poll of 1650 randomly selected American adults. Of these, 1089 felt that distributed money and wealth in this country should be more evenly distributed among more people. We can consider the sample to be an SRS.</p>
+<list id="scc9e-ch21-list-018" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-055"><p id="scc9e-ch21-p0237" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Give a 95&#37; confidence interval for the proportion of all American adults who, at the time of the poll, felt that distributed money and wealth in this country should be more evenly distributed among more people.</p></li>
+<li id="scc9e-ch21-li-056"><p id="scc9e-ch21-p0238" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The news article says, &#8220;In theory, in 19 cases out of 20, the poll results will differ by no more than 3 percentage points in either direction from what would have been obtained by seeking out all American adults.&#8217;&#8217; Explain how your results agree with this statement.</p></li>
+</list>
+</question>
+<question id="scc9e-ch21-quest-022" block_type="exercise_21_22.html">
+<p id="scc9e-ch21-p0239" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.22 Harley motorcycles.</phrase> In 2013, it was reported that 55&#37; of the new motorcycles that were registered in the United States were Harley-Davidson motorcycles. You plan to interview an SRS of 600 new motorcycle owners.</p>
+<list id="scc9e-ch21-list-019" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-057"><p id="scc9e-ch21-p0240" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is the sampling distribution of the proportion of your sample who own Harleys?</p></li>
+<li id="scc9e-ch21-li-058"><p id="scc9e-ch21-p0241" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> How likely is your sample to contain 57&#37; or more who own Harleys? How likely is it to contain at least 51&#37; Harley owners? Use the 68&#8211;95&#8211;99.7 rule and your answer to part (a).</p></li>
+</list>
+</question>
+<question id="scc9e-ch21-quest-023" block_type="exercise_21_23.html">
+<p id="scc9e-ch21-p0242" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.23 Do you jog?</phrase> Suppose that 10&#37; of all adults jog. An opinion poll asks an SRS of 400 adults if they jog.</p>
+<list id="scc9e-ch21-list-020" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-059"><p id="scc9e-ch21-p0243" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What is the sampling distribution of the proportion <phrase data-math="math_85"></phrase> in the sample who jog?</p></li>
+<li id="scc9e-ch21-li-060"><p id="scc9e-ch21-p0244" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> According to the 68&#8211;95&#8211;99.7 rule, what is the probability that the sample proportion who jog will be 7.3&#37; or greater?</p></li>
+</list>
+</question>
+<question id="scc9e-ch21-quest-024" block_type="exercise_21_24.html">
+<p id="scc9e-ch21-p0245" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.24 The quick method.</phrase> The quick method of <link href="scc9e-ch03.xml">Chapter 3</link> (page 46) uses <phrase data-math="math_86"></phrase> as a rough recipe for a 95&#37; confidence interval for a population proportion. The margin of error from the quick method is a bit larger than needed. It differs most from the more accurate method of this chapter when <phrase data-math="math_87"></phrase> is close to 0 or 1. An SRS of 500 motorcycle registrations finds that 68 of the motorcycles are Harley-Davidsons. Give a 95&#37; confidence interval for the proportion of all motorcycles that are Harleys by the quick method and then by the method of this chapter. How much larger is the quick-method margin of error?</p>
+</question>
+<question id="scc9e-ch21-quest-025" block_type="exercise_21_25.html">
+<p id="scc9e-ch21-p0246" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.25 68&#37; confidence.</phrase> We used the 95 part of the 68&#8211;95&#8211;99.7 rule to give a recipe for a 95&#37; confidence interval for a population proportion <em>p</em>.</p>
+<list id="scc9e-ch21-list-021" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-061"><p id="scc9e-ch21-p0247" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Use the 68 part of the rule to give a recipe for a 68&#37; confidence interval.</p></li>
+<li id="scc9e-ch21-li-062"><p id="scc9e-ch21-p0248" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Explain in simple language what &#8220;68&#37; confidence&#8217;&#8217; means.</p></li>
+<li id="scc9e-ch21-li-063"><p id="scc9e-ch21-p0249" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Use the result of the Gallup Poll (<link href="example_21_3.html">Example 3</link>, page 499) to give a 68&#37; confidence interval for the proportion of adult Americans who reported actively trying to avoid drinking regular soda or pop in 2015. How does your interval compare with the 95&#37; interval in <link href="example_21_3.html">Example 3</link>?</p></li>
+</list>
+</question>
+<question id="scc9e-ch21-quest-026" block_type="exercise_21_26.html">
+<p id="scc9e-ch21-p0250" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.26 Simulating confidence intervals.</phrase> In <link href="exercise_21_25.html">Exercise 21.25</link>, you found the recipe for a 68&#37; confidence interval for a population proportion <em>p</em>. Suppose that (unknown to anyone) 60&#37; of Americans actively tried to avoid drinking regular soda or pop in 2015.</p>
+<list id="scc9e-ch21-list-022" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-064"><p id="scc9e-ch21-p0251" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> How would you simulate the proportion of an SRS of 25 adult Americans?</p></li>
+<li id="scc9e-ch21-li-065"><p id="scc9e-ch21-p0252" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Simulate choosing 10 SRSs, using a different row in <link href="table_a.html">Table A</link> for each sample. What are the 10 values of the sample proportion <phrase data-math="math_88"></phrase> who actively tried to avoid drinking regular soda or pop in 2015?</p></li>
+<li id="scc9e-ch21-li-066"><p id="scc9e-ch21-p0253" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Find the 68&#37; confidence interval for <em>p</em> from each of your 10 samples. How many of the intervals capture the true parameter value <em>p</em> = 0.6? (Samples of size 25 are not large enough for our recipe to be very accurate, but even a small simulation illustrates how confidence intervals behave in repeated samples.)</p></li>
+</list>
+</question>
+<p id="scc9e_page_516" block_type="page_start" data-margin-content="left">516</p>
+<p id="scc9e-ch21-p0255" block_type="CR-X-NL"><em>The following exercises concern the optional sections of this chapter.</em></p>
+<question id="scc9e-ch21-quest-027" block_type="exercise_21_27.html">
+<p id="scc9e-ch21-p0256" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.27 Gun control.</phrase> <link href="exercise_21_12.html">Exercise 21.12</link> reports a Pew Research Center poll in which 693 of a random sample of 1507 adults were in support of controls on gun ownership. Use <link href="table_21_1.html">Table 21.1</link> to give a 90&#37; confidence interval for the proportion of all adults who feel this way. How does your interval compare with the 95&#37; confidence interval from <link href="exercise_21_12.html">Exercise 21.12</link>?</p>
+</question>
+<question id="scc9e-ch21-quest-028" block_type="exercise_21_28.html">
+<p id="scc9e-ch21-p0257" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.28 Using public libraries.</phrase> <link href="exercise_21_13.html">Exercise 21.13</link> reports a Pew Research Center Libraries 2015 Survey that found that 922 in a random sample of 2004 American adults said that they had visited, in person, a library or bookmobile in the last year. Use <link href="table_21_1.html">Table 21.1</link> to give a 99&#37; confidence interval for the proportion of all American adults who have done this. How does your interval compare with the 95&#37; confidence interval of <link href="exercise_21_13.html">Exercise 21.13</link>?</p>
+</question>
+<question id="scc9e-ch21-quest-029" block_type="exercise_21_29.html">
+<p id="scc9e-ch21-p0258" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.29 Organic Food.</phrase> A 2014 Consumer Reports National Research Center survey on food labeling found that 49&#37; of a random sample of 1004 American adults report looking for information on food labels about whether the food they are purchasing is organic. Use this survey result and <link href="table_21_1.html">Table 21.1</link> to give 70&#37;, 80&#37;, 90&#37;, and 99&#37; confidence intervals for the proportion of all adults who feel this way. What do your results show about the effect of changing the confidence level?</p>
+</question>
+<question id="scc9e-ch21-quest-030" block_type="exercise_21_30.html">
+<p id="scc9e-ch21-p0259" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.30 Unhappy HMO patients.</phrase> How likely are patients who file complaints with a health maintenance organization (HMO) to leave the HMO? In one year, 639 of the more than 400,000 members of a large New England HMO filed complaints. Fifty-four of the complainers left the HMO voluntarily. (That is, they were not forced to leave by a move or a job change.) Consider this year&#8217;s complainers as an SRS of all patients who will complain in the future. Give a 90&#37; confidence interval for the proportion of complainers who voluntarily leave the HMO.</p>
+</question>
+<question id="scc9e-ch21-quest-031" block_type="exercise_21_31.html">
+<p id="scc9e-ch21-p0260" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.31 Estimating unemployment.</phrase> The Bureau of Labor Statistics (BLS) uses 90&#37; confidence in presenting unemployment results from the monthly Current Population Survey (CPS). The September 2015 survey reported that of the 156,715 individuals surveyed in the civilian labor force, 148,800 were employed and 7915 were unemployed. The CPS is not an SRS, but for the purposes of this exercise, we will act as though the BLS took an SRS of 156,715 people. Give a 90&#37; confidence interval for the proportion of those surveyed who were unemployed. (<em>Note:</em> <link href="example_8_3.html">Example 3</link> in <link href="scc9e-ch08.xml">Chapter 8</link> on page 166 explains how unemployment is measured.)</p>
+</question>
+<p id="scc9e_page_517" block_type="page_start" data-margin-content="right">517</p>
+<question id="scc9e-ch21-quest-032" block_type="exercise_21_32.html">
+<p id="scc9e-ch21-p0262" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.32 Safe margin of error.</phrase> The margin of error <phrase data-math="math_89"></phrase> is 0 when <phrase data-math="math_90"></phrase> is 0 or 1 and is largest when <phrase data-math="math_91"></phrase> is 1/2. To see this, calculate <phrase data-math="math_92"></phrase> for <phrase data-math="math_93"></phrase> = 0, 0.1, 0.2, . . . , 0.9, and 1. Plot your results vertically against the values of <phrase data-math="math_94"></phrase> horizontally. Draw a curve through the points. You have made a graph of <phrase data-math="math_95"></phrase>. Does the graph reach its highest point when <phrase data-math="math_96"></phrase>? You see that taking <phrase data-math="math_97"></phrase> gives a margin of error that is always at least as large as needed.</p>
+</question>
+<question id="scc9e-ch21-quest-033" block_type="exercise_21_33.html">
+<p id="scc9e-ch21-p0263" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.33 The idea of a sampling distribution.</phrase> <link href="figure_21_1.html">Figure 21.1</link> (page 496) shows the idea of the sampling distribution of a sample proportion <phrase data-math="math_98"></phrase> in picture form. Draw a similar picture that shows the idea of the sampling distribution of a sample mean <phrase data-math="math_99"></phrase>.</p>
+</question>
+<question id="scc9e-ch21-quest-034" block_type="exercise_21_34.html">
+<p id="scc9e-ch21-p0264" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.34 IQ test scores.</phrase> Here are the IQ test scores of 31 seventh-grade girls in a Midwest school district:</p>
+<p id="scc9e-ch21-p0265" block_type="CR-X-NL-MCL">114 100 104 89 102 91 114 114 103 105</p>
+<p id="scc9e-ch21-p0266" block_type="CR-X-NL-MCL">108 130 120 132 111 128 118 119 86 72</p>
+<p id="scc9e-ch21-p0267" block_type="CR-X-NL-MCL">111 103 74 112 107 103 98 96 112 112 93</p>
+<list id="scc9e-ch21-list-023" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-067"><p id="scc9e-ch21-p0268" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> We expect the distribution of IQ scores to be close to Normal. Make a histogram of the distribution of these 31 scores. Does your plot show outliers, clear skewness, or other non-Normal features? Using a calculator, find the mean and standard deviation of these scores.</p></li>
+<li id="scc9e-ch21-li-068"><p id="scc9e-ch21-p0269" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Treat the 31 girls as an SRS of all middle-school girls in the school district. Give a 95&#37; confidence interval for the mean score in the population.</p></li>
+<li id="scc9e-ch21-li-069"><p id="scc9e-ch21-p0270" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> In fact, the scores are those of all seventh-grade girls in one of the several schools in the district. Explain carefully why we cannot trust the confidence interval from (b).</p></li>
+</list>
+</question>
+<question id="scc9e-ch21-quest-035" block_type="exercise_21_35.html">
+<p id="scc9e-ch21-p0271" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.35 Averages versus individuals.</phrase> Scores on the ACT college entrance examination vary Normally with mean <em>&#956;</em> = 18 and standard deviation <em>&#963;</em> = 6. The range of reported scores is 1 to 36.</p>
+<list id="scc9e-ch21-list-024" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-070"><p id="scc9e-ch21-p0272" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What range contains the middle 95&#37; of all individual scores?</p></li>
+<li id="scc9e-ch21-li-071"><p id="scc9e-ch21-p0273" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> If the ACT scores of 25 randomly selected students are averaged, what range contains the middle 95&#37; of the averages <phrase data-math="math_100"></phrase> ?</p></li>
+</list>
+</question>
+<question id="scc9e-ch21-quest-036" block_type="exercise_21_36.html">
+<p id="scc9e-ch21-p0274" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.36 Blood pressure.</phrase> A randomized comparative experiment studied the effect of diet on blood pressure. Researchers divided 54 healthy white males at random into two groups. One group received a calcium supplement, and the other group received a placebo. At the beginning of the study, the researchers measured many variables on the subjects. The average seated systolic blood pressure of the 27 members of the placebo group was reported to be <phrase data-math="math_101"></phrase> with a standard deviation of <phrase data-math="math_102"></phrase>.</p>
+<list id="scc9e-ch21-list-025" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-072"><p id="scc9e-ch21-p0275" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Give a 95&#37; confidence interval for the mean blood pressure of the population from which the subjects were recruited.</p></li>
+<li id="scc9e-ch21-li-073"><p id="scc9e-ch21-p0276" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The recipe you used in part (a) requires an important assumption about the 27 men who provided the data. What is this assumption?</p></li>
+</list>
+</question>
+<question id="scc9e-ch21-quest-037" block_type="exercise_21_37.html">
+<p id="scc9e-ch21-p0277" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.37 Testing a random number generator.</phrase> Our statistical software has a &#8220;random number generator&#8217;&#8217; that is supposed to produce numbers scattered at random between 0 and 1. If this is true, the numbers generated come from a population with <em>&#956;</em> = 0.5. A command to generate 100 random numbers gives outcomes with mean <phrase data-math="math_103"></phrase> and <em>s</em> = 0.312. Give a 90&#37; confidence interval for the mean of all numbers produced by the software.</p>
+</question>
+<p id="scc9e_page_518" block_type="page_start" data-margin-content="left">518</p>
+<question id="scc9e-ch21-quest-038" block_type="exercise_21_38.html">
+<p id="scc9e-ch21-p0279" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.38 Will they charge more?</phrase> A bank wonders whether omitting the annual credit card fee for customers who charge at least &#36;2500 in a year will increase the amount charged on its credit cards. The bank makes this offer to an SRS of 200 of its credit card customers. It then compares how much these customers charge this year with the amount that they charged last year. The mean increase in the sample is &#36;346, and the standard deviation is &#36;112. Give a 99&#37; confidence interval for the mean amount charges would have increased if this benefit had been extended to all such customers.</p>
+</question>
+<question id="scc9e-ch21-quest-039" block_type="exercise_21_39.html">
+<p id="scc9e-ch21-p0280" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.39 A sampling distribution.</phrase> <link href="exercise_21_37.html">Exercise 21.37</link> concerns the mean of the random numbers generated by a computer program. The mean is supposed to be 0.5 because the numbers are supposed to be spread at random between 0 and 1. We asked the software to generate samples of 100 random numbers repeatedly. Here are the sample means <phrase data-math="math_104"></phrase> for 50 samples of size 100:</p>
+<p id="scc9e-ch21-p0281" block_type="CR-X-NL-MCL">0.532&#8195;0.450&#8195;0.481&#8195;0.508&#8195;0.510&#8195;0.530&#8195;0.499&#8195;0.461&#8195;0.543&#8195;0.490</p>
+<p id="scc9e-ch21-p0282" block_type="CR-X-NL-MCL">0.497&#8195;0.552&#8195;0.473&#8195;0.425&#8195;0.449&#8195;0.507&#8195;0.472&#8195;0.438&#8195;0.527&#8195;0.536</p>
+<p id="scc9e-ch21-p0283" block_type="CR-X-NL-MCL">0.492&#8195;0.484&#8195;0.498&#8195;0.536&#8195;0.492&#8195;0.483&#8195;0.529&#8195;0.490&#8195;0.548&#8195;0.439</p>
+<p id="scc9e-ch21-p0284" block_type="CR-X-NL-MCL">0.473&#8195;0.516&#8195;0.534&#8195;0.540&#8195;0.525&#8195;0.540&#8195;0.464&#8195;0.507&#8195;0.483&#8195;0.436</p>
+<p id="scc9e-ch21-p0285" block_type="CR-X-NL-MCL">0.497&#8195;0.493&#8195;0.458&#8195;0.527&#8195;0.458&#8195;0.510&#8195;0.498&#8195;0.480&#8195;0.479&#8195;0.499</p>
+<p id="scc9e-ch21-p0286" block_type="CR-X-NL">The sampling distribution of <phrase data-math="math_105"></phrase> is the distribution of the means from all possible samples. We actually have the means from 50 samples. Make a histogram of these 50 observations. Does the distribution appear to be roughly Normal, as the central limit theorem says will happen for large enough samples?</p>
+</question>
+<question id="scc9e-ch21-quest-040" block_type="exercise_21_40.html">
+<p id="scc9e-ch21-p0287" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.40 Will they charge more?</phrase> In <link href="exercise_21_38.html">Exercise 21.38</link>, you carried out the calculations for a confidence interval based on a bank&#8217;s experiment in changing the rules for its credit cards. You ought to ask some questions about this study.</p>
+<list id="scc9e-ch21-list-026" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-074"><p id="scc9e-ch21-p0288" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The distribution of the amount charged is skewed to the right, but outliers are prevented by the credit limit that the bank enforces on each card. Why can we use a confidence interval based on a Normal sampling distribution for the sample mean <phrase data-math="math_106"></phrase>?</p></li>
+<li id="scc9e-ch21-li-075"><p id="scc9e-ch21-p0289" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The bank&#8217;s experiment was not comparative. The increase in amount charged over last year may be explained by lurking variables rather than by the rule change. What are some plausible reasons charges might go up? Outline the design of a comparative randomized experiment to answer the bank&#8217;s question.</p></li>
+</list>
+</question>
+<question id="scc9e-ch21-quest-041" block_type="exercise_21_41.html">
+<p id="scc9e-ch21-p0290" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.41 A sampling distribution, continued.</phrase> <link href="exercise_21_39.html">Exercise 21.39</link> presents 50 sample means <phrase data-math="math_107"></phrase> from 50 random samples of size 100. Using a calculator, find the mean and standard error of these 50 values. Then answer these questions.</p>
+<list id="scc9e-ch21-list-027" type="ordered" block_type="lower-alpha">
+<li id="scc9e-ch21-li-076"><p id="scc9e-ch21-p0291" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The mean of the population from which the 50 samples were drawn is <em>&#956;</em> = 0.5 if the random number generator is accurate. What do you expect the mean of the distribution of <phrase data-math="math_108"></phrase>&#8217;s from all possible samples to be? Is the mean of these 50 samples close to this value?</p></li>
+<li id="scc9e-ch21-li-077"><p id="scc9e-ch21-p0292" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> The standard error of the distribution of <phrase data-math="math_109"></phrase> from samples of size <em>n</em> = 100 is supposed to be <phrase data-math="math_110"></phrase>, where <em>&#963;</em> is the standard deviation of individuals in the population. Use this fact with the standard deviation you calculated for the 50 <phrase data-math="math_111"></phrase>&#8217;s to estimate <em>&#963;</em>.</p></li>
+</list>
+</question>
+<p id="scc9e_page_519" block_type="page_start" data-margin-content="right">519</p>
+<question id="scc9e-ch21-quest-042" block_type="exercise_21_42.html">
+<p id="scc9e-ch21-p0294" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">21.42 Plus four confidence intervals for a proportion.</phrase> The large-sample confidence interval <phrase data-math="math_112"></phrase> for a sample proportion <em>p</em> is easy to calculate. It is also easy to understand because it rests directly on the approximately Normal distribution of <phrase data-math="math_113"></phrase>. Unfortunately, confidence levels from this interval can be inaccurate, particularly with smaller sample sizes where there are only a few successes or a few failures. The actual confidence level is usually <em>less</em> than the confidence level you asked for in choosing the critical value <em>z</em>*. That&#8217;s bad. What is worse, accuracy does not consistently get better as the sample size <phrase data-math="math_114"></phrase> increases. There are &#8220;lucky&#8217;&#8217; and &#8220;unlucky&#8217;&#8217; combinations of the sample size <phrase data-math="math_115"></phrase> and the true population proportion <em>p</em>.</p>
+<p id="scc9e-ch21-p0295" block_type="CR-X-NL">Fortunately, there is a simple modification that is almost magically effective in improving the accuracy of the confidence interval. We call it the &#8220;plus four&#8217;&#8217; method because all you need to do is <em>add four imaginary observations, two successes and two failures.</em> With the added observations, the <strong>plus four estimate</strong> of <em>p</em> is</p>
+<p id="scc9e-ch21-p0296" block_type="CR-X-NL"><phrase data-math="math_116"></phrase></p>
+<p id="scc9e-ch21-p0297" block_type="CR-X-NL">The formula for the confidence interval is exactly as before, with the new sample size and number of successes. To practice using the plus four confidence interval, consider the following problem. Cocaine users commonly snort the powder up the nose through a rolled-up paper currency bill. Spain has a high rate of cocaine use, so it&#8217;s not surprising that euro paper currency in Spain often shows traces of cocaine. Researchers collected 20 euro bills in each of several Spanish cities. In Madrid, 17 out of 20 bore traces of cocaine. The researchers note that we can&#8217;t tell whether the bills had been used to snort cocaine or had been contaminated in currency-sorting machines. Use the plus four confidence interval method to estimate the proportion of all euro bills in Madrid that have traces of cocaine.</p>
+</question>
+<box id="scc9e-ch21-box-023" numbered="false" block_type="exploring-web">
+<p id="scc9e-ch21-p0293" block_type="QRL icon"><image asset-id="scc9e-ch21-img-021" alt="image" src="asset/global_images/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch21-p0298" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
+<p id="scc9e-ch21-p0299" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
+</box>
+</section>
+</chapter>

@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manuscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML" manuscript-id="17" name="" title="Moore_Chapter_17" xsi:noNamespaceSchemaLocation="xsd/digfir_manuscript.xsd">
-<chapter id="scc9e-ch17" number="17" title="Chapter 17: Thinking about Chance" start-numbering-at="403" numbered="true">
+<chapter id="scc9e-ch17" number="17" title="Chapter 17: Thinking about Chance" start-numbering-at="17" numbered="true">
 <section id="scc9e-ch17-sec1-01" block_type="part_intro" title="PART 3" numbered="false" level="1" print_page="403">
 <section-metadata><section-title>PART III</section-title></section-metadata>
 <figure id="scc9e-ch17-unfig-01" block_type="part_opener" numbered="false" mmtype="image" mmsrc="" attr="">
 <layout align="right" width="medium" border="false"/>
-<image asset-id="scc9e-ch17-img-1" alt="image" src="images/17MOORESCC-MSE_9e_PO03.jpg"/>
+<image asset-id="scc9e-ch17-img-1" alt="image" src="asset/ch17/17MOORESCC-MSE_9e_PO03.jpg"/>
 <asset_source><phrase block_type="PO-PH-CL">Liquidlibrary/Thinkstock/Getty Images</phrase></asset_source>
 </figure>
 <p id="scc9e_page_403" block_type="page_start" data-margin-content="right">403</p>
@@ -19,7 +17,7 @@
 <p id="scc9e_page_405" block_type="page_start" data-margin-content="right">405</p>
 <figure id="scc9e-ch17-unfig-02" block_type="CO-PH-CL" numbered="false" mmtype="image" mmsrc="" attr="">
 <layout align="right" width="medium" border="false"/>
-<image asset-id="scc9e-ch17-img-2" alt="image" src="images/17MOORESCC-MSE_9e_CO17.jpg"/>
+<image asset-id="scc9e-ch17-img-2" alt="image" src="asset/ch17/17MOORESCC-MSE_9e_CO17.jpg"/>
 <asset_source><phrase block_type="CO-PH-CL">&#169; ROB &#38; SAS/Corbis</phrase></asset_source>
 </figure>
 <box id="scc9e-ch17-box1" numbered="false" block_type="BX4-H-ri">
@@ -33,22 +31,22 @@
 <p id="scc9e-ch17-p011" block_type="TXT">Even the rules of football agree that tossing a coin avoids favoritism. Favoritism in choosing subjects for a sample survey or allotting patients to treatment and placebo groups in a medical experiment is as undesirable as it is in awarding first possession of the ball in football. That&#8217;s why statisticians recommend random samples and randomized experiments, which are fancy versions of tossing a coin. A big fact emerges when we watch coin tosses or the results of random samples closely: <strong>chance behavior is unpredictable in the short run but has a regular and predictable pattern in the long run.</strong></p>
 <p id="scc9e_page_406" block_type="page_start" data-margin-content="left">406</p>
 <p id="scc9e-ch17-p013" block_type="TXT">Toss a coin or choose a simple random sample. The result can&#8217;t be predicted in advance because the result will vary when you toss the coin or choose the sample repeatedly. But there is still a regular pattern in the results, a pattern that emerges clearly only after many repetitions. This remarkable fact is the basis for the idea of probability.</p>
-<box id="scc9e-ch17-box2" numbered="false" block_type="EXP">
+<box id="scc9e-ch17-box2" numbered="false" block_type="EXP" data-filename="example_17_1.html">
 <p id="scc9e-ch17-p014" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 1</phrase> Coin tossing</p>
-<p id="scc9e-ch17-p015" block_type="EXP-first">When you toss a coin, there are only two possible outcomes, heads or tails. <link href="figure_17_1.html">Figure 17.1</link> shows the results of tossing a coin 1000 times. For each number of tosses from 1 to 1000, we have plotted the proportion of those tosses that gave a head. The first toss was a head, so the proportion of heads starts at 1. The second toss was a tail, reducing the proportion of heads to 0.5 after two tosses. The next four tosses were tails followed by a head, so the proportion of heads after seven tosses is 2<m:math display='inline'><m:mi>/</m:mi></m:math>7, or 0.286.</p>
+<p id="scc9e-ch17-p015" block_type="EXP-first">When you toss a coin, there are only two possible outcomes, heads or tails. <link href="figure_17_1.html">Figure 17.1</link> shows the results of tossing a coin 1000 times. For each number of tosses from 1 to 1000, we have plotted the proportion of those tosses that gave a head. The first toss was a head, so the proportion of heads starts at 1. The second toss was a tail, reducing the proportion of heads to 0.5 after two tosses. The next four tosses were tails followed by a head, so the proportion of heads after seven tosses is 2<phrase data-math="math_1"></phrase>7, or 0.286.</p>
 <p id="scc9e-ch17-p016" block_type="EXP-mid">The proportion of tosses that produce heads is quite variable at first, but it settles down as we make more and more tosses. Eventually, this proportion gets close to 0.5 and stays there. We say that 0.5 is the <em>probability</em> of a head. The probability 0.5 appears as a horizontal line on the graph.</p>
 </box>
 <p id="scc9e-ch17-p017" block_type="TXT">&#8220;Random&#8221; in statistics is a description of events that are unpredictable in the short run but that exhibit a kind of order that emerges only in the long run. It is not a synonym for &#8220;haphazard,&#8221; which is defined as lacking any principle of organization. We encounter the unpredictable side of randomness in our everyday experience, but we rarely see enough repetitions of the same random phenomenon to observe the long-term regularity that probability describes. You can see that regularity emerging in <link href="figure_17_1.html">Figure 17.1</link>. In the very long run, the proportion of tosses that give a head is 0.5. This is the intuitive idea of probability. Probability 0.5 means &#8220;occurs half the time in a very large number of trials.&#8221;</p>
-<figure id="scc9e-ch17-fig-03" block_type="FIGURE" data-caption-compass="S" numbered="true" number="17.1" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch17-fig-03" block_type="FIGURE" data-caption-compass="S" numbered="true" number="17.1" mmtype="image" mmsrc="" attr="" data-filename="figure_17_1.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch17-img-3" alt="image" src="images/17MOORESCC-MSE_9e_fig_17_01.jpg"/>
+<image asset-id="scc9e-ch17-img-3" alt="image" src="asset/ch17/17MOORESCC-MSE_9e_fig_17_01.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 17.1</phrase> <phrase block_type="FG-CAP">Toss a coin many times. The proportion of heads changes as we make more tosses but eventually gets very close to 0.5. This is what we mean when we say, &#8220;The probability of a head is one-half.&#8221;</phrase></caption>
 </figure>
 <p id="scc9e_page_407" block_type="page_start" data-margin-content="right">407</p>
 <p id="scc9e-ch17-p019" block_type="TXT">We might suspect that a coin has probability 0.5 of coming up heads just because the coin has two sides. We might be tempted to theorize that for events with two seemingly equally likely outcomes, each outcome should have probability 0.5 of occurring. But babies must have one of the two sexes, and the probabilities aren&#8217;t equal&#8212;the probability of a boy is about 0.51, not 0.50. The idea of probability is empirical. That is, it is based on data rather than theorizing alone. Probability describes what happens in very many trials, and we must actually observe many coin tosses or many babies to pin down a probability. In the case of tossing a coin, some diligent people have in fact made thousands of tosses.</p>
-<box id="scc9e-ch17-box3" numbered="false" block_type="EXP">
+<box id="scc9e-ch17-box3" numbered="false" block_type="EXP" data-filename="example_17_2.html">
 <p id="scc9e-ch17-p020" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> Some coin tossers</p>
-<p id="scc9e-ch17-p021" block_type="EXP-first">The French naturalist Count Buffon (1707 &#8211;1788) tossed a coin 4040 times. Result: 2048 heads, or proportion 2048<m:math display='inline'><m:mi>/</m:mi></m:math>4040 = 0.5069 for heads.</p>
+<p id="scc9e-ch17-p021" block_type="EXP-first">The French naturalist Count Buffon (1707 &#8211;1788) tossed a coin 4040 times. Result: 2048 heads, or proportion 2048<phrase data-math="math_2"></phrase>4040 = 0.5069 for heads.</p>
 <p id="scc9e-ch17-p022" block_type="EXP-mid">Around 1900, the English statistician Karl Pearson heroically tossed a coin 24,000 times. Result: 12,012 heads, a proportion of 0.5005.</p>
 <p id="scc9e-ch17-p023" block_type="EXP-mid">While imprisoned by the Germans during World War II, the South African mathematician John Kerrich tossed a coin 10,000 times. Result: 5067 heads, a proportion of 0.5067.</p>
 </box>
@@ -61,9 +59,9 @@
 <p id="scc9e_page_408" block_type="page_start" data-margin-content="left">408</p>
 <p id="scc9e-ch17-p029" block_type="TXT">We aren&#8217;t thinking deeply here. That some things are random is simply an observed fact about the world. Probability just gives us a language to describe the long-term regularity of random behavior. The outcome of a coin toss, the time between emissions of particles by a radioactive source, and the sexes of the next litter of lab rats are all random. So is the outcome of a random sample or a randomized experiment. The behavior of large groups of individuals is often as random as the behavior of many coin tosses or many random samples. Life insurance, for example, is based on the fact that deaths occur at random among many individuals.</p>
 <box id="scc9e-ch17-box5" numbered="false" block_type="margin-statistics">
-<p id="scc9e-ch17-p030" block_type="MN-TXT"><image asset-id="scc9e-ch17-img-4" alt="image" src="images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">Does God play dice?</phrase> Few things in the world are truly random in the sense that no amount of information will allow us to predict the outcome. We could, in principle, apply the laws of physics to a tossed coin, for example, and calculate whether it will land heads or tails. But randomness does rule events inside individual atoms. Albert Einstein didn&#8217;t like this feature of the new quantum theory. &#8220;God does not play dice with the universe,&#8221; said the great scientist. Many years later, it appears that Einstein was wrong.</p>
+<p id="scc9e-ch17-p030" block_type="MN-TXT"><image asset-id="scc9e-ch17-img-4" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">Does God play dice?</phrase> Few things in the world are truly random in the sense that no amount of information will allow us to predict the outcome. We could, in principle, apply the laws of physics to a tossed coin, for example, and calculate whether it will land heads or tails. But randomness does rule events inside individual atoms. Albert Einstein didn&#8217;t like this feature of the new quantum theory. &#8220;God does not play dice with the universe,&#8221; said the great scientist. Many years later, it appears that Einstein was wrong.</p>
 </box>
-<box id="scc9e-ch17-box6" numbered="false" block_type="EXP">
+<box id="scc9e-ch17-box6" numbered="false" block_type="EXP" data-filename="example_17_3.html">
 <p id="scc9e-ch17-p031" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> The probability of dying</p>
 <p id="scc9e-ch17-p032" block_type="EXP-first">We can&#8217;t predict whether a particular person will die in the next year. But if we observe millions of people, deaths are random. In 2013, the National Center for Health Statistics reported that the proportion of men aged 20 to 24 years who die in any one year is 0.0012. This is the <em>probability</em> that a young man will die next year. For women that age, the probability of death is about 0.0004.</p>
 <p id="scc9e-ch17-p033" block_type="EXP-mid">If an insurance company sells many policies to people aged 20 to 24, it knows that it will have to pay off next year on about 0.12&#37; of the policies sold on men&#8217;s lives and on about 0.04&#37; of the policies sold on women&#8217;s lives. It will charge more to insure a man because the probability of having to pay is higher.</p>
@@ -73,9 +71,9 @@
 <section-metadata><section-title>The ancient history of chance</section-title></section-metadata>
 <p id="scc9e-ch17-p034" block_type="TXT-ni">Randomness is most easily noticed in many repetitions of games of chance: rolling dice, dealing shuffled cards, spinning a roulette wheel. Chance devices similar to these have been used from remote antiquity to discover the will of the gods. The most common method of randomization in ancient times was &#8220;rolling the bones&#8221;&#8212;that is, tossing several astragali. The astragalus (<link href="figure_17_2.html">Figure 17.2</link>) is a six-sided animal heel bone that, when thrown, will come to rest on one of four sides (the other two sides are rounded). Cubical dice, made of pottery or bone, came later, but even dice existed before 2000 <phrase block_type="small">B</phrase>.<phrase block_type="small">C</phrase>. Gambling on the throw of astragali or dice is, compared with divination, almost a modern development. There is no clear record of this vice before about 300 <phrase block_type="small">B</phrase>.<phrase block_type="small">C</phrase>. Gambling reached flood tide in Roman times, then temporarily receded (along with divination) in the face of Christian displeasure.</p>
 <p id="scc9e_page_409" block_type="page_start" data-margin-content="right">409</p>
-<figure id="scc9e-ch17-fig-04" block_type="FIGURE" data-caption-compass="S" numbered="true" number="17.2" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch17-fig-04" block_type="FIGURE" data-caption-compass="S" numbered="true" number="17.2" mmtype="image" mmsrc="" attr="" data-filename="figure_17_2.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch17-img-5" alt="image" src="images/17MOORESCC-MSE_9e_fig_17_02.jpg"/>
+<image asset-id="scc9e-ch17-img-5" alt="image" src="asset/ch17/17MOORESCC-MSE_9e_fig_17_02.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 17.2</phrase> <phrase block_type="FG-CAP">Animal heel bones (astragali).</phrase></caption>
 </figure>
 <p id="scc9e-ch17-p036" block_type="TXT">Chance devices such as astragali have been used from the beginning of recorded history. Yet none of the great mathematicians of antiquity studied the regular pattern of many throws of bones or dice. Perhaps this is because astragali and most ancient dice were so irregular that each had a different pattern of outcomes. Or perhaps the reasons lie deeper, in the classical reluctance to engage in systematic experimentation.</p>
@@ -86,26 +84,26 @@
 <p id="scc9e-ch17-p038" block_type="TXT-ni">The idea of probability seems straightforward. It answers the question, &#8220;What would happen if we did this many times?&#8221; In fact, both the behavior of random phenomena and the idea of probability are a bit subtle. We meet chance behavior constantly, and psychologists tell us that we deal with it poorly.</p>
 <p id="scc9e-ch17-p039" block_type="H3"><strong>The myth of short-run regularity</strong> The idea of probability is that randomness is regular <em>in the long run</em>. Unfortunately, our intuition about randomness tries to tell us that random phenomena should also be regular in the short run. When they aren&#8217;t, we look for some explanation other than chance variation.</p>
 <p id="scc9e_page_410" block_type="page_start" data-margin-content="left">410</p>
-<box id="scc9e-ch17-box7" numbered="false" block_type="EXP">
+<box id="scc9e-ch17-box7" numbered="false" block_type="EXP" data-filename="example_17_4.html">
 <p id="scc9e-ch17-p041" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> What looks random?</p>
 <p id="scc9e-ch17-p042" block_type="EXP-first">Toss a fair coin six times and record heads (H) or tails (T) on each toss. Which of these outcomes is most probable?</p>
 <p id="scc9e-ch17-p043" block_type="EXP-MCL">HTHTTH&#8195;&#8195;HHHTTT&#8195;&#8195;TTTTTT</p>
 <p id="scc9e-ch17-p044" block_type="EXP-mid">Almost everyone says that HTHTTH is more probable because TTTTTT and HHHTTT do not &#8220;look random.&#8221; In fact, all three are equally probable. That heads and tails are equally probable says all specific outcomes of heads and tails in six tosses are equally likely. That heads and tails are equally probable says only that about half of a very long sequence of tosses will be heads. This is because in very long sequences of tosses, the number of outcomes for which the proportion of heads is approximately one-half is much larger that the number of outcomes for which the proportion is not near one-half. That heads and tails are equally probable doesn&#8217;t say that heads and tails must come close to alternating in the short run. It doesn&#8217;t say that specific outcomes that balance the number of heads and tails are more likely than specific outcomes that don&#8217;t. The coin has no memory. It doesn&#8217;t know what past outcomes were, and it can&#8217;t try to create a balanced sequence.</p>
 </box>
 <p id="scc9e-ch17-p045" block_type="TXT">The outcome TTTTTT in tossing six coins looks unusual because of the run of six straight tails. The outcome HHHTTT also looks unusual because of the pattern of a run of three straight heads followed by a run of three straight tails. Runs seem &#8220;not random&#8221; to our intuition but are not necessarily unusual. Here&#8217;s an example more striking than tossing coins.</p>
-<box id="scc9e-ch17-box8" numbered="false" block_type="EXP">
+<box id="scc9e-ch17-box8" numbered="false" block_type="EXP" data-filename="example_17_5.html">
 <p id="scc9e-ch17-p046" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 5</phrase> The hot hand in basketball</p>
 <p id="scc9e-ch17-p047" block_type="EXP-first">Belief that runs must result from something other than &#8220;just chance&#8221; influences behavior. If a basketball player makes several consecutive shots, both the fans and his teammates believe that he has a &#8220;hot hand&#8221; and is more likely to make the next shot. This is not supported by data. Careful study has shown that runs of baskets made or missed are no more frequent in basketball than would be expected if each shot were independent of the player&#8217;s previous shots. Players perform consistently, not in streaks. If a player makes half her shots in the long run, her hits and misses behave just like tosses of a coin&#8212;and that means that runs of hits and misses are more common than our intuition expects.</p>
-<figure id="scc9e-ch17-unfig-05" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch17-unfig-05" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="17_17MOORESCC-MSE_9e_P_17_01.html">
 <layout align="left" width="small" border="false"/>
-<image asset-id="scc9e-ch17-img-6" alt="image" src="images/17MOORESCC-MSE_9e_P_17_01.jpg"/>
+<image asset-id="scc9e-ch17-img-6" alt="image" src="asset/ch17/17MOORESCC-MSE_9e_P_17_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">Zoonar/Thinkstock/Getty Images</phrase></asset_source>
 </figure>
 </box>
 <p id="scc9e_page_411" block_type="page_start" data-margin-content="right">411</p>
 <box id="scc9e-ch17-box9" numbered="false" block_type="BX2">
 <p id="scc9e-ch17-p049" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch17-q1">
+<question id="scc9e-ch17-q1" block_type="exercise_17_1.html">
 <p id="scc9e-ch17-p050" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">17.1 Coin tossing and randomness.</phrase> Toss a coin 10 times and record heads (H) or tails (T) on each toss. Which of these outcomes is most probable? Least probable?</p>
 <p id="scc9e-ch17-p051" block_type="MCL">HTHTTHHTHT&#8195;&#8195;TTTTTHHHHH&#8195;&#8195;HHHHHHHHHH</p>
 </question>
@@ -113,18 +111,18 @@
 <p id="scc9e-ch17-p052" block_type="H3"><strong>The myth of the surprising coincidence</strong> On November 18, 2006, Ohio State beat Michigan in football by a score of 42 to 39. Later that day, the winning numbers in the Pick 4 Ohio lottery were 4239. What an amazing coincidence!</p>
 <p id="scc9e-ch17-p053" block_type="TXT">Well, maybe not. It is certainly unlikely that the Pick 4 lottery would match the Ohio State versus Michigan score that day, but it is not so unlikely that sometime during the 2006 season, the winning number of some state lottery would match the recent score of some professional, college, or high school football game involving a team in the state. There are 32 NFL teams, 235 NCAA Division I teams, 150 NCAA Division II teams, and 231 NCAA Division III teams. There are also more than 25,000 high school football teams. All play a number of games during the season. There are 38 states with a Pick 3 or Pick 4 lottery game, with winning numbers often drawn multiple times per week. That&#8217;s a lot of opportunities to match a Pick 3 or Pick 4 lottery number that has digits that could conceivably be a football score like 217 or 4239.</p>
 <p id="scc9e-ch17-p054" block_type="TXT">When something unusual happens, we look back and say, &#8220;Wasn&#8217;t that unlikely?&#8221; We would have said the same if any of thousands of other unlikely things had happened. Here&#8217;s an example where it was possible to actually calculate the probabilities.</p>
-<box id="scc9e-ch17-box10" numbered="false" block_type="EXP">
+<box id="scc9e-ch17-box10" numbered="false" block_type="EXP" data-filename="example_17_6.html">
 <p id="scc9e-ch17-p055" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 6</phrase> Winning the lottery twice</p>
 <p id="scc9e-ch17-p056" block_type="EXP-first">In 1986, Evelyn Marie Adams won the New Jersey State lottery for the second time, adding &#36;1.5 million to her previous &#36;3.9 million jackpot. The <em>New York Times</em> (February 14, 1986) claimed that the odds of one person winning the big prize twice were about 1 in 17 trillion. Nonsense, said two statistics professors in a letter that appeared in the <em>Times</em> two weeks later. The chance that Evelyn Marie Adams would win twice in her lifetime is indeed tiny, but it is almost certain that <em>someone</em> among the millions of regular lottery players in the United States would win two jackpot prizes. The statisticians estimated even odds (a probability of one-half) of another double winner within seven years. Sure enough, Robert Humphries won his second Pennsylvania lottery jackpot (&#36;6.8 million total) in May 1988. You might find it interesting to do an Internet search of &#8220;man wins state lottery two times&#8221; or &#8220;woman wins state lottery two times.&#8221; A recent double winner was a man who won the Florida State lottery for the second time on August 31, 2013.</p>
-<figure id="scc9e-ch17-unfig-06" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch17-unfig-06" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="17_17MOORESCC-MSE_9e_P_17_02.html">
 <layout align="right" width="small" border="false"/>
-<image asset-id="scc9e-ch17-img-7" alt="image" src="images/17MOORESCC-MSE_9e_P_17_02.jpg"/>
+<image asset-id="scc9e-ch17-img-7" alt="image" src="asset/ch17/17MOORESCC-MSE_9e_P_17_02.jpg"/>
 <asset_source><phrase block_type="PH-CL">Bloomberg via Getty Images</phrase></asset_source>
 </figure>
 </box>
 <p id="scc9e_page_412" block_type="page_start" data-margin-content="left">412</p>
 <p id="scc9e-ch17-p058" block_type="TXT">Unusual events&#8212;especially distressing events&#8212;bring out the human desire to pinpoint a reason, a <em>cause</em>. Here&#8217;s a sequel to our earlier discussion of causation: sometimes it&#8217;s just the play of chance.</p>
-<box id="scc9e-ch17-box11" numbered="false" block_type="EXP">
+<box id="scc9e-ch17-box11" numbered="false" block_type="EXP" data-filename="example_17_7.html">
 <p id="scc9e-ch17-p059" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 7</phrase> Cancer clusters</p>
 <p id="scc9e-ch17-p060" block_type="EXP-first">Between 1996 and 2013, 37 children in Clyde, Ohio, a town of 6000 halfway between Toledo and Cleveland, were diagnosed with cancer. Four of the children had died. With many of the diagnoses coming between 2002 and 2006, state health authorities declared it a cancer cluster, saying the number and type of diagnoses exceed what would be expected statistically for so small a population over that time. In the fall of 2012, the EPA found high levels of toxic, possibly cancer-causing chemical compounds in soil samples from Whirlpool Park, formerly a residential area owned by home appliance manufacturer Whirlpool Corp from the 1950s until 2008. Locals told news reporters that &#8220;black sludge&#8221; had been dumped in the area during that time. However, as recently as 2009, state agencies had conducted tests in the area and found that levels of contamination were not high enough to endanger the lives of nearby residents.</p>
 <p id="scc9e-ch17-p061" block_type="EXP-mid">Between 1997 and 2004, 16 children were diagnosed with cancer and three died in Fallon, Nevada, a farming community of 8300 some 60 miles southeast of Reno. This is an unusual number of cases for such a small town. Residents were concerned that perhaps high levels of naturally occurring arsenic in Fallon&#8217;s water supply, a pipeline carrying jet fuel to the local Navy base, local pesticide spraying, high tungsten levels, or an underground nuclear test conducted 30 miles away about 40 years ago might be responsible. However, scientists were unable to link any of these to the cancers. Residents were disappointed by the scientists&#8217; findings.</p>
@@ -133,14 +131,14 @@
 </box>
 <p id="scc9e_page_413" block_type="page_start" data-margin-content="right">413</p>
 <box id="scc9e-ch17-box12" numbered="false" block_type="margin-statistics">
-<p id="scc9e-ch17-p065" block_type="MN-TXT"><image asset-id="scc9e-ch17-img-8" alt="image" src="images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">The probability of rain is . . .</phrase> You work all week. Then it rains on the weekend. Can there really be a statistical truth behind our perception that the weather is against us? At least on the East Coast of the United States, the answer is Yes. Going back to 1946, it seems that Sundays receive 22&#37; more precipitation than Mondays. The likely explanation is that the pollution from all those workday cars and trucks forms the seeds for raindrops&#8212;with just enough delay to cause rain on the weekend.</p>
+<p id="scc9e-ch17-p065" block_type="MN-TXT"><image asset-id="scc9e-ch17-img-8" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">The probability of rain is . . .</phrase> You work all week. Then it rains on the weekend. Can there really be a statistical truth behind our perception that the weather is against us? At least on the East Coast of the United States, the answer is Yes. Going back to 1946, it seems that Sundays receive 22&#37; more precipitation than Mondays. The likely explanation is that the pollution from all those workday cars and trucks forms the seeds for raindrops&#8212;with just enough delay to cause rain on the weekend.</p>
 </box>
 <p id="scc9e-ch17-p066" block_type="TXT">Cancer is a common disease, accounting for more than 23&#37; of all deaths in the United States. That cancer cases sometimes occur in clusters in the same neighborhood is not surprising; there are bound to be clusters <em>somewhere</em> simply by chance. But when a cancer cluster occurs in <em>our</em> neighborhood, we tend to suspect the worst and look for someone to blame. State authorities get several thousand calls a year from people worried about &#8220;too much cancer&#8221; in their area. But the National Cancer Institute finds that the majority of reported cancer clusters are simply the result of chance.</p>
 <p id="scc9e-ch17-p067" block_type="TXT">Both of the Massachusetts cancer clusters were investigated by statisticians from the Harvard School of Public Health. The investigators tried to obtain complete data on everyone who had lived in the neighborhoods in the periods in question and to estimate their exposure to the suspect drinking water. They also tried to obtain data on other factors that might explain cancer, such as smoking and occupational exposure to toxic substances. The verdict: chance is the likely explanation of the Randolph cluster, but there is evidence of an association between drinking water from the two Woburn wells and developing childhood leukemia.</p>
 <p id="scc9e-ch17-p068" block_type="H3"><strong>The myth of the law of averages</strong> Roaming the gambling floors in Las Vegas, watching money disappear into the drop boxes under the tables, is revealing. You can see some interesting human behavior in a casino. When the shooter in the dice game craps rolls several winners in a row, some gamblers think she has a &#8220;hot hand&#8221; and bet that she will keep on winning. Others say that &#8220;the law of averages&#8221; means that she must now lose so that wins and losses will balance out. Believers in the law of averages think that if you toss a coin six times and get TTTTTT, the next toss must be more likely to give a head. It&#8217;s true that in the long run heads must appear half the time. What is myth is that future outcomes must make up for an imbalance like six straight tails.</p>
 <p id="scc9e-ch17-p069" block_type="TXT">Coins and dice have no memories. A coin doesn&#8217;t know that the first six outcomes were tails, and it can&#8217;t try to get a head on the next toss to even things out. Of course, things do even out <em>in the long run</em>. After 10,000 tosses, the results of the first six tosses don&#8217;t matter. They are overwhelmed by the results of the next 9994 tosses, not compensated for.</p>
 <p id="scc9e_page_414" block_type="page_start" data-margin-content="left">414</p>
-<box id="scc9e-ch17-box13" numbered="false" block_type="EXP">
+<box id="scc9e-ch17-box13" numbered="false" block_type="EXP" data-filename="example_17_8.html">
 <p id="scc9e-ch17-p071" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 8</phrase> We want a boy</p>
 <p id="scc9e-ch17-p072" block_type="EXP-first">Belief in this phony &#8220;law of averages&#8221; can lead to consequences close to disastrous. A few years ago, &#8220;Dear Abby&#8221; published in her advice column a letter from a distraught mother of eight girls. It seems that she and her husband had planned to limit their family to four children. When all four were girls, they tried again&#8212;and again, and again. After seven straight girls, even her doctor had assured her that &#8220;the law of averages was in our favor 100 to 1.&#8221; Unfortunately for this couple, having children is like tossing coins. Eight girls in a row is highly unlikely, but once seven girls have been born, it is not at all unlikely that the next child will be a girl&#8212;and it was.</p>
 </box>
@@ -149,14 +147,14 @@
 <p id="scc9e-ch17-p075" block_type="TXT">It is not uncommon to see the law of averages misstated in terms of the sums or counts rather than means or proportions. For example, assuming that the birthrates for boys and girls in the United States are equal, you may hear someone state that the <em>total</em> number of males and females in the United States should be nearly equal rather than stating that the <em>proportion</em> of males and females in the United States should be nearly equal.</p>
 <box id="scc9e-ch17-box14" numbered="false" block_type="BX2">
 <p id="scc9e-ch17-p076" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
-<question id="scc9e-ch17-q2">
+<question id="scc9e-ch17-q2" block_type="exercise_17_2.html">
 <p id="scc9e-ch17-p077" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">17.2 Coin tossing and the law of averages.</phrase> The author C. S. Lewis once wrote the following, referring to the law of averages: &#8220;If you tossed a coin a billion times, you could predict a nearly equal number of heads and tails.&#8221; Is this a correct statement of the law of averages? If not, how would you rewrite the statement so that it is correct?</p>
 </question>
 </box>
 <p id="scc9e_page_415" block_type="page_start" data-margin-content="right">415</p>
-<figure id="scc9e-ch17-fig-07" block_type="FIGURE" data-caption-compass="S" numbered="true" number="17.3" mmtype="image" mmsrc="" attr="">
+<figure id="scc9e-ch17-fig-07" block_type="FIGURE" data-caption-compass="S" numbered="true" number="17.3" mmtype="image" mmsrc="" attr="" data-filename="figure_17_3.html">
 <layout align="center" width="medium" border="false"/>
-<image asset-id="scc9e-ch17-img-9" alt="image" src="images/17MOORESCC-MSE_9e_fig_17_03.jpg"/>
+<image asset-id="scc9e-ch17-img-9" alt="image" src="asset/ch17/17MOORESCC-MSE_9e_fig_17_03.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 17.3</phrase> <phrase block_type="FG-CAP">Toss a coin many times. The difference between the observed number of heads and exactly one-half the number of tosses becomes more variable as the number of tosses increases.</phrase></caption>
 </figure>
 </section>
@@ -180,14 +178,14 @@
 <section id="scc9e-ch17-sec1-06" block_type="h1" chapter="ch17" numbered="false" level="1" print_page="417">
 <section-metadata><section-title>Probability and risk</section-title></section-metadata>
 <p id="scc9e-ch17-p090" block_type="TXT-ni">Once we understand that &#8220;personal judgment of how likely&#8221; and &#8220;what happens in many repetitions&#8221; are different ideas, we have a good start toward understanding why the public and the experts disagree so strongly about what is risky and what isn&#8217;t. The experts use probabilities from data to describe the risk of an unpleasant event. Individuals and society, however, seem to ignore data. We worry about some risks that almost never occur while ignoring others that are much more probable.</p>
-<box id="scc9e-ch17-box16" numbered="false" block_type="EXP">
+<box id="scc9e-ch17-box16" numbered="false" block_type="EXP" data-filename="example_17_9.html">
 <p id="scc9e-ch17-p091" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 9</phrase> Asbestos in the schools</p>
-<p id="scc9e-ch17-p092" block_type="EXP-first">High exposure to asbestos is dangerous. Low exposure, such as that experienced by teachers and students in schools where asbestos is present in the insulation around pipes, is not very risky. The probability that a teacher who works for 30 years in a school with typical asbestos levels will get cancer from the asbestos is around 15<m:math display='inline'><m:mi>/</m:mi></m:math>1,000,000. The risk of dying in a car accident during a lifetime of driving is about 15,000<m:math display='inline'><m:mi>/</m:mi></m:math>1,000,000. That is, driving regularly is about 1000 times more risky than teaching in a school where asbestos is present.</p>
+<p id="scc9e-ch17-p092" block_type="EXP-first">High exposure to asbestos is dangerous. Low exposure, such as that experienced by teachers and students in schools where asbestos is present in the insulation around pipes, is not very risky. The probability that a teacher who works for 30 years in a school with typical asbestos levels will get cancer from the asbestos is around 15<phrase data-math="math_3"></phrase>1,000,000. The risk of dying in a car accident during a lifetime of driving is about 15,000<phrase data-math="math_4"></phrase>1,000,000. That is, driving regularly is about 1000 times more risky than teaching in a school where asbestos is present.</p>
 <p id="scc9e-ch17-p093" block_type="EXP-mid">Risk does not stop us from driving. Yet the much smaller risk from asbestos launched massive cleanup campaigns and a federal requirement that every school inspect for asbestos and make the findings public.</p>
 </box>
 <p id="scc9e_page_418" block_type="page_start" data-margin-content="left">418</p>
 <box id="scc9e-ch17-box17" numbered="false" block_type="margin-statistics">
-<p id="scc9e-ch17-p095" block_type="MN-TXT"><image asset-id="scc9e-ch17-img-10" alt="image" src="images/BPS6e_nugget_icon.jpg"/> <phrase block_type="MN-T-ri">What are the odds?</phrase>  Gamblers often express chance in terms of <em>odds</em> rather than probability. Odds of <em>A</em> to <em>B</em> against an outcome means that the probability of that outcome is <em>B</em><m:math display='inline'><m:mi>/</m:mi></m:math>(<em>A</em> + <em>B</em>). So &#8220;odds of 5 to 1&#8221; is another way of saying &#8220;probability 1<m:math display='inline'><m:mi>/</m:mi></m:math>6.&#8221; A probability is always between 0 and 1, but odds range from 0 to infinity. Although odds are mainly used in gambling, they give us a way to make very small probabilities clearer. &#8220;Odds of 999 to 1&#8221; may be easier to understand than &#8220;probability 0.001.&#8221;</p>
+<p id="scc9e-ch17-p095" block_type="MN-TXT"><image asset-id="scc9e-ch17-img-10" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">What are the odds?</phrase>  Gamblers often express chance in terms of <em>odds</em> rather than probability. Odds of <em>A</em> to <em>B</em> against an outcome means that the probability of that outcome is <em>B</em><phrase data-math="math_5"></phrase>(<em>A</em> + <em>B</em>). So &#8220;odds of 5 to 1&#8221; is another way of saying &#8220;probability 1<phrase data-math="math_6"></phrase>6.&#8221; A probability is always between 0 and 1, but odds range from 0 to infinity. Although odds are mainly used in gambling, they give us a way to make very small probabilities clearer. &#8220;Odds of 999 to 1&#8221; may be easier to understand than &#8220;probability 0.001.&#8221;</p>
 </box>
 <p id="scc9e-ch17-p096" block_type="TXT">Why do we take asbestos so much more seriously than driving? Why do we worry about very unlikely threats such as tornadoes and terrorists more than we worry about heart attacks?</p>
 <list id="scc9e-ch17-list-01" type="unordered" block_type="bluebullet">
@@ -207,7 +205,7 @@
 <li id="scc9e-ch17-li-07"><p id="scc9e-ch17-p0105" block_type="SUM-BL-first"><phrase block_type="maker">&#8226;</phrase> Probabilities describe only what happens in the long run. Short runs of random phenomena like tossing coins or shooting a basketball often don&#8217;t look random to us because they do not show the regularity that in fact emerges only in very many repetitions.</p></li>
 <li id="scc9e-ch17-li-08"><p id="scc9e-ch17-p0106" block_type="SUM-BL-last"><phrase block_type="maker">&#8226;</phrase> <strong>Personal probabilities</strong> express an individual&#8217;s personal judgment of how likely outcomes are. Personal probabilities are also numbers between 0 and 1. Different people can have different personal probabilities, and a personal probability need not agree with a proportion based on data about similar cases.</p></li>
 </list>
-<p id="scc9e-ch17-p0107" block_type="SUM-TXT"><image asset-id="scc9e-ch17-img-11" alt="image" src="images/LinkIt.jpg"/>This chapter begins our study of the mathematics of chance or &#8220;probability.&#8221; The important fact is that random phenomena are unpredictable in the short run but have a regular and predictable behavior in the long run.</p>
+<p id="scc9e-ch17-p0107" block_type="SUM-TXT"><image asset-id="scc9e-ch17-img-11" alt="image" src="asset/global_images/LinkIt.jpg"/>This chapter begins our study of the mathematics of chance or &#8220;probability.&#8221; The important fact is that random phenomena are unpredictable in the short run but have a regular and predictable behavior in the long run.</p>
 <p id="scc9e-ch17-p0108" block_type="TXT">The long-run behavior of random phenomena will help us understand both why and in what way we can trust random samples and randomized comparative experiments, the subjects of <link href="scc9e-ch2.xml">Chapters 2</link> through <link href="scc9e-ch6.xml">6</link>. It is the key to generalizing what we learn from data produced by random samples and randomized comparative experiments to some wider universe or population. We will study how this is done in Part IV. As a first step in this direction, we will look more carefully at the basic rules of probability in the next chapter.</p>
 <box id="scc9e-ch17-box18" numbered="false" block_type="case_title">
 <p id="scc9e-ch17-p0109" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri"><strong>CASE STUDY</strong> EVALUATED</phrase> In the Case Study described at the beginning of this chapter, you  were told that if birth dates are random and independent, the chance that three children, selected at random, are all born on Leap Day is about 1 in 3 billion.</p>
@@ -219,7 +217,7 @@
 </box>
 <p id="scc9e_page_420" block_type="page_start" data-margin-content="left">420</p>
 <box id="scc9e-ch17-box19" numbered="false" block_type="launchpad">
-<p id="scc9e-ch17-p0114" block_type="CR-BIB-T"><image asset-id="scc9e-ch17-img-12" alt="image" src="images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
+<p id="scc9e-ch17-p0114" block_type="CR-BIB-T"><image asset-id="scc9e-ch17-img-12" alt="image" src="asset/global_images/launchpad_ML_logo_cmyk.jpg"/> Online Resources</p>
 <list id="scc9e-ch17-list-04" type="unordered" block_type="redbullet">
 <li id="scc9e-ch17-li-012"><p id="scc9e-ch17-p0115" block_type="CR-BIB-BL-first"><phrase block_type="maker">&#8226;</phrase> The first half of the Snapshots video <em>Probability</em> introduces the concepts of randomness and probability in the context of weather forecasts.</p></li>
 <li id="scc9e-ch17-li-013"><p id="scc9e-ch17-p0116" block_type="CR-BIB-BL-last"><phrase block_type="maker">&#8226;</phrase> The StatBoards video <em>Myths about Chance Behavior</em> discusses some common misconceptions about chancer behavior such as short-run regularity, surprising coincidences, and the law of averages.</p></li>
@@ -229,7 +227,7 @@
 <section id="scc9e-ch17-sec1-08" block_type="CR-X-H" chapter="ch17" numbered="false" level="1" print_page="420">
 <section-metadata><section-title>CHECK THE BASICS</section-title></section-metadata>
 <p id="scc9e-ch17-p0117" block_type="CR-X"><em>For <link href="exercise_17_1.html">Exercise 17.1</link>, see page 411; for <link href="exercise_17_2.html">Exercise 17.2</link>, see page 414.</em></p>
-<question id="scc9e-ch17-quest-01">
+<question id="scc9e-ch17-quest-01" block_type="exercise_17_3.html">
 <p id="scc9e-ch17-p0118" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.3 Randomness.</phrase> Random phenomena have which of the following characteristics?</p>
 <list id="scc9e-ch17-list-05" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch17-li-014"><p id="scc9e-ch17-p0119" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> They must be natural events. Man-made events cannot be random.</p></li>
@@ -238,7 +236,7 @@
 <li id="scc9e-ch17-li-017"><p id="scc9e-ch17-p0122" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> They are completely unpredictable; that is, they display no clear pattern no matter how often the phenomenon is repeated.</p></li>
 </list>
 </question>
-<question id="scc9e-ch17-quest-02">
+<question id="scc9e-ch17-quest-02" block_type="exercise_17_4.html">
 <p id="scc9e-ch17-p0123" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.4 Probability.</phrase> Probability of a specific outcome of a random phenomenon is</p>
 <list id="scc9e-ch17-list-06" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch17-li-018"><p id="scc9e-ch17-p0124" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> the number of times it occurs in very many repetitions of the phenomenon.</p></li>
@@ -247,7 +245,7 @@
 <li id="scc9e-ch17-li-021"><p id="scc9e-ch17-p0127" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> the ratio of the number of times it occurs to the number of times it does not occur in very many repetitions of the phenomenon.</p></li>
 </list>
 </question>
-<question id="scc9e-ch17-quest-03">
+<question id="scc9e-ch17-quest-03" block_type="exercise_17_5.html">
 <p id="scc9e-ch17-p0128" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.5 Probability.</phrase> Which of the following is true of probability?</p>
 <list id="scc9e-ch17-list-07" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch17-li-022"><p id="scc9e-ch17-p0129" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> It is a number between 0 and 1.</p></li>
@@ -256,7 +254,7 @@
 <li id="scc9e-ch17-li-025"><p id="scc9e-ch17-p0132" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> All of the above are true.</p></li>
 </list>
 </question>
-<question id="scc9e-ch17-quest-04">
+<question id="scc9e-ch17-quest-04" block_type="exercise_17_6.html">
 <p id="scc9e-ch17-p0133" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.6 Probability.</phrase> I toss a coin 1000 times and observe the outcome &#8220;heads&#8221; 519 times. Which of the following can be concluded from this result?</p>
 <list id="scc9e-ch17-list-08" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch17-li-026"><p id="scc9e-ch17-p0134" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> This is suspicious because we should observe 500 heads if the coin is tossed as many as 1000 times.</p></li>
@@ -265,7 +263,7 @@
 <li id="scc9e-ch17-li-029"><p id="scc9e-ch17-p0137" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> Nothing can be concluded until we verify that the pattern of heads and tails exhibits a reasonably regular pattern.</p></li>
 </list>
 </question>
-<question id="scc9e-ch17-quest-05">
+<question id="scc9e-ch17-quest-05" block_type="exercise_17_7.html">
 <p id="scc9e-ch17-p0138" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.7 Personal probabilities.</phrase> Which of the following is true of a personal probability about the outcome of a phenomenon?</p>
 <list id="scc9e-ch17-list-09" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch17-li-030"><p id="scc9e-ch17-p0139" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> It expresses an individual&#8217;s judgment of how likely an outcome is.</p></li>
@@ -278,33 +276,33 @@
 <section id="scc9e-ch17-sec1-09" block_type="CR-X-H-v1" chapter="ch17" numbered="false" level="1" print_page="421">
 <section-metadata><section-title>CHAPTER 17 EXERCISES</section-title></section-metadata>
 <p id="scc9e_page_421" block_type="page_start" data-margin-content="right">421</p>
-<question id="scc9e-ch17-quest-06">
+<question id="scc9e-ch17-quest-06" block_type="exercise_17_8.html">
 <p id="scc9e-ch17-p0144" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.8 Nickels spinning.</phrase> Hold a nickel upright on its edge under your forefinger on a hard surface, then snap it with your other forefinger so that it spins for some time before falling. Based on 50 spins, estimate the probability of heads.</p>
 </question>
-<question id="scc9e-ch17-quest-07">
+<question id="scc9e-ch17-quest-07" block_type="exercise_17_9.html">
 <p id="scc9e-ch17-p0145" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.9 Nickels falling over.</phrase> You may feel that it is obvious that the probability of a head in tossing a coin is about 1-in-2 because the coin has two faces. Such opinions are not always correct. The previous exercise asked you to spin a nickel rather than toss it&#8212;that changes the probability of a head. Now try another variation. Stand a nickel on edge on a hard, flat surface. Pound the surface with your hand so that the nickel falls over. What is the probability that it falls with heads upward? Make at least 50 trials to estimate the probability of a head.</p>
 </question>
-<question id="scc9e-ch17-quest-08">
+<question id="scc9e-ch17-quest-08" block_type="exercise_17_10.html">
 <p id="scc9e-ch17-p0146" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.10 Random digits.</phrase> The table of random digits (<link href="table_a.html">Table A</link>) was produced by a random mechanism that gives each digit probability 0.1 of being a 0. What proportion of the 400 digits in lines 120 to 129 in the table are 0s? This proportion is an estimate, based on 400 repetitions, of the true probability, which in this case is known to be 0.1.</p>
 </question>
-<question id="scc9e-ch17-quest-09">
+<question id="scc9e-ch17-quest-09" block_type="exercise_17_11.html">
 <p id="scc9e-ch17-p0147" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.11 How many tosses to get a head?</phrase> When we toss a penny, experience shows that the probability (long-term proportion) of a head is close to 1-in-2. Suppose now that we toss the penny repeatedly until we get a head. What is the probability that the first head comes up in an odd number of tosses (one, three, five, and so on)? To find out, repeat this experiment 50 times, and keep a record of the number of tosses needed to get a head on each of your 50 trials.</p>
 <list id="scc9e-ch17-list-010" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch17-li-034"><p id="scc9e-ch17-p0148" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> From your experiment, estimate the probability of a head on the first toss. What value should we expect this probability to have?</p></li>
 <li id="scc9e-ch17-li-035"><p id="scc9e-ch17-p0149" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Use your results to estimate the probability that the first head appears on an odd-numbered toss.</p></li>
 </list>
 </question>
-<question id="scc9e-ch17-quest-010">
+<question id="scc9e-ch17-quest-010" block_type="exercise_17_12.html">
 <p id="scc9e-ch17-p0150" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.12 Tossing a thumbtack.</phrase> Toss a thumbtack on a hard surface 50 times. How many times did it land with the point up? What is the approximate probability of landing point up?</p>
 </question>
-<question id="scc9e-ch17-quest-011">
+<question id="scc9e-ch17-quest-011" block_type="exercise_17_13.html">
 <p id="scc9e-ch17-p0151" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.13 Rolling dice.</phrase> Roll a pair of dice 100 times. How many times did you roll a 5? What is the approximate probability of rolling a 5?</p>
 </question>
-<question id="scc9e-ch17-quest-012">
+<question id="scc9e-ch17-quest-012" block_type="exercise_17_14.html">
 <p id="scc9e-ch17-p0152" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.14 Straight.</phrase> You read in a book on poker that the probability of being dealt a straight (excluding a straight flush or royal flush) in a five-card poker hand is about 0.00393. Explain in simple language what this means.</p>
 </question>
 <p id="scc9e_page_422" block_type="page_start" data-margin-content="left">422</p>
-<question id="scc9e-ch17-quest-013">
+<question id="scc9e-ch17-quest-013" block_type="exercise_17_15.html">
 <p id="scc9e-ch17-p0154" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.15 From words to probabilities.</phrase> Probability is a measure of how likely an event is to occur. Match one of the probabilities that follow with each statement of likelihood given. (The probability is usually a more exact measure of likelihood than is the verbal statement.)</p>
 <p id="scc9e-ch17-p0155" block_type="CR-X-NL">0&#8195;0.01&#8195; 0.3&#8195;0.6&#8195;0.99&#8195;1</p>
 <list id="scc9e-ch17-list-011" type="ordered" block_type="lower-alpha">
@@ -314,10 +312,10 @@
 <li id="scc9e-ch17-li-039"><p id="scc9e-ch17-p0159" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(d)</phrase> This event will occur more often than not.</p></li>
 </list>
 </question>
-<question id="scc9e-ch17-quest-014">
+<question id="scc9e-ch17-quest-014" block_type="exercise_17_16.html">
 <p id="scc9e-ch17-p0160" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.16 Winning a baseball game.</phrase> Over the period from 1965 to 2014, the champions of baseball&#8217;s two major leagues won 63&#37; of their home games during the regular season. At the end of each season, the two league champions meet in the baseball World Series. Would you use the results from the regular season to assign probability 0.63 to the event that the home team wins a World Series game? Explain your answer.</p>
 </question>
-<question id="scc9e-ch17-quest-015">
+<question id="scc9e-ch17-quest-015" block_type="exercise_17_17.html">
 <p id="scc9e-ch17-p0161" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.17 Will you have an accident?</phrase> The probability that a randomly chosen driver will be involved in an accident in the next year is about 0.2. This is based on the proportion of millions of drivers who have accidents. &#8220;Accident&#8221; includes things like crumpling a fender in your own driveway, not just highway accidents.</p>
 <list id="scc9e-ch17-list-012" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch17-li-040"><p id="scc9e-ch17-p0162" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> What do you think is your own probability of being in an accident in the next year? This is a personal probability.</p></li>
@@ -325,7 +323,7 @@
 <li id="scc9e-ch17-li-042"><p id="scc9e-ch17-p0164" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> Almost everyone says that their personal probability is lower than the random driver probability. Why do you think this is true?</p></li>
 </list>
 </question>
-<question id="scc9e-ch17-quest-016">
+<question id="scc9e-ch17-quest-016" block_type="exercise_17_18.html">
 <p id="scc9e-ch17-p0165" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.18 Marital status.</phrase> Based on 2010 census data, the probability that a randomly chosen woman over 64 years of age is divorced is about 0.11. This probability is a long-run proportion based on all the millions of women over 64. Let&#8217;s suppose that the proportion stays at 0.11 for the next 45 years. Bridget is now 20 years old and is not married.</p>
 <list id="scc9e-ch17-list-013" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch17-li-043"><p id="scc9e-ch17-p0166" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Bridget thinks her own chances of being divorced after age 64 are about 5&#37;. Explain why this is a personal probability.</p></li>
@@ -333,72 +331,71 @@
 <li id="scc9e-ch17-li-045"><p id="scc9e-ch17-p0168" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(c)</phrase> You are a government official charged with looking into the impact of the Social Security system on retirement-aged divorced women. You care only about the probability 0.11, not about anyone&#8217;s personal probability. Why?</p></li>
 </list>
 </question>
-<question id="scc9e-ch17-quest-017">
+<question id="scc9e-ch17-quest-017" block_type="exercise_17_19.html">
 <p id="scc9e-ch17-p0169" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.19 Personal probability versus data.</phrase> Give an example in which you would rely on a probability found as a long-term proportion from data on many trials. Give an example in which you would rely on your own personal probability.</p>
 </question>
 <p id="scc9e_page_423" block_type="page_start" data-margin-content="right">423</p>
-<question id="scc9e-ch17-quest-019">
+<question id="scc9e-ch17-quest-019" block_type="exercise_17_20.html">
 <p id="scc9e-ch17-p0171" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.20 Personal probability?</phrase> When there are few data, we often fall back on personal probability. There had been just 24 space shuttle launches, all successful, before the <em>Challenger</em> disaster in January 1986. The shuttle program management thought the chances of such a failure were only 1 in 100,000.</p>
 <list id="scc9e-ch17-list-014" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch17-li-046"><p id="scc9e-ch17-p0172" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Suppose 1 in 100,000 is a correct estimate of the chance of such a failure. If a shuttle was launched every day, about how many failures would one expect in 300 years?</p></li>
 <li id="scc9e-ch17-li-047"><p id="scc9e-ch17-p0173" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> Give some reasons such an estimate is likely to be too optimistic.</p></li>
 </list>
 </question>
-<question id="scc9e-ch17-quest-020">
+<question id="scc9e-ch17-quest-020" block_type="exercise_17_21.html">
 <p id="scc9e-ch17-p0174" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.21 Personal random numbers?</phrase> Ask several of your friends (at least 10 people) to choose a four-digit number &#8220;at random.&#8221; How many of the numbers chosen start with 1 or 2? How many start with 8 or 9? (There is strong evidence that people in general tend to choose numbers starting with low digits.)</p>
 </question>
-<question id="scc9e-ch17-quest-021">
+<question id="scc9e-ch17-quest-021" block_type="exercise_17_22.html">
 <p id="scc9e-ch17-p0175" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.22 Playing Pick 4.</phrase> The Pick 4 games in many state lotteries announce a four-digit winning number each day. The winning number is essentially a four-digit group from a table of random digits. You win if your choice matches the winning digits, in exact order. The winnings are divided among all players who matched the winning digits. That suggests a way to get an edge.</p>
 <list id="scc9e-ch17-list-015" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch17-li-048"><p id="scc9e-ch17-p0176" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> The winning number might be, for example, either 2873 or 9999. Explain why these two outcomes have exactly the same probability. (It is 1 in 10,000.)</p></li>
 <li id="scc9e-ch17-li-049"><p id="scc9e-ch17-p0177" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> If you asked many people which outcome is more likely to be the randomly chosen winning number, most would favor one of them. Use the information in this chapter to say which one and to explain why. If you choose a number that people think is unlikely, you have the same chance to win, but you will win a larger amount because few other people will choose your number.</p></li>
 </list>
 </question>
-<question id="scc9e-ch17-quest-022">
-<p id="scc9e-ch17-p0178" block_type="CR-X-NL"><image asset-id="scc9e-ch17-img-13" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">17.23 Surprising?</phrase> During the NBA championship series in 2015, news media reported that LeBron James and Stephen Curry, both winners of the NBA most valuable player award, were born in the same hospital in Akron, Ohio. That a pair of winners of the NBA most valuable player award were also born in the same hospital was reported as an extraordinarily improbable event. Should this fact (that both were winners of the most valuable player award and both were born in the same hospital) surprise you? Explain your answer.</p>
+<question id="scc9e-ch17-quest-022" block_type="exercise_17_23.html">
+<p id="scc9e-ch17-p0178" block_type="CR-X-NL"><image asset-id="scc9e-ch17-img-13" alt="image" src="asset/global_images/news.jpg"/> <phrase block_type="CR-X-NL-N-ri">17.23 Surprising?</phrase> During the NBA championship series in 2015, news media reported that LeBron James and Stephen Curry, both winners of the NBA most valuable player award, were born in the same hospital in Akron, Ohio. That a pair of winners of the NBA most valuable player award were also born in the same hospital was reported as an extraordinarily improbable event. Should this fact (that both were winners of the most valuable player award and both were born in the same hospital) surprise you? Explain your answer.</p>
 </question>
-<question id="scc9e-ch17-quest-023">
-<p id="scc9e-ch17-p0179" block_type="CR-X-NL"><image asset-id="scc9e-ch17-img-14" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">17.24 An eerie coincidence?</phrase> An October 6, 2002, an ABC News article reported that the winning New York State lottery numbers on the one-year anniversary of the attacks on America were 911. Should this fact surprise you? Explain your answer.</p>
+<question id="scc9e-ch17-quest-023" block_type="exercise_17_24.html">
+<p id="scc9e-ch17-p0179" block_type="CR-X-NL"><image asset-id="scc9e-ch17-img-14" alt="image" src="asset/global_images/news.jpg"/> <phrase block_type="CR-X-NL-N-ri">17.24 An eerie coincidence?</phrase> An October 6, 2002, an ABC News article reported that the winning New York State lottery numbers on the one-year anniversary of the attacks on America were 911. Should this fact surprise you? Explain your answer.</p>
 </question>
-<question id="scc9e-ch17-quest-024">
+<question id="scc9e-ch17-quest-024" block_type="exercise_17_25.html">
 <p id="scc9e-ch17-p0180" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.25 Curry&#8217;s free throws.</phrase> The basketball player Stephen Curry is the all-time career free-throw shooter among active players. He makes 90.0&#37; of his free throws. In today&#8217;s game, Curry misses his first two free throws. The TV commentator says, &#8220;Curry&#8217;s technique looks out of rhythm today.&#8221; Explain why the claim that Curry&#8217;s technique has deteriorated is not justified.</p>
 </question>
 <p id="scc9e_page_424" block_type="page_start" data-margin-content="right">424</p>
-<question id="scc9e-ch17-quest-025">
+<question id="scc9e-ch17-quest-025" block_type="exercise_17_26.html">
 <p id="scc9e-ch17-p0182" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.26 In the long run.</phrase> Probability works not by compensating for imbalances but by overwhelming them. Suppose that the first 10 tosses of a coin give 10 tails and that tosses after that are exactly half heads and half tails. (Exact balance is unlikely, but the example illustrates how the first 10 outcomes are swamped by later outcomes.) What is the proportion of heads after the first 10 tosses? What is the proportion of heads after 100 tosses if half of the last 90 produce heads (45 heads)? What is the proportion of heads after 1000 tosses if half of the last 990 produce heads? What is the proportion of heads after 10,000 tosses if half of the last 9990 produce heads?</p>
 </question>
-<question id="scc9e-ch17-quest-026">
+<question id="scc9e-ch17-quest-026" block_type="exercise_17_27.html">
 <p id="scc9e-ch17-p0183" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.27 The &#8220;law of averages.&#8220;</phrase> The baseball player Miguel Cabrera gets a hit about 32.1&#37; of the time over an entire season. After he has failed to hit safely in nine straight at-bats, the TV commentator says, &#8220;Miguel is due for a hit by the law of averages.&#8221; Is that right? Why?</p>
 </question>
-<question id="scc9e-ch17-quest-027">
+<question id="scc9e-ch17-quest-027" block_type="exercise_17_28.html">
 <p id="scc9e-ch17-p0184" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.28 Snow coming.</phrase> A meteorologist, predicting below-average snowfall this winter, says, &#8220;First, in looking at the past few winters, there has been above-average snowfall. Even though we are not supposed to use the law of averages, we are due.&#8221; Do you think that &#8220;due by the law of averages&#8221; makes sense in talking about the weather? Explain.</p>
 </question>
-<question id="scc9e-ch17-quest-028">
+<question id="scc9e-ch17-quest-028" block_type="exercise_17_29.html">
 <p id="scc9e-ch17-p0185" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.29 An unenlightened gambler.</phrase></p>
 <list id="scc9e-ch17-list-016" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch17-li-050"><p id="scc9e-ch17-p0186" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> A gambler knows that red and black are equally likely to occur on each spin of a roulette wheel. He observes five consecutive reds occur and bets heavily on black at the next spin. Asked why, he explains that black is &#8220;due by the law of averages.&#8221; Explain to the gambler what is wrong with this reasoning.</p></li>
 <li id="scc9e-ch17-li-051"><p id="scc9e-ch17-p0187" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> After listening to you explain why red and black are still equally likely after five reds on the roulette wheel, the gambler moves to a poker game. He is dealt five straight red cards. He remembers what you said and assumes that the next card dealt in the same hand is equally likely to be red or black. Is the gambler right or wrong, and why?</p></li>
 </list>
 </question>
-<question id="scc9e-ch17-quest-029">
+<question id="scc9e-ch17-quest-029" block_type="exercise_17_30.html">
 <p id="scc9e-ch17-p0188" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.30 Reacting to risks.</phrase> The probability of dying if you play high school football is about 10 per million each year you play. The risk of getting cancer from asbestos if you attend a school in which asbestos is present for 10 years is about 5 per million. If we ban asbestos from schools, should we also ban high school football? Briefly explain your position.</p>
 </question>
-<question id="scc9e-ch17-quest-030">
-<p id="scc9e-ch17-p0189" block_type="CR-X-NL"><image asset-id="scc9e-ch17-img-15" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="CR-X-NL-N-ri">17.31 Reacting to risks.</phrase> National newspapers such as <em>USA Today</em> and the <em>New York Times</em> carry many more stories about deaths from airplane crashes than about deaths from motor vehicle crashes. Motor vehicle accidents killed about 32,700 people in the United States in 2013. Crashes of all scheduled air carriers worldwide, including commuter carriers, killed 266 people in 2013, and only one of these involved a U.S. air carrier.</p>
+<question id="scc9e-ch17-quest-030" block_type="exercise_17_31.html">
+<p id="scc9e-ch17-p0189" block_type="CR-X-NL"><image asset-id="scc9e-ch17-img-15" alt="image" src="asset/global_images/news.jpg"/> <phrase block_type="CR-X-NL-N-ri">17.31 Reacting to risks.</phrase> National newspapers such as <em>USA Today</em> and the <em>New York Times</em> carry many more stories about deaths from airplane crashes than about deaths from motor vehicle crashes. Motor vehicle accidents killed about 32,700 people in the United States in 2013. Crashes of all scheduled air carriers worldwide, including commuter carriers, killed 266 people in 2013, and only one of these involved a U.S. air carrier.</p>
 <list id="scc9e-ch17-list-017" type="ordered" block_type="lower-alpha">
 <li id="scc9e-ch17-li-052"><p id="scc9e-ch17-p0190" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(a)</phrase> Why do the news media give more attention to airplane crashes?</p></li>
 <li id="scc9e-ch17-li-053"><p id="scc9e-ch17-p0191" block_type="CR-X-NL-lvl2"><phrase block_type="maker">(b)</phrase> How does news coverage help explain why many people consider flying more dangerous than driving?</p></li>
 </list>
 </question>
 <p id="scc9e_page_425" block_type="page_start" data-margin-content="right">425</p>
-<question id="scc9e-ch17-quest-031">
+<question id="scc9e-ch17-quest-031" block_type="exercise_17_32.html">
 <p id="scc9e-ch17-p0193" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">17.32 What probability doesn&#8217;t say.</phrase> The probability of a head in tossing a coin is 1-in-2. This means that as we make more tosses, the <em>proportion</em> of heads will eventually get close to 0.5. It does not mean that the <em>count</em> of heads will get close to one-half the number of tosses. To see why, imagine that the proportion of heads is 0.49 in 100 tosses, 0.493 in 1000 tosses, 0.4969 in 10,000 tosses, and 0.49926 in 100,000 tosses of a coin. How many heads came up in each set of tosses? How close is the number of heads to half the number of tosses?</p>
 </question>
 <box id="scc9e-ch17-box20" numbered="false" block_type="exploring-web">
-<p id="scc9e-ch17-p0194a" block_type="QRL icon"><image asset-id="scc9e-ch17-img-16" alt="image" src="images/SCC 9e new qrcode 2 17 16.jpg"/></p>
+<p id="scc9e-ch17-p0194a" block_type="QRL icon"><image asset-id="scc9e-ch17-img-16" alt="image" src="asset/global_images/SCC 9e new qrcode 2 17 16.jpg"/></p>
 <p id="scc9e-ch17-p0194" block_type="WEB"><strong>EXPLORING</strong> THE WEB</p>
 <p id="scc9e-ch17-p0195" block_type="WEBTX"><em>Follow the QR code to access exercises.</em></p>
 </box>
 </section>
 </chapter>
-</manuscript>

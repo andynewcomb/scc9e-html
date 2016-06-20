@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manuscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML" manuscript-id="03" name="" title="Moore_Part_03" xsi:noNamespaceSchemaLocation="xsd/digfir_manuscript.xsd">
-<chapter id="scc9e-part03" number="3" title="PART III REVIEW" start-numbering-at="481" numbered="true">
+<chapter id="scc9e-part03" title="PART III REVIEW" numbered="false">
 <section id="scc9e-part03-sec-001" block_type="part" title="PART III REVIEW" numbered="false" level="1" print_page="481">
 <p id="scc9e_page_481" block_type="page_start" data-margin-content="right">481</p>
 <p id="scc9e-part03-p01" block_type="PR-N">PART III REVIEW</p>
@@ -339,7 +337,7 @@
 </question>
 <p id="scc9e_page_486" block_type="page_start" data-margin-content="left">486</p>
 <question id="scc9e-part03-quest-0014">
-<p id="scc9e-part03-p067" block_type="PR-X-NL"><image asset-id="scc9e-part03-img-01" alt="image" src="images/A) In the NEWS cyan.jpg"/> <phrase block_type="PR-X-NL-N-ri">III.14. Is college worth the cost?</phrase> A September 29, 2015, Gallup poll asked recent college graduates (those who obtained their bachelor&#8217;s degree beginning in 2006) whether their education was worth the cost. Assume that the results of the poll accurately reflect the opinions of all recent college graduates. Here is the distribution of responses:</p>
+<p id="scc9e-part03-p067" block_type="PR-X-NL"><image asset-id="scc9e-part03-img-01" alt="image" src="asset/global_images/news.jpg"/> <phrase block_type="PR-X-NL-N-ri">III.14. Is college worth the cost?</phrase> A September 29, 2015, Gallup poll asked recent college graduates (those who obtained their bachelor&#8217;s degree beginning in 2006) whether their education was worth the cost. Assume that the results of the poll accurately reflect the opinions of all recent college graduates. Here is the distribution of responses:</p>
 <table id="scc9e-part03-tab-8" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
@@ -439,4 +437,3 @@
 </question>
 </section>
 </chapter>
-</manuscript>
