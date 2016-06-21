@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+    <title>scc9e_ch19</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link href="css/boilerplate.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/jquery-ui-custom.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/manuscript.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/digfir_ebook_fw.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/scc9e.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/scc9e_ch19.css" media="screen" rel="stylesheet" type="text/css" >    
+    
+    </head>
+<body class="noUi">
+<div id="manuscript" data-chapter-number="19">
+    <div data-type="section" data-block_type="h1" id="scc9e-ch19-sec1-004" level="1" data-print_page="452">
+<h2 class="section-title"><span data-type="title" data-title-for="scc9e-ch19-sec1-004">More elaborate simulations
+</span></h2>
+
+<div data-block_type="TXT-ni" id="scc9e-ch19-p072"><p>The building and simulation of random models constitute a powerful tool of contemporary science, but a tool that can be understood without advanced mathematics. What is more, doing a few simulations will increase your understanding of probability more than many pages of our prose. Having in mind these two goals of understanding simulation for itself and understanding simulation to understand probability, let us look at two more elaborate examples. The first still has independent trials, but there is no longer a fixed number of trials as there was when we tossed a coin 10 times.</p></div>
+<div data-type="box" data-block_type="EXP" data-filename="example_19_4.html" id="scc9e-ch19-bx010"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch19-bx010"></h3>
+<div data-block_type="EXP-T" id="scc9e-ch19-p073"><p><span data-block_type="EXP-N-ri">EXAMPLE 4</span> We want a girl</p></div>
+<div data-block_type="EXP-first" id="scc9e-ch19-p074"><p>A couple plan to have children until they have a girl or until they have three children, whichever comes first. What is the probability that they will have a girl among their children?</p></div>
+<div data-block_type="EXP-SL" id="scc9e-ch19-p075"><p><strong>Step 1.</strong> The probability model is like that for coin tossing:</p></div>
+<ul data-block_type="bluebullet" id="scc9e-ch19-list-004">
+<li><div data-block_type="BX1-BL-last" id="scc9e-ch19-p076"><p><span data-block_type="maker">•</span> Each child has probability 0.49 of being a girl and 0.51 of being a boy. (Yes, more boys than girls are born. Boys have higher infant mortality, so the sexes even out soon.)</p></div></li>
+<li><div data-block_type="BX1-BL-first" id="scc9e-ch19-p077"><p><span data-block_type="maker">•</span> The sexes of successive children are independent.</p></div></li>
+</ul>
+<div data-block_type="EXP-TXT-1" id="scc9e-ch19-p078"><p><strong>Step 2.</strong> Assigning digits is also easy. Two digits simulate the sex of one child. We assign 49 of the 100 pairs to “girl” and the remaining 51 to “boy”:</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch19-p079"><p>00, 01, 02, . . . , 48 = girl</p></div>
+<div data-block_type="math" id="scc9e-ch19-p080"><p>49, 50, 51, . . . , 99 = boy</p></div>
+<div data-margin-content="right" data-block_type="page_start" id="scc9e_page_453"><p>453</p></div>
+<div data-block_type="EXP-TXT-1" id="scc9e-ch19-p082"><p><strong>Step 3.</strong> To simulate one repetition of this childbearing strategy, read pairs of digits from <span data-type="link" data-href="table_a.html">Table A</span> until the couple have either a girl or three children. The number of pairs needed to simulate one repetition depends on how quickly the couple get a girl. Here are 10 repetitions, simulated using line 130 of <span data-type="link" data-href="table_a.html">Table A</span>. To interpret the pairs of digits, we have written G for girl and B for boy under them, have added space to separate repetitions, and under each repetition have written “+” if a girl was born and “−” if not.</p></div>
+<div data-type="table" data-block_type="UN-TABLE" id="scc9e-ch19-untab-4" data-layout-align="" data-layout-width="" data-layout-border="" data-mmsrc="" data-attr="100"><table><tbody>
+<tr>
+<td data-block_type="EXP-MCL" align="center">6905</td>
+<td data-block_type="EXP-MCL" align="center">16</td>
+<td data-block_type="EXP-MCL" align="center">48</td>
+<td data-block_type="EXP-MCL" align="center">17</td>
+<td data-block_type="EXP-MCL" align="center">8717</td>
+<td data-block_type="EXP-MCL" align="center">40</td>
+<td data-block_type="EXP-MCL" align="center">9517</td>
+<td data-block_type="EXP-MCL" align="center">845340</td>
+<td data-block_type="EXP-MCL" align="center">648987</td>
+<td data-block_type="EXP-MCL" align="center">20</td>
+</tr>
+<tr>
+<td data-block_type="EXP-MCL" align="center">B G</td>
+<td data-block_type="EXP-MCL" align="center">G</td>
+<td data-block_type="EXP-MCL" align="center">G</td>
+<td data-block_type="EXP-MCL" align="center">G</td>
+<td data-block_type="EXP-MCL" align="center">B G</td>
+<td data-block_type="EXP-MCL" align="center">G</td>
+<td data-block_type="EXP-MCL" align="center">B G</td>
+<td data-block_type="EXP-MCL" align="center">B B G</td>
+<td data-block_type="EXP-MCL" align="center">B B B</td>
+<td data-block_type="EXP-MCL" align="center">G</td>
+</tr>
+<tr>
+<td data-block_type="EXP-MCL" align="center">+</td>
+<td data-block_type="EXP-MCL" align="center">+</td>
+<td data-block_type="EXP-MCL" align="center">+</td>
+<td data-block_type="EXP-MCL" align="center">+</td>
+<td data-block_type="EXP-MCL" align="center">+</td>
+<td data-block_type="EXP-MCL" align="center">+</td>
+<td data-block_type="EXP-MCL" align="center">+</td>
+<td data-block_type="EXP-MCL" align="center">+</td>
+<td data-block_type="EXP-MCL" align="center">−</td>
+<td data-block_type="EXP-MCL" align="center">+</td>
+</tr>
+</tbody></table></div>
+<div data-block_type="EXP-ni" id="scc9e-ch19-p083"><p>In these 10 repetitions, a girl was born nine times. Our estimate of the probability that this strategy will produce a girl is, therefore,</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch19-p084"><p>estimated probability <span data-math="math_5"></span></p></div>
+<div data-block_type="EXP-mid" id="scc9e-ch19-p085"><p>Some mathematics shows that, if our probability model is correct, the true probability of having a girl is 0.867. Our simulated answer came quite close. Unless the couple are unlucky, they will succeed in having a girl.</p></div>
+</div></div>
+<div data-block_type="TXT" id="scc9e-ch19-p086"><p>Our final example has stages that are <em>not independent</em>. That is, the probabilities at one stage depend on the outcome of the preceding stage.</p></div>
+<div data-type="box" data-block_type="EXP" data-filename="example_19_5.html" id="scc9e-ch19-bx011"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch19-bx011"></h3>
+<div data-block_type="EXP-T" id="scc9e-ch19-p087"><p><span data-block_type="EXP-N-ri">EXAMPLE 5</span> A kidney transplant</p></div>
+<div data-block_type="EXP-first" id="scc9e-ch19-p088"><p>Morris’s kidneys have failed and he is awaiting a kidney transplant. His doctor gives him this information for patients in his condition: 90% survive the transplant operation, and 10% die. The transplant succeeds in 60% of those who survive, and the other 40% must return to kidney dialysis. The proportions who survive for at least five years are 70% for those with a new kidney and 50% for those who return to dialysis. Morris wants to know the probability that he will survive for at least five years.</p></div>
+<div data-type="figure" data-filename="19_17MOORESCC-MSE_9e_P_19_01.html" data-figure-id="scc9e-ch19-unfig-003" data-block_type="UN-FIGURE" data-layout-align="right" data-layout-width="medium" data-layout-border="false">
+
+<img id="" src="asset/ch19/17MOORESCC-MSE_9e_P_19_01.jpg" data-figure-id="scc9e-ch19-unfig-003" data-layout-width="medium" data-mmtype="image" data-mmsrc="" data-attr="" alt="image">
+<div data-type="asset_source"><span data-block_type="PH-CL">BSIP/Phototake</span></div>
+</div>
+<div data-block_type="EXP-SL" id="scc9e-ch19-p089"><p><strong>Step 1.</strong> The <strong>tree diagram</strong> in <span data-type="link" data-href="figure_19_1.html">Figure 19.1</span> organizes this information to give a probability model in graphical form. The tree shows the three stages and the possible outcomes and probabilities at each stage. Each path through the tree leads to either survival for five years or to death in less than five years. To simulate Morris’s fate, we must simulate each of the three stages. The probabilities at Stage 3 depend on the outcome of Stage 2.</p></div>
+<div data-margin-content="left" data-block_type="page_start" id="scc9e_page_454"><p>454</p></div>
+<div data-type="figure" data-caption-compass="S" data-filename="figure_19_1.html" data-figure-id="scc9e-ch19-p091" data-block_type="FIGURE" data-layout-align="center" data-layout-width="medium" data-layout-border="false">
+
+<img id="" src="asset/ch19/17MOORESCC-MSE_9e_fig_19_01.jpg" data-figure-id="scc9e-ch19-p091" data-layout-width="medium" data-mmtype="image" data-mmsrc="" data-attr="" alt="image">
+<div data-type="figure_text">
+<span data-type="number">Figure 19.1: </span><span data-type="caption"><span data-block_type="FG-N-ri">Figure 19.1</span> <span data-block_type="FG-CAP">A tree diagram for the probability model, <span data-type="link" data-href="example_19_5.html">Examples 5</span>. Each branch point starts a new stage, with outcomes and their probabilities written on the branches. One repetition of the model follows the tree to one of its endpoints.</span></span>
+</div>
+</div>
+<div data-block_type="EXP-SL" id="scc9e-ch19-p092"><p><strong>Step 2.</strong> Here is our assignment of digits to outcomes:</p></div>
+<div data-block_type="EXP-UL" id="scc9e-ch19-p093"><p><strong>Stage 1:</strong></p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch19-p094"><p>0 = die</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch19-p095"><p>1, 2, 3, 4, 5, 6, 7, 8, 9 = survive</p></div>
+<div data-block_type="EXP-UL" id="scc9e-ch19-p096"><p><strong>Stage 2:</strong></p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch19-p097"><p>0, 1, 2, 3, 4, 5 = transplant succeeds</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch19-p098"><p>6, 7, 8, 9 = return to dialysis</p></div>
+<div data-block_type="EXP-UL" id="scc9e-ch19-p099"><p><strong>Stage 3 with kidney:</strong></p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch19-p0100"><p>0, 1, 2, 3, 4, 5, 6 = survive five years</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch19-p0101"><p>7, 8, 9 = die</p></div>
+<div data-block_type="EXP-UL" id="scc9e-ch19-p0102"><p><strong>Stage 3 with dialysis:</strong></p></div>
+<div data-block_type="math" id="scc9e-ch19-p0103"><p>0, 1, 2, 3, 4 = survive five years</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch19-p0104"><p>5, 6, 7, 8, 9 = die</p></div>
+<div data-block_type="EXP-ni" id="scc9e-ch19-p0105"><p>The assignment of digits at Stage 3 depends on the outcome of Stage 2. That’s lack of independence.</p></div>
+<div data-margin-content="right" data-block_type="page_start" id="scc9e_page_455"><p>455</p></div>
+<div data-block_type="EXP-SL" id="scc9e-ch19-p0107"><p><strong>Step 3.</strong> Here are simulations of several repetitions, each arranged vertically. We used random digits from line 110 of <span data-type="link" data-href="table_a.html">Table A</span>.</p></div>
+<div data-type="table" data-block_type="UN-TABLE" id="scc9e-ch19-untab-5" data-layout-align="" data-layout-width="" data-layout-border="" data-mmsrc="" data-attr="100"><table><tbody>
+<tr class="tborder">
+<td data-block_type="TB1-COLHD" align="center"></td>
+<td data-block_type="TB1-COLHD" align="center">Repetition 1</td>
+<td data-block_type="TB1-COLHD" align="center">Repetition 2</td>
+<td data-block_type="TB1-COLHD" align="center">Repetition 3</td>
+<td data-block_type="TB1-COLHD" align="center">Repetition 4</td>
+</tr>
+<tr class="tborder">
+<td data-block_type="TB1-TXT" align="center">Stage 1</td>
+<td data-block_type="TB1-TXT" align="center">3 Survive</td>
+<td data-block_type="TB1-TXT" align="center">4 Survive</td>
+<td data-block_type="TB1-TXT" align="center">8 Survive</td>
+<td data-block_type="TB1-TXT" align="center">9 Survive</td>
+</tr>
+<tr>
+<td data-block_type="TB1-TXT" align="center">Stage 2</td>
+<td data-block_type="TB1-TXT" align="center">8 Dialysis</td>
+<td data-block_type="TB1-TXT" align="center">8 Dialysis</td>
+<td data-block_type="TB1-TXT" align="center">7 Dialysis</td>
+<td data-block_type="TB1-TXT" align="center">1 Kidney</td>
+</tr>
+<tr class="bborder">
+<td data-block_type="TB1-TXT" align="center">Stage 3</td>
+<td data-block_type="TB1-TXT" align="center">4 Survive</td>
+<td data-block_type="TB1-TXT" align="center">4 Survive</td>
+<td data-block_type="TB1-TXT" align="center">8 Die</td>
+<td data-block_type="TB1-TXT" align="center">8 Die</td>
+</tr>
+</tbody></table></div>
+<div data-block_type="EXP-ni" id="scc9e-ch19-p0108"><p>Morris survives five years in two of our four repetitions. Now that we understand how to arrange the simulation, we should turn it over to a computer to do many repetitions. From a long simulation or from mathematics, we find that Morris has probability 0.558 of living for at least five years.</p></div>
+</div></div>
+<div data-type="box" data-block_type="BX2" id="scc9e-ch19-bx012"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch19-bx012"></h3>
+<div data-block_type="BX2-H" id="scc9e-ch19-p0109"><p>NOW IT’S YOUR TURN</p></div>
+<div data-type="question" data-block_type="exercise_19_2.html" id="scc9e-ch19-quest-002">
+<h3>Question
+			    <span data-type="number">19.2 </span><span data-type="title"></span>
+</h3>
+<div data-block_type="BX2-QUE" id="scc9e-ch19-p0110"><p><span data-block_type="BX2-QUE-N-ri">19.2 Selecting cards at random.</span> In a standard deck of 52 cards, there are 13 spades, 13 hearts, 13 diamonds, and 13 clubs. Carry out a simulation to determine the probability that, when two cards are selected together (that is, without replacement) at random from a standard deck, both have the same suit. Follow the steps given in <span data-type="link" data-href="example_19_5.html">Examples 5</span> to help set up the simulation. Do your simulation 10 times and use the result to estimate the probability.</p></div>
+</div>
+</div></div>
+</div>
+<!-- #x-digfir-subsection-insertion-point --></div><!-- /#manuscript -->
+<br class="clear" />
+<!-- end of material in original view -->
+
+	<!--[if IE]><script type="text/javascript" src="js/excanvas.compiled.js"></script><![endif]-->
+    
+<script type="text/javascript" src="js/utilities.js"></script>
+<script type="text/javascript" src="js/query_types.js"></script>
+<script type="text/javascript" src="js/player.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery_extensions.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script type="text/javascript" src="js/digfir_ebook_fw.js"></script>
+<script type="text/javascript" src="js/scc9e.js"></script>
+<script type="text/javascript" src="js/scc9e_ch19.js"></script>
+<script type="text/javascript">
+    //<!--
+    
+$(window).ready(function () {
+	player.initialize('57697dca757a2e3927000000');
+});
+    //-->
+</script>
+</body>
+</html>
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+    <title>scc9e_ch21</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link href="css/boilerplate.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/jquery-ui-custom.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/manuscript.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/digfir_ebook_fw.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/scc9e.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/scc9e_ch21.css" media="screen" rel="stylesheet" type="text/css" >    
+    
+    </head>
+<body class="noUi">
+<div id="manuscript" data-chapter-number="21">
+    <div data-type="section" data-block_type="h1" id="scc9e-ch21-sec1-006" level="1" data-print_page="508">
+<h2 class="section-title"><span data-type="title" data-title-for="scc9e-ch21-sec1-006">Confidence intervals for a population mean<span data-type="termref" data-term="fn_ch21_fn03"><sup>*</sup></span>
+</span></h2>
+
+<div data-margin-content="left" data-block_type="page_start" id="scc9e_page_508"><p>508</p></div>
+<div data-block_type="TXT-ni" id="scc9e-ch21-p0144"><p>The standard error of <span data-math="math_64"></span> depends on both the sample size <em>n</em> and the standard deviation <em>σ</em> of individuals in the population. We know <em>n</em> but not <em>σ</em>. When <em>n</em> is large, the sample standard deviation <em>s</em> is close to <em>σ</em> and can be used to estimate it, just as we use the sample mean <span data-math="math_65"></span> to estimate the population mean <em>μ</em>. The estimated standard error of <span data-math="math_66"></span> is, therefore, <span data-math="math_67"></span>. Now we can find confidence intervals for <em>μ</em> following the same reasoning that led us to confidence intervals for a proportion <em>p</em>. The big idea is that to cover the central area <em>C</em> under a Normal curve, we must go out a distance <em>z</em>* on either side of the mean. Look again at <span data-type="link" data-href="figure_21_5.html">Figure 21.5</span> to see how <em>C</em> and <em>z</em>* are related.</p></div>
+<div data-type="box" data-block_type="BX1" id="scc9e-ch21-box-018"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch21-box-018"></h3>
+<div data-block_type="BX1-T" id="scc9e-ch21-p0145"><p>Confidence interval for a population mean</p></div>
+<div data-block_type="BX1-TXT-ni" id="scc9e-ch21-p0146"><p>Choose an SRS of size <em>n</em> from a large population of individuals having mean <em>μ</em>. The mean of the sample observations is <span data-math="math_68"></span>. When <em>n</em> is reasonably large, an <strong>approximate level <em>C</em> confidence interval for</strong> <em>μ</em> is</p></div>
+<div data-block_type="EQ" id="scc9e-ch21-p0147"><p><span data-math="math_69"></span></p></div>
+<div data-block_type="BX1-TXT-ni" id="scc9e-ch21-p0148"><p>where <em>z</em>* is the critical value for confidence level <em>C</em> from <span data-type="link" data-href="table_21_1.html">Table 21.1</span>.</p></div>
+</div></div>
+<div data-block_type="TXT" id="scc9e-ch21-p0149"><p>The cautions we noted in estimating <em>p</em> apply here as well. The recipe is valid only when an SRS is drawn and the sample size <em>n</em> is reasonably large. How large is reasonably large? The answer depends upon the true shape of the population distribution. A sample size of <em>n</em> ≥ 15 is usually adequate unless there are extreme outliers or strong skewness. For clearly skewed distributions, a sample size of <em>n</em> ≥ 40 often suffices if there are no outliers.</p></div>
+<div data-block_type="TXT" id="scc9e-ch21-p0150"><p>The margin of error again decreases only at a rate proportional to <span data-math="math_70"></span> as the sample size <em>n</em> increases. And it bears repeating that <span data-math="math_71"></span> and <em>s</em> are strongly influenced by outliers. Inference using <span data-math="math_72"></span> and <em>s</em> is suspect when outliers are present. Always look at your data.</p></div>
+<div data-type="box" data-block_type="FN" data-chapter="21" data-footnote-number="*" id="scc9e-ch21-FN-003"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch21-FN-003"></h3>
+<div data-block_type="FN" id="scc9e-ch21-p0151"><p>This section is optional.</p></div>
+</div></div>
+<div data-margin-content="right" data-block_type="page_start" id="scc9e_page_509"><p>509</p></div>
+<div data-type="box" data-block_type="EXP" data-filename="example_21_7.html" id="scc9e-ch21-box-019"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch21-box-019"></h3>
+<div data-block_type="EXP-T" id="scc9e-ch21-p0153"><p><span data-block_type="EXP-N-ri">EXAMPLE 7</span> NAEP quantitative scores</p></div>
+<div data-block_type="EXP-first" id="scc9e-ch21-p0154"><p>The National Assessment of Educational Progress (NAEP) includes a mathematics test for high school seniors. Scores on the test range from 0 to 300. Demonstrating the ability to use the Pythagorean theorem to determine the length of a hypotenuse is an example of the skills and knowledge associated with performance at the Basic level. An example of the knowledge and skills associated with the Proficient level is using trigonometric ratios to determine length.</p></div>
+<div data-type="figure" data-filename="21_17MOORESCC-MSE_9e_P_21_02.html" data-figure-id="scc9e-ch21-unfig-004" data-block_type="UN-FIGURE" data-layout-align="right" data-layout-width="medium" data-layout-border="false">
+
+<img id="" src="asset/ch21/17MOORESCC-MSE_9e_P_21_02.jpg" data-figure-id="scc9e-ch21-unfig-004" data-layout-width="medium" data-mmtype="image" data-mmsrc="" data-attr="" alt="image">
+<div data-type="asset_source"><span data-block_type="PH-CL">Roger Bamber/Alamy</span></div>
+</div>
+<div data-block_type="EXP-mid" id="scc9e-ch21-p0155"><p>In 2009, 51,000 12th-graders were in the NAEP sample for the mathematics test. The mean mathematics score was <span data-math="math_73"></span> and the standard deviation of their scores was <em>s</em> = 34. Assume that these 51,000 students were a random sample from the population of all 12th-graders. On the basis of this sample, what can we say about the mean score <em>μ</em> in the population of all 12th-grade students?</p></div>
+<div data-block_type="EXP-mid" id="scc9e-ch21-p0156"><p>The 95% confidence interval for <em>μ</em> uses the critical value <em>z</em>* = 1.96 from <span data-type="link" data-href="table_21_1.html">Table 21.1</span>. The interval is</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch21-p0157"><p><span data-math="math_74"></span></p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch21-p0158"><p>= 153 ± (1.96)(0.151) = 153 ± 0.3</p></div>
+<div data-block_type="EXP-ni" id="scc9e-ch21-p0159"><p>We are 95% confident that the mean score for all 12th-grade students lies between 152.7 and 153.3.</p></div>
+</div></div>
+<div data-type="box" data-block_type="BX2" id="scc9e-ch21-box-020"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch21-box-020"></h3>
+<div data-block_type="BX2-H" id="scc9e-ch21-p0160"><p>NOW IT’S YOUR TURN</p></div>
+<div data-type="question" data-block_type="exercise_21_3.html" id="scc9e-ch21-quest-003">
+<h3>Question
+			    <span data-type="number">21.3 </span><span data-type="title"></span>
+</h3>
+<div data-block_type="BX2-QUE" id="scc9e-ch21-p0161"><p><span data-block_type="BX2-QUE-N-ri">21.3 Blood pressure of executives.</span> The medical director of a large company looks at the medical records of 72 executives between the ages of 35 and 44 years. He finds that the mean systolic blood pressure in this sample is <span data-math="math_75"></span> and the standard deviation is <em>s</em> = 15.2. Assuming the sample is a random sample of all executives in the company, find a 95% confidence interval for <em>μ</em>, the unknown mean blood pressure of all executives in the company.</p></div>
+</div>
+</div></div>
+</div>
+<!-- #x-digfir-subsection-insertion-point --></div><!-- /#manuscript -->
+<br class="clear" />
+<!-- end of material in original view -->
+
+	<!--[if IE]><script type="text/javascript" src="js/excanvas.compiled.js"></script><![endif]-->
+    
+<script type="text/javascript" src="js/utilities.js"></script>
+<script type="text/javascript" src="js/query_types.js"></script>
+<script type="text/javascript" src="js/player.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery_extensions.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script type="text/javascript" src="js/digfir_ebook_fw.js"></script>
+<script type="text/javascript" src="js/scc9e.js"></script>
+<script type="text/javascript" src="js/scc9e_ch21.js"></script>
+<script type="text/javascript">
+    //<!--
+    
+$(window).ready(function () {
+	player.initialize('57697f81757a2e1327000001');
+});
+    //-->
+</script>
+</body>
+</html>
+

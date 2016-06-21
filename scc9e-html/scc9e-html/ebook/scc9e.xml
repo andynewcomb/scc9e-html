@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<manifest id="scc9e" timestamp="1466015061" supp_win="0"><manuscript id="570e8e35757a2efc24000000" title="Chapter 1: Where Do Data Come From?" question-delivery-method="ARGA" number="1">
+<manifest id="scc9e" timestamp="1466532060" supp_win="0"><manuscript id="570e8e35757a2efc24000000" title="Chapter 1: Where Do Data Come From?" question-delivery-method="ARGA" number="1">
     <section id="scc9e-ch01-sec-01" folder="false" filename="scc9e_ch1_1.html" dlapFilename="scc9e_ch1_1_dlap.xml" numquestions="0">
       <title>PART I</title>
     </section>
@@ -515,5 +515,156 @@
     </section>
     <section id="scc9e-part02-sec1-03" folder="false" filename="scc9e_part2_4.html" dlapFilename="scc9e_part2_4_dlap.xml" numquestions="0">
       <title><phrase block_type="PR-SUM-N-ri">PART II</phrase> PROJECTS</title>
+    </section>
+  </manuscript><manuscript id="57697cf4757a2e0627000001" title="Chapter 17: Thinking about Chance" question-delivery-method="ARGA" number="17">
+    <section id="scc9e-ch17-sec1-01" folder="false" filename="scc9e_ch17_1.html" dlapFilename="scc9e_ch17_1_dlap.xml" numquestions="0">
+      <title>PART III</title>
+    </section>
+    <section title="Thinking about Chance" id="scc9e-ch17-sec-01" folder="false" filename="scc9e_ch17_2.html" dlapFilename="scc9e_ch17_2_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch17-sec1-02" folder="false" filename="scc9e_ch17_3.html" dlapFilename="scc9e_ch17_3_dlap.xml" numquestions="0">
+      <title>The idea of probability</title>
+    </section>
+    <section id="scc9e-ch17-sec1-03" folder="false" filename="scc9e_ch17_4.html" dlapFilename="scc9e_ch17_4_dlap.xml" numquestions="0">
+      <title>The ancient history of chance</title>
+    </section>
+    <section id="scc9e-ch17-sec1-04" folder="false" filename="scc9e_ch17_5.html" dlapFilename="scc9e_ch17_5_dlap.xml" numquestions="0">
+      <title>Myths about chance behavior</title>
+    </section>
+    <section id="scc9e-ch17-sec1-05" folder="false" filename="scc9e_ch17_6.html" dlapFilename="scc9e_ch17_6_dlap.xml" numquestions="0">
+      <title>Personal probabilities</title>
+    </section>
+    <section id="scc9e-ch17-sec1-06" folder="false" filename="scc9e_ch17_7.html" dlapFilename="scc9e_ch17_7_dlap.xml" numquestions="0">
+      <title>Probability and risk</title>
+    </section>
+    <section id="scc9e-ch17-sec1-07" folder="false" filename="scc9e_ch17_8.html" dlapFilename="scc9e_ch17_8_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch17-sec1-08" folder="false" filename="scc9e_ch17_9.html" dlapFilename="scc9e_ch17_9_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch17-sec1-09" folder="false" filename="scc9e_ch17_10.html" dlapFilename="scc9e_ch17_10_dlap.xml" numquestions="0">
+      <title>CHAPTER 17 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="57697d7f757a2e3727000000" title="Chapter 18: Probability Models" question-delivery-method="ARGA" number="18">
+    <section title="Probability Models" id="scc9e-ch18-sec-001" folder="false" filename="scc9e_ch18_1.html" dlapFilename="scc9e_ch18_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch18-sec1-001" folder="false" filename="scc9e_ch18_2.html" dlapFilename="scc9e_ch18_2_dlap.xml" numquestions="0">
+      <title>Probability models</title>
+    </section>
+    <section id="scc9e-ch18-sec1-002" folder="false" filename="scc9e_ch18_3.html" dlapFilename="scc9e_ch18_3_dlap.xml" numquestions="0">
+      <title>Probability rules</title>
+    </section>
+    <section id="scc9e-ch18-sec1-003" folder="false" filename="scc9e_ch18_4.html" dlapFilename="scc9e_ch18_4_dlap.xml" numquestions="0">
+      <title>Probability and odds</title>
+    </section>
+    <section id="scc9e-ch18-sec1-004" folder="false" filename="scc9e_ch18_5.html" dlapFilename="scc9e_ch18_5_dlap.xml" numquestions="0">
+      <title>Probability models for sampling</title>
+    </section>
+    <section id="scc9e-ch18-sec1-005" folder="false" filename="scc9e_ch18_6.html" dlapFilename="scc9e_ch18_6_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch18-sec1-006" folder="false" filename="scc9e_ch18_7.html" dlapFilename="scc9e_ch18_7_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch18-sec1-007" folder="false" filename="scc9e_ch18_8.html" dlapFilename="scc9e_ch18_8_dlap.xml" numquestions="0">
+      <title>CHAPTER 18 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="57697dca757a2e3927000000" title="Chapter 19: Simulation" question-delivery-method="ARGA" number="19">
+    <section title="Simulation" id="scc9e-ch19-sec-001" folder="false" filename="scc9e_ch19_1.html" dlapFilename="scc9e_ch19_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch19-sec1-001" folder="false" filename="scc9e_ch19_2.html" dlapFilename="scc9e_ch19_2_dlap.xml" numquestions="0">
+      <title>Where do probabilities come from?</title>
+    </section>
+    <section id="scc9e-ch19-sec1-002" folder="false" filename="scc9e_ch19_3.html" dlapFilename="scc9e_ch19_3_dlap.xml" numquestions="0">
+      <title>Simulation basics</title>
+    </section>
+    <section id="scc9e-ch19-sec1-003" folder="false" filename="scc9e_ch19_4.html" dlapFilename="scc9e_ch19_4_dlap.xml" numquestions="0">
+      <title>Thinking about independence</title>
+    </section>
+    <section id="scc9e-ch19-sec1-004" folder="false" filename="scc9e_ch19_5.html" dlapFilename="scc9e_ch19_5_dlap.xml" numquestions="0">
+      <title>More elaborate simulations</title>
+    </section>
+    <section id="scc9e-ch19-sec1-005" folder="false" filename="scc9e_ch19_6.html" dlapFilename="scc9e_ch19_6_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch19-sec1-006" folder="false" filename="scc9e_ch19_7.html" dlapFilename="scc9e_ch19_7_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch19-sec1-007" folder="false" filename="scc9e_ch19_8.html" dlapFilename="scc9e_ch19_8_dlap.xml" numquestions="0">
+      <title>CHAPTER 19 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="57697e1b757a2e6927000000" title="Chapter 20: The House Edge: Expected Values" question-delivery-method="ARGA" number="20">
+    <section title="The House Edge: Expected Values" id="scc9e-ch20-sec-001" folder="false" filename="scc9e_ch20_1.html" dlapFilename="scc9e_ch20_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch20-sec1-001" folder="false" filename="scc9e_ch20_2.html" dlapFilename="scc9e_ch20_2_dlap.xml" numquestions="0">
+      <title>Expected values</title>
+    </section>
+    <section id="scc9e-ch20-sec1-002" folder="false" filename="scc9e_ch20_3.html" dlapFilename="scc9e_ch20_3_dlap.xml" numquestions="0">
+      <title>The law of large numbers</title>
+    </section>
+    <section id="scc9e-ch20-sec1-003" folder="false" filename="scc9e_ch20_4.html" dlapFilename="scc9e_ch20_4_dlap.xml" numquestions="0">
+      <title>Thinking about expected values</title>
+    </section>
+    <section id="scc9e-ch20-sec1-004" folder="false" filename="scc9e_ch20_5.html" dlapFilename="scc9e_ch20_5_dlap.xml" numquestions="0">
+      <title>Finding expected values by simulation</title>
+    </section>
+    <section id="scc9e-ch20-sec1-005" folder="false" filename="scc9e_ch20_6.html" dlapFilename="scc9e_ch20_6_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch20-sec1-006" folder="false" filename="scc9e_ch20_7.html" dlapFilename="scc9e_ch20_7_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch20-sec1-007" folder="false" filename="scc9e_ch20_8.html" dlapFilename="scc9e_ch20_8_dlap.xml" numquestions="0">
+      <title>CHAPTER 20 EXERCISES</title>
+    </section>
+  </manuscript><manuscript id="57697f44757a2e0b27000000" title="PART III REVIEW" question-delivery-method="ARGA" number="1">
+    <section title="PART III REVIEW" id="scc9e-part03-sec-001" folder="false" filename="scc9e_part3_1.html" dlapFilename="scc9e_part3_1_dlap.xml" numquestions="0"/>
+    <section id="scc9e-part03-sec1-001" folder="false" filename="scc9e_part3_2.html" dlapFilename="scc9e_part3_2_dlap.xml" numquestions="0">
+      <title><phrase block_type="PR-SUM-N-ri">PART III</phrase> SUMMARY</title>
+    </section>
+    <section id="scc9e-part03-sec1-002" folder="false" filename="scc9e_part3_3.html" dlapFilename="scc9e_part3_3_dlap.xml" numquestions="0">
+      <title><phrase block_type="PR-X-N-ri">PART III</phrase> REVIEW EXERCISES</title>
+    </section>
+    <section id="scc9e-part03-sec1-003" folder="false" filename="scc9e_part3_4.html" dlapFilename="scc9e_part3_4_dlap.xml" numquestions="0">
+      <title><phrase block_type="PR-X-N-ri">PART III</phrase> PROJECTS</title>
+    </section>
+  </manuscript><manuscript id="57697f81757a2e1327000001" title="Chapter 21: What Is a Confidence Interval?" question-delivery-method="ARGA" number="21">
+    <section id="scc9e-ch21-sec-001" folder="false" filename="scc9e_ch21_1.html" dlapFilename="scc9e_ch21_1_dlap.xml" numquestions="0">
+      <title>Part IV</title>
+    </section>
+    <section title="What Is a Confidence Interval?" id="scc9e-ch21-sec-002" folder="false" filename="scc9e_ch21_2.html" dlapFilename="scc9e_ch21_2_dlap.xml" numquestions="0"/>
+    <section id="scc9e-ch21-sec1-001" folder="false" filename="scc9e_ch21_3.html" dlapFilename="scc9e_ch21_3_dlap.xml" numquestions="0">
+      <title>Estimating</title>
+    </section>
+    <section id="scc9e-ch21-sec1-002" folder="false" filename="scc9e_ch21_4.html" dlapFilename="scc9e_ch21_4_dlap.xml" numquestions="0">
+      <title>Estimating with confidence</title>
+    </section>
+    <section id="scc9e-ch21-sec1-003" folder="false" filename="scc9e_ch21_5.html" dlapFilename="scc9e_ch21_5_dlap.xml" numquestions="0">
+      <title>Understanding confidence intervals</title>
+    </section>
+    <section id="scc9e-ch21-sec1-004" folder="false" filename="scc9e_ch21_6.html" dlapFilename="scc9e_ch21_6_dlap.xml" numquestions="0">
+      <title>More on confidence intervals for a population proportion<termref term="fn_ch21_fn01"><sup>*</sup></termref></title>
+    </section>
+    <section id="scc9e-ch21-sec1-005" folder="false" filename="scc9e_ch21_7.html" dlapFilename="scc9e_ch21_7_dlap.xml" numquestions="0">
+      <title>The sampling distribution of a sample mean<termref term="fn_ch21_fn02"><sup>*</sup></termref></title>
+    </section>
+    <section id="scc9e-ch21-sec1-006" folder="false" filename="scc9e_ch21_8.html" dlapFilename="scc9e_ch21_8_dlap.xml" numquestions="0">
+      <title>Confidence intervals for a population mean<termref term="fn_ch21_fn03"><sup>*</sup></termref></title>
+    </section>
+    <section id="scc9e-ch21-sec1-007" folder="false" filename="scc9e_ch21_9.html" dlapFilename="scc9e_ch21_9_dlap.xml" numquestions="0">
+      <title>
+        <phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase>
+      </title>
+    </section>
+    <section id="scc9e-ch21-sec1-008" folder="false" filename="scc9e_ch21_10.html" dlapFilename="scc9e_ch21_10_dlap.xml" numquestions="0">
+      <title>CHECK THE BASICS</title>
+    </section>
+    <section id="scc9e-ch21-sec1-009" folder="false" filename="scc9e_ch21_11.html" dlapFilename="scc9e_ch21_11_dlap.xml" numquestions="0">
+      <title>CHAPTER 21 EXERCISES</title>
     </section>
   </manuscript></manifest>

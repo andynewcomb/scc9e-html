@@ -15,5 +15,11 @@ scc9e_ch113
 scc9e_ch14
 scc9e_ch15
 scc9e_ch16
+scc9e_ch17
+scc9e_ch18
+scc9e_ch19
+scc9e_ch20
+scc9e_ch21
 scc9e_part1
 scc9e_part2
+scc9e_part3

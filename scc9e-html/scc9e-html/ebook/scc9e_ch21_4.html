@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+    <title>scc9e_ch21</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link href="css/boilerplate.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/jquery-ui-custom.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/manuscript.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/digfir_ebook_fw.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/scc9e.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="css/scc9e_ch21.css" media="screen" rel="stylesheet" type="text/css" >    
+    
+    </head>
+<body class="noUi">
+<div id="manuscript" data-chapter-number="21">
+    <div data-type="section" data-block_type="h1" id="scc9e-ch21-sec1-002" level="1" data-print_page="495">
+<h2 class="section-title"><span data-type="title" data-title-for="scc9e-ch21-sec1-002">Estimating with confidence
+</span></h2>
+
+<div data-block_type="TXT-ni" id="scc9e-ch21-p025"><p>We want to estimate the proportion <em>p</em> of the individuals in a population who have some characteristic—they are employed, or they approve the president’s performance, for example. Let’s call the characteristic we are looking for a “success.’’ We use the proportion <span data-math="math_2"></span> of successes in a simple random sample (SRS) to estimate the proportion <em>p</em> of successes in the population. How good is the statistic <span data-math="math_3"></span> as an estimate of the parameter <em>p</em>? To find out, we ask, “What would happen if we took many samples?’’ Well, we know that <span data-math="math_4"></span> would vary from sample to sample. We also know that this sampling variability isn’t haphazard. It has a clear pattern in the long run, a pattern that is pretty well described by a Normal curve. Here are the facts.</p></div>
+<div data-type="box" data-block_type="BX1" id="scc9e-ch21-box-004"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch21-box-004"></h3>
+<div data-block_type="BX1-T" id="scc9e-ch21-p026"><p>Sampling distribution of a sample proportion</p></div>
+<div data-block_type="BX1-TXT-ni" id="scc9e-ch21-p027"><p>The <strong>sampling distribution</strong> of a statistic is the distribution of values taken by the statistic in all possible samples of the same size from the same population.</p></div>
+<div data-block_type="BX1-TXT-i" id="scc9e-ch21-p028"><p>Take an SRS of size <em>n</em> from a large population that contains proportion <em>p</em> of successes. Let <span data-math="math_5"></span> be the <strong>sample proportion</strong> of successes,</p></div>
+<div data-block_type="EQ" id="scc9e-ch21-p029"><p><span data-math="math_6"></span></p></div>
+<div data-margin-content="left" data-block_type="page_start" id="scc9e_page_496"><p>496</p></div>
+<div data-type="figure" data-caption-compass="S" data-filename="figure_21_1.html" data-figure-id="scc9e-ch21-fig-001" data-block_type="FIGURE" data-layout-align="center" data-layout-width="large" data-layout-border="false">
+
+<img id="" src="asset/ch21/17MOORESCC-MSE_9e_fig_21_01.jpg" data-figure-id="scc9e-ch21-fig-001" data-layout-width="large" data-mmtype="image" data-mmsrc="" data-attr="" alt="image">
+<div data-type="figure_text">
+<span data-type="number">Figure 21.1: </span><span data-type="caption"><span data-block_type="FG-N-ri">Figure 21.1</span> <span data-block_type="FG-CAP">Repeat many times the process of selecting an SRS of size <em>n</em> from a population in which the proportion <em>p</em> are successes. The values of the sample proportion of successes <span data-math="math_7"></span> have this Normal sampling distribution.</span></span>
+</div>
+</div>
+<div data-block_type="BX1-TXT-i" id="scc9e-ch21-p031"><p>Then, if the sample size is large enough:</p></div>
+<ul data-block_type="bluebullet" id="scc9e-ch21-list-001">
+<li><div data-block_type="BX1-BL-first" id="scc9e-ch21-p032"><p><span data-block_type="maker">•</span> The sampling distribution of <span data-math="math_8"></span> is <strong>approximately Normal</strong>.</p></div></li>
+<li><div data-block_type="BX1-BL-first" id="scc9e-ch21-p033"><p><span data-block_type="maker">•</span> The <strong>mean</strong> of the sampling distribution is <em>p</em>.</p></div></li>
+<li><div data-block_type="BX1-BL-last" id="scc9e-ch21-p034"><p><span data-block_type="maker">•</span> The <strong>standard deviation</strong> of the sampling distribution is</p></div></li>
+</ul>
+<div data-block_type="EQ" id="scc9e-ch21-p035"><p><span data-math="math_9"></span></p></div>
+</div></div>
+<div data-block_type="TXT" id="scc9e-ch21-p036"><p>These facts can be proved by mathematics, so they are a solid starting point. <span data-type="link" data-href="figure_21_1.html">Figure 21.1</span> summarizes them in a form that also reminds us that a sampling distribution describes the results of lots of samples from the same population.</p></div>
+<div data-type="box" data-block_type="BX1" id="scc9e-ch21-box-005"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch21-box-005"></h3>
+<div data-block_type="BX1-T" id="scc9e-ch21-p037"><p>Standard error</p></div>
+<div data-block_type="BX1-TXT-ni" id="scc9e-ch21-p038"><p>The standard deviation of the sampling distribution of a sample statistic is commonly referred to as the <strong>standard error</strong>.</p></div>
+</div></div>
+<div data-type="box" data-block_type="EXP" data-filename="example_21_2.html" id="scc9e-ch21-box-006"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch21-box-006"></h3>
+<div data-block_type="EXP-T" id="scc9e-ch21-p039"><p><span data-block_type="EXP-N-ri">EXAMPLE 2</span> More on soda consumption</p></div>
+<div data-block_type="EXP-first" id="scc9e-ch21-p040"><p>Suppose, for example, that the truth is that 62% of Americans actively tried to avoid drinking regular soda or pop in 2015. Then, in the setting of <span data-type="link" data-href="example_21_1.html">Example 1</span>, <em>p</em> = 0.62. The Gallup sample of size <em>n</em> = 1009 would, if repeated many times, produce sample proportions <span data-math="math_10"></span> that closely follow the Normal distribution with</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch21-p041"><p>mean = <em>p</em> = 0.62</p></div>
+<div data-margin-content="right" data-block_type="page_start" id="scc9e_page_497"><p>497</p></div>
+<div data-block_type="EXP-first" id="scc9e-ch21-p043"><p>and</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch21-p044"><p><span data-math="math_11"></span></p></div>
+<div data-type="figure" data-filename="21_17MOORESCC-MSE_9e_P_21_01.html" data-figure-id="scc9e-ch21-unfig-003" data-block_type="UN-FIGURE" data-layout-align="right" data-layout-width="medium" data-layout-border="false">
+
+<img id="" src="asset/ch21/17MOORESCC-MSE_9e_P_21_01.jpg" data-figure-id="scc9e-ch21-unfig-003" data-layout-width="medium" data-mmtype="image" data-mmsrc="" data-attr="" alt="image">
+<div data-type="asset_source"><span data-block_type="PH-CL">Eric Raptosh Photography/Getty Images</span></div>
+</div>
+<div data-block_type="EXP-mid" id="scc9e-ch21-p047"><p>The center of this Normal distribution is at the truth about the population. That’s the absence of bias in random sampling once again. The standard error is small because the sample is quite large. So, almost all samples will produce a statistic <span data-math="math_12"></span> that is close to the true <em>p</em>. In fact, the 95 part of the 68–95–99.7 rule says that 95% of all sample outcomes will fall between</p></div>
+<div data-block_type="EQ" id="scc9e-ch21-p048"><p>mean − 2 standard errors = 0.62 − 0.0306 = 0.5894</p></div>
+<div data-block_type="EXP-ni" id="scc9e-ch21-p049"><p>and</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch21-p050"><p>mean + 2 standard errors = 0.62 + 0.0306 = 0.6506</p></div>
+<div data-block_type="Box" id="scc9e-ch21-p051"><p><span data-type="link" data-href="figure_21_2.html">Figure 21.2</span> displays these facts.</p></div>
+</div></div>
+<div data-type="figure" data-caption-compass="S" data-filename="figure_21_2.html" data-figure-id="scc9e-ch21-fig-002" data-block_type="FIGURE" data-layout-align="center" data-layout-width="medium" data-layout-border="false">
+
+<img id="" src="asset/ch21/17MOORESCC-MSE_9e_fig_21_02.jpg" data-figure-id="scc9e-ch21-fig-002" data-layout-width="medium" data-mmtype="image" data-mmsrc="" data-attr="" alt="image">
+<div data-type="figure_text">
+<span data-type="number">Figure 21.2: </span><span data-type="caption"><span data-block_type="FG-N-ri">Figure 21.2</span> <span data-block_type="FG-CAP">Repeat many times the process of selecting an SRS of size 1009 from a population in which the proportion <em>p</em> = 0.62 are successes. The middle 95% of the values of the sample proportion <span data-math="math_13"></span> will lie between 0.5894 and 0.6506.</span></span>
+</div>
+</div>
+<div data-margin-content="left" data-block_type="page_start" id="scc9e_page_498"><p>498</p></div>
+<div data-block_type="TXT" id="scc9e-ch21-p053"><p>So far, we have just put numbers on what we already knew: we can trust the results of large random samples because almost all such samples give results that are close to the truth about the population. The numbers say that in 95% of all samples of size 1009, the statistic <span data-math="math_14"></span> and the parameter <em>p</em> are within 0.0306 of each other. We can put this another way: 95% of all samples give an outcome <span data-math="math_15"></span> such that the population truth <em>p</em> is captured by the interval from <span data-math="math_16"></span> to <span data-math="math_17"></span>.</p></div>
+<div data-block_type="TXT" id="scc9e-ch21-p054"><p>The 0.03 came from substituting <em>p</em> = 0.62 into the formula for the standard error of <span data-math="math_18"></span>. For any value of <em>p</em>, the general fact is:</p></div>
+<div data-block_type="EXT-TXT" id="scc9e-ch21-p055"><p><em>When the population proportion has the value p, 95% of all samples catch p in the interval extending 2 standard errors on either side of <span data-math="math_19"></span>.</em></p></div>
+<div data-block_type="TXT-ni" id="scc9e-ch21-p056"><p>That’s the interval</p></div>
+<div data-block_type="EQ" id="scc9e-ch21-p057"><p><span data-math="math_20"></span></p></div>
+<div data-block_type="TXT-ni" id="scc9e-ch21-p058"><p>Is this the 95% confidence interval we want? Not quite. The interval can’t be found just from the data because the standard deviation involves the population proportion <em>p</em>, and in practice, we don’t know <em>p</em>. In <span data-type="link" data-href="example_21_2.html">Example 2</span>, we used <em>p</em> = 0.62 in the formula, but this may not be the true <em>p</em>.</p></div>
+<div data-block_type="TXT" id="scc9e-ch21-p059"><p>What can we do? Well, the standard deviation of the statistic <span data-math="math_21"></span>, or the standard error, does depend on the parameter <em>p</em>, but it doesn’t change a lot when <em>p</em> changes. Go back to <span data-type="link" data-href="example_21_2.html">Example 2</span> and redo the calculation for other values of <em>p</em>. Here’s the result:</p></div>
+<div data-type="table" data-block_type="UN-TABLE" id="scc9e-ch21-untab-1" data-layout-align="" data-layout-width="" data-layout-border="" data-mmsrc="" data-attr="80"><table><tbody>
+<tr class="tborder">
+<td data-block_type="TB1-TXT" align="center">Value of <em>p</em>:</td>
+<td data-block_type="TB1-TXT" align="center">0.60</td>
+<td data-block_type="TB1-TXT" align="center">0.61</td>
+<td data-block_type="TB1-TXT" align="center">0.62</td>
+<td data-block_type="TB1-TXT" align="center">0.63</td>
+<td data-block_type="TB1-TXT" align="center">0.64</td>
+</tr>
+<tr class="bborder">
+<td data-block_type="TB1-TXT" align="center">Standard error:</td>
+<td data-block_type="TB1-TXT" align="center">0.01542</td>
+<td data-block_type="TB1-TXT" align="center">0.01535</td>
+<td data-block_type="TB1-TXT" align="center">0.01528</td>
+<td data-block_type="TB1-TXT" align="center">0.01520</td>
+<td data-block_type="TB1-TXT" align="center">0.01511</td>
+</tr>
+</tbody></table></div>
+<div data-block_type="TXT-ni" id="scc9e-ch21-p060"><p>We see that, if we guess a value of <em>p</em> reasonably close to the true value, the standard error found from the guessed value will be about right. We know that, when we take a large random sample, the statistic <span data-math="math_22"></span> is almost always close to the parameter <em>p</em>. So, we will use <span data-math="math_23"></span> as the guessed value of the unknown <em>p</em>. Now we have an interval that we can calculate from the sample data.</p></div>
+<div data-type="box" data-block_type="BX1" id="scc9e-ch21-box-007"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch21-box-007"></h3>
+<div data-block_type="BX1-T" id="scc9e-ch21-p061"><p>95% confidence interval for a proportion</p></div>
+<div data-block_type="BX1-TXT-ni" id="scc9e-ch21-p062"><p>Choose an SRS of size <em>n</em> from a large population that contains an unknown proportion <em>p</em> of successes. Call the proportion of successes in this sample <span data-math="math_24"></span>. An <strong>approximate 95% confidence interval</strong> for the parameter <em>p</em> is</p></div>
+<div data-block_type="EQ" id="scc9e-ch21-p063"><p><span data-math="math_25"></span></p></div>
+</div></div>
+<div data-margin-content="right" data-block_type="page_start" id="scc9e_page_499"><p>499</p></div>
+<div data-type="box" data-block_type="EXP" data-filename="example_21_3.html" id="scc9e-ch21-box-008"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch21-box-008"></h3>
+<div data-block_type="EXP-T" id="scc9e-ch21-p065"><p><span data-block_type="EXP-N-ri">EXAMPLE 3</span> A confidence interval for soda consumption</p></div>
+<div data-block_type="EXP-first" id="scc9e-ch21-p066"><p>The Gallup random sample of 1009 adult Americans found that 616 reported actively trying to avoid drinking regular soda or pop in 2015, a sample proportion <span data-math="math_26"></span>. The 95% confidence interval for the proportion of all Americans who actively tried to avoid drinking regular soda or pop in 2015 is</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch21-p067"><p><span data-math="math_27"></span></p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch21-p068"><p>= 0.611 ± (2)(0.01535)</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch21-p069"><p>= 0.611 ± 0.0307</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch21-p070"><p>= 0.5803 to 0.6417</p></div>
+<div data-block_type="EXP-ni" id="scc9e-ch21-p071"><p>Interpret this result as follows: we got this interval by using a recipe that catches the true unknown population proportion in 95% of all samples. The shorthand is: we are <strong>95% confident</strong> that the true proportion of all Americans who actively tried to avoid drinking regular soda or pop in 2015 lies between 58.03% and 64.17%.</p></div>
+</div></div>
+<div data-type="box" data-block_type="margin-statistics" id="scc9e-ch21-box-009"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch21-box-009"></h3>
+<div data-block_type="MN-TXT" id="scc9e-ch21-p072"><p><img id="" src="asset/global_images/statistics_icon.jpg" data-figure-id="" data-layout-width="" data-mmtype="" alt="image"> <span data-block_type="MN-T-ri">Who is a smoker?</span> When estimating a proportion <em>p</em>, be sure you know what counts as a “success.’’ The news says that 20% of adolescents smoke. Shocking. It turns out that this is the percentage who smoked at least once in the past month. If we say that a smoker is someone who smoked in at least 20 of the past 30 days and smoked at least half a pack on those days, fewer than 4% of adolescents qualify.</p></div>
+</div></div>
+<div data-type="box" data-block_type="BX2" id="scc9e-ch21-box-010"><div data-type="box_inner">
+<h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch21-box-010"></h3>
+<div data-block_type="BX2-H" id="scc9e-ch21-p073"><p>NOW IT’S YOUR TURN</p></div>
+<div data-type="question" data-block_type="exercise_21_1.html" id="scc9e-ch21-quest-001">
+<h3>Question
+			    <span data-type="number">21.1 </span><span data-type="title"></span>
+</h3>
+<div data-block_type="BX2-QUE" id="scc9e-ch21-p074"><p><span data-block_type="BX2-QUE-N-ri">21.1 Gambling.</span> A May 2011 Gallup Poll consisting of a random sample of 1018 adult Americans found that 31% believe gambling is morally wrong. Find a 95% confidence interval for the proportion of all adult Americans who believe gambling is morally wrong. How would you interpret this interval?</p></div>
+</div>
+</div></div>
+</div>
+<!-- #x-digfir-subsection-insertion-point --></div><!-- /#manuscript -->
+<br class="clear" />
+<!-- end of material in original view -->
+
+	<!--[if IE]><script type="text/javascript" src="js/excanvas.compiled.js"></script><![endif]-->
+    
+<script type="text/javascript" src="js/utilities.js"></script>
+<script type="text/javascript" src="js/query_types.js"></script>
+<script type="text/javascript" src="js/player.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery_extensions.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script type="text/javascript" src="js/digfir_ebook_fw.js"></script>
+<script type="text/javascript" src="js/scc9e.js"></script>
+<script type="text/javascript" src="js/scc9e_ch21.js"></script>
+<script type="text/javascript">
+    //<!--
+    
+$(window).ready(function () {
+	player.initialize('57697f81757a2e1327000001');
+});
+    //-->
+</script>
+</body>
+</html>
+
