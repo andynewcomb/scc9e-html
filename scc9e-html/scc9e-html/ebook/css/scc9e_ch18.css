@@ -1,1 +1,50 @@
-﻿
+﻿/***Basic one offs***/
+div#scc9e-ch18-bx03 {
+  clear: left;
+}
+div#scc9e-ch18-bx02 {
+  margin-bottom: 1em;
+}
+div#scc9e-ch18-p026 {
+  margin-left: 150px;
+}
+div#scc9e-ch18-bx05 {
+  margin-left: 185px;
+}
+div#scc9e-ch18-untab-4a tbody tr td {
+  width: 260px;
+}
+div#scc9e-ch18-untab-4a tbody tr td + td {
+  width: 180px;
+}
+div#scc9e-ch18-untab-4a tbody tr td + td + td {
+  width: 230px;
+}
+div#scc9e-ch18-untab-5a tbody tr td {
+  width: 260px;
+}
+div#scc9e-ch18-untab-5a tbody tr td + td {
+  width: 110px;
+}
+div#scc9e-ch18-untab-5a tbody tr td + td + td {
+  width: 165px;
+}
+div#scc9e-ch18-untab-5a tbody tr td + td + td + td {
+  width: 140px;
+}
+div#scc9e-ch18-untab-6a tbody tr td {
+  width: 260px;
+}
+div#scc9e-ch18-untab-6a tbody tr td + td {
+  width: 110px;
+}
+div#scc9e-ch18-untab-6a tbody tr td + td + td {
+  width: 165px;
+}
+div#scc9e-ch18-untab-6a tbody tr td + td + td + td {
+  width: 140px;
+}
+/***Page number one offs***/
+div#scc9e_page_431 {
+  margin-top: -2em !important;
+}

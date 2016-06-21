@@ -44,11 +44,14 @@
 <li id="scc9e-ch19-li-003"><p id="scc9e-ch19-p022" block_type="BX1-BL-first"><phrase block_type="maker">&#8226;</phrase> One digit simulates one toss of the coin.</p></li>
 <li id="scc9e-ch19-li-004"><p id="scc9e-ch19-p023" block_type="BX1-BL-first"><phrase block_type="maker">&#8226;</phrase> Odd digits represent heads; even digits represent tails.</p></li>
 </list>
+<box id="scc9e-ch19-bx04" numbered="false" block_type="margin-statistics">
+<p id="scc9e-ch19-p031" block_type="MN-TXT"><image asset-id="scc9e-ch19-img-02" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">Really random digits</phrase> For purists, the RAND Corporation long ago published a book titled <em>One Million Random Digits.</em> The book lists 1,000,000 digits that were produced by a very elaborate physical randomization and really are random. An employee of RAND once told one of us that this is not the most boring book that RAND has ever published . . .</p>
+</box>
 <p id="scc9e-ch19-p024" block_type="EXP-TXT-1">This works because the five odd digits give probability 5<phrase data-math="math_1"></phrase>10 to heads (but any other assignment where half the digits represent heads is equally good). Successive digits in the table simulate independent tosses.</p>
 <p id="scc9e-ch19-p025" block_type="EXP-TXT-1"><strong>Step 3. Simulate many repetitions.</strong> Ten digits simulate 10 tosses, so looking at 10 consecutive digits in <link href="table_a.html">Table A</link> simulates one repetition. Read many groups of 10 digits from the table to simulate many repetitions. Be sure to keep track of whether or not the event we want (a run of three heads or three tails) occurs on each repetition.</p>
 <p id="scc9e_page_448" block_type="page_start" data-margin-content="left">448</p>
 <p id="scc9e-ch19-p027" block_type="EXP-mid">Here are the first three repetitions, starting at line 101 in <link href="table_a.html">Table A</link>. We have underlined all runs of three or more heads or tails.</p>
-<table id="scc9e-ch19-untab-1" numbered="false" block_type="UN-TABLE" attr="100">
+<table id="scc9e-ch19-untab-1" numbered="false" block_type="UN-TABLE" attr="115">
 <tbody>
 <tr class="tborder">
 <td align="center" block_type="TB1-COLHD"></td>
@@ -79,9 +82,6 @@
 <p id="scc9e-ch19-p028" block_type="EXP-mid">Continuing in <link href="table_a.html">Table A</link>, we did 25 repetitions; 23 of them did have a run of three or more heads or tails. So we estimate the probability of a run by the proportion</p>
 <p id="scc9e-ch19-p029" block_type="EXP-EQ">estimated probability <phrase data-math="math_2"></phrase></p>
 <p id="scc9e-ch19-p030" block_type="EXP-mid">Of course, 25 repetitions are not enough to be confident that our estimate is accurate. Now that we understand how to do the simulation, we can tell a computer to do many thousands of repetitions. A long simulation (or hard mathematics) finds that the true probability is about 0.826. Most people think runs are somewhat unlikely, so even our short simulation challenges our intuition by showing that runs of three occur most of the time in 10 tosses.</p>
-</box>
-<box id="scc9e-ch19-bx04" numbered="false" block_type="margin-statistics">
-<p id="scc9e-ch19-p031" block_type="MN-TXT"><image asset-id="scc9e-ch19-img-02" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">Really random digits</phrase> For purists, the RAND Corporation long ago published a book titled <em>One Million Random Digits.</em> The book lists 1,000,000 digits that were produced by a very elaborate physical randomization and really are random. An employee of RAND once told one of us that this is not the most boring book that RAND has ever published . . .</p>
 </box>
 <p id="scc9e-ch19-p032" block_type="TXT">Once you have gained some experience in simulation, setting up the probability model (Step 1) is usually the hardest part of the process. Although coin tossing may not fascinate you, the model in <link href="example_19_1.html">Examples 1</link> is typical of many probability problems because it consists of <em>independent trials</em> (the tosses) all having the <em>same possible outcomes</em> with the <em>same probabilities</em>. Shooting 10 free throws and observing the sexes of 10 children have similar models and are simulated in much the same way. The new part of the model is independence, which simplifies our work because it allows us to simulate each of the 10 tosses in exactly the same way.</p>
 <box id="scc9e-ch19-bx05" numbered="false" block_type="BX1">
@@ -220,10 +220,10 @@
 <p id="scc9e-ch19-p067" block_type="TXT">It is not necessarily true that two random phenomena are independent if their correlation is 0. In <link href="exercise_14_24.html">Exercise 14.24</link> (page 334), there is a clear curved relationship between speed and mileage, but the correlation is 0. Independence implies no relationship at all, but correlation measures the strength of only a straight-line relationship.</p>
 <p id="scc9e-ch19-p068" block_type="TXT">Because independence implies no relationship, we would expect to see no overall pattern in a scatterplot of the data if the variables are independent. Looking at scatterplots is another method for determining if independence is lacking.</p>
 <p id="scc9e_page_452" block_type="page_start" data-margin-content="left">452</p>
-<p id="scc9e-ch19-p070" block_type="TXT">Many methods for assessing independence exist. For example, if trials are not independent and, say, tossing a head increases the probability that the next toss is also a head, then in a sequence of tosses, we might expect to see unusually long runs of heads. We mentioned this idea of unusually long runs in <link href="example_17_5.html">Examples 5</link> (page 410) of <link href="scc9e-ch17.xml">Chapter 17</link>. Unusually long runs of made free throws would be expected if a basketball player has a &#8220;hot hand.&#8221; However, careful study has shown that runs of baskets made or missed are no more frequent in basketball than would be expected if each shot is independent of the player&#8217;s previous shots.</p>
 <box id="scc9e-ch19-bx09" numbered="false" block_type="margin-statistics">
 <p id="scc9e-ch19-p071" block_type="MN-TXT"><image asset-id="scc9e-ch19-img-04" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">Was he good or was he lucky?</phrase> When a baseball player hits .300, everyone applauds. A .300 hitter gets a hit in 30&#37; of times at bat. Could a .300 year just be luck? Typical major leaguers bat about 500 times a season and hit about .260. A hitter&#8217;s successive tries seem to be independent. From this model, we can calculate or simulate the probability of hitting .300. It is about 0.025. Out of 100 run-of-the-mill major league hitters, two or three each year will bat .300 just because they were lucky.</p>
 </box>
+<p id="scc9e-ch19-p070" block_type="TXT">Many methods for assessing independence exist. For example, if trials are not independent and, say, tossing a head increases the probability that the next toss is also a head, then in a sequence of tosses, we might expect to see unusually long runs of heads. We mentioned this idea of unusually long runs in <link href="example_17_5.html">Examples 5</link> (page 410) of <link href="scc9e-ch17.xml">Chapter 17</link>. Unusually long runs of made free throws would be expected if a basketball player has a &#8220;hot hand.&#8221; However, careful study has shown that runs of baskets made or missed are no more frequent in basketball than would be expected if each shot is independent of the player&#8217;s previous shots.</p>
 </section>
 <section id="scc9e-ch19-sec1-004" block_type="h1" chapter="ch19" numbered="false" level="1" print_page="452">
 <section-metadata><section-title>More elaborate simulations</section-title></section-metadata>
@@ -238,7 +238,7 @@
 </list>
 <p id="scc9e-ch19-p078" block_type="EXP-TXT-1"><strong>Step 2.</strong> Assigning digits is also easy. Two digits simulate the sex of one child. We assign 49 of the 100 pairs to &#8220;girl&#8221; and the remaining 51 to &#8220;boy&#8221;:</p>
 <p id="scc9e-ch19-p079" block_type="EXP-EQ">00, 01, 02, . . . , 48 = girl</p>
-<p id="scc9e-ch19-p080" block_type="math">49, 50, 51, . . . , 99 = boy</p>
+<p id="scc9e-ch19-p080" block_type="EXP-EQ">49, 50, 51, . . . , 99 = boy</p>
 <p id="scc9e_page_453" block_type="page_start" data-margin-content="right">453</p>
 <p id="scc9e-ch19-p082" block_type="EXP-TXT-1"><strong>Step 3.</strong> To simulate one repetition of this childbearing strategy, read pairs of digits from <link href="table_a.html">Table A</link> until the couple have either a girl or three children. The number of pairs needed to simulate one repetition depends on how quickly the couple get a girl. Here are 10 repetitions, simulated using line 130 of <link href="table_a.html">Table A</link>. To interpret the pairs of digits, we have written G for girl and B for boy under them, have added space to separate repetitions, and under each repetition have written &#8220;+&#8221; if a girl was born and &#8220;&#8722;&#8221; if not.</p>
 <table id="scc9e-ch19-untab-4" numbered="false" block_type="UN-TABLE" attr="100">
@@ -287,13 +287,13 @@
 </box>
 <p id="scc9e-ch19-p086" block_type="TXT">Our final example has stages that are <em>not independent</em>. That is, the probabilities at one stage depend on the outcome of the preceding stage.</p>
 <box id="scc9e-ch19-bx011" numbered="false" block_type="EXP" data-filename="example_19_5.html">
-<p id="scc9e-ch19-p087" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 5</phrase> A kidney transplant</p>
-<p id="scc9e-ch19-p088" block_type="EXP-first">Morris&#8217;s kidneys have failed and he is awaiting a kidney transplant. His doctor gives him this information for patients in his condition: 90&#37; survive the transplant operation, and 10&#37; die. The transplant succeeds in 60&#37; of those who survive, and the other 40&#37; must return to kidney dialysis. The proportions who survive for at least five years are 70&#37; for those with a new kidney and 50&#37; for those who return to dialysis. Morris wants to know the probability that he will survive for at least five years.</p>
 <figure id="scc9e-ch19-unfig-003" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="19_17MOORESCC-MSE_9e_P_19_01.html">
 <layout align="right" width="medium" border="false"/>
 <image asset-id="scc9e-ch19-img-05" alt="image" src="asset/ch19/17MOORESCC-MSE_9e_P_19_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">BSIP/Phototake</phrase></asset_source>
 </figure>
+<p id="scc9e-ch19-p087" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 5</phrase> A kidney transplant</p>
+<p id="scc9e-ch19-p088" block_type="EXP-first">Morris&#8217;s kidneys have failed and he is awaiting a kidney transplant. His doctor gives him this information for patients in his condition: 90&#37; survive the transplant operation, and 10&#37; die. The transplant succeeds in 60&#37; of those who survive, and the other 40&#37; must return to kidney dialysis. The proportions who survive for at least five years are 70&#37; for those with a new kidney and 50&#37; for those who return to dialysis. Morris wants to know the probability that he will survive for at least five years.</p>
 <p id="scc9e-ch19-p089" block_type="EXP-SL"><strong>Step 1.</strong> The <strong>tree diagram</strong> in <link href="figure_19_1.html">Figure 19.1</link> organizes this information to give a probability model in graphical form. The tree shows the three stages and the possible outcomes and probabilities at each stage. Each path through the tree leads to either survival for five years or to death in less than five years. To simulate Morris&#8217;s fate, we must simulate each of the three stages. The probabilities at Stage 3 depend on the outcome of Stage 2.</p>
 <p id="scc9e_page_454" block_type="page_start" data-margin-content="left">454</p>
 <figure id="scc9e-ch19-p091" block_type="FIGURE" data-caption-compass="S" numbered="true" number="19.1" mmtype="image" mmsrc="" attr="" data-filename="figure_19_1.html">
@@ -312,7 +312,7 @@
 <p id="scc9e-ch19-p0100" block_type="EXP-EQ">0, 1, 2, 3, 4, 5, 6 = survive five years</p>
 <p id="scc9e-ch19-p0101" block_type="EXP-EQ">7, 8, 9 = die</p>
 <p id="scc9e-ch19-p0102" block_type="EXP-UL"><strong>Stage 3 with dialysis:</strong></p>
-<p id="scc9e-ch19-p0103" block_type="math">0, 1, 2, 3, 4 = survive five years</p>
+<p id="scc9e-ch19-p0103" block_type="EXP-EQ">0, 1, 2, 3, 4 = survive five years</p>
 <p id="scc9e-ch19-p0104" block_type="EXP-EQ">5, 6, 7, 8, 9 = die</p>
 <p id="scc9e-ch19-p0105" block_type="EXP-ni">The assignment of digits at Stage 3 depends on the outcome of Stage 2. That&#8217;s lack of independence.</p>
 <p id="scc9e_page_455" block_type="page_start" data-margin-content="right">455</p>

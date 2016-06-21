@@ -1,1 +1,42 @@
-﻿
+﻿/***Basic one offs***/
+div#scc9e-ch19-bx04 {
+  float: right;
+  margin-left: 0px;
+}
+div#scc9e-ch19-p042 {
+  margin-left: -65px;
+}
+div#scc9e-ch19-p045 {
+  margin-left: -22px;
+}
+div#scc9e-ch19-p049 {
+  margin-left: -72px;
+}
+div#scc9e-ch19-p050 {
+  margin-left: 85px;
+}
+div#scc9e-ch19-bx09 {
+  margin-bottom: 1em;
+}
+div#scc9e-ch19-p094 {
+  margin-left: 128px;
+}
+div#scc9e-ch19-p097 {
+  margin-left: -20px;
+}
+div#scc9e-ch19-p0101 {
+  margin-left: -36px;
+}
+div#scc9e-ch19-p0104 {
+  margin-left: -118px;
+}
+div#scc9e-ch19-untab-8 tbody tr td {
+  width: 260px;
+}
+div#scc9e-ch19-untab-8 tbody tr td + td {
+  width: 180px;
+}
+div#scc9e-ch19-untab-8 tbody tr td + td + td {
+  width: 233px;
+}
+/***Page number one offs***/

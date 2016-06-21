@@ -1069,6 +1069,19 @@ div[data-type="section"][data-block_type="CR-X-H-v1"] {
 
         }*/
     }
+    ul[data-block_type="bluebullet"] {
+	    list-style-type: none;
+	    margin-left: 1em;
+	    margin-top: 0em;
+        span[data-block_type="maker"] {
+	        color: @dk-blue;
+	        margin-left: -20px;
+	        position: absolute;
+        }
+        li  {
+            margin: .5em 0;
+        }
+    }
 }
 
 [data-type="figure"] {
@@ -1137,6 +1150,27 @@ div[data-caption-compass="S"] {
         }
     }
 
+}
+
+//uppercase lists
+ol[data-block_type="upper-alpha"] {
+	list-style-type: none;
+	margin-left: 25px;
+    position: relative;
+    li {
+        margin: 6px 0 6px 6px ;
+        //text-indent:-25px;
+        [data-block_type="maker"] {
+            font-weight:bold;
+            position: absolute;
+            left: -25px;
+        }
+    }
+}
+
+//underlined spans
+[data-block_type="underline"] {
+    text-decoration: underline;
 }
 
 // glossary styling

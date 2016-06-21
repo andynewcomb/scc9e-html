@@ -1,1 +1,72 @@
-﻿
+﻿/***Basic one offs***/
+div#scc9e-ch20-box-006 {
+  margin-left: 174px;
+}
+div#scc9e-ch20-fig-003 {
+  margin-top: 2em;
+}
+div#scc9e-ch20-p034 {
+  text-align: right;
+  text-indent: 55px;
+}
+div#scc9e-ch20-p035 {
+  margin-left: 140px;
+}
+div#scc9e-ch20-fig-004 {
+  margin-left: 170px;
+}
+div#scc9e-ch20-tab-7 tbody tr td {
+  width: 102px;
+}
+div#scc9e-ch20-tab-7 tbody tr td + td {
+  width: 144px;
+}
+div#scc9e-ch20-tab-7 tbody tr td + td + td {
+  width: 124px;
+}
+div#scc9e-ch20-tab-7 tbody tr td + td + td + td {
+  width: 108px;
+}
+div#scc9e-ch20-tab-7 tbody tr td + td + td + td + td {
+  width: 98px;
+}
+div#scc9e-ch20-tab-7 tbody tr td + td + td + td + td + td {
+  width: 98px;
+}
+ul#scc9e-ch20-list-011 {
+  text-align: center;
+}
+div#scc9e-ch20-tab-9 tbody tr td {
+  width: 260px;
+}
+div#scc9e-ch20-tab-9 tbody tr td + td {
+  width: 116px;
+}
+div#scc9e-ch20-tab-9 tbody tr td + td + td {
+  width: 116px;
+}
+div#scc9e-ch20-tab-9 tbody tr td + td + td + td {
+  width: 116px;
+}
+div#scc9e-ch20-tab-13 tbody tr td {
+  width: 267px;
+}
+div#scc9e-ch20-tab-13 tbody tr td + td {
+  width: 101px;
+}
+div#scc9e-ch20-tab-13 tbody tr td + td + td {
+  width: 101px;
+}
+div#scc9e-ch20-tab-13 tbody tr td + td + td + td {
+  width: 101px;
+}
+div#scc9e-ch20-tab-13 tbody tr td + td + td + td + td {
+  width: 101px;
+}
+/***Page number one offs***/
+div#scc9e_page_469 {
+  margin-top: -2em !important;
+}
+div#scc9e_page_473 {
+  margin-top: -2em !important;
+}

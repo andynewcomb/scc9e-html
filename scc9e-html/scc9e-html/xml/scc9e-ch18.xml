@@ -146,12 +146,12 @@
 </tr>
 </tbody>
 </table>
-<p id="scc9e-ch18-p08" block_type="EQ"><em>P</em>(not married) = <em>P</em>(never married) + <em>P</em>(widowed) + <em>P</em>(divorced)</p>
-<p id="scc9e-ch18-p09" block_type="EQ">= 0.478 + 0.004 + 0.042 = 0.524</p>
-<p id="scc9e-ch18-p010" block_type="TXT-ni">As a shorthand, we often write <em>P</em>(not married) for &#8220;the probability that the woman we choose is not married.&#8221; You see that our model does more than assign a probability to each individual outcome&#8212;we can find the probability of any collection of outcomes by adding up individual outcome probabilities.</p>
 <box id="scc9e-ch18-bx02" numbered="false" block_type="margin-statistics">
 <p id="scc9e-ch18-p011" block_type="MN-TXT"><image asset-id="scc9e-ch18-img-02" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">Politically correct</phrase> In 1950, the Russian mathematician B. V. Gnedenko (1912&#8211;1995) wrote a book, <em>The Theory of Probability</em>, that was popular around the world. The introduction contains a mystifying paragraph that begins, &#8220;We note that the entire development of probability theory shows evidence of how its concepts and ideas were crystallized in a severe struggle between materialistic and idealistic conceptions.&#8221; It turns out that &#8220;materialistic&#8221; is jargon for &#8220;Marxist-Leninist.&#8221; It was good for the health of Russian scientists in the Stalin era to add such statements to their books.</p>
 </box>
+<p id="scc9e-ch18-p08" block_type="EQ"><em>P</em>(not married) = <em>P</em>(never married) + <em>P</em>(widowed) + <em>P</em>(divorced)</p>
+<p id="scc9e-ch18-p09" block_type="EQ">= 0.478 + 0.004 + 0.042 = 0.524</p>
+<p id="scc9e-ch18-p010" block_type="TXT-ni">As a shorthand, we often write <em>P</em>(not married) for &#8220;the probability that the woman we choose is not married.&#8221; You see that our model does more than assign a probability to each individual outcome&#8212;we can find the probability of any collection of outcomes by adding up individual outcome probabilities.</p>
 <box id="scc9e-ch18-bx03" numbered="false" block_type="BX1">
 <p id="scc9e-ch18-p012" block_type="BX1-T">Probability model</p>
 <p id="scc9e-ch18-p013" block_type="BX1-TXT-ni">A <strong>probability model</strong> for a random phenomenon describes all the possible outcomes and says how to assign probabilities to any collection of outcomes. We sometimes call a collection of outcomes an <strong>event</strong>.</p>
@@ -178,14 +178,14 @@
 <p id="scc9e-ch18-p027" block_type="EXP-ni">That is, if 47.6&#37; are married, then the remaining 52.4&#37; are not married. Rule D says that you can also find the probability that a woman is not married by adding the probabilities of the three distinct ways of being not married, as we did earlier. This gives the same result.</p>
 </box>
 <p id="scc9e_page_430" block_type="page_start" data-margin-content="left">430</p>
-<box id="scc9e-ch18-bx05" numbered="false" block_type="EXP" data-filename="example_18_2.html">
-<p id="scc9e-ch18-p029" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> Rolling two dice</p>
-<p id="scc9e-ch18-p030" block_type="EXP-first">Rolling two dice is a common way to lose money in casinos. There are 36 possible outcomes when we roll two dice and record the up-faces in order (first die, second die). <link href="figure_18_1.html">Figure 18.1</link> displays these outcomes. What probabilities should we assign?</p>
 <figure id="scc9e-ch18-unfig-002" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="18_17MOORESCC-MSE_9e_P_18_01.html">
 <layout align="left" width="medium" border="false"/>
 <image asset-id="scc9e-ch18-img-03" alt="image" src="asset/ch18/17MOORESCC-MSE_9e_P_18_01.jpg"/>
 <asset_source><phrase block_type="PH-CL">Lee Foster/Alamy</phrase></asset_source>
 </figure>
+<box id="scc9e-ch18-bx05" numbered="false" block_type="EXP" data-filename="example_18_2.html">
+<p id="scc9e-ch18-p029" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 2</phrase> Rolling two dice</p>
+<p id="scc9e-ch18-p030" block_type="EXP-first">Rolling two dice is a common way to lose money in casinos. There are 36 possible outcomes when we roll two dice and record the up-faces in order (first die, second die). <link href="figure_18_1.html">Figure 18.1</link> displays these outcomes. What probabilities should we assign?</p>
 <p id="scc9e-ch18-p031" block_type="EXP-mid">Casino dice are carefully made. Their spots are not hollowed out, which would give the faces different weights, but are filled with white plastic of the same density as the red plastic of the body. For casino dice, it is reasonable to assign the same probability to each of the 36 outcomes in <link href="figure_18_1.html">Figure 18.1</link>. Because these 36 probabilities must have sum 1 (Rule B), each outcome must have probability 1/36, or 1-in-36.</p>
 <p id="scc9e-ch18-p032" block_type="EXP-mid">We are interested in the sum of the spots on the up-faces of the dice. What is the probability that this sum is 5? The event &#8220;roll a 5&#8221; contains four outcomes, and its probability is the sum of the probabilities of these outcomes:</p>
 <p id="scc9e-ch18-p033" block_type="EXP-EQ"><phrase data-math="math_1"></phrase></p>
@@ -218,12 +218,12 @@
 <p id="scc9e-ch18-p047" block_type="EXP-first">Take a simple random sample of 1015 adults. Ask each whether they feel childhood vaccinations are extremely important. The proportion who say Yes</p>
 <p id="scc9e-ch18-p048" block_type="EXP-EQ"><phrase data-math="math_2"></phrase></p>
 <p id="scc9e-ch18-p049" block_type="EXP-ni">is the sample proportion <phrase data-math="math_3"></phrase>. Do this 1000 times and collect the 1000 sample proportions <phrase data-math="math_4"></phrase> from the 1000 samples. The histogram in <link href="figure_18_2.html">Figure 18.2</link> shows the distribution of 1000 sample proportions when the truth about the population is that 54&#37; would favor such an amendment. The results of random sampling are of course random: we can&#8217;t predict the outcome of one sample, but the figure shows that the outcomes of many samples have a regular pattern.</p>
-<p id="scc9e-ch18-p050" block_type="EXP-mid">This repetition reminds us that the regular pattern of repeated random samples is one of the big ideas of statistics. The Normal curve in the figure is a good approximation to the histogram. The histogram is the result of these particular 1000 SRSs. Think of the Normal curve as the idealized pattern we would get if we kept on taking SRSs from this population forever. That&#8217;s exactly the idea of probability&#8212;the pattern we would see in the very long run. <em>The Normal curve assigns probabilities to sample proportions computed from random samples</em>.</p>
 <figure id="scc9e-ch18-fig-004" block_type="FIGURE" data-caption-compass="S" numbered="true" number="18.2" mmtype="image" mmsrc="" attr="" data-filename="figure_18_2.html">
 <layout align="center" width="medium" border="false"/>
 <image asset-id="scc9e-ch18-img-05" alt="image" src="asset/ch18/17MOORESCC-MSE_9e_fig_18_02.jpg"/>
 <caption><phrase block_type="FG-N-ri">Figure 18.2</phrase> <phrase block_type="FG-CAP">The sampling distribution of a sample proportion <phrase data-math="math_5"></phrase> from SRSs of size 1015 drawn from a population in which 54&#37; of the members would give positive answers, <link href="example_18_3.html">Examples 3</link>. The histogram shows the distribution from 1000 samples. The Normal curve is the ideal pattern that describes the results of a very large number of samples.</phrase></caption>
 </figure>
+<p id="scc9e-ch18-p050" block_type="EXP-mid">This repetition reminds us that the regular pattern of repeated random samples is one of the big ideas of statistics. The Normal curve in the figure is a good approximation to the histogram. The histogram is the result of these particular 1000 SRSs. Think of the Normal curve as the idealized pattern we would get if we kept on taking SRSs from this population forever. That&#8217;s exactly the idea of probability&#8212;the pattern we would see in the very long run. <em>The Normal curve assigns probabilities to sample proportions computed from random samples</em>.</p>
 <p id="scc9e_page_433" block_type="page_start" data-margin-content="right">433</p>
 <p id="scc9e-ch18-p052" block_type="EXP-mid">This Normal curve has mean 0.540 and standard deviation about 0.016. The &#8220;95&#8221; part of the 68&#8211;95&#8211;99.7 rule says that 95&#37; of all samples will give a <phrase data-math="math_6"></phrase> falling within 2 standard deviations of the mean. That&#8217;s within 0.032 of 0.540, or between 0.508 and 0.572. We now have more concise language for this fact: the <em>probability</em> is 0.95 that between 50.8&#37; and 57.2&#37; of the people in a sample will say Yes. The word &#8220;probability&#8221; says we are talking about what would happen in the long run, in very many samples.</p>
 <p id="scc9e-ch18-p053" block_type="EXP-last">We note that of the 1000 SRSs, 95&#37; of the sample proportions were between 0.509 and 0.575, which agrees quite well with the calculations based on the Normal curve. This confirms our assertion that the Normal curve is a good approximation to the histogram in <link href="figure_18_2.html">Figure 18.2</link>.</p>
