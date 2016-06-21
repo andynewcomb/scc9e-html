@@ -440,7 +440,7 @@
 </list>
 </question>
 <question id="scc9e-ch20-quest-0016" block_type="exercise_20_16.html">
-<p id="scc9e-ch20-p0133" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.16 Rolling two dice.</phrase> <link href="example_20_2.html">Example 2</link> of <link href="scc9e-ch18.xml">Chapter 18</link> (page 430) gives a probability model for rolling two casino dice and recording the number of spots on each of the two up-faces. That example also shows how to find the probability that the total number of spots showing is five. Follow that method to give a probability model for the <em>total</em> number of spots. The possible outcomes are 2, 3, 4, . . . , 12. Then use the probabilities to find the expected value of the total.</p>
+<p id="scc9e-ch20-p0133" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.16 Rolling two dice.</phrase> <link href="example_18_2.html">Example 2</link> of <link href="scc9e-ch18.xml">Chapter 18</link> (page 430) gives a probability model for rolling two casino dice and recording the number of spots on each of the two up-faces. That example also shows how to find the probability that the total number of spots showing is five. Follow that method to give a probability model for the <em>total</em> number of spots. The possible outcomes are 2, 3, 4, . . . , 12. Then use the probabilities to find the expected value of the total.</p>
 </question>
 <question id="scc9e-ch20-quest-0017" block_type="exercise_20_17.html">
 <p id="scc9e-ch20-p0134" block_type="CR-X-NL"><phrase block_type="CR-X-NL-N-ri">20.17 The Asian stochastic beetle.</phrase> We met this insect in <link href="exercise_19_21.html">Exercise 19.21</link> (page 460). Females have this probability model for their number of female offspring:</p>

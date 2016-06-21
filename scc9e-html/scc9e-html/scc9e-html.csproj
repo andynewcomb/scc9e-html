@@ -770,12 +770,42 @@
     <Content Include="ebook\css\scc9e_ch16.min.css">
       <DependentUpon>scc9e_ch16.css</DependentUpon>
     </Content>
+    <Content Include="ebook\css\scc9e_ch17.css">
+      <DependentUpon>scc9e_ch17.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch17.min.css">
+      <DependentUpon>scc9e_ch17.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch18.css">
+      <DependentUpon>scc9e_ch18.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch18.min.css">
+      <DependentUpon>scc9e_ch18.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch19.css">
+      <DependentUpon>scc9e_ch19.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch19.min.css">
+      <DependentUpon>scc9e_ch19.css</DependentUpon>
+    </Content>
     <Content Include="ebook\css\scc9e_ch2.css">
       <DependentUpon>scc9e_ch2.less</DependentUpon>
     </Content>
     <Content Include="ebook\css\scc9e_ch2.less" />
     <Content Include="ebook\css\scc9e_ch2.min.css">
       <DependentUpon>scc9e_ch2.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch20.css">
+      <DependentUpon>scc9e_ch20.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch20.min.css">
+      <DependentUpon>scc9e_ch20.css</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch21.css">
+      <DependentUpon>scc9e_ch21.less</DependentUpon>
+    </Content>
+    <Content Include="ebook\css\scc9e_ch21.min.css">
+      <DependentUpon>scc9e_ch21.css</DependentUpon>
     </Content>
     <Content Include="ebook\css\scc9e_ch3.css">
       <DependentUpon>scc9e_ch3.less</DependentUpon>
@@ -853,6 +883,12 @@
     <Content Include="ebook\js\jquery-ui-1.8.16.custom.min.js" />
     <Content Include="ebook\js\jquery.js" />
     <Content Include="ebook\js\jquery_extensions.js" />
+    <Content Include="ebook\js\scc9e_ch17.js" />
+    <Content Include="ebook\js\scc9e_ch18.js" />
+    <Content Include="ebook\js\scc9e_ch19.js" />
+    <Content Include="ebook\js\scc9e_ch20.js" />
+    <Content Include="ebook\js\scc9e_ch21.js" />
+    <Content Include="ebook\js\scc9e_part3.js" />
     <Content Include="ebook\js\player.js" />
     <Content Include="ebook\js\query_types.js" />
     <Content Include="ebook\js\scc9e.js" />
@@ -1199,6 +1235,11 @@
     <Content Include="docs\20A_MooreSCC9e_92937_Part3_481-490_2nd_Pass.pdf" />
     <Content Include="docs\20_MooreSCC9e_92937_Ch20_465-480_2nd_Pass.pdf" />
     <Content Include="docs\21_MooreSCC9e_92937_Ch21_491-520_2nd_Pass.pdf" />
+    <Content Include="ebook\css\scc9e_ch17.less" />
+    <Content Include="ebook\css\scc9e_ch18.less" />
+    <Content Include="ebook\css\scc9e_ch19.less" />
+    <Content Include="ebook\css\scc9e_ch20.less" />
+    <Content Include="ebook\css\scc9e_ch21.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
