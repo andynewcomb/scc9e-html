@@ -1,1 +1,30 @@
-﻿
+﻿div#scc9e-ch21-fig-001 {
+  margin-left: -35px;
+  background: white;
+  padding-bottom: 20px;
+}
+div#scc9e-ch21-unfig-003 {
+  position: absolute;
+  width: 280px !important;
+  margin-left: 510px;
+  margin-top: -200px;
+}
+[data-figure-id="scc9e-ch21-unfig-003"] img {
+  width: 270px !important;
+  /* margin-left: 510px; */
+  /* margin-top: -200px; */
+}
+div#scc9e_page_497 {
+  margin-top: -34px !important;
+}
+div#scc9e-ch21-box-009 {
+  float: right;
+  margin-left: 15px;
+  margin-right: -135px;
+}
+div#scc9e_page_499 {
+  margin-top: -10px !important;
+}
+div#scc9e_page_500 {
+  margin-top: -75px !important;
+}

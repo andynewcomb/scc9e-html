@@ -29,12 +29,12 @@
 <table id="scc9e-ch20-tab-1" numbered="false" block_type="UN-TABLE" attr="40">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="EXP-TB1">Outcome:</td>
+<td align="left" block_type="EXP-TB1">Outcome:</td>
 <td align="center" block_type="EXP-TB1">&#36;0</td>
 <td align="center" block_type="EXP-TB1">&#36;250</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="EXP-TB1">Probability:</td>
+<td align="left" block_type="EXP-TB1">Probability:</td>
 <td align="center" block_type="EXP-TB1">0.999</td>
 <td align="center" block_type="EXP-TB1">0.001</td>
 </tr>
@@ -50,7 +50,7 @@
 <p id="scc9e-ch20-p016" block_type="BX1-T">Expected value</p>
 <p id="scc9e-ch20-p017" block_type="BX1-TXT-ni">The <strong>expected value</strong> of a random phenomenon that has numerical outcomes is found by multiplying each outcome by its probability and then adding all the products.</p>
 <p id="scc9e-ch20-p018" block_type="BX1-TXT-i">In symbols, if the possible outcomes are <em>a</em><sub>1</sub>, <em>a</em><sub>2</sub>, . . . , <em>a<sub>k</sub></em> and their probabilities are <em>p</em><sub>1</sub>, <em>p</em><sub>2</sub>, . . . , <em>p<sub>k</sub></em>, the expected value is</p>
-<p id="scc9e-ch20-p019" block_type="EQ">expected value = <em>a</em><sub>1</sub><em>p</em><sub>1</sub> + <em>a</em><sub>2</sub><em>p</em><sub>2</sub> + . . . + <em>a<sub>k</sub>p<sub>k</sub></em></p>
+<p id="scc9e-ch20-p019" block_type="EQ">expected value = <em>a</em><sub>1</sub><em>p</em><sub>1</sub> + <em>a</em><sub>2</sub><em>p</em><sub>2</sub> + &#183; &#183; &#183; + <em>a<sub>k</sub>p<sub>k</sub></em></p>
 </box>
 <p id="scc9e-ch20-p020" block_type="TXT">An expected value is an average of the possible outcomes, but it is not an ordinary average in which all outcomes get the same weight. Instead, each outcome is weighted by its probability so that outcomes that occur more often get higher weights.</p>
 <box id="scc9e-ch20-box-004" numbered="false" block_type="EXP" data-filename="example_20_2.html">
@@ -60,13 +60,13 @@
 <table id="scc9e-ch20-tab-2" numbered="false" block_type="UN-TABLE" attr="60">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="EXP-TB1">Outcome:</td>
+<td align="left" block_type="EXP-TB1">Outcome:</td>
 <td align="center" block_type="EXP-TB1">&#36;0</td>
 <td align="center" block_type="EXP-TB1">&#36;42</td>
 <td align="center" block_type="EXP-TB1">&#36;292</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="EXP-TB1">Probability:</td>
+<td align="left" block_type="EXP-TB1">Probability:</td>
 <td align="center" block_type="EXP-TB1">0.994</td>
 <td align="center" block_type="EXP-TB1">0.005</td>
 <td align="center" block_type="EXP-TB1">0.001</td>
@@ -94,7 +94,7 @@
 <table id="scc9e-ch20-tab-3" numbered="false" block_type="UN-TABLE" attr="70">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="EXP-TB1">Number of vehicles:</td>
+<td align="left" block_type="EXP-TB1">Number of vehicles:</td>
 <td align="center" block_type="EXP-TB1">0</td>
 <td align="center" block_type="EXP-TB1">1</td>
 <td align="center" block_type="EXP-TB1">2</td>
@@ -103,7 +103,7 @@
 <td align="center" block_type="EXP-TB1">5</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="EXP-TB1">Proportion of<br/>households:</td>
+<td align="left" block_type="EXP-TB1">Proportion of<br/>&#160;&#160;households:</td>
 <td align="center" block_type="EXP-TB1">0.09</td>
 <td align="center" block_type="EXP-TB1">0.34</td>
 <td align="center" block_type="EXP-TB1">0.37</td>
@@ -114,7 +114,8 @@
 </tbody>
 </table>
 <p id="scc9e-ch20-p033" block_type="EXP-ni">This is a probability model for choosing a household at random and counting its vehicles. (We ignored the very few households with more than five vehicles.) The expected value for this model is the average number of vehicles per household. This average is</p>
-<p id="scc9e-ch20-p034" block_type="EXP-EQ">expected value = (0)(0.09) + (1)(0.34) + (2)(0.37) 		            + (3)(0.14) + (4)(0.05) + (5)(0.01)</p>
+<p id="scc9e-ch20-p034" block_type="EXP-EQ">expected value = (0)(0.09) + (1)(0.34) + (2)(0.37)<br /><phrase>+ (3)(0.14) + (4)(0.05) + (5)(0.01)</phrase>
+</p>
 <p id="scc9e-ch20-p035" block_type="EXP-EQ">= 1.75 vehicles per household</p>
 </box>
 <p id="scc9e_page_469" block_type="page_start" data-margin-content="right">469</p>
@@ -125,7 +126,7 @@
 <table id="scc9e-ch20-tab-4" numbered="false" block_type="UN-TABLE" attr="70">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="TB1">Number of children:</td>
+<td align="left" block_type="TB1">Number of children:</td>
 <td align="center" block_type="TB1">0</td>
 <td align="center" block_type="TB1">1</td>
 <td align="center" block_type="TB1">2</td>
@@ -133,7 +134,7 @@
 <td align="center" block_type="TB1">4</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="TB1">Proportion:</td>
+<td align="left" block_type="TB1">Proportion:</td>
 <td align="center" block_type="TB1">0.67</td>
 <td align="center" block_type="TB1">0.14</td>
 <td align="center" block_type="TB1">0.12</td>
@@ -257,7 +258,7 @@
 <table id="scc9e-ch20-tab-6" numbered="false" block_type="UN-TABLE" attr="110">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="CS_TB1">Prize:</td>
+<td align="left" block_type="CS_TB1">Prize:</td>
 <td align="center" block_type="CS_TB1">Jackpot</td>
 <td align="center" block_type="CS_TB1">&#36;250,000</td>
 <td align="center" block_type="CS_TB1">&#36;10,000</td>
@@ -265,7 +266,7 @@
 <td align="center" block_type="CS_TB1">&#36;150</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="CS_TB1">Probability:</td>
+<td align="left" block_type="CS_TB1">Probability:</td>
 <td align="center" block_type="CS_TB1">1 in 175,711,536</td>
 <td align="center" block_type="CS_TB1">1 in 3,904,701</td>
 <td align="center" block_type="CS_TB1">1 in 689,065</td>
@@ -277,7 +278,7 @@
 <table id="scc9e-ch20-tab-7" numbered="false" block_type="UN-TABLE" attr="110">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="CSNL1">Prize:</td>
+<td align="left" block_type="CSNL1">Prize:</td>
 <td align="center" block_type="CSNL1">&#36;10</td>
 <td align="center" block_type="CSNL1">&#36;7</td>
 <td align="center" block_type="CSNL1">&#36;3</td>
@@ -285,7 +286,7 @@
 <td align="center" block_type="CSNL1"></td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="CSNL1">Probability:</td>
+<td align="left" block_type="CSNL1">Probability:</td>
 <td align="center" block_type="CSNL1">1 in 844</td>
 <td align="center" block_type="CSNL1">1 in 306</td>
 <td align="center" block_type="CSNL1">1 in 141</td>

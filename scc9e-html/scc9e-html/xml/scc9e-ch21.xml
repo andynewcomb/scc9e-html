@@ -131,16 +131,20 @@
 </box>
 <p id="scc9e_page_499" block_type="page_start" data-margin-content="right">499</p>
 <box id="scc9e-ch21-box-008" numbered="false" block_type="EXP" data-filename="example_21_3.html">
-<p id="scc9e-ch21-p065" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> A confidence interval for soda consumption</p>
+  <box id="scc9e-ch21-box-009" numbered="false" block_type="margin-statistics">
+    <p id="scc9e-ch21-p072" block_type="MN-TXT">
+      <image asset-id="scc9e-ch21-img-006" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">Who is a smoker?</phrase> When estimating a proportion <em>p</em>, be sure you know what counts as a &#8220;success.&#8217;&#8217; The news says that 20&#37; of adolescents smoke. Shocking. It turns out that this is the percentage who smoked at least once in the past month. If we say that a smoker is someone who smoked in at least 20 of the past 30 days and smoked at least half a pack on those days, fewer than 4&#37; of adolescents qualify.
+    </p>
+  </box>
+
+  <p id="scc9e-ch21-p065" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 3</phrase> A confidence interval for soda consumption</p>
+  
 <p id="scc9e-ch21-p066" block_type="EXP-first">The Gallup random sample of 1009 adult Americans found that 616 reported actively trying to avoid drinking regular soda or pop in 2015, a sample proportion <phrase data-math="math_26"></phrase>. The 95&#37; confidence interval for the proportion of all Americans who actively tried to avoid drinking regular soda or pop in 2015 is</p>
 <p id="scc9e-ch21-p067" block_type="EXP-EQ"><phrase data-math="math_27"></phrase></p>
 <p id="scc9e-ch21-p068" block_type="EXP-EQ">= 0.611 &#177; (2)(0.01535)</p>
 <p id="scc9e-ch21-p069" block_type="EXP-EQ">= 0.611 &#177; 0.0307</p>
 <p id="scc9e-ch21-p070" block_type="EXP-EQ">= 0.5803 to 0.6417</p>
 <p id="scc9e-ch21-p071" block_type="EXP-ni">Interpret this result as follows: we got this interval by using a recipe that catches the true unknown population proportion in 95&#37; of all samples. The shorthand is: we are <strong>95&#37; confident</strong> that the true proportion of all Americans who actively tried to avoid drinking regular soda or pop in 2015 lies between 58.03&#37; and 64.17&#37;.</p>
-</box>
-<box id="scc9e-ch21-box-009" numbered="false" block_type="margin-statistics">
-<p id="scc9e-ch21-p072" block_type="MN-TXT"><image asset-id="scc9e-ch21-img-006" alt="image" src="asset/global_images/statistics_icon.jpg"/> <phrase block_type="MN-T-ri">Who is a smoker?</phrase> When estimating a proportion <em>p</em>, be sure you know what counts as a &#8220;success.&#8217;&#8217; The news says that 20&#37; of adolescents smoke. Shocking. It turns out that this is the percentage who smoked at least once in the past month. If we say that a smoker is someone who smoked in at least 20 of the past 30 days and smoked at least half a pack on those days, fewer than 4&#37; of adolescents qualify.</p>
 </box>
 <box id="scc9e-ch21-box-010" numbered="false" block_type="BX2">
 <p id="scc9e-ch21-p073" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>

@@ -441,12 +441,10 @@ div[data-type="section"][data-block_type="h1"] [data-block_type="margin-statisti
   display: none;
 }
 div[data-type="section"][data-block_type="h1"] [data-block_type="margin-statistics"] [src="asset/global_images/statistics_icon.jpg"] {
-  bottom: 31px;
   float: left;
-  margin-bottom: -31px;
-  padding-right: 7px;
-  position: relative;
-  width: 90px;
+  width: 65px;
+  margin-top: -2em;
+  margin-right: 10px;
 }
 div[data-type="section"][data-block_type="h1"] [data-block_type="margin-statistics"] [src="asset/global_images/BPS6e_nugget_icon.jpg"] {
   bottom: 31px;
@@ -455,6 +453,9 @@ div[data-type="section"][data-block_type="h1"] [data-block_type="margin-statisti
   padding-right: 7px;
   position: relative;
   width: 90px;
+}
+div[data-type="section"][data-block_type="h1"] [data-block_type="margin-statistics"] p {
+  text-align: justify;
 }
 div[data-type="section"][data-block_type="h1"] ol[data-block_type="numbered"] {
   list-style-type: none;
@@ -524,6 +525,7 @@ div[data-type="section"][data-block_type="h1"] ol[data-block_type="numbered"] > 
   color: #EF3E23;
   font-size: 1.1em;
   font-weight: bold;
+  display: block;
 }
 /* Now It's Your Turn */
 div[data-block_type="BX2"] {

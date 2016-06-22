@@ -35,7 +35,7 @@
 </ul>
 <div data-block_type="EXP-TXT-1" id="scc9e-ch19-p078"><p><strong>Step 2.</strong> Assigning digits is also easy. Two digits simulate the sex of one child. We assign 49 of the 100 pairs to “girl” and the remaining 51 to “boy”:</p></div>
 <div data-block_type="EXP-EQ" id="scc9e-ch19-p079"><p>00, 01, 02, . . . , 48 = girl</p></div>
-<div data-block_type="math" id="scc9e-ch19-p080"><p>49, 50, 51, . . . , 99 = boy</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch19-p080"><p>49, 50, 51, . . . , 99 = boy</p></div>
 <div data-margin-content="right" data-block_type="page_start" id="scc9e_page_453"><p>453</p></div>
 <div data-block_type="EXP-TXT-1" id="scc9e-ch19-p082"><p><strong>Step 3.</strong> To simulate one repetition of this childbearing strategy, read pairs of digits from <span data-type="link" data-href="table_a.html">Table A</span> until the couple have either a girl or three children. The number of pairs needed to simulate one repetition depends on how quickly the couple get a girl. Here are 10 repetitions, simulated using line 130 of <span data-type="link" data-href="table_a.html">Table A</span>. To interpret the pairs of digits, we have written G for girl and B for boy under them, have added space to separate repetitions, and under each repetition have written “+” if a girl was born and “−” if not.</p></div>
 <div data-type="table" data-block_type="UN-TABLE" id="scc9e-ch19-untab-4" data-layout-align="" data-layout-width="" data-layout-border="" data-mmsrc="" data-attr="100"><table><tbody>
@@ -83,13 +83,13 @@
 <div data-block_type="TXT" id="scc9e-ch19-p086"><p>Our final example has stages that are <em>not independent</em>. That is, the probabilities at one stage depend on the outcome of the preceding stage.</p></div>
 <div data-type="box" data-block_type="EXP" data-filename="example_19_5.html" id="scc9e-ch19-bx011"><div data-type="box_inner">
 <h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch19-bx011"></h3>
-<div data-block_type="EXP-T" id="scc9e-ch19-p087"><p><span data-block_type="EXP-N-ri">EXAMPLE 5</span> A kidney transplant</p></div>
-<div data-block_type="EXP-first" id="scc9e-ch19-p088"><p>Morris’s kidneys have failed and he is awaiting a kidney transplant. His doctor gives him this information for patients in his condition: 90% survive the transplant operation, and 10% die. The transplant succeeds in 60% of those who survive, and the other 40% must return to kidney dialysis. The proportions who survive for at least five years are 70% for those with a new kidney and 50% for those who return to dialysis. Morris wants to know the probability that he will survive for at least five years.</p></div>
 <div data-type="figure" data-filename="19_17MOORESCC-MSE_9e_P_19_01.html" data-figure-id="scc9e-ch19-unfig-003" data-block_type="UN-FIGURE" data-layout-align="right" data-layout-width="medium" data-layout-border="false">
 
 <img id="" src="asset/ch19/17MOORESCC-MSE_9e_P_19_01.jpg" data-figure-id="scc9e-ch19-unfig-003" data-layout-width="medium" data-mmtype="image" data-mmsrc="" data-attr="" alt="image">
 <div data-type="asset_source"><span data-block_type="PH-CL">BSIP/Phototake</span></div>
 </div>
+<div data-block_type="EXP-T" id="scc9e-ch19-p087"><p><span data-block_type="EXP-N-ri">EXAMPLE 5</span> A kidney transplant</p></div>
+<div data-block_type="EXP-first" id="scc9e-ch19-p088"><p>Morris’s kidneys have failed and he is awaiting a kidney transplant. His doctor gives him this information for patients in his condition: 90% survive the transplant operation, and 10% die. The transplant succeeds in 60% of those who survive, and the other 40% must return to kidney dialysis. The proportions who survive for at least five years are 70% for those with a new kidney and 50% for those who return to dialysis. Morris wants to know the probability that he will survive for at least five years.</p></div>
 <div data-block_type="EXP-SL" id="scc9e-ch19-p089"><p><strong>Step 1.</strong> The <strong>tree diagram</strong> in <span data-type="link" data-href="figure_19_1.html">Figure 19.1</span> organizes this information to give a probability model in graphical form. The tree shows the three stages and the possible outcomes and probabilities at each stage. Each path through the tree leads to either survival for five years or to death in less than five years. To simulate Morris’s fate, we must simulate each of the three stages. The probabilities at Stage 3 depend on the outcome of Stage 2.</p></div>
 <div data-margin-content="left" data-block_type="page_start" id="scc9e_page_454"><p>454</p></div>
 <div data-type="figure" data-caption-compass="S" data-filename="figure_19_1.html" data-figure-id="scc9e-ch19-p091" data-block_type="FIGURE" data-layout-align="center" data-layout-width="medium" data-layout-border="false">
@@ -110,7 +110,7 @@
 <div data-block_type="EXP-EQ" id="scc9e-ch19-p0100"><p>0, 1, 2, 3, 4, 5, 6 = survive five years</p></div>
 <div data-block_type="EXP-EQ" id="scc9e-ch19-p0101"><p>7, 8, 9 = die</p></div>
 <div data-block_type="EXP-UL" id="scc9e-ch19-p0102"><p><strong>Stage 3 with dialysis:</strong></p></div>
-<div data-block_type="math" id="scc9e-ch19-p0103"><p>0, 1, 2, 3, 4 = survive five years</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch19-p0103"><p>0, 1, 2, 3, 4 = survive five years</p></div>
 <div data-block_type="EXP-EQ" id="scc9e-ch19-p0104"><p>5, 6, 7, 8, 9 = die</p></div>
 <div data-block_type="EXP-ni" id="scc9e-ch19-p0105"><p>The assignment of digits at Stage 3 depends on the outcome of Stage 2. That’s lack of independence.</p></div>
 <div data-margin-content="right" data-block_type="page_start" id="scc9e_page_455"><p>455</p></div>

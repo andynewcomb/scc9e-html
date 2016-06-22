@@ -36,12 +36,12 @@
 <div data-block_type="EXP-first" id="scc9e-ch20-p010"><p>Here is a simple lottery wager: the “Straight” from the Pick 3 game of the Tri-State Daily Numbers offered by New Hampshire, Maine, and Vermont. You pay $0.50 and choose a three-digit number. The state chooses a three-digit winning number at random and pays you $250 if your number is chosen. Because there are 1000 three-digit numbers, you have probability 1-in-1000 of winning. Here is the probability model for your winnings:</p></div>
 <div data-type="table" data-block_type="UN-TABLE" id="scc9e-ch20-tab-1" data-layout-align="" data-layout-width="" data-layout-border="" data-mmsrc="" data-attr="40"><table><tbody>
 <tr class="tborder">
-<td data-block_type="EXP-TB1" align="center">Outcome:</td>
+<td data-block_type="EXP-TB1" align="left">Outcome:</td>
 <td data-block_type="EXP-TB1" align="center">$0</td>
 <td data-block_type="EXP-TB1" align="center">$250</td>
 </tr>
 <tr class="bborder">
-<td data-block_type="EXP-TB1" align="center">Probability:</td>
+<td data-block_type="EXP-TB1" align="left">Probability:</td>
 <td data-block_type="EXP-TB1" align="center">0.999</td>
 <td data-block_type="EXP-TB1" align="center">0.001</td>
 </tr>
@@ -57,7 +57,7 @@
 <div data-block_type="BX1-T" id="scc9e-ch20-p016"><p>Expected value</p></div>
 <div data-block_type="BX1-TXT-ni" id="scc9e-ch20-p017"><p>The <strong>expected value</strong> of a random phenomenon that has numerical outcomes is found by multiplying each outcome by its probability and then adding all the products.</p></div>
 <div data-block_type="BX1-TXT-i" id="scc9e-ch20-p018"><p>In symbols, if the possible outcomes are <em>a</em><sub>1</sub>, <em>a</em><sub>2</sub>, . . . , <em>a<sub>k</sub></em> and their probabilities are <em>p</em><sub>1</sub>, <em>p</em><sub>2</sub>, . . . , <em>p<sub>k</sub></em>, the expected value is</p></div>
-<div data-block_type="EQ" id="scc9e-ch20-p019"><p>expected value = <em>a</em><sub>1</sub><em>p</em><sub>1</sub> + <em>a</em><sub>2</sub><em>p</em><sub>2</sub> + . . . + <em>a<sub>k</sub>p<sub>k</sub></em></p></div>
+<div data-block_type="EQ" id="scc9e-ch20-p019"><p>expected value = <em>a</em><sub>1</sub><em>p</em><sub>1</sub> + <em>a</em><sub>2</sub><em>p</em><sub>2</sub> + · · · + <em>a<sub>k</sub>p<sub>k</sub></em></p></div>
 </div></div>
 <div data-block_type="TXT" id="scc9e-ch20-p020"><p>An expected value is an average of the possible outcomes, but it is not an ordinary average in which all outcomes get the same weight. Instead, each outcome is weighted by its probability so that outcomes that occur more often get higher weights.</p></div>
 <div data-type="box" data-block_type="EXP" data-filename="example_20_2.html" id="scc9e-ch20-box-004"><div data-type="box_inner">
@@ -67,13 +67,13 @@
 <div data-block_type="EXP-mid" id="scc9e-ch20-p023"><p>The probability model for the amount you win is</p></div>
 <div data-type="table" data-block_type="UN-TABLE" id="scc9e-ch20-tab-2" data-layout-align="" data-layout-width="" data-layout-border="" data-mmsrc="" data-attr="60"><table><tbody>
 <tr class="tborder">
-<td data-block_type="EXP-TB1" align="center">Outcome:</td>
+<td data-block_type="EXP-TB1" align="left">Outcome:</td>
 <td data-block_type="EXP-TB1" align="center">$0</td>
 <td data-block_type="EXP-TB1" align="center">$42</td>
 <td data-block_type="EXP-TB1" align="center">$292</td>
 </tr>
 <tr class="bborder">
-<td data-block_type="EXP-TB1" align="center">Probability:</td>
+<td data-block_type="EXP-TB1" align="left">Probability:</td>
 <td data-block_type="EXP-TB1" align="center">0.994</td>
 <td data-block_type="EXP-TB1" align="center">0.005</td>
 <td data-block_type="EXP-TB1" align="center">0.001</td>
@@ -84,19 +84,24 @@
 <div data-block_type="EXP-ni" id="scc9e-ch20-p026"><p>We see that the StraightBox is a slightly better bet than the Straight bet because the state pays out slightly more than half the money bet.</p></div>
 </div></div>
 <div data-margin-content="left" data-block_type="page_start" id="scc9e_page_468"><p>468</p></div>
-<div data-block_type="TXT" id="scc9e-ch20-p028"><p>The Tri-State Daily Numbers is unusual among state lottery games in that it pays a fixed amount for each type of bet. Most states pay off on the “pari-mutuel” system. New Jersey’s Pick 3 game is typical: the state pools the money bet and pays out half of it, equally divided among the winning tickets. You still have probability 1-in-1000 of winning a Straight bet, but the amount your number 123 wins depends both on how much was bet on Pick 3 that day and on how many other players chose the number 123. Without fixed amounts, we can’t find the expected value of today’s bet on 123, but one thing is constant: the state keeps half the money bet.</p></div>
 <div data-type="box" data-block_type="margin-statistics" id="scc9e-ch20-box-005"><div data-type="box_inner">
 <h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch20-box-005"></h3>
 <div data-block_type="MN-TXT" id="scc9e-ch20-p029"><p><img id="" src="asset/global_images/statistics_icon.jpg" data-figure-id="" data-layout-width="" data-mmtype="" alt="image"> <span data-block_type="MN-T-ri">Rigging the lottery</span> We have all seen televised lottery drawings in which numbered balls bubble about and are randomly popped out by air pressure. How might we rig such a drawing? In 1980, the Pennsylvania lottery was rigged by the host and several stagehands. They injected paint into all balls bearing 8 of the 10 digits. This weighed them down and guaranteed that all three balls for the winning number would have the remaining two digits. The perps then bet on all combinations of these digits. When 6-6-6 popped out, they won $1.2 million. Yes, they were caught.</p></div>
 </div></div>
+<div data-block_type="TXT" id="scc9e-ch20-p028"><p>The Tri-State Daily Numbers is unusual among state lottery games in that it pays a fixed amount for each type of bet. Most states pay off on the “pari-mutuel” system. New Jersey’s Pick 3 game is typical: the state pools the money bet and pays out half of it, equally divided among the winning tickets. You still have probability 1-in-1000 of winning a Straight bet, but the amount your number 123 wins depends both on how much was bet on Pick 3 that day and on how many other players chose the number 123. Without fixed amounts, we can’t find the expected value of today’s bet on 123, but one thing is constant: the state keeps half the money bet.</p></div>
 <div data-block_type="TXT" id="scc9e-ch20-p030"><p>The idea of expected value as an average applies to random outcomes other than games of chance. It is used, for example, to describe the uncertain return from buying stocks or building a new factory. Here is a different example.</p></div>
+<div data-type="figure" data-filename="20_17MOORESCC-MSE_9e_P_20_01.html" data-figure-id="scc9e-ch20-fig-003" data-block_type="UN-FIGURE" data-layout-align="left" data-layout-width="small" data-layout-border="false">
+
+<img id="" src="asset/ch20/17MOORESCC-MSE_9e_P_20_01.jpg" data-figure-id="scc9e-ch20-fig-003" data-layout-width="small" data-mmtype="image" data-mmsrc="" data-attr="" alt="image">
+<div data-type="asset_source"><span data-block_type="PH-CL">© Alan Schein Photography/Corbis</span></div>
+</div>
 <div data-type="box" data-block_type="EXP" data-filename="example_20_3.html" id="scc9e-ch20-box-006"><div data-type="box_inner">
 <h3 data-type="title" data-for_type="box" data-title-for="scc9e-ch20-box-006"></h3>
 <div data-block_type="EXP-T" id="scc9e-ch20-p031"><p><span data-block_type="EXP-N-ri">EXAMPLE 3</span> How many vehicles per household?</p></div>
 <div data-block_type="EXP-first" id="scc9e-ch20-p032"><p>What is the average number of motor vehicles in American households? The Census Bureau tells us that the distribution of vehicles per household (based on the 2010 census) is as follows:</p></div>
-<div data-type="table" data-block_type="UN-TABLE" id="scc9e-ch20-tab-3" data-layout-align="" data-layout-width="" data-layout-border="" data-mmsrc="" data-attr="100"><table><tbody>
+<div data-type="table" data-block_type="UN-TABLE" id="scc9e-ch20-tab-3" data-layout-align="" data-layout-width="" data-layout-border="" data-mmsrc="" data-attr="70"><table><tbody>
 <tr class="tborder">
-<td data-block_type="EXP-TB1" align="center">Number of vehicles:</td>
+<td data-block_type="EXP-TB1" align="left">Number of vehicles:</td>
 <td data-block_type="EXP-TB1" align="center">0</td>
 <td data-block_type="EXP-TB1" align="center">1</td>
 <td data-block_type="EXP-TB1" align="center">2</td>
@@ -105,7 +110,7 @@
 <td data-block_type="EXP-TB1" align="center">5</td>
 </tr>
 <tr class="bborder">
-<td data-block_type="EXP-TB1" align="center">Proportion of<br>households:</td>
+<td data-block_type="EXP-TB1" align="left">Proportion of<br>  households:</td>
 <td data-block_type="EXP-TB1" align="center">0.09</td>
 <td data-block_type="EXP-TB1" align="center">0.34</td>
 <td data-block_type="EXP-TB1" align="center">0.37</td>
@@ -114,13 +119,9 @@
 <td data-block_type="EXP-TB1" align="center">0.01</td>
 </tr>
 </tbody></table></div>
-<div data-type="figure" data-filename="20_17MOORESCC-MSE_9e_P_20_01.html" data-figure-id="scc9e-ch20-fig-003" data-block_type="UN-FIGURE" data-layout-align="left" data-layout-width="small" data-layout-border="false">
-
-<img id="" src="asset/ch20/17MOORESCC-MSE_9e_P_20_01.jpg" data-figure-id="scc9e-ch20-fig-003" data-layout-width="small" data-mmtype="image" data-mmsrc="" data-attr="" alt="image">
-<div data-type="asset_source"><span data-block_type="PH-CL">© Alan Schein Photography/Corbis</span></div>
-</div>
 <div data-block_type="EXP-ni" id="scc9e-ch20-p033"><p>This is a probability model for choosing a household at random and counting its vehicles. (We ignored the very few households with more than five vehicles.) The expected value for this model is the average number of vehicles per household. This average is</p></div>
-<div data-block_type="EXP-EQ" id="scc9e-ch20-p034"><p>expected value = (0)(0.09) + (1)(0.34) + (2)(0.37) 		            + (3)(0.14) + (4)(0.05) + (5)(0.01)</p></div>
+<div data-block_type="EXP-EQ" id="scc9e-ch20-p034"><p>expected value = (0)(0.09) + (1)(0.34) + (2)(0.37)<br><span>+ (3)(0.14) + (4)(0.05) + (5)(0.01)</span>
+</p></div>
 <div data-block_type="EXP-EQ" id="scc9e-ch20-p035"><p>= 1.75 vehicles per household</p></div>
 </div></div>
 <div data-margin-content="right" data-block_type="page_start" id="scc9e_page_469"><p>469</p></div>
@@ -134,7 +135,7 @@
 <div data-block_type="BX2-QUE" id="scc9e-ch20-p038"><p><span data-block_type="BX2-QUE-N-ri">20.1 Number of children.</span> The Census Bureau gives this distribution for the number of a household’s related children under the age of 18 in American households in 2011:</p></div>
 <div data-type="table" data-block_type="UN-TABLE" id="scc9e-ch20-tab-4" data-layout-align="" data-layout-width="" data-layout-border="" data-mmsrc="" data-attr="70"><table><tbody>
 <tr class="tborder">
-<td data-block_type="TB1" align="center">Number of children:</td>
+<td data-block_type="TB1" align="left">Number of children:</td>
 <td data-block_type="TB1" align="center">0</td>
 <td data-block_type="TB1" align="center">1</td>
 <td data-block_type="TB1" align="center">2</td>
@@ -142,7 +143,7 @@
 <td data-block_type="TB1" align="center">4</td>
 </tr>
 <tr class="bborder">
-<td data-block_type="TB1" align="center">Proportion:</td>
+<td data-block_type="TB1" align="left">Proportion:</td>
 <td data-block_type="TB1" align="center">0.67</td>
 <td data-block_type="TB1" align="center">0.14</td>
 <td data-block_type="TB1" align="center">0.12</td>
