@@ -24,12 +24,13 @@
 <p id="scc9e-ch21-p09" block_type="BX4-TXT-first"><phrase block_type="BX4-H-ri">CASE STUDY</phrase> According to the Centers for Disease Control and Prevention (CDC), adults who engage in less than 30 minutes of moderate physical exercise per day should consume 1.5 to 2.0 cups of fruits per day and 2 to 3 cups of vegetables per day. Are adults meeting these recommendations? Not exactly, according to recent fruit and vegetable intake information obtained from the 2013 Behavioral Risk Factor Surveillance System (BRFSS).</p>
 <p id="scc9e-ch21-p010" block_type="BX4-TXT-I">The BRFSS is an ongoing, state-based, random-digit-dialed telephone survey of adults who are at least 18 years of age. It is the world&#8217;s largest ongoing telephone health survey system, tracking health conditions and risk behaviors in the United States since 1984. Data are gathered monthly from all 50 states, the District of Columbia (DC), Puerto Rico, the U.S. Virgin Islands, and Guam. In terms of gathering information about fruit and vegetable intake, survey respondents were asked to think about the previous month and to indicate how many times per day, week, or month they consumed whole fruit, 100&#37; fruit juice, dried beans, dark green vegetables, orange vegetables, and other vegetables. Although close to 500,000 individuals were originally contacted to be a part of the survey in 2013, 118,193 respondents were excluded from analysis because they either resided in other countries, had missing responses to one or more questions, or had implausible reports of fruit and vegetable consumption (e.g., eating fruit more than 16 times per day or eating vegetables more than 23 times per day). The results reported in the 2013 BRFSS are based on the final sample of 373,580 adults.</p>
 <p id="scc9e-ch21-p011" block_type="BX4-TXT-I">Across the states, results varied. The state with the largest number of survey respondents reporting meeting the daily fruit and vegetable intake recommendations was California. Of the 9,011 California residents who were surveyed, 17.7&#37; met the daily fruit intake recommendations, and 13&#37; met the daily vegetable intake recommendations. We know these numbers won&#8217;t be exactly right for the entire population of adults in California, but are they close?</p>
-<p id="scc9e_page_494" block_type="page_start" data-margin-content="left">494</p>
 <p id="scc9e-ch21-p013" block_type="BX4-TXT-I">In this chapter, we study confidence intervals. These are intervals that help us see how accurate numbers like 17.7&#37; and 13&#37; are. By the end of this chapter, you will be able to construct such intervals for proportions and means, and you will be able to interpret what such intervals represent.</p>
 </box>
 </section>
 <section id="scc9e-ch21-sec1-001" block_type="h1" chapter="ch21" numbered="false" level="1" print_page="494">
 <section-metadata><section-title>Estimating</section-title></section-metadata>
+  <p id="scc9e_page_494" block_type="page_start" data-margin-content="left">494</p>
+
 <p id="scc9e-ch21-p014" block_type="TXT-ni"><strong>Statistical inference</strong> draws conclusions about a population on the basis of data about a sample. One kind of conclusion answers questions like, &#8220;What percentage of employed women have a college degree?&#8217;&#8217; or &#8220;What is the mean survival time for patients with this type of cancer?&#8217;&#8217; These questions ask about a number (a percentage, a mean) that describes a population. Numbers that describe a population are <strong>parameters</strong>. To estimate a population parameter, choose a sample from the population and use a <strong>statistic</strong>, a number calculated from the sample, as your estimate. Here&#8217;s an example.</p>
 <box id="scc9e-ch21-box-002" numbered="false" block_type="EXP" data-filename="example_21_1.html">
 <p id="scc9e-ch21-p015" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 1</phrase> Soda consumption</p>
@@ -106,7 +107,7 @@
 <table id="scc9e-ch21-untab-1" numbered="false" block_type="UN-TABLE" attr="80">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="TB1-TXT">Value of <em>p</em>:</td>
+<td align="left" block_type="TB1-TXT">Value of <em>p</em>:</td>
 <td align="center" block_type="TB1-TXT">0.60</td>
 <td align="center" block_type="TB1-TXT">0.61</td>
 <td align="center" block_type="TB1-TXT">0.62</td>
@@ -114,7 +115,7 @@
 <td align="center" block_type="TB1-TXT">0.64</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="TB1-TXT">Standard error:</td>
+<td align="left" block_type="TB1-TXT">Standard error:</td>
 <td align="center" block_type="TB1-TXT">0.01542</td>
 <td align="center" block_type="TB1-TXT">0.01535</td>
 <td align="center" block_type="TB1-TXT">0.01528</td>
@@ -202,7 +203,6 @@
 <section id="scc9e-ch21-sec1-004" block_type="h1" chapter="ch21" numbered="false" level="1" print_page="502">
 <section-metadata><section-title>More on confidence intervals for a population proportion<termref term="fn_ch21_fn01"><sup>*</sup></termref></section-title></section-metadata>
 <p id="scc9e-ch21-p0104" block_type="TXT-ni">We used the 95 part of the 68&#8211;95&#8211;99.7 rule to get a 95&#37; confidence interval for the population proportion. Perhaps you think that a method that works 95&#37; of the time isn&#8217;t good enough. You want to be 99&#37; confident. For that, we need to mark off the central 99&#37; of a Normal distribution. For any probability <em>C</em> between 0 and 1, there is a number <em>z</em>* such that any Normal distribution has probability <em>C</em> within <em>z</em>* standard deviations of the mean. <link href="figure_21_5.html">Figure 21.5</link> shows how the probability <em>C</em> and the number <em>z</em>* are related.</p>
-<box id="scc9e-ch21-FN-001" block_type="FN" data-chapter="21" data-footnote-number="*"><p id="scc9e-ch21-p0105" block_type="FN">This section is optional.</p></box>
 <p id="scc9e_page_503" block_type="page_start" data-margin-content="right">503</p>
 <figure id="scc9e-ch21-fig-005" block_type="FIGURE" data-caption-compass="S" numbered="true" number="21.5" mmtype="image" mmsrc="" attr="" data-filename="figure_21_5.html">
 <layout align="center" width="medium" border="false"/>
@@ -276,12 +276,12 @@
 <p id="scc9e-ch21-p0125" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">21.2 Gambling.</phrase> A May 2011 Gallup Poll consisting of a random sample of 1018 adult Americans found that 31&#37; believe that gambling is morally wrong. Find a 99&#37; confidence interval for the proportion of all adult Americans who believe that gambling is morally wrong. How would you interpret this interval?</p>
 </question>
 </box>
+<box id="scc9e-ch21-FN-001" block_type="FN" data-chapter="21" data-footnote-number="*"><p id="scc9e-ch21-p0105" block_type="FN">*This section is optional.</p></box>
 </section>
 <section id="scc9e-ch21-sec1-005" block_type="h1" chapter="ch21" numbered="false" level="1" print_page="505">
 <section-metadata><section-title>The sampling distribution of a sample mean<termref term="fn_ch21_fn02"><sup>*</sup></termref></section-title></section-metadata>
 <p id="scc9e-ch21-p0126" block_type="TXT-ni">What is the mean number of hours your college&#8217;s first-year students study each week? What was their mean grade point average in high school? We often want to estimate the mean of a population. To distinguish the population mean (a parameter) from the sample mean <phrase data-math="math_46"></phrase>, we write the population mean as <em>&#956;</em>, the Greek letter mu. We use the mean <phrase data-math="math_47"></phrase> of an SRS to estimate the unknown mean <phrase data-math="math_48"></phrase> of the population.</p>
 <p id="scc9e-ch21-p0127" block_type="TXT">Like the sample proportion <phrase data-math="math_49"></phrase>, the sample mean <phrase data-math="math_50"></phrase> from a large SRS has a sampling distribution that is close to Normal. Because the sample mean of an SRS is an unbiased estimator of <em>&#956;</em>, the sampling distribution of <phrase data-math="math_51"></phrase> has <em>&#956;</em> as its mean. The standard deviation, or standard error, of <phrase data-math="math_52"></phrase> depends on the standard deviation of the population, which is usually written as <em>&#963;</em>, the Greek letter sigma. By mathematics we can discover the following facts.</p>
-<box id="scc9e-ch21-FN-002" block_type="FN" data-chapter="21" data-footnote-number="*"><p id="scc9e-ch21-p0128" block_type="FN">This section is optional.</p></box>
 <p id="scc9e_page_506" block_type="page_start" data-margin-content="left">506</p>
 <box id="scc9e-ch21-box-016" numbered="false" block_type="BX1">
 <p id="scc9e-ch21-p0130" block_type="BX1-T">Sampling distribution of a sample mean</p>
@@ -314,6 +314,7 @@
 <caption><phrase block_type="FG-N-ri">Figure 21.8</phrase> <phrase block_type="FG-CAP">The distribution of a sample mean <phrase data-math="math_63"></phrase> becomes more Normal as the size of the sample increases. The distribution of individual observations (<em>n</em> = 1) is far from Normal. The distributions of means of 2, 10, and finally 25 observations move closer to the Normal shape.</phrase></caption>
 </figure>
 </box>
+<box id="scc9e-ch21-FN-002" block_type="FN" data-chapter="21" data-footnote-number="*"><p id="scc9e-ch21-p0128" block_type="FN">*This section is optional.</p></box>
 </section>
 <section id="scc9e-ch21-sec1-006" block_type="h1" chapter="ch21" numbered="false" level="1" print_page="508">
 <section-metadata><section-title>Confidence intervals for a population mean<termref term="fn_ch21_fn03"><sup>*</sup></termref></section-title></section-metadata>
@@ -327,16 +328,15 @@
 </box>
 <p id="scc9e-ch21-p0149" block_type="TXT">The cautions we noted in estimating <em>p</em> apply here as well. The recipe is valid only when an SRS is drawn and the sample size <em>n</em> is reasonably large. How large is reasonably large? The answer depends upon the true shape of the population distribution. A sample size of <em>n</em> &#8805; 15 is usually adequate unless there are extreme outliers or strong skewness. For clearly skewed distributions, a sample size of <em>n</em> &#8805; 40 often suffices if there are no outliers.</p>
 <p id="scc9e-ch21-p0150" block_type="TXT">The margin of error again decreases only at a rate proportional to <phrase data-math="math_70"></phrase> as the sample size <em>n</em> increases. And it bears repeating that <phrase data-math="math_71"></phrase> and <em>s</em> are strongly influenced by outliers. Inference using <phrase data-math="math_72"></phrase> and <em>s</em> is suspect when outliers are present. Always look at your data.</p>
-<box id="scc9e-ch21-FN-003" block_type="FN" data-chapter="21" data-footnote-number="*"><p id="scc9e-ch21-p0151" block_type="FN">This section is optional.</p></box>
 <p id="scc9e_page_509" block_type="page_start" data-margin-content="right">509</p>
 <box id="scc9e-ch21-box-019" numbered="false" block_type="EXP" data-filename="example_21_7.html">
 <p id="scc9e-ch21-p0153" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 7</phrase> NAEP quantitative scores</p>
-<p id="scc9e-ch21-p0154" block_type="EXP-first">The National Assessment of Educational Progress (NAEP) includes a mathematics test for high school seniors. Scores on the test range from 0 to 300. Demonstrating the ability to use the Pythagorean theorem to determine the length of a hypotenuse is an example of the skills and knowledge associated with performance at the Basic level. An example of the knowledge and skills associated with the Proficient level is using trigonometric ratios to determine length.</p>
 <figure id="scc9e-ch21-unfig-004" block_type="UN-FIGURE" numbered="false" mmtype="image" mmsrc="" attr="" data-filename="21_17MOORESCC-MSE_9e_P_21_02.html">
 <layout align="right" width="medium" border="false"/>
 <image asset-id="scc9e-ch21-img-013" alt="image" src="asset/ch21/17MOORESCC-MSE_9e_P_21_02.jpg"/>
 <asset_source><phrase block_type="PH-CL">Roger Bamber/Alamy</phrase></asset_source>
 </figure>
+<p id="scc9e-ch21-p0154" block_type="EXP-first">The National Assessment of Educational Progress (NAEP) includes a mathematics test for high school seniors. Scores on the test range from 0 to 300. Demonstrating the ability to use the Pythagorean theorem to determine the length of a hypotenuse is an example of the skills and knowledge associated with performance at the Basic level. An example of the knowledge and skills associated with the Proficient level is using trigonometric ratios to determine length.</p>
 <p id="scc9e-ch21-p0155" block_type="EXP-mid">In 2009, 51,000 12th-graders were in the NAEP sample for the mathematics test. The mean mathematics score was <phrase data-math="math_73"></phrase> and the standard deviation of their scores was <em>s</em> = 34. Assume that these 51,000 students were a random sample from the population of all 12th-graders. On the basis of this sample, what can we say about the mean score <em>&#956;</em> in the population of all 12th-grade students?</p>
 <p id="scc9e-ch21-p0156" block_type="EXP-mid">The 95&#37; confidence interval for <em>&#956;</em> uses the critical value <em>z</em>* = 1.96 from <link href="table_21_1.html">Table 21.1</link>. The interval is</p>
 <p id="scc9e-ch21-p0157" block_type="EXP-EQ"><phrase data-math="math_74"></phrase></p>
@@ -349,6 +349,7 @@
 <p id="scc9e-ch21-p0161" block_type="BX2-QUE"><phrase block_type="BX2-QUE-N-ri">21.3 Blood pressure of executives.</phrase> The medical director of a large company looks at the medical records of 72 executives between the ages of 35 and 44 years. He finds that the mean systolic blood pressure in this sample is <phrase data-math="math_75"></phrase> and the standard deviation is <em>s</em> = 15.2. Assuming the sample is a random sample of all executives in the company, find a 95&#37; confidence interval for <em>&#956;</em>, the unknown mean blood pressure of all executives in the company.</p>
 </question>
 </box>
+<box id="scc9e-ch21-FN-003" block_type="FN" data-chapter="21" data-footnote-number="*"><p id="scc9e-ch21-p0151" block_type="FN">*This section is optional.</p></box>
 </section>
 <section id="scc9e-ch21-sec1-007" block_type="SUM-H" chapter="ch21" numbered="false" level="1" print_page="509">
 <section-metadata><section-title><phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase></section-title></section-metadata>

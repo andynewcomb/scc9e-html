@@ -130,7 +130,7 @@
 <table id="scc9e-ch19-untab-2" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="EXP-TB1">Toss:</td>
+<td align="left" block_type="EXP-TB1">Toss:</td>
 <td align="center" block_type="EXP-TB1">1</td>
 <td align="center" block_type="EXP-TB1">2</td>
 <td align="center" block_type="EXP-TB1">3</td>
@@ -148,7 +148,7 @@
 <td align="center" block_type="EXP-TB1">15</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="EXP-TB1">Outcome:</td>
+<td align="left" block_type="EXP-TB1">Outcome:</td>
 <td align="center" block_type="EXP-TB1">H</td>
 <td align="center" block_type="EXP-TB1">H</td>
 <td align="center" block_type="EXP-TB1">H</td>
@@ -176,7 +176,7 @@
 <table id="scc9e-ch19-untab-3" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="TB1-TXT">Trial:</td>
+<td align="left" block_type="TB1-TXT">Trial:</td>
 <td align="center" block_type="TB1-TXT">1</td>
 <td align="center" block_type="TB1-TXT">2</td>
 <td align="center" block_type="TB1-TXT">3</td>
@@ -194,7 +194,7 @@
 <td align="center" block_type="TB1-TXT">15</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="TB1-TXT">Outcome:</td>
+<td align="left" block_type="TB1-TXT">Outcome:</td>
 <td align="center" block_type="TB1-TXT">H</td>
 <td align="center" block_type="TB1-TXT">H</td>
 <td align="center" block_type="TB1-TXT">T</td>
@@ -465,14 +465,14 @@
 <table id="scc9e-ch19-untab-6" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="CR-TB1">Grade:</td>
+<td align="left" block_type="CR-TB1">Grade:</td>
 <td align="center" block_type="CR-TB1">A</td>
 <td align="center" block_type="CR-TB1">B</td>
 <td align="center" block_type="CR-TB1">C</td>
 <td align="center" block_type="CR-TB1">D or F</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="CR-TB1">Probability:</td>
+<td align="left" block_type="CR-TB1">Probability:</td>
 <td align="center" block_type="CR-TB1">0.1</td>
 <td align="center" block_type="CR-TB1">0.3</td>
 <td align="center" block_type="CR-TB1">0.4</td>
@@ -490,7 +490,7 @@
 <table id="scc9e-ch19-untab-7" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="CBAL1">Difficulty:</td>
+<td align="left" block_type="CBAL1">Difficulty:</td>
 <td align="center" block_type="CBAL1">Very</td>
 <td align="center" block_type="CBAL1">Somewhat</td></tr>
 <tr>
@@ -499,7 +499,7 @@
 <td align="center" block_type="CBAL1">difficult</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="CBAL1">Probability:</td>
+<td align="left" block_type="CBAL1">Probability:</td>
 <td align="center" block_type="CBAL1">0.1</td>
 <td align="center" block_type="CBAL1">0.3</td>
 </tr>
@@ -571,23 +571,23 @@
 <table id="scc9e-ch19-untab-9" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="CR-TB1"><strong>Outcome</strong></td>
+<td align="left" block_type="CR-TB1"><strong>Outcome</strong></td>
 <td align="center" block_type="CR-TB1"><strong>Probability</strong></td>
 </tr>
 <tr class="tborder">
-<td align="center" block_type="CR-TB1">Narrow flat side of bone</td>
+<td align="left" block_type="CR-TB1">Narrow flat side of bone</td>
 <td align="center" block_type="CR-TB1">1<phrase data-math="math_6"></phrase>10</td>
 </tr>
 <tr>
-<td align="center" block_type="CR-TB1">Broad concave side of bone</td>
+<td align="left" block_type="CR-TB1">Broad concave side of bone</td>
 <td align="center" block_type="CR-TB1">4<phrase data-math="math_7"></phrase>10</td>
 </tr>
 <tr>
-<td align="center" block_type="CR-TB1">Broad convex side of bone</td>
+<td align="left" block_type="CR-TB1">Broad convex side of bone</td>
 <td align="center" block_type="CR-TB1">4<phrase data-math="math_8"></phrase>10</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="CR-TB1">Narrow hollow side of bone</td>
+<td align="left" block_type="CR-TB1">Narrow hollow side of bone</td>
 <td align="center" block_type="CR-TB1">1<phrase data-math="math_9"></phrase>10</td>
 </tr>
 </tbody>

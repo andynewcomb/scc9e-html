@@ -19,14 +19,14 @@
 <table id="scc9e-ch18-untab-1" numbered="false" block_type="UN-TABLE" attr="90">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="TB1-TXT">Marital status:</td>
+<td align="left" block_type="TB1-TXT">Marital status:</td>
 <td align="center" block_type="TB1-TXT">Never married</td>
 <td align="center" block_type="TB1-TXT">Married</td>
 <td align="center" block_type="TB1-TXT">Widowed</td>
 <td align="center" block_type="TB1-TXT">Divorced</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="TB1-TXT">Probability:</td>
+<td align="left" block_type="TB1-TXT">Probability:</td>
 <td align="center" block_type="TB1-TXT">0.478</td>
 <td align="center" block_type="TB1-TXT">0.476</td>
 <td align="center" block_type="TB1-TXT">0.004</td>
@@ -40,105 +40,105 @@
 <table_caption><phrase block_type="TBN-N-ri">TABLE 18.1</phrase> <phrase block_type="TBN-T">Probabilities of winning Super Bowl 50</phrase></table_caption>
 <tbody>
 <tr class="bborder">
-<td align="center" block_type="TBN-COLHD">Team</td>
+<td align="left" block_type="TBN-COLHD">Team</td>
 <td align="center" block_type="TBN-COLHD" class="rborder">Probability</td>
-<td align="center" block_type="TBN-COLHD">Team</td>
+<td align="left" block_type="TBN-COLHD">Team</td>
 <td align="center" block_type="TBN-COLHD">Probability</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">Green Bay Packers</td>
+<td align="left" block_type="TBN-TXT">Green Bay Packers</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/5</td>
-<td align="center" block_type="TBN-TXT">Buffalo Bills</td>
+<td align="left" block_type="TBN-TXT">Buffalo Bills</td>
 <td align="center" block_type="TBN-TXT">1/41</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">New England Patriots</td>
+<td align="left" block_type="TBN-TXT">New England Patriots</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/7</td>
-<td align="center" block_type="TBN-TXT">Kansas City Chiefs</td>
+<td align="left" block_type="TBN-TXT">Kansas City Chiefs</td>
 <td align="center" block_type="TBN-TXT">1/41</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">Seattle Seahawks</td>
+<td align="left" block_type="TBN-TXT">Seattle Seahawks</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/11</td>
-<td align="center" block_type="TBN-TXT">St. Louis Rams</td>
+<td align="left" block_type="TBN-TXT">St. Louis Rams</td>
 <td align="center" block_type="TBN-TXT">1/51</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">Indianapolis Colts</td>
+<td align="left" block_type="TBN-TXT">Indianapolis Colts</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/13</td>
-<td align="center" block_type="TBN-TXT">New York Jets</td>
+<td align="left" block_type="TBN-TXT">New York Jets</td>
 <td align="center" block_type="TBN-TXT">1/61</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">Denver Broncos</td>
+<td align="left" block_type="TBN-TXT">Denver Broncos</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/16</td>
-<td align="center" block_type="TBN-TXT">New York Giants</td>
+<td align="left" block_type="TBN-TXT">New York Giants</td>
 <td align="center" block_type="TBN-TXT">1/86</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">Arizona Cardinals</td>
+<td align="left" block_type="TBN-TXT">Arizona Cardinals</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/21</td>
-<td align="center" block_type="TBN-TXT">Detroit Lions</td>
+<td align="left" block_type="TBN-TXT">Detroit Lions</td>
 <td align="center" block_type="TBN-TXT">1/101</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">Cincinnati Bengals</td>
+<td align="left" block_type="TBN-TXT">Cincinnati Bengals</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/21</td>
-<td align="center" block_type="TBN-TXT">Houston Texans</td>
+<td align="left" block_type="TBN-TXT">Houston Texans</td>
 <td align="center" block_type="TBN-TXT">1/101</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">Pittsburgh Steelers</td>
+<td align="left" block_type="TBN-TXT">Pittsburgh Steelers</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/21</td>
-<td align="center" block_type="TBN-TXT">New Orleans Saints</td>
+<td align="left" block_type="TBN-TXT">New Orleans Saints</td>
 <td align="center" block_type="TBN-TXT">1/101</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">Atlanta Falcons</td>
+<td align="left" block_type="TBN-TXT">Atlanta Falcons</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/26</td>
-<td align="center" block_type="TBN-TXT">Oakland Raiders</td>
+<td align="left" block_type="TBN-TXT">Oakland Raiders</td>
 <td align="center" block_type="TBN-TXT">1/101</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">Dallas Cowboys</td>
+<td align="left" block_type="TBN-TXT">Dallas Cowboys</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/26</td>
-<td align="center" block_type="TBN-TXT">San Francisco 49ers</td>
+<td align="left" block_type="TBN-TXT">San Francisco 49ers</td>
 <td align="center" block_type="TBN-TXT">1/101</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">Philadelphia Eagles</td>
+<td align="left" block_type="TBN-TXT">Philadelphia Eagles</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/26</td>
-<td align="center" block_type="TBN-TXT">Tampa Bay Buccaneers</td>
+<td align="left" block_type="TBN-TXT">Tampa Bay Buccaneers</td>
 <td align="center" block_type="TBN-TXT">1/101</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">Carolina Panthers</td>
+<td align="left" block_type="TBN-TXT">Carolina Panthers</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/31</td>
-<td align="center" block_type="TBN-TXT">Washington Redskins</td>
+<td align="left" block_type="TBN-TXT">Washington Redskins</td>
 <td align="center" block_type="TBN-TXT">1/101</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">Miami Dolphins</td>
+<td align="left" block_type="TBN-TXT">Miami Dolphins</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/31</td>
-<td align="center" block_type="TBN-TXT">Cleveland Browns</td>
+<td align="left" block_type="TBN-TXT">Cleveland Browns</td>
 <td align="center" block_type="TBN-TXT">1/201</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">San Diego Chargers</td>
+<td align="left" block_type="TBN-TXT">San Diego Chargers</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/31</td>
-<td align="center" block_type="TBN-TXT">Tennessee Titans</td>
+<td align="left" block_type="TBN-TXT">Tennessee Titans</td>
 <td align="center" block_type="TBN-TXT">1/201</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">Minnesota Vikings</td>
+<td align="left" block_type="TBN-TXT">Minnesota Vikings</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/36</td>
-<td align="center" block_type="TBN-TXT">Chicago Bears</td>
+<td align="left" block_type="TBN-TXT">Chicago Bears</td>
 <td align="center" block_type="TBN-TXT">1/251</td>
 </tr>
 <tr>
-<td align="center" block_type="TBN-TXT">Baltimore Ravens</td>
+<td align="left" block_type="TBN-TXT">Baltimore Ravens</td>
 <td align="center" block_type="TBN-TXT" class="rborder">1/41</td>
-<td align="center" block_type="TBN-TXT">Jacksonville Jaguars</td>
+<td align="left" block_type="TBN-TXT">Jacksonville Jaguars</td>
 <td align="center" block_type="TBN-TXT">1/301</td>
 </tr>
 <tr class="tborder">
@@ -242,7 +242,7 @@
 <box id="scc9e-ch18-bx09" numbered="false" block_type="EXP" data-filename="example_18_4.html">
 <p id="scc9e-ch18-p059" block_type="EXP-T"><phrase block_type="EXP-N-ri">EXAMPLE 4</phrase> Do you approve of gambling?</p>
 <p id="scc9e-ch18-p060" block_type="EXP-first">An opinion poll asks an SRS of 501 teens, &#8220;Generally speaking, do you approve or disapprove of legal gambling or betting?&#8221; Suppose that, in fact, exactly 50&#37; of all teens would say Yes if asked. (This is close to what polls show to be true.) The poll&#8217;s statisticians tell us that the sample proportion who say Yes will vary in repeated samples according to a Normal distribution with mean 0.5 and standard deviation about 0.022. This is the <em>sampling distribution</em> of the sample proportion <phrase data-math="math_7"></phrase>.</p>
-<p id="scc9e-ch18-p061" block_type="EXP-last">The 68&#8211;95&#8211;99.7 rule says that the probability is 0.16 that the poll gets a sample in which fewer than 47.8&#37; say Yes. <link href="figure_18_3.html">Figure 18.3</link> shows how to get this result from the Normal curve of the sampling distribution.</p>
+<p id="scc9e-ch18-p061" block_type="EXP-mid">The 68&#8211;95&#8211;99.7 rule says that the probability is 0.16 that the poll gets a sample in which fewer than 47.8&#37; say Yes. <link href="figure_18_3.html">Figure 18.3</link> shows how to get this result from the Normal curve of the sampling distribution.</p>
 </box>
 <box id="scc9e-ch18-bx010" numbered="false" block_type="BX2">
 <p id="scc9e-ch18-p062" block_type="BX2-H">NOW IT&#8217;S YOUR TURN</p>
@@ -262,8 +262,12 @@
 <p id="scc9e-ch18-p067" block_type="EXP-mid">To use <link href="table_b.html">Table B</link>, first turn the outcome <phrase data-math="math_8"></phrase> into a standard score by subtracting the mean of the distribution and dividing by its standard deviation:</p>
 <p id="scc9e-ch18-p068" block_type="EXP-EQ"><phrase data-math="math_9"></phrase></p>
 <p id="scc9e-ch18-p069" block_type="EXP-ni">Now look in <link href="table_b.html">Table B</link>. A standard score of 0.9 is the 81.59 percentile of a Normal distribution. This means that the probability is 0.8159 that the poll gets a smaller result. By Rule C (or just the fact that the total area under the curve is 1), this leaves probability 0.1841 for outcomes with 52&#37; or more answering Yes. <link href="figure_18_4.html">Figure 18.4</link> shows the probabilities as areas under the Normal curve.</p>
-<box id="scc9e-ch18-FN-001" block_type="footnote" data-chapter="18" data-footnote-number="*"><p id="scc9e-ch18-p070" block_type="FN"><link href="example_18_5.html">Examples 5</link> is optional.</p></box>
 </box>
+  <box id="scc9e-ch18-FN-001" block_type="footnote" data-chapter="18" data-footnote-number="*">
+    <p id="scc9e-ch18-p070" block_type="FN">
+      *<link href="example_18_5.html">Examples 5</link> is optional.
+    </p>
+  </box>
 </section>
 <section id="scc9e-ch18-sec1-005" block_type="SUM-H" chapter="ch18" numbered="false" level="1" print_page="435">
 <section-metadata><section-title><phrase block_type="SUM-H-ri"><strong>STATISTICS</strong> IN SUMMARY</phrase></section-title></section-metadata>
@@ -356,28 +360,28 @@
 <table id="scc9e-ch18-untab-3" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="CR-TB1"><strong>Outcome</strong></td>
+<td align="left" block_type="CR-TB1"><strong>Outcome</strong></td>
 <td align="center" block_type="CR-TB1"><strong>Probability</strong></td>
 </tr>
 <tr class="tborder">
-<td align="center" block_type="CR-TB1">Ronald Reagan</td>
-<td align="char" char="." block_type="CR-TB1">0.19</td>
+<td align="left" block_type="CR-TB1">Ronald Reagan</td>
+<td align="center"  block_type="CR-TB1">0.19</td>
 </tr>
 <tr>
-<td align="center" block_type="CR-TB1">Abraham Lincoln</td>
-<td align="char" char="." block_type="CR-TB1">0.14</td>
+<td align="left" block_type="CR-TB1">Abraham Lincoln</td>
+<td align="center"  block_type="CR-TB1">0.14</td>
 </tr>
 <tr>
-<td align="center" block_type="CR-TB1">Bill Clinton</td>
-<td align="char" char="." block_type="CR-TB1">0.13</td>
+<td align="left" block_type="CR-TB1">Bill Clinton</td>
+<td align="center"  block_type="CR-TB1">0.13</td>
 </tr>
 <tr>
-<td align="center" block_type="CR-TB1">John F. Kennedy</td>
-<td align="char" char="." block_type="CR-TB1">0.11</td>
+<td align="left" block_type="CR-TB1">John F. Kennedy</td>
+<td align="center" block_type="CR-TB1">0.11</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="CR-TB1">Someone else</td>
-<td align="char" char="." block_type="CR-TB1">?</td>
+<td align="left" block_type="CR-TB1">Someone else</td>
+<td align="center" block_type="CR-TB1">?</td>
 </tr>
 </tbody>
 </table>
@@ -399,12 +403,12 @@
 <table id="scc9e-ch18-untab-4" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="CR-TB1">Difficulty:</td>
-<td align="center" block_type="CR-TB1">Very<br/>difficult</td>
-<td align="center" block_type="CR-TB1">Somewhat<br/>difficult</td>
+<td align="left" block_type="CR-TB1">Difficulty:</td>
+<td align="center" block_type="CR-TB1">Very difficult</td>
+<td align="center" block_type="CR-TB1">Somewhat difficult</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="CR-TB1">Probability:</td>
+<td align="left" block_type="CR-TB1">Probability:</td>
 <td align="center" block_type="CR-TB1">0.05</td>
 <td align="center" block_type="CR-TB1">0.31</td>
 </tr>
@@ -461,13 +465,13 @@
 <table id="scc9e-ch18-untab-5" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="CR-TB1">Color:</td>
+<td align="left" block_type="CR-TB1">Color:</td>
 <td align="center" block_type="CR-TB1">Blue</td>
 <td align="center" block_type="CR-TB1">Orange</td>
 <td align="center" block_type="CR-TB1">Green</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="CR-TB1">Probability:</td>
+<td align="left" block_type="CR-TB1">Probability:</td>
 <td align="center" block_type="CR-TB1">0.24</td>
 <td align="center" block_type="CR-TB1">0.20</td>
 <td align="center" block_type="CR-TB1">0.16</td>
@@ -477,13 +481,13 @@
 <table id="scc9e-ch18-untab-5a" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="CR-TB1">Color:</td>
+<td align="left" block_type="CR-TB1">Color:</td>
 <td align="center" block_type="CR-TB1">Yellow</td>
 <td align="center" block_type="CR-TB1">Red</td>
 <td align="center" block_type="CR-TB1">Brown</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="CR-TB1">Probability:</td>
+<td align="left" block_type="CR-TB1">Probability:</td>
 <td align="center" block_type="CR-TB1">0.14</td>
 <td align="center" block_type="CR-TB1">0.13</td>
 <td align="center" block_type="CR-TB1">?</td>
@@ -495,13 +499,13 @@
 <table id="scc9e-ch18-untab-6" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="CR-TB1">Color:</td>
+<td align="left" block_type="CR-TB1">Color:</td>
 <td align="center" block_type="CR-TB1">Blue</td>
 <td align="center" block_type="CR-TB1">Orange</td>
 <td align="center" block_type="CR-TB1">Green</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="CR-TB1">Probability:</td>
+<td align="left" block_type="CR-TB1">Probability:</td>
 <td align="center" block_type="CR-TB1">0.23</td>
 <td align="center" block_type="CR-TB1">0.23</td>
 <td align="center" block_type="CR-TB1">0.15</td>
@@ -572,7 +576,7 @@
 <table id="scc9e-ch18-untab-7" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="CR-TB1">Student:</td>
+<td align="left" block_type="CR-TB1">Student:</td>
 <td align="center" block_type="CR-TB1">0</td>
 <td align="center" block_type="CR-TB1">1</td>
 <td align="center" block_type="CR-TB1">2</td>
@@ -580,7 +584,7 @@
 <td align="center" block_type="CR-TB1">4</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="CR-TB1">Score:</td>
+<td align="left" block_type="CR-TB1">Score:</td>
 <td align="center" block_type="CR-TB1">82</td>
 <td align="center" block_type="CR-TB1">62</td>
 <td align="center" block_type="CR-TB1">80</td>
@@ -592,7 +596,7 @@
 <table id="scc9e-ch18-untab-7a" numbered="false" block_type="UN-TABLE" attr="100">
 <tbody>
 <tr class="tborder">
-<td align="center" block_type="CR-TB1">Student:</td>
+<td align="left" block_type="CR-TB1">Student:</td>
 <td align="center" block_type="CR-TB1">5</td>
 <td align="center" block_type="CR-TB1">6</td>
 <td align="center" block_type="CR-TB1">7</td>
@@ -600,7 +604,7 @@
 <td align="center" block_type="CR-TB1">9</td>
 </tr>
 <tr class="bborder">
-<td align="center" block_type="CR-TB1">Score:</td>
+<td align="left" block_type="CR-TB1">Score:</td>
 <td align="center" block_type="CR-TB1">73</td>
 <td align="center" block_type="CR-TB1">65</td>
 <td align="center" block_type="CR-TB1">66</td>
